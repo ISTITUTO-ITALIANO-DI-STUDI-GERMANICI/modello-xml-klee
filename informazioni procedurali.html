@@ -1,0 +1,43 @@
+Esempio allineamento
+
+Testo, edizioni e traduzioni
+
+Tedesco: originale digitalizzato di Klee + edizione Spiller (contaminazione del testo: l’editore interviene aggiungendo immagini esplicative, rimandi a opere future, interpolazioni testuali)
+Inglese: traduzione facsimilare che riparte da Klee
+Italiano: traduzione facsimilare che riparte da Klee (CM HH) + traduzione dell’edizione Spiller (Feltrinelli) 
+
+Obiettivi del lavoro
+1) rivedere la traduzione ai fini della creazione di strumenti per la "traduzione repubblicana" (←traduzioni collaborative, in cui i problemi di traduzione vengono civilmente discussi tra colleghi e si decide come procedere in modo democratico)
+2) allineamento delle traduzioni. 
+
+Metodologia
+a.	Codifica XML/TEI dei testi in oggetto. Laddove non si disponga di un .doc o .txt, si attinge all’OCR del .pdf, poi necessariamente ricontrollato (per esempio l’OCR del facsimile tedesco riporta degli errori di segmentazione). 
+b.	Nella codifica XML/TEI: 
+		i.	La struttura è articolata in <div> dotate di @xml:id, pagine <pb/> e capoversi <p>; laddove il testo sulla pagina sia diviso in colonne si ricorre all’elemento vuoto <cb n="left"/>, <cb n="center"/> <cb n="right"/>. 
+		ii.	L’elemento <note> è usato per le note dei curatori della traduzione, laddove le eventuali note dell’autore, indicate nel testo con *, sono state inserite in normali <p>.
+
+
+Problemi riscontrati e soluzioni adottate
+a.	Traduzione italiana CM HH
+		●	A pagina 6 le immagini si inseriscono in corrispondenza del testo, incolonnandosi. L’elemento <figure> non può essere contenuto da <p>, quindi si è fatto ricorso all’elemento <graphic>. 
+										<p>
+											<cb n="left"/> <graphic url=“…”/>
+											<cb n="right"/>
+										</p>
+Di conseguenza, quando l’immagine si accosta al testo risulta codificata come appena illustrato. Quando invece l’immagine occupa tutto lo spazio in larghezza della pagine sarà codificata così: 
+										<figure>
+											<graphic url= “...”/>
+											<figDesc> <figDesc/>
+										</figure>
+●	Problema: come codificare i titoletti a margine?
+●	Inserisco la marcatura relativa ai barrati, ai sottolineati e ai corsivi? 
+
+b.	Edizione Spiller
+
+b.1 Traduzione italiana Feltrinelli
+
+c.	Facsimile inglese
+		●	Pagine 4-5: una frase inizia alla fine di pagina 4 e termina nel margine inferiore di pagina 5. Per la codifica si è scelto di fare ricorso all’attributo @part dell’elemento <s>.
+			part="I" (initial) = parte iniziale della frase
+			part="M" (medial) = parte intermedia della frase
+			part="F" (final) = parte finale della frase

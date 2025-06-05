@@ -9,35 +9,27 @@
             <titleStmt>
                 <title>Contributi alla teoria figurativa della forma</title>
                 <author>P. Klee</author>
-                <respStmt>
-                    <resp>resposabile della traduzione</resp>
-                    <name>H. Hohnegger</name>
-                </respStmt>
-                <respStmt>
-                    <resp>resposabile della traduzione</resp>
-                    <name>C. Miglio</name>
-                </respStmt>
-                <respStmt>
-                    <resp>resposabile della codifica XML</resp>
-                    <name>M. Angelucci</name>
-                </respStmt>
             </titleStmt>
             <publicationStmt> 
-                <publisher></publisher>
-                <pubPlace></pubPlace>
-                <date></date>
+                <publisher>Istituto Italiano di Studi Germanici</publisher>
+                <pubPlace>Roma</pubPlace>
+                <date>2025</date>
             </publicationStmt>
             <sourceDesc>
-                <p>traduzione dal tedesco verso l'italiano a partire dal facsimile del testo d'autore</p>
+                <bibl>
+                    <respStmt><resp>Traduzione a cura di</resp><name>Hansmichael Hohenegger</name><name>C. Miglio</name></respStmt>
+                    <respStmt><resp>Responsabilità scientifica di</resp><name>Tiziana Mancinelli</name></respStmt>
+                    <respStmt><resp>Coordinamento a cura di</resp><name>Eleonora De Longis</name></respStmt>
+                </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="introduction">
+            <div xml:id="div_Klee_introduction">
+                <pb/>
                 <head type="main">A Lezioni del semestre invernale 1921-1922</head>
-                <head type="subtype"><date>14 novembre 1921</date></head>
-                <div type="page">
+                <head type="subtype"><date>14 novembre 1921</date></head> 
                     <p>
                         Come introduzione un breve chiarimento concettuale. In
                         primo luogo ciò che è contenuto nel concetto di analisi. Nel
@@ -56,8 +48,7 @@
                         nenti nocivi. In entrambi i casi il dato è un tutto costituito da 
                         diverse parti che sono dapprima sconosciute;
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         ciò che è cercato sono i componenti.
                     </p>
@@ -78,8 +69,7 @@
                         tutta fretta ciò che è immediatamente a portata di mano, e 
                         con questo bottino scappare via.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         È un peculiare tipo di analisi [3] quella che consiste nell’inda-
                         gare l’opera a partire dagli stadi del suo sorgere. Ho scelto per 
@@ -88,7 +78,6 @@
                         Genesi. Vi è scritto: il primo giorno Dio creò, il secondo giorno, 
                         e così via. Il mondo che ci circonda è articolato storicamente.
                     </p>
-                    <space/>
                     <p>
                         Noi siamo artisti della figurazione (Bildner), la nostra
                         azione è quella di produrre opere, ci muoveremo quindi natu-
@@ -102,8 +91,7 @@
                         stato che con interna necessità ora qui ora là preme per ma-
                         nifestarsi.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Sottolineo questo punto affinché non sorga il malinteso 
                         per cui l’opera consisterebbe esclusivamente di forma.
@@ -127,17 +115,14 @@
                         caso singolo può perfino essere tale da mettere in imbarazzo 
                         un professionista.
                     </p>
-                </div>
-                <div type="page">
-                    <space/>
+                <pb/> 
                     <p>
                         Fatte queste premesse generali, inizio proprio dove inizia 
                         la forma figurativa: dal punto che si mette in movimento.
                     </p>
-                </div>
             </div>
-            <div type="lesson" n="1">
-                <div type="page"> <!--Controllare codifica colonne-->
+            <div xml:id="div_Klee_lesson1">
+                <pb/>  <!--Controllare codifica colonne-->
                     <p>
                         <cb n="left"/><graphic url="..."/><graphic url=".../number1"/>
                         <cb n="right"/>
@@ -152,7 +137,6 @@
                         fatto a spigolo sia esso colorato o nero, sorge una superficie 
                         (all’inizio con una scioltezza nel procedere assai limitata).
                     </p>
-                    <space/>
                     <p>
                         <cb n="left"/> <graphic url="..."/>
                         <cb n="right"/>
@@ -162,7 +146,6 @@
                         spazio una scultura ideale Ma pur-
                         troppo questa è già utopia.
                     </p>
-                    <space/>
                     <p>
                         <cb n="left"/> <graphic url="..."/>
                         <cb n="right"/>
@@ -173,8 +156,7 @@
                         la stessa cosa, la linea è l’elemento 
                         dato.
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         Anche i nostri figli per lo più iniziano con essa, scoprono 
                         un bel giorno il fenomeno del punto mobile, e ci possiamo 
@@ -194,19 +176,16 @@
                         effetto finale. Per cautela si inizia con effetti ottenuti davvero 
                         con poche linee. Si resta primitivi.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Ma nella primitività non si può persistere con buon esi-
                         to. Si dovrà trovare un modo per arricchire il misero risulta-
                         to finale senza distruggere, confondere, l’impianto (Anlage) 
                         semplice e perspicuo. 
                     </p>
-                    <space/>
                     <p>
                         Si dovrà ordinare: Cose principali e cose secondarie.
                     </p>
-                    <space/>
                     <p>
                         Lineare attivo
                     </p>
@@ -229,8 +208,7 @@
                     <figure>
                         <graphic url=".../lesson1_fig4"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <figure>
                         <figDesc>
                             linea libera in detours figg. 5 e 6.
@@ -266,10 +244,8 @@
                         ta. È, per così dire, un passeggiare per il passeggiare. Senza 
                         meta. 
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>(lineare attivo)</p>
-                    <space/>
                     <p>Questa nuova linea invece</p>
                     <figure>
                         <graphic url=".../lesson1_fig10"/>
@@ -281,7 +257,6 @@
                         ziergang): le linee rette lo testimoniano. Tanto la linea libera 
                         quanto quella cadenzata sono però di un tipo attivo puro.
                     </p>
-                    <space/>
                     <p>Lineare mediale</p>
                     <figure>
                         <graphic url=".../lesson1_fig11"/>
@@ -296,8 +271,7 @@
                         <graphic url=".../lesson1_fig13"/>
                         <graphic url=".../lesson1_fig14"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         Come linea si contraddistingue per un carattere tranquil-
                         lizzante e privo di inizio o di fine. Considerata in modo ele-
@@ -309,9 +283,7 @@
                         sua periferia) sostituito dal concetto della quiete più comple-
                         ta (soprattutto nel caso del cerchio).
                     </p>
-                    <space/>
                     <p>Lineare passivo</p>
-                    <space/>
                     <p>
                         Le  linee hanno, in questo caso, un carattere del tutto pas-
                         sivo.
@@ -326,8 +298,7 @@
                         azioni lineari, ma di risultati di linee, di azioni di piani. La li-
                         nea non è fatta, ma subita.
                     </p>
-                </div>
-                <div type="page"> <!--Come inserire il testo in verticale nel margine sinistro?-->
+                <pb/>  <!--Come inserire il testo in verticale nel margine sinistro?-->
                     <p>
                         In senso inverso al decorso di questa breve rappresen-
                         tazione della linea procede la rappresentazione, che pure è 
@@ -352,8 +323,7 @@
                         (Questa sezione è ripresa alle pagine 
                         143-146).
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         21 Novembre 1921
                     </p>
@@ -372,10 +342,9 @@
                         violino [Übervioline] che violino.
                     </p>
                     <p>Risultati dapprima piuttosto di natura analitica.</p>
-                </div>
             </div>
-            <div type="lesson" n="2"> <!--Come inserire gli argomenti a margine?-->
-                <div type="page">
+            <div xml:id="div_Klee_lesson2"> <!--Come inserire gli argomenti a margine?-->
+                <pb/> 
                     <p>28 Novembre 1921</p>
                     <p> 
                         <cb n="left"/><graphic url=".../number2"/>
@@ -412,8 +381,7 @@
                         vergente, conservando l’indipendenza della linea di accom
                         pagnamento. Cioè l’andamento che è paragonabile a quello di
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         un uomo con il suo cane che corre libero.
                     </p>
@@ -430,7 +398,6 @@
                         il passante (Nebenmensch) attraversare la nostra strada solo 
                         una volta, nel punto D.
                     </p>
-                    <space/>
                     <p>
                         <cb n="left"/> <graphic url=".../lesson2_fig5"/>
                         <cb n="right"/>
@@ -448,8 +415,7 @@
                         de la direzione opposta,
                         <graphic url="..."/> 
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         <cb n="left"/><graphic url=".../lesson2_fig6"/>
                         <cb n="right"/>
@@ -505,8 +471,7 @@
                         nari su un piano, l’immagine sa-
                         rebbe quella di due linee parallele
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         e le traversine sarebbero da porre a distanze regolari.
                     </p>
@@ -535,8 +500,7 @@
                         la maggiore altezza 
                         spaziale). 
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         Ora possiamo rappresentarci in questa nuova terza di-
                         mensione nuovi angoli e superfici (così la nuova superficie 
@@ -555,7 +519,7 @@
                         entrare camminando eretti.
                     </p>
                     <p>
-                        <space/>
+
                         <cb n="left"/><graphic url=".../lesson2_fig12"/>
                         <cb n="right"/>
                         Prendiamo di nuovo le mosse 
@@ -575,8 +539,7 @@
                         qui per es. in 
                         tre punti.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         <cb n="left"/><graphic url=".../lesson2_fig14"/>
                         <cb n="right"/>
@@ -616,8 +579,7 @@
                         iezione, questa 
                         configurazione.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Mentre dal punto di vista del nr 3 si otterrebbe questa 
                         nuova immagine proiettiva.
@@ -632,7 +594,7 @@
                     </p>
                     <p>
                         <cb n="left"/>
-                        <space/>
+
                         Se abbandono la linea, l’imma-
                         gine si sposta dal lato che di volta 
                         in volta le è opposto. 
@@ -646,8 +608,7 @@
                         (E così, incidentalmente, abbiamo fatto conoscenza con il 
                         fenomeno del contromovimento!!)
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         <cb n="left"/><graphic url=".../lesson2_fig21"/>
                         <cb n="right"/>
@@ -669,8 +630,7 @@
                         verticale aveva un significato particolare, così avviene adesso 
                         per l’orizzontale.
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         <cb n="left"/><graphic url=".../lesson2_fig22"/>
                         <cb n="right"/>
@@ -694,8 +654,7 @@
                         Dunque un corpo che permette all’occhio una visione del
                         la sua superficie superiore.
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <figure>
                         <graphic url=".../lesson2_fig24"/>
                     </figure>
@@ -706,7 +665,6 @@
                         tro: permetterebbe al contrario una visione dal basso di que
                         sta superficie.
                     </p>
-                    <space/>
                     <p>
                         <cb n="left"/>
                         Una tale superficie orizzontale che può essere vi
@@ -734,8 +692,7 @@
                         superficie, 
                         ma gli appare come
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         <cb n="left"/> linea orizzontale.
                         <cb n="center"/><graphic url=".../lesson2_ad25"/>
@@ -768,8 +725,7 @@
                         qua: significa “al
                         tezza dell’occhio”
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <figure>
                         <graphic url=".../lesson2_fig26"/>
                     </figure>
@@ -787,8 +743,7 @@
                         </figDesc>
                         <graphic url=".../lesson2_fig27"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         <cb n="left"/>
                         Questo disco dell’orizzonte separa l’intera 
@@ -798,7 +753,6 @@
                         barattolo e in coperchio.
                         <cb n="right"/><graphic url="..."/>
                     </p>
-                    <space/>
                     <p>
                         Questo segno corrisponde anche alla struttura dell’uomo 
                         in riferimento alla forza di attrazione della terra. Il senso della 
@@ -807,7 +761,6 @@
                         trobilanciare l’errore. In casi particolari allunghiamo l’oriz-
                         zontale, come il funambolo con fa il suo bilanciere.
                     </p>
-                    <space/>
                     <p>
                         Nota. Le questioni di prospettiva qui abbozzate e tutto ciò 
                         che cu sembrava valesse la pena di sapere può essere verifi-
@@ -820,7 +773,6 @@
                         disegnano sulla lastra di vetro le li
                         nee essenziali dell’oggetto.
                     </p>
-                    <space/>
                     <p>
                         Le linee riprese su una lastra di vetro non verticale vengono 
                         percepite come deformazioni. Simili deformazioni sono prodot
@@ -837,8 +789,7 @@
                         nemmeno errate.
                     </p>
                     <p><cb n="right"/> le finestre in basso sono</p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         più vicine all’occhio di quelle in alto, e sono dunque più lar-
                         ghe. Ma l’uomo oppone a tutto il suo veto, perché vuole po-
@@ -849,23 +800,19 @@
                         correttamente in prospettiva non ha nessun valore, perché 
                         seguendo queste regole ciascuno può riuscirci.
                     </p>
-                    <space/>
                     <p>
                         Ancora degli esempi: Strumento prospettico di v. Gogh 
                         [pensa alla stanza da letto a Arles], “carré” di [Ferdinand] Ho-
                         dler
                     </p>
-                    <space/>
                     <p>5 dicembre (Esercizi)</p>
-                    <space/>
                     <p>
                         Rappresentazioni grafiche e tonali dell’equilibrio a partire 
                         da costruzioni in equilibrio su un piano.
                     </p>
-                </div>
             </div>
-            <div type="lesson" n="3">
-                <div type="page">
+            <div xml:id="div_Klee_lesson3">
+                <pb/> 
                     <p>12 dicembre 1921</p>
                     <p>
                         <cb n="left"/><graphic url=".../number3"/>
@@ -902,8 +849,7 @@
                         Proprio come al rigattiere nel suo negozio, in questa valu-
                         tazione ci tornerà utile uno strumento, la bilancia.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <figure>
                         <graphic url=".../lesson3_fig3"/>
                     </figure>
@@ -914,7 +860,6 @@
                         due punti, ovunque essi si trovino nello spazio, posso sempre 
                         riportarli su un’unica superficie.*
                     </p>
-                    <space/>
                     <p> Ma una bilancia davvero tridimensionale avrebbe questo aspetto:</p>
                     <figure>
                         <graphic url=".../lesson3_fig5"/>
@@ -933,8 +878,7 @@
                         e ponderarne una in posizione opposta rispetto alla superficie 
                         che le sta di fronte.
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <figure>
                         <graphic url=".../lesson3_fig6"/>
                     </figure>
@@ -949,8 +893,7 @@
                         le o in orizzontale (fig. 3 e 3a), essenziale è per essa l’incrocio 
                         tra la verticale e l’orizzontale. Questo è lo spirito della bilancia
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>e noi possiamo ignorarne i piatti senza conseguenze.</p>
                     <figure>
                         <graphic url=".../lesson3_fig7"/>
@@ -984,8 +927,7 @@
                         ni addietro. Le superfici, sulle quali simili giochi di for-
                         ze si realizzano, sono generalmente limitate, p. esempio
                     </p>
-                </div>
-                <div type="page"> <!--Avrà senso la soluzione del primo paragrafo?-->
+                <pb/> <!--Avrà senso la soluzione del primo paragrafo?-->
                     <p>
                         <cb n="left"/>
                             <cb n="left"/>
@@ -1022,8 +964,7 @@
                         <graphic url=".../lesson3_fig18"/>
                     </figure>
                     <p>Torna la bilancia (fig. 18)</p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         La primitiva semplicità dell’azione equilibristica me ne ha 
                         permesso la realizzazione per così dire simbolica. Il risultato 
@@ -1041,7 +982,6 @@
                         operare con elementi figurativi, attraverso i quali la sensazio-
                         ne di peso possa essere discussa.
                     </p>
-                    <space/>
                     <p>
                         Cominciamo da alcuni casi in cui non si può parlare affatto 
                         di equilibrio.
@@ -1053,8 +993,7 @@
                         20) differenza di estensione, accumulo di energia sul lato 
                         destro attraverso l’addizione
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         21) valore differente della tonalità; maggiore carico sul lato 
                         destro dell’ energia del nero
@@ -1091,8 +1030,7 @@
                     <figure>
                         <graphic url=".../lesson3_fig21a"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Per la figura 22 attingiamo allo scomparto Tono Rosso e 
                         procediamo in modo corrispondente.
@@ -1118,8 +1056,7 @@
                         perativo locale che non si potrà non valutare. Ogni esempio 
                         cogente va oltre la semplice contrapposizione:
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <figure>
                         <graphic url=".../lesson3_fig24"/>
                     </figure>
@@ -1138,7 +1075,6 @@
                         destra. Ora per compensare si aggiunge il rosso scuro, e così 
                         sarà in grado di realizzare l’equilibrio.
                     </p>
-                    <space/>
                     <p>
                         Un piccolo dramma delle orizzontali, interpretato in ter-
                         mini umani: ho perso l’equilibrio verso sinistra, e ho allungato 
@@ -1146,8 +1082,7 @@
                         cadere. 
                     </p>
                     <p>Oppure, spostando l’azione sulla verticale: (girare)</p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         <cb n="left"/><graphic url=".../lesson3_fig25"/>
                         <cb n="right"/>
@@ -1169,8 +1104,7 @@
                         centrico. Questa serie di punti C assume dunque l’aspetto di 
                         una spina dorsale, come vedrete presto.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         <cb n="left"/><graphic url=".../lesson3_fig26"/>
                         <cb n="right"/>
@@ -1209,8 +1143,7 @@
                         lo sforzo almeno della metà. Se poi addirittura si appoggia, gli 
                         resta ancora un minimo di attività di bilanciamento
                     </p>
-                </div>
-                <div type="page"> 
+                <pb/> 
                     <p>
                         ma comunque pur sempre un resto. Infatti chi sviene cade 
                         anche dalla sedia. Questo resto scompare del tutto solo nella 
@@ -1254,8 +1187,7 @@
                         <graphic url=".../lesson3_fig31"/>
                         <graphic url=".../lesson3_fig31a"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>Arrivo adesso all’essenza degli elementi figurativi del peso:</p>
                     <p>Se chiedo:</p>
                     <figure>
@@ -1288,8 +1220,7 @@
                         grande, l’altro è molto pesante in quanto energia, ma in com
                         penso molto più piccolo.
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         Non si potrebbe decidere così alla leggera, quale dei due 
                         sia in effetti più pesante. In questo caso indeciso viene spon-
@@ -1327,8 +1258,7 @@
                         più vicine, dunque quelle che hanno maggior peso, ci si pre-
                         sentano particolarmente scure, mentre in lontananza tutto si 
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>rischiara progressivamente, fino a coincidere con lo sfondo.</p>
                     <p>
                         A notte fonda chiarori come quelli delle finestre illuminate 
@@ -1348,7 +1278,6 @@
                         Ulteriori relazioni vengono introdotte dal mondo dei colo
                         ri. Colori su fondo rosso… colori su fondo violetto…. Etc
                     </p>
-                    <space/>
                     <p>9 gennaio 1922</p>
                     <p>
                         Esercizio con le lettere iniziali (Antiqua). a) Lettere che 
@@ -1358,10 +1287,9 @@
                         b) lettere prive di equilibrio come P F etc. Sistemare la 
                         composizione secondo una statica solenne.
                     </p>
-                </div>
             </div>
-            <div type="lesson" n="4">
-                <div type="page">
+            <div xml:id="div_Klee_lesson4">
+                <pb/> 
                     <p>
                         <cb n="left"/><graphic url=".../number4"/>
                         <cb n="right"/>
@@ -1398,8 +1326,7 @@
                         sua direzione bidimen-
                         sionale, si trova ancora
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         nel punto più basso dell’ordine dei caratteri strutturali.
                         Un gradino più in alto troviamo questa nuova struttura:
@@ -1432,14 +1359,12 @@
                         to di un risultato più alto solo mediante una energia raddop-
                         piata. (rimando a pag. 39)
                     </p>
-                    <space/>
                     <p>
                         Nota. Voglio dotare la cornice di un gancio, e misuro con 
                         molta precisione la linea orizzontale superiore, per stabi-
                         lire il centro esatto. Esattamente al centro fisso il gancio,
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         e sono convinto che vada bene così. Eppure sul muro il qua-
                         dro pende da un lato.
@@ -1460,7 +1385,6 @@
                         sarà stato di peso e densità non omogenei, e io ho commesso 
                         l’errore di procedere pesando e non misurando.
                     </p>
-                    <space/>
                     <p>
                         Dunque qui misura, là peso. Ritorno alle nostre due strutture  di 
                         grado superiore, e considero la serie numerica comune a entrambe: 
@@ -1484,8 +1408,7 @@
                     <figure>
                         <graphic url=".../lesson4_fig5a"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Dunque 3 + 3 + 3 + 3 + 3 = I + I + I +  I + I, per quanto il 
                         numero romano I indica una unità superiore.
@@ -1518,8 +1441,7 @@
                         etc. in direzione 
                         orizzontale.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Tutto il quadrilatero di questa struttura si suddivide dun-
                         que come coappartenenza di due campi confinanti in direzio-
@@ -1546,8 +1468,7 @@
                         <graphic url=".../lesson4_fig7a"/>
                         <graphic url=".../lesson4_fig8"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>(fig. 7 a e 8)</p>
                     <p>
                         Una variante della visione [Anschauung] di questa strut-
@@ -1590,8 +1511,7 @@
                                  +   +   +  +
                                  6 + 6 + 6 + 6
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Nell’ambito della storia naturale ci possono far pensare 
                         agli organismi primitivi pluricellulari o ai batteri monocellula-
@@ -1603,7 +1523,6 @@
                         inserire in un tutto organico individuale, mantenendo in tal 
                         caso l’organismo. Senza in qualche modo opporvisi.   *Nota*
                     </p>
-                    <space/>
                     <p>
                         Nota*
                         In date composizioni essi sono adatti perciò a ravvivare di parti che ne 
@@ -1614,8 +1533,7 @@
                         loghi, al contrario devono attenersi strettamente a rapporti come 2 : 3 : 5 
                         oppure 7 : 11 : 13 : 17.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Estendo ora il discorso all’ambito musicale. La struttu-
                         ra fondamentale è qui il ritmo [Takt]. Per l’orecchio il ritmo 
@@ -1668,8 +1586,7 @@
                      </figDesc>
                      <graphic url=".../lesson4_fig14"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         I rari ritmi zoppicanti a cinque o a sette battute sono ritmi 
                         binari caricati in modo asimmetrico: 
@@ -1712,8 +1629,7 @@
                         <graphic url=".../lesson4_fig16"/>
                         <graphic url=".../lesson4_fig17"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Possiamo ricavare immagini più piane del ritmo a partire 
                         dall’osservazione/ del direttore d’orchestra. Un breve sguardo 
@@ -1750,8 +1666,7 @@
                         <graphic url=".../lesson4_fig20a"/>
                         <graphic url=".../lesson4_fig20b"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Su questa base posso ora provare a rappresentare fi gura
                         tivamente una confi gurazione [Gebilde] musicale tematica /a 
@@ -1773,8 +1688,7 @@
                         esprime in B nei tratti [Striche] verticali per misure e parti di 
                         misura. / segue nota fi g. 22 in forma di aggiunta allegata.
                     </p>
-                </div>
-                <div type="page">
+                <pb/>
                     <p>
                         Si possono imparare non poche cose a partire da questo 
                         esempio (allegato fig. 22), che cerca di rappresentare in modo 
@@ -1823,9 +1737,7 @@
                         rallela; qui si può riconoscere un timido tentativo in direzione 
                         dell’individuale.
                     </p>
-                    <space/>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Uno sguardo alle quantità  nell’esempio (aggiunta fig. 22) 
                         ci insegna ancora, come le differenze di misura dipendono da 
@@ -1836,7 +1748,6 @@
                     <p>
                         e che in applicazioni troppo superficiali vengono chiamati fioriture [Schnoerkel].
                     </p>
-                    <space/>
                     <p>
                         Sincope. dal punto di vista temporale: l’anticipazione della 
                         forza del valore di ritmicamente pesante rispetto a un valore 
@@ -1844,17 +1755,15 @@
                         sizione mediante nuovi valori di uno o più valori-limite (ponti 
                         sospesi).
                     </p>
-                    <space/>
                     <p> 23 gennaio 1921</p>
                     <p>
                         Esercizio assegnato: elaborare organicamente una compo-
                         sizione a partire da ritmi I individuali e II strutturali, in modo 
                         che I e II si sostengano reciprocamente.
                     </p>
-                </div>
             </div>
-            <div type="lesson" n="5">
-                <div type="page">
+            <div xml:id="div_Klee_lesson5">
+                <pb/> 
                     <p>
                         <cb n="left"/><graphic url=".../number5"/>
                         <cb n="right"/>
@@ -1867,30 +1776,25 @@
                         considerare fondamentali per la loro primitività, misurando e 
                         pesando siamo pervenuti a serie come:
                     </p>
-                    <space/>
                     <p>
                         1 a 1 a 1 a 1 
                         o come 1 + 2 a 1 + 2 a 1 + 2 a 1 + 2
                         o come 11 + 10 a 11 + 10 a 11 + 10,
                     </p>
-                    <space/>
                     <p>
                         per le quali aggiungiamo I a I a I a I, intendendo per uno in 
                         numeri romani, I, una unità composta.
                     </p>
-                    <space/>
                     <p>
                         Nell’ambito delle due dimensioni, sulla superficie siamo 
                         giunti al posto di queste serie a complessi come: 
                     </p>
-                    <space/>
                     <p>
                         I   I   I   I
                         I   I   I   I 
                         I   I   I   I 
                         I   I   I   I 
                     </p>
-                    <space/>
                     <p>
                         In contrapposizione a questi caratteri abbiamo preso in 
                         considerazione ritmi individuali e abbiamo assunto come 
@@ -1898,11 +1802,9 @@
                         A questo scopo i numeri primi si sono rivelati particolar-
                         mente adatti:
                     </p>
-                    <space/>
                     <p>3 a 5 a 7 a 11 a 13 a 17 a 19 a 23 etc.</p>
                     <p>Nell’esercizio successivo “Combinazione di ritmi</p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         strutturali e individuali”, ho messo in guardia nei confronti 
                         di un procedimento di calcolo, poiché in effetti la teoria non 
@@ -1923,8 +1825,7 @@
                         di Colombo.
                         <cb n="right"/><graphic url="..."/>
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         In alcuni casi è stato tracciato lo schizzo di una fusione in-
                         tima tra individuo e struttura, la struttura seguiva servizievole, 
@@ -1970,8 +1871,7 @@
                         que*, attenzione ai punti di intersezione! il tredici individuale 
                         in una serie di tre, seguono alcuni due, alcuni tre, sei, etc
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Sulla fi gura (2) combinata c’è ancora da dire che le misu-
                         re del ritmo individuale sono più grandi delle misure  della 
@@ -2003,8 +1903,7 @@
                         in un silenzio quantitativo, fl autato, per conto proprio, 
                         nonostante si accompagni con la pesante strumentazione
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         strutturale. Il rapporto tra le misure nei due caratteri corri
                         sponde ai rapporti illustrati nel primo esempio: (fig. 2)
@@ -2041,8 +1940,7 @@
                         dinamica (dell’anima), ed è prescritta la più grande riservatezza possibile 
                         nei confronti dell’individuo.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         che si distinguono l’uno dall’altro, senza ripetersi. Laddove 
                         sono articolati, questa articolazione si fonda su numeri indi-
@@ -2077,8 +1975,7 @@
                         ta che, disposti in ordine sparso l’uno sopra o accanto all’altro, 
                         in orizzontale, verticale, diagonale, producevano un vivace
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         ritmo strutturale. A prescindere dalla loro colorazione si pro-
                         duceva una dinamica dal chiaro allo scuro profondo, particolar-
@@ -2117,15 +2014,13 @@
                         forza lavorare secondo regole)
                         <cb n="right"/><graphic url=".../lesson5_fig6"/>
                     </p>
-                    <space/>
                     <p>
                         Annotaz. *Un’ulteriore possibilità: si po-
                         trebbe inserire in un ritmo strutturale 
                         grandioso piccoli individui (individual-
                         pessimisti)
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Finora ci siamo mossi nell’ambito formale della cultura. 
                         Abbiamo proceduto costruttivamente a partire da presuppo-
@@ -2167,11 +2062,10 @@
                         e la sua correzione attraverso un 
                         contro-disturbo dà luogo a questa 
                         nuova croce
-                        <space/>
+
                         la croce diagonale.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>Dov’è dunque la sede della potente forza di attrazione?</p>
                     <p>Nel suolo:</p>
                     <figure>
@@ -2204,8 +2098,7 @@
                         d’azione ci costringono, nella prassi, a partire dal membro,  
                         dalla parte del tutto.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Questo destino d’esser vincolati non ci deve impedire di 
                         sapere che al di sopra di noi le cose possono andare anche 
@@ -2236,8 +2129,7 @@
                         Nel suo caso però non ci sono i punti di aderenza, le tracce 
                         del piede sono eliminate.  Il ritmo dei movimenti del nuoto
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         sopra o sotto la superficie dell’acqua è più rilassato, più sfu-
                         mato rispetto al ritmo del passo sulla terra o in salita, per 
@@ -2279,8 +2171,7 @@
                         mo ora occuparci di alcuni esempi che riguardano, in parte, 
                         un regno mediano.
                     </p>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>
                         Un proiettile sparato verticalmente sale in aria con inten-
                         sità decrescente, vira e cade verso la terra con intensità cre-
@@ -2293,7 +2184,6 @@
                             un ritmo (binario) con articolazione sciolta g
                         </figDesc>
                     </figure>
-                    <space/>
                     <figure>
                         <figDesc>
                             Secondo es: qualcuno sale le scale con sforzo che si accre-
@@ -2311,8 +2201,7 @@
                         </figDesc>
                         <graphic url=".../lesson5_fig17"/>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <figure>
                         <figDesc>
                             4. Esempio (fig. 17) Una pietra cade a balzi lungo una scar-
@@ -2335,8 +2224,7 @@
                             una zona molto calda. Un ritmo con articolazione slegata.
                         </figDesc>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <figure>
                         <graphic url=".../lesson5_fig20"/>
                         <figDesc>
@@ -2363,8 +2251,7 @@
                             Una forma cosmica di articolazione sciolta (g)
                         </figDesc>
                     </figure>
-                </div>
-                <div type="page">
+                <pb/> 
                     <p>Lunedì 6 febbraio 1922.</p>
                     <p>
                         Esercizio assegnato: combinazione di ritmi rigidi e fluidi (o 
@@ -2375,19 +2262,141 @@
                         strutturale un ritmo rigido, oppure lasciare agire due indivi-
                         dui uno in relazione all’altro, uno sciolto e l’altro rigido.
                     </p>
-                </div>
             </div>
-            <div type="lesson" n="6">
+            <div xml:id="div_Klee_lesson6">
+                <pb/> <!--69--> 
+                <pb/> <!--70--> 
+                <pb/> <!--71--> 
+                <pb/> <!--72--> 
+                <pb/> <!--73--> 
+                <pb/> <!--74--> 
+                <pb/> <!--75--> 
+                <pb/> <!--76--> 
+                <pb/> <!--77--> 
+                <pb/> <!--78--> 
+                <pb/> <!--79--> 
+                <pb/> <!--80--> 
+                <pb/> <!--81--> 
+                <pb/> <!--82--> 
+                <pb/> <!--83--> 
+                <pb/> <!--84--> 
+                <pb/> <!--85--> 
+                <pb/> <!--86--> 
             </div>
-            <div type="lesson" n="7">
+            <div xml:id="div_Klee_lesson7">
+                <pb/> <!--87--> 
+                <pb/> <!--88--> 
+                <pb/> <!--89--> 
+                <pb/> <!--90--> 
+                <pb/> <!--91--> 
+                <pb/> <!--92--> 
+                <pb/> <!--93--> 
+                <pb/> <!--94--> 
+                <pb/> <!--95--> 
+                <pb/> <!--96--> 
+                <pb/> <!--97--> 
+                <pb/> <!--98--> 
+                <pb/> <!--99--> 
+                <pb/> <!--100--> 
+                <pb/> <!--101--> 
+                <pb/> <!--102--> 
+                <pb/> <!--103--> 
+                <pb/> <!--104--> 
             </div>
-            <div type="lesson" n="8">
+            <div xml:id="div_Klee_lesson8">
+                <pb/> <!--105-->   
+                <pb/> <!--106--> 
+                <pb/> <!--107--> 
+                <pb/> <!--108--> 
+                <pb/> <!--109--> 
+                <pb/> <!--110--> 
+                <pb/> <!--111--> 
+                <pb/> <!--112--> 
+                <pb/> <!--113--> 
+                <pb/> <!--114--> 
+                <pb/> <!--115--> 
+                <pb/> <!--116--> 
+                <pb/> <!--117--> 
+                <pb/> <!--118--> 
+                <pb/> <!--119--> 
+                <pb/> <!--120--> 
+                <pb/> <!--121--> 
+                <pb/> <!--122--> 
             </div>
-            <div type="lesson" n="9">
+            <div xml:id="div_Klee_lesson9">
+                <pb/> <!--123-->
+                <pb/> <!--124-->
+                <pb/> <!--125-->
+                <pb/> <!--126-->
+                <pb/> <!--127-->
+                <pb/> <!--128-->
+                <pb/> <!--129-->
+                <pb/> <!--130-->
+                <pb/> <!--131-->
+                <pb/> <!--132-->
+                <pb/> <!--133-->
+                <pb/> <!--134-->
+                <pb/> <!--135-->
+                <pb/> <!--136-->
+                <pb/> <!--137-->
+                <pb/> <!--138-->
+                <pb/> <!--139-->
+                <pb/> <!--140-->
+                <pb/> <!--141-->
+                <pb/> <!--142-->
+                <pb/> <!--143-->
+                <pb/> <!--144-->
+                <pb/> <!--145-->
+                <pb/> <!--146-->
+                <pb/> <!--147-->
+                <pb/> <!--148-->
+                <pb/> <!--149-->
+                <pb/> <!--150-->
+                <pb/> <!--151-->
+                <pb/> <!--152-->
             </div>
-            <div type="lesson" n="10">
+            <div xml:id="div_Klee_lesson10">
+                <pb/> <!--153-->
+                <pb/> <!--154-->
+                <pb/> <!--155-->
+                <pb/> <!--156-->
+                <pb/> <!--157-->
+                <pb/> <!--158-->
+                <pb/> <!--159-->
+                <pb/> <!--160-->
+                <pb/> <!--161-->
+                <pb/> <!--162-->
+                <pb/> <!--163-->
+                <pb/> <!--164-->
+                <pb/> <!--165-->
+                <pb/> <!--166-->
+                <pb/> <!--167-->
+                <pb/> <!--168-->
+                <pb/> <!--169-->
+                <pb/> <!--170-->
+                <pb/> <!--171-->
+                <pb/> <!--172-->
             </div>
-            <div type="lesson" n="11">
+            <div xml:id="div_Klee_lesson11">
+                <pb/> <!--172-->
+                <pb/> <!--173-->
+                <pb/> <!--174-->
+                <pb/> <!--175-->
+                <pb/> <!--176-->
+                <pb/> <!--177-->
+                <pb/> <!--178-->
+                <pb/> <!--179-->
+                <pb/> <!--180-->
+                <pb/> <!--181-->
+                <pb/> <!--182-->
+                <pb/> <!--183-->
+                <pb/> <!--184-->
+                <pb/> <!--185-->
+                <pb/> <!--186-->
+                <pb/> <!--187-->
+                <pb/> <!--188-->
+                <pb/> <!--189-->
+                <pb/> <!--190-->
             </div>
         </body>
     </text>
