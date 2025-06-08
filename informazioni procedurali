@@ -1,0 +1,67 @@
+Testo, edizioni e traduzioni
+
+		Tedesco: originale digitalizzato di Klee + edizione Spiller (contaminazione del testo: l’editore interviene aggiungendo immagini esplicative, rimandi a opere future, interpolazioni testuali)
+		Inglese: traduzione facsimilare che riparte da Klee
+		Italiano: traduzione facsimilare che riparte da Klee (CM HH) + traduzione dell’edizione Spiller (Feltrinelli) 
+
+	Obiettivi del lavoro
+	
+		 rivedere la traduzione ai fini della creazione di strumenti per la "traduzione repubblicana" (←traduzioni collaborative, in cui i problemi di traduzione vengono civilmente discussi tra colleghi e si decide come procedere in modo democratico)
+		 allineamento delle traduzioni
+
+	
+	Metodologia
+		 Codifica XML/TEI dei testi in oggetto. Laddove non si disponga di un .doc o .txt, si attinge all’OCR del .pdf, poi necessariamente ricontrollato (per esempio l’OCR del facsimile tedesco riporta degli errori di segmentazione). 
+		 Nella codifica XML/TEI: 
+	
+				 La struttura è articolata in <div> dotate di @xml:id, pagine <pb/> e capoversi <p>; laddove il testo sulla pagina sia diviso in colonne si ricorre all’elemento vuoto <cb n="left"/>, <cb n="center"/> <cb n="right"/>. 
+				 L’elemento <note> è usato per le note dei curatori della traduzione, laddove le eventuali note dell’autore, indicate nel testo con *, sono state inserite in normali <p>.
+			
+	--> Ho un dubbio: avendo come elementi strutturali <pb/> e <div>, se una lezione inizia condividendo la pagina della lezione precedente, devo mettere comunque un <pb> all'inizio della <div> successiva o no?
+
+	
+	Problemi riscontrati e soluzioni adottate
+	
+		a. Traduzione italiana CM HH
+	
+				- A pagina 6 le immagini si inseriscono in corrispondenza del testo, incolonnandosi. L’elemento <figure> non può essere contenuto da <p>, quindi si è fatto ricorso all’elemento <graphic>.
+												<p>
+													<cb n="left"/> <graphic url=“…”/>
+													<cb n="right"/>
+												</p>
+					Di conseguenza, quando l’immagine si accosta al testo risulta codificata come appena illustrato. Quando invece l’immagine occupa tutto lo spazio in larghezza della pagina sarà codificata così: 
+												<figure>
+													<graphic url= “...”/>
+													<figDesc> <figDesc/>
+												</figure>
+					Vantaggi del tag <graphic/>: 
+					- supporta l'attributo @xml:id; 
+					- è annidabile in <p>; 
+					- permette di codificare le immagini inline del testo. 
+
+					Vantaggi del tag <figure>: 
+					- può contenere più <graphic/>;
+					- permette di codificare le didascalie delle immagini. 
+				
+	-->Problema: come codificare i titoletti a margine?
+	-->Inserisco la marcatura relativa ai barrati, ai sottolineati e ai corsivi?
+
+		b. Edizione Spiller
+
+		b.1 Traduzione italiana Feltrinelli
+
+		c. Facsimile inglese
+	
+				- Pagine 4-5: una frase inizia alla fine di pagina 4 e termina nel margine inferiore di pagina 5. 
+					Per la codifica si è scelto di fare ricorso all’attributo @part dell’elemento <s>.
+					part="I" (initial) = parte iniziale della frase
+					part="M" (medial) = parte intermedia della frase
+					part="F" (final) = parte finale della frase
+				
+				- Tra facsimile inglese e traduzione CM HH (pure molto molto simili) non c'è perfetta congruenza nell'impaginazione e nella disposizione delle immagini nel testo (ex. lesson7_fig3)
+			
+	
+	ERRORI DA CORREGGERE IN CM HH 
+		pag. 95: errore nel pdf, ma non nel doc: la figura è la numero 13, non la 15
+		pag. 102: in base a confronto con facsimile tedesco e inglese e per coerenza con gli esempi preceenti, è necessario un ricollocamento delle immagini [il quadrato accanto a "Enunciato formale" va accanto e "Formazione rigida", la x va accanto a "diagonale";
+		pag. 120: la figura a destra è 22a e non 23 (cfr facsimile tedesco + traduzione inglese)
