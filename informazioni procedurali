@@ -42,7 +42,10 @@ Testo, edizioni e traduzioni
 					Vantaggi del tag <figure>: 
 					- può contenere più <graphic/>;
 					- permette di codificare le didascalie delle immagini. 
-				
+	
+				- A pagina 140 un'immagine spezza il testo del paragrafo (dopo fig.29); come si codifica una situazione simile?
+
+	-->Problema: come codificare le scritte contenute nell'immagine, che non sono didascalie?
 	-->Problema: come codificare i titoletti a margine?
 	-->Inserisco la marcatura relativa ai barrati, ai sottolineati e ai corsivi?
 
@@ -63,5 +66,8 @@ Testo, edizioni e traduzioni
 	
 	ERRORI DA CORREGGERE IN CM HH 
 		pag. 95: errore nel pdf, ma non nel doc: la figura è la numero 13, non la 15
-		pag. 102: in base a confronto con facsimile tedesco e inglese e per coerenza con gli esempi preceenti, è necessario un ricollocamento delle immagini [il quadrato accanto a "Enunciato formale" va accanto e "Formazione rigida", la x va accanto a "diagonale";
-		pag. 120: la figura a destra è 22a e non 23 (cfr facsimile tedesco + traduzione inglese)
+		pag. 102: in base a confronto con facsimile tedesco e inglese e per coerenza con gli esempi preceenti, è necessario un ricollocamento delle immagini [il quadrato accanto a "Enunciato formale" va accanto e "Formazione rigida", la x va accanto a "diagonale"];
+		pag. 120: la figura a destra è 22a e non 23 (cfr doc CM HH + facsimile tedesco + traduzione inglese)
+		pag. 142: la figura è 32a (non 32, già presente alla pagina precedente; cfr CM HH doc + facsimile tedesco + inglese)
+		pag. 154: manca etichetta "fig.1" 
+		pag. 174: nel paragrafo accanto a fig. 3 alcune sillabe o intere parole del secondo e terzo rigo ("sigifi-ca"; "indebolimento. Si deve") sono state nascoste dalla figura; idem con la figura 4: al penultimo rigo è "al pun-to culminante"
