@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Teoria della forma e della figurazione</title>
+                <author>P. Klee</author>
+            </titleStmt>
+            <publicationStmt> 
+                <publisher>Istituto Italiano di Studi Germanici</publisher>
+                <pubPlace>Roma</pubPlace>
+                <date>2025</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <respStmt><resp>Edizione tedesca di partenza a cura di</resp><name>Jiirg Spiller</name></respStmt>
+                    <respStmt><resp>Prefazione di</resp><name>G. C. Argan</name></respStmt>
+                    <respStmt><resp>Traduzione dal tedesco a cura di</resp><name>Mario Spagnol</name><name>Francesco Saba Sardi</name></respStmt>
+                    <respStmt><resp>Edizione italiana Feltrinelli a cura di</resp><name>Mario Spagnol</name><name>Richard Sapper</name></respStmt>
+                    <respStmt><resp>Responsabilità scientifica di</resp><name>Tiziana Mancinelli</name></respStmt>
+                    <respStmt><resp>Coordinamento a cura di</resp><name>Eleonora De Longis</name></respStmt>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div xml:id="preface">
+            </div>
+            <div xml:id="introduction">
+            </div>
+            <div xml:id="summary">
+            </div>
+        </front>
+        <body>
+            <div xml:id="Concetti_introduttivi_teoria_figurazione">
+            </div>
+            <div xml:id="Contributi_teoria_forma">
+                    <pb/>
+                        <p>Contributi alla teoria della forma</p>
+                    <pb/>
+                <div xml:id="div_Klee_introduction"> <!--da pag. 93 a pag. 102-->
+                </div>
+                <div xml:id="div_Klee_lesson1"> <!--da pag. 103 a pag. 122-->
+                </div>
+                <div xml:id="div_Klee_lesson2"> <!--da pag. 123 a pag. 196-->
+                </div>
+                <div xml:id="div_Klee_lesson3"> <!--da pag. 197 a pag. 216-->
+                </div>
+                <div xml:id="div_Klee_lesson4"> <!--da pag. 217 a pag. 294-->
+                </div>
+                <div xml:id="div_Klee_lesson5"> <!--da pag. 295 a pag. 324-->
+                </div>
+                <div xml:id="div_Klee_lesson6"> <!--da pag. 325 a pag. 342-->
+                </div>
+                <div xml:id="div_Klee_lesson7"> <!--da pag. 343 a pag. 368-->
+                </div>
+                <div xml:id="div_Klee_lesson8"> <!--da pag. 369 a pag. 402-->
+                </div>
+                <div xml:id="div_Klee_lesson9"> <!--da pag. 403 a pag. 462-->
+                </div>
+                <div xml:id="div_Klee_lesson10"> <!--da pag. 465 a pag. 482-->
+                </div>
+                <div xml:id="div_Klee_lesson11"> <!--da pag. 483 a pag. 506-->
+                </div>
+            </div>
+        </body>
+        <back>
+            <div xml:id="appendix_1">
+                <div xml:id="notes">
+                </div>
+                <div xml:id="bibliography">
+                    <div xml:id="writings">
+                    </div>
+                    <div xml:id="cited_works">
+                    </div>
+                </div>
+                <div xml:id="index_examples">
+                </div>
+                <div xml:id="index">
+                </div>
+            </div>
+            <div xml:id="appendix_2">
+            </div>
+        </back>
+    </text>
+</TEI>
+

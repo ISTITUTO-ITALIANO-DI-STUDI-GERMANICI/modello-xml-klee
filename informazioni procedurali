@@ -57,9 +57,46 @@ Testo, edizioni e traduzioni
 	-->Problema: come codificare i titoletti a margine?
 	-->Inserisco la marcatura relativa ai barrati, ai sottolineati e ai corsivi?
 
+
+
 		b. Edizione Spiller
 
+
+
 		b.1 Traduzione italiana Feltrinelli
+
+				- Benché le altre parti siano strutturalmente indicate, la codifica del documento si riduce al testo oggetto di analisi.
+
+				- Il testo presente all'interno delle immagini a volte viene tradotto, altre volte no. Sarebbe forse opportuno scegliere come comportarsi
+				e quindi essere coerenti. 
+
+				- Il testo risulta molto alterato e interpolato, anche dal pdv grafico; le immagini con riferimento univoco in CM HH e nel
+				facsimile inglese sono state rintracciate e identificate in modo coerente. Risultano in parte alterate e sicuramente disposte
+				in modo diverso rispetto all'originale, tanto tra di loro quanto rispetto al materiale linguistico.
+				(Sul testo Feltrinelli ho appuntato in verde le immagini uguali ma senza "fig" e in rosso le immagini uguali che hanno "fig", quindi già 
+				un riferimento univoco; attenzione: anche queste talvolta sono un po' alterate, con piccole aggiunte esplicative come frecce, oppure 
+				addirittura spezzate o smontate, vedi pag.139 Feltrinelli che corrisponede a lesson2_fig21 o anche pag. 428 Feltrinelli che corrisponde a 
+				lesson9_fig28, poi ripetuta con lesson9_fig31 e lesson9_fig32 in ing e CM HH, ma non ripetuta in Feltrinelli-Spiller). 
+
+				ATTENZIONE! Spiller-Feltrinelli conserva tutte le immagini (fig o non fig) presenti in CM HH-ing a eccezione di: 
+					lesson1_fig4
+					lesson2: dettagli pag. 15 e pag. 25
+					un elemento, verosimilmente escluso perché cancellato da Klee, di lesson9_fig4
+
+				- non sembra sensato utilizzare le stesse <div> di CM HH e facsimile inglese perché le lezioni vengono mesolate tra loro o intervallate da 
+				estratti di altri testi di Klee: ad esempio il materiale linguistico e grafico della div_Klee_lesson1 viene intrecciato a ciò che costituisce 
+				(ed è poi SOLO IN PARTE ripetuto nell'effettiva lezione numero 9) la div_Klee_lesson9 per dare vita alla prima sezione del testo di Spiller. 
+
+				- le scene nel negozio della div_lesson9 sono presentate come immagine a pag. 446 di Feltrinelli, ma vengono tradotte e riportate a mo' di 
+				tabella in appendice (come invece CM e HH scelgono di fare nel corpo del testo)
+
+				- la lesson10_fig28 incude, nella versione Feltrinelli, la freccia che in CM HH è presente nell'ultima riga del testo che precede l'immagine.
+				Condivido l'interpretazione di CM HH. 
+
+	---> Dubbio: siccome anche alcune immagini che non hanno un riferimento esplicito in CM HH e ing sono riprese in Spiller, Feltrinelli, 
+	anche a queste è opportuno associare un xml:id? Direi di sì, ma parliamone
+
+
 
 		c. Facsimile inglese
 	
@@ -82,10 +119,12 @@ Testo, edizioni e traduzioni
 				- dopo il testo, in basso, in un foglio di guardia, compare l'illustrazione di un occhio, assente nel facsimile tedesco. Da dove viene?
 			
 	
-	ERRORI DA CORREGGERE IN CM HH 
+>>>	ERRORI DA CORREGGERE IN CM HH 
+		pag. 18: la figura 14 è sbagliata; è uguale alla 13 della pagina precedente, mentre dovrebbe riportare una numerazione
 		pag. 95: errore nel pdf, ma non nel doc: la figura è la numero 13, non la 15
 		pag. 102: in base a confronto con facsimile tedesco e inglese e per coerenza con gli esempi preceenti, è necessario un ricollocamento 
 		          delle immagini [il quadrato accanto a "Enunciato formale" va accanto e "Formazione rigida", la x va accanto a "diagonale"];
+		pag. 105: prima della data della lezione compare un refuso
 		pag. 120: la figura a destra è 22a e non 23 (cfr doc CM HH + facsimile tedesco + traduzione inglese)
 		pag. 139: la figura in basso, non numerata, sia nel facsimile tedesco che in inglese risulta avere la stessa numerazione della figura 
 		          precedente: entrambe sono indicate come fig28. Nella codifica sono state indicate come .../lesson9_fig28.1 la prima e 
