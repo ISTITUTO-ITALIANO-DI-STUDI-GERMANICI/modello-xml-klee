@@ -122,14 +122,12 @@
                     </p>
             </div>
             <div xml:id="div_Klee_lesson1">
-                <pb/>  <!--Controllare codifica colonne-->
+                <pb/>  
                     <p>
-                        <cb n="left"/><graphic url="..."/><graphic url=".../number1"/>
-                        <cb n="right"/>
-                        Poco dopo aver applicato su una su-
+                        <seg><figure xml:id="number1"></figure></seg> Poco dopo aver applicato su una su-
                         perficie la matita, o comunque qualcosa 
                         di appuntito, sorge una linea [di carattere 
-                        lineare-attivo] (all’inizio, tanto più procede liberamente, tan-
+                        <seg><figure xml:id="lesson1_figureA"></figure></seg>lineare-attivo] (all’inizio, tanto più procede liberamente, tan-
                         to più chiara è la sua natura mobile).
                     </p>
                     <p>
@@ -138,18 +136,14 @@
                         (all’inizio con una scioltezza nel procedere assai limitata).
                     </p>
                     <p>
-                        <cb n="left"/> <graphic url="..."/>
-                        <cb n="right"/>
-                        Se avessimo una materia per 
+                        <seg><figure xml:id="lesson1_figureB"></figure></seg> Se avessimo una materia per 
                         spostare dei piani con degli effet-
                         ti simili, potremmo scrivere nello 
                         spazio una scultura ideale Ma pur-
                         troppo questa è già utopia.
                     </p>
                     <p>
-                        <cb n="left"/> <graphic url="..."/>
-                        <cb n="right"/>
-                        Rimaniamo quindi, per adesso, 
+                        <seg><figure xml:id="lesson1_figureC"></figure></seg> Rimaniamo quindi, per adesso, 
                         al mezzo più primitivo, alla linea. 
                         Nei tempi arcaici dei popoli, quan-
                         do scrivere e disegnare sono ancora 
@@ -189,55 +183,44 @@
                     <p>
                         Lineare attivo
                     </p>
-                    <figure>
-                        <graphic url=".../lesson1_fig1"/>
+                    <figure xml:id="lesson1_fig1">
                         <figDesc>
                             linea libera ab fig.1
                         </figDesc>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson1_fig2"/>
+                    <figure xml:id="lesson1_fig2">
                         <figDesc> 
                             linea libera ab fig.1
                             linea che accompagna a1-b1 figg.2,3,4
                         </figDesc>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson1_fig3"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson1_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson1_fig3"></figure>
+                    <figure xml:id="lesson1_fig4"></figure>
                 <pb/> 
                     <figure>
                         <figDesc>
                             linea libera in detours figg. 5 e 6.
                         </figDesc>
-                        <graphic url=".../lesson1_fig5"/>
+                        <figure xml:id="lesson1_fig5"></figure>
+                        <figure xml:id="lesson1_fig6.1"></figure>
+                        <figure xml:id="lesson1_fig6.2"></figure>
+                        <figure xml:id="lesson1_fig6.3"></figure>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson1_fig6a"/>
-                        <graphic url=".../lesson1_fig6b"/>
-                        <graphic url=".../lesson1_fig6c"/>
-                    </figure>
-                    <figure>
+                    <figure xml:id="lesson1_fig7">
                         <figDesc> 
                             Fig. 7 Due linee che accompagnano una linea principale im-
                             maginaria.
                         </figDesc>
-                        <graphic url=".../lesson1_fig7"/>
                     </figure>
-                    <figure>
+                    <figure xml:id="lesson1_fig8">
                         <figDesc>
                             Fig. 8 La stessa cosa
                         </figDesc>
-                        <graphic url=".../lesson1_fig8"/>
                     </figure>
-                    <figure>
+                    <figure xml:id="lesson1_fig9">
                         <figDesc>
                             Fig. 9 Simile
                         </figDesc>
-                        <graphic url=".../lesson1_fig9"/>
                     </figure>
                     <p>
                         In tutti questi esempi la linea principale è libera e sciol-
@@ -247,9 +230,7 @@
                 <pb/>
                     <p>(lineare attivo)</p>
                     <p>Questa nuova linea invece</p>
-                    <figure>
-                        <graphic url=".../lesson1_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson1_fig10"></figure>
                     <p>
                         è cadenzato, vuole arrivare prima possibile a 1, poi a 2, 
                         poi a 3 ecc. Si può parlare piuttosto dell’andamento degli 
@@ -258,19 +239,13 @@
                         quanto quella cadenzata sono però di un tipo attivo puro.
                     </p>
                     <p>Lineare mediale</p>
-                    <figure>
-                        <graphic url=".../lesson1_fig11"/>
-                        <graphic url=".../lesson1_fig12"/>
-                    </figure>
+                    <figure><figure xml:id="lesson1_fig11"></figure><figure xml:id="lesson1_fig12"></figure></figure>
                     <p>
                         In questi nuovi casi la linea con scadenze circoscrive delle 
                         figure piane come triangolo e rettangolo, o qui cerchio e ellis-
                         se.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson1_fig13"/>
-                        <graphic url=".../lesson1_fig14"/>
-                    </figure>
+                    <figure><figure xml:id="lesson1_fig13"></figure><figure xml:id="lesson1_fig14"></figure></figure>
                 <pb/>
                     <p>
                         Come linea si contraddistingue per un carattere tranquil-
@@ -288,11 +263,7 @@
                         Le  linee hanno, in questo caso, un carattere del tutto pas-
                         sivo.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson1_fig15"/>
-                        <graphic url=".../lesson1_fig15a"/> <!--che siano 15, 16 e 17 anziché solo 15 e 16?-->
-                        <graphic url=".../lesson1_fig16"/>
-                    </figure>
+                    <figure><figure xml:id="lesson1_fig15"></figure><figure xml:id="lesson1_fig16"></figure><figure xml:id="lesson1_fig17"></figure></figure>
                     <p>
                         In effetti si vedono ancora linee, ma non si tratta più di 
                         azioni lineari, ma di risultati di linee, di azioni di piani. La li-
@@ -311,11 +282,7 @@
                         La superficie, coltivata allo stato puro, è l’elemento calmo, 
                         Ma se finisce per muoversi, si avvicina al carattere della linea. 
                         Quanto più la linea AB si muove in avanti, tanto più in questo
-                    </p>
-                    <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/>
-                        modo diventa sottile la superficie de-
+                        <seg><figure xml:id="lesson1_figureD"></figure></seg>modo diventa sottile la superficie de-
                         scritta in rapporto alla sua lunghez-
                         za, finché infine si può parlare di una 
                         coincidenza tra A e B, con il che sia-
@@ -344,12 +311,9 @@
                     <p>Risultati dapprima piuttosto di natura analitica.</p>
             </div>
             <div xml:id="div_Klee_lesson2"> <!--Come inserire gli argomenti a margine?-->
-                <pb/> 
                     <p>28 Novembre 1921</p>
                     <p> 
-                        <cb n="left"/><graphic url=".../number2"/>
-                        <cb n="right"/>
-                        14 giorni fa ci siamo occupati, tra l’altro, della 
+                        <seg><figure xml:id="number2"></figure></seg> 14 giorni fa ci siamo occupati, tra l’altro, della 
                         linea libera. Avevo scelto come esempio un tipo di 
                         linea che corrisponde a un andamento che riposa in 
                         se stesso, che non ha un scopo o una meta dichiarati.
@@ -366,17 +330,9 @@
                         to o forme sostitutive delle linee che riposano in se stesse, fig. 1  
                         Forme di accompagnamento in parte (fig. 1) di carattere as
                         solutamente convergente, o fig. 2 carattere effettivamente
-                    </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig1"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson2_fig2"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson3_fig3"/>
-                    </figure>
-                    <p>
+                        <seg><figure xml:id="lesson2_fig1"></figure>
+                        <figure xml:id="lesson2_fig2"></figure>
+                        <figure xml:id="lesson2_fig3"></figure></seg>
                         convergente fig. 3 fig. 2 o (3) di natura effettivamente con
                         vergente, conservando l’indipendenza della linea di accom
                         pagnamento. Cioè l’andamento che è paragonabile a quello di
@@ -385,9 +341,7 @@
                     <p>
                         un uomo con il suo cane che corre libero.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig4"></figure>
                     <p>
                         La differenza essenziale di questo nuova immagine (Ge-
                         bild [configurazione?]) rispetto agli esempi di convergenza 
@@ -399,9 +353,7 @@
                         una volta, nel punto D.
                     </p>
                     <p>
-                        <cb n="left"/> <graphic url=".../lesson2_fig5"/>
-                        <cb n="right"/>
-                        Rappresentiamoci 
+                        <seg><figure xml:id="lesson2_figure5"></figure></seg>Rappresentiamoci 
                         così dei binari del tre-
                         no. Ciò ha qualcosa di 
                         assai ingannevole, no? 
@@ -413,20 +365,16 @@
                         bel deragliamento dav-
                         vero; oppure, se si pren-
                         de la direzione opposta,
-                        <graphic url="..."/> 
+                        <seg><figure xml:id="lesson2_figure6.1"></figure></seg>
                     </p>
                 <pb/>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig6"/>
-                        <cb n="right"/>
-                        le rotaie che al di là di quel che si 
+                        <seg><figure xml:id="lesson2_fig6.2"></figure></seg> le rotaie che al di là di quel che si 
                         vede presto si incroceranno, non 
                         è forse quasi ancora più preoccu-
                         pante?
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig6"/>
-                        <cb n="right"/>
                         Come è potuto succedere? 
                         Bene, siamo usciti, senza accor-
                         gercene, da un concetto di piano 
@@ -435,20 +383,16 @@
                         spettiva.
                     </p>
                     <p>
-                        <cb n="left"/>
                         L’ultima volta abbiamo stabilito, all’inizio con rammarico, 
                         che non abbiamo una scrittura spaziale, che non possiamo 
                         spostare superfici con effetti visibili che producano corpi, 
-                        analogamente al movimento di punti  nel 
+                        analogamente al movimento di punti  nel <seg><figure xml:id="lesson2_figureA"></figure></seg>
                         produrre linee, o al movimento di linee nel 
                         produrre superfici. Per questo siamo co-
-                        stretti far uso della pro
+                        <seg><figure xml:id="lesson2_figureB"></figure></seg>stretti far uso della pro
                         spettiva.
-                        <cb n="right"/><graphic url="..."/>
                     </p>
                     <p>
-                        <cb n="left"/> <graphic url="..."/>
-                        <cb n="right"/>
                         Non sarà né peregrino né difficile, se 
                         ci limiteremo ai tratti principali. D'altron-
                         de vale davvero la pena mettere in chiaro 
@@ -456,41 +400,32 @@
                         spettiva.
                     </p>
                     <p>
-                        <cb n="left"/> <graphic url=".../lesson2_fig7"/>
-                        <cb n="right"/>
-                        Questi (fig. 7) sono dunque 
+                        <seg><figure xml:id="lesson2_fig7"></figure></seg>Questi (fig. 7) sono dunque 
                         binari di treno. I binari di treno 
                         poggiano su traversine. Come lo 
                         rappresento? 
                     </p>
                     <p>
-                        <cb n="left"/> <graphic url=".../lesson2_fig7"/>
-                        <cb n="right"/>
                         Se, da geometra o da carto-
                         grafo, dovessi rappresentare bi-
                         nari su un piano, l’immagine sa-
                         rebbe quella di due linee parallele
+                        <seg><figure xml:id="lesson2_figureC"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         e le traversine sarebbero da porre a distanze regolari.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig8"></figure>
                     <p>
                         Rappresentata spazialmente questa immagine grafica 
                         [rappresentazione] ha un aspetto essenzialmente diverso. Le 
                         distanze tra le traversine aumentano a vista d’occhio in avan-
                         ti, come sanno la maggior parte degli europei. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig8a"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig8a"></figure>
                     <p>
-                        <cb n="left"/> <graphic url=".../lesson2_fig9"/>
-                        <cb n="right"/>
-                        Il fronte della lo-
+                        <seg><figure xml:id="lesson2_fig9"></figure></seg>Il fronte della lo-
                         comotiva forma un 
                         angolo retto con il 
                         piano che sta tra i bi-
@@ -507,31 +442,17 @@
                         che è stata aggiunta della fig. 11 forma un angolo retto con la 
                         superficie della fig. 10 [correzione di 11])
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig10"/>
-                        <graphic url=".../lesson2_fig11"/>
-                    </figure>
+                    <figure><figure xml:id="lesson2_fig10"></figure><figure xml:id="lesson2_fig11"></figure></figure>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig12"/>
-                        <cb n="right"/>
-                        e perveniamo alla costruzione 
+                        <seg><figure xml:id="lesson2_fig12"></figure></seg> e perveniamo alla costruzione 
                         di uno spazio nel quale potremmo 
                         entrare camminando eretti.
-                    </p>
-                    <p>
-
-                        <cb n="left"/><graphic url=".../lesson2_fig12"/>
-                        <cb n="right"/>
                         Prendiamo di nuovo le mosse 
                         dalla rappresentazione dei binari, 
                         ma ci limitiamo a una traversina 
                         lontana da noi e una vicino a noi, 
                         cioè a due sole traversine. En-
-                    </p>
-                    <p>
-                        <cb n="center"/><graphic url=".../lesson2_fig13"/>
-                        <cb n="right"/>
-                        trambe le tra-
+                        <seg><figure xml:id="lesson2_fig13"></figure></seg>trambe le tra-
                         versine le sud-
                         dividiamo in un 
                         numero uguale 
@@ -541,9 +462,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig14"/>
-                        <cb n="right"/>
-                        In questo modo 
+                        <seg><figure xml:id="lesson2_fig14"></figure></seg>In questo modo 
                         possiamo passare da 
                         una gradazione tra-
                         sversale e una longi-
@@ -563,13 +482,9 @@
                         Cosa ci dice questa verticale? Che anche noi, siamo stati 
                         nel punto in cui essa è stata.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig15"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig15"></figure>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig16"/>
-                        <cb n="right"/>
-                        Se facciamo 
+                        <seg><figure xml:id="lesson2_fig16"></figure></seg>Se facciamo 
                         un passo a sini-
                         stra, la verticale 
                         si sposta al punto 
@@ -584,21 +499,17 @@
                         Mentre dal punto di vista del nr 3 si otterrebbe questa 
                         nuova immagine proiettiva.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig17"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig17"></figure>
                     <p>
-                        Nel percorrere una superficie <graphic url="..."/> cosiffatta la verticale 
+                        Nel percorrere una superficie <seg><figure xml:id="lesson2_figureD"></figure></seg> cosiffatta la verticale 
                         resta verticale se non abbandono la linea, e le altre linee 
                         mi vengono incontro a raggiera.
                     </p>
                     <p>
-                        <cb n="left"/>
-
-                        Se abbandono la linea, l’imma-
+                        Se abbandono la linea, l’imma- <seg><figure xml:id="lesson2_fig18"></figure></seg>
                         gine si sposta dal lato che di volta 
-                        in volta le è opposto. 
-                        <cb n="right"/><graphic url=".../lesson2_fig18"/>
+                        in volta le è opposto. <seg><figure xml:id="lesson2_fig19"></figure></seg>
+                        <seg><figure xml:id="lesson2_fig20"></figure></seg>
                     </p>
                     <figure>
                         <graphic url=".../lesson2_fig19"/>
@@ -610,20 +521,15 @@
                     </p>
                 <pb/>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig21"/>
-                        <cb n="right"/>
-                        Ora vogliamo nuovamente tor-
+                        <seg><figure xml:id="lesson2_fig21"></figure></seg>Ora vogliamo nuovamente tor-
                         nare allo stato di quiete  e 
                         procedere come prima con 
                         la gradazione trasversale.
                         Così facendo si ot-
                         tiene questa immagine 
                         (fig. 21)
+                        di nuovo uno spazio nel quale si può entrare camminando.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig21"/>
-                    </figure>
-                    <p>di nuovo uno spazio nel quale si può entrare camminando.</p>
                     <p>
                         A questo proposito vi prego di prestare una particolare atten
                         zione alle pareti laterali. Come per la superficie del terreno la 
@@ -632,15 +538,11 @@
                     </p>
                 <pb/>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig22"/>
-                        <cb n="right"/>
-                        Cosa significa questa 
+                        <seg><figure xml:id="lesson2_fig22.0"></figure></seg>Cosa significa questa 
                         orizzontale? (Bene, la 
                         risposta non tarderà)
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig23"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig23"></figure>
                     <p>riguardo alla fig. 23.</p>
                     <p>
                         Qui ho costruito dentro uno spazio, ormai ben conosciuto, 
@@ -655,9 +557,7 @@
                         la sua superficie superiore.
                     </p>
                 <pb/>
-                    <figure>
-                        <graphic url=".../lesson2_fig24"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig24"></figure>
                     <p>
                         In questo caso il corpo non 
                         permette all’occhio una visione della sua 
@@ -666,23 +566,15 @@
                         sta superficie.
                     </p>
                     <p>
-                        <cb n="left"/>
-                        Una tale superficie orizzontale che può essere vi
+                        Una tale superficie orizzontale che può essere vi <seg><figure xml:id="lesson2_ad24"></figure></seg>
                         sta da sotto è posta però sopra il nostro occhio, è più 
                         alta di noi. L’altra superficie orizzontale che il nostro 
                         occhio vede dall’alto è posta più in basso del nostro 
                         occhio, sta sotto di noi.
-                        <cb n="right"/><graphic url=".../lesson2_ad24"/>
                     </p>
                     <p>
-                        <cb n="left"/>
-                        In questo terzo caso succede qualcosa di parti-
-                        <cb n="right"/><graphic url=".../lesson2_ad23"/>
-                    </p>
-                    <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig25"/>
-                        <cb n="right"/>
-                        colare. L’oc-
+                        In questo terzo caso succede qualcosa di parti- <seg><figure xml:id="lesson2_ad23"></figure></seg>
+                        <seg><figure xml:id="lesson2_fig25"></figure></seg>colare. L’oc-
                         chio non è in 
                         grado di riconosce-
                         re questa superficie 
@@ -694,15 +586,11 @@
                     </p>
                 <pb/>
                     <p>
-                        <cb n="left"/> linea orizzontale.
-                        <cb n="center"/><graphic url=".../lesson2_ad25"/>
-                        <cb n="right"/> 
+                        linea orizzontale. <seg><figure xml:id="lesson2_ad25"></figure></seg>
                         Il corpo è cioè, precisamente, all’al-
                         tezza del nostro occhio.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_ad25"/>7
-                        <cb n="right"/>
                         (Si potrebbe ag-
                         giungere con qualche 
                         sottigliezza che in que-
@@ -719,39 +607,42 @@
                         come orizzontali.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig22"/>
-                        <cb n="right"/>
-                        La risposta eccola 
+                        <seg><figure xml:id="lesson2_fig22.1"></figure></seg> La risposta eccola 
                         qua: significa “al
                         tezza dell’occhio”
                     </p>
                 <pb/>
-                    <figure>
-                        <graphic url=".../lesson2_fig26"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig26"></figure>
                     <p>
+                        L’uomo, o il detentore dell’occhio, può stare davanti, in A, 
+                        o più indietro (come in B, C, D); da ciascuno di questi punti 
+                        si compie il fenomeno delle orizzontali. Ci si può pensare una 
+                        grande superficie che passa attraverso tutti questi punti da 
+                        A1 fino a D1 (vedere, come s’è mostrato sopra, non si può mai 
+                        questa superficie) la superficie dell’orizzonte. Per rimanere in 
+                        A1 (???), per esempio, un poderoso disco.
                     </p>
                     <figure>
-                        <figDesc>
-                            ad 26
-                            visto
-                        </figDesc>
-                        <graphic url=".../lesson2_ad26"/>
-                        <figDesc>
-                            fig 27
-                            pensato
-                        </figDesc>
-                        <graphic url=".../lesson2_fig27"/>
+                        <figure xml:id="lesson2_ad26">
+                            <figDesc>
+                                ad 26
+                                visto
+                            </figDesc>
+                        </figure>
+                        <figure xml:id="lesson2_fig27">
+                            <figDesc>
+                                fig 27
+                                pensato
+                            </figDesc>
+                        </figure>
                     </figure>
                 <pb/> 
                     <p>
-                        <cb n="left"/>
-                        Questo disco dell’orizzonte separa l’intera 
+                        Questo disco dell’orizzonte separa l’intera <seg><figure xml:id="lesson2_figureE"></figure></seg>
                         spazialità visibile in una  [metà] parte superio-
                         re e una inferiore. Come se ci trovassimo in un 
                         grande barattolo rotondo, che si scompone in 
                         barattolo e in coperchio.
-                        <cb n="right"/><graphic url="..."/>
                     </p>
                     <p>
                         Questo segno corrisponde anche alla struttura dell’uomo 
@@ -768,7 +659,7 @@
                         parecchio. Si colloca verticalmente ben ferma una lastra di 
                         vetro e la si pone vicino all’occhio davanti all’oggetto che si 
                         vuole proiettare. Si osserva con un occhio, che non deve muo-
-                        versi dal suo punto. Con inchiostro <graphic url="..."/>
+                        versi dal suo punto. Con inchiostro <seg><figure xml:id="lesson2_figureF"></figure></seg>
                         di china o con una matita grassa si 
                         disegnano sulla lastra di vetro le li
                         nee essenziali dell’oggetto.
@@ -778,17 +669,12 @@
                         percepite come deformazioni. Simili deformazioni sono prodot
                         te da fotografi che fotografano dal basso un oggetto facilmente 
                         controllabile nella sua prospettiva, per es. un edificio.
-                    </p>
-                    <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/>
-                        Immagini così non sa
+                        <seg><figure xml:id="lesson2_figureG"></figure></seg><seg><figure xml:id="lesson2_figureH"></figure></seg>Immagini così non sa
                         rebbero infatti, oggetti
                         vamente (o logicamente) 
                         nemmeno errate.
                     </p>
-                    <p><cb n="right"/> le finestre in basso sono</p>
+                    <p> le finestre in basso sono</p>
                 <pb/>
                     <p>
                         più vicine all’occhio di quelle in alto, e sono dunque più lar-
@@ -813,17 +699,13 @@
             </div>
             <div xml:id="div_Klee_lesson3">
                 <pb/> 
-                    <p>12 dicembre 1921</p>
+                    <p><seg><figure xml:id="number3"></figure></seg>12 dicembre 1921</p>
                     <p>
-                        <cb n="left"/><graphic url=".../number3"/>
-                        <cb n="right"/>
                         Eravamo rimasti al funambolo col suo bilan-
                         ciere, che realizza in modo estremo il simbolo 
                         dell’equilibrio delle forze.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig1"></figure>
                     <p>
                         Dagli elementi della teoria della prospettiva avevamo ri-
                         cavato questo simbolo, come segno distintivo del significato 
@@ -831,9 +713,7 @@
                         superficie orizzontale e insomma sull’orizzonte, ci ha condotti 
                         a un ampliamento spaziale di questo simbolo: 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig2"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig2"></figure>
                     <p>
                         Oggi la nostra indagine avrà per oggetto il ponderare le 
                         forze da una parte e dall’altra; si tratta di quelle forze che de-
@@ -850,9 +730,7 @@
                         tazione ci tornerà utile uno strumento, la bilancia.
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson3_fig3"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig3"></figure>
                     <p>
                         Le bilance hanno all’incirca questo aspetto. Ponderano 
                         due pesi l’uno in relazione all’altro, i quali, proprio in quan-
@@ -861,9 +739,7 @@
                         riportarli su un’unica superficie.*
                     </p>
                     <p> Ma una bilancia davvero tridimensionale avrebbe questo aspetto:</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig5"></figure>
                     <p>
                         in questo caso una bilancia tridimensionale che si estende 
                         sui tre assi AB, CD ed EF. Con questa bilancia si potrebbero 
@@ -871,17 +747,13 @@
                         un esagono (fig. 6)
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson3_fig4"/>
-                        <cb n="right"/>
-                        *Supponiamo che una certa superficie sia adesso pesata 
+                        <seg><figure xml:id="lesson3_fig4"></figure></seg>*Supponiamo che una certa superficie sia adesso pesata 
                         correttamente, a questo punto possiamo spostare la bilancia 
                         e ponderarne una in posizione opposta rispetto alla superficie 
                         che le sta di fronte.
                     </p>
                 <pb/>
-                    <figure>
-                        <graphic url=".../lesson3_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig6"></figure>
                     <p>
                         Fare i nostri primi esperimenti con questa piccola macchi-
                         na che già non è più molto semplice, non sarebbe ragionevole, 
@@ -895,31 +767,20 @@
                     </p>
                 <pb/> 
                     <p>e noi possiamo ignorarne i piatti senza conseguenze.</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig7"></figure>
                     <p>
                         Se da un canto turbiamo l’equilibrio attraverso un carico ec-
                         cessivo, 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig8"></figure>
                     <p>allora l’immagine cambia in questo modo.</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig9"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig9"></figure>
                     <p>Se lo correggiamo con un contrappeso,</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig10"></figure>
                     <p>allora appare così:</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig11"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig11"></figure>
                     <p>
-                        <cb n="left"/>La novità è questa croce:
-                        <cb n="right"/><graphic url="..."/>
+                       La novità è questa croce: <seg><figure xml:id="lesson3_figureA"></figure></seg>
                     </p>
                     <p>
                         Vorrei ricordarvi a questo punto il rapporto comple-
@@ -927,18 +788,17 @@
                         ni addietro. Le superfici, sulle quali simili giochi di for-
                         ze si realizzano, sono generalmente limitate, p. esempio
                     </p>
-                <pb/> <!--Avrà senso la soluzione del primo paragrafo?-->
+                <pb/> 
                     <p>
                         <cb n="left"/>
-                            <cb n="left"/>
                             da un quadrilatero, 
                             all’incirca così: 
-                            <cb n="right"/><graphic url=".../lesson3_fig13"/>
+                            <seg><figure xml:id="lesson3_fig13"></figure></seg>
                         <cb n="right"/>
                             <cb n="left"/>
                             e con la nuova 
                             croce così:
-                            <cb n="right"/><graphic url=".../lesson3_fig13a"/>
+                            <seg><figure xml:id="lesson3_fig13a"></figure></seg>
                     </p>
                     <p>
                         Questa figura consente (13 a), tenendo conto di quel rap-
@@ -951,17 +811,17 @@
                         metrici. 
                     </p>
                     <figure>
-                        <graphic url=".../lesson3_fig14"/>
-                        <graphic url=".../lesson3_fig15"/>
+                        <figure xml:id="lesson3_fig14"></figure>
+                        <figure xml:id="lesson3_fig15"></figure>
                     </figure>
                     <p>
                         Caratteristico della loro disposizione è che si toccano ai 
                         vertici, spinti dall’impulso verticale e orizzontale.
                     </p>
                     <figure>
-                        <graphic url=".../lesson3_fig16"/>
-                        <graphic url=".../lesson3_fig17"/>
-                        <graphic url=".../lesson3_fig18"/>
+                        <figure xml:id="lesson3_fig16"></figure>
+                        <figure xml:id="lesson3_fig17"></figure>
+                        <figure xml:id="lesson3_fig18"></figure>
                     </figure>
                     <p>Torna la bilancia (fig. 18)</p>
                 <pb/> 
@@ -974,9 +834,7 @@
                         per esempio, in uno dei due piatti due pesi da mezzo chilo, 
                         nell’altro due pesi da 750 gr e uno da 250 gr.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig19"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig19"></figure>
                     <p>
                         Ma detto questo, possiamo chiudere qui. Noi dobbiamo 
                         operare con elementi figurativi, attraverso i quali la sensazio-
@@ -986,9 +844,7 @@
                         Cominciamo da alcuni casi in cui non si può parlare affatto 
                         di equilibrio.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig20"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig20"></figure>
                     <p>
                         20) differenza di estensione, accumulo di energia sul lato 
                         destro attraverso l’addizione
@@ -998,54 +854,40 @@
                         21) valore differente della tonalità; maggiore carico sul lato 
                         destro dell’ energia del nero
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig21"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig21"></figure>
                     <p>
                         22) valore differente nella tonalità cromatica, maggior carico 
                         a destra dell’energia cromatica.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig22"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig22"></figure>
                     <p>
                         23) differenza di valore cromatico, maggior carico a sinistra, 
                         mediante il carattere cromatico
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig23"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig23"></figure>
                     <p>
                         Passiamo alla correzione. Per la fig. 20 attingiamo alla nostra 
                         cassetta degli elementi dallo scomparto Linea, e aggiungiamo 
                         a sinistra ciò che manca. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig20a"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig20a"></figure>
                     <p>
                         Per la figura 21 attingiamo allo scomparto Tono Nero e aggiungia-
                         mo accanto al quadrato grigio chiaro un piccolo quadrato di Nero
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig21a"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig21a"></figure>
                 <pb/> 
                     <p>
                         Per la figura 22 attingiamo allo scomparto Tono Rosso e 
                         procediamo in modo corrispondente.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig22a"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig22a"></figure>
                     <p>
                         Per la figura 23 attingiamo allo scomparto Colori puri e 
                         carichiamo forse con un po’ di giallo il lato azzurro troppo 
                         leggero?
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig23a"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig23a"></figure>
                     <p>
                         È certo che se le dosi saranno correttamente misurate di 
                         qua e di là si potrà dire raggiunto l’equilibrio, ovvero un equi-
@@ -1057,9 +899,7 @@
                         cogente va oltre la semplice contrapposizione:
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson3_fig24"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig24"></figure>
                     <p>
                         Qui è intervenuto un simile imperativo locale, ovvero la 
                         posizione dei pesi energetici si fonda su una particolare idea. 
@@ -1084,9 +924,7 @@
                     <p>Oppure, spostando l’azione sulla verticale: (girare)</p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson3_fig25"/>
-                        <cb n="right"/>
-                        la parte superiore del 
+                        <seg><figure xml:id="lesson3_fig25"></figure></seg>la parte superiore del 
                         corpo è troppo pesante, 
                         la verticale cade verso si-
                         nistra se non si inserisce 
@@ -1106,9 +944,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson3_fig26"/>
-                        <cb n="right"/>
-                        I va pensato 
+                        <seg><figure xml:id="lesson3_fig26"></figure></seg>I va pensato 
                         come basamento, II 
                         come prima pietra 
                         su questo basamen-
@@ -1134,8 +970,8 @@
                     </p>
                     <p>Strutture di questo tipo (quasi costruzioni a torre) sono</p>
                     <figure>
-                        <graphic url=".../lesson3_fig27"/>
-                        <graphic url=".../lesson3_fig28"/>
+                        <figure xml:id="lesson3_fig27"></figure>
+                        <figure xml:id="lesson3_fig28"></figure>
                     </figure>
                     <p>
                         paragonabili all’uomo in posizione eretta. Appena mantenere 
@@ -1155,18 +991,14 @@
                         stato di quiete. 
                     </p>
                     <p>La base si estende, e con essa l’orizzontale</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig29"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig29"></figure>
                     <p>
                         a spese della verticale. Interviene un notevole rilassamen-
                         to, un ritmo epico, rispetto alla drammaticità del carattere 
                         verticale, ciò che naturalmente non esclude un soppesare 
                         continuo da una parte e dall’altra. La verticale c’è ancora!
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig30"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig30"></figure>
                     <p>Costruito effettivamente!</p>
                     <p>Da pensare come pietra da costruzione 
                         <note>
@@ -1184,23 +1016,19 @@
                         linee orizzontali o soltanto verticali.
                     </p>
                     <figure>
-                        <graphic url=".../lesson3_fig31"/>
-                        <graphic url=".../lesson3_fig31a"/>
+                        <figure xml:id="lesson3_fig31"></figure>
+                        <figure xml:id="lesson3_fig31a"></figure>
                     </figure>
                 <pb/> 
                     <p>Arrivo adesso all’essenza degli elementi figurativi del peso:</p>
                     <p>Se chiedo:</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig32"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig32"></figure>
                     <p>
                         ritenete questo quadrato pesante o leggero? Non c’è una 
                         risposta determinata. Infatti se la risposta fosse “leggero!” e io 
                         vi aggiungessi un quadrato molto più piccolo
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig33"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig33"></figure>
                     <p>
                         ciò farebbe cadere immediatamente la risposta frettolosa. 
                         Infatti adesso il rettangolo darebbe un’impressione di peso si-
@@ -1208,9 +1036,7 @@
                         confrontato col piccolo fa un grande effetto di peso e il picco-
                         lo è leggero in confronto al grande. Le relatività. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig34"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig34"></figure>
                     <p>
                         Ma adesso questi due pesi possono reciprocamente affer
                         marsi. E perché?
@@ -1291,8 +1117,7 @@
             <div xml:id="div_Klee_lesson4">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number4"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="number4"></figure></seg>
                         16 gennaio 1922
                     </p>
                     <p>
@@ -1765,9 +1590,7 @@
             <div xml:id="div_Klee_lesson5">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number5"/>
-                        <cb n="right"/>
-                        30 gennaio 1922
+                         <seg><figure xml:id="number5"></figure></seg> 30 gennaio 1922
                     </p>
                     <p>
                         La penultima volta ho messo in evidenza il mo-
@@ -2266,8 +2089,7 @@
             <div xml:id="div_Klee_lesson6">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number6"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="number6"></figure></seg>
                         Lunedì 13 febbraio 1922
                     </p>
                     <p>
@@ -2828,8 +2650,7 @@
             <div xml:id="div_Klee_lesson7">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number7"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="number7"></figure></seg>
                         Lunedì 27 febbraio 1922
                     </p>
                     <p>
@@ -3463,8 +3284,7 @@
             <div xml:id="div_Klee_lesson8">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number8"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="number8"></figure></seg>
                         Lunedì 20 marzo 1922
                     </p>  
                     <p>
@@ -3990,8 +3810,7 @@
             <div xml:id="div_Klee_lesson9">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number9"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="number9"></figure></seg>
                         Lunedì 3 aprile 1922
                     </p>
                     <p>
@@ -5112,8 +4931,7 @@
             <div xml:id="div_Klee_lesson10">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number10"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="number10"></figure></seg>
                         C. Lezioni del semestre invernale 1922 | 23
                     </p>
                     <p>10 Martedì 28 novembre 1922.</p>
@@ -5844,7 +5662,7 @@
                 <pb/> 
                     <p>Martedì 19. dic. 22</p>
                     <p>
-                        <graphic url=".../number11"/> La volta scorsa ci siamo abbastanza divertiti, cre-
+                         <seg><figure xml:id="number11"></figure></seg> La volta scorsa ci siamo abbastanza divertiti, cre-
                         do, con la teoria e la pratica del movimento e della 
                         gradazione diametrale dei colori. Dal punto di vista 
                         pratico abbiamo fatto qualche scoperta, almeno per quanto 

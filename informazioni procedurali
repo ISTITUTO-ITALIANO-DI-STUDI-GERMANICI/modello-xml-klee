@@ -15,52 +15,38 @@ Testo, edizioni e traduzioni
 	Metodologia
 		 Codifica XML/TEI dei testi in oggetto. Laddove non si disponga di un .doc o .txt, si attinge all’OCR del .pdf, poi 
 		 necessariamente ricontrollato (per esempio l’OCR del facsimile tedesco riporta degli errori di segmentazione). 
+		 
 		 Nella codifica XML/TEI: 
-	
-				 La struttura è articolata in <div> dotate di @xml:id, pagine <pb/> e capoversi <p>; laddove il testo sulla pagina 
-				 sia diviso in colonne si ricorre all’elemento vuoto <cb n="left"/>, <cb n="center"/> <cb n="right"/>. 
-				 L’elemento <note> è usato per le note dei curatori della traduzione, laddove le eventuali note dell’autore, indicate 
-				 nel testo con *, sono state inserite in normali <p>.
-			
-	--> Ho un dubbio: avendo come elementi strutturali <pb/> e <div>, se una lezione inizia condividendo la pagina della lezione 
-	    precedente, devo mettere comunque un <pb> all'inizio della <div> successiva o no?
+				- La struttura è articolata in <div> dotate di @xml:id, pagine <pb/> e capoversi <p>. Quando all'interno di una stessa 
+				  pagina termina una <div> e inizia la successiva, siccome la pagina non cambia non si ripete nessuna <pb/>.
+				- Laddove il testo sulla pagina sia diviso in colonne si ricorre all’elemento vuoto <cb n="left"/>, <cb n="center"/> <cb n="right"/>.
+				- Se il testo è scritto nel margine della pagina, magari in verticale, si ricorre all'elemento... 
+				- L’elemento <note> è usato per le note dei curatori della traduzione, laddove le eventuali note dell’autore, indicate 
+				  nel testo con *, sono state inserite in normali <p>.
 
 	
 	Problemi riscontrati e soluzioni adottate
 	
 		a. Traduzione italiana CM HH
 	
-				- A pagina 6 le immagini si inseriscono in corrispondenza del testo, incolonnandosi. L’elemento <figure> non può essere 
-				contenuto da <p>, quindi si è fatto ricorso all’elemento <graphic>.
-												<p>
-													<cb n="left"/> <graphic url=“…”/>
-													<cb n="right"/>
-												</p>
-					Di conseguenza, quando l’immagine si accosta al testo risulta codificata come appena illustrato. Quando invece l’immagine 
-					occupa tutto lo spazio in larghezza della pagina sarà codificata così: 
-												<figure>
-													<graphic url= “...”/>
-													<figDesc> <figDesc/>
-												</figure>
-					Vantaggi del tag <graphic/>: 
-					- supporta l'attributo @xml:id; 
-					- è annidabile in <p>; 
-					- permette di codificare le immagini inline del testo. 
-
-					Vantaggi del tag <figure>: 
-					- può contenere più <graphic/>;
-					- permette di codificare le didascalie delle immagini. 
-	
-				- A pagina 140 un'immagine spezza il testo del paragrafo (dopo fig.29); come si codifica una situazione simile?
+			- scelta di codifica per le immagini: 
+				- se l'immagine è gerarchicamente allo stesso livello di <p> si usa direttamente l'elemento <figure>;
+				- se l'immagine è all'interno del testo, poiché <figure> non è direttamente annidabile in <p> si usa la seguente sintassi: 
+				  <p><seg><figure xml:id="..."></figure></seg></p>
+			    - quando la numerazione dell'immagine riporta un errore d'autore:
+				  se non comporta alcuna alterazione nella codifica, lo conservo (ex. lesson1 pag. 11, fig 15/16 anziché 15/16/17)
+				  se comporta un problema nella codifica XML, ricorro a soluzioni il meno invasive possibile (ex. lesson2 pag.14-15, fig 6 ripetuta 
+				  due volte in riferimento a immagini diverse; avendo degli xml:id per le immagini, non potendo quindi associare uno stesso riferimento 
+				  a immagini diverse, saranno codificate come lesson2_fig6.1 e lesson2_fig6.2)
+				- quando l'autore fa riferimento a un'immagine già presentata prima e la ridisegna, la prima è n.0 la seconda n.1 
+				  (ex. lesson2_fig22.0 pag.21 --> lesson2_fig22.1 pag. 23)
 
 	-->Problema: come codificare le scritte contenute nell'immagine, che non sono didascalie?
 	-->Problema: come codificare i titoletti a margine?
 	-->Inserisco la marcatura relativa ai barrati, ai sottolineati e ai corsivi?
 
 
-
 		b. Edizione Spiller
-
 
 
 		b.1 Traduzione italiana Feltrinelli
@@ -93,11 +79,7 @@ Testo, edizioni e traduzioni
 				- la lesson10_fig28 incude, nella versione Feltrinelli, la freccia che in CM HH è presente nell'ultima riga del testo che precede l'immagine.
 				Condivido l'interpretazione di CM HH. 
 
-	---> Dubbio: siccome anche alcune immagini che non hanno un riferimento esplicito in CM HH e ing sono riprese in Spiller, Feltrinelli, 
-	anche a queste è opportuno associare un xml:id? Direi di sì, ma parliamone
-
-
-
+				
 		c. Facsimile inglese
 	
 				- Pagine 4-5: una frase inizia alla fine di pagina 4 e termina nel margine inferiore di pagina 5. 
@@ -121,8 +103,9 @@ Testo, edizioni e traduzioni
 	
 >>>	ERRORI DA CORREGGERE IN CM HH 
 		pag. 18: la figura 14 è sbagliata; è uguale alla 13 della pagina precedente, mentre dovrebbe riportare una numerazione
+		pag. 22: eliminare refuso (fig 23)
 		pag. 95: errore nel pdf, ma non nel doc: la figura è la numero 13, non la 15
-		pag. 102: in base a confronto con facsimile tedesco e inglese e per coerenza con gli esempi preceenti, è necessario un ricollocamento 
+		pag. 102: in base a confronto con facsimile tedesco e inglese e per coerenza con gli esempi precedenti, è necessario un ricollocamento 
 		          delle immagini [il quadrato accanto a "Enunciato formale" va accanto e "Formazione rigida", la x va accanto a "diagonale"];
 		pag. 105: prima della data della lezione compare un refuso
 		pag. 120: la figura a destra è 22a e non 23 (cfr doc CM HH + facsimile tedesco + traduzione inglese)
