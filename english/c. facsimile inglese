@@ -151,26 +151,26 @@
             <div xml:id="div_Klee_lesson1">
                 <pb/> 
                     <p>
-                        After the <graphic url=".../number1"/> pen or something else 
+                        After the <seg><figure xml:id="number1"></figure></seg> pen or something else 
                         with a pointed tip is applied, a line 
                         promptly emerges. (The more freely it takes 
                         its jaunt initially, the clearer its mobile 
-                        nature will be.)<graphic url="..."/>
+                        nature will be.)<seg><figure xml:id="lesson1_figureA"></figure></seg>
                     </p>
                     <p>
                         But if I apply a line with the angular 
                         edge of some black or colored material, then 
                         a plane emerges (initially, and if the jaunt 
                         it takes is very restricted).
-                        <graphic url="..."/>
                     </p>
+                    <figure xml:id="lesson1_figureB"></figure>
                     <p>
                         If we had a material with which to push planes 
                         forth with a similar effect, then we could 
                         inscribe such a notional sculpture in space.
-                        <graphic url="..."/>
-                        But that is, alas, a utopia.
                     </p>
+                    <figure xml:id="lesson1_figureC"></figure>
+                    <p>But that is, alas, a utopia.</p>
                     <p>
                         So let us tarry for the moment with the most 
                         primitive device: with the line. In the pre-
@@ -212,45 +212,38 @@
                         clear arrangement. One must classify.
                     </p>
                     <p>Linear active</p>
-                    <figure>
-                        <graphic url=".../lesson1_fig1"/>
+                    <figure xml:id="lesson1_fig1">
                         <figDesc> free line ab : fig. 1</figDesc>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson1_fig2"/>
+                    <figure xml:id="lesson1_fig2">
                         <figDesc>
                             free line ab
                             accompanying line a1-b1: figs. 2, 3, 4
                         </figDesc>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson1_fig3"/>
+                    <figure xml:id="lesson1_fig3">
                         <figDesc>ditto</figDesc>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson1_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson1_fig4"></figure>
                 <pb/> 
                     <figure>
                         <figDesc>free line with detours: figs. 5 and 6</figDesc>
-                        <graphic url=".../lesson1_fig5"/>
-                        <graphic url=".../lesson1_fig5a"/>
-                        <graphic url=".../lesson1_fig6"/>
+                        <figure xml:id="lesson1_fig5"></figure>
+                        <figure xml:id="lesson1_fig6.1"></figure>
+                        <figure xml:id="lesson1_fig6.2"></figure>
+                        <figure xml:id="lesson1_fig6.3"></figure>
                     </figure>
-                    <figure>
+                    <figure xml:id="lesson1_fig7">
                         <figDesc>
                             Fig. 7: two secondary lines, the principal line 
                             imaginary
                         </figDesc>
-                        <graphic url=".../lesson1_fig7"/>
                     </figure>
-                    <figure>
+                    <figure xml:id="lesson1_fig8">
                         <figDesc>Fig. 8: the same</figDesc>
-                        <graphic url=".../lesson1_fig8"/>
                     </figure>
-                    <figure>
+                    <figure xml:id="lesson1_fig9">
                         <figDesc>Fig. 9: similar</figDesc>
-                        <graphic url=".../lesson1_fig9"/>
                     </figure>
                     <p>
                         With all these examples, the principal line goes 
@@ -259,9 +252,7 @@
                     </p>
                 <pb/> 
                     <p> This new line, however,</p>
-                    <figure>
-                        <graphic url=".../lesson1_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson1_fig10"></figure>
                     <p>
                         has a deadline, it wants to go as fast as 
                         possible to 1, then to 2, to 3, and so 
@@ -273,8 +264,8 @@
                     </p>
                     <p>Linear medial</p>
                     <figure>
-                        <graphic url=".../lesson1_fig11"/>
-                        <graphic url=".../lesson1_fig12"/>
+                        <figure xml:id="lesson1_fig11"></figure>
+                        <figure xml:id="lesson1_fig12"></figure>
                     </figure>
                     <p>
                         In these new cases the time-constrained 
@@ -282,7 +273,7 @@
                         like a triangle or a square.
                     </p>
                     <p>
-                        Or, here, <graphic url="..."/>a circle and <graphic url="..."/>an ellipse.
+                        Or, here, <seg><figure xml:id="lesson1_fig13"></figure></seg>a circle and <seg><figure xml:id="lesson1_fig14"></figure></seg>an ellipse.
                     </p>
                 <pb/> 
                     <p>
@@ -306,8 +297,9 @@
                         character.
                     </p>
                     <figure>
-                        <graphic url=".../lesson1_fig15"/>
-                        <graphic url=".../lesson1_fig16"/>
+                        <figure xml:id="lesson1_fig15"></figure>
+                        <figure xml:id="lesson1_fig16"></figure>
+                        <figure xml:id="lesson1_fig17"></figure>
                     </figure>
                     <p>
                         One indeed also sees lines, but it is not 
@@ -329,12 +321,12 @@
                     <p>
                         The plane, when purebred, is the element 
                         at rest. But if it starts to move,
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson1_figure001"></figure></seg>
                         then it approaches the line-character.
                     </p>
                     <p>
                         The further
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson1_figureD"></figure></seg>
                         the line AB moves forth,
                         the thinner the described plane becomes in 
                         relation to its length, until finally one may 
@@ -360,7 +352,7 @@
             </div>
             <div xml:id="div_Klee_lesson2">
                 <pb/> 
-                    <p><graphic url=".../number2"/>Nov. 28, 1921</p>
+                    <p><seg><figure xml:id="number2"></figure></seg>Nov. 28, 1921</p>
                     <p>
                         We were occupied 14 days ago with, among other 
                         things, the free line. I chose as an example a type 
@@ -378,16 +370,14 @@
                         Sure enough, only accompanying forms or substitute  
                         forms joined the inherently quiescent line,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig1"></figure>
                     <p>
                         accompanying forms, in part (fig. 1), of absolutely converging 
                         character; or (fig. 2) of effectively converging character;
                     </p>
                     <figure>
-                        <graphic url=".../lesson2_fig3"/>
-                        <graphic url=".../lesson2_fig2"/>
+                        <figure xml:id="lesson2_fig2"></figure>
+                        <figure xml:id="lesson2_fig3"></figure>
                     </figure>
                     <p>
                         or (3) of effectively converging nature while maintaining the 
@@ -395,9 +385,7 @@
                     </p>
                 <pb/> 
                     <p>of a person with his or her dog running about freely.</p>
-                    <figure>
-                        <graphic url=".../lesson2_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig4"></figure>
                     <p>
                         The essential difference between this new 
                         construct and the previous examples of 
@@ -410,9 +398,7 @@
                         just once, at point D.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig5"/>
-                        <cb n="right"/>
-                        Let us imagine this (fig. 5) to 
+                        <seg><figure xml:id="lesson2_fig5"></figure></seg>Let us imagine this (fig. 5) to 
                         be railway tracks. Now, is there 
                         not something very misleading 
                         about this? Because these lines 
@@ -423,12 +409,11 @@
                         loveliest derailment. Or, 
                         if you took the opposite 
                         direction:
+                        <seg><figure xml:id="lesson2_fig6.1"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig6"/>
-                        <cb n="right"/>
-                        railway tracks that will soon 
+                       <graphic url=".../lesson2_fig6.2"/> railway tracks that will soon 
                         intersect at some point beyond; 
                         is this not almost more alarming?
                     </p>
@@ -441,10 +426,10 @@
                     <p>
                         Last time, we established with regret, first 
                         of all, that we have no kind of spatial writing: 
-                        Unlike the movement from points <graphic url="..."/> to lines
-                        or the movement from lines <graphic url="..."/> to planes, we cannot
+                        Unlike the movement from points <seg><figure xml:id="lesson2_figure002"></figure></seg> to lines
+                        or the movement from lines <seg><figure xml:id="lesson2_figureA"></figure></seg> to planes, we cannot
                         analogously move
-                        <graphic url="..."/> planes forth with any visible effect, so 
+                        <seg><figure xml:id="lesson2_figureB"></figure></seg> planes forth with any visible effect, so 
                         as to produce solids. We must therefore make do 
                         with perspective.
                     </p>
@@ -455,37 +440,30 @@
                         inherent phenomena is quite remarkable!
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig7"/>
-                        <cb n="right"/>
-                        These (fig. 7), then, are railway 
+                        <seg><figure xml:id="lesson2_fig7"></figure></seg>These (fig. 7), then, are railway 
                         tracks. Railway tracks lie on 
                         crossties. How do I depict this? 
                         If I had drawn tracks on the 
                         plane, like a surveyor or carto- 
                         grapher, then we would have the 
                         image of two parallel lines,
+                        <seg><figure xml:id="lesson2_figureC"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         and the ties would be placed at regular 
                         distances.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig8"></figure>
                     <p>
                         Represented spatially, however, this graphic 
                         image looks fundamentally different. The distance 
                         between the ties increases noticeably, as most 
                         Europeans know, towards the foreground.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig8a"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig8a"></figure>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig9"/>
-                        <cb n="right"/>
-                        The front of the locomotive 
+                        <seg><figure xml:id="lesson2_fig9"></figure></seg>The front of the locomotive 
                         stands at a right angle to 
                         the plane lying between 
                         the tracks. (We 
@@ -499,28 +477,20 @@
                     <p>
                         Now, in this new third dimension we can imagine 
                         more new angles and planes (so the new plane 
-                    </p>
-                    <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig10"/><graphic url=".../lesson2_fig11"/>
-                        <cb n="right"/>
-                        in fig. 11 
+                        <seg><figure xml:id="lesson2_fig10"></figure><figure xml:id="lesson2_fig11"></figure></seg>in fig. 11 
                         stands at a 
                         right angle 
                         to the plane 
                         in fig. [10]),
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig12"/>
-                        <cb n="right"/>
-                        and we arrive finally at the 
+                        <seg><figure xml:id="lesson2_fig12"></figure></seg>and we arrive finally at the 
                         construction of a space into 
                         which we can walk standing 
                         upright.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig13"/>
-                        <cb n="right"/>
-                        Once again we begin 
+                        <seg><figure xml:id="lesson2_fig13"></figure></seg>Once again we begin 
                         by imagining the 
                         rails but limit 
                         ourselves to one 
@@ -536,9 +506,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig14"/>
-                        <cb n="right"/>
-                        In this manner we can go from  
+                        <seg><figure xml:id="lesson2_fig14"></figure></seg>In this manner we can go from  
                         crosswise graduation to grad-
                         uation lengthwise and see 
                         before us in perspective the 
@@ -555,54 +523,40 @@
                         the point where it stands we ourselves have 
                         also stood.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig15"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig15"></figure>
                     <p>
                         If we take a step to the left, then the 
                         vertical shifts to point 1, and the plane of the 
                         floor takes this shape 
                         in the projection.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig16"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig16"></figure>
                 <pb/> 
                     <p>
                         While with a vantage point at no. 3, the result 
                         is this new image of  
                         the projection. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig17"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig17"></figure>
                     <p>
-                        When I travese such a plane,<graphic url="..."/> the vertical remains 
+                        When I travese such a plane,<seg><figure xml:id="lesson2_figureD"></figure></seg>the vertical remains 
                         vertical, as long as I don't leave the line, and the 
                         other lines radiate towards me.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig18"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig18"></figure>
                     <p>
                         But if I leave the line, then the image deflects 
-                        towards the opposite side  
+                        towards the opposite side <seg><figure xml:id="lesson2_fig19"></figure></seg>
                         in either case.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig19"/>
-                        <graphic url=".../lesson2_fig20"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig20"></figure>
                     <p>
                         (And now, incidentally, we have made our acquain- 
                         tance with the phenomenon of counter-motion!!)
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/> Now we want
-                        <cb n="center"/><graphic url=".../lesson2_fig21"/>
-                        <cb n="right"/>
-                        to stand still again 
+                        Now we want <seg><figure xml:id="lesson2_fig21"></figure></seg> to stand still again 
                         and so proceed as 
                         before with cross
                         wise graduation. 
@@ -618,16 +572,12 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig22"/>
-                        <cb n="right"/>
-                        What does this 
+                        <seg><figure xml:id="lesson2_fig22.0"></figure></seg>What does this 
                         horizontal mean? 
                         (Now, the answer 
                         is almost ripe.)
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig23"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig23"></figure>
                     <p>
                         Inside the now familiar space I have constructed 
                         a second one that offers the eye a view of its upper 
@@ -638,9 +588,7 @@
                         offers the eye a view of its upper plane.
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson2_fig24"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig24"></figure>
                     <p>
                         In this case the volume does not offer a  
                         top view of its upper plane. If we assume it  
@@ -649,17 +597,15 @@
                     </p>
                     <p>
                         Such a horizontal plane that can be seen  
-                        from below, however, is situated above our eye; <graphic url="..."/> 
+                        from below, however, is situated above our eye; <seg><figure xml:id="lesson2_figureE"></figure></seg>
                         it is higher than we are.
                     </p>
                     <p>
                         The other horizontal plane our eye sees from 
-                        above is lower than our eye; it lies below us.<graphic url="..."/>
+                        above is lower than our eye; it lies below us.<seg><figure xml:id="lesson2_figureF"></figure></seg>
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig25"/>
-                        <cb n="right"/>
-                        In this third case, 
+                        <seg><figure xml:id="lesson2_fig25"></figure></seg>In this third case, 
                         however, something 
                         special occurs. The  
                         eye is unable to re- 
@@ -670,11 +616,8 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/>
-                        as a horizontal 
+                        as a horizontal <seg><figure xml:id="lesson2_figureG"></figure></seg>
                         line.
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/>
                         The volume is thus 
                         exactly as high as 
                         our eye.
@@ -691,16 +634,12 @@
                         horizontal in the perspectival projection.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson2_fig22"/>
-                        <cb n="right"/>
-                        So the answer is 
+                        <seg><figure xml:id="lesson2_fig22.1"></figure></seg>So the answer is 
                         there. It is: "eye 
                         level."
                     </p>
                 <pb/>
-                    <figure>
-                        <graphic url=".../lesson2_fig26"/>
-                    </figure>
+                    <figure xml:id="lesson2_fig26"></figure>
                     <p>
                         The person, or the bearer of the gaze, may now stand 
                         in front, at A, or further back (like at B, C, D); 
@@ -712,7 +651,8 @@
                         example, a huge circular disc.
                     </p>
                     <figure>
-                        <graphic url=".../lesson2_fig27"/>
+                        <figure xml:id="lesson2_figureH"></figure>
+                        <figure xml:id="lesson2_fig27"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -721,9 +661,7 @@
                         found ourselves in a large round can that divides 
                         into can and lid.
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson2_figureI"></figure>
                     <p>
                         This sign corresponds to the edifice of the 
                         human being, taking into account the earth's 
@@ -743,13 +681,13 @@
                         to be projected. The observations must be made with one 
                         eye, fixed in its position. With ink or grease pencil the 
                         important essential lines of the object are drawn onto the 
-                        pane of glass. <graphic url="..."/>
+                        pane of glass. <seg><figure xml:id="lesson2_figureJ"></figure></seg>
                         Lines recorded on a pane of glass that is not standing 
                         vertically will be seen as incorrect, distorted images. 
                         Similar distorted images are produced by photographers who, 
                         from a low angle, take pictures of an object that can be 
-                        easily controlled in <graphic url="..."/>
-                        perspective, for <graphic url="..."/>
+                        easily controlled in <seg><figure xml:id="lesson2_figureK"></figure></seg>
+                        perspective, for <seg><figure xml:id="lesson2_figureL"></figure></seg>
                         example, a house.
                         To be precise, such images are not
                         at all false objectively. 
@@ -778,22 +716,20 @@
             </div>
             <div xml:id="div_Klee_lesson3">
                 <pb/> 
-                    <p><graphic url=".../number3"/>December 12, 1921</p>
+                    <p><seg><figure xml:id="number3"></figure></seg>December 12, 1921</p>
                     <p>
                         We were left standing with the tight-rope walker 
                         and his balancing pole, as the extreme realiza-
                         tion of the symbol of the equilibrium of forces.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig1"></figure>
                     <p>
                         We had derived this symbol from the rudiments 
                         of perspective theory, as the distinctive sign 
                         for the meaning of vertical and horizontal. The 
                         extension of the (seen) horizontal line onto the 
                         horizontal plane or, in short, onto the horizon, 
-                        brought us the spatial  <graphic url=".../lesson3_fig2"/>
+                        brought us the spatial <seg><figure xml:id="lesson3_fig2"></figure></seg>
                         extension of this symbol:
                     </p>
                     <p>
@@ -816,8 +752,8 @@
                     </p>
                 <pb/> 
                     <figure>
-                        <graphic url=".../lesson3_fig3"/>
-                        <graphic url=".../lesson3_fig3a"/>
+                        <figure xml:id="lesson3_fig3"></figure>
+                        <figure xml:id="lesson3_fig3a"></figure>
                     </figure>
                     <p>
                         A set of scales looks roughly like this. It 
@@ -828,9 +764,7 @@
                         single plane. (Supposing)
                     </p>
                     <p>Fully spatial scales would look like this:</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig5"></figure>
                     <p>
                         In this case, a set of spatial scales that 
                         extends over three axes, AB, CD, and EF. With 
@@ -839,15 +773,13 @@
                         (fig. 6).
                     </p>
                     <p>
-                        *Supposing the one plane has been correctly weighed, 
+                        <seg><figure xml:id="lesson3_fig4"></figure></seg>*Supposing the one plane has been correctly weighed, 
                         then we can bring the scales into a new position and 
                         against the first plane weigh a second one opposite.*
                         (a fully... etc.)
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson3_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig6"></figure>
                     <p>
                         With this now no longer entirely simple little 
                         machine, it would be unwise to make our first 
@@ -862,29 +794,16 @@
                     </p>
                 <pb/> 
                     <p>and we can leave out the pans without detriment.</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig7"></figure>
                     <p>If we disturb the scales on one side by overloading,</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig8"></figure>
                     <p>then the image changes in this way:</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig9"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig9"></figure>
                     <p> If we correct it with a counter-load,</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig10"></figure>
                     <p> then it looks like this:</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig11"/>
-                    </figure>
-                    <p> What is new is this cross:</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig11"></figure>
+                    <p> What is new is this cross:<seg><figure xml:id="lesson3_fig12"></figure></seg></p>
                     <p>
                         Now, I remind you of the complementary relationship 
                         of lines to planes, as I presented it the time 
@@ -893,17 +812,13 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/>
                         a quadri-
                         lateral
                         like this:
-                        <cb n="right"/><graphic url=".../lesson3_fig13"/>
-                    </p>
-                    <p>
-                        <cb n="left"/>
+                        <seg><figure xml:id="lesson3_fig13"></figure></seg>
                         and with the new
                         cross, like this:
-                        <cb n="right"/><graphic url=".../lesson3_fig13a"/>
+                        <seg><figure xml:id="lesson3_fig13a"></figure></seg>
                     </p>
                     <p>
                         Bearing in mind that complementary relationship, 
@@ -917,8 +832,8 @@
                         opposite each other.
                     </p>
                     <figure>
-                        <graphic url=".../lesson3_fig14"/>
-                        <graphic url=".../lesson3_fig15"/>
+                        <figure xml:id="lesson3_fig14"></figure>
+                        <figure xml:id="lesson3_fig15"></figure>
                     </figure>
                     <p>
                         It is characteristic of their position that they 
@@ -927,13 +842,13 @@
                         and horizontally.
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson3_fig16"/>
-                        <cb n="center"/><graphic url=".../lesson3_fig17"/>
+                        <figure xml:id="lesson3_fig16"></figure>
+                        <figure xml:id="lesson3_fig17"></figure>
                         <figDesc>
                             The scales are here 
                             again. (fig. 18) 
                         </figDesc>
-                        <cb n="right"/><graphic url=".../lesson3_fig18"/>
+                        <figure xml:id="lesson3_fig18"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -950,9 +865,7 @@
                         pound weights in one pan and, in the other, one 
                         750-gram weight and one 250-gram weight.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig19"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig19"></figure>
                     <p>
                         But we will now have to leave the matter 
                         there. We must operate with pictorial elements 
@@ -963,31 +876,23 @@
                         First of all, some cases in which we certainly 
                         cannot speak of equilibrium.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig20"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig20"></figure>
                     <p>
                         20) Difference in extension, accumulation of energy 
                         on the right side through addition.
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson3_fig21"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig21"></figure>
                     <p>
                         21) Difference in tone value, additional load of black 
                         energy on the right
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig22"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig22"></figure>
                     <p>
                         22) Difference in chromatic tone value, additional 
                         load of color energy on the right 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig23"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig23"></figure>
                     <p>
                         23) Difference in color value, additional load on 
                         the left because of the color character.
@@ -997,33 +902,25 @@
                         20, we reach into our element box, into the line 
                         compartment, and place what is missing on the left.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig20a"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig20a"></figure>
                     <p>
                         For figure 21, we reach into the black tone compart- 
                         ment and add a small black square next to the light 
                         gray square.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig21a"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig21a"></figure>
                 <pb/> 
                     <p>
                         For figure 22 we reach into the red tone 
                         compartment and proceed accordingly.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig22a"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig22a"></figure>
                     <p>
                         For figure 23 we reach into the pure color 
                         compartment and load the blue side, which is 
                         too light, with some yellow, perhaps?
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig23a"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig23a"></figure>
                     <p>
                         It is certain that with the correctly 
                         measured dose on either side, we can consider 
@@ -1039,9 +936,7 @@
                         loose comparison:
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson3_fig24"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig24"></figure>
                     <p>
                         Here such a local imperative has intervened, i.e., 
                         a particular idea underlies the position of the 
@@ -1070,9 +965,7 @@
                     <p>Or, by transferring the action onto the vertical:</p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/>
-                        The upper part of the 
+                        <seg><figure xml:id="lesson3_fig25"></figure></seg>The upper part of the 
                         body is too heavy; the 
                         vertical falls to the 
                         left if the correction 
@@ -1097,9 +990,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson3_fig26"/>
-                        <cb n="right"/>
-                        I is thought of as a 
+                        <seg><figure xml:id="lesson3_fig26"></figure></seg>I is thought of as a 
                         socle, II as the first 
                         stone on this socle, 
                         laid just at the tipping 
@@ -1123,8 +1014,8 @@
                         addition to other possibilities):
                     </p>
                     <figure>
-                        <graphic url=".../lesson3_fig27"/>
-                        <graphic url=".../lesson3_fig28"/>
+                        <figure xml:id="lesson3_fig27"></figure>
+                        <figure xml:id="lesson3_fig28"></figure>
                     </figure>
                     <p>
                         Buildings of this kind (like towers) are comparable 
@@ -1148,9 +1039,7 @@
                         and 28), a certain becalmed quality.
                     </p>
                     <p>The base widens, and with it so does the</p>
-                    <figure>
-                        <graphic url=".../lesson3_fig29"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig29"></figure>
                     <p>
                         horizontal, at the cost of the vertical. An 
                         appreciable reduction of tension occurs--an epic 
@@ -1159,9 +1048,7 @@
                         weighing-up on each side. The vertical is always 
                         still there!
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig30"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig30"></figure>
                     <p>
                         The weighing-up only stops when the diagonal ceases, 
                         when the scales freeze in place, e.g., with this 
@@ -1169,26 +1056,22 @@
                         are only horizontal or only vertical lines:
                     </p>
                     <figure>
-                        <graphic url=".../lesson3_fig31"/>
-                        <graphic url=".../lesson3_fig31a"/>
+                        <figure xml:id="lesson3_fig31"></figure>
+                        <figure xml:id="lesson3_fig31a"></figure>
                     </figure>
                 <pb/> 
                     <p>
                         I am arriving at the essence of the weight of 
                         pictorial elements. If I ask,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig32"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig32"></figure>
                     <p>
                         "Do you consider this square heavy or light?" As 
                         such, there is no definite answer. For if the 
                         answer were "light!" and I added a second much 
                         smaller square,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig33"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig33"></figure>
                     <p>
                         it would thus immediately invalidate the hasty reply, 
                         for now the square makes an impression of being 
@@ -1197,9 +1080,7 @@
                         one and that the small one is light in comparison 
                         with the large one. Relativities.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson3_fig34"/>
-                    </figure>
+                    <figure xml:id="lesson3_fig34"></figure>
                     <p>
                         Now, however, both these weights can hold their own 
                         against one another. And why? One is lighter in terms 
@@ -1289,7 +1170,7 @@
             </div>
             <div xml:id="div_Klee_lesson4">
                 <pb/> 
-                    <p><graphic url=".../number4"/>January 16, 1922</p>
+                    <p><seg><figure xml:id="number4"></figure></seg>January 16, 1922</p>
                     <p>
                         Last time, the opposition between compositional 
                         and structural characters became evident.
@@ -1772,7 +1653,7 @@
             </div>
             <div xml:id="div_Klee_lesson5">
                 <pb/> 
-                    <p><graphic url=".../number5"/>January 30, 1922</p>
+                    <p><seg><figure xml:id="number5"></figure></seg>January 30, 1922</p>
                     <p>
                         The time before last, I established the moment 
                         of repetition as a characteristic of structural 
@@ -2297,9 +2178,7 @@
             <div xml:id="div_Klee_lesson6">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number6"/>
-                        <cb n="right"/>
-                        Monday, February 13, 1922
+                        <seg><figure xml:id="number6"></figure></seg>Monday, February 13, 1922
                     </p>
                     <p>
                         I am beginning today with criticism of an imperfect 
@@ -2890,9 +2769,7 @@
             <div xml:id="div_Klee_lesson7">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number7"/>
-                        <cb n="right"/>
-                        Monday, February 27, 1922
+                        <seg><figure xml:id="number7"></figure></seg>Monday, February 27, 1922
                     </p>
                     <p> The exercise from the last meeting was:</p>
                     <p>
@@ -3580,9 +3457,7 @@
             <div xml:id="div_Klee_lesson8">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number8"/>
-                        <cb n="right"/>
-                        Monday, March 20, 1922
+                        <seg><figure xml:id="number8"></figure></seg>Monday, March 20, 1922
                     </p>  
                     <p>
                         The function of a visual work is the way in which 
@@ -4108,9 +3983,7 @@
             <div xml:id="div_Klee_lesson9">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number9"/>
-                        <cb n="right"/>
-                        Monday, April 3, 1922
+                        <seg><figure xml:id="number9"></figure></seg>Monday, April 3, 1922
                     </p>
                     <p>
                         The arrow is a projectile precisely formed with 
@@ -5400,9 +5273,7 @@
             <div xml:id="div_Klee_lesson10">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number10"/>
-                        <cb n="right"/>
-                        C. Winter semester lectures, 1922-23
+                        <seg><figure xml:id="number10"></figure></seg>C. Winter semester lectures, 1922-23
                     </p>
                     <p> Tuesday, November 28, 1922</p>
                     <p>
@@ -6142,8 +6013,7 @@
             <div xml:id="div_Klee_lesson11">
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../number11"/> 
-                        <cb n="right"/> Tuesday, Dec. 19, 1922
+                        <seg><figure xml:id="number11"></figure></seg>Tuesday, Dec. 19, 1922
                     </p>
                     <p> 
                         This diametral movement and gradation of colors 
