@@ -511,10 +511,6 @@
                         in volta le è opposto. <seg><figure xml:id="lesson2_fig19"></figure></seg>
                         <seg><figure xml:id="lesson2_fig20"></figure></seg>
                     </p>
-                    <figure>
-                        <graphic url=".../lesson2_fig19"/>
-                        <graphic url=".../lesson2_fig20"/>
-                    </figure>
                     <p>
                         (E così, incidentalmente, abbiamo fatto conoscenza con il 
                         fenomeno del contromovimento!!)
@@ -1117,32 +1113,23 @@
             <div xml:id="div_Klee_lesson4">
                 <pb/> 
                     <p>
-                        <seg><figure xml:id="number4"></figure></seg>
-                        16 gennaio 1922
+                        <seg><figure xml:id="number4"></figure></seg> 16 gennaio 1922
                     </p>
                     <p>
                         L’ultima volta si è mostrato il contrasto tra carat-
                         tere composizionale e carattere strutturale.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url="..."/><graphic url="..."/>
-                        <cb n="right"/>
-                        Si sono manifestati rit-
+                        <seg><figure xml:id="lesson4_figureA"></figure></seg><seg><figure xml:id="lesson4_figureB"></figure></seg>Si sono manifestati rit-
                         mi strutturali di bassissimo 
                         grado evolutivo, che trovano 
                         espressione numerica nella 
                         sommatoria di pure unità:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_figure1"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson4_figure2"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig1"></figure>
+                     <figure xml:id="lesson4_fig2"></figure>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson4_figure3"/>
-                        <cb n="right"/>
-                        la quale può esse-
+                        <seg><figure xml:id="lesson4_fig3"></figure></seg>la quale può esse-
                         re definita addizione 
                         di unità nella direzio-
                         ne di due dimensioni. 
@@ -1156,16 +1143,12 @@
                         nel punto più basso dell’ordine dei caratteri strutturali.
                         Un gradino più in alto troviamo questa nuova struttura:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig4"></figure>
                     <p>
                         in numeri 1 + 2 + 1 + 2 + 1 + 2 + 1 + 2 + 1 + 2 
                         o questa struttura:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig5"></figure>
                     <p>Peso in numeri 1 + 2 + 1 + 2 + 1 + 2 + 1 + 2 + 1 + 2</p>
                     <p>
                         (fig. 4 e 5) Entrambe le strutture, se si confronta la loro 
@@ -1227,12 +1210,8 @@
                         Da punto di vista figurativo questa manovra algebrica cor-
                         risponde alla seguente visione [Anschauung]  
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_fig4a"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson4_fig5a"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig4a"></figure>
+                    <figure xml:id="lesson4_fig5a"></figure>
                 <pb/> 
                     <p>
                         Dunque 3 + 3 + 3 + 3 + 3 = I + I + I +  I + I, per quanto il 
@@ -1242,9 +1221,7 @@
                         Estendiamo ora la figura 5 in direzione di due dimensioni:
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson4_fig6"/>
-                        <cb n="right"/>
-                        Così la somma 
+                        <figure xml:id="lesson4_fig6"></figure>Così la somma 
                         verticale dei campi 
                         sovrapposti =
                         11 + 10 + 11 + 10 + 
@@ -1257,9 +1234,7 @@
                     </p>
                     <p>somma verticale: 11 + 10 + 11 + 10 + 11 + 10 etc.</p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson4_fig7"/>
-                        <cb n="right"/>
-                        le somme oriz-
+                        <figure xml:id="lesson4_fig6a"></figure>le somme oriz-
                         zontali offrono 
                         la stessa visione 
                         dunque I + I + I 
@@ -1272,9 +1247,7 @@
                         que come coappartenenza di due campi confinanti in direzio-
                         ne orizzontale e verticale
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig7"></figure>
                     <p>
                         nelle quali poi sorga una suddivisione in unità quadrango-
                         lari, quadripartite e esavalenti.
@@ -1290,8 +1263,8 @@
                         strutturale.
                     </p>
                     <figure>
-                        <graphic url=".../lesson4_fig7a"/>
-                        <graphic url=".../lesson4_fig8"/>
+                        <figure xml:id="lesson4_fig7a"></figure>
+                        <figure xml:id="lesson4_fig8"></figure>
                     </figure>
                 <pb/> 
                     <p>(fig. 7 a e 8)</p>
@@ -1368,48 +1341,50 @@
                         hanno un valore binario o ternario. 
                     </p>
                     <figure>
-                     <figDesc>
+                        <figure xml:id="lesson4_fig9">
+                        <figDesc>
                         fig 9
                         Norma binaria, o ritmo binario
-                     </figDesc>
-                     <graphic url=".../lesson4_fig9"/>
-                     <graphic url=".../lesson4_fig10"/>
-                     <figDesc>
+                        </figDesc>
+                        </figure>
+                        <figure xml:id="lesson4_fig10">
+                        <figDesc>
                         fig 10
                         Norma ternaria, o ritmo ternario
-                     </figDesc>
+                        </figDesc>
+                        </figure> 
                     </figure>
-                    <figure>
+                    <figure xml:id="lesson4_fig11">
                      <figDesc>
                         fig 11
                         Variante della norma binaria, un ritmo binario con sottostruttura bi-
                         partita ovvero ritmo quaternario
                      </figDesc>
-                     <graphic url=".../lesson4_fig11"/>
                     </figure>
                     <figure>
-                     <figDesc>
+                        <figure xml:id="lesson4_fig12">
+                        <figDesc>
                         fig 12
                         Variante della norma binaria con 
                         struttura tripartita ovvero ritmo 
                         a sei battute (bipartito).
-                     </figDesc>
-                     <graphic url=".../lesson4_fig12"/>
-                     <graphic url=".../lesson4_fig13"/>
-                     <figDesc>
+                        </figDesc>
+                        </figure>
+                        <figure xml:id="lesson4_fig13">
+                        <figDesc>
                         fig 13
                         Variante della norma ternaria 
                         con sottostruttura tripartita ov-
                         vero ritmo a nove battute
-                     </figDesc>
+                        </figDesc>
+                        </figure>
                     </figure>
-                    <figure>
-                     <figDesc>
+                    <figure xml:id="lesson4_fig14">
+                        <figDesc>
                         fig 14
                         Variante del ritmo quaternario, con sottostruttura tripartita dei 
                         quarti, ovvero ritmo a dodici battute.
-                     </figDesc>
-                     <graphic url=".../lesson4_fig14"/>
+                        </figDesc>
                     </figure>
                 <pb/> 
                     <p>
@@ -1433,7 +1408,7 @@
                         segni di battuta) non possono venire stabiliti in modo cogente 
                         mediante la misura della durata [Längenmasse]. 
                     </p>
-                    <p>Dove?<graphic url="..."/></p>
+                    <p>Dove? <seg><figure xml:id="lesson4_figureC"></figure></seg></p>
                     <p>
                         Dove va posto il segno di battuta? cosa esprimono i segni 
                         particolari |? X? |? .?? dicono che nei luoghi dove essi stanno 
@@ -1450,10 +1425,10 @@
                         ture ritmiche (Gewichts-rhytmisch: peso ritmico),
                     </p>
                     <figure>
-                        <graphic url=".../lesson4_fig15"/>
-                        <graphic url=".../lesson4_fig16"/>
-                        <graphic url=".../lesson4_fig17"/>
+                        <figure xml:id="lesson4_fig15"></figure>
+                         <figure xml:id="lesson4_fig16"></figure>
                     </figure>
+                    <figure xml:id="lesson4_fig17"></figure>
                 <pb/> 
                     <p>
                         Possiamo ricavare immagini più piane del ritmo a partire 
@@ -1462,34 +1437,33 @@
                     </p>
                     <p>
                         Nel ritmo in quattro quarti il primo valore viene battuto 
-                        dall’alto verso il basso, <graphic url="..."/>
-                        <graphic url="..."/> il secondo dal basso verso sinistra,<graphic url="..."/> 
-                        il terzo da sinistra verso destra <graphic url="..."/> e il quarto da destra 
-                        verso l’alto <graphic url="..."/> verso il punto di partenza del primo valore.
+                        dall’alto verso il basso, <seg><figure xml:id="lesson4_figureD"></figure></seg>
+                        il secondo dal basso verso sinistra,<seg><figure xml:id="lesson4_figureE"></figure></seg>
+                        il terzo da sinistra verso destra <seg><figure xml:id="lesson4_figureF"></figure></seg> e il quarto da destra 
+                        verso l’alto <seg><figure xml:id="lesson4_figureG"></figure></seg> verso il punto di partenza del primo valore.
                     </p> 
                     <p> 
-                        Ne risulta questa immagine d’insieme:
-                        <graphic url=".../lesson4_fig18"/>
+                        Ne risulta questa immagine d’insieme:<seg><figure xml:id="lesson4_figureH"></figure></seg>
                         tenendo conto 
                         dell’elemento 
                         dinamico
-                        <graphic url=".../lesson4_fig15"/>
+                        <seg><figure xml:id="lesson4_fig18"></figure></seg>
                     </p>
                     <p>
                         che si accorda bene con le qualità particolari
                         della verticale e dell’orizzontale
                     </p>
                     <p>
-                        oppure: <graphic url=".../lesson4_fig19"/>
+                        oppure: <seg><figure xml:id="lesson4_fig19"></figure></seg>
                     </p>
                     <p>
                         In modo analogamente attraente si presenta l’immagine 
                         del ritmo ternario
                     </p>
                     <figure>
-                        <graphic url=".../lesson4_fig20"/>
-                        <graphic url=".../lesson4_fig20a"/>
-                        <graphic url=".../lesson4_fig20b"/>
+                        <figure xml:id="lesson4_fig20"></figure>
+                        <figure xml:id="lesson4_fig20a"></figure>
+                        <figure xml:id="lesson4_fig20b"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -1501,9 +1475,7 @@
                         Scelgo due battute [Takte] di un movimento a tre voci di Bach, 
                         e procedo al microscopio secondo lo schema seguente:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_fig21"/> <!--Multimedia-->
-                    </figure>
+                    <figure xml:id="lesson4_fig21"> <!--Multimedia--></figure>
                     <p>fig.21</p>
                     <p>
                         Poiché la musica senza dinamica suona meccanica e ine-
@@ -1568,7 +1540,7 @@
                         ci insegna ancora, come le differenze di misura dipendono da 
                         numeri semplici e vicini. Se in questo esempio vi fossero rap-
                         porti di numeri molto piccoli con numeri molto grandi, allora 
-                        si tratterebbe di ciò che in musica si chiama ornamento <graphic url="..."/>
+                        si tratterebbe di ciò che in musica si chiama ornamento <seg><figure xml:id="lesson4_figureI"></figure></seg>
                     </p>
                     <p>
                         e che in applicazioni troppo superficiali vengono chiamati fioriture [Schnoerkel].
@@ -1639,14 +1611,10 @@
                         Alcune soluzioni di questo compito hanno testimoniato in-
                         nanzitutto talento e poi comprensione. * 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig1"></figure> <!--Multimedia-->
                     <p>
-                        <cb n="left"/>
-                        Presuppongo che nessuno scoprì il pesce 
+                        Presuppongo che nessuno scoprì il pesce <seg><figure xml:id="lesson5_figureA"></figure></seg>
                         di Colombo.
-                        <cb n="right"/><graphic url="..."/>
                     </p>
                 <pb/> 
                     <p>
@@ -1657,11 +1625,7 @@
                     <p>
                         Supponiamo che la fig. 1 rappresenti l’individuo. Prova: 
                         nessuna ripetizione. Come in una oeuverture, essa comincia
-                    </p>
-                    <p>
-                        <cb n="left"/><graphic url=".../lesson5_fig2"/>
-                        <cb n="right"/>
-                        in A con diciassette, 
+                        <seg><figure xml:id="lesson5_fig2"></figure></seg>in A con diciassette, 
                         scende con tutto il 
                         suo peso con un va-
                         lore di ventitrè, pie-
@@ -1710,9 +1674,7 @@
                         di musica? Indubbiamente suonerebbe in forma puramente 
                         melodica con forme subordinate di puro accompagnamento.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig3"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig3"></figure>
                     <p>
                         In questo caso (fig. 3) si può parlare di una condu-
                         zione a due voci, per quanto il tema individuale non sia 
@@ -1734,9 +1696,7 @@
                     <p>
                         Le misure del ritmo individuale contengono i numeri più elevati.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig4"></figure>
                     <p>
                         In questo nuovo esempio (fig. 4), se si fa astrazione dalle 
                         verticali, si analizza la parte strutturale, in modo molto primi-
@@ -1790,9 +1750,7 @@
                         lavoro di collage su vetro, molto grazioso, che mi è capitato 
                         sotto gli occhi durante l’ultimo esercizio (fig. 5)
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig5"></figure>
                     <p>
                         Era composto esclusivamente da piccoli quadratini di car-
                         ta che, disposti in ordine sparso l’uno sopra o accanto all’altro, 
@@ -1819,8 +1777,7 @@
                         le-dinamico.*
                     </p>
                     <p>
-                        <cb n="left"/>
-                        (fig. 6) E infine ancora una 
+                        (fig. 6) E infine ancora una <seg><figure xml:id="lesson5_fig6"></figure></seg>
                         variante, laddove una linea ac-
                         centuata, tratta da un qualunque 
                         individuo, è divisa individual-
@@ -1835,10 +1792,9 @@
                         la verticale. (Questo, in modo 
                         che nessuno creda si debba per 
                         forza lavorare secondo regole)
-                        <cb n="right"/><graphic url=".../lesson5_fig6"/>
                     </p>
                     <p>
-                        Annotaz. *Un’ulteriore possibilità: si po-
+                        Annotaz. *Un’ulteriore possibilità: si po- <seg><figure xml:id="lesson5_fig6a"></figure></seg>
                         trebbe inserire in un ritmo strutturale 
                         grandioso piccoli individui (individual-
                         pessimisti)
@@ -1861,28 +1817,20 @@
                         è il filo a piombo,
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson5_fig7"/>
-                        <cb n="right"/>
-                        la verticale semplice. la bilancia però 
+                        <seg><figure xml:id="lesson5_fig7"></figure></seg>la verticale semplice. la bilancia però 
                         tiene conto di questa verticale, la ver-
                         ticale è il criterio del suo equilibrio.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson5_fig8"/>
-                        <cb n="right"/>
-                        Si può dunque dire che lo spirito del-
+                        <seg><figure xml:id="lesson5_fig8"></figure></seg>Si può dunque dire che lo spirito del-
                         la bilancia è proprio questa croce
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson5_fig9"/>
-                        <cb n="right"/>
-                        Disturbi dell’equilibrio della bilancia 
+                        <seg><figure xml:id="lesson5_fig9"></figure></seg>Disturbi dell’equilibrio della bilancia 
                         danno luogo alla diagonale
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson5_fig10"/>
-                        <cb n="right"/>
-                        e la sua correzione attraverso un 
+                        <seg><figure xml:id="lesson5_fig10"></figure></seg>e la sua correzione attraverso un 
                         contro-disturbo dà luogo a questa 
                         nuova croce
 
@@ -1891,17 +1839,13 @@
                 <pb/> 
                     <p>Dov’è dunque la sede della potente forza di attrazione?</p>
                     <p>Nel suolo:</p>
-                    <figure>
-                        <graphic url=".../lesson5_fig11"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig11"></figure>
                     <p>
                         oppure, se si sa che questo suolo nella sua interezza ha 
                         forma di sfera, diremo. nel centro di questa sfera, nel centro 
                         della terra
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig12"></figure>
                     <p>
                         Di regola, dal punto di vista fisico, non è possibile un su-
                         peramento di questa condizione, tutto ciò che è terrestre, di 
@@ -1943,9 +1887,7 @@
                         tutto il regno delle acque profonde, come un pesce, o come 
                         un uccello domina tutto l’alto spazio dell’aria.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig13"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig13"></figure>
                     <p>
                         Egli deve anche sottoporsi a sforzi parziali, come ac-
                         cade per esempio a chi scala le montagne, o sale le scale. 
@@ -1986,9 +1928,7 @@
                         subordinate alle orbite dei Soli. 
                     </p>
                     <p>E’ il tutto a muoversi.</p>
-                    <figure>
-                        <graphic url=".../lesson5_fig14"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig14"></figure>
                     <p>
                         Tornando agli ambiti della nostra esistenza fisica, voglia-
                         mo ora occuparci di alcuni esempi che riguardano, in parte, 
@@ -2000,21 +1940,19 @@
                         sità decrescente, vira e cade verso la terra con intensità cre-
                         scente.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig15"/>
+                    <figure xml:id="lesson5_fig15">
                         <figDesc>
                             Primo esempio:
                             un ritmo (binario) con articolazione sciolta g
                         </figDesc>
                     </figure>
-                    <figure>
+                    <figure xml:id="lesson5_fig16">
                         <figDesc>
                             Secondo es: qualcuno sale le scale con sforzo che si accre-
                             sce a ogni gradino.
                         </figDesc>
-                        <graphic url=".../lesson5_fig16"/>
                     </figure>
-                    <figure>
+                    <figure xml:id="lesson5_fig17">
                         <figDesc>
                             Terzo esempio:
                             un ritmo con articolazione ri-
@@ -2022,24 +1960,21 @@
                             zione alternativamente 
                             rigida e sciolta.
                         </figDesc>
-                        <graphic url=".../lesson5_fig17"/>
                     </figure>
                 <pb/> 
-                    <figure>
+                    <figure> <!--riferimento alla figura della pagina precedente-->
                         <figDesc>
                             4. Esempio (fig. 17) Una pietra cade a balzi lungo una scar-
                             pata ripida. Un ritmo con articolazione rigida. 
                         </figDesc>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson5_fig18"/>
+                    <figure xml:id="lesson5_fig18">
                         <figDesc>
                             5. Esempio: le battute di piedi di un nuotatore, un ritmo 
                             con articolazione sciolta. 
                         </figDesc>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson5_fig19"/>
+                    <figure xml:id="lesson5_fig19">
                         <figDesc>
                             Sesto esempio (fig. 19)
                             Una mongolfiera si innalza da una zona d’aria calda a una 
@@ -2048,8 +1983,7 @@
                         </figDesc>
                     </figure>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson5_fig20"/>
+                    <figure xml:id="lesson5_fig20">
                         <figDesc>
                             Settimo 
                             esempio. 
@@ -2139,29 +2073,22 @@
                         molto semplici e ha creato un ritmo attraverso una accentua-
                         zione dinamica di chiaro e scuro da un lato delle rette,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig1"></figure>
                     <p>dall’altro dei cerchi:</p>
-                    <figure>
-                        <graphic url=".../lesson6_fig2"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig2"></figure>
                     <p>
                         Ma sono questi due caratteri esempi calzanti di una artico
                         lazione rispettivamente rigida e fluida?
                     </p>
                     <p>Cominciamo dal primo carattere: che cos’è?</p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson6_fig3"/>
-                        <cb n="right"/>
-                        questa è una superficie che si av-
+                        <seg><figure xml:id="lesson6_fig3"></figure></seg> questa è una superficie che si av-
                         vicina all’elemento lineare in direzio-
-                        ne rettilinea così <graphic url="..."/> o così <graphic url="..."/>.
+                        ne rettilinea così <seg><figure xml:id="lesson6_figureA"></figure></seg> o così <seg><figure xml:id="lesson6_figureB"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/> e questo che cos’è?
-                        <cb n="right"/><graphic url=".../lesson6_fig4"/>
+                        e questo che cos’è? <seg><figure xml:id="lesson6_figureC"></figure></seg>
                     </p>
                     <p>
                         Questo è una crescita e decrescita rigidamente articolate 
@@ -2169,12 +2096,10 @@
                     </p>
                     <p>
                         La crescita e la decrescita si sviluppano in direzione oriz-
-                        zontale così <graphic url="..."/> o così <graphic url="..."/> e possono venire rappre-
+                        zontale così <seg><figure xml:id="lesson6_figureD"></figure></seg> o così <seg><figure xml:id="lesson6_figureE"></figure></seg> e possono venire rappre-
                         sentate, per ciò che esprimono, anche nel modo seguente:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig5"></figure>
                     <p>
                         Il primo carattere (fig. 1) corrisponde dunque al compito 
                         assegnato. 
@@ -2184,29 +2109,19 @@
                         scita e decrescita della serie di cerchi corrisponde a quanto 
                         richiesto nel compito?
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig6"></figure>
                     <p>
                         Sì, perché l’articolazione intorno a un punto comune non 
                         può essere definita rigida, tanto più che la fig. 6 permette an
                         che altre interpretazioni, come nella figura 7
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson6_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig7"></figure>
                     <p>o nella figura 8</p>
-                    <figure>
-                        <graphic url=".../lesson6_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig8"></figure>
                 <pb/> 
                     <p> o nelle varianti 7a e 8a</p> 
-                    <figure>
-                        <graphic url=".../lesson6_fig7a"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson6_fig8a"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig7a"></figure>
+                    <figure xml:id="lesson6_fig8a"></figure>
                     <p>
                         Anche la serie dei cerchi come carattere di articolazione 
                         sciolta risponde esattamente al compito assegnato.
@@ -2223,12 +2138,11 @@
                         seguente:
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson6_fig9"/>
-                        <cb n="center"/> l’uno nei confronti l’altro, 
+                        <seg><figure xml:id="lesson6_fig9"></figure></seg>l’uno nei confronti l’altro, 
                     </p>
                     <p>
-                        <cb n="left"/>o in realtà, così:
-                        <cb n="center"/><graphic url=".../lesson6_fig10"/>
+                        o in realtà, così:
+                        <seg><figure xml:id="lesson6_fig10"></figure></seg>
                         <cb n="right"/> E ciò significa?
                     </p>
                 <pb/>
@@ -2239,45 +2153,37 @@
                         lampada con piede, globo e cilindro,
                     </p>
                     <p>
-                        <cb n="left"/><graphic url="..."/><graphic url="..."/>
-                        <cb n="center"/> oppure un vaso panciuto:
-                        <cb n="right"/><graphic url=".../lesson6_fig11"/>
+                        <seg><figure xml:id="lesson6_fig11"></figure></seg><seg><figure xml:id="lesson6_fig11a"></figure></seg>oppure un vaso panciuto:<seg><figure xml:id="lesson6_fig11b"></figure></seg>
                     </p>
                     <p>
-                        <cb n="left"/>oppure un pendolo di orologio
-                        <cb n="center"/><graphic url="..."/>
+                        oppure un pendolo di orologio <seg><figure xml:id="lesson6_fig11c"></figure></seg>
                     </p>
                     <p>
-                        <cb n="center"/>o un oggetto qualsiasi
-                        <cb n="right"/><graphic url="..."/>
+                        o un oggetto qualsiasi <seg><figure xml:id="lesson6_fig11d"></figure></seg>
                     </p>
                     <p>
                         Ma la richiesta: “Composizione di due caratteri” consente 
                         molteplici soluzioni, tranne la fusione in un unico oggetto. 
                     </p>
                     <p>
-                        Pertanto:<graphic url="..."/>opp.<graphic url="..."/>non è un confronto organico tra
-                        il cerchio <graphic url="..."/> e <graphic url="..."/> la retta! 
+                        Pertanto:<seg><figure xml:id="lesson6_figureF"></figure></seg>opp.<seg><figure xml:id="lesson6_figureG"></figure></seg>non è un confronto organico tra
+                        il cerchio <seg><figure xml:id="lesson6_figureH"></figure></seg> e <seg><figure xml:id="lesson6_figureI"></figure></seg> la retta! 
                     </p>
                     <p>
                         Anche la ripetizione di questo motivo non è una soluzione del 
                         compito assegnato!
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig12"></figure>
                     <p>
                         Trasposto nella materia, in modo da avere dei mezzi di ve-
                         rifica più semplici, possiamo rappresentarci questa configu-
                         razione (fig. 12): per esempio una serie di legnetti a forma di 
-                        tasti di peso diverso  su <graphic url="..."/> cui sono sovrapposti
+                        tasti di peso diverso  su <seg><figure xml:id="lesson6_figureJ"></figure></seg> cui sono sovrapposti
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/>
                         fondi di barattolo 
-                        di conserva 
-                        <cb n="right"/><graphic url=".../lesson6_fig13"/>
+                        di conserva <seg><figure xml:id="lesson6_fig13"></figure></seg>
                     </p> 
                     <p>
                         in questo caso non c’è una omogeneità (unità) di oggetti, 
@@ -2285,13 +2191,7 @@
                         cemente sovrapposti, per niente spirituali.
                     </p>
                     <p>In breve:</p>
-                    <figure>
-                        <graphic url=".../lesson6_fig14"/>
-                        <figDesc>
-                            ciò-che-è-senza-relazioni
-                            tra due eterogenei
-                        </figDesc>
-                    </figure>
+                    <figure xml:id="lesson6_fig14"></figure>
                     <p>
                         [NB]
                         Insomma, di nuovo niente! Come bisogna fare, in modo 
@@ -2306,15 +2206,15 @@
                         eterogenei.
                     </p>
                     <p>
-                        <cb n="left"/>
                         (vedi 
-                        fig. 15/ 16, 17)
-                        <cb n="right"/><graphic url=".../lesson6_fig15"/>
+                        fig. 15/ 16, 17) <seg><figure xml:id="lesson6_figureK"></figure></seg>
                     </p>
                 <pb/> 
                     <figure>
-                        <graphic url=".../lesson6_fig16"/>
-                        <graphic url=".../lesson6_fig17"/>
+                        <figure xml:id="lesson6_figureL"></figure>
+                        <figure xml:id="lesson6_fig15"></figure>
+                        <figure xml:id="lesson6_fig16"></figure>
+                        <figure xml:id="lesson6_fig17"></figure>
                     </figure>
                     <p>
                         Che tipo di relazione tra i due caratteri si presenta qui da-
@@ -2332,8 +2232,8 @@
                         (fig. 18 e seguente)
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig18"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig19"/>
+                        <figure xml:id="lesson6_fig18"></figure>
+                        <figure xml:id="lesson6_fig19"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -2342,8 +2242,8 @@
                         cerchio visibilmente soccombe. (fig. 18 e 19)
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig20"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig21"/>
+                        <figure xml:id="lesson6_fig20"></figure>
+                        <figure xml:id="lesson6_fig21"></figure>
                         <figDesc>
                             (20 | 21) Il cerchio soccombe di nuovo.
                         </figDesc>
@@ -2353,8 +2253,8 @@
                         dell’adattamento.
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig22"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig23"/>
+                        <figure xml:id="lesson6_fig22"></figure>
+                        <figure xml:id="lesson6_fig23"></figure>
                         <figDesc>
                             (22 | 23) La lotta viene evitata attraverso l’adattarsi
                         </figDesc>
@@ -2364,16 +2264,15 @@
                         della deviazione delle rette, una volta compiuta lateralmente, 
                         un’altra volta con una separazione della retta.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig24"/>
+                    <figure xml:id="lesson6_fig24">
                         <figDesc>
                             (24) La lotta viene evitata attraverso un adattabile model
                             lamento  della retta al cerchio che a sua volta diventa un’ellisse
                         </figDesc>
                     </figure>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig25"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig26"/>
+                        <figure xml:id="lesson6_fig25"></figure>
+                        <figure xml:id="lesson6_fig26"></figure>
                         <figDesc>
                             (25 | 26) E qui abbiamo la tipologia del reciproco adatta-
                             mento dei due caratteri. Entrambi i partner assumono, ve-
@@ -2456,16 +2355,12 @@
                         Similmente, si riconosce la struttura delle cartilagini, dei 
                         legamenti, dei tendini, dei muscoli etc.
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson6_fig28"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig28"></figure>
                     <p>
                         La struttura dei legamenti è (fig. 28) un tessuto di fibre 
                         tendinose
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig29"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig29"></figure>
                     <p>
                         (29) Le fibre tendinose si trasformano in fibre muscolari, 
                         dove interviene una seconda struttura striata obliqua. 
@@ -2490,9 +2385,7 @@
                 <pb/> 
                     <p>di un sostegno reciproco. Questo viene assicurato dai legamenti.</p> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson6_fig30"/>
-                        <cb n="right"/>
-                        I legamenti colle-
+                        <seg><figure xml:id="lesson6_fig30"></figure></seg>I legamenti colle-
                         gano insieme più ossa, 
                         sono al servizio delle 
                         ossa, la loro funzione 
@@ -2511,35 +2404,24 @@
                         Per questo nello schema delle azioni che voglio fornirvi io 
                         concedo solo poco spazio al legamento, un po’ più di spazio 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig31"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig31"></figure>
                 <pb/> 
                     <p>
                         Se considero il rapporto tra osso e muscolo secondo la 
                         prospettiva dell’organismo cinetico
                     </p> 
                     <p>
-                        <cb n="left"/>
-                        <graphic url=".../lesson6_fig32"/>
-                        K Osso
-                        S Tendine
-                        M muscolo
-                        <cb n="right"/>
-                        mi rendo conto che il 
+                        <seg><figure xml:id="lesson6_fig32"></figure></seg> mi rendo conto che il 
                         tendine svolge una fun-
                         zione mediatrice  simile 
                         a quella svolta dal lega-
                         mento, nella maniera in 
                         cui il muscolo si collega 
                         all’osso.
-                        E come si comporta 
+                        <seg><figure xml:id="lesson6_fig33"></figure></seg>E come si comporta 
                         il muscolo con l’osso?
                     </p>
-                    <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig33"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig33a"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig33a"></figure>
                     <p>
                         (fig. 33/ 33a) Può costringerlo in una nuova posizione. In-
                         fatti il muscolo ha la capacità di contrarsi e dunque accor-
@@ -2562,9 +2444,7 @@
                         Ergo nel mio schema di azione cinetica concedo più spazio al 
                         muscolo, e lascio ai tendini la funzione di mediazione tra i due.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig34"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig34"></figure>
                     <p>
                         I muscoli esercitano una funzione autonoma l’uno ac
                         canto a all’altro,
@@ -2590,9 +2470,7 @@
                     <p>
                         Il nostro schema di azione cinetica si arricchisce ancora.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig35"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig35"></figure>
                 <pb/> 
                     <p>
                         Cosa impariamo (dalla figura 35)? Riconosciamo la rela-
@@ -2607,9 +2485,7 @@
                         nano sempre più dal punto centrale, l’importanza si accresce 
                         procedendo dal centro verso la periferia.
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson6_fig36"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig36"></figure>
                     <p>
                         Alla rappresentazione inversa, concentrica o qualitativa ci 
                         condurrebbe il percorso ideale, che a partire dal cervello ac-
@@ -2625,11 +2501,8 @@
                         dei tendini alle ossa, finché tutta la materia eppure si muove, 
                         nonostante il suo vincolo terrestre.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig37"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig37"></figure>
                     <p>
-                        <cb n="left"/>
                         Esercizio del 20 febbraio 1922
                         Compito: organismo tripartito:
                         I Organo; attivo (cervello)
@@ -2637,8 +2510,7 @@
                         III Organo passivo (osso)
                     </p>
                     <p>
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="lesson6_figureM"></figure></seg>
                         o criterio di misura 
                         secondo il peso:
                         criterio di misura 
@@ -2717,8 +2589,7 @@
                     </p>
                     <p>Primo esempio: il mulino ad acqua</p>
                     <p>
-                        <cb n="left"/>
-                        Organo principale: 
+                        Organo principale: <seg><figure xml:id="lesson7_fig1"></figure></seg>
                         l’acqua;
                         Altri organi: due ruote, 
                         una piccola e una grande, 
@@ -2730,7 +2601,6 @@
                         si arriva a una tripartizione organica.
                         b) errore formale nella figura dell’organo principale, la sua 
                         forma semmai è una
-                        <cb n="right"/><graphic url=".../lesson7_fig1"/>
                     </p>
                 <pb/>
                     <p>
@@ -2742,12 +2612,11 @@
                         c) errore di accentuazione: l’acqua, organo principale, è 
                         trattata con troppa leggerezza dal punto di vista dinamico.
                     </p>
-                    <figure>
+                    <figure xml:id="lesson7_fig2">
                         <figDesc> 
                             Correzione: 
                             (fig. 2)
                         </figDesc>
-                        <graphic url=".../lesson7_fig2"/>
                     </figure>
                     <p>
                         a) Scelta giusta degli organi, secondo la loro relazione reciproca    
@@ -2766,8 +2635,7 @@
                         mediale, III di energia secondaria. 
                     </p>
                     <p>
-                        <cb n="left"/>
-                        Da questa figura do-
+                        Da questa figura do-<seg><figure xml:id="lesson7_fig3"></figure></seg>
                         vrebbero facilmente sal-
                         tare agli occhi i rapporti 
                         erronei illustrati dalla fi-
@@ -2775,7 +2643,6 @@
                         figurazione e l’accentua-
                         zione. Ci troviamo in pre-
                         senza di un caso del tutto
-                        <cb n="right"/><graphic url=".../lesson7_fig3"/>
                     </p>
                 <pb/> 
                     <p>improbabile in cui l’organo mediale diventa il principale.</p>
@@ -2789,23 +2656,17 @@
                         cominciamento originario.
                     </p> 
                     <p>La forza di gravità terrestre ci è nota (fig. 4)</p>
-                    <figure>
-                        <graphic url=".../lesson7_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig4"></figure>
                     <p>
                         altrettanto nota ci è l’orizzontale dello specchio di un’ac-
                         qua “ferma”
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig5"></figure>
                     <p>
                         senza le montagne A e B, che hanno funzione di margini, 
                         l’acqua scorrerebbe verso entrambe le direzioni
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig6"></figure>
                 <pb/>
                     <p>
                         Se ora lasciamo cadere la montagna B e lasciamo in piedi 
@@ -2813,18 +2674,14 @@
                         forze ad agire, in primo luogo la gravità, in secondo luogo la 
                         montagna che fa da ostacolo (fig. 7)
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig7"></figure>
                     <p>
                         e da queste due forze verrà generata una risultante come 
                         diagonale del parallelogrammo delle forze: II la forza dell’ac-
                         qua corrente.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig8"/>
-                        <cb n="right"/>
-                        dal punto di vista 
+                        <seg><figure xml:id="lesson7_fig8"></figure></seg>dal punto di vista 
                         linguistico: I noi trasci-
                         niamo (attivo) 
                         II io mi arrendo, ma 
@@ -2834,9 +2691,7 @@
                         dio) 
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig9"/>
-                        <cb n="right"/>
-                        E qualcuno che pa-
+                        <seg><figure xml:id="lesson7_fig9"></figure></seg>E qualcuno che pa-
                         tisce c’è: III la ruota, 
                         che dice: vengo girata 
                         (passivo) (fig. 9)
@@ -2846,9 +2701,7 @@
                         L’accentuazione errata di questo esempio di variazione ha 
                         questo aspetto:
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson7_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig10"></figure>
                     <p>
                         Altro esempio:  I si prenda come forza attiva il terreno 
                         dal quale il seme germoglia, il complesso di relazioni essendo: 
@@ -2856,9 +2709,7 @@
                         emergere la forma (fig. 11);
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig11"/>
-                        <cb n="right"/>
-                        II venuti alla luce e 
+                        <seg><figure xml:id="lesson7_fig11"></figure></seg>II venuti alla luce e 
                         all’aria aperta si formano gli 
                         organi di respirazione: da 
                         una a due foglie, poi ancora 
@@ -2866,7 +2717,7 @@
                         III come risultato, la fiori-
                         tura,  per cui la pianta è or-
                         mai cresciuta.
-                        <graphic url=".../lesson7_11a"/>
+                        <seg><figure xml:id="lesson7_fig11a"></figure></seg>
                         La falsa accentuazione
                     </p>
                 <pb/> 
@@ -2901,9 +2752,7 @@
                         della vita. Qui non si fa conto di affaticamento, fiacchezza e 
                         interruzione.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig12"></figure>
                 <pb/> 
                     <p>I Il cuore pompa (attivo)</p> 
                     <p>
@@ -2956,9 +2805,7 @@
                         Pietra su pietra, l’opera diviene, o dal blocco: pezzo a 
                         pezzo
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig13"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig13"></figure>
                     <p>
                         E’ il movimento iniziale produttivo, l’inizio dell’azione del 
                         creatore. Già questa azione iniziale è di natura temporale, che 
@@ -3008,9 +2855,7 @@
                         mente, poiché la retina non percepisce l’immagine intera con 
                         la stessa nitidezza; 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig14"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig14"></figure>
                     <p>
                         percepisce uniformemente solo la parte I, vicina al punto 
                         che può essere collegato con una linea retta con il fuoco del 
@@ -3036,19 +2881,14 @@
                         Il fatto che l’immagine nell’occhio si formi rovesciata è ben 
                         nota, ma non cambia nulla di essenziale nel processo descritto.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig15"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig15"></figure>
                     <p>
                         I stadio: Il recettore percepisce la parte centrale I. le parti 
                         II e III si fissano in modo sfocato sulla retina. I muscoli addetti 
                         a sollevare o abbassare lo sguardo non sono coinvolti
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig16"/>
-                    </figure>
                     <p>
-                        <cb n="right"/>
+                        <seg><figure xml:id="lesson7_fig16"></figure></seg>
                         II stadio: 
                         l’occhio del recettore 
                         deve rispondere al desi-
@@ -3068,9 +2908,7 @@
                         re, mentre la III, prima percepibile, per quanto sfocata, esce 
                         dal campo visuale (Gesichtskreis)   III stadio (fig. 17):
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig17"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig17"></figure>
                     <p>
                         L’occhio  deve obbedire al deside-
                         rio del recettore di percepire con piena 
@@ -3116,25 +2954,22 @@
                         propria delle opere realizzate in forma dinamica.
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson7_fig18"/>
-                        <cb n="centre"/><graphic url=".../lesson7_fig19"/>
-                        <cb n="right"/><graphic url=".../lesson7_fig20"/>
+                        <figure xml:id="lesson7_18"></figure>
+                        <figure xml:id="lesson7_19"></figure>
+                        <figure xml:id="lesson7_20"></figure>
                     </figure>
                     <p>
                         Adesso vogliamo esercitare su alcuni esempi concreti ciò 
                         che abbiamo imparato finora.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig21"/>
-                        <cb n="centre"/>
-                        Primo esempio di formazione rigida. Enunciati: 
-                        formazione rigida <graphic url="..."/> 
-                        Impianto verticale <graphic url="..."/>
-                        Articolazione: rigida <graphic url="..."/>
-                        Sviluppo: crescita progressiva: <graphic url="..."/>
-                        Direzione della progressione: <graphic url="..."/>
+                        <seg><figure xml:id="lesson7_21"></figure></seg> Primo esempio di formazione rigida. Enunciati: 
+                        formazione rigida <seg><figure xml:id="lesson7_figureA"></figure></seg>
+                        Impianto verticale <seg><figure xml:id="lesson7_figureB"></figure></seg>
+                        Articolazione: rigida <seg><figure xml:id="lesson7_figureC"></figure></seg>
+                        Sviluppo: crescita progressiva: <seg><figure xml:id="lesson7_figureD"></figure></seg>
+                        Direzione della progressione: <seg><figure xml:id="lesson7_figureE"></figure></seg>
                         dall’altro verso il basso: **** 
-                        <cb n="right"/>
                         Enunciato 
                         ideale: 
                         il pensiero 
@@ -3145,9 +2980,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig22"/>
-                        <cb n="right"/>
-                        Funzione modificata nella ricezione: l’occhio del recettore 
+                        <seg><figure xml:id="lesson7_fig22"></figure></seg>Funzione modificata nella ricezione: l’occhio del recettore 
                         rileva subito la zona più 
                         succulenta del pasco-
                         lo N°1, la compara con 
@@ -3156,22 +2989,18 @@
                         Base in basso.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig23"/>
-                        <cb n="right"/>
-                        Secondo esempio.
-                        Enunciato formale: Formazione: rigida <graphic url="..."/>
-                        Funzioni: impianto verticale <graphic url="..."/>
-                        articolazione rigida <graphic url="..."/>
-                        Sviluppo: crescita progressiva <graphic url="..."/>
-                        Direzione dal basso verso l’alto <graphic url="..."/>
+                        <seg><figure xml:id="lesson7_fig23"></figure></seg>Secondo esempio.
+                        Enunciato formale: Formazione: rigida <seg><figure xml:id="lesson7_figureF"></figure></seg>
+                        Funzioni: impianto verticale <seg><figure xml:id="lesson7_figureG"></figure></seg>
+                        articolazione rigida <seg><figure xml:id="lesson7_figureH"></figure></seg>
+                        Sviluppo: crescita progressiva <seg><figure xml:id="lesson7_figureI"></figure></seg>
+                        Direzione dal basso verso l’alto <seg><figure xml:id="lesson7_figureJ"></figure></seg>
                         Enunciato ideale: superamento della forza di gravità 
                         nella materia. 
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig24"/>
-                        <cb n="right"/>
                         Funzione modificata in senso ricettivo: l’occhio del recet-
-                        tore conduce al luogo del 
+                        <seg><figure xml:id="lesson7_fig24"></figure></seg>tore conduce al luogo del 
                         pascolo dove l’erba cre-
                         sce più fitta, N°1, la com
                         para con N°2, e compara 
@@ -3180,18 +3009,16 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig25"/>
-                        <cb n="right"/>
-                        Terzo esempio.
+                        <seg><figure xml:id="lesson7_fig25"></figure></seg>Terzo esempio.
                         Enunciato formale: 
-                        formazione: rigida <graphic url="..."/>
-                        Funzioni: impianto <graphic url="..."/>
+                        formazione: rigida <seg><figure xml:id="lesson7_figureK"></figure></seg>
+                        Funzioni: impianto <seg><figure xml:id="lesson7_figureL"></figure></seg>
                         verticale 
-                        Articolazione rigida <graphic url="..."/>
+                        Articolazione rigida <seg><figure xml:id="lesson7_figureM"></figure></seg>
                         Sviluppo: crescita 
-                        progressiva e progressiva <graphic url="..."/>
+                        progressiva e progressiva <seg><figure xml:id="lesson7_figureN"></figure></seg>
                         decrescita
-                        Direzione della crescita <graphic url="..."/>
+                        Direzione della crescita <seg><figure xml:id="lesson7_figureO"></figure></seg>
                         dall’alto verso il centro e 
                         dal basso verso il centro
                         (Direzione della 
@@ -3200,18 +3027,13 @@
                         verso il basso) 
                     </p>
                     <p>
-                        <cb n="right"/>
                         Enunciato ideale: combinazione della  
                         concezione materiale e idealistica.
+                        <seg><figure xml:id="lesson7_figureP"></figure></seg>ideale
+                        <seg><figure xml:id="lesson7_figureQ"></figure></seg>>materiale
                     </p>
                     <p>
-                        <cb n="center"/><graphic url="..."/>ideale
-                        <cb n="right"/><graphic url="..."/>materiale
-                    </p>
-                    <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig26"/>
-                        <cb n="right"/>
-                        Funzione modificata 
+                        <seg><figure xml:id="lesson7_fig26"></figure></seg>Funzione modificata 
                         nella ricezione: l’oc-
                         chio del recettore 
                         viene catturato dai 
@@ -3223,22 +3045,18 @@
                     </p>
                 <pb/> 
                     <p>Quarto esempio.</p>
-                    <figure>
-                        <graphic url=".../lesson7_fig27"/>
-                    </figure> 
-                    <p>Enunciato formale:<graphic url="..."/></p>  <!--segnalo un problema nella collocazione delle immagini: cfr facsimile tedesco, facsimile inglese e coerenza rispetto agli esempi precedenti-->
-                    <p>Formazione: rigida<graphic url="..."/></p>
+                    <figure xml:id="lesson7_fig27"></figure> 
+                    <p>Enunciato formale:</p> 
+                    <p>Formazione: rigida<seg><figure xml:id="lesson7_figureR"></figure></seg></p>
                     <p>
-                        Funzioni: Impianto: diagonale<graphic url="..."/>
-                        Articolazione: rigida
+                        Funzioni: Impianto: diagonale<seg><figure xml:id="lesson7_figureS"></figure></seg>
+                        Articolazione: rigida <seg><figure xml:id="lesson7_figureT"></figure></seg>
                     </p>
-                    <p>Sviluppo: crescita e decrescita<graphic url="..."/></p>
-                    <p>Direzione della crescita: dall’esterno verso l’interno<graphic url="..."/></p>
+                    <p>Sviluppo: crescita e decrescita<seg><figure xml:id="lesson7_figureU"></figure></seg></p>
+                    <p>Direzione della crescita: dall’esterno verso l’interno <seg><figure xml:id="lesson7_figureW"></figure></seg></p>
                 <pb/> 
                     <p>Funzione ricettiva:</p>
-                    <figure>
-                        <graphic url=".../lesson7_fig28"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig28"></figure>
                     <p>
                         L’occhio del recettore viene catturato dal peso principale 
                         1 in misura rafforzata, poiché tale peso si trova anche nel luo-
@@ -3269,12 +3087,12 @@
                         Funzioni della seconda parte
                     </p>
                     <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="left"/><seg><figure xml:id="lesson7_figureX"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson7_figureY"></figure></seg>
                     </p>
                     <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="left"/><seg><figure xml:id="lesson7_figureZ"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson7_figureAA"></figure></seg>
                     </p>
                     <p>
                         III eventualmente combinazioni di I e II, dove avviene la su
@@ -3353,9 +3171,7 @@
                         dovesse venire prodotta con entrambe le mani simultanea-
                         mente.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig1"></figure>
                     <p>
                         Una configurazione che consiste dei fattori “in primo luo-
                         go”, “in secondo luogo”, e in terzo luogo. Come questo pro-
@@ -3369,16 +3185,15 @@
                     </p>
                     <p> L’occhio salta eccitato verso l’energia più forte</p>
                     <p>
-                        <cb n="left"/> “in primo luogo” 
-                        <cb n="right"/><graphic url="..."/>
+                        “in primo luogo” <seg><figure xml:id="lesson8_figureA"></figure></seg>
                     </p>
                     <p>
-                        <cb n="left"/>con cui compara “in secondo luogo”
-                        <cb n="right"/><graphic url="..."/>
+                        con cui compara “in secondo luogo”
+                        <seg><figure xml:id="lesson8_figureB"></figure></seg>
                     </p>
                     <p>
-                        <cb n="left"/> e poi “in terzo luogo,
-                        <cb n="right"/><graphic url=".../lesson8_fig2"/>
+                        e poi “in terzo luogo,
+                        <seg><figure xml:id="lesson8_fig2"></figure></seg>
                     </p>
                     <p>
                         ciò che di nuovo significa una successione o un movimen-
@@ -3392,11 +3207,11 @@
                         immagine lineare (lineares Bild).
                     </p>
                     <p>
-                        [Nota: <graphic url="..."/> Là, pensare le superfici come superfici atti-
+                        [Nota: <seg><figure xml:id="lesson8_figureC"></figure></seg> Là, pensare le superfici come superfici atti-
                         ve e qui come linee attive, che (ovviamente!) da entrambe le 
                         parti non sono più dipendenti l’una dall’altra come nel modo 
-                        di rappresentazione reso in passato, e qui <graphic url="..."/> le linee passi-
-                        ve dipendono dalla superficie attiva e come qui: <graphic url="..."/>
+                        di rappresentazione reso in passato, e qui <seg><figure xml:id="lesson8_figureD"></figure></seg> le linee passi-
+                        ve dipendono dalla superficie attiva e come qui: <seg><figure xml:id="lesson8_figureE"></figure></seg>
                         dove la superficie rispetto alle linee è risultato, ovvero 
                         passiva] dunque: là superfici attive, e qui linee attive, funzio-
                         nalmente connesse le une alle altre.
@@ -3409,9 +3224,7 @@
                         decrescente nei confronti del valore di base fondamentale. 
                         L’ordine di priorità e di gerarchia coincidono. 
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson8_fig3"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig3"></figure>
                     <p>
                         Queste forme rosse di forza decrescente sono espressione 
                         della funzione dei tre valori della nostra immagine produttiva 
@@ -3424,9 +3237,7 @@
                         traverso un nuovo prodotto.
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson8_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig4"></figure>
                     <p>
                         Questo nuovo prodotto è composto di nove valori graduati 
                         gli uni in rapporto agli altri, che io per semplificare la rappre-
@@ -3441,9 +3252,7 @@
                         mente si allontanano.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson8_fig5"/>
-                        <cb n="right"/>
-                        dove comunque si continueran-
+                        <seg><figure xml:id="lesson8_fig5"></figure></seg>dove comunque si continueran-
                         no a tenere in considerazione le dia-
                         gonali. E in questo modo è pronto il 
                         piano su cui dovrà svolgersi l’azione 
@@ -3469,9 +3278,7 @@
                         condo luogo”, e poi si dirige verso i restanti valori secondo 
                         una scala graduata sempre più verso i valori scuri.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig6"/>
-                    </figure> 
+                    <figure xml:id="lesson8_fig6"></figure> 
                 <pb/> 
                     <p>
                         In questo modo la via lungo i singoli punti stimolatori si 
@@ -3479,9 +3286,7 @@
                         ti stimolatori si allontanano progressivamente dal centro pur 
                         sempre tenendo presente le relazioni con esso.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig7"></figure>
                     <p>
                         Il prodotto (fig. 4) consisteva di forme solennemente fisse 
                         e quiete, il suo recepito [Recept], ovvero la funzione di quella 
@@ -3495,9 +3300,7 @@
                         estratto, tanto più pure saranno queste forme cinetiche.
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson8_fig8"/>
-                    </figure> 
+                    <figure xml:id="lesson8_fig8"></figure> 
                     <p>
                         Questo nuovo prodotto, contrariamente ai precedenti, 
                         mostra una più discontinua disposizione dei valori. La pasto-
@@ -3517,10 +3320,10 @@
                         ne di priorità e di successione gerarchica non sono identici.
                     </p>
                 <pb/> 
-                    <p>
-                        <cb n="left"/><graphic url=".../lesson8_fig9"/>
-                        <cb n="right"/><graphic url=".../lesson8_fig10"/>
-                    </p>
+                    <figure>
+                        <figure xml:id="lesson8_fig9"></figure>
+                        <figure xml:id="lesson8_fig10"></figure>
+                    </figure>
                     <p>
                         Come secondo schema scelgo un prodotto più drammati-
                         co, di valore principale all’interno, dunque uno schema cen-
@@ -3535,20 +3338,18 @@
                         [Recept], che, è ovvio, internamente si somigliano come due 
                         gocce d’acqua.
                     </p>
-                    <figure>
+                    <figure xml:id="lesson8_fig11">
                         <figDesc> 
                             Schema I
                             prodotto fig 8
                         </figDesc>
-                        <graphic url=".../lesson8_fig11"/>
                     </figure>
                 <pb/> 
-                    <figure>
+                    <figure xml:id="lesson8_fig12">
                         <figDesc> 
                             Schema II
                             prodotto fig 8
                         </figDesc>
-                        <graphic url=".../lesson8_fig12"/>
                     </figure> 
                     <p>
                         Giunti alla forma mossa [bewegte Form], vogliamo ora sta-
@@ -3558,13 +3359,11 @@
                         Il movimento di un elemento formale, che conduce alla 
                         creazione di un nuovo elemento formale, non ha ancora biso-
                         gno di produrre una forma mossa. Il movimento del punto che 
-                        diventa una retta matematica è <graphic url="..."/>
+                        diventa una retta matematica è <seg><figure xml:id="lesson8_figureF"></figure></seg>
                         certamente un’azione cinetica, ma non è una forma cinetica. 
                     </p>
                     <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/>
-                        Per giunta la stessa linea che si sposta generan-
+                        <seg><figure xml:id="lesson8_figureG"></figure></seg>Per giunta la stessa linea che si sposta generan-
                         do superficie non è una linea mossa, in quanto 
                         essa non è più linea bensì superficie. Ma anche la
                     </p>
@@ -3588,9 +3387,7 @@
                         Forse però la rappresentazione qui sotto ha in sé qualcosa 
                         di rassicurante:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig13"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig13"></figure>
                     <p>
                         questo piccolissimo edificio poggiato su un piccolissimo pie-
                         de deve restare in piedi! Non sarà certo cosa facile. E allora a me 
@@ -3626,9 +3423,7 @@
                         equilibrio su un punto e prendendo lo slancio mettiamolo in 
                         movimento su se stesso
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig14"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig14"></figure>
                     <p>
                         Questo si chiama trottola, la trottola che, come sa ogni 
                         bambino, non cade finché il movimento dura, fino a che dura 
@@ -3637,13 +3432,10 @@
                         te, che sa l’arte del funambolo.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson8_fig15"/>
-                        <cb n="center"/>
-                        Con questo pensiero, rassi-
+                        <seg><figure xml:id="lesson8_fig15"></figure></seg>Con questo pensiero, rassi- <seg><figure xml:id="lesson8_fig16"></figure></seg>
                         curante in linea di principio, an-
                         diamo ora in cerca del sostituto 
                         della “obsoleta” bilancia.
-                        <cb n="right"/><graphic url=".../lesson8_fig16"/>
                     </p>
                     <p> il pendolo</p>
                     <p>
@@ -3660,10 +3452,9 @@
                         subito il suo uguale e contrario contromovimento.
                     </p> 
                     <p>
-                        <cb n="left"/> <graphic url=".../lesson8_fig17a"/> movimento
-                        <cb n="center"/> <graphic url=".../lesson8_fig17b"/>contromovimento
-                        <cb n="right"/> <graphic url=".../lesson8_fig17c"/>
-                        compensazione 
+                        <seg><figure xml:id="lesson8_figure17a"></figure></seg> movimento
+                        <cb n="center"/><seg><figure xml:id="lesson8_fig17b"></figure></seg>contromovimento
+                        <cb n="right"/><seg><figure xml:id="lesson8_figure17c"></figure></seg> compensazione 
                         del movimento
                     </p>
                     <p>
@@ -3673,9 +3464,8 @@
                         nuale percepita assai sottilmente.
                     </p>
                     <p>
-                        <cb n="left"/>
-                         Prendiamo un capello 
-                        molto lungo [un capello di 
+                        Prendiamo un capello 
+                        molto lungo [un capello di <seg><figure xml:id="lesson8_fig18"></figure></seg>
                         Melisanda], e guidiamo il 
                         piombo senza forzare, con 
                         sensibilità.
@@ -3684,7 +3474,6 @@
                         bo ci descrive da sé sia il 
                         movimento che il contro-
                         movimento.
-                        <cb n="right"/><graphic url=".../lesson8_fig18"/>
                     </p>
                 <pb/> 
                     <p>
@@ -3694,9 +3483,7 @@
                         ciascuna forma del vagare. 
                     </p> 
                     <p>Qui p. es. la scrittura del pendolo è espressione mossa del-</p>
-                    <figure>
-                        <graphic url=".../lesson8_fig19"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig19"></figure>
                     <p>
                         le rette verticali, e noi giungiamo a una variante mossa della 
                         costruzione statica.
@@ -3725,7 +3512,7 @@
                     </p> 
                     <p>il pendolo si slancia intorno a se stesso formando un cerchio</p>
                     <figure>
-                        <graphic url=".../lesson8_fig20"/>
+                        <figure xml:id="lesson8_fig20"></figure>
                         <figDesc>togliere qui la forza di gravità</figDesc>
                     </figure>
                     <p>
@@ -3734,7 +3521,7 @@
                         nuove condizioni rinuncia al contromovimento
                     </p>
                     <figure>
-                        <graphic url=".../lesson8_fig21"/>
+                        <figure xml:id="lesson8_fig21"></figure>
                         <figDesc>
                         movimento circolare 
                         del pendolo
@@ -3755,10 +3542,10 @@
                         gusti, finché il leggiadro spettacolo non va a morire tornando 
                         indietro nel punto.
                     </p>
-                    <p>
-                        <cb n="left"/><graphic url=".../lesson8_fig22"/>
-                        <cb n="right"/><graphic url=".../lesson8_fig23"/>
-                    </p>
+                    <figure>
+                        <figure xml:id="lesson8_fig22"></figure>
+                        <figure xml:id="lesson8_fig22a"></figure>
+                    </figure>
                     <p>
                         Quest’ultima è la storia della spirale. Il suo movimento non 
                         è più infinito, riposando in sé, per cui di nuovo si presenta 
@@ -3774,16 +3561,14 @@
                         finché alla fine non mi ingoia completamente?
                     </p> 
                     <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <seg><figure xml:id="lesson8_figureH"></figure></seg>
+                        <seg><figure xml:id="lesson8_figureI"></figure></seg>
                         movimento radiale a 
                         partire da C
                     </p>
                     <p>
-                        <cb n="left"/>oppure<graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <seg><figure xml:id="lesson8_figureJ"></figure></seg>
+                        <seg><figure xml:id="lesson8_figureK"></figure></seg>
                         movimento  
                         radiale in  
                         direzione di C.
@@ -3802,8 +3587,7 @@
                         na a zampillo, le forze idrauliche come impianto e principal-
                         mente come un funzionamento mosso.
                     </p>
-                    <figure>
-                        <graphic url="..."/>
+                    <figure xml:id="lesson8_figureL">
                         <figDesc>(Soluzione: schema del compito)</figDesc>
                     </figure>
             </div>
@@ -3834,9 +3618,7 @@
                         il suo breve viaggio ha bisogno di forza e direzione, direzione 
                         fino al punto d’impatto e forza che lo porti anche oltre ad esso.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig1"></figure>
                     <p>Non tanto la poco precisa possibilità di centrarlo, quanto </p>
                 <pb/> 
                     <p>
@@ -3855,9 +3637,7 @@
                         recchiatura un moto centrifugo, che aumentava fino a quando 
                         i proiettili non si distaccavano dal loro sostegno.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig2"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig2"></figure>
                     <p>
                         E’ ovvio: l’effetto era grande e stupefacente. Non avevamo 
                         più bisogno, come nel lancio dei sassi, di muovere in braccio 
@@ -3881,12 +3661,10 @@
                     <p>
                         poteva essere migliorata. Potemmo constatarlo quando pas
                         sammo alla fionda elastica. Tagliavamo ora rametti di arbusto 
-                        biforcati <graphic url="..."/> e vi fissavamo alle
+                        biforcati <seg><figure xml:id="lesson9_figureA"></figure></seg> e vi fissavamo alle
                     </p>
                     <p>estremità degli elastici</p>
-                    <figure>
-                        <graphic url=".../lesson9_fig3"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig3"></figure>
                     <p>
                         in grado di estendersi molto, in modo da dare una forza 
                         non trascurabile e una direzione controllabile al proiettile 
@@ -3894,9 +3672,7 @@
                         do alla pietra una specie di freccia, che si poteva fabbricare 
                         usando uno spillone per capelli.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig4"></figure>
                     <p>
                         Un filetto di lana colorata serviva da timone, per tenere la 
                         freccia, oltre che da ornamento.
@@ -3905,9 +3681,7 @@
                         Assomigliava a un arco per frecce, di cui pure, diligente-
                         mente ci servivamo – è ovvio.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig5"></figure>
                 <pb/> 
                     <p>
                         Gli obiettivi del risparmio di energia e del miglioramento 
@@ -3918,9 +3692,9 @@
                         ceva l’attrito, e la forma allungata e rettilinea facilitava la mira 
                         e contribuiva a mantenere la direzione impressa. La freccia 
                         era lì; la freccia come 
-                        asticciola: <graphic url="..."/>
-                        punta: <graphic url="..."/>
-                        aletta timoniera: <graphic url="..."/>
+                        asticciola: <seg><figure xml:id="lesson9_figureB"></figure></seg>
+                        punta: <seg><figure xml:id="lesson9_figureC"></figure></seg>
+                        aletta timoniera: <seg><figure xml:id="lesson9_figureD"></figure></seg>
                     </p>  
                     <p>
                         L’arco munito di mirino per un ultimo perfezionamento 
@@ -3942,9 +3716,7 @@
                         mente, esso rappresenta una essenziale innovazione: il suo 
                         movimento bidimensionale.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig6"></figure>
                     <p>
                         Le scannellature, i tratti mossi, all’interno della canna di 
                         fucile imprimono al colpo sparato un movimento rotatorio.
@@ -3963,7 +3735,7 @@
                         Il padre di ogni proiettile mosso o lanciato, e anche della frec-
                         cia, era il pensiero: come estendo il mio raggio d’azione fin lag-
                         giù? Oltre questo fiume, oltre questo lago? oltre questo monte?
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson9_figureE"></figure></seg>
                         fin laggiù?
                     </p>
                     <p>
@@ -3990,9 +3762,7 @@
                         parti prende coscienza della tragedia del proprio essere metà 
                         attraverso la percezione del proprio partner.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig7"></figure>
                 <pb/> 
                     <p>
                         Più lungo il viaggio da qui a lì, più avvertibile il tragico. 
@@ -4015,9 +3785,9 @@
                         se doveste stancarvi e non arrivare mai!&gt;
                     </p>
                     <p>
-                        Asticciola: <graphic url="..."/>
-                        Punta: <graphic url="..."/>
-                        Aletta timoniera: <graphic url="..."/>
+                        Asticciola: <seg><figure xml:id="lesson9_figureF"></figure></seg>
+                        Punta: <seg><figure xml:id="lesson9_figureG"></figure></seg>
+                        Aletta timoniera: <seg><figure xml:id="lesson9_figureH"></figure></seg>
                     </p>
                     <p>
                         Un’autentica freccia africana come questa è fatta di astic-
@@ -4037,16 +3807,14 @@
                     </p>
                     <p> 
                         La nostra freccia ha dunque il seguente aspetto:
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson9_figureI"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         Lunghezza uguale delle punte e uguali aperture angolari 
                         dell’asticciola orizzontale producono una traiettoria orizzontale
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig8"></figure>
                     <p>
                         supposto che la lunghezza a=b e poi angolo alpha = beta si 
                         ottiene una traiettoria orizzontale. 
@@ -4055,12 +3823,8 @@
                         Lunghezza e distanza angolare delle punte disuguali pro-
                         ducono una traiettoria curvata verso l’alto o verso il basso.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig9"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson9_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig9"></figure>
+                    <figure xml:id="lesson9_fig10"></figure>
                     <p>
                         Alla base di ciò è la legge del parallelogrammo delle forze, 
                         e si manifesta molto bene in una delle sue parti, quella che 
@@ -4083,9 +3847,7 @@
                         da quella aletta-punta che presenti il maggiore scarto rispetto 
                         all’orizzontale.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig11"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig11"></figure>
                     <p>
                         Quanto più forte sarà l’aletta ascendente, tanto più in alto 
                         salirà la traiettoria, quanto più forte l’aletta discendente, tan-
@@ -4098,22 +3860,16 @@
                         carica di peso l’aletta inferiore, a causa del rallentamento do-
                         vuto a ostacoli o attrito.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig12"></figure>
                     <p>
                         E’ per questo che la curva terrestre si presenta come mo-
                         vimento finito, 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig13"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig13"></figure>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson9_fig14"/>
-                        <cb n="right"/>
                         dove la fine in pratica arriva con l’impatto sulla superficie 
                         terrestre, e teoricamente con il centro della sfera terrestre. Al 
-                        contrario, la curva co-
+                        <seg><figure xml:id="lesson9_fig14"></figure></seg>contrario, la curva co-
                         smica che si allontana 
                         dalla Terra si presenta 
                         come movimento infini-
@@ -4131,16 +3887,12 @@
                         Ci si può rappresentare un simile movimento circolare 
                         come un progressivo avvitamento
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig15"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig15"></figure>
                     <p>
                         il che proiettato sul piano si trasforma in spirale dal movi
                         mento positivo,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig16"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig16"></figure>
                     <p>
                         Ma se si immagina il caso contrario, che una stella orbitan-
                         te si avvicini troppo a un’altra stella più grande, tanto che i 
@@ -4156,9 +3908,7 @@
                         incontro alla catastrofe.
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson9_fig17"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig17"></figure>
                     <p>
                         Chi voglia provare le stesse sensazioni, immagini di essere 
                         una sfera che corre con slancio centrifugo lungo la parete inter-
@@ -4170,12 +3920,8 @@
                         da qualche parte una porta, se qualche nuova forza di repul-
                         sione o di attrazione non si manifesti, come qui:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig18"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson9_fig19"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig18"></figure>
+                    <figure xml:id="lesson9_fig19"></figure>
                 <pb/> 
                     <p>
                         come in questo caso, dove per intervento di una nuova forza, 
@@ -4186,16 +3932,14 @@
                         Con questo processo nell’occhio passiamo dal simbolo allo 
                         schema composizionale.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig20"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig20"></figure>
                     <p>
                         analiticamente come cause: A 1 e A 2  come forme concen-
                         triche e B come forza eccentrica, schematizzo sinteticamen-
                         te come causa A la spirale di movimento negativa con la sua 
                         uscita d’emergenza come effetto B. Premetto che conside-
                         rata in sé, in piccolo, la freccia era già una sintesi di causa 
-                        ed effetto <graphic url="..."/>
+                        ed effetto <seg><figure xml:id="lesson9_figureJ"></figure></seg>
                     </p>
                     <p>
                         Le due alette laterali, o i due lati del parallelogrammo del-
@@ -4207,9 +3951,7 @@
                         la risultante diagonale del parallelogrammo delle forze che 
                         determinano la direzione
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureK"></figure>
                     <p>
                         poteva venire osservata indipendentemente da queste, in 
                         quanto effetto della direzione.
@@ -4234,9 +3976,7 @@
                         dopo Pasqua suonerà più o meno così:
                     </p>
                     <p> Stabilire e dare forma alle cause di questo effetto:</p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureL"></figure>
                     <p>
                         supponendo che vi sia ora chiaro quello che intendo, passo 
                         dall’impianto di composizione schematica alla configurazione 
@@ -4244,9 +3984,7 @@
                     </p>
                 <pb/> 
                     <p>La causa A 1 aveva schematicamente all’incirca questa forma,</p>
-                    <figure>
-                        <graphic url=".../lesson9_fig21"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig21"></figure>
                     <p>
                         La forma di un corno, che si apriva largo in basso a sinistra 
                         per poi finire, acuminato, in alto a destra in un punto C.
@@ -4255,9 +3993,7 @@
                         Oppure, se unisco tutte le particelle derivanti, la forma 
                         seguente: 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig22"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig22"></figure>
                     <p>
                         Ciò comporta riguardo al dar forma uno sviluppo o un ac-
                         crescimento di energia da sinistra in basso con impostazione 
@@ -4287,44 +4023,32 @@
                         Data sia: l’acqua; sopraggiungente il fuoco. Il caso si presen-
                         terà così: 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig23"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig23"></figure>
                     <p>
                         oppure, dal punto di vista cromatico: dato: verde, soprag
                         giungente: rosso
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig24"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig24"></figure>
                 <pb/> 
                     <p>
                         Un tale movimento si chiama “riscaldamento” La freccia 
                         tabellare  di riscaldamento, a partite dal dato “freddo”, si raf
                         figura così:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig25"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig25"></figure>
                     <p>
                         Il movimento opposto, la cui premessa è la parola “al fuo-
                         co! brucia!”, si chiama “raffreddamento”
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig26"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig26"></figure>
                     <p>
                         Dato è il fuoco, l’acqua sopraggiunge e in primo luogo pro-
                         duce vapore, l’acqua domina il fuoco, finché la casa in fiamme 
                         non finisce sott’acqua.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig27"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig27"></figure>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson9_fig28.1"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig28.1"></figure>
                     <p>
                         Consideriamo ancora brevemente i movimenti di chiaro-
                         scuro cromatico:
@@ -4332,7 +4056,7 @@
                     <p>
                         Il crescendo del rosso. Data è la mancanza di rosso, cioè 
                         molto poco rosso 
-                        <graphic url=".../lesson9_fig28.2"/>
+                        <seg><figure xml:id="lesson9_fig28.2"></figure></seg>
                     </p>
                     <p>
                         o al contrario diminuzione del rosso, con tutte le altre pos-
@@ -4350,14 +4074,12 @@
                         geranno i contromovimenti, o se conseguirà una soluzione di 
                         movimento infinito.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig29"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig29"></figure>
                     <p>
                         Ci torna davanti agli occhi il movimento oscillatorio del 
                         pendolo. E’ proprio  questa la compen-
                         sazione cinetica di errori o eccessi di
-                        movimento che av- <graphic url="..."/> viene attraverso 
+                        movimento che av- <seg><figure xml:id="lesson9_figureM"></figure></seg> viene attraverso 
                         l’antitesi di nuovi errori ed eccessi. 
                         Casi analoghi nel capitolo sull’equili-
                         brio statico (p. 37).
@@ -4380,39 +4102,29 @@
                         può avvenire da sinistra verso destra oppure da destra verso 
                         sinistra. Così si prepara un centro, il grigio centrale
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig30"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig30"></figure>
                     <p>
                         Rappresentato in modo sempre più puro, il grigio diventa 
                         sempre più stretto, teoricamente si riduce addirittura fino a 
                         un punto. Infatti a sinistra del punto grigio domina
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureN"></figure>
                     <p>
                         sempre ancora il verde e a destra sempre ancora il rosso. 
                         Attraverso la purificazione nella rappresentazione del grigio 
                         le scale cinetiche
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig31"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig31"></figure>
                     <p> di verde |rosso e di violetto | giallo si trovano incurvate.</p>
                     <p>
                         Ma se io lascio che la purezza del grigio si compia nel pun-
                         to, ecco che si impone la trasposizione diagonale di queste 
                         due  scale.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig32"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig32"></figure>
                 <pb/> 
                     <p>Giungiamo così all’ethos cromatico, al cerchio di colori</p>
-                    <figure>
-                        <graphic url=".../lesson9_fig32a"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig32a"></figure>
                     <p>
                         La freccia è del tutto scomparsa, non si dice più “fin lì”, ma 
                         “dappertutto”, e anche “lì”.
@@ -4446,9 +4158,7 @@
                         4. All’inizio dello scorso semestre ho cominciato con il mo-
                         vimento semplice e in sé riposante della linea:
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureO"></figure>
                     <p>
                         ho mostrato con alcuni esempi come sia possibile “accom-
                         pagnare questa melodia”, o come la si possa trascrivere in 
@@ -4456,9 +4166,7 @@
                         termini).
                     </p>
                     <p> Poi ho fissato la linea su singoli punti </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureP"></figure>
                     <p>che le hanno conferito questo carattere conciso e  cadenzato.</p>
                     <p>
                         Poi ho mosso il passo verso la prima fondamentale diffe-
@@ -4467,8 +4175,8 @@
                 <pb/> 
                     <p>riportando indietro la linea verso il proprio punto di partenza:</p>
                     <p>
-                        <cb n="left"/>libera: <graphic url="..."/>
-                        <cb n="right"/>cadenzata: <graphic url="..."/>
+                        <cb n="left"/>libera: <seg><figure xml:id="lesson9_figureQ"></figure></seg>
+                        <cb n="right"/>cadenzata: <seg><figure xml:id="lesson9_figureR"></figure></seg><seg><figure xml:id="lesson9_figureS"></figure></seg>
                     </p>
                     <p>
                         Qui non si poteva più parlare di effetto elementare e line-
@@ -4481,22 +4189,13 @@
                         tali superfici elementari non nascono da una circoscrizione 
                         di linee  (ovvero movimento del punto), quanto invece da un 
                         movimento delle linee, trascinate per ottenere questo effetto 
-                    </p>
-                    <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
-                    </p>
-                    <p>
-                        <cb n="left"/>oppure ruotate<graphic url="..."/>
-                        <cb n="right"/>per ottenere<graphic url="..."/>
-                    </p>
-                    <p> questo effetto. Si tratta dunque di una tale figura:</p>
-                    <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
-                    </p>
-                    <p>
+                        <seg><figure xml:id="lesson9_figureT"></figure></seg>
+                        <seg><figure xml:id="lesson9_figureU"></figure></seg>
+                        oppure ruotate<seg><figure xml:id="lesson9_figureV"></figure></seg> per ottenere <seg><figure xml:id="lesson9_figureW"></figure></seg>
+                        questo effetto. Si tratta dunque di una tale figura:
+                        <cb n="left"/><seg><figure xml:id="lesson9_figureX"></figure></seg>
+                        <cb n="center"/><seg><figure xml:id="lesson9_figureY"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson9_figureZ"></figure></seg>
                         che, considerata in modo elementare, non è né linea né 
                         superficie, ma una qualche via di mezzo tra le due. Nasce in 
                         modo lineare, come movimento del punto, finendo come su-
@@ -4504,14 +4203,14 @@
                     </p>
                     <p> Dobbiamo dunque distinguere fra tre caratteri</p>
                     <p>
-                        <cb n="left"/>I lineare <graphic url="..."/><graphic url="..."/>
+                        I lineare <seg><figure xml:id="lesson9_figureAA"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/>II mediale <graphic url="..."/><graphic url="..."/><graphic url="..."/><graphic url="..."/>
+                        II mediale <seg><figure xml:id="lesson9_figureAB"></figure></seg><seg><figure xml:id="lesson9_figureAC"></figure></seg><seg><figure xml:id="lesson9_figureAD"></figure></seg><seg><figure xml:id="lesson9_figureAE"></figure></seg>
                     </p>
                     <p>
-                        <cb n="left"/>III e piano <graphic url="..."/><graphic url="..."/><graphic url="..."/>
+                        III e piano <seg><figure xml:id="lesson9_figureAF"></figure></seg><seg><figure xml:id="lesson9_figureAG"></figure></seg><seg><figure xml:id="lesson9_figureAH"></figure></seg>
                     </p>
                     <p>
                         Laddove I e III sono caratteri principali elementari, II è un 
@@ -4521,9 +4220,9 @@
                         <cb n="left"/>
                         Dal punto di vista lineare 
                         questo carattere è:
-                        <graphic url="..."/> <graphic url="..."/> attivo
-                        quest'altro <graphic url="..."/> mediale
-                        e questo <graphic url="..."/> passivo
+                        <seg><figure xml:id="lesson9_figureAI"></figure></seg><seg><figure xml:id="lesson9_figureAJ"></figure></seg> attivo
+                        quest'altro <seg><figure xml:id="lesson9_figureAK"></figure></seg> mediale
+                        e questo <seg><figure xml:id="lesson9_figureAL"></figure></seg> passivo
                         E cioè:  nel carattere attivo 
                         lavora il punto e l’effetto è li-
                         neare, conformemente al mo-
@@ -4542,10 +4241,10 @@
                         <cb n="right"/>
                         Dal punto di vista della 
                         superficie
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson9_figureAM"></figure></seg>
                         questo carattere è passivo
-                        questo <graphic url="..."/> medio
-                        e questo <graphic url="..."/> attivo
+                        questo <seg><figure xml:id="lesson9_figureAN"></figure></seg> medio
+                        e questo <seg><figure xml:id="lesson9_figureAO"></figure></seg> attivo
                     </p>
                     <p>
                         I punti di vista stanno dunque diametralmente l’uno op-
@@ -4553,9 +4252,7 @@
                         illustrare questo fenomeno ci serviamo del seguente schema
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureAP"></figure>
                     <p>
                         (Nota. Analogia linguistica
                         attivo: io taglio la legna: L’uomo tagliò l’albero con l’ascia
@@ -4923,9 +4620,7 @@
                         informazioni analitiche in proposito, in parte riguardo alla for-
                         ma, in parte riguardo al contenuto.
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureAQ"></figure>
                 <pb/> 
             </div>
             <div xml:id="div_Klee_lesson10">
@@ -4946,7 +4641,7 @@
                     </p>
                     <p>Lez. inaug.  Il nostro compito di oggi sarà</p>
                     <p>
-                        La prima parte del mio compito odierno sarà: costruire <graphic url="..."/>
+                        La prima parte del mio compito odierno sarà: costruire <seg><figure xml:id="lesson10_figureA"></figure></seg>
                         una specie di ideale scatola dei colori, in cui i colori trovino 
                         una sistemazione ragionata, una specie di cassetta degli at
                         trezzi, se volete.
@@ -4988,9 +4683,7 @@
                         dell’arcobaleno?? … Vi si legge di solito una serie di colori, e 
                         per la precisione i sette colori chiamati 
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson10_figureB"></figure>
                     <p>
                         e la cifra sette è universalmente piaciuta. C’erano anche, lo 
                         sappiamo,  le sette note fondamentali in musica, si diceva a 
@@ -5012,21 +4705,17 @@
                         Essenziale è, per prima cosa, il fatto che nell’arcobaleno i 
                         colori appaiono in rappresentazione lineare. Questo non biso-
                         gna dimenticarlo: che lì un punto giallo avanza in progressio-
-                        <cb n="left"/><graphic url=".../lesson10_fig1"/>
-                        <cb n="right"/>
-                        ne lineare accanto a un punto 
+                        <seg><figure xml:id="lesson10_fig1"></figure></seg>ne lineare accanto a un punto 
                         verde, un punto verde accanto 
                         a uno giallo e così via
                     </p>
                     <p>
-                        <cb n="left"/>
-                        <graphic url="..."/> (non si deve dimenticare che quando si 
+                        <seg><figure xml:id="lesson10_figureC"></figure></seg> (non si deve dimenticare che quando si<seg><figure xml:id="lesson10_fig2"></figure></seg>
                         allarga e si completa l’arco in cerchio, anche 
                         in qual caso non si raggiunge un cerchio di 
                         colori, né uno stato di perfezione; appari
                         ranno bensì soltanto sette singoli cerchi 
                         cromatici inscritti l’uno nell’altro.)
-                        <cb n="right"/><graphic url=".../lesson10_fig2"/>
                     </p>
                 <pb/> 
                     <p>
@@ -5036,13 +4725,13 @@
                         mato da una linea rossa non è ancora un cerchio rosso.
                     </p>
                     <p>
-                        <graphic url=".../lesson10_fig3"/> Infatti una simile rappresentazione della superficie è 
+                        <seg><figure xml:id="lesson10_fig3"></figure></seg> Infatti una simile rappresentazione della superficie è 
                         come abbiamo visto prima, solo una rappresentazione mediale, e 
                         non attiva. Questa linea rossa o blu o gialla trasmette una impres-
                         sione di superficie, essa stessa non è superficie, resta linea.
                     </p>  
                     <p>
-                        Possiamo dunque tranquillamente chiamare una rappresenta- <graphic url="..."/>
+                        Possiamo dunque tranquillamente chiamare una rappresenta- <seg><figure xml:id="lesson10_figureD"></figure></seg>
                         zione cromatica lineare quella dell’arcobaleno, e nello stesso tem-
                         po considerarla una rappresentazione insufficiente, dalla quale si 
                         può vedere ben poco o addirittura nulla riguardo al rapporto di un 
@@ -5071,26 +4760,21 @@
                         Ci accontenteremo di dire semplicemente: si tratta di chiarità, 
                         le due metà devono unirsi in un tutto, i due violetti un solo violet-
                         to e il laccio sia legato all’infinito, illimitato, per le loro misteriose 
-                        estremità. 
-                        <cb n="central"/> <graphic url=".../lesson10_fig4"/>
-                        <cb n="right"/> E la cosa
+                        estremità. <seg><figure xml:id="lesson10_fig4"></figure></seg>
+                        E la cosa
                     </p>
                 <pb/> 
                     <p>senza inizio né fine che ne risulterà ha dunque questo aspetto</p>
-                    <figure>
-                        <graphic url=".../lesson10_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig5"></figure>
                     <p>
                         Ora non avremo più bisogno di oscillare, in un movimento 
                         da 1 a 7 e in un contromovimento, sostitutivo dell’infinità, da 
                         7 a 1, cercando e cercando laggiù è quaggiù, sempre strug-
-                        gendosi verso casa. 
+                        <seg><figure xml:id="lesson10_figureE"></figure></seg>gendosi verso casa. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig6"></figure>
                     <p>
-                        Piuttosto abbandoniamo il regno umano, regno sovra-ani-
+                        <seg><figure xml:id="lesson10_figureF"></figure></seg>Piuttosto abbandoniamo il regno umano, regno sovra-ani-
                         male, regno patetico, anelante, di spirito e corpo, metà quiete 
                         metà movimento, del regno di mezzo, con il simbolo del trian-
                         golo, là dove i colori puri sono di casa, ma solo a metà.
@@ -5107,15 +4791,13 @@
                         In questo modo 1 e 7 coincidono e il luogo preciso si chia
                         ma semplicemente violetto.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig7"></figure>
                     <p>
-                        La vicenda cosmica dei colori puri ha trovato nel cerchio 
+                        La vicenda cosmica dei colori puri ha trovato nel cerchio <seg><figure xml:id="lesson10_figureG"></figure></seg>
                         la sua rappresentazione adeguata. L’apparire, percepibile in 
                         modo terrestre, dei colori puri nell’arcobaleno, che era pri
                         ma solo riflesso di una totalità sconosciuta, è ora sotto i no
-                        stri occhi formata sinteticamente e riferita al <graphic url="..."/> grande tutto 
+                        stri occhi formata sinteticamente e riferita al <seg><figure xml:id="lesson10_figureH"></figure></seg> grande tutto 
                         dell’aldilà come Cerchio cromatico. 
                     </p>
                     <p>
@@ -5127,12 +4809,10 @@
                         Quel processo deve essersi dunque svolto così: nel cerchio 
                         dei colori è stata fatta violenza nel punto del violetto, e così 
                         esso si è strappato, si è stirato e per questo come serie dei pun-
-                        ti cromatici ha fatto irruzione nell’arcobaleno. (la <graphic url="..."/> divinità 
+                        ti cromatici ha fatto irruzione nell’arcobaleno. (la <seg><figure xml:id="lesson10_figureI"></figure></seg> divinità 
                         del tragico)
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig8"></figure>
                 <pb/> 
                     <p>
                         Se guardiamo più da vicino la nuova forma di rappresenta-
@@ -5156,7 +4836,7 @@
                         gare i sei colori, articolati in tre coppie di colori.
                     </p>
                     <p>
-                        Dunque una volta abbiamo un movimento in direzione pe-
+                        <seg><figure xml:id="lesson10_figureJ"></figure></seg>Dunque una volta abbiamo un movimento in direzione pe-
                         riferica, secondo la linea perimetrale del cerchio; una volta 
                         movimenti in direzione diametrale, secondo le linee dei dia-
                         metri. Questo secondo aspetto della novità è così prometten-
@@ -5192,9 +4872,7 @@
                     </p>
                     <p> Suddivideremo in sette campi una striscia bianca longitudinale</p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson10_fig9"/>
-                        <cb n="right"/>
-                        e per prima cosa ne campiremo sei, (ad ec-
+                        <seg><figure xml:id="lesson10_fig9"></figure></seg>e per prima cosa ne campiremo sei, (ad ec-
                         cezione del campo numero sette), ad acquarel-
                         lo leggero rosso puro. Quando questa velatura si 
                         sarà asciugata, copriamo i campi inferiori (fatta 
@@ -5215,9 +4893,7 @@
                         dall’alto e solo 3 verdi dal basso. E così via sempre meno rosso 
                         (dall’alto) e meno verde (dal basso)
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig10"></figure>
                 <pb/> 
                     <p>
                         I pittori chiamano questo modo di mescolare i colori ve-
@@ -5295,16 +4971,12 @@
                         per l’appunto di nuovo il nostro pendolo, come movimento e 
                         contromovimento.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig11"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig11"></figure>
                     <p>
                         Essa ricorda inoltre la bilancia mobile che giunge final-
                         mente a riposo nel punto grigio di intersezione,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig12"></figure>
                     <p>
                         con ciò comunque non intendiamo dire che rosso e ver-
                         de si presterebbero in questo modo a una rappresentazione 
@@ -5329,9 +5001,7 @@
                         cabile di nuovo, così com’è, a tutti e tre i diametri del cerchio 
                         cromatico.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig13"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig13"></figure>
                     <p>
                         Abbiamo dunque due basi opposte, una violetta e l’altra 
                         gialla. In alto il violetto trova la sua massima estensione, men-
@@ -5352,9 +5022,7 @@
                     </p>
                 <pb/> 
                     <p>stesso dell’addizione graduale di prima. Infatti:</p>
-                    <figure>
-                        <graphic url=".../lesson10_fig14"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig14"></figure>
                     <p>
                         il risultato della misurazione sulla base violetta è 12 parti 
                         di violetto e niente giallo. Sulla base gialla 12 parti di giallo e 
@@ -5408,9 +5076,7 @@
                         intorno al punto fisso grigio indica nuove coppie cromatiche 
                         giuste, che sono solo meno importanti.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig15"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig15"></figure>
                 <pb/> 
                     <p>
                         In una simile ricerca di nuove coppie cromatiche la con-
@@ -5427,9 +5093,7 @@
                         to X giallo-verde.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson10_fig16"/>
-                        <cb n="right"/>
-                        L’effetto di grigio di questa coppia dovrà es-
+                        <seg><figure xml:id="lesson10_fig16"></figure></seg>L’effetto di grigio di questa coppia dovrà es-
                         sere composto da parti uguali di rosso-violetto e 
                         di giallo-verde, e il rosso-violetto sarà composto 
                         per suo conto da parti uguali di rosso e violetto, 
@@ -5441,8 +5105,7 @@
                     </p>
                     <p> Se li combino secondo una forma a croce: </p>
                     <p>
-                        <cb n="left"/>
-                        riconosco subito in questa disposi-
+                        riconosco subito in questa disposi- <seg><figure xml:id="lesson10_figureK"></figure></seg>
                         zione prima la nota coppia rosso-verde e 
                         poi l’altra coppia, altrettanto nota, giallo-
                         violetto. Entrambe producono il grigio 
@@ -5450,7 +5113,6 @@
                         zione di due, si badi, mezzi grigi non si 
                         aggiunge nemmeno un atomo di colore 
                         in più. L’effetto di grigio è provato e così 
-                        <cb n="right"/><graphic url="..."/>
                     </p>
                 <pb/> 
                     <p>
@@ -5467,7 +5129,10 @@
                         nella nuova coppia cromatica: blu-violetto X giallo-arancione
                     </p>
                     <figure>
-                        <graphic url=".../lesson10_fig17"/>
+                        <figure xml:id="lesson10_fig17"></figure>
+                        <figure xml:id="lesson10_figureL">
+                        <figDesc></figDesc>
+                        </figure>
                     </figure>
                     <p>
                         o algebricamente: 
@@ -5480,13 +5145,12 @@
                         opposto tra blu e verde, e otteniamo così la nuova coppia cro-
                         matica propria: rosso-arancione X blu-verde
                     </p>
-                    <p>
-                        <cb n="left"/><graphic url=".../lesson10_fig18"/>
-                        <cb n="right"/>
-                        Rosso, arancione, blu e verde
-                        visti sulla croce
-                        danno:
-                    </p>
+                   <figure>
+                        <figure xml:id="lesson10_fig18"></figure>
+                        <figure xml:id="lesson10_figureM">
+                        <figDesc></figDesc>
+                        </figure>
+                    </figure>
                 <pb/> 
                     <p>rosso-verde = grigio e blu-arancione = grigio </p>
                     <p>
@@ -5517,9 +5181,7 @@
                         qualche parte finiranno con l’intersecarsi.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson10_fig19"/>
-                        <cb n="right"/>
-                        Nel calcolo dei risultati della me-
+                        <seg><figure xml:id="lesson10_fig19"></figure></seg>Nel calcolo dei risultati della me-
                         scolanza tra verde e arancione parto 
                         dal dato di fatto che il verde si trova 
                         esattamente a metà tra giallo e blu e 
@@ -5527,7 +5189,7 @@
                         rosso. Dunque verde + arancione = 
                         giallo + blu + rosso + giallo. Ne dedu
                         co, verso l’alto e verso il basso, che:
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson10_figureN"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
@@ -5538,9 +5200,7 @@
                         La verifica sull’autenticità è fallita, dunque verde-arancione è 
                         una coppia cromatica non autentica.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig20"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig20"></figure>
                     <p>
                         Una nuova coppia cromatica non autentica è, come mo-
                         stra subito uno sguardo al cerchio cromatico, violetto-verde. 
@@ -5567,9 +5227,7 @@
                         La terza coppia cromatica di questo tipo è violetto-aran-
                         cione.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig21"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig21"></figure>
                     <p>
                         verde+viola	 grigio+blu  oppure	terzo	
                         primo giallo+	 viola	+blu blu 2blu blu blu 
@@ -5709,9 +5367,7 @@
                         Per esempio nelle vicinanze del rosso la differenza di ca-
                         rattere tra violetto e arancione è già troppo grande.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig1"></figure>
                     <p>
                         Eppure il rosso è contenuto in entrambi. Quale differenza 
                         ci sarà allora tra il rosso e i colori che non ne contengono af-
@@ -5728,9 +5384,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson11_fig2"/>
-                        <cb n="right"/>
-                        mo visto che esso (il rosso) sicura-
+                        <seg><figure xml:id="lesson11_fig2"></figure></seg>mo visto che esso (il rosso) sicura-
                         mente non significava verde, poiché 
                         rosso e verde si annullavano come 
                         colori.
@@ -5740,8 +5394,7 @@
                         cosiddetto rosso freddo).
                     </p>
                     <p>
-                        <cb n="left"/>
-                        Tendere al giallo o al blu dal 
+                        Tendere al giallo o al blu dal <seg><figure xml:id="lesson11_fig3"></figure></seg>
                         punto di vista del rosso signifi-
                         ca tuttavia un indebolimento. Si 
                         deve poter constatare dunque 
@@ -5755,12 +5408,9 @@
                         Dunque sulla nostra periferia posso ottenere tre punti.  
                         1) il punto apicale del rosso 2) l’estremità calda del rosso. 3) 
                         l’estremità fredda del rosso.
-                        <cb n="right"/><graphic url=".../lesson11_fig3"/>
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson11_fig4"/>
-                        <cb n="right"/>
-                        Questi tre punti sud-
+                        <seg><figure xml:id="lesson11_fig4"></figure></seg>Questi tre punti sud-
                         dividono la periferia in 
                         un segmento rosso che misura 
                         due terzi, e in un segmento privo 
@@ -5773,9 +5423,7 @@
                         Posso osservare, allo stesso modo, la portata cromatica 
                         del blu e del giallo.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig5"></figure>
                     <p>
                         Ma a questo punto voglio limitare le parole e semplice
                         mente leggere ciò che lo schizzo offre al nostro sguardo:
@@ -5803,9 +5451,7 @@
                         re i punti apicali di questi suoi due vicini. E il giallo potrà ten-
                         dere verso il blu o il rosso, mai potrà però essere blu o rosso.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig6"></figure>
                     <p>
                         Ecco l’illustrazione di queste proposizioni tanto semplici 
                         quanto importanti (la si potrebbe chiamare Catena della To-
@@ -5819,18 +5465,14 @@
                         diminuendo la forma naturalistica, o quella esatta, o ancora 
                         quella artificiale a gradini, è la stessa cosa.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig7"></figure>
                     <p>
                         Ma c’è dell’altro: i colori non suonano sul cerchio all’uniso-
                         no, come potrebbe apparire da questa catena; ma secondo una 
                         specie di canto a tre voci. 
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson11_fig8"/>
-                        <cb n="right"/>
-                        Questa rappresentazione 
+                        <seg><figure xml:id="lesson11_fig8"></figure></seg>Questa rappresentazione 
                         unificata ci fa riconoscere 
                         chiaramente e seguire age-
                         volmente il movimento a tre 
@@ -5844,7 +5486,7 @@
                         una terza si smorza. 
                     </p>
                     <p>
-                        Questa nuova figura si potrebbe chiamare Canone della 
+                        Questa nuova figura si potrebbe chiamare Canone della <seg><figure xml:id="lesson11_figureA"></figure></seg> 
                         Totalità.
                     </p>
                     <p>
@@ -5855,9 +5497,7 @@
                         forme, nelle quali appare anche la notazione di un canone 
                         musicale.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig9"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig9"></figure>
                     <p>
                         I tratti principali si trovano nel posto che indica la caratte-
                         ristica della rotazione, ovvero l’inizio della ricorrenza ovvero 
@@ -5867,14 +5507,14 @@
                         (Nota: nel movimento pendolare delle coppie cromatiche 
                         le cose erano andate diversamente: per tornare al punto di 
                         partenza avevamo dovuto percorrere a ritroso la stessa stra-
-                        da. Graficamente, all’incirca così: <graphic url="..."/>
+                        da. Graficamente, all’incirca così: <seg><figure xml:id="lesson11_figureB"></figure></seg>
                         cioè a zig-zag. Adesso, però, avan-
                         ziamo circolarmente secondo un ritmo, graficamente, all’in-
-                        circa così <graphic url="..."/> con un movimento 
+                        circa così <seg><figure xml:id="lesson11_figureC"></figure></seg> con un movimento 
                         avvitato circolare. Ma non per
                         voce sola, ma a più voci. )
                     </p>
-                    <p>Quello che ora vedremo vi ricorderà subito la mia illustrazione</p>
+                    <p><seg><figure xml:id="lesson11_figureD"></figure></seg>Quello che ora vedremo vi ricorderà subito la mia illustrazione<seg><figure xml:id="lesson11_figureE"></figure></seg></p>
                 <pb/> 
                     <p>
                         dei rapporti tra rosso-verde (bianco e nero VEDI PAG. 159), 
@@ -5883,9 +5523,7 @@
                         in questo modo al punto di partenza. Questa volta solo in una 
                         articolazione a cinque. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig10"></figure>
                     <p>
                         Questa tabella aritmetica corrisponde all’unico modo sod-
                         disfacente per rappresentare il movimento cromatico perife-
@@ -5914,9 +5552,7 @@
                         La rappresentazione geometrica dell’intero processo ce lo 
                         mostrerà con ancora più concisa distinzione.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig11"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig11"></figure>
                     <p>
                         Ora il carattere secondario delle tre mescolanze salta ancor 
                         più direttamente agli occhi. La loro classificazione nel movi-
@@ -5933,9 +5569,7 @@
                         E ora il canone comincia a risuonare oltre la sua stessa 
                         notazione.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig12"></figure>
                     <p>
                         Questo è il disegno che avevo chiamato Canone della tota-
                         lità cromatica. Effettua un movimento circolare tripartito, la 
@@ -5966,10 +5600,7 @@
                         si comportano i brevi tratti puri delle colline blu e gialle. Il se-
                         gno caratteristico di un momento così breve è però il punto.
                     </p>
-                    <figure>
-                        <cb n="left"/><graphic url=".../lesson11_fig13.1"/>
-                        <cb n="right"/><graphic url=".../lesson11_fig13.2"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig13"></figure>
                     <p>
                         Attraverso il collegamento diretto dei tre punti ottengo il 
                         triangolo equilatero BGR. I lati di questo triangolo, di contro, 
@@ -5986,9 +5617,9 @@
                         esattamente la collina rossa. 
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <figure xml:id="lesson11_figureF"></figure>
+                        <figure xml:id="lesson11_figureG"></figure>
+                        <figure xml:id="lesson11_figureH"></figure>
                     </figure>
                     <p>
                         Se mi volgo verso B vedo una piramide, come una monta-
@@ -6016,9 +5647,7 @@
                         menti, a dominanza blu e gialla, a dominanza gialla e rossa e 
                         in rossa e blu.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig14"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig14"></figure>
                     <p>
                         In questo modo ottengo una nuova immagine del movi-
                         mento periferico, che, rappresentando il perimetro di un 
@@ -6029,39 +5658,31 @@
                         golo rispetto a quella secondo il cerchio. 
                     </p>
                     <p>
-                        <cb n="left"/>
-                        Ma c’è dell’altro. Rispetto alla rappresentazione circolare, 
+                        <seg><figure xml:id="lesson11_figureI"></figure></seg>Ma c’è dell’altro. Rispetto alla rappresentazione circolare, 
                         essa riesce a darci informazioni più intuitive sulle sezioni che 
-                        noi abbiamo chiamato movimento dia-
+                        noi abbiamo chiamato movimento dia- <seg><figure xml:id="lesson11_figureJ"></figure></seg>
                         metrale, di quanto non avvenisse con 
                         il cerchio. Per esempio, la sezione ros-
                         so-verde, considerata come perpen-
                         dicolare al lato verde è molto istrut-
                         tiva. La perpendicolare incontra in-
                         fatti il punto di indifferenza del verde 
-                        <cb n="right"/><graphic url=".../lesson11_fig15"/>
                     </p>
                 <pb/> 
                     <p>
                         E questo punto di indifferenza del verde è illustrato di 
                         nuovo con le componenti affiancate al verde, il blu e il giallo.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig16"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig16"></figure>
                     <p>
-                        <cb n="left"/>
-                        Abbiamo dunque il movimento della 
+                        Abbiamo dunque il movimento della <seg><figure xml:id="lesson11_fig17"></figure></seg>
                         sezione rosso-verde o movimento com-
                         plementare
-                        <cb n="right"/><graphic url=".../lesson11_fig17"/>
                     </p>
                     <p>
-                        <cb n="left"/>
-                        E abbiamo il movimento pe-
+                        E abbiamo il movimento pe- <seg><figure xml:id="lesson11_fig18"></figure></seg>
                         rimetrale blu-giallo ovvero movi-
                         mento dei componenti.
-                        <cb n="right"/><graphic url=".../lesson11_fig18"/>
                     </p>
                     <p>Si incontrano nell’insieme:</p>
                     <p>
@@ -6080,9 +5701,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson11_fig19"/>
-                        <cb n="right"/>
-                        Il tre tagli comple-
+                        <seg><figure xml:id="lesson11_fig19"></figure></seg>Il tre tagli comple-
                         mentari (le perpendico
                         lari) si intersecano però 
                         nel noto punto grigio.
@@ -6172,7 +5791,7 @@
                         direzione del compimento di questa legge e di tutto ciò che 
                         cade sotto di essa.
                     </p>
-                    <p>Formula del <graphic url="..."/> triangolo <graphic url="..."/> Triangolo</p>
+                    <p>Formula del <seg><figure xml:id="lesson11_figureK"></figure></seg> triangolo <seg><figure xml:id="lesson11_figureL"></figure></seg> Triangolo</p>
                     <p>
                         1) L’errore di scambiare la legge per l’opera, le fondamen-
                         ta per la casa, la formula per l’operazione, si potrebbe provare 
@@ -6184,10 +5803,8 @@
                         tutta la loro perimetralità. 
                     </p>
                     <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/>
                         3) Anche i movimenti delle sezioni complementari sono, 
-                        in un certo senso, di natura triangolare, per 
+                        <seg><figure xml:id="lesson11_figureM"></figure></seg>in un certo senso, di natura triangolare, per 
                         quanto velata dal fatto che i colori secon-
                         dari stanno qui al posto dei primari loro 
                         componenti. Dunque un movimento com-
@@ -6195,13 +5812,11 @@
                         cromatica.
                     </p>
                      <p>
-                        <cb n="left"/>
-                        4) Al movimento parziale periferi-
+                        4) Al movimento parziale periferi- <seg><figure xml:id="lesson11_figureN"></figure></seg>
                         co blu rosso viene attribuito un simbolo 
                         infratriangolare (unterdreieckiges). La 
                         legge della totalità è soddisfatta solo per 
                         due terzi (due punti invece di tre)
-                        <cb n="right"/><graphic url="..."/>
                     </p>
                     <p>
                         5) Il movimento tra coppie cromatiche autentiche e non 
@@ -6209,19 +5824,17 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/>
                         5a) verde | arancione
-                        <cb n="right"/><graphic url="..."/>
+                        <seg><figure xml:id="lesson11_figureO"></figure></seg>
                     </p>
                     <p>
                         è sovratriangolare, ha un punto giallo di troppo. Da cui il so-
                         vraccarico di giallo.
                     </p>
                     <p>
-                        <cb n="left"/>
                         5b) 
                         anche violetto | arancione
-                        <cb n="right"/><graphic url="..."/>
+                        <seg><figure xml:id="lesson11_figureP"></figure></seg>
                     </p>
                     <p>
                         è sovratriangolare, bitriangolare o quadrangolare. Questo mo-
@@ -6229,10 +5842,9 @@
                         di rosso, 
                     </p>
                     <p>
-                        <cb n="left"/>
                         5c) 
                         Verde | violetto 
-                        <cb n="right"/><graphic url="..."/>
+                        <seg><figure xml:id="lesson11_figureQ"></figure></seg>
                     </p>
                     <p>
                         e sovratriangolare, bitriangoalre o quadrangolare. Un punto 
@@ -6269,34 +5881,32 @@
                         violetto e sarebbe comunque  capace di fino alla totalità:
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="left"/><figure xml:id="lesson11_figureR"></figure>
+                        <cb n="center"/><figure xml:id="lesson11_figureS"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureT"></figure>
                     </figure>
                     <p>
                         Il che conduce alla ricomposizione dei tre tempi e alla 
                         soddisfazione totale della legge, secondo il numero e se-
-                        condo il peso <graphic url="..."/>
+                        condo il peso <seg><figure xml:id="lesson11_figureU"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         ad 3 l’azione parziale complementare in questo modo si 
                         potrebbe estendere fino a raggiungere la totalità.
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson11_figureV"></figure>
                     <p>
                         ad 5. Porto alla totalità le azioni parziali quadrangolari se-
                         condo il peso
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="left"/><figure xml:id="lesson11_figureW"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureX"></figure>
                     </figure>
                     <figure>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="left"/><figure xml:id="lesson11_figureY"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureZ"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -6305,7 +5915,7 @@
                         sopra estendendola nello spazio.).
                     </p>
                     <figure>
-                        <graphic url="..."/>
+                        <figure xml:id="lesson11_figureAA"></figure>
                         <figDesc>
                             Pentaedro 
                             della totalità 
