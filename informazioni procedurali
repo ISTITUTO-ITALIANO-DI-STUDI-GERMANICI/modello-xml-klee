@@ -110,6 +110,8 @@ Testo, edizioni e traduzioni
 				  ma CM HH lo correggono. Per separare le due immagini si ricorre, nella codifica, alle diciture lesson11_fig13.1 e lesson11_fig13.2.
 
 				- dopo il testo, in basso, in un foglio di guardia, compare l'illustrazione di un occhio, assente nel facsimile tedesco. Da dove viene?
+
+				- in coerenza con la scelta di CM HH, la lesson7_figureO viene considerata come un'immagine unica, ma potrebbe anche essere divisa in due. 
 			
 	
 >>>	ERRORI DA CORREGGERE IN CM HH 
@@ -118,6 +120,8 @@ Testo, edizioni e traduzioni
 		pag. 45: la seconda figura è 6a, non 7 (nel doc è corretta)
 		pag. 51: refuso, ripetizione fig15 (in realtà l'unica etichetta lì è fig18) (nel doc è corretta)
 		pag. 74: l'ultima non è la fig.15, che è nella pagina seguente, ma un'immagine interlineare senza etichetta
+		pag. 78: c'è il richiamo alla fig.12 nel corpo del testo, ma non è stata ripetuta (nella codifica non compare, come invece accade nell'inglese, 
+		         come lesson6_fig12.1, me c'è solo lesson6_fig12.0)
 		pag. 95: errore nel pdf, ma non nel doc: la figura è la numero 13, non la 15
 		pag. 102: in base a confronto con facsimile tedesco e inglese e per coerenza con gli esempi precedenti, è necessario un ricollocamento 
 		          delle immagini [il quadrato accanto a "Enunciato formale" va accanto e "Formazione rigida", la x va accanto a "diagonale"];
@@ -168,7 +172,7 @@ Figure presenti nelle lezioni: cfr CM HH ∧ facsimile inglese
     
     lezione 1: fig. 1-17, figureA-D          + figure001
     
-    lezione 2: fig. 1-27, figureA-L         + figure002
+    lezione 2: fig. 1-27, figureA-L          + figure002
     
     lezione 3: fig. 1-34, figureA
     
@@ -176,9 +180,9 @@ Figure presenti nelle lezioni: cfr CM HH ∧ facsimile inglese
     
     lezione 5: fig. 1-20, figureA
     
-    lezione 6: fig. 1-37, figureA-M
+    lezione 6: fig. 1-37, figureA-L
     
-    lezione 7: fig. 1-28, figureA-AA
+    lezione 7: fig. 1-28, figureA-Z
     
     lezione 8: fig. 1-22a, figureA-L
     
@@ -186,4 +190,4 @@ Figure presenti nelle lezioni: cfr CM HH ∧ facsimile inglese
     
     lezione 10: fig. 1-21, figureA-N
     
-    lezione 11: fig. 1-19, figureA-AA
+    lezione 11: fig. 1-19, figureA-AA        + figure003, figure004, figure005

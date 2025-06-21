@@ -1176,18 +1176,14 @@
                         and structural characters became evident.
                     </p>
                     <p>
-                        <graphic url="..."/> Structural rhythms of 
+                        <seg><figure xml:id="lesson4_figureA"></figure></seg><seg><figure xml:id="lesson4_figureB"></figure></seg> Structural rhythms of 
                         the lowest degree of development appeared, 
                         which find their numerical expression in the 
                         aggregation of simple units: 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig1"></figure>
                     <p>and</p>
-                    <figure>
-                        <graphic url=".../lesson4_fig2"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig2"></figure>
                     <p>
                         Addition of simple units in a linear 
                         direction.
@@ -1195,11 +1191,7 @@
                     <p>
                         Crossing both directions produces this new 
                         structural image,
-                    </p>
-                    <p>
-                        <cb n="left"/><graphic url=".../lesson4_fig3"/>
-                        <cb n="right"/>
-                        which can be described 
+                        <seg><figure xml:id="lesson4_fig3"></figure></seg>which can be described 
                         as the addition of 
                         units in the direction 
                         of two dimensions. This 
@@ -1213,13 +1205,9 @@
                         characters.
                     </p>
                     <p>A step higher, there is this new structure:</p>
-                    <figure>
-                        <graphic url=".../lesson4_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig4"></figure>
                     <p>or this structure:</p>
-                    <figure>
-                        <graphic url=".../lesson4_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig5"></figure>
                     <p>
                         (figs. 4 and 5) If one compares their 
                         numerical expression, both structures resemble 
@@ -1284,50 +1272,44 @@
                         This algebraic maneuver corresponds pictorially 
                         to the following conception:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_fig4a"/>
-                        <graphic url=".../lesson4_fig5a"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig4a"></figure>
+                    <figure xml:id="lesson4_fig5a"></figure>
                 <pb/> 
                     <p>
                         thus  3 + 3 + 3 + 3 + 3 = I + I + I + I + I, where 
                         Roman numeral one stands for a higher unit.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_fig6"/>
-                        <figDesc>
-                            If we extend fig. 5 into two dimensions,
-                            then the vertical 
-                            sum of the squares 
-                            lying on top of 
-                            each other =
-                            11+10+11+10+11+10, etc.
-                            =(11+10)+(11+10)+(11+10), etc.
-                            =21+21+21, etc.
-                            =I+I+I, etc.
-                            Vertical
-                            sum:  
-                            11 + 10 + 11 + 10 + 11 + 10, etc.
-                        </figDesc>
-                        <graphic url=".../lesson4_fig6a"/>
-                        <figDesc>
-                            the horizontal 
-                            sums present the 
-                            same scenario;
-                            thus, I+I+I, etc. 
-                            in the horizontal 
-                            direction.
-                        </figDesc>
-                    </figure>
+                    <p>
+                        If we extend fig. 5 into two dimensions,
+                        <seg><figure xml:id="lesson4_fig6"></figure></seg>then the vertical 
+                        sum of the squares 
+                        lying on top of 
+                        each other =
+                        11+10+11+10+11+10, etc.
+                        =(11+10)+(11+10)+(11+10), etc.
+                        =21+21+21, etc.
+                        =I+I+I, etc.
+                    </p>
+                    <p>
+                        Vertical
+                        sum:  
+                        11 + 10 + 11 + 10 + 11 + 10, etc.
+                    </p>
+                    <p>
+                        <seg><figure xml:id="lesson4_fig6a"></figure></seg>the horizontal 
+                        sums present the 
+                        same scenario;
+                        thus, I+I+I, etc. 
+                        in the horizontal 
+                        direction.
+                    </p>
                 <pb/> 
                     <p>
                         Thus, the entire square of this structure is 
                         articulated as joined pairs of two neighboring 
                         squares in the horizontal and vertical:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson4_fig7"></figure>
                     <p>
                         Whereupon there emerges an articulation into four
                         sided, four-part units with a value of six:
@@ -1342,8 +1324,8 @@
                         however, characteristic of a structural formation. 
                     </p>
                     <figure>
-                        <graphic url=".../lesson4_fig7a"/>
-                        <graphic url=".../lesson4_fig8"/>
+                        <figure xml:id="lesson4_fig7a"></figure>
+                        <figure xml:id="lesson4_fig8"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -1427,21 +1409,22 @@
                     </p>
                     <p> The standard meters are duple and triple.</p>
                     <figure>
-                        <graphic url=".../lesson4_fig9"/>
-                        <figDesc>
-                            (fig. 9)    
-                            duple meter or   
-                            two-beat bar
-                        </figDesc>
-                        <graphic url=".../lesson4_fig10"/>
-                        <figDesc>
-                            (fig. 10)   
-                            triple meter or 
-                            three-beat bar
-                        </figDesc>
+                        <figure xml:id="lesson4_fig9">
+                            <figDesc>
+                                (fig. 9)    
+                                duple meter or   
+                                two-beat bar
+                            </figDesc>
+                        </figure>
+                        <figure xml:id="lesson4_fig10">
+                            <figDesc>
+                                (fig. 10)   
+                                triple meter or 
+                                three-beat bar
+                            </figDesc>
+                        </figure>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson4_fig11"/>
+                    <figure xml:id="lesson4_fig11">
                         <figDesc>
                             (fig. 11) Variant of the duple 
                             meter, a two-beat bar with 
@@ -1450,22 +1433,23 @@
                         </figDesc>
                     </figure>
                     <figure>
-                        <graphic url=".../lesson4_fig12"/>
-                        <figDesc>
-                            (fig. 12) Variant of the duple 
-                            meter, with tripartite 
-                            substructure, or six beats  
-                            (bipartite)
-                        </figDesc>
-                        <graphic url=".../lesson4_fig13"/>
-                        <figDesc>
-                            (fig. 13) Variant of the triple 
-                            meter, with tripartite sub
-                            structure, or nine beats
-                        </figDesc>
+                        <figure xml:id="lesson4_fig12">
+                            <figDesc>
+                                (fig. 12) Variant of the duple 
+                                meter, with tripartite 
+                                substructure, or six beats  
+                                (bipartite)
+                            </figDesc>
+                        </figure>
+                        <figure xml:id="lesson4_fig13">
+                            <figDesc>
+                                (fig. 13) Variant of the triple 
+                                meter, with tripartite sub
+                                structure, or nine beats
+                            </figDesc>
+                        </figure>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson4_fig14"/>
+                    <figure xml:id="lesson4_fig14">
                         <figDesc>
                             (fig. 14)  Variant of the four-beat bar, with a tripartite 
                             substructure of the quarters, or twelve beats
@@ -1493,7 +1477,7 @@
                         the bar lines).
                     </p>
                     <p>
-                        Where? <graphic url="..."/> Where is the bar
+                        Where? <seg><figure xml:id="lesson4_figureC"></figure></seg> Where is the bar
                         line?
                         What is indicated by special signs like |? ×? |? •? ?
                         They indicate that at the points where they are 
@@ -1510,9 +1494,9 @@
                         treatment of the bar structures (weight-rhythmic)
                     </p>
                     <figure>
-                        <graphic url=".../lesson4_fig15"/>
-                        <graphic url=".../lesson4_fig16"/>
-                        <graphic url=".../lesson4_fig17"/>
+                        <figure xml:id="lesson4_fig15"></figure>
+                        <figure xml:id="lesson4_fig16"></figure>
+                        <figure xml:id="lesson4_fig17"></figure>
                     </figure>
                 <pb/>
                     <p>
@@ -1523,33 +1507,32 @@
                     <p>
                         In a four-beat bar the conductor beats the first 
                         value downward, 
-                        <graphic url="..."/> the second up and to the left, <graphic url="..."/> the third
-                        from left to right, <graphic url="..."/> and the fourth from the
-                        right <graphic url="..."/> upwards to the starting point of the 
+                        <seg><figure xml:id="lesson4_figureD"></figure></seg> the second up and to the left, <seg><figure xml:id="lesson4_figureE"></figure></seg> the third
+                        from left to right, <seg><figure xml:id="lesson4_figureF"></figure></seg> and the fourth from the
+                        right <seg><figure xml:id="lesson4_figureG"></figure></seg> upwards to the starting point of the 
                         first value.
                     </p>
-                    <p> This overall image emerges:<graphic url="..."/></p>
+                    <p> This overall image emerges:<seg><figure xml:id="lesson4_figureH"></figure></seg></p>
                     <p>
                         <cb n="left"/>
                         Considering
                         the dynamic
                         element,
-                        <cb n="center"/><graphic url=".../lesson4_fig18"/>
+                        <cb n="center"/><seg><figure xml:id="lesson4_fig18"></figure></seg>
                         <cb n="right"/>
                         which coincides closely 
                         with the particular qualities 
                         of verticals and horizontals
                     </p>
                     <p>
-                        <cb n="left"/>or:
-                        <cb n="center"/><graphic url=".../lesson4_fig19"/>
+                        or:<seg><figure xml:id="lesson4_fig19"></figure></seg>
                     </p>
-                    <p>
-                        The image of the triple-beat bar is similarly engaging.
-                        <cb n="left"/><graphic url=".../lesson4_fig20"/>
-                        <cb n="center"/><graphic url=".../lesson4_fig20a"/>
-                        <cb n="right"/><graphic url=".../lesson4_fig20b"/>
-                    </p>
+                    <p> The image of the triple-beat bar is similarly engaging.</p>
+                    <figure>
+                        <figure xml:id="lesson4_fig20"></figure>
+                        <figure xml:id="lesson4_fig20a"></figure>
+                        <figure xml:id="lesson4_fig20b"></figure>
+                    </figure>
                 <pb/>
                     <p>
                         On such a foundation I can now attempt to represent 
@@ -1561,17 +1544,15 @@
                         and examine them microscopically according to the follow- 
                         ing schema: 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson4_fig21"/>
-                        <figDesc>
-                            Since music without dynamics sounds mechanical and expression- 
-                            less, I choose the qualitative representation, C, and give 
-                            the line more or less weight, analogous to the quality of 
-                            the tone, while the quantitative representation is expressed 
-                            in B in the vertical strokes for bars and parts of bars. 
-                            Note: fig. 22 follows in the form of an insert.
-                        </figDesc>
-                    </figure>
+                    <figure xml:id="lesson4_fig21"></figure>
+                    <p>
+                        Since music without dynamics sounds mechanical and expression- 
+                        less, I choose the qualitative representation, C, and give 
+                        the line more or less weight, analogous to the quality of 
+                        the tone, while the quantitative representation is expressed 
+                        in B in the vertical strokes for bars and parts of bars. 
+                        Note: fig. 22 follows in the form of an insert.
+                    </p>
                 <pb/> 
                     <p>
                         With this example (insert, fig. 22), which attempts 
@@ -1631,7 +1612,7 @@
                         ratios of very small numbers to very large ones to 
                         occur in this example, then it would be a question 
                         of ornaments in music, 
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson4_figureI"></figure></seg>
                         which, when employed all too triflingly, are called 
                         flourishes.
                     </p>
@@ -1699,15 +1680,13 @@
                         Some solutions to this exercise evinced first 
                         of all talent, and intelligence. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig1"></figure>
                     <p>
                         I should mention at
                         the outset that no one
                         discovered Columbus's fish.
                         Columbus's fish
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson5_figureA"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
@@ -1722,11 +1701,7 @@
                         twenty-three, bends at a wide angle to the right with 
                         thirteen, rises vertically with three, angles left 
                         with two, drops diagonally with nineteen, angles left 
-                    </p>
-                    <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/>
-                        with fifteen to 
+                        <seg><figure xml:id="lesson5_fig2"></figure></seg>with fifteen to 
                         the endpoint Z.
                         (I ask, meanwhile, 
                         that the numbers
@@ -1759,9 +1734,7 @@
                         weighing), in comparison to the structure that is 
                         kept purely quantitative (measuring). *Note!
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig3"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig3"></figure>
                     <p>
                         In this case (fig. 3) you can speak of a two-voiced 
                         trajectory, in which the individual theme is not 
@@ -1791,9 +1764,7 @@
                         example (fig. 2). The measures of the individual rhythm 
                         contain the higher numbers.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig4"></figure>
                     <p>
                         In this new example (fig. 4), if one disregards the verticals,  
                         the structural part may be analyzed very primitively as a re- 
@@ -1848,9 +1819,7 @@
                         very lovely little collage on glass that I got to 
                         see in the last exercise (fig. 5).
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig5"></figure>
                     <p>
                         It consisted wholly of square pieces of paper--arranged freely 
                         alongside and overlapping each other, and freely positioned 
@@ -1899,7 +1868,7 @@
                         (Lest anyone think you 
                         must work according to 
                         rules.)
-                        <cb n="right"/><graphic url=".../lesson5_fig6"/>
+                        <cb n="right"/><seg><figure xml:id="lesson5_fig6"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
@@ -1917,11 +1886,9 @@
                         upon which we must ever stand.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson5_fig7"/>
-                        <cb n="right"/>
                         The simplest symbol for this force of attraction is 
                         the plumbline,  the simple vertical. The weighing 
-                        scales, however, take this 
+                        <seg><figure xml:id="lesson5_fig7"></figure></seg>scales, however, take this 
                         perpendicular into account; 
                         the perpendicular is the 
                         criterion for its position 
@@ -1931,40 +1898,32 @@
                         One could thus say that the spirit of the scales is 
                         this cross:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig8"></figure>
                     <p>
                         Disruptions of the equilibrium of the scales produce 
                         the diagonal,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig9"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig9"></figure>
                     <p>
                         and their correction through a contrary disruption 
                         produces this new cross,
                         the diagonal cross.
+                        <seg><figure xml:id="lesson5_fig10"></figure></seg> the diagonal cross.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig10"/>
-                    </figure>
                 <pb/> 
                     <p>
                         Now, where does this powerful force of attraction 
                         reside?
                     </p>
                     <p>
-                        In the ground: <graphic url=".../lesson5_fig11"/>
+                        In the ground: <seg><figure xml:id="lesson5_fig11"></figure></seg>
                     </p>
                     <p>
                         Or, if you know that this ground as a whole has 
                         the form of a ball, it resides at the center of 
                         this ball, at the center of the earth:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig12"></figure>
                     <p>
                         As a rule, physically, we cannot avoid this; as 
                         a rule, everything in this world must reckon 
@@ -2013,9 +1972,7 @@
                         fish--or like a bird masters the entire upper realm 
                         of the air.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig13"/>
-                    </figure>
+                    <figure xml:id="lesson5_fig13"></figure>
                     <p>
                         He must also make partial efforts, like the mountaineer 
                         or someone climbing stairs. Nevertheless, here the 
@@ -2057,7 +2014,7 @@
                         have orbits arranged around the orbits of the suns.
                     </p>
                     <p>It is the whole that moves.</p>
-                    <figure>
+                    <figure xml:id="lesson5_fig14">
                         <figDesc>
                             C center of the earth
                             W water
@@ -2067,7 +2024,6 @@
                             F force of the earth's
                             attraction
                         </figDesc>
-                        <graphic url=".../lesson5_fig14"/>
                     </figure>
                 <pb/> 
                     <p>
@@ -2075,20 +2031,18 @@
                         the air with diminishing intensity, turns, and falls 
                         with increasing intensity back to the earth.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig15"/>
+                    <figure xml:id="lesson5_fig15">
                         <figDesc>
                             First example: a (bipartite) rhythm with loose articulation, a.
                         </figDesc>
                     </figure>
-                    <figure>
+                    <figure xml:id="lesson5_fig16">
                         <figDesc>
                             Second ex.: a stair climber whose effort progressively 
                             increases with each step.
                         </figDesc>
-                        <graphic url=".../lesson5_fig16"/>
                     </figure>
-                    <figure>
+                    <figure xml:id="lesson5_fig17">
                         <figDesc>
                             Third example: 
                             a rhythm with rigid 
@@ -2096,7 +2050,6 @@
                             or alternating rigid and  
                             loose articulation.
                         </figDesc>
-                        <graphic url=".../lesson5_fig17"/>
                     </figure>
                 <pb/> 
                     <p>
@@ -2104,15 +2057,13 @@
                         mountain slope, rebounding with leaps of increasing 
                         size. A rhythm with rigid articulation.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson5_fig18"/>
+                    <figure xml:id="lesson5_fig18">
                         <figDesc>
                             5th example: A swimmer's kicks, a rhythm with loose 
                             articulation.
                         </figDesc>
                     </figure>
-                    <figure>
-                        <graphic url=".../lesson5_fig19"/>
+                    <figure xml:id="lesson5_fig19">
                         <figDesc>
                             Sixth example (fig. 19)
                             An air balloon goes, rising from a warmer into a 
@@ -2151,7 +2102,7 @@
                         again.
                         A cosmic form with loose articulation (a)
                     </figDesc>
-                    <cb n="centre"/><graphic url=".../lesson5_fig20"/>
+                    <cb n="centre"/><figure xml:id="lesson5_fig20"></figure>
                     <cb n="right"/>
                     <figDesc>
                         M  meteor
@@ -2231,13 +2182,9 @@
                         dynamic light and dark accentuation, on the one hand, 
                         with straight lines:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig1"></figure>
                     <p>and, on the other, with circles:</p>
-                    <figure>
-                        <graphic url=".../lesson6_fig2"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig2"></figure>
                     <p>
                         So, are both these characters suitable 
                         examples of rigid and fluid articulation?
@@ -2247,18 +2194,18 @@
                         What is this?
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson6_fig3"/>
+                        <cb n="left"/><seg><figure xml:id="lesson6_fig3"></figure></seg>
                         <cb n="right"/>
                         It is a plane that approaches the  
                         linear in an upright direction,
-                        like this <graphic url="..."/> or <graphic url="..."/> this.
+                        like this <seg><figure xml:id="lesson6_figureA"></figure></seg> or <seg><figure xml:id="lesson6_figureB"></figure></seg> this.
                     </p>
                 <pb/> 
                     <p>
                         <cb n="left"/>
                         And what is 
                         this?
-                        <cb n="right"/><graphic url=".../lesson6_fig4"/>
+                        <cb n="right"/><seg><figure xml:id="lesson6_fig4"></figure></seg>
                     </p>
                     <p>
                         It is a rigidly articulated expansion and contraction of 
@@ -2266,15 +2213,13 @@
                     </p>
                     <p>
                         The expansion and contraction develops in a hori- 
-                        zontal direction, like this <graphic url="..."/> or this <graphic url="..."/>. 
+                        zontal direction, like this <seg><figure xml:id="lesson6_figureC"></figure></seg> or this <seg><figure xml:id="lesson6_figureD"></figure></seg>. 
                     </p>
                     <p>
                         The sense of which can also be represented in the 
                         following manner:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig5"></figure>
                     <p>
                         The first character (fig. 1) therefore conforms to the 
                         exercise. 
@@ -2283,29 +2228,19 @@
                         But what about the second character? Does the row of 
                         swelling and shrinking circles correspond to the task? 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig6"></figure>
                     <p>
                         Yes, since the articulation around a common point cannot 
                         be described as rigid, much less when fig. 6 allows for 
                         other interpretations, such as in fig. 7,
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson6_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig7"></figure>
                     <p> or in fig. 8,</p>
-                    <figure>
-                        <graphic url=".../lesson6_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig8"></figure>
                 <pb/> 
                     <p>or their variants, 7a and 8a.</p> 
-                    <figure>
-                        <graphic url=".../lesson6_fig7a"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson6_fig8a"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig7a"></figure>
+                    <figure xml:id="lesson6_fig8a"></figure>
                     <p>
                         So the row of circles as a loosely articulated 
                         character also corresponds quite closely to the 
@@ -2323,14 +2258,13 @@
                         that they behaved like this, 
                     </p>
                     <p>
-                        <cb n="center"/><graphic url=".../lesson6_fig9"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="lesson6_fig9"></figure></seg>
                         in relation to 
                         each other.
                     </p>
                     <p>
                         <cb n="left"/> Or, actually, like this:
-                        <cb n="center"/><graphic url=".../lesson6_fig10"/>
+                        <cb n="center"/><seg><figure xml:id="lesson6_fig10"></figure></seg>
                         <cb n="right"/>And that means?
                     </p>
                 <pb/>
@@ -2341,12 +2275,12 @@
                         everyday object like a lamp with a base, globe, and 
                         cylinder,
                     </p>
-                    <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
-                    </p>
-                    <p>or a pot-bellied vase,<graphic url="..."/></p>
-                    <p> or a clock pendulum,<graphic url="..."/> or any object at all: <graphic url="..."/></p>
+                    <figure>
+                        <figure xml:id="lesson6_fig11"></figure>
+                        <figure xml:id="lesson6_fig11a"></figure>
+                    </figure>
+                    <p>or a pot-bellied vase,<seg><figure xml:id="lesson6_fig11b"></figure></seg></p>
+                    <p> or a clock pendulum,<seg><figure xml:id="lesson6_fig11c"></figure></seg> or any object at all: <seg><figure xml:id="lesson6_fig11d"></figure></seg></p>
                     <p>
                         However, the requirement, a "Composition based on 
                         two characters" no doubt permits manifold solutions, 
@@ -2354,31 +2288,27 @@
                         possible,
                     </p>
                     <p>
-                        because <graphic url="..."/> or <graphic url="..."/> is no organic confrontation
+                        because <seg><figure xml:id="lesson6_figureE"></figure></seg> or <seg><figure xml:id="lesson6_figureF"></figure></seg> is no organic confrontation
                     </p>
                     <p>
-                        between <graphic url="..."/> circle and <graphic url="..."/> straight line!
+                        between <seg><figure xml:id="lesson6_figureG"></figure></seg> circle and <seg><figure xml:id="lesson6_figureH"></figure></seg> straight line!
                     </p>
                     <p>
                         Nor is the repetition of this motif a solution to 
                         the question!
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig12.0"></figure>
                     <p>
                         So that we may more easily assess this motif by translating 
                         it into a material case, with this construct (fig. 12), for 
                         example, we can imagine a row of pieces of wood of unequal 
                         weight, shaped like piano keys,
-                        <graphic url="..."/> upon which the tops
+                        <seg><figure xml:id="lesson6_figureI"></figure></seg> upon which the tops
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/>
                         of tin cans have
-                        been placed:
-                        <cb n="right"/><graphic url=".../lesson6_fig13"/>
+                        been placed: <seg><figure xml:id="lesson6_fig13"></figure></seg>
                     </p> 
                     <p>
                         In this case, there are no longer unified objects 
@@ -2387,8 +2317,7 @@
                         lacking spirit.
                     </p>
                     <p>In short: the</p>
-                    <figure>
-                        <graphic url=".../lesson6_fig14"/>
+                    <figure xml:id="lesson6_fig14">
                         <figDesc>
                         relation less ness 
                         of two heterogeneous
@@ -2407,16 +2336,17 @@
                         atop the wooden pieces we will place a bull's-eye 
                         of crown glass or optical lenses or glass spheres.
                         And,  visibly, something will occur, 
-                        namely, the pic- <graphic url="..."/> -torial expression of 
+                        namely, the pic- <seg><figure xml:id="lesson6_figureJ"></figure></seg> -torial expression of 
                         the relationship between two hetero-
                         geneous things.
                         (See figs. 15, 16, 17.)
                     </p>
                 <pb/> 
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig15"/>
-                        <cb n="center"/><graphic url=".../lesson6_fig16"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig17"/>
+                        <figure xml:id="lesson6_figureK"></figure>
+                        <figure xml:id="lesson6_fig15"></figure>
+                        <figure xml:id="lesson6_fig16"></figure>
+                        <figure xml:id="lesson6_fig17"></figure>
                     </figure>
                     <p>
                         What kind of relationship between the two characters do 
@@ -2435,8 +2365,8 @@
                         heterogeneous things (fig. 18 and following):
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig18"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig19"/>
+                        <figure xml:id="lesson6_fig18"></figure>
+                        <figure xml:id="lesson6_fig19"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -2446,8 +2376,8 @@
                         circle has visibly succumbed (figs. 18 and 19).
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig20"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig21"/>
+                        <figure xml:id="lesson6_fig20"></figure>
+                        <figure xml:id="lesson6_fig21"></figure>
                         <figDesc>
                         (20/21) The circle is defeated once again. 
                         </figDesc>
@@ -2457,8 +2387,8 @@
                         proceed to the question of adaptation.  
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig22"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig23"/>
+                        <figure xml:id="lesson6_fig22"></figure>
+                        <figure xml:id="lesson6_fig23"></figure>
                         <figDesc>
                             (22/23) Struggle is avoided by the     adaptive evasion
                         </figDesc>
@@ -2468,16 +2398,15 @@
                         of the straight line, which in the first case takes 
                         place along one side and in the other by splitting.  
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig24"/>
+                    <figure xml:id="lesson6_fig24">
                         <figDesc>
                            (24)  Struggle is avoided by the circle adaptively 
                             shaping itself snugly, becoming an ellipse. 
                         </figDesc>
                     </figure>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig25"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig26"/>
+                        <figure xml:id="lesson6_fig25"></figure>
+                        <figure xml:id="lesson6_fig26"></figure>
                         <figDesc>
                             (25/26) And here, finally, we have examples of   
                             both characters' reciprocal adaptation. Each, 
@@ -2507,9 +2436,7 @@
                         designate the circle as feminine in its inherent 
                         quiescence.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig12.1"></figure>
                     <p>
                         Now, in our example that provided the occasion for 
                         this criticism, however, the motifs we have just 
@@ -2555,9 +2482,7 @@
                         result of which is a multitude of cavities akin to 
                         cells* or tubes or channels.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig27"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig27"></figure>
                     <p>
                        <note> * As examples, a weathered cabbage stalk and a piece of bone.</note> 
                     </p>
@@ -2566,15 +2491,12 @@
                         In a similar fashion, one can detect the structure 
                         of cartilage, ligaments, tendons, and muscles, etc.
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson6_fig28"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig28"></figure>
                     <p>
                         The structure of ligaments is (fig. 28) a sinewy web 
                         of fiber. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig29"/>
+                    <figure xml:id="lesson6_fig29">
                         <figDesc>
                             (29) The fibers of the  
                             tendons merge into  
@@ -2604,7 +2526,7 @@
                 <pb/> 
                     <p>together. The ligaments see to this.</p> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson6_fig30"/>
+                        <cb n="left"/><seg><figure xml:id="lesson6_fig30"></figure></seg>
                         <cb n="right"/>
                         The ligaments connect 
                         several bones, they 
@@ -2624,9 +2546,7 @@
                         ligament only a little space, but 
                         somewhat more space for the bone:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig31"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig31"></figure>
                 <pb/> 
                     <p>
                         If I consider the relationship of bone to muscle 
@@ -2634,10 +2554,10 @@
                     </p> 
                     <p>
                         <cb n="left"/>
-                        <graphic url=".../lesson6_fig32"/>
                         B bone
                         T tendon
                         M muscle
+                        <cb n="center"/><seg><figure xml:id="lesson6_fig32"></figure></seg>
                         <cb n="right"/>
                         then I recognize that 
                         here the tendon carries 
@@ -2650,8 +2570,8 @@
                     </p>
                     <p>And how does the muscle relate to the bone?</p>
                     <figure>
-                        <cb n="left"/><graphic url=".../lesson6_fig33"/>
-                        <cb n="right"/><graphic url=".../lesson6_fig33a"/>
+                        <figure xml:id="lesson6_fig33"></figure>
+                        <figure xml:id="lesson6_fig33a"></figure>
                     </figure>
                     <p>
                         It can force the bone into a new position, since 
@@ -2679,9 +2599,7 @@
                         movement, I allow a larger space for the muscle, 
                         and leave the tendon to mediate between them.  
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig34"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig34"></figure>
                     <p>
                         The muscles perform mutually independent functions.
                     </p>
@@ -2708,9 +2626,7 @@
                         Our schema of the action of movement is again 
                         expanded:  
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig35"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig35"></figure>
                 <pb/> 
                     <p>
                         What do we learn (from fig. 35)? We recognize, first  
@@ -2727,9 +2643,7 @@
                         increases as we go from the center away towards the 
                         periphery.  
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson6_fig36"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig36"></figure>
                     <p>
                         The notional passageway whose point of origin is 
                         the brain--and which confers a central significance 
@@ -2748,9 +2662,7 @@
                         bones, until, despite being earth-bound, the whole 
                         material mass nevertheless indeed moves. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson6_fig37"/>
-                    </figure>
+                    <figure xml:id="lesson6_fig37"></figure>
                     <p>
                         <cb n="left"/>
                         Exercise for February 20, 1922
@@ -2760,7 +2672,7 @@
                         III. "    passive (bone)
                         or weight criterion:
                         <cb n="right"/>
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson6_figureL"></figure></seg>
                         length criterion 
                         in lieu of weight 
                         criterion 
@@ -2840,7 +2752,7 @@
                         representation.
                     </p>
                     <p>
-                        First example: the water mill <graphic url=".../lesson7_fig1"/>
+                        First example: the water mill <seg><figure xml:id="lesson7_fig1"></figure></seg>
                         principal organ: the water 
                         other organs:  two wheels,one large and one 
                         small, connected by a drive-belt.
@@ -2863,11 +2775,10 @@
                         c) Error of emphasis: the principal organ, water, 
                         is treated too lightly in dynamic terms.   
                     </p>
-                    <figure>
+                    <figure xml:id="lesson7_fig2">
                         <figDesc> 
                             Correction: (fig. 2)
                         </figDesc>
-                        <graphic url=".../lesson7_fig2"/>
                     </figure>
                     <p>
                         a) Relationally correct choice of organs: I. The 
@@ -2885,9 +2796,7 @@
                         principal energy, II. with medium energy, III. with 
                         negligible energy.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig3"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig3"></figure>
                     <p>
                         As a result, as far as configuration and emphasis are 
                         concerned, the erroneousness of fig. 3 in relational 
@@ -2913,23 +2822,17 @@
                         We are familiar with the earth's force of gravity 
                         (fig. 4),
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig4"></figure>
                     <p>
                         just as we are familiar with the horizontal 
                         corresponding to the level of "standing" water:   
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig5"></figure>
                     <p>
                         Without the mountains A and B hemming it in, the water 
                         would drain off on both sides:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig6"></figure>
                 <pb/>
                     <p>
                         If we remove mountain B and leave mountain A standing, 
@@ -2937,17 +2840,14 @@
                         result, two forces are at work, first gravity, second 
                         the obstructing mountain (fig. 7). 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig7"></figure>
                     <p>
                         These two forces result in the diagonal of the 
                         parallelogram of forces: II, the force of the flowing 
                         water.   
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig8"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="lesson7_fig8"></figure></seg>
                         In linguistic terms:
                         I: "We impel." (active)
                         II: "I resign myself," 
@@ -2957,8 +2857,7 @@
                         (medial).
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig9"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="lesson7_fig9"></figure></seg>
                         And someone does  
                         suffer it:
                         III: the wheel, which  
@@ -2971,9 +2870,7 @@
                         Erroneous emphasis in this variant of the example 
                         looks like this:
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson7_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig10"></figure>
                     <p>
                         Another example:  I: Let the active force be the 
                         soil in which the seed sprouts;
@@ -2982,8 +2879,7 @@
                         produce the form I (fig. 11)  
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig11"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="lesson7_fig11"></figure></seg>
                         II: Having emerged into 
                         the light and in 
                         the open air, the 
@@ -2996,7 +2892,7 @@
                         flower, at which 
                         point the plant is 
                         fully grown.
-                        <graphic url=".../lesson7_11a"/>
+                        <seg><figure xml:id="lesson7_fig11a"></figure></seg>
                         The wrong emphasis.
                     </p>
                 <pb/> 
@@ -3036,8 +2932,7 @@
                         not cease during a lifetime. Here fatigue, sluggishness, 
                         and missing a beat are not allowed for.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig12"/>
+                    <figure xml:id="lesson7_fig12">
                         <figDesc>
                             I: heart
                             II: lung
@@ -3100,9 +2995,7 @@
                         The work becomes: stone upon stone or, from the 
                         block, piece from piece.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig13"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig13"></figure>
                     <p>
                         That is the initial productive-movement, the 
                         beginning action of the one who is creating. This 
@@ -3159,9 +3052,7 @@
                         because the retina does not perceive the entire image 
                         with the same acuity,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig14"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig14"></figure>
                     <p>
                         but rather, only the section I adjacent to the point that 
                         can be joined by a straight line with the focal point 
@@ -3188,17 +3079,13 @@
                         We know full well that the image in the eye is actually inverted, 
                         but this alters essentially nothing at all in the process.   
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig15"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig15"></figure>
                     <p>
                        Stage I: The beholder perceives the central section, I. 
                         Sections II and III lack sharpness on the retina. The 
                         muscles for lowering and raising the eye are not involved. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig16"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig16"></figure>
                     <p>
                         Stage II: The beholder's eye now 
                         obeys the desire to examine the upper 
@@ -3217,9 +3104,7 @@
                         III, which was previously still perceptible though 
                         without clarity, leaves the field of vision.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson7_fig17"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig17"></figure>
                     <p>
                         Stage III (fig.17): The eye should obey the beholder's 
                         desire to perceive the lower region in full sharpness. 
@@ -3271,27 +3156,26 @@
                         cloud in lightly or stormily moving winds (fig. 20).
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig18"/>
-                        <cb n="centre"/><graphic url=".../lesson7_fig19"/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="lesson7_fig18"></figure></seg>
+                        <seg><figure xml:id="lesson7_fig19"></figure></seg>
                         Higher activity  
                         is proper to 
                         dynamic-form 
                         works.
-                        <graphic url=".../lesson7_fig20"/>
+                        <seg><figure xml:id="lesson7_fig20"></figure></seg>
                     </p>
                     <p> Now we'll practice what we've learned so far, with some examples.</p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig21"/>
+                        <cb n="left"/><seg><figure xml:id="lesson7_fig21"></figure></seg>
                         <cb n="centre"/>
                         First example:  for stable formation.  Statements:
-                        Formation: stable <graphic url="..."/> 
-                        Arrangement: vertical <graphic url="..."/>
-                        Articulation: rigid <graphic url="..."/>
-                        Development: progressive increase<graphic url="..."/>
+                        Formation: stable <seg><figure xml:id="lesson7_figureA"></figure></seg>
+                        Arrangement: vertical <seg><figure xml:id="lesson7_figureB"></figure></seg>
+                        Articulation: rigid <seg><figure xml:id="lesson7_figureC"></figure></seg>
+                        Development: progressive increase<seg><figure xml:id="lesson7_figureD"></figure></seg>
                         Direction of increase:  
                         from top to bottom 
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson7_figureE"></figure></seg>
                         <cb n="right"/>
                         Conceptual 
                         statement:  
@@ -3302,7 +3186,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig22"/>
+                        <cb n="left"/><seg><figure xml:id="lesson7_fig22"></figure></seg>
                         <cb n="right"/>
                         Function modified in terms of reception: The beholder's 
                         eye immediately 
@@ -3315,21 +3199,21 @@
                         Base below.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig23"/>
+                        <cb n="left"/><seg><figure xml:id="lesson7_fig23"></figure></seg>
                         <cb n="right"/>
                         Second example
-                        Formation: stable <graphic url="..."/>
-                        Functions: Arrangement: vertical <graphic url="..."/>
-                        Articulation: rigid<graphic url="..."/>
-                        Development: progressive increase <graphic url="..."/>
-                        Direction: from bottom to top <graphic url="..."/>
+                        Formation: stable <seg><figure xml:id="lesson7_figureF"></figure></seg>
+                        Functions: Arrangement: vertical <seg><figure xml:id="lesson7_figureG"></figure></seg>
+                        Articulation: rigid<seg><figure xml:id="lesson7_figureH"></figure></seg>
+                        Development: progressive increase <seg><figure xml:id="lesson7_figureI"></figure></seg>
+                        Direction: from bottom to top <seg><figure xml:id="lesson7_figureJ"></figure></seg>
                         Formal
                         statement
                         Conceptual statement: Overcoming the
                         material force of gravity
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig24"/>
+                        <cb n="left"/><seg><figure xml:id="lesson7_fig24"></figure></seg>
                         <cb n="right"/>
                         Function modified in terms of reception: The beholder's 
                         eye steers to the place 
@@ -3343,26 +3227,25 @@
                 <pb/> 
                     <p> Third example</p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig25"/>
+                        <cb n="left"/><seg><figure xml:id="lesson7_fig25"></figure></seg>
                         <cb n="right"/>
-                        Formal statement: Formation: stable <graphic url="..."/>
-                        Functions: Arrangement: vertical <graphic url="..."/>
-                        Articulation: rigid <graphic url="..."/>
+                        Formal statement: Formation: stable <seg><figure xml:id="lesson7_figureK"></figure></seg>
+                        Functions: Arrangement: vertical <seg><figure xml:id="lesson7_figureL"></figure></seg>
+                        Articulation: rigid <seg><figure xml:id="lesson7_figureM"></figure></seg>
                         Development:
                         progressive
                         increase and 
                         progressive decrease
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson7_figureN"></figure></seg>
                         Direction of increase:
                         from top to middle 
                         and from bottom to 
                         middle
-                        <graphic url="..."/>
                         (Direction of decrease:
                         from the middle 
                         upwards and from
                         the middle down)
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson7_figureO"></figure></seg>
                     </p>
                     <p>
                         <cb n="right"/>
@@ -3371,11 +3254,11 @@
                         idealistic conceptions.
                     </p>
                     <p>
-                        <cb n="center"/><graphic url="..."/>ideal
-                        <cb n="right"/><graphic url="..."/>material
+                        <cb n="center"/><seg><figure xml:id="lesson7_figureP"></figure></seg>ideal
+                        <cb n="right"/><seg><figure xml:id="lesson7_figureQ"></figure></seg>material
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson7_fig26"/>
+                        <cb n="left"/><seg><figure xml:id="lesson7_fig26"></figure></seg>
                         <cb n="right"/>
                         Function modified in terms of reception: The beholder's eye is caught 
                         principally by the 
@@ -3389,25 +3272,21 @@
                     </p>
                 <pb/> 
                     <p>Fourth example</p>
-                    <figure>
-                        <graphic url=".../lesson7_fig27"/>
-                    </figure> 
+                    <figure xml:id="lesson7_fig27"></figure>
                     <p>Formal statement:</p>
-                    <p>Formation: stable<graphic url="..."/></p>
+                    <p>Formation: stable<seg><figure xml:id="lesson7_figureR"></figure></seg></p>
                     <p>
-                        Functions: Arrangement: diagonal<graphic url="..."/>
-                        Articulation: rigid<graphic url="..."/>
+                        Functions: Arrangement: diagonal<seg><figure xml:id="lesson7_figureS"></figure></seg>
+                        Articulation: rigid<seg><figure xml:id="lesson7_figureT"></figure></seg>
                     </p>
-                    <p> Development: increase and decrease<graphic url="..."/></p>
+                    <p> Development: increase and decrease<seg><figure xml:id="lesson7_figureU"></figure></seg></p>
                     <p> 
                         Direction of increase: from
-                        outside to inside<graphic url="..."/>
+                        outside to inside<seg><figure xml:id="lesson7_figureV"></figure></seg>
                     </p>
                 <pb/> 
                     <p> Receptive function:</p>
-                    <figure>
-                        <graphic url=".../lesson7_fig28"/>
-                    </figure>
+                    <figure xml:id="lesson7_fig28"></figure>
                     <p>
                         The principal weight, 1, catches the beholder's 
                         eye to a marked degree, because this principal 
@@ -3441,12 +3320,12 @@
                         part
                     </p>
                     <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="left"/><seg><figure xml:id="lesson7_figureW"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson7_figureX"></figure></seg>
                     </p>
                     <p>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="left"/><seg><figure xml:id="lesson7_figureY"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson7_figureZ"></figure></seg>
                     </p>
                     <p>
                         III: Possible combination of I and II, leading to 
@@ -3531,9 +3410,7 @@
                         at a single stroke (not even one produced with single 
                         strokes from each of two hands at once):  
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig1"></figure>
                     <p>
                         A construct that consists of the factors "first," 
                         "second," and "third." This product was not created 
@@ -3548,16 +3425,14 @@
                         The stimulated eye jumps to the strongest energy, 
                         to "first,"
                     </p>
-                    <p>
-                        <graphic url="..."/>
-                    </p>
+                    <figure xml:id="lesson8_figureA"></figure>
                     <p>compares it with "second"</p>
                     <p>
-                        <cb n="left"/><graphic url="..."/>
+                        <cb n="left"/><seg><figure xml:id="lesson8_figureB"></figure></seg>
                         <cb n="right"/>and with "third,"
                     </p>
                     <p>
-                        <cb n="center"/><graphic url="..."/>
+                        <cb n="center"/><seg><figure xml:id="lesson8_fig2"></figure></seg>
                         <cb n="right"/>
                         (Recept of
                         fig. 1)
@@ -3574,11 +3449,11 @@
                     </p>
                     <p>
                         Note
-                        <graphic url="..."/> There [fig. 1] the planes are to be thought of as 
+                        <seg><figure xml:id="lesson8_figureC"></figure></seg> There [fig. 1] the planes are to be thought of as 
                         active planes and here [fig. 2] as active lines, which are 
                         not (mind you!) mutually dependent on one another in the way 
-                        they were represented earlier, i.e., as here: <graphic url="..."/> where the 
-                        passive lines depend on the active plane, or here: <graphic url="..."/> where 
+                        they were represented earlier, i.e., as here: <seg><figure xml:id="lesson8_figureD"></figure></seg> where the 
+                        passive lines depend on the active plane, or here: <seg><figure xml:id="lesson8_figureE"></figure></seg> where 
                         the plane, as opposed to the lines, is the result and is 
                         therefore passive. 
                     </p>
@@ -3594,9 +3469,7 @@
                         the fundamental principal value. Sequential order and 
                         ranking order coincide. 
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson8_fig3"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig3"></figure>
                     <p>
                         These red forms of diminishing force are the expression  
                         of the function of the three values of our production 
@@ -3609,9 +3482,7 @@
                         with a new product.
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson8_fig4"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig4"></figure>
                     <p>
                         This new product consists of nine graded values that, for sim-  
                         plicity's sake, I represent only with quantitative differences. 
@@ -3625,9 +3496,7 @@
                         further and further from the center. 
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson8_fig5"/>
-                        <cb n="right"/>
-                        The diagonals may also be considered.
+                        <seg><figure xml:id="lesson8_fig5"></figure></seg>The diagonals may also be considered.
                         And, with that, the schema in which  
                         the action of reception is to be played  
                         out has been prepared.
@@ -3654,9 +3523,7 @@
                         it proceeds to the remaining values, in increasingly 
                         darker gradations.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig6"/>
-                    </figure> 
+                    <figure xml:id="lesson8_fig6"></figure>
                 <pb/> 
                     <p>
                         Thus, the path via the separate stimulus-points arranges 
@@ -3664,9 +3531,7 @@
                         center. The stimulus-points recede ever further from the 
                         center, while maintaining their relatedness to it.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig7"></figure>
                     <p>
                         The product (fig. 4) consisted of solemnly stable and 
                         quiescent forms. Its recept, the function of this stably 
@@ -3680,9 +3545,7 @@
                         of the function, the purer the movement-forms.
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson8_fig8"/>
-                    </figure> 
+                    <figure xml:id="lesson8_fig8"></figure>
                     <p>
                         This new product shows, in contrast to before, a now 
                         more erratic arrangement of the values. The preceding 
@@ -3703,7 +3566,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson8_fig9"/>
+                        <cb n="left"/><seg><figure xml:id="lesson8_fig9"></figure></seg>
                         <cb n="center"/>
                         For the second schema, I 
                         choose one that is more 
@@ -3717,7 +3580,7 @@
                         fifth, ninth, fourth, 
                         seventh, sixth, third, and 
                         second
-                        <cb n="right"/><graphic url=".../lesson8_fig10"/>
+                        <cb n="right"/><seg><figure xml:id="lesson8_fig10"></figure></seg>
                     </p>
                     <p>
                         In both schemata, I put the notes in the places that correspond 
@@ -3725,13 +3588,9 @@
                         according to rank, I obtain two different recepts that 
                         naturally resemble each other internally to a hair. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig11"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig11"></figure>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson8_fig12"/>
-                    </figure> 
+                    <figure xml:id="lesson8_fig12"></figure> 
                     <p>
                         Having arrived at the dynamic form, we first 
                         want to make a slight distinction.
@@ -3740,12 +3599,12 @@
                         The movement of a formal element that leads to the 
                         creation of a new formal element need not also produce 
                         a dynamic form. The movement of a point into the mathe
-                        matical straight line <graphic url="..."/> is
+                        matical straight line <seg><figure xml:id="lesson8_figureF"></figure></seg>is
                         indeed a movement-action but not a movement-form. This 
                         same line, if it is then pushed to produce a plane, is 
                     </p>
                     <p>
-                        <cb n="left"/><graphic url="..."/>
+                        <cb n="left"/><seg><figure xml:id="lesson8_figureG"></figure></seg>
                         <cb n="right"/>
                         not a dynamic line because it 
                         is no longer a line at all but 
@@ -3770,9 +3629,7 @@
                         But perhaps the following bit of imagining has something 
                         calming in itself:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig13"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig13"></figure>
                     <p>
                         This little building is supposed to stand on very small 
                         feet! That won't be very easy. So get the scales over 
@@ -3808,9 +3665,7 @@
                         place it on a point and set it swinging vigorously in 
                         motion about itself.  
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig14"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig14"></figure>
                     <p>
                         Then it's called a top, the top that every child knows 
                         does not fall as long as the motion lasts, as long as 
@@ -3818,10 +3673,8 @@
                         wheel, the boy's hoop, or even the spinning diabolo, 
                         which understands the art of dancing on the high wire.
                     </p>
-                    <p>
-                        <cb n="left"/><graphic url=".../lesson8_fig15"/>
-                        <cb n="right"/><graphic url=".../lesson8_fig16"/>
-                    </p>
+                    <figure xml:id="lesson8_fig15"></figure>
+                    <figure xml:id="lesson8_fig16"></figure>
                     <p>
                         With in principle such calming thoughts,  we will keep 
                         looking for a replacement for the now  "obsolete" 
@@ -3840,11 +3693,11 @@
                         immediately describing the corresponding counter
                         motion to each motion.
                     </p> 
-                    <p>
-                        <cb n="left"/> <graphic url=".../lesson8_fig17a"/> 
-                        <cb n="center"/> <graphic url=".../lesson8_fig17b"/>
-                        <cb n="right"/> <graphic url=".../lesson8_fig17c"/>
-                    </p>
+                    <figure>
+                        <cb n="left"/><figure xml:id="lesson8_fig17a"></figure>
+                        <cb n="center"/><figure xml:id="lesson8_fig17b"></figure>
+                        <cb n="right"/><figure xml:id="lesson8_fig17c"></figure>
+                    </figure>
                     <p>
                         This one case of the compensatory unification of 
                         motion and counter-motion is, however, not the only 
@@ -3862,7 +3715,7 @@
                         both motion and 
                         counter-motion 
                         independently.
-                        <cb n="right"/><graphic url=".../lesson8_fig18"/>
+                        <cb n="right"/><seg><figure xml:id="lesson8_fig18"></figure></seg>
                     </p>
                     <p>× one of Mélisande's hairs</p>
                 <pb/> 
@@ -3873,9 +3726,7 @@
                         transcribed expression of the particular form of that 
                         journey.  
                     </p> 
-                    <figure>
-                        <graphic url=".../lesson8_fig19"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig19"></figure>
                     <p>
                         Here, for example, the pendulum-script is the dynamic 
                         expression of the vertical straight line, and we arrive 
@@ -3906,17 +3757,13 @@
                         earth, the cosmic movement-form suddenly arises:
                     </p>
                     <p>The pendulum swings around in a circle.</p>
-                    <figure>
-                        <graphic url=".../lesson8_fig20"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig20"></figure>
                     <p>
                         In this closed, endless motion the need for a counter
                         motion ceases, and indeed the pendulum renounces the 
                         counter-motion in the new circumstances. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson8_fig21"/>
-                    </figure>
+                    <figure xml:id="lesson8_fig21"></figure>
                 <pb/> 
                     <p>
                         As opposed to the previous force, which I called 
@@ -3932,10 +3779,10 @@
                         until the lovely spectacle dies with a jerk, in the 
                         point.
                     </p>
-                    <p>
-                        <cb n="left"/><graphic url=".../lesson8_fig22"/>
-                        <cb n="right"/><graphic url=".../lesson8_fig22a"/>
-                    </p>
+                    <figure>
+                        <cb n="left"/><figure xml:id="lesson8_fig22"></figure>
+                        <cb n="right"/><figure xml:id="lesson8_fig22a"></figure>
+                    </figure>
                     <p>
                         The latter is the story of the spiral. Its movement 
                         is no longer endless, inherently quiescent, and so 
@@ -3951,15 +3798,14 @@
                         it finally swallows me whole?
                     </p> 
                     <p>
-                        <cb n="left"/>either <graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/>
+                        <seg><figure xml:id="lesson8_figureH"></figure></seg>
+                        <seg><figure xml:id="lesson8_figureI"></figure></seg>
                         motion of the radius 
                         away from C   
                     </p>
                     <p>
-                        <cb n="left"/>or<graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
+                        <seg><figure xml:id="lesson8_figureJ"></figure></seg>
+                        <seg><figure xml:id="lesson8_figureK"></figure></seg>
                         <cb n="right"/>
                         motion of the
                         radius towards C
@@ -3976,9 +3822,7 @@
                         forces of the water as arrangement and above all as 
                         dynamic functioning. 
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson8_figureL"></figure>
             </div>
             <div xml:id="div_Klee_lesson9">
                 <pb/> 
@@ -5287,7 +5131,7 @@
                     </p>
                     <p> Intro. Our task for today is </p>
                     <p>
-                        The first part of my task is now to construct a kind 
+                        The first part of my task is now to construct a kind <seg><figure xml:id="lesson10_figureA"></figure></seg>
                         of notional paintbox for you, in which the colors receive a 
                         well-founded order, a kind of tool cabinet, if you like.
                     </p>
@@ -5328,9 +5172,7 @@
                         consist of, then??... From it, people inferred a series 
                         of colors, specifically seven colors with the names
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson10_figureB"></figure>
                     <p>
                         And the number seven was generally pleasing. There were, 
                         after all, they said in support of this claim, seven 
@@ -5356,18 +5198,14 @@
                         next to a green point, a green one next to a yellow one, 
                         and so forth. 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig1"></figure>
                     <p>
-                       One must not forget that, if we extend and complete the 
+                        <seg><figure xml:id="lesson10_figureC"></figure></seg>One must not forget that, if we extend and complete the 
                         arc as a circle, then a perfection--a color circle--is not 
                         yet attained, but rather in this way only seven single 
                         colored circles appear, nested in each other.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig2"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig2"></figure>
                 <pb/> 
                     <p>
                         Such a linear representation of a plane (so, in this case a re- 
@@ -5375,9 +5213,7 @@
                         has a snag: a circle formed from a red line is still not a red 
                         circle!
                     </p>
-                    <p>
-                        <graphic url=".../lesson10_fig3"/> 
-                    </p>  
+                    <figure xml:id="lesson10_fig3"></figure>
                     <p>
                         Because such a representation of a plane 
                         is, as we saw earlier, merely medial and not active.N This 
@@ -5386,7 +5222,7 @@
                         line.
                     </p>
                     <p>
-                        Thus we can calmly designate the rainbow a linear 
+                        Thus we can calmly designate the rainbow a linear <seg><figure xml:id="lesson10_figureD"></figure></seg> 
                         representation of colors and at the same time an inadequate 
                         representation of colors from which very little can be 
                         gathered--about the oppositional relationship between the 
@@ -5419,23 +5255,19 @@
                         be tied at its mysterious ends for infinity, endlessness.
                     </p>
                     <p>
-                        <cb n="center"/><graphic url=".../lesson10_fig4"/>
+                        <cb n="center"/><seg><figure xml:id="lesson10_fig4"></figure></seg>
                         <cb n="right"/> And the
                     </p>
                 <pb/> 
                     <p>resultant thing without beginning or end now looks like this:</p>
-                    <figure>
-                        <graphic url=".../lesson10_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig5"></figure>
                     <p>
                         We now no longer need to oscillate as motion from 1 to 
                         7 and, as counter-motion subtituting for infinity, from 
                         7 to 1, seeking hither and thither, striving to get away 
-                        and returning home., rather 
+                        <seg><figure xml:id="lesson10_figureE"></figure></seg> and returning home., rather 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig6"></figure>
                     <p>
                         Rather, we leave the human domain of the intermediate 
                         realm, the supra-animal domain of pathos, of striving, 
@@ -5444,7 +5276,7 @@
                         where the pure colors are only half at home.
                     </p>
                     <p>
-                        We free our pendulum from the force of gravity, 
+                        <seg><figure xml:id="lesson10_figureF"></figure></seg> rather, We free our pendulum from the force of gravity, 
                         we let it whirr past, to reach the divine domain, the 
                         soaring domain, the dynamic domain, to the domain of the 
                         mind, of perfected rotation and whole movement, with 
@@ -5456,15 +5288,13 @@
                         Thus 1 and 7 coincide, and the place in question is called 
                         simply violet.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig7"></figure>
                     <p>
                         The cosmic affair of the pure colors has found its fitting 
                         represention in a circle. The appearance, apprehensible on earth,  
                         of pure colors in the rainbow, which was only a reflection of an  
                         initially unknown totality, now formed as a synthesis and related  
-                        to the great, otherworldly whole, lies be fore our eyes as a
+                        to the great, otherworldly whole, lies be <seg><figure xml:id="lesson10_figureH"></figure></seg> fore our eyes as a
                         there is now the Color Circle
                     </p>
                     <p>
@@ -5477,10 +5307,9 @@
                         way that violence was done to the color circle at violet, 
                         with which the circle tore apart, stretched out and 
                         marched off as a series of color points in the rainbow.
+                        (The <seg><figure xml:id="lesson10_figureI"></figure></seg> divine tragedy.)
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig8"></figure>
                 <pb/> 
                     <p>
                         If we consider more closely the newly obtained form for 
@@ -5507,7 +5336,7 @@
                     <p>
                         So, on the one hand, movement in a peripheral direction× 
                         and, on the other, movements in a diametrical direction, 
-                        along the diameters.
+                        <seg><figure xml:id="lesson10_figureJ"></figure></seg>along the diameters.
                     </p>
                     <p>
                         This second aspect of the novelty is so promising 
@@ -5545,7 +5374,7 @@
                         establish in the exercise, specifically, as follows:
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson10_fig9"/>
+                        <cb n="left"/><seg><figure xml:id="lesson10_fig9"></figure></seg>
                         <cb n="right"/>
                         We will divide a long white strip into seven squares 
                         and then  cover six of the squares (with 
@@ -5573,9 +5402,7 @@
                         3 green squares from below. And so on: ever fewer red 
                         squares (from above) and ever fewer green squares (from below).
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig10"></figure>
                 <pb/> 
                     <p>
                         This kind of color mixing is called glazing in the 
@@ -5620,17 +5447,13 @@
                         recalls once more, incidentally, our pendulum as motion  
                         and counter-motion.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig11"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig11"></figure>
                     <p>
                         It recalls, furthermore, the mobile weighing 
                         scales that finally come to a standstill at the gray 
                         intersection point,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig12"></figure>
                     <p>
                         though this is not to imply that red and green are 
                         therefore suited to static representation, that on the 
@@ -5655,9 +5478,7 @@
                         which on its own is applicable to all three diameters of 
                         the color circle.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig13"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig13"></figure>
                     <p>
                         In this case a violet and a yellow base stand opposed. 
                         Above, violet experiences its greatest extension, 
@@ -5681,9 +5502,7 @@
                     <p> × to be verified by measuring segments, where a point = zero</p>
                 <pb/> 
                     <p> same, as earlier in the addition. Namely:</p>
-                    <figure>
-                        <graphic url=".../lesson10_fig14"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig14"></figure>
                     <p>
                         The measurement result for the violet base is 12 parts violet 
                         and no parts yellow. For the yellow base, 12 parts yellow and 
@@ -5738,9 +5557,7 @@
                         gray-point indicates new color pairs that are correct, 
                         only less important.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig15"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig15"></figure>
                 <pb/> 
                     <p>
                         In such a search for new color pairs, the simultaneity 
@@ -5757,7 +5574,7 @@
                         red-violet  yellow-green
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson10_fig16"/>
+                        <cb n="left"/><seg><figure xml:id="lesson10_fig16"></figure></seg>
                         <cb n="right"/>
                         The gray effect from this color pair will 
                         have to be composed of red-violet and 
@@ -5777,7 +5594,7 @@
                     <p>
                         <cb n="left"/>
                         If I combine them as a cross,
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="right"/><seg><figure xml:id="lesson10_figureK"></figure></seg>
                     </p>
                     <p>
                         then I recognize in this arrangement, firstly, the already 
@@ -5802,7 +5619,8 @@
                         blue-violet  yellow-orange.
                     </p>
                     <figure>
-                        <graphic url=".../lesson10_fig17"/>
+                        <figure xml:id="lesson10_fig17"></figure>
+                        <figure xml:id="lesson10_figureL"></figure>
                     </figure>
                     <p>
                         or algebraically:
@@ -5815,11 +5633,12 @@
                         new genuine color pair: 
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson10_fig18"/>
+                        <cb n="left"/><seg><figure xml:id="lesson10_fig18"></figure></seg>
                         <cb n="right"/>
                         red-orange  blue-green
                         red, orange, blue, and 
                         green viewed on the cross
+                        <seg><figure xml:id="lesson10_figureM"></figure></seg>
                     </p>
                 <pb/> 
                     <p> red green = gray   and   blue orange = gray </p>
@@ -5851,9 +5670,7 @@
                         soon intersect somewhere.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson10_fig19"/>
-                        <cb n="right"/>
-                        In reckoning the result of  
+                        <seg><figure xml:id="lesson10_fig19"></figure></seg>In reckoning the result of  
                         the mixture of green and or- 
                         ange, I start from the fact 
                         that green stands exactly 
@@ -5864,7 +5681,7 @@
                             + 
                         red + yellow.  
                         Thus, I deduce upwards and down,
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson10_figureN"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
@@ -5877,9 +5694,7 @@
                         in the case of this color pair; thus, green/orange 
                         is not a genuine color pair.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig20"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig20"></figure>
                     <p>
                         A new false color pair, as a 
                         glance at the color circle already 
@@ -5904,9 +5719,7 @@
                         The third color pair of this kind is
                         violet/orange.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson10_fig21"/>
-                    </figure>
+                    <figure xml:id="lesson10_fig21"></figure>
                     <p>
                         For:
                         red + gray
@@ -6072,9 +5885,7 @@
                         differences of character between orange and violet are 
                         far too significant.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig1"></figure>
                     <p>
                         And this is the case even though red is contained 
                         in both colors. How enormous the differences will be 
@@ -6092,9 +5903,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson11_fig2"/>
-                        <cb n="right"/>
-                        (red)
+                        <seg><figure xml:id="lesson11_fig2"></figure></seg>(red)
                         Last time we saw that it quite  
                         certainly did not mean green, for  
                         red and green annihilate each  
@@ -6106,7 +5915,6 @@
                         red (so-called cool red).
                     </p>
                     <p>
-                        <cb n="left"/>
                         Bluish and yellowish, 
                         however, mean an attenua- 
                         tion in terms of red. So  
@@ -6114,9 +5922,9 @@
                         both sides must be ascertained --or, conversely, an increase in 
                         red from these two sides, towards red.
                         This increase from the two sides leads naturally  
-                        to a peak, towards the peak point <graphic url="..."/> that culminates 
+                        to a peak, towards the peak point <seg><figure xml:id="lesson11_figure003"></figure></seg> that culminates 
                         at the height of the red.
-                        <cb n="right"/><graphic url=".../lesson11_fig3"/>
+                        <cb n="right"/><seg><figure xml:id="lesson11_fig3"></figure></seg>
                     </p>
                     <p>
                         I can obtain 
@@ -6125,9 +5933,7 @@
                         endpoint 3) the cool red endpoint.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson11_fig4"/>
-                        <cb n="right"/>
-                        Through these three 
+                        <seg><figure xml:id="lesson11_fig4"></figure></seg>Through these three 
                         points the periphery 
                         is divided into a red 
                         stretch measuring two 
@@ -6143,9 +5949,7 @@
                         In the same way, I could now consider the blue and 
                         yellow color ranges:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig5"></figure>
                     <p>
                         brief
                         I shall make matters somewhat (briefer), however, and 
@@ -6176,9 +5980,7 @@
                         the peaks of these two neighbors. And yellow can tend 
                         towards blue and red, but can never be blue and red.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig6"></figure>
                     <p>
                         This is the illustration of these sentences, as 
                         simple as they are important. (One could call it the 
@@ -6192,18 +5994,14 @@
                         If I give the naturalistic form to this crescendo and 
                         diminuendo or the ex'act form, it amounts to the same.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig7"></figure>
                     <p>
                         But now something else is added: the colors do not 
                         sound in unison on the circle, as it might seem according 
                         to this chain, but in a kind of three-part polyphony.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson11_fig8"/>
-                        <cb n="right"/>
-                        This united representa-
+                        <seg><figure xml:id="lesson11_fig8"></figure></seg>This united representa-
                         tion allows the three-
                         voiced movement to be 
                         recognized and easily 
@@ -6217,7 +6015,7 @@
                         softly in and a third dies away.
                     </p>
                     <p>
-                        One could call this new figure the Canon of 
+                        One could call this new figure the Canon of <seg><figure xml:id="lesson11_figureA"></figure></seg>
                         Totality. &lt;bottom: what comes now&gt;
                     </p>
                     <p>
@@ -6231,9 +6029,7 @@
                         following shape, in which the notation of a musical
                         canon also appears.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig9"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig9"></figure>
                     <p>
                         The principal strokes stand in the place that signifies 
                         the characteristic of circling, to wit, the entry of 
@@ -6242,15 +6038,15 @@
                     <p>
                         &lt;Note: In the oscillation of the color pairs it was different; 
                         we had to return the same way to get back to the starting 
-                        point. As script, something like: <graphic url="..."/> that is, 
+                        point. As script, something like: <seg><figure xml:id="lesson11_figureB"></figure></seg> that is, 
                         in a zigzag.
                         Now, however, we are circling onwards, beat by beat. As 
                         script,       
-                        like: <graphic url="..."/> in a circular screw
+                        like: <seg><figure xml:id="lesson11_figureC"></figure></seg> in a circular screw
                         motion                 
                         Only not in unison but for several voices.&lt;
                     </p>
-                    <p> What comes now will remind you at once of my visualization</p>
+                    <p> <seg><figure xml:id="lesson11_figureD"></figure></seg>What comes now will remind you at once of my visualization<seg><figure xml:id="lesson11_figureE"></figure></seg></p>
                 <pb/> 
                     <p>
                         black/white 
@@ -6260,9 +6056,7 @@
                         starting point again in this way. Indeed, this time only 
                         in a five-part division.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig10"></figure>
                     <p>
                         This arithmetic table corresponds to the only 
                         satisfactory practical way to represent peripheral 
@@ -6294,9 +6088,7 @@
                         The Geometric Representation of the whole process 
                         will show us this even more concisely and clearly.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig11"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig11"></figure>
                     <p>
                         Now the eye is immediately struck by the secondary 
                         character of the three mixtures. Their arrangement in the 
@@ -6313,9 +6105,7 @@
                         And now that canon begins to ring out over and above 
                         its notation.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig12"></figure>
                     <p>
                         This is 
                         that drawing that I called      the Canon of Color 
@@ -6352,10 +6142,7 @@
                         at the brief pure spots on the blue and yellow hills. But 
                         the characteristic sign for a brief moment is the point.
                     </p>
-                    <figure>
-                        <cb n="left"/><graphic url=".../lesson11_fig13.1"/>
-                        <cb n="right"/><graphic url=".../lesson11_fig13.2"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig13"></figure>
                     <p>
                         Through the direct connection of the three points 
                         I obtain the equilateral triangle BYR. The sides of 
@@ -6373,9 +6160,9 @@
                         that is an ex'act representation of the the red hill.
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <figure xml:id="lesson11_figureF"></figure>
+                        <figure xml:id="lesson11_figureG"></figure>
+                        <figure xml:id="lesson11_figureH"></figure>
                     </figure>
                     <p>
                         If I turn towards B, before me stands a pyramid, like 
@@ -6406,9 +6193,7 @@
                         yellowish and reddish, and into reddish and bluish 
                         halves.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig14"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig14"></figure>
                     <p>
                         With this I gain a new image for the peripheral 
                         movement that, because it represents the perimeter of 
@@ -6428,27 +6213,25 @@
                         tive on the green side. This  
                         plumb line hits the green 
                         indifference point.
-                        <cb n="right"/><graphic url=".../lesson11_fig15"/>
+                        <cb n="right"/><seg><figure xml:id="lesson11_fig15"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         And this green indifference point is again explained by 
                         the flanking green components, blue and yellow.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson11_fig16"/>
-                    </figure>
+                    <figure xml:id="lesson11_fig16"></figure>
                     <p>
                         <cb n="left"/>
                         We therefore have the red-green bisectional  
                         movement, or the complement-movement.
-                        <cb n="right"/><graphic url=".../lesson11_fig17"/>
+                        <cb n="right"/><seg><figure xml:id="lesson11_fig17"></figure></seg>
                     </p>
                     <p>
                         <cb n="left"/>
                         And we have the blue-yellow peripheral  
                         movement, or the component-movement.
-                        <cb n="right"/><graphic url=".../lesson11_fig18"/>
+                        <cb n="right"/><seg><figure xml:id="lesson11_fig18"></figure></seg>
                     </p>
                     <p> And we hit upon a whole:</p>
                     <p>
@@ -6465,9 +6248,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <cb n="left"/><graphic url=".../lesson11_fig19"/>
-                        <cb n="right"/>
-                        The three complement
+                        <seg><figure xml:id="lesson11_fig19"></figure></seg>The three complement
                         bisectors (the perpendi- 
                         culars) intersect, 
                         however, at the familiar 
@@ -6568,7 +6349,7 @@
                         then some examples will show how I search for what 
                         fulfills this law and what falls under its sway.
                     </p>
-                    <p> formula <graphic url="..."/> of a triangle <graphic url="..."/> triangle× </p>
+                    <p> formula <seg><figure xml:id="lesson11_figureK"></figure></seg> of a triangle <seg><figure xml:id="lesson11_figureL"></figure></seg> triangle× </p>
                     <p>
                         1) The confusion of the law with the work, of the 
                         foundations with the house, of the formula with the 
@@ -6581,7 +6362,7 @@
                         place on these sides, the whole perimeter.
                     </p>
                     <p>
-                        <cb n="left"/><graphic url="..."/>
+                        <cb n="left"/><seg><figure xml:id="lesson11_figureM"></figure></seg>
                         <cb n="right"/>
                         3) Complementary movements along the bisecting line 
                         also have a triangular nature in 
@@ -6599,21 +6380,20 @@
                         symbol. The law of totality is  
                         only two-thirds fulfilled  
                         (two points instead of three)
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="right"/><seg><figure xml:id="lesson11_figureN"></figure></seg>
                     </p>
                     <p>
                         5) Movement between false color pairs is supratriangular:
                     </p>
                     <p>
                         <cb n="left"/> Total: × flat triangle, spatial:
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="right"/><seg><figure xml:id="lesson11_figure004"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         <cb n="left"/>
                         5a)  green/orange
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <seg><figure xml:id="lesson11_figureO"></figure></seg>
                     </p>
                     <p>
                         Green/orange is supratriangular, has one yellow 
@@ -6622,8 +6402,7 @@
                     <p>
                         <cb n="left"/>
                         5b)  violet/orange
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/><graphic url="..."/>
+                        <seg><figure xml:id="lesson11_figureP"></figure></seg>
                     </p>
                     <p>
                         Violet/orange is also supratriangular, double
@@ -6634,8 +6413,7 @@
                     <p>
                         <cb n="left"/>
                         5c) green/violet
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/><graphic url="..."/>
+                        <seg><figure xml:id="lesson11_figureQ"></figure></seg>
                     </p>
                     <p>
                         Green/violet is supratriangular, double-triangular, 
@@ -6674,35 +6452,33 @@
                         and would be quite easily expandable to totality:
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="center"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="left"/><figure xml:id="lesson11_figureR"></figure>
+                        <cb n="center"/><figure xml:id="lesson11_figureS"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureT"></figure>
                     </figure>
                     <p>
                         which, with the the three periods of time 
                         summarized, leads to Total Satisfaction, both as to 
                         number and as to weight.
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson11_figureU"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         To 3. The complementary partial action would be 
                         expanded to totality in this way.
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson11_figureV"></figure>
                     <p>
                         To 5. The quadrilateral partial actions I totalize 
                         according to weight
                     </p>
                     <figure>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="left"/><figure xml:id="lesson11_figureW"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureX"></figure>
                     </figure>
                     <figure>
-                        <cb n="left"/><graphic url="..."/>
-                        <cb n="right"/><graphic url="..."/>
+                        <cb n="left"/><figure xml:id="lesson11_figureY"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureZ"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -6713,7 +6489,7 @@
                     </p>
                     <p>Perhaps we'll practice in the meantime once again.</p>
                     <figure>
-                        <graphic url="..."/>
+                        <figure xml:id="lesson11_figureAA"></figure>
                         <figDesc>
                             Totality 
                             Pentahedron
@@ -6729,9 +6505,7 @@
                         </figDesc>
                     </figure>
                 <pb/>
-                <figure>
-                    <graphic url="..."/>
-                </figure>
+                <figure xml:id="lesson11_figure005"></figure>
             </div>
         </body>
     </text>
