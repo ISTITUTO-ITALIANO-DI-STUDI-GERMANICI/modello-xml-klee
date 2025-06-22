@@ -3852,9 +3852,7 @@
                         direction up to the point of contact, and force 
                         over and above.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig1"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig1"></figure>
                     <p> Not so much the less than precise accuracy as chiefly the</p>
                 <pb/> 
                     <p>
@@ -3874,9 +3872,7 @@
                         impetus to the point where the missile loosed itself 
                         from the switch.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig2"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig2"></figure>
                     <p>
                         The effect was of course astonishingly great. We did 
                         not need to make complete swings of the arm as when 
@@ -3906,15 +3902,15 @@
                     </p>
                     <p>
                         This time we cut forked branches from the thicket
-                        <graphic url="..."/> 
+                        <seg><figure xml:id="lesson9_figureA"></figure></seg> 
                         and attached highly stretchable rubber bands to the ends
-                        <graphic url=".../lesson9_fig3"/>
+                        <seg><figure xml:id="lesson9_fig3"></figure></seg>
                         of the fork; when fired, the bands gave the projectile 
                         no less force and allowed its direction to be controlled. 
                         Accuracy was also increased by changing the missile from 
                         a stone to a kind of arrow, which one could fashion out 
                         of a hairpin.
-                        <graphic url=".../lesson9_fig4"/>
+                        <seg><figure xml:id="lesson9_fig4"></figure></seg>
                         A little pennant made of colored wool served as a 
                         rudder and for grasping and also as decoration.
                     </p>
@@ -3922,9 +3918,7 @@
                         Related to this was the bow and arrow, which, of 
                         course, we also made diligent use of.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig5"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig5"></figure>
                 <pb/> 
                     <p>
                         Reduction of the energy required and improvement of 
@@ -3935,9 +3929,9 @@
                         it was long and straight, made aiming considerably 
                         easier and maintained the chosen direction as well. 
                         Voilà the arrow: the
-                        arrow as shaft, <graphic url="..."/>
-                        tip, <graphic url="..."/>
-                        and rudder: <graphic url="..."/>
+                        arrow as shaft, <seg><figure xml:id="lesson9_figureB"></figure></seg>
+                        tip, <seg><figure xml:id="lesson9_figureC"></figure></seg>
+                        and rudder: <seg><figure xml:id="lesson9_figureD"></figure></seg>
                     </p>  
                     <p>
                         The bow and arrow, with a sighting mechanism for 
@@ -3961,9 +3955,7 @@
                         firearm brings in an essential novelty: its two
                         dimensional movement.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig6"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig6"></figure>
                     <p>
                         The dynamic rifling inside the gun barrel imparts a 
                         rotational movement to the bullet racing through.
@@ -3983,7 +3975,7 @@
                         also of the arrow, was the thought: How can I extend 
                         my reach to over there? Across that river, that lake? 
                         Over that mountain?
-                        <graphic url="..."/>
+                        <seg><figure xml:id="lesson9_figureE"></figure></seg>
                         To over there?
                         Common to this father and to all of his sons are both 
                         the linearity of the movement and the length of its path 
@@ -4009,9 +4001,7 @@
                         its counterpart, becomes conscious of the tragedy of its 
                         halfness.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig7"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig7"></figure>
                 <pb/> 
                     <p>
                         The farther the journey from here to there, the heavier 
@@ -4035,9 +4025,9 @@
                         end, lest your own end be to lead nowhere!&gt;
                     </p>
                     <p>
-                       shaft: <graphic url="..."/>
-                        tip: <graphic url="..."/>
-                        rudder: <graphic url="..."/>
+                       shaft: <seg><figure xml:id="lesson9_figureF"></figure></seg>
+                        tip: <seg><figure xml:id="lesson9_figureG"></figure></seg>
+                        rudder: <seg><figure xml:id="lesson9_figureH"></figure></seg>
                     </p>
                     <p>
                         A genuine African arrow consists of shaft, tip, and 
@@ -4059,7 +4049,7 @@
                         arrow becomes redundant.
                     </p>
                     <p> 
-                        Our arrow thus looks like this: <graphic url="..."/>
+                        Our arrow thus looks like this: <seg><figure xml:id="lesson9_figureI"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
@@ -4067,9 +4057,7 @@
                         angles between each line and the horizontal shaft result 
                         in a horizontal path.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig8"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig8"></figure>
                     <p>
                         fig. 8 [Given that: lengths a = b
                         angles  α = β   
@@ -4080,12 +4068,8 @@
                         Unequal length and angle of the lines of the tip 
                         result in a path that curves up or down.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig9"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson9_fig10"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig9"></figure>
+                    <figure xml:id="lesson9_fig10"></figure>
                     <p>
                         This is grounded on the rule of the parallelogram of 
                         forces and manifests itself quite nicely in its one part 
@@ -4108,9 +4092,7 @@
                         tip-rudder force that exhibits the greater deviation 
                         from the horizontal.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig11"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig11"></figure>
                     <p>
                         The stronger the upward-steering force, the higher 
                         the path climbs; the stronger the downward-steering 
@@ -4124,25 +4106,19 @@
                         confers more and more predominance on the downward
                         steering force.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig12"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig12"></figure>
                     <p>
                         Thus the earthly curve presents itself as finite 
                         movement,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig13"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig13"></figure>
                     <p>
                         where the end, in practice, is on the earth's 
                         surface but theoretically at the center of the 
                         sphere of the earth,
                     </p>
                     <p>
-                        <cb n="left"/><graphic url=".../lesson9_fig14"/>
-                        <cb n="right"/>
-                        and in contrast to this, the cosmic curve, which 
+                        <seg><figure xml:id="lesson9_fig14"></figure></seg>and in contrast to this, the cosmic curve, which 
                         withdraws from the 
                         earth, presents itself 
                         as infinite movement, 
@@ -4161,16 +4137,12 @@
                         One can think of such a circling as an increasing 
                         screw motion,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig15"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig15"></figure>
                     <p>
                         which, when projected flat, is converted into the 
                         motion-positive spiral.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig16"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig16"></figure>
                     <p>
                         If, however, one thinks conversely of a circling 
                         star approaching another, stronger star too closely, 
@@ -4187,9 +4159,7 @@
                         heads more and more towards catastrophe.
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson9_fig17"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig17"></figure>
                     <p>
                         Anyone who wants to experience this should imagine 
                         rolling like a ball inside a funnel under centrifugal 
@@ -4202,12 +4172,8 @@
                         unless somewhere a new force of a repelling or 
                         attracting nature makes itself felt, as here:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig18"/>
-                    </figure>
-                    <figure>
-                        <graphic url=".../lesson9_fig19"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig18"></figure>
+                    <figure xml:id="lesson9_fig19"></figure>
                 <pb/> 
                     <p>
                         as here where through the arrival of a new force the 
@@ -4218,9 +4184,7 @@
                         Holding this process in our mind's eye, we 
                         proceed from the symbol to the compositional schema:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig20"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig20"></figure>
                     <p>
                         As you see, I distinguish between cause and 
                         effect. Analytically, I schematize the concentric 
@@ -4233,14 +4197,14 @@
                         I must begin by saying that considered by 
                         itself, in minimal terms, the arrow was already in 
                         itself a synthesis of cause and effect. The two side
-                        rudders, <graphic url="..."/>  or the two sides of the parallelogram 
+                        rudders, <seg><figure xml:id="lesson9_figureJ"></figure></seg>  or the two sides of the parallelogram 
                         of the direction of forces, could  
                         be considered directional causes,
                     </p>
                 <pb/> 
                     <p>
                         the resultant diagonal of the parallelogram of the 
-                        <graphic url="..."/> direction of forces could be seen as 
+                        <seg><figure xml:id="lesson9_figureK"></figure></seg> direction of forces could be seen as 
                         depending on them, and specifically as a 
                         directional effect.
                     </p>
@@ -4268,9 +4232,7 @@
                         Establishment and configuration of the cause of 
                         this effect: 
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureL"></figure>
                     <p>
                         Assuming that what I mean has become clear to you, 
                         I will go on from the schematically compositional 
@@ -4280,9 +4242,7 @@
                     </p>
                 <pb/> 
                     <p>Schematically, cause A1 has approximately this form: </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig21"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig21"></figure>
                     <p>
                         The form of a horn, emerging from a broad base on 
                         the bottom left in order to end like a tip at the 
@@ -4292,9 +4252,7 @@
                        Or, if I unite all the sweeping particles, this 
                         form: 
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig22"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig22"></figure>
                     <p>
                         For the configuration, this means a development or 
                         increase of energy from the bottom left towards the 
@@ -4326,53 +4284,38 @@
                         Let the given be water; enter fire. Then the case 
                         looks like this:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig23"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig23"></figure>
                     <p>
                         or in terms of color: given green, enter red
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig24"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig24"></figure>
                 <pb/> 
                     <p>
                         Such a movement is called "heating."
                         The heating arrow coming from the given "cold" looks 
                         like this in tabular form:
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig25"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig25"></figure>
                     <p>
                         The opposite movement--the prerequisite of 
                         which is the exclamation "Fire!"--is called "cooling."
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig26"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig26"></figure>
                     <p>
                         Fire is the given; water entering produces first of 
                         all steam, the water dominates the fire, until the 
                         burnt-out house stands under water.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig27"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig27"></figure>
                 <pb/> 
-                    <figure>
-                        <graphic url=".../lesson9_fig28.1"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig28.1"></figure>
                     <p>
                         Let us touch briefly upon the colored movement between 
                         light and dark:
                         The increase in red. Given lack of red, i.e., very 
                         little red.  
                     </p>
-                    <p>
-                        
-                        <graphic url=".../lesson9_fig28.2"/>
-                    </p>
+                    <figure xml:id="lesson9_fig28.2"></figure>
                     <p>
                         or, conversely, decrease of red; and all other 
                         possibilities of crescendo and decrescendo. So an 
@@ -4391,13 +4334,11 @@
                         to motions or when an infinite-motion solution 
                         ensues.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig29"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig29"></figure>
                     <p>
                         The back-and-forth of the pendulum (p. 117) passes again 
                         before our eyes. This is the dynamic compensation 
-                        of errors or sur- <graphic url="..."/>  -pluses of move-
+                        of errors or sur- <seg><figure xml:id="lesson9_figureM"></figure></seg>  -pluses of move-
                         ment by means of the antitheses
                         of new errors and surpluses.
                         An extended account of the
@@ -4423,24 +4364,18 @@
                         may proceed from left to right or from right to left. 
                         In the process, a center arises, central gray.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig30"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig30"></figure>
                     <p>
                         Represented more and more purely, the gray will 
                         become ever smaller, theoretically until it is as 
                         small as a point. For to the left of the gray point, 
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureN"></figure>
                     <p>
                         green still predominates and, to the right, red does. 
                         Due to the purification of gray's representation,
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig31"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig31"></figure>
                     <p> 
                         the gamut of movement for both green/red and violet/
                         yellow is bent.
@@ -4450,17 +4385,13 @@
                         achieve its completion as a point, then both gamuts
                         will necessarily readjust as diagonals.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig32"/>
-                    </figure>
+                    <figure xml:id="lesson9_32"></figure>
                 <pb/> 
                     <p>
                         In this way we have arrived at the ethos of 
                         color, the color circle.
                     </p>
-                    <figure>
-                        <graphic url=".../lesson9_fig32a"/>
-                    </figure>
+                    <figure xml:id="lesson9_fig32a"></figure>
                     <p>
                         The arrow is completely finished with, it is 
                         no longer a question of "to over there," but 
@@ -4500,9 +4431,7 @@
                         the simple, inherently quiescent movement of the 
                         line:
                     </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureO"></figure>
                     <p>
                         I then demonstrated with a few examples how one can 
                         "accompany" this "melody" or how one can transcribe 
@@ -4510,9 +4439,7 @@
                         plane).
                     </p>
                     <p> Then I fixed the line at several points, </p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureP"></figure>
                     <p>and it took on this concise, time-constrained character.</p>
                     <p>
                         Then I took the step towards the first fundamental  
@@ -4521,8 +4448,8 @@
                 <pb/> 
                     <p>by leading the line back to its point of departure:</p>
                     <p>
-                        <cb n="left"/>free: <graphic url="..."/>
-                        <cb n="right"/> constrained: <graphic url="..."/>
+                        <cb n="left"/>free: <seg><figure xml:id="lesson9_figureQ"></figure></seg>
+                        <cb n="right"/> constrained: <seg><figure xml:id="lesson9_figureR"></figure></seg><seg><figure xml:id="lesson9_figureS"></figure></seg>
                     </p>
                     <p>
                         Here there could be no more talk of elementary linear 
@@ -4538,15 +4465,13 @@
                         points), but by the movement of lines.
                     </p>
                     <p>
-                        <cb n="left"/>either<graphic url="..."/>
-                        <cb n="right"/>pushed to this effect<graphic url="..."/>
+                        <cb n="left"/>either<seg><figure xml:id="lesson9_figureT"></figure></seg>
+                        <cb n="right"/>pushed to this effect <seg><figure xml:id="lesson9_figureU"></figure></seg>
+                        <cb n="left"/>or rotated<seg><figure xml:id="lesson9_figureV"></figure></seg>
+                        <cb n="right"/>  to this  <seg><figure xml:id="lesson9_figureW"></figure></seg> effect
                     </p>
                     <p>
-                        <cb n="left"/>or rotated<graphic url="..."/>
-                        <cb n="right"/>  to this  <graphic url="..."/> effect
-                    </p>
-                    <p>
-                        Thus, a construct like this: <graphic url="..."/><graphic url="..."/><graphic url="..."/>
+                        Thus, a construct like this: <seg><figure xml:id="lesson9_figureY"></figure></seg><seg><figure xml:id="lesson9_figureX"></figure></seg><seg><figure xml:id="lesson9_figureZ"></figure></seg>
                     </p>
                     <p>
                         considered in elementary terms is neither line nor 
@@ -4556,14 +4481,14 @@
                     </p>
                     <p> So we have three characters to distinguish:</p>
                     <p>
-                        I. a linear one, <graphic url="..."/><graphic url="..."/>
+                        I. a linear one, <seg><figure xml:id="lesson9_figureAA"></figure></seg><seg><figure xml:id="lesson9_figureAB"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
-                        II. a medial one, <graphic url="..."/><graphic url="..."/><graphic url="..."/><graphic url="..."/>
+                        II. a medial one, <seg><figure xml:id="lesson9_figureAC"></figure></seg><seg><figure xml:id="lesson9_figureAD"></figure></seg><seg><figure xml:id="lesson9_figureAE"></figure></seg><seg><figure xml:id="lesson9_figureAF"></figure></seg>
                     </p>
                     <p>
-                        III. and a planar one <graphic url="..."/><graphic url="..."/><graphic url="..."/>
+                        III. and a planar one <seg><figure xml:id="lesson9_figureAG"></figure></seg><seg><figure xml:id="lesson9_figureAH"></figure></seg><seg><figure xml:id="lesson9_figureAI"></figure></seg>
                     </p>
                     <p>
                         where I and III are elementary principal characters, 
@@ -4572,10 +4497,10 @@
                     <p>
                         <cb n="left"/>
                         From the linear standpoint:
-                        This <graphic url="..."/>
-                        character is <graphic url="..."/> active      
-                        this  <graphic url="..."/> medial,
-                        and this, <graphic url="..."/> passive.
+                        This <seg><figure xml:id="lesson9_figureAJ"></figure></seg>
+                        character is <seg><figure xml:id="lesson9_figureAK"></figure></seg> active      
+                        this  <seg><figure xml:id="lesson9_figureAL"></figure></seg> medial,
+                        and this, <seg><figure xml:id="lesson9_figureAM"></figure></seg> passive.
                         I.e., when active, the point 
                         works, and the effect is 
                         linear, corresponding to the 
@@ -4593,10 +4518,10 @@
                         is suffered
                         <cb n="right"/>
                         From the planar standpoint:
-                        <graphic url="..."/> This character 
+                        <seg><figure xml:id="lesson9_figureAN"></figure></seg>This character 
                         is passive,
-                        this, <graphic url="..."/> medial,
-                        and this, <graphic url="..."/> active.
+                        this, <seg><figure xml:id="lesson9_figureAO"></figure></seg> medial,
+                        and this, <seg><figure xml:id="lesson9_figureAP"></figure></seg> active.
                     </p>
                     <p>
                         The viewpoints thus stand 
@@ -4607,9 +4532,7 @@
                         phenomenon.
                     </p>
                 <pb/> 
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureAQ"></figure>
                     <p>
                        Note. Linguistic analogy
                         active:  I fell: The man felled the tree with an axe.
@@ -5109,9 +5032,7 @@
                         can be given to me about the work now emerging.
                     </p>
                     <p> New example of it here:</p>
-                    <figure>
-                        <graphic url="..."/>
-                    </figure>
+                    <figure xml:id="lesson9_figureAR"></figure>
                 <pb/> 
             </div>
             <div xml:id="div_Klee_lesson10">

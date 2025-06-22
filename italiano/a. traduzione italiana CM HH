@@ -4203,14 +4203,14 @@
                     </p>
                     <p> Dobbiamo dunque distinguere fra tre caratteri</p>
                     <p>
-                        I lineare <seg><figure xml:id="lesson9_figureAA"></figure></seg>
+                        I lineare <seg><figure xml:id="lesson9_figureAA"></figure></seg><seg><figure xml:id="lesson9_figureAB"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
-                        II mediale <seg><figure xml:id="lesson9_figureAB"></figure></seg><seg><figure xml:id="lesson9_figureAC"></figure></seg><seg><figure xml:id="lesson9_figureAD"></figure></seg><seg><figure xml:id="lesson9_figureAE"></figure></seg>
+                        II mediale <seg><figure xml:id="lesson9_figureAC"></figure></seg><seg><figure xml:id="lesson9_figureAD"></figure></seg><seg><figure xml:id="lesson9_figureAE"></figure></seg><seg><figure xml:id="lesson9_figureAF"></figure></seg>
                     </p>
                     <p>
-                        III e piano <seg><figure xml:id="lesson9_figureAF"></figure></seg><seg><figure xml:id="lesson9_figureAG"></figure></seg><seg><figure xml:id="lesson9_figureAH"></figure></seg>
+                        III e piano <seg><figure xml:id="lesson9_figureAG"></figure></seg><seg><figure xml:id="lesson9_figureAH"></figure></seg><seg><figure xml:id="lesson9_figureAI"></figure></seg>
                     </p>
                     <p>
                         Laddove I e III sono caratteri principali elementari, II è un 
@@ -4220,9 +4220,9 @@
                         <cb n="left"/>
                         Dal punto di vista lineare 
                         questo carattere è:
-                        <seg><figure xml:id="lesson9_figureAI"></figure></seg><seg><figure xml:id="lesson9_figureAJ"></figure></seg> attivo
-                        quest'altro <seg><figure xml:id="lesson9_figureAK"></figure></seg> mediale
-                        e questo <seg><figure xml:id="lesson9_figureAL"></figure></seg> passivo
+                        <seg><figure xml:id="lesson9_figureAJ"></figure></seg><seg><figure xml:id="lesson9_figureAK"></figure></seg> attivo
+                        quest'altro <seg><figure xml:id="lesson9_figureAL"></figure></seg> mediale
+                        e questo <seg><figure xml:id="lesson9_figureAM"></figure></seg> passivo
                         E cioè:  nel carattere attivo 
                         lavora il punto e l’effetto è li-
                         neare, conformemente al mo-
@@ -4241,10 +4241,10 @@
                         <cb n="right"/>
                         Dal punto di vista della 
                         superficie
-                        <seg><figure xml:id="lesson9_figureAM"></figure></seg>
+                        <seg><figure xml:id="lesson9_figureAN"></figure></seg>
                         questo carattere è passivo
-                        questo <seg><figure xml:id="lesson9_figureAN"></figure></seg> medio
-                        e questo <seg><figure xml:id="lesson9_figureAO"></figure></seg> attivo
+                        questo <seg><figure xml:id="lesson9_figureAO"></figure></seg> medio
+                        e questo <seg><figure xml:id="lesson9_figureAP"></figure></seg> attivo
                     </p>
                     <p>
                         I punti di vista stanno dunque diametralmente l’uno op-
@@ -4252,7 +4252,7 @@
                         illustrare questo fenomeno ci serviamo del seguente schema
                     </p>
                 <pb/> 
-                    <figure xml:id="lesson9_figureAP"></figure>
+                    <figure xml:id="lesson9_figureAQ"></figure>
                     <p>
                         (Nota. Analogia linguistica
                         attivo: io taglio la legna: L’uomo tagliò l’albero con l’ascia
@@ -4620,7 +4620,7 @@
                         informazioni analitiche in proposito, in parte riguardo alla for-
                         ma, in parte riguardo al contenuto.
                     </p>
-                    <figure xml:id="lesson9_figureAQ"></figure>
+                    <figure xml:id="lesson9_figureAR"></figure>
                 <pb/> 
             </div>
             <div xml:id="div_Klee_lesson10">
