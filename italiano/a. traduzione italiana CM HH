@@ -776,7 +776,7 @@
                     <p>allora appare così:</p>
                     <figure xml:id="lesson3_fig11"></figure>
                     <p>
-                       La novità è questa croce: <seg><figure xml:id="lesson3_figureA"></figure></seg>
+                       La novità è questa croce: <seg><figure xml:id="lesson3_fig12"></figure></seg>
                     </p>
                     <p>
                         Vorrei ricordarvi a questo punto il rapporto comple-
@@ -2298,7 +2298,7 @@
                         nea, dico maschile la retta e femminile il cerchio, che riposa 
                         in se stesso.
                     </p>
-                    <p> (fig. 12)  ****</p>
+                    <figure xml:id="lesson6_fig12.1"></figure>
                     <p>
                         Ma nel nostro esempio, occasione di questa critica, tan-
                         to il motivo appena esposto, quanto la progettazione compo-
@@ -2343,9 +2343,7 @@
                         risulta una molteplicità di spazi cavi a forma di cellette*, tubi-
                         cini, o i canaletti.
                     </p>
-                    <p>
-                        fig. 27 ****
-                    </p>
+                    <figure xml:id="lesson6_fig27"></figure>
                     <p>
                         *Come esempio, un torso di cavolo marcito o un pezzo 
                         d’osso.
@@ -2954,16 +2952,16 @@
                         propria delle opere realizzate in forma dinamica.
                     </p>
                     <figure>
-                        <figure xml:id="lesson7_18"></figure>
-                        <figure xml:id="lesson7_19"></figure>
-                        <figure xml:id="lesson7_20"></figure>
+                        <figure xml:id="lesson7_fig18"></figure>
+                        <figure xml:id="lesson7_fig19"></figure>
+                        <figure xml:id="lesson7_fig20"></figure>
                     </figure>
                     <p>
                         Adesso vogliamo esercitare su alcuni esempi concreti ciò 
                         che abbiamo imparato finora.
                     </p>
                     <p>
-                        <seg><figure xml:id="lesson7_21"></figure></seg> Primo esempio di formazione rigida. Enunciati: 
+                        <seg><figure xml:id="lesson7_fig21"></figure></seg> Primo esempio di formazione rigida. Enunciati: 
                         formazione rigida <seg><figure xml:id="lesson7_figureA"></figure></seg>
                         Impianto verticale <seg><figure xml:id="lesson7_figureB"></figure></seg>
                         Articolazione: rigida <seg><figure xml:id="lesson7_figureC"></figure></seg>
@@ -5660,7 +5658,7 @@
                     <p>
                         <seg><figure xml:id="lesson11_figureI"></figure></seg>Ma c’è dell’altro. Rispetto alla rappresentazione circolare, 
                         essa riesce a darci informazioni più intuitive sulle sezioni che 
-                        noi abbiamo chiamato movimento dia- <seg><figure xml:id="lesson11_figureJ"></figure></seg>
+                        noi abbiamo chiamato movimento dia- <seg><figure xml:id="lesson11_fig15"></figure></seg>
                         metrale, di quanto non avvenisse con 
                         il cerchio. Per esempio, la sezione ros-
                         so-verde, considerata come perpen-
@@ -5791,7 +5789,7 @@
                         direzione del compimento di questa legge e di tutto ciò che 
                         cade sotto di essa.
                     </p>
-                    <p>Formula del <seg><figure xml:id="lesson11_figureK"></figure></seg> triangolo <seg><figure xml:id="lesson11_figureL"></figure></seg> Triangolo</p>
+                    <p>Formula del <seg><figure xml:id="lesson11_figureJ"></figure></seg> triangolo <seg><figure xml:id="lesson11_figureK"></figure></seg> Triangolo</p>
                     <p>
                         1) L’errore di scambiare la legge per l’opera, le fondamen-
                         ta per la casa, la formula per l’operazione, si potrebbe provare 
@@ -5804,7 +5802,7 @@
                     </p>
                     <p>
                         3) Anche i movimenti delle sezioni complementari sono, 
-                        <seg><figure xml:id="lesson11_figureM"></figure></seg>in un certo senso, di natura triangolare, per 
+                        <seg><figure xml:id="lesson11_figureL"></figure></seg>in un certo senso, di natura triangolare, per 
                         quanto velata dal fatto che i colori secon-
                         dari stanno qui al posto dei primari loro 
                         componenti. Dunque un movimento com-
@@ -5812,7 +5810,7 @@
                         cromatica.
                     </p>
                      <p>
-                        4) Al movimento parziale periferi- <seg><figure xml:id="lesson11_figureN"></figure></seg>
+                        4) Al movimento parziale periferi- <seg><figure xml:id="lesson11_figureM"></figure></seg>
                         co blu rosso viene attribuito un simbolo 
                         infratriangolare (unterdreieckiges). La 
                         legge della totalità è soddisfatta solo per 
@@ -5825,7 +5823,7 @@
                 <pb/> 
                     <p>
                         5a) verde | arancione
-                        <seg><figure xml:id="lesson11_figureO"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureN"></figure></seg>
                     </p>
                     <p>
                         è sovratriangolare, ha un punto giallo di troppo. Da cui il so-
@@ -5834,7 +5832,7 @@
                     <p>
                         5b) 
                         anche violetto | arancione
-                        <seg><figure xml:id="lesson11_figureP"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureO"></figure></seg>
                     </p>
                     <p>
                         è sovratriangolare, bitriangolare o quadrangolare. Questo mo-
@@ -5844,7 +5842,7 @@
                     <p>
                         5c) 
                         Verde | violetto 
-                        <seg><figure xml:id="lesson11_figureQ"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureP"></figure></seg>
                     </p>
                     <p>
                         e sovratriangolare, bitriangoalre o quadrangolare. Un punto 
@@ -5881,32 +5879,32 @@
                         violetto e sarebbe comunque  capace di fino alla totalità:
                     </p>
                     <figure>
-                        <cb n="left"/><figure xml:id="lesson11_figureR"></figure>
-                        <cb n="center"/><figure xml:id="lesson11_figureS"></figure>
-                        <cb n="right"/><figure xml:id="lesson11_figureT"></figure>
+                        <cb n="left"/><figure xml:id="lesson11_figureQ"></figure>
+                        <cb n="center"/><figure xml:id="lesson11_figureR"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureS"></figure>
                     </figure>
                     <p>
                         Il che conduce alla ricomposizione dei tre tempi e alla 
                         soddisfazione totale della legge, secondo il numero e se-
-                        condo il peso <seg><figure xml:id="lesson11_figureU"></figure></seg>
+                        condo il peso <seg><figure xml:id="lesson11_figureT"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         ad 3 l’azione parziale complementare in questo modo si 
                         potrebbe estendere fino a raggiungere la totalità.
                     </p>
-                    <figure xml:id="lesson11_figureV"></figure>
+                    <figure xml:id="lesson11_figureU"></figure>
                     <p>
                         ad 5. Porto alla totalità le azioni parziali quadrangolari se-
                         condo il peso
                     </p>
                     <figure>
-                        <cb n="left"/><figure xml:id="lesson11_figureW"></figure>
-                        <cb n="right"/><figure xml:id="lesson11_figureX"></figure>
+                        <cb n="left"/><figure xml:id="lesson11_figureV"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureW"></figure>
                     </figure>
                     <figure>
-                        <cb n="left"/><figure xml:id="lesson11_figureY"></figure>
-                        <cb n="right"/><figure xml:id="lesson11_figureZ"></figure>
+                        <cb n="left"/><figure xml:id="lesson11_figureX"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureY"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -5915,7 +5913,7 @@
                         sopra estendendola nello spazio.).
                     </p>
                     <figure>
-                        <figure xml:id="lesson11_figureAA"></figure>
+                        <figure xml:id="lesson11_figureZ"></figure>
                         <figDesc>
                             Pentaedro 
                             della totalità 

@@ -5779,7 +5779,7 @@
                         scientific. And we gain just as much experience if 
                         we miss the mark of precise correctness.
                     </p>
-                    <p> Now Today I shall first move on to peripheral</p>
+                    <p> <seg><figure xml:id="lesson11_figure003"></figure></seg> Now Today I shall first move on to peripheral</p>
                 <pb/> 
                     <p>
                         color movement, to movement that proceeds around the 
@@ -5843,7 +5843,7 @@
                         both sides must be ascertained --or, conversely, an increase in 
                         red from these two sides, towards red.
                         This increase from the two sides leads naturally  
-                        to a peak, towards the peak point <seg><figure xml:id="lesson11_figure003"></figure></seg> that culminates 
+                        to a peak, towards the peak point <seg><figure xml:id="lesson11_figure004"></figure></seg> that culminates 
                         at the height of the red.
                         <cb n="right"/><seg><figure xml:id="lesson11_fig3"></figure></seg>
                     </p>
@@ -6125,7 +6125,7 @@
                         advantage over the circle.
                     </p>
                     <p>
-                        <cb n="left"/>
+                        <cb n="right"/><seg><figure xml:id="lesson11_figureI"></figure></seg>
                         But not only this; it can provide even 
                         clearer information than the circle about the dividing 
                         lines that we called diametral movement. For example, 
@@ -6270,7 +6270,7 @@
                         then some examples will show how I search for what 
                         fulfills this law and what falls under its sway.
                     </p>
-                    <p> formula <seg><figure xml:id="lesson11_figureK"></figure></seg> of a triangle <seg><figure xml:id="lesson11_figureL"></figure></seg> triangle× </p>
+                    <p> formula <seg><figure xml:id="lesson11_figureJ"></figure></seg> of a triangle <seg><figure xml:id="lesson11_figureK"></figure></seg> triangle× </p>
                     <p>
                         1) The confusion of the law with the work, of the 
                         foundations with the house, of the formula with the 
@@ -6283,7 +6283,7 @@
                         place on these sides, the whole perimeter.
                     </p>
                     <p>
-                        <cb n="left"/><seg><figure xml:id="lesson11_figureM"></figure></seg>
+                        <cb n="left"/><seg><figure xml:id="lesson11_figureL"></figure></seg>
                         <cb n="right"/>
                         3) Complementary movements along the bisecting line 
                         also have a triangular nature in 
@@ -6301,20 +6301,20 @@
                         symbol. The law of totality is  
                         only two-thirds fulfilled  
                         (two points instead of three)
-                        <cb n="right"/><seg><figure xml:id="lesson11_figureN"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson11_figureM"></figure></seg>
                     </p>
                     <p>
                         5) Movement between false color pairs is supratriangular:
                     </p>
                     <p>
                         <cb n="left"/> Total: × flat triangle, spatial:
-                        <cb n="right"/><seg><figure xml:id="lesson11_figure004"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson11_figure005"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         <cb n="left"/>
                         5a)  green/orange
-                        <seg><figure xml:id="lesson11_figureO"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureN"></figure></seg>
                     </p>
                     <p>
                         Green/orange is supratriangular, has one yellow 
@@ -6323,7 +6323,7 @@
                     <p>
                         <cb n="left"/>
                         5b)  violet/orange
-                        <seg><figure xml:id="lesson11_figureP"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureO"></figure></seg>
                     </p>
                     <p>
                         Violet/orange is also supratriangular, double
@@ -6334,7 +6334,7 @@
                     <p>
                         <cb n="left"/>
                         5c) green/violet
-                        <seg><figure xml:id="lesson11_figureQ"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureP"></figure></seg>
                     </p>
                     <p>
                         Green/violet is supratriangular, double-triangular, 
@@ -6373,33 +6373,33 @@
                         and would be quite easily expandable to totality:
                     </p>
                     <figure>
-                        <cb n="left"/><figure xml:id="lesson11_figureR"></figure>
-                        <cb n="center"/><figure xml:id="lesson11_figureS"></figure>
-                        <cb n="right"/><figure xml:id="lesson11_figureT"></figure>
+                        <cb n="left"/><figure xml:id="lesson11_figureQ"></figure>
+                        <cb n="center"/><figure xml:id="lesson11_figureR"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureS"></figure>
                     </figure>
                     <p>
                         which, with the the three periods of time 
                         summarized, leads to Total Satisfaction, both as to 
                         number and as to weight.
-                        <seg><figure xml:id="lesson11_figureU"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureT"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         To 3. The complementary partial action would be 
                         expanded to totality in this way.
                     </p>
-                    <figure xml:id="lesson11_figureV"></figure>
+                    <figure xml:id="lesson11_figureU"></figure>
                     <p>
                         To 5. The quadrilateral partial actions I totalize 
                         according to weight
                     </p>
                     <figure>
-                        <cb n="left"/><figure xml:id="lesson11_figureW"></figure>
-                        <cb n="right"/><figure xml:id="lesson11_figureX"></figure>
+                        <cb n="left"/><figure xml:id="lesson11_figureV"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureW"></figure>
                     </figure>
                     <figure>
-                        <cb n="left"/><figure xml:id="lesson11_figureY"></figure>
-                        <cb n="right"/><figure xml:id="lesson11_figureZ"></figure>
+                        <cb n="left"/><figure xml:id="lesson11_figureX"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureY"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -6410,7 +6410,7 @@
                     </p>
                     <p>Perhaps we'll practice in the meantime once again.</p>
                     <figure>
-                        <figure xml:id="lesson11_figureAA"></figure>
+                        <figure xml:id="lesson11_figureZ"></figure>
                         <figDesc>
                             Totality 
                             Pentahedron
@@ -6426,7 +6426,7 @@
                         </figDesc>
                     </figure>
                 <pb/>
-                <figure xml:id="lesson11_figure005"></figure>
+                <figure xml:id="lesson11_eye"></figure>
             </div>
         </body>
     </text>
