@@ -20,9 +20,10 @@ Testo, edizioni e traduzioni
 				- La struttura è articolata in <div> dotate di @xml:id, pagine <pb/> e capoversi <p>. Quando all'interno di una stessa 
 				  pagina termina una <div> e inizia la successiva, siccome la pagina non cambia non si ripete nessuna <pb/>.
 				- Laddove il testo sulla pagina sia diviso in colonne si ricorre all’elemento vuoto <cb n="left"/>, <cb n="center"/> <cb n="right"/>.
-				- Se il testo è scritto nel margine della pagina, magari in verticale, si ricorre all'elemento... 
-				- L’elemento <note> è usato per le note dei curatori della traduzione, laddove le eventuali note dell’autore, indicate 
-				  nel testo con *, sono state inserite in normali <p>.
+				- Se il testo è scritto nel margine della pagina, magari in verticale, si ricorre all'elemento <note>, corredato dagli 
+				  attributi @place, ad esempio col valore “left” or “right”, e @rend, ad esempio col valore “vertical”. 
+				- L’elemento <note> è usato anche per le note dei curatori della traduzione, laddove le eventuali note dell’autore presenti nel corpo 
+				  del testo e indicate con *, sono state inserite in normali <p>.
 
 	
 	Problemi riscontrati e soluzioni adottate
@@ -46,7 +47,7 @@ Testo, edizioni e traduzioni
 				- se due immagini si affiancano e insieme occupano l'intera larghezza della pagina, SOLO PER IL MOMENTO sono codificate come due <figure> 
 				  contenute in una <figure> gerarchicamente sorella di <p>, senza specificare colonne e distribuzioni nella pagina.
 				- la nomenclatura delle immagini:
-				  1. la serie che inizia con fig1 che indica le figure etichettate dall'autore (anche quelle salatate che, in base alla serie numerica, avrebbe etichettato); 
+				  1. la serie che inizia con fig1 che indica le figure etichettate dall'autore (anche quelle saltate che, in base alla serie numerica, avrebbe etichettato); 
 				  2. la serie che inizia con figureA, che indica le figure non etichettate, integrate ne discorso; 
 				  3. la serie che inizia con figure001, che indica le figure assenti in CM HH. 
 
@@ -70,7 +71,7 @@ Testo, edizioni e traduzioni
 				in modo diverso rispetto all'originale, tanto tra di loro quanto rispetto al materiale linguistico.
 				(Sul testo Feltrinelli ho appuntato in verde le immagini uguali ma senza "fig" e in rosso le immagini uguali che hanno "fig", quindi già 
 				un riferimento univoco; attenzione: anche queste talvolta sono un po' alterate, con piccole aggiunte esplicative come frecce, oppure 
-				addirittura spezzate o smontate, vedi pag.139 Feltrinelli che corrisponede a lesson2_fig21 o anche pag. 428 Feltrinelli che corrisponde a 
+				addirittura spezzate o smontate, vedi pag.139 Feltrinelli che corrisponde a lesson2_fig21 o anche pag. 428 Feltrinelli che corrisponde a 
 				lesson9_fig28, poi ripetuta con lesson9_fig31 e lesson9_fig32 in ing e CM HH, ma non ripetuta in Feltrinelli-Spiller). 
 
 				ATTENZIONE! Spiller-Feltrinelli conserva tutte le immagini (fig o non fig) presenti in CM HH-ing a eccezione di: 
@@ -78,14 +79,14 @@ Testo, edizioni e traduzioni
 					lesson2: dettagli pag. 15 e pag. 25
 					un elemento, verosimilmente escluso perché cancellato da Klee, di lesson9_fig4
 
-				- non sembra sensato utilizzare le stesse <div> di CM HH e facsimile inglese perché le lezioni vengono mesolate tra loro o intervallate da 
+				- non sembra sensato utilizzare le stesse <div> di CM HH e facsimile inglese perché le lezioni vengono mescolate tra loro o intervallate da 
 				estratti di altri testi di Klee: ad esempio il materiale linguistico e grafico della div_Klee_lesson1 viene intrecciato a ciò che costituisce 
 				(ed è poi SOLO IN PARTE ripetuto nell'effettiva lezione numero 9) la div_Klee_lesson9 per dare vita alla prima sezione del testo di Spiller. 
 
 				- le scene nel negozio della div_lesson9 sono presentate come immagine a pag. 446 di Feltrinelli, ma vengono tradotte e riportate a mo' di 
 				tabella in appendice (come invece CM e HH scelgono di fare nel corpo del testo)
 
-				- la lesson10_fig28 incude, nella versione Feltrinelli, la freccia che in CM HH è presente nell'ultima riga del testo che precede l'immagine.
+				- la lesson10_fig28 include, nella versione Feltrinelli, la freccia che in CM HH è presente nell'ultima riga del testo che precede l'immagine.
 				Condivido l'interpretazione di CM HH. 
 
 				
@@ -97,15 +98,13 @@ Testo, edizioni e traduzioni
 					part="M" (medial) = parte intermedia della frase
 					part="F" (final) = parte finale della frase
 				
-				- Tra facsimile inglese e traduzione CM HH (pure molto molto simili) non c'è perfetta congruenza nell'impaginazione 
-				  e nella disposizione delle immagini nel testo (ex. lesson7_fig3; figura non numerata dopo lesson9_fig20; lesson10_fig1 
-				  e fig2; figura non numerata di pagina 165, dopo lesson10_fig16;); le immagini presenti nel facsimile inglese e assenti in CM HH sono indicate con 
+				- Tra facsimile inglese e traduzione CM HH (pure molto molto simili; il facsimile inglese tende ad essere molto conservativo, ad esempio
+				  si consideri la glossa d'autore a pag. 158 così tradotta: bottom of p. 172, "Now") non c'è perfetta congruenza nell'impaginazione 
+				  e nella disposizione delle immagini nel testo (ex. lesson7_fig3; figura non numerata dopo lesson9_fig20; lesson10_fig1 e fig2; figura non 
+				  numerata di pagina 165, dopo lesson10_fig16;); le immagini presenti nel facsimile inglese e assenti in CM HH sono indicate con 
 				  la serie che inizia come figure001
 				
 				- refuso pag.36: manca numero figura, sul tedesco (e su CM HH) è fig25
-
-				- di chi è l'appunto "bottom pf p.172, "Now"" a pag.158? In CM HH non mi pare ci sia
-
 				- le pagine 166-169 pongono dei problemi di codifica per via della peculiare distribuzione del testo. 
 				- a pag.181 la didascalia "fig.13" si riferisce a due immagini diverse; l'errore è presente anche nel facsimile tedesco, 
 				  ma CM HH lo correggono. Per separare le due immagini si ricorre, nella codifica, alle diciture lesson11_fig13.1 e lesson11_fig13.2.
@@ -118,6 +117,7 @@ Testo, edizioni e traduzioni
 			
 	
 >>>	ERRORI DA CORREGGERE IN CM HH 
+		pag. 11: rimuovere rimando alla figura 5 nel margine destro
 		pag. 18: la figura 14 è sbagliata; è uguale alla 13 della pagina precedente, mentre dovrebbe riportare una numerazione
 		pag. 22: eliminare refuso (fig 23)
 		pag. 30: manca etichetta "fig12" alla croce
@@ -137,7 +137,7 @@ Testo, edizioni e traduzioni
 				  .../lesson9_fig28.2 la seconda. 
 		pag. 142: la figura è 32a (non 32, già presente alla pagina precedente; cfr CM HH doc + facsimile tedesco + inglese)
 		pag. 154: manca etichetta "fig.1" (nel doc è corretto)
-		pag. 174: nel paragrafo accanto a fig. 3 alcune sillabe o intere parole del secondo e terzo rigo ("sigifi-ca"; "indebolimento. Si deve") 
+		pag. 174: nel paragrafo accanto a fig. 3 alcune sillabe o intere parole del secondo e terzo rigo ("signifi-ca"; "indebolimento. Si deve") 
 		          sono state nascoste dalla figura; idem con la figura 4: al penultimo rigo è "al pun-to culminante"
 		
 

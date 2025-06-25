@@ -250,7 +250,7 @@
                     <p>
                         Come linea si contraddistingue per un carattere tranquil-
                         lizzante e privo di inizio o di fine. Considerata in modo ele-
-                        mentare (come azione della mano) è certo ancora linea, ma          <!--Come inserire il rimando "fig 5"?-->
+                        mentare (come azione della mano) è certo ancora linea, ma          
                         formata fino in fondo, la rappresentazione lineare è sostituita 
                         prontamente dalla rappresentazione di un piano. In questo 
                         modo sparisce anche il carattere mobile della linea (nessuno 
@@ -269,7 +269,21 @@
                         azioni lineari, ma di risultati di linee, di azioni di piani. La li-
                         nea non è fatta, ma subita.
                     </p>
-                <pb/>  <!--Come inserire il testo in verticale nel margine sinistro?-->
+                <pb/>  
+                    <note place="left-margin" rend="vertical">
+                        Esempi di quadri:
+                        “Del destino di due ragazze” e “Precursori”
+                        “Gli uomini 
+                        in attesa”
+                        lineare attivo
+                        “Testa di Cristo” dipinto in modo lineare attivo. 
+                        Acquarello 3 
+                        per il lineare 
+                        passivo.
+                        Composizione 1919/156 
+                        con linea di entrambi i 
+                        caratteri.
+                    </note>
                     <p>
                         In senso inverso al decorso di questa breve rappresen-
                         tazione della linea procede la rappresentazione, che pure è 
@@ -310,7 +324,7 @@
                     </p>
                     <p>Risultati dapprima piuttosto di natura analitica.</p>
             </div>
-            <div xml:id="div_Klee_lesson2"> <!--Come inserire gli argomenti a margine?-->
+            <div xml:id="div_Klee_lesson2"> 
                     <p>28 Novembre 1921</p>
                     <p> 
                         <seg><figure xml:id="number2"></figure></seg> 14 giorni fa ci siamo occupati, tra l’altro, della 
@@ -1475,7 +1489,7 @@
                         Scelgo due battute [Takte] di un movimento a tre voci di Bach, 
                         e procedo al microscopio secondo lo schema seguente:
                     </p>
-                    <figure xml:id="lesson4_fig21"> <!--Multimedia--></figure>
+                    <figure xml:id="lesson4_fig21"></figure>
                     <p>fig.21</p>
                     <p>
                         Poiché la musica senza dinamica suona meccanica e ine-
@@ -1611,7 +1625,7 @@
                         Alcune soluzioni di questo compito hanno testimoniato in-
                         nanzitutto talento e poi comprensione. * 
                     </p>
-                    <figure xml:id="lesson5_fig1"></figure> <!--Multimedia-->
+                    <figure xml:id="lesson5_fig1"></figure>
                     <p>
                         Presuppongo che nessuno scoprì il pesce <seg><figure xml:id="lesson5_figureA"></figure></seg>
                         di Colombo.
@@ -1962,7 +1976,7 @@
                         </figDesc>
                     </figure>
                 <pb/> 
-                    <figure> <!--riferimento alla figura della pagina precedente-->
+                    <figure>
                         <figDesc>
                             4. Esempio (fig. 17) Una pietra cade a balzi lungo una scar-
                             pata ripida. Un ritmo con articolazione rigida. 
@@ -2202,7 +2216,7 @@
                         nanzitutto lasciare tranquillamente al loro posto i legnetti di 
                         peso differente, ma al posto delle superfici circolari di latta 
                         mettiamo dei fondi di bottiglia, delle lenti ottiche o delle sfe-
-                        sione figura- visivamente -tiva dei rapporti tra due                  <!--qualcosa non torna, pag.74-->
+                        sione figura- visivamente -tiva dei rapporti tra due                 
                         eterogenei.
                     </p>
                     <p>
@@ -4064,7 +4078,7 @@
                         posizione cinetica saranno capaci di dar forma
                     </p>
                     <p> Ma l’organismo cinetico, cioè </p>
-                <pb/> <!--Problema al paragrafo dopo fig.29: la figura spezza il testo-->
+                <pb/> 
                     <p>
                         l’azione (simultanea) assemblata degli organi in un tutto in sé 
                         autonomo, quietamente mobile o mobilmente quieto, potrà 
