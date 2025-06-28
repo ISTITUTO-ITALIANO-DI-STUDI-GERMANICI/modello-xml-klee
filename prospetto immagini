@@ -1,15 +1,20 @@
-Elenco delle immagini presenti nel testo. Lezioni, pagine e progressivi fanno capo al facsimile tedesco. 
+Elenco delle immagini presenti nel testo. Lezioni, pagine e progressivi fanno capo all'originale tedesco. 
 
 Nomenclatura: 
 - serie a partire da lesson1_fig1 relativa alle immagini etichettate "figN" nel testo;
-- serie a partire da lesson1_figureA relativa alle immagini non etichettate nel testo;
-- serie a partire da lessonN_figure001 relativa alle immagini presenti nei facsimili tedesco e inglese, ma non in CM HH;
-- eccezione: lesson11_eye --> immagine presente solo in questo esemplare. 
+- serie a partire da lesson1_figureA relativa alle immagini non etichettate nel testo.
+
+***l'elenco delle immagini trascura la serie relativa alla numerazione delle lezioni***
 
 _LESSON 1_ 
 	figureA
 	figureB
 	figureC
+	figureD
+	figureE
+	figureF
+	figureG
+	figureH
 				fig1
 				fig2
 				fig3
@@ -29,8 +34,8 @@ _LESSON 1_
 				fig15
 				fig16
 				fig17
-								figure001
-	figureD
+	figureI
+	figureJ
 
 _LESSON 2_
 				fig1
@@ -40,11 +45,11 @@ _LESSON 2_
 				fig5
 				fig6.1
 				fig6.2
-								figure002
 	figureA
 	figureB
-				fig7
 	figureC
+				fig7
+	figureD
 				fig8
 				fig8a
 				fig9
@@ -56,7 +61,7 @@ _LESSON 2_
 				fig15
 				fig16
 				fig17
-	figureD
+	figureE
 				fig18
 				fig19
 				fig20
@@ -64,18 +69,18 @@ _LESSON 2_
 				fig22.0
 				fig23 
 				fig24
-	figureE
 	figureF
-				fig25
 	figureG
+				fig25
+	figureH
 				fig22.1
 				fig26
-	figureH
-				fig27
 	figureI
+				fig27
 	figureJ
 	figureK
 	figureL
+	figureM
 
 _LESSON 3_
 				fig1
@@ -97,6 +102,7 @@ _LESSON 3_
 				fig16
 				fig17
 				fig18
+	figureA
 				fig19
 				fig20
 				fig21
@@ -117,7 +123,9 @@ _LESSON 3_
 				fig31a
 				fig32
 				fig33
+	figureB
 				fig34
+	figureC
 
 _LESSON 4_
 	figureA
@@ -131,6 +139,8 @@ _LESSON 4_
 				fig5a
 				fig6
 				fig6a
+	figureC
+	figureD
 				fig7
 				fig7a
 				fig8
@@ -140,22 +150,22 @@ _LESSON 4_
 				fig12
 				fig13
 				fig14
-	figureC
+	figureE
 				fig15
 				fig16
 				fig17
-	figureD
-	figureE
 	figureF
 	figureG
 	figureH
+	figureI
+	figureJ
 				fig18
 				fig19
 				fig20
 				fig20a
 				fig20b
 				fig21
-	figureI	
+	figureK	
 
 _LESSON 5_
 				fig1
@@ -166,6 +176,7 @@ _LESSON 5_
 				fig5
 				fig6
 				fig6a
+	figureB
 				fig7
 				fig8
 				fig9
@@ -213,6 +224,8 @@ _LESSON 6_
 				fig14
 	figureJ
 	figureK
+	figureL
+	figureM
 				fig15
 				fig16
 				fig17
@@ -238,7 +251,7 @@ _LESSON 6_
 				fig35
 				fig36
 				fig37
-	figureL
+	figureN
 
 _LESSON 7_
 				fig1
@@ -284,18 +297,20 @@ _LESSON 7_
 	figureO
 	figureP
 	figureQ
+	figureR
 				fig26
 				fig27
-	figureR
 	figureS
 	figureT
 	figureU
 	figureV
-				fig28
 	figureW
+				fig28
 	figureX
 	figureY
 	figureZ
+	figureAA
+	figureAB
 
 _LESSON 8_
 				fig1
@@ -305,6 +320,8 @@ _LESSON 8_
 	figureC
 	figureD
 	figureE
+	figureF
+	figureG	
 				fig3
 				fig4
 				fig5
@@ -315,8 +332,8 @@ _LESSON 8_
 				fig10
 				fig11
 				fig12
-	figureF
-	figureG	
+	figureH
+	figureI	
 				fig13
 				fig14
 				fig15
@@ -330,29 +347,33 @@ _LESSON 8_
 				fig21
 				fig22
 				fig22a
-	figureH
-	figureI
 	figureJ
 	figureK
 	figureL
+	figureM
+	figureN
 
 _LESSON 9_
 				fig1
 				fig2
 	figureA
 				fig3
-				fig4
-				fig5
 	figureB
+				fig4
 	figureC
-	figureD		
-				fig6
+				fig5
+	figureD
 	figureE
-				fig7
-	figureF
+	figureF		
+				fig6
 	figureG
+				fig7
 	figureH
 	figureI
+	figureJ
+	figureK
+	figureL
+	figureM
 				fig8
 				fig9
 				fig10
@@ -366,9 +387,9 @@ _LESSON 9_
 				fig18
 				fig19
 				fig20
-	figureJ
-	figureK	
-	figureL
+	figureN
+	figureO
+	figureP
 				fig21
 				fig22
 				fig23
@@ -379,16 +400,12 @@ _LESSON 9_
 				fig28.1
 				fig28.2
 				fig29
-	figureM
+	figureQ
 				fig30
-	figureN
+	figureR
 				fig31
 				fig32
 				fig32a
-	figureO
-	figureP
-	figureQ
-	figureR
 	figureS
 	figureT
 	figureU
@@ -415,26 +432,39 @@ _LESSON 9_
 	figureAP
 	figureAQ
 	figureAR
+	figureAS
+	figureAT
+	figureAU
+	figureAV
+	figureAW
+	figureAX
+	figureAY
+	figureAZ
+	figureAAA
+	figureAAB
 
 _LESSON 10_
 	figureA
 	figureB
 					fig1
 	figureC
+	figureD
+	figureE
 					fig2
 					fig3
-	figureD
+	figureF
 					fig4
 					fig5
-	figureE
-					fig6
-	figureF
-					fig7
 	figureG
 	figureH
+					fig6
 	figureI
-					fig8
+					fig7
 	figureJ
+	figureK
+	figureL
+					fig8
+	figureM
 					fig9
 					fig10
 					fig11
@@ -443,63 +473,87 @@ _LESSON 10_
 					fig14
 					fig15
 					fig16
-	figureK
-					fig17
-	figureL
-					fig18
-	figureM
-					fig19
 	figureN
+					fig17
+	figureO
+					fig18
+	figureP
+					fig19
+	figureQ
 					fig20
 					fig21
 
 _LESSON 11_
-									figure003
+	figureA
+	figureB
 					fig1
 					fig2
-									figure004
 					fig3
+	figureC
 					fig4
 					fig5
 					fig6
 					fig7
 					fig8
-	figureA
-					fig9
-	figureB
-	figureC 
 	figureD
+					fig9
 	figureE
+	figureF 
+	figureG
+	figureH
+	figureI
+	figureJ
 					fig10
+	figureK
 					fig11
 					fig12
+	figureL
 					fig13
-	figureF 
-	figureG 
-	figureH
+	figureM 
+	figureN 
+	figureO
 					fig14
-	figureI
+	figureP
 					fig15
 					fig16
 					fig17
 					fig18
 					fig19
-	figureJ
-	figureK
-	figureL
-	figureM
-									figure005
-	figureN 
-	figureO 
-	figureP 
-	figureQ 
-	figureR 
+	figureQ
+	figureR
 	figureS
 	figureT
 	figureU
 	figureV
-	figureW
+	figureW 
 	figureX
 	figureY
 	figureZ
-									eye
+	figureAA
+	figureAB
+	figureAC
+	figureAD
+	figureAE
+	figureAF
+	figureAG
+	figureAH
+	figureAI
+	figureAJ
+	figureAK
+	figureAL
+	figureAM
+	figureAN
+	figureAO
+	figureAP
+	figureAQ
+	figureAR
+	figureAS
+	figureAT
+	figureAU
+	figureAV
+	figureAW
+	figureAX
+	figureAY
+	figureAZ
+	figureAAA
+	figureAAB

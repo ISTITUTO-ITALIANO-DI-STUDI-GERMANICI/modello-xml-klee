@@ -28,8 +28,6 @@ Testo, edizioni e traduzioni
 	
 	Problemi riscontrati e soluzioni adottate
 
-	***nella scansione del facsimile tedesco mancano le carte 78 e 79***
-
 		a. Traduzione italiana CM HH
 	
 			- scelta di codifica per le immagini: 
@@ -49,7 +47,7 @@ Testo, edizioni e traduzioni
 				- la nomenclatura delle immagini:
 				  1. la serie che inizia con fig1 che indica le figure etichettate dall'autore (anche quelle saltate che, in base alla serie numerica, avrebbe etichettato); 
 				  2. la serie che inizia con figureA, che indica le figure non etichettate, integrate ne discorso; 
-				  3. la serie che inizia con figure001, che indica le figure assenti in CM HH. 
+				  3. la serie che inizia con number1, che indica il numero della lezione.
 
 	-->Problema: come codificare le scritte contenute nell'immagine, che non sono didascalie?
 	-->Problema: come codificare i titoletti a margine?
@@ -104,16 +102,15 @@ Testo, edizioni e traduzioni
 				  numerata di pagina 165, dopo lesson10_fig16;); le immagini presenti nel facsimile inglese e assenti in CM HH sono indicate con 
 				  la serie che inizia come figure001
 				
+				- pag. 10: etichetta delle figure 13 e 14 non leggibile 
 				- refuso pag.36: manca numero figura, sul tedesco (e su CM HH) è fig25
 				- le pagine 166-169 pongono dei problemi di codifica per via della peculiare distribuzione del testo. 
 				- a pag.181 la didascalia "fig.13" si riferisce a due immagini diverse; l'errore è presente anche nel facsimile tedesco, 
 				  ma CM HH lo correggono. Per separare le due immagini si ricorre, nella codifica, alle diciture lesson11_fig13.1 e lesson11_fig13.2.
 
-				- dopo il testo, in basso, in un foglio di guardia, compare l'illustrazione di un occhio, assente nel facsimile tedesco. Da dove viene?
+				- dopo il testo, in basso, in un foglio di guardia, compare l'illustrazione di un occhio, presente nel ms tedesco.
 
 				- in coerenza con la scelta di CM HH, la lesson7_figureO viene considerata come un'immagine unica, ma potrebbe anche essere divisa in due.
-				
-				- il disegno dell'occhio nell'ultima pagina da dove viene? non è presente nel facsimile tedesco (nell'xml è lesson11_eye)
 			
 	
 >>>	ERRORI DA CORREGGERE IN CM HH 
@@ -142,56 +139,76 @@ Testo, edizioni e traduzioni
 		
 
 >>> RIFERIMENTI NUMERICI
-Pagine: 
+	Pagine: 
 
-                    CM HH ∧ facsimile inglese         vs          Feltrinelli 
+							CM HH ∧ facsimile inglese         vs          Feltrinelli 
 
-0. introduzione				 1 - 5									97 - 102
+		0. introduzione				 1 - 5									97 - 102
 
-1. lezione 1 				 6 - 13								   103 - 122
+		1. lezione 1 				 6 - 13								   103 - 122
 
-2. lezione 2 				13 - 26								   123 - 196
+		2. lezione 2 				13 - 26								   123 - 196
 
-3. lezione 3 				27 - 41								   197 - 216
+		3. lezione 3 				27 - 41								   197 - 216
 
-4. lezione 4 				42 - 54								   217 - 294
+		4. lezione 4 				42 - 54								   217 - 294
 
-5. lezione 5 				55 - 69								   295 - 324
+		5. lezione 5 				55 - 69								   295 - 324
 
-6. lezione 6 				69 - 86								   325 - 342
+		6. lezione 6 				69 - 86								   325 - 342
 
-7. lezione 7 				87 - 104          					   343 - 368
+		7. lezione 7 				87 - 104          					   343 - 368
 
-8. lezione 8 			   105 - 122							   369 - 402
+		8. lezione 8 			   105 - 122							   369 - 402
 
-9. lezione 9               123 - 152							   403 - 462
+		9. lezione 9               123 - 152							   403 - 462
 
-10. lezione 10 			   153 - 172							   465 - 482
+		10. lezione 10 			   153 - 172							   465 - 482
 
-11. lezione 11 			   172 - 190							   483 - 506
+		11. lezione 11 			   172 - 190							   483 - 506
 
 
 
-Figure presenti nelle lezioni: cfr CM HH ∧ facsimile inglese  
+	Figure presenti nelle lezioni dell'originale tedesco:  
     
-    lezione 1: fig. 1-17, figureA-D          + figure001
-    
-    lezione 2: fig. 1-27, figureA-L          + figure002
-    
-    lezione 3: fig. 1-34
-    
-    lezione 4: fig. 1-21, figureA-I
-    
-    lezione 5: fig. 1-20, figureA
-    
-    lezione 6: fig. 1-37, figureA-L
-    
-    lezione 7: fig. 1-28, figureA-Z
-    
-    lezione 8: fig. 1-22a, figureA-L
-    
-    lezione 9: fig. 1-32a , figureA-AR
-    
-    lezione 10: fig. 1-21, figureA-N
-    
-    lezione 11: fig. 1-19, figureA-Z        + figure003, figure004, figure005, eye
+		lezione 1: fig. 1-17, figureA-J                                   
+		
+		lezione 2: fig. 1-27, figureA-M          
+		
+		lezione 3: fig. 1-34, figureA-C
+		
+		lezione 4: fig. 1-21, figureA-K
+		
+		lezione 5: fig. 1-20, figureA-B
+		
+		lezione 6: fig. 1-37, figureA-N
+		
+		lezione 7: fig. 1-28, figureA-AB
+		
+		lezione 8: fig. 1-22a, figureA-N
+		
+		lezione 9: fig. 1-32a , figureA-AAB
+		
+		lezione 10: fig. 1-21, figureA-Q
+		
+		lezione 11: fig. 1-19, figureA-AAB
+
+
+	Tipologia delle immagini, afferenti a una qualsiasi delle tre sequenze delineate: 
+
+		a. @type="stream_of_thought" --> immagini all'interno del testo, parte integrante del flusso di pensiero/discorso
+
+		b. @type="explanation" --> immagini esemplificative/esplicative; ridondante o no?
+
+		c. @type="multimedia" --> immagini multimediali
+		
+		d. @type="pentimento" --> pentimenti, immagini cancellate
+
+		e. @type="recall" --> figure ridisegnate, riproducono immagini già presentate nel testo; 
+							  tipologia associata alla figur ridisegnata, non a quella presentata la prima volta; 
+							  Si ricorda che la nomenclatura proposta per questi casi prevede una notazione lessonN_figureM.0
+							  per la figura di partenza e lessonN_figureM.1 per quella riprodotta.
+		
+		f. matita o penna?
+
+		g. vere e proprie figure o segni di scansione testuale? @type="split"

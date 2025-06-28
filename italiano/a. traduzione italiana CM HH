@@ -127,7 +127,7 @@
                         <seg><figure xml:id="number1"></figure></seg> Poco dopo aver applicato su una su-
                         perficie la matita, o comunque qualcosa 
                         di appuntito, sorge una linea [di carattere 
-                        <seg><figure xml:id="lesson1_figureA"></figure></seg>lineare-attivo] (all’inizio, tanto più procede liberamente, tan-
+                        <seg><figure xml:id="lesson1_figureB"></figure></seg>lineare-attivo] (all’inizio, tanto più procede liberamente, tan-
                         to più chiara è la sua natura mobile).
                     </p>
                     <p>
@@ -136,14 +136,14 @@
                         (all’inizio con una scioltezza nel procedere assai limitata).
                     </p>
                     <p>
-                        <seg><figure xml:id="lesson1_figureB"></figure></seg> Se avessimo una materia per 
+                        <seg><figure xml:id="lesson1_figureF"></figure></seg> Se avessimo una materia per 
                         spostare dei piani con degli effet-
                         ti simili, potremmo scrivere nello 
                         spazio una scultura ideale Ma pur-
                         troppo questa è già utopia.
                     </p>
                     <p>
-                        <seg><figure xml:id="lesson1_figureC"></figure></seg> Rimaniamo quindi, per adesso, 
+                        <seg><figure xml:id="lesson1_figureH"></figure></seg> Rimaniamo quindi, per adesso, 
                         al mezzo più primitivo, alla linea. 
                         Nei tempi arcaici dei popoli, quan-
                         do scrivere e disegnare sono ancora 
@@ -183,41 +183,41 @@
                     <p>
                         Lineare attivo
                     </p>
-                    <figure xml:id="lesson1_fig1">
+                    <figure xml:id="lesson1_fig1" type="explanation">
                         <figDesc>
                             linea libera ab fig.1
                         </figDesc>
                     </figure>
-                    <figure xml:id="lesson1_fig2">
+                    <figure xml:id="lesson1_fig2" type="explanation">
                         <figDesc> 
                             linea libera ab fig.1
                             linea che accompagna a1-b1 figg.2,3,4
                         </figDesc>
                     </figure>
-                    <figure xml:id="lesson1_fig3"></figure>
-                    <figure xml:id="lesson1_fig4"></figure>
+                    <figure xml:id="lesson1_fig3" type="explanation"></figure>
+                    <figure xml:id="lesson1_fig4" type="explanation"></figure>
                 <pb/> 
                     <figure>
                         <figDesc>
                             linea libera in detours figg. 5 e 6.
                         </figDesc>
-                        <figure xml:id="lesson1_fig5"></figure>
-                        <figure xml:id="lesson1_fig6.1"></figure>
-                        <figure xml:id="lesson1_fig6.2"></figure>
-                        <figure xml:id="lesson1_fig6.3"></figure>
+                        <figure xml:id="lesson1_fig5" type="explanation"></figure>
+                        <figure xml:id="lesson1_fig6.1" type="explanation"></figure>
+                        <figure xml:id="lesson1_fig6.2" type="explanation"></figure>
+                        <figure xml:id="lesson1_fig6.3" type="explanation"></figure>
                     </figure>
-                    <figure xml:id="lesson1_fig7">
+                    <figure xml:id="lesson1_fig7" type="explanation">
                         <figDesc> 
                             Fig. 7 Due linee che accompagnano una linea principale im-
                             maginaria.
                         </figDesc>
                     </figure>
-                    <figure xml:id="lesson1_fig8">
+                    <figure xml:id="lesson1_fig8" type="explanation">
                         <figDesc>
                             Fig. 8 La stessa cosa
                         </figDesc>
                     </figure>
-                    <figure xml:id="lesson1_fig9">
+                    <figure xml:id="lesson1_fig9" type="explanation">
                         <figDesc>
                             Fig. 9 Simile
                         </figDesc>
@@ -230,7 +230,7 @@
                 <pb/>
                     <p>(lineare attivo)</p>
                     <p>Questa nuova linea invece</p>
-                    <figure xml:id="lesson1_fig10"></figure>
+                    <figure xml:id="lesson1_fig10" type="explanation"></figure>
                     <p>
                         è cadenzato, vuole arrivare prima possibile a 1, poi a 2, 
                         poi a 3 ecc. Si può parlare piuttosto dell’andamento degli 
@@ -239,13 +239,13 @@
                         quanto quella cadenzata sono però di un tipo attivo puro.
                     </p>
                     <p>Lineare mediale</p>
-                    <figure><figure xml:id="lesson1_fig11"></figure><figure xml:id="lesson1_fig12"></figure></figure>
+                    <figure><figure xml:id="lesson1_fig11" type="explanation"></figure><figure xml:id="lesson1_fig12" type="explanation"></figure></figure>
                     <p>
                         In questi nuovi casi la linea con scadenze circoscrive delle 
                         figure piane come triangolo e rettangolo, o qui cerchio e ellis-
                         se.
                     </p>
-                    <figure><figure xml:id="lesson1_fig13"></figure><figure xml:id="lesson1_fig14"></figure></figure>
+                    <figure><figure xml:id="lesson1_fig13" type="explanation"></figure><figure xml:id="lesson1_fig14" type="explanation"></figure></figure>
                 <pb/>
                     <p>
                         Come linea si contraddistingue per un carattere tranquil-
@@ -263,7 +263,7 @@
                         Le  linee hanno, in questo caso, un carattere del tutto pas-
                         sivo.
                     </p>
-                    <figure><figure xml:id="lesson1_fig15"></figure><figure xml:id="lesson1_fig16"></figure><figure xml:id="lesson1_fig17"></figure></figure>
+                    <figure><figure xml:id="lesson1_fig15" type="explanation"></figure><figure xml:id="lesson1_fig16" type="explanation"></figure><figure xml:id="lesson1_fig17" type="explanation"></figure></figure>
                     <p>
                         In effetti si vedono ancora linee, ma non si tratta più di 
                         azioni lineari, ma di risultati di linee, di azioni di piani. La li-
@@ -617,7 +617,7 @@
                         come orizzontali.
                     </p>
                     <p>
-                        <seg><figure xml:id="lesson2_fig22.1"></figure></seg> La risposta eccola 
+                        <seg><figure xml:id="lesson2_fig22.1" type="recall"></figure></seg> La risposta eccola 
                         qua: significa “al
                         tezza dell’occhio”
                     </p>
@@ -1489,7 +1489,7 @@
                         Scelgo due battute [Takte] di un movimento a tre voci di Bach, 
                         e procedo al microscopio secondo lo schema seguente:
                     </p>
-                    <figure xml:id="lesson4_fig21"></figure>
+                    <figure xml:id="lesson4_fig21" type="multimedia"></figure>
                     <p>fig.21</p>
                     <p>
                         Poiché la musica senza dinamica suona meccanica e ine-
@@ -1625,7 +1625,7 @@
                         Alcune soluzioni di questo compito hanno testimoniato in-
                         nanzitutto talento e poi comprensione. * 
                     </p>
-                    <figure xml:id="lesson5_fig1"></figure>
+                    <figure xml:id="lesson5_fig1" type="multimedia"></figure>
                     <p>
                         Presuppongo che nessuno scoprì il pesce <seg><figure xml:id="lesson5_figureA"></figure></seg>
                         di Colombo.
@@ -1954,19 +1954,19 @@
                         sità decrescente, vira e cade verso la terra con intensità cre-
                         scente.
                     </p>
-                    <figure xml:id="lesson5_fig15">
+                    <figure xml:id="lesson5_fig15" type="explanation">
                         <figDesc>
                             Primo esempio:
                             un ritmo (binario) con articolazione sciolta g
                         </figDesc>
                     </figure>
-                    <figure xml:id="lesson5_fig16">
+                    <figure xml:id="lesson5_fig16" type="explanation">
                         <figDesc>
                             Secondo es: qualcuno sale le scale con sforzo che si accre-
                             sce a ogni gradino.
                         </figDesc>
                     </figure>
-                    <figure xml:id="lesson5_fig17">
+                    <figure xml:id="lesson5_fig17" type="explanation">
                         <figDesc>
                             Terzo esempio:
                             un ritmo con articolazione ri-
@@ -1982,13 +1982,13 @@
                             pata ripida. Un ritmo con articolazione rigida. 
                         </figDesc>
                     </figure>
-                    <figure xml:id="lesson5_fig18">
+                    <figure xml:id="lesson5_fig18" type="explanation">
                         <figDesc>
                             5. Esempio: le battute di piedi di un nuotatore, un ritmo 
                             con articolazione sciolta. 
                         </figDesc>
                     </figure>
-                    <figure xml:id="lesson5_fig19">
+                    <figure xml:id="lesson5_fig19" type="explanation">
                         <figDesc>
                             Sesto esempio (fig. 19)
                             Una mongolfiera si innalza da una zona d’aria calda a una 
@@ -1997,7 +1997,7 @@
                         </figDesc>
                     </figure>
                 <pb/> 
-                    <figure xml:id="lesson5_fig20">
+                    <figure xml:id="lesson5_fig20" type="explanation">
                         <figDesc>
                             Settimo 
                             esempio. 
@@ -2312,7 +2312,7 @@
                         nea, dico maschile la retta e femminile il cerchio, che riposa 
                         in se stesso.
                     </p>
-                    <figure xml:id="lesson6_fig12.1"></figure>
+                    <figure xml:id="lesson6_fig12.1" type="recall"></figure>
                     <p>
                         Ma nel nostro esempio, occasione di questa critica, tan-
                         to il motivo appena esposto, quanto la progettazione compo-
@@ -2975,7 +2975,7 @@
                         che abbiamo imparato finora.
                     </p>
                     <p>
-                        <seg><figure xml:id="lesson7_fig21"></figure></seg> Primo esempio di formazione rigida. Enunciati: 
+                        <seg><figure xml:id="lesson7_fig21" type="explanation"></figure></seg> Primo esempio di formazione rigida. Enunciati: 
                         formazione rigida <seg><figure xml:id="lesson7_figureA"></figure></seg>
                         Impianto verticale <seg><figure xml:id="lesson7_figureB"></figure></seg>
                         Articolazione: rigida <seg><figure xml:id="lesson7_figureC"></figure></seg>
@@ -3001,7 +3001,7 @@
                         Base in basso.
                     </p>
                     <p>
-                        <seg><figure xml:id="lesson7_fig23"></figure></seg>Secondo esempio.
+                        <seg><figure xml:id="lesson7_fig23" type="explanation"></figure></seg>Secondo esempio.
                         Enunciato formale: Formazione: rigida <seg><figure xml:id="lesson7_figureF"></figure></seg>
                         Funzioni: impianto verticale <seg><figure xml:id="lesson7_figureG"></figure></seg>
                         articolazione rigida <seg><figure xml:id="lesson7_figureH"></figure></seg>
@@ -3021,7 +3021,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <seg><figure xml:id="lesson7_fig25"></figure></seg>Terzo esempio.
+                        <seg><figure xml:id="lesson7_fig25" type="explanation"></figure></seg>Terzo esempio.
                         Enunciato formale: 
                         formazione: rigida <seg><figure xml:id="lesson7_figureK"></figure></seg>
                         Funzioni: impianto <seg><figure xml:id="lesson7_figureL"></figure></seg>
@@ -3057,7 +3057,7 @@
                     </p>
                 <pb/> 
                     <p>Quarto esempio.</p>
-                    <figure xml:id="lesson7_fig27"></figure> 
+                    <figure xml:id="lesson7_fig27" type="explanation"></figure> 
                     <p>Enunciato formale:</p> 
                     <p>Formazione: rigida<seg><figure xml:id="lesson7_figureR"></figure></seg></p>
                     <p>
@@ -3684,7 +3684,7 @@
                         do alla pietra una specie di freccia, che si poteva fabbricare 
                         usando uno spillone per capelli.
                     </p>
-                    <figure xml:id="lesson9_fig4"></figure>
+                    <figure xml:id="lesson9_fig4"></figure> <!--delle figure che compongono l'immagine, una sarebbe un pentimento-->
                     <p>
                         Un filetto di lana colorata serviva da timone, per tenere la 
                         freccia, oltre che da ornamento.
@@ -4091,7 +4091,7 @@
                         Ci torna davanti agli occhi il movimento oscillatorio del 
                         pendolo. E’ proprio  questa la compen-
                         sazione cinetica di errori o eccessi di
-                        movimento che av- <seg><figure xml:id="lesson9_figureM"></figure></seg> viene attraverso 
+                        movimento che av- <seg><figure xml:id="lesson9_figureM" type="pentimento"></figure></seg> viene attraverso 
                         l’antitesi di nuovi errori ed eccessi. 
                         Casi analoghi nel capitolo sull’equili-
                         brio statico (p. 37).
