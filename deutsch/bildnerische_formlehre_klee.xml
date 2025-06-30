@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 tei_all.xsd">
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title>Paul Klee, *Beiträge zur bildnerischen Formlehre*</tei:title>
+        <tei:title>Paul Klee, Beiträge zur bildnerischen Formlehre</tei:title>
         <tei:respStmt>
           <tei:name>H.Hohenegger</tei:name>
           <tei:resp>Trascrizione diplomatica e edizione precritica</tei:resp>
@@ -42,7 +44,6 @@
             <tei:line type="hdLineLesson">
                <tei:seg>14</tei:seg>
                <tei:pc>.</tei:pc>
-               <tei:subst>
                   <tei:del>
                      <tei:seg>Okt</tei:seg>
                   </tei:del>
@@ -50,7 +51,6 @@
                      <tei:seg>Nov</tei:seg>
                      <tei:pc>.</tei:pc>
                   </tei:add>
-               </tei:subst>
                <tei:seg>1921</tei:seg>
             </tei:line>
             <tei:line>
@@ -200,7 +200,6 @@
                <tei:seg>Funktion</tei:seg>
             </tei:line>
             <tei:line>
-               <tei:subst>
                   <tei:del>
                      <tei:seg>gebracht</tei:seg>
                      <tei:seg>werden</tei:seg>
@@ -208,7 +207,6 @@
                   <tei:add>
                      <tei:seg>treten</tei:seg>
                   </tei:add>
-               </tei:subst>
                <tei:pc>,</tei:pc>
                <tei:seg>damit</tei:seg>
                <tei:seg>durch</tei:seg>
@@ -636,14 +634,12 @@
                <tei:pc>,</tei:pc>
                <tei:seg>damit</tei:seg>
                <tei:seg>nicht</tei:seg>
-               <tei:subst>
                   <tei:del>
                      <tei:seg>ein</tei:seg>
                   </tei:del>
                   <tei:add>
                      <tei:seg>das</tei:seg>
                   </tei:add>
-               </tei:subst>
                <tei:seg>Miss-</tei:seg>
             </tei:line>
             <tei:line>
@@ -782,7 +778,6 @@
                <tei:seg>gehörigen</tei:seg>
                <tei:seg>Formen</tei:seg>
                <tei:seg>nicht</tei:seg>
-               <tei:subst>
                   <tei:del>
                      <tei:seg>finden</tei:seg>
                      <tei:seg>können</tei:seg>
@@ -793,7 +788,6 @@
                      <tei:seg>Hand</tei:seg>
                      <tei:seg>haben</tei:seg>
                   </tei:add>
-               </tei:subst>
                <tei:pc>.</tei:pc>
             </tei:line>
             <tei:line>
@@ -802,7 +796,6 @@
                <tei:seg>es</tei:seg>
                <tei:seg>auf</tei:seg>
                <tei:seg>den</tei:seg>
-               <tei:subst>
                   <tei:del>
                      <tei:seg>oft</tei:seg>
                      <tei:seg>einmaligen</tei:seg>
@@ -810,7 +803,6 @@
                   <tei:add>
                      <tei:seg>vereinzelten</tei:seg>
                   </tei:add>
-               </tei:subst>
             </tei:line>
             <tei:line>
                <tei:seg>Zufallstreffer</tei:seg>
@@ -823,7 +815,6 @@
             <tei:line>
                <tei:seg>einmalige</tei:seg>
                <tei:seg>Ehre</tei:seg>
-               <tei:subst>
                   <tei:add>
                      <tei:seg>macht</tei:seg>
                      <tei:seg>durch</tei:seg>
@@ -833,7 +824,6 @@
                      <tei:pc>,</tei:pc>
                      <tei:seg>das</tei:seg>
                   </tei:add>
-               </tei:subst>
             </tei:line>
             <tei:line>
                <tei:add type="pencil" hand="later">
@@ -853,10 +843,8 @@
          <tei:zone type="numberingZone" n="5"/>
          <tei:zone type="mainZone">
             <tei:line>
-              <tei:subst>
                 <tei:del>gehende Schande macht</tei:del>
                 <tei:add>vielleicht</tei:add>
-              </tei:subst>
             </tei:line>
             <tei:milestone unit="*"/>
             <tei:line>
@@ -903,7 +891,6 @@
                <tei:pc>.</tei:pc>
             </tei:line>
             <tei:line>
-               <tei:subst>
                   <tei:del>
                      <tei:seg>Beim</tei:seg>
                   </tei:del>
@@ -912,19 +899,15 @@
                      <tei:seg>nach</tei:seg>
                      <tei:seg>dem</tei:seg>
                   </tei:add>
-               </tei:subst>
                <tei:seg>Ansetzen</tei:seg>
                <tei:seg>de
-<tei:subst>
                      <tei:del>
                         <tei:seg>r</tei:seg>
                      </tei:del>
                      <tei:add>
                         <tei:seg>s</tei:seg>
                      </tei:add>
-                  </tei:subst>
                </tei:seg>
-               <tei:subst>
                   <tei:del>
                      <tei:seg>Hand</tei:seg>
                   </tei:del>
@@ -937,7 +920,6 @@
                      <tei:seg>Spitzes</tei:seg>
                      <tei:seg>ist</tei:seg>
                   </tei:add>
-               </tei:subst>
                <tei:seg>entsteht</tei:seg>
                <tei:seg>eine</tei:seg>
             </tei:line>
@@ -972,14 +954,12 @@
                <tei:seg>ich</tei:seg>
                <tei:seg>aber</tei:seg>
                <tei:seg>eine</tei:seg>
-               <tei:subst>
                   <tei:del>
                      <tei:seg>Fläche</tei:seg>
                   </tei:del>
                   <tei:add>
                      <tei:seg>Linie</tei:seg>
                   </tei:add>
-               </tei:subst>
                <tei:seg>an</tei:seg>
                <tei:pc>,</tei:pc>
                <tei:seg>ein</tei:seg>
@@ -991,14 +971,12 @@
             <tei:line>
                <tei:seg>k
 anntige
-<tei:subst>
                      <tei:del>
                         <tei:seg>n</tei:seg>
                      </tei:del>
                      <tei:add>
                         <tei:seg>s</tei:seg>
                      </tei:add>
-                  </tei:subst>
                </tei:seg>
                <tei:seg>Schwärz-</tei:seg>
                <tei:seg>oder</tei:seg>
@@ -1121,14 +1099,12 @@ anntige
             <tei:line>
                <tei:seg>eines</tei:seg>
                <tei:seg>Tags</tei:seg>
-               <tei:subst>
                   <tei:del>
                      <tei:seg>den</tei:seg>
                   </tei:del>
                   <tei:add>
                      <tei:seg>das</tei:seg>
                   </tei:add>
-               </tei:subst>
                <tei:seg>Phaenomen
 <tei:del>
                      <tei:seg>s</tei:seg>
@@ -1215,7 +1191,6 @@ anntige
                <tei:seg>Bildner</tei:seg>
                <tei:pc>,</tei:pc>
                <tei:seg>aber</tei:seg>
-               <tei:subst>
                   <tei:del>
                      <tei:seg>die</tei:seg>
                      <tei:seg>anderen</tei:seg>
@@ -1224,7 +1199,6 @@ anntige
                      <tei:seg>andere</tei:seg>
                      <tei:seg>Kinder</tei:seg>
                   </tei:add>
-               </tei:subst>
                <tei:seg>werden</tei:seg>
                <tei:seg>bald</tei:seg>
             </tei:line>
