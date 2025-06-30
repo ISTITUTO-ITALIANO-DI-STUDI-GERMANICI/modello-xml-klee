@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <tei:teiHeader>
-      <tei:fileDesc>
-         <tei:titleStmt>
-            <tei:title>Trasformazione Diplomatica</tei:title>
-            <tei:respStmt>
-               <tei:name>Nome del responsabile</tei:name>
-               <tei:resp>Elaborazione XSLT</tei:resp>
-            </tei:respStmt>
-         </tei:titleStmt>
-         <tei:publicationStmt>
-            <tei:p>Non pubblicato. Prodotto per uso accademico interno.</tei:p>
-         </tei:publicationStmt>
-         <tei:sourceDesc>
-            <tei:p>Fonte digitale non specificata. Dati provenienti da un documento XML strutturato.</tei:p>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-   </tei:teiHeader>
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>Paul Klee, *Beiträge zur bildnerischen Formlehre*</tei:title>
+        <tei:respStmt>
+          <tei:name>H.Hohenegger</tei:name>
+          <tei:resp>Trascrizione diplomatica e edizione precritica</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>Edizione digitale non pubblicata, prodotta per scopi accademici.</tei:p>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p></tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
    <tei:sourceDoc>
       <tei:surface n="83044">
          <tei:zone type="numberingZone" n="1"/>
@@ -399,7 +399,7 @@
                <tei:seg>wegzulaufen</tei:seg>
                <tei:pc>.</tei:pc>
             </tei:line>
-            <tei:milestone type="*"/>
+            <tei:milestone unit="*"/>
             <tei:line>
                <tei:seg>Eine</tei:seg>
                <tei:seg>besondere</tei:seg>
@@ -499,7 +499,7 @@
                <tei:seg>Gliederung</tei:seg>
                <tei:pc>.</tei:pc>
             </tei:line>
-            <tei:milestone type="*"/>
+            <tei:milestone unit="*"/>
             <tei:line>
                <tei:seg>Wir</tei:seg>
                <tei:seg>sind</tei:seg>
@@ -853,9 +853,12 @@
          <tei:zone type="numberingZone" n="5"/>
          <tei:zone type="mainZone">
             <tei:line>
-               <tei:subst/>
+              <tei:subst>
+                <tei:del>gehende Schande macht</tei:del>
+                <tei:add>vielleicht</tei:add>
+              </tei:subst>
             </tei:line>
-            <tei:milestone type="*"/>
+            <tei:milestone unit="*"/>
             <tei:line>
                <tei:seg>Nach</tei:seg>
                <tei:seg>diesen</tei:seg>
@@ -1060,7 +1063,7 @@ anntige
                <tei:seg>schon</tei:seg>
                <tei:seg>Utopie</tei:seg>
             </tei:line>
-            <tei:milestone type="*"/>
+            <tei:milestone unit="*"/>
             <tei:line>
                <tei:seg>Bleiben</tei:seg>
                <tei:seg>wir</tei:seg>
@@ -1293,29 +1296,12 @@ anntige
                <tei:seg>primitiv</tei:seg>
                <tei:pc>.</tei:pc>
             </tei:line>
-            <tei:milestone type="*"/>
+            <tei:milestone unit="*"/>
          </tei:zone>
       </tei:surface>
    </tei:sourceDoc>
-</tei:TEI>
-<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <tei:teiHeader>
-      <tei:fileDesc>
-         <tei:titleStmt>
-            <tei:title>Trasformazione Critica</tei:title>
-            <tei:respStmt>
-               <tei:name>Nome del responsabile</tei:name>
-               <tei:resp>Elaborazione XSLT</tei:resp>
-            </tei:respStmt>
-         </tei:titleStmt>
-         <tei:publicationStmt>
-            <tei:p>Non pubblicato. Prodotto per uso accademico interno.</tei:p>
-         </tei:publicationStmt>
-         <tei:sourceDesc>
-            <tei:p>Fonte digitale non specificata. Dati provenienti da un documento XML strutturato.</tei:p>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-   </tei:teiHeader>
+
+
    <tei:text>
       <tei:body>
          <tei:pb n="1" facs="83044"/>
@@ -1328,7 +1314,7 @@ anntige
          </tei:head>
          <tei:div type="part">
             <tei:head type="part"/>
-            <tei:head type="lesson">
+            <tei:head type="introduction">
                <tei:w>14</tei:w>
                <tei:pc>.</tei:pc>
                <tei:w>1921</tei:w>
@@ -1583,7 +1569,7 @@ mittel
             <tei:w>damit</tei:w>
             <tei:w>wegzulaufen</tei:w>
             <tei:pc>.</tei:pc>
-            <tei:milestone type="*"/>
+            <tei:milestone unit="*"/>
             <tei:w>Eine</tei:w>
             <tei:w>besondere</tei:w>
             <tei:w>Art</tei:w>
@@ -1659,7 +1645,7 @@ mittel
             <tei:w>historische</tei:w>
             <tei:w>Gliederung</tei:w>
             <tei:pc>.</tei:pc>
-            <tei:milestone type="*"/>
+            <tei:milestone unit="*"/>
             <tei:w>Wir</tei:w>
             <tei:w>sind</tei:w>
             <tei:w>Bildner</tei:w>
@@ -1888,7 +1874,7 @@ gerüstet
             <tei:w>vermag</tei:w>
             <tei:pc>.</tei:pc>
             <tei:pb n="5" facs="83048"/>
-            <tei:milestone type="*"/>
+            <tei:milestone unit="*"/>
             <tei:w>Nach</tei:w>
             <tei:w>diesen</tei:w>
             <tei:w>Allgemeinen</tei:w>
@@ -1918,7 +1904,7 @@ gerüstet
                   <tei:w>1</tei:w>
                   <tei:pc>.</tei:pc>
                </tei:head>
-               <tei:div type="">
+               <tei:div type="lesson">
                   <tei:w>Kurz</tei:w>
                   <tei:ab>
                      <tei:w>nach</tei:w>
@@ -1960,13 +1946,9 @@ gerüstet
                      <tei:w>ein</tei:w>
                      <tei:w>
                         <choice>
-                           <sic>k
-</sic>
-                           <corr>K
-</corr>
-                        </choice>anntige
-s
-</tei:w>
+                           <sic>k</sic>
+                           <corr>K</corr>
+                        </choice>anntiges</tei:w>
                      <tei:w>Schwärzoder</tei:w>
                      <tei:w>Färbmittel</tei:w>
                      <tei:pc>,</tei:pc>
@@ -2013,7 +1995,7 @@ s
                      <tei:w>leider</tei:w>
                      <tei:w>schon</tei:w>
                      <tei:w>Utopie</tei:w>
-                     <tei:milestone type="*"/>
+                     <tei:milestone unit="*"/>
                      <tei:w>Bleiben</tei:w>
                      <tei:w>wir</tei:w>
                      <tei:w>also</tei:w>
@@ -2172,7 +2154,7 @@ s
                      <tei:w>bleibt</tei:w>
                      <tei:w>primitiv</tei:w>
                      <tei:pc>.</tei:pc>
-                     <tei:milestone type="*"/>
+                     <tei:milestone unit="*"/>
                   </tei:ab>
                </tei:div>
             </tei:div>
