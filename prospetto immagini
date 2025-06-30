@@ -39,8 +39,8 @@ _LESSON 1_
 
 _LESSON 2_
 				fig1
-				fig2
 				fig3
+				fig2
 				fig4
 				fig5
 				fig6.1
@@ -151,21 +151,25 @@ _LESSON 4_
 				fig13
 				fig14
 	figureE
-				fig15
-				fig16
-				fig17
 	figureF
 	figureG
 	figureH
 	figureI
+				fig15
+				fig16
+				fig17
 	figureJ
+	figureK
+	figureL
+	figureM
+	figureN
 				fig18
 				fig19
 				fig20
 				fig20a
 				fig20b
 				fig21
-	figureK	
+	figureO
 
 _LESSON 5_
 				fig1
@@ -441,7 +445,6 @@ _LESSON 9_
 	figureAY
 	figureAZ
 	figureAAA
-	figureAAB
 
 _LESSON 10_
 	figureA
@@ -546,6 +549,7 @@ _LESSON 11_
 	figureAO
 	figureAP
 	figureAQ
+					fig20
 	figureAR
 	figureAS
 	figureAT
@@ -556,4 +560,3 @@ _LESSON 11_
 	figureAY
 	figureAZ
 	figureAAA
-	figureAAB

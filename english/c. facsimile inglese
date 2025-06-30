@@ -439,10 +439,10 @@
                     <p>
                         Last time, we established with regret, first 
                         of all, that we have no kind of spatial writing: 
-                        Unlike the movement from points <seg><figure xml:id="lesson2_figure002"></figure></seg> to lines
-                        or the movement from lines <seg><figure xml:id="lesson2_figureA"></figure></seg> to planes, we cannot
+                        Unlike the movement from points <seg><figure xml:id="lesson2_figureA"></figure></seg> to lines
+                        or the movement from lines <seg><figure xml:id="lesson2_figureB"></figure></seg> to planes, we cannot
                         analogously move
-                        <seg><figure xml:id="lesson2_figureB"></figure></seg> planes forth with any visible effect, so 
+                        <seg><figure xml:id="lesson2_figureC"></figure></seg> planes forth with any visible effect, so 
                         as to produce solids. We must therefore make do 
                         with perspective.
                     </p>
@@ -460,7 +460,7 @@
                         plane, like a surveyor or carto- 
                         grapher, then we would have the 
                         image of two parallel lines,
-                        <seg><figure xml:id="lesson2_figureC"></figure></seg>
+                        <seg><figure xml:id="lesson2_figureD"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
@@ -552,7 +552,7 @@
                     </p>
                     <figure xml:id="lesson2_fig17"></figure>
                     <p>
-                        When I travese such a plane,<seg><figure xml:id="lesson2_figureD"></figure></seg>the vertical remains 
+                        When I travese such a plane,<seg><figure xml:id="lesson2_figureE"></figure></seg>the vertical remains 
                         vertical, as long as I don't leave the line, and the 
                         other lines radiate towards me.
                     </p>
@@ -610,12 +610,12 @@
                     </p>
                     <p>
                         Such a horizontal plane that can be seen  
-                        from below, however, is situated above our eye; <seg><figure xml:id="lesson2_figureE"></figure></seg>
+                        from below, however, is situated above our eye; <seg><figure xml:id="lesson2_figureF"></figure></seg>
                         it is higher than we are.
                     </p>
                     <p>
                         The other horizontal plane our eye sees from 
-                        above is lower than our eye; it lies below us.<seg><figure xml:id="lesson2_figureF"></figure></seg>
+                        above is lower than our eye; it lies below us.<seg><figure xml:id="lesson2_figureG"></figure></seg>
                     </p>
                     <p>
                         <seg><figure xml:id="lesson2_fig25"></figure></seg>In this third case, 
@@ -629,7 +629,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        as a horizontal <seg><figure xml:id="lesson2_figureG"></figure></seg>
+                        as a horizontal <seg><figure xml:id="lesson2_figureH"></figure></seg>
                         line.
                         The volume is thus 
                         exactly as high as 
@@ -664,7 +664,7 @@
                         example, a huge circular disc.
                     </p>
                     <figure>
-                        <figure xml:id="lesson2_figureH"></figure>
+                        <figure xml:id="lesson2_figureI"></figure>
                         <figure xml:id="lesson2_fig27"></figure>
                     </figure>
                 <pb/> 
@@ -674,7 +674,7 @@
                         found ourselves in a large round can that divides 
                         into can and lid.
                     </p>
-                    <figure xml:id="lesson2_figureI"></figure>
+                    <figure xml:id="lesson2_figureJ"></figure>
                     <p>
                         This sign corresponds to the edifice of the 
                         human being, taking into account the earth's 
@@ -694,13 +694,13 @@
                         to be projected. The observations must be made with one 
                         eye, fixed in its position. With ink or grease pencil the 
                         important essential lines of the object are drawn onto the 
-                        pane of glass. <seg><figure xml:id="lesson2_figureJ"></figure></seg>
+                        pane of glass. <seg><figure xml:id="lesson2_figureK"></figure></seg>
                         Lines recorded on a pane of glass that is not standing 
                         vertically will be seen as incorrect, distorted images. 
                         Similar distorted images are produced by photographers who, 
                         from a low angle, take pictures of an object that can be 
-                        easily controlled in <seg><figure xml:id="lesson2_figureK"></figure></seg>
-                        perspective, for <seg><figure xml:id="lesson2_figureL"></figure></seg>
+                        easily controlled in <seg><figure xml:id="lesson2_figureL"></figure></seg>
+                        perspective, for <seg><figure xml:id="lesson2_figureM"></figure></seg>
                         example, a house.
                         To be precise, such images are not
                         at all false objectively. 
@@ -862,6 +862,7 @@
                             again. (fig. 18) 
                         </figDesc>
                         <figure xml:id="lesson3_fig18"></figure>
+                        <figure xml:id="lesson3_figureA"></figure>
                     </figure>
                 <pb/> 
                     <p>
@@ -1322,6 +1323,8 @@
                         articulated as joined pairs of two neighboring 
                         squares in the horizontal and vertical:
                     </p>
+                    <figure xml:id="lesson4_figureC"></figure>
+                    <figure xml:id="lesson4_figureD"></figure>
                     <figure xml:id="lesson4_fig7"></figure>
                     <p>
                         Whereupon there emerges an articulation into four
@@ -1490,7 +1493,7 @@
                         the bar lines).
                     </p>
                     <p>
-                        Where? <seg><figure xml:id="lesson4_figureC"></figure></seg> Where is the bar
+                        Where? <seg><figure xml:id="lesson4_figureE"></figure></seg> Where is the bar
                         line?
                         What is indicated by special signs like |? ×? |? •? ?
                         They indicate that at the points where they are 
@@ -1520,12 +1523,12 @@
                     <p>
                         In a four-beat bar the conductor beats the first 
                         value downward, 
-                        <seg><figure xml:id="lesson4_figureD"></figure></seg> the second up and to the left, <seg><figure xml:id="lesson4_figureE"></figure></seg> the third
-                        from left to right, <seg><figure xml:id="lesson4_figureF"></figure></seg> and the fourth from the
-                        right <seg><figure xml:id="lesson4_figureG"></figure></seg> upwards to the starting point of the 
+                        <seg><figure xml:id="lesson4_figureF"></figure></seg> the second up and to the left, <seg><figure xml:id="lesson4_figureG"></figure></seg> the third
+                        from left to right, <seg><figure xml:id="lesson4_figureH"></figure></seg> and the fourth from the
+                        right <seg><figure xml:id="lesson4_figureI"></figure></seg> upwards to the starting point of the 
                         first value.
                     </p>
-                    <p> This overall image emerges:<seg><figure xml:id="lesson4_figureH"></figure></seg></p>
+                    <p> This overall image emerges:<seg><figure xml:id="lesson4_figureJ"></figure></seg></p>
                     <p>
                         <cb n="left"/>
                         Considering
@@ -1625,7 +1628,7 @@
                         ratios of very small numbers to very large ones to 
                         occur in this example, then it would be a question 
                         of ornaments in music, 
-                        <seg><figure xml:id="lesson4_figureI"></figure></seg>
+                        <seg><figure xml:id="lesson4_figureK"></figure></seg>
                         which, when employed all too triflingly, are called 
                         flourishes.
                     </p>
@@ -1881,11 +1884,11 @@
                         (Lest anyone think you 
                         must work according to 
                         rules.)
-                        <cb n="right"/><seg><figure xml:id="lesson5_fig6"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson5_fig6"></figure></seg><seg><figure xml:id="lesson5_fig6a"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
-                        Up to this point, we have moved mainly in 
+                        <seg><figure xml:id="lesson5_figureB"></figure></seg>Up to this point, we have moved mainly in 
                         the formal terrain of culture. In our constructing, 
                         we worked from terrestrial, human assumptions, 
                         from the way in which we are affixed to the 
@@ -2329,14 +2332,13 @@
                         relationship, merely superimposed, completely 
                         lacking spirit.
                     </p>
-                    <p>In short: the</p>
-                    <figure xml:id="lesson6_fig14">
-                        <figDesc>
-                        relation less ness 
+                    <p>
+                        In short: the <seg><figure xml:id="lesson6_fig14"></figure></seg> relation less ness 
                         of two heterogeneous
                         things:  
-                        </figDesc>
-                    </figure>
+                        <seg><figure xml:id="lesson6_figureJ"></figure></seg>
+                        <seg><figure xml:id="lesson6_figureK"></figure></seg>
+                    </p>
                     <p>
                         Thus, once again nothing! But what can one do 
                         so that it becomes something?  
@@ -2349,14 +2351,14 @@
                         atop the wooden pieces we will place a bull's-eye 
                         of crown glass or optical lenses or glass spheres.
                         And,  visibly, something will occur, 
-                        namely, the pic- <seg><figure xml:id="lesson6_figureJ"></figure></seg> -torial expression of 
+                        namely, the pic- <seg><figure xml:id="lesson6_figureL"></figure></seg> -torial expression of 
                         the relationship between two hetero-
                         geneous things.
                         (See figs. 15, 16, 17.)
                     </p>
                 <pb/> 
                     <figure>
-                        <figure xml:id="lesson6_figureK"></figure>
+                        <figure xml:id="lesson6_figureM"></figure>
                         <figure xml:id="lesson6_fig15"></figure>
                         <figure xml:id="lesson6_fig16"></figure>
                         <figure xml:id="lesson6_fig17"></figure>
@@ -2685,7 +2687,7 @@
                         III. "    passive (bone)
                         or weight criterion:
                         <cb n="right"/>
-                        <seg><figure xml:id="lesson6_figureL"></figure></seg>
+                        <seg><figure xml:id="lesson6_figureN"></figure></seg>
                         length criterion 
                         in lieu of weight 
                         criterion 
@@ -3245,20 +3247,18 @@
                         Formal statement: Formation: stable <seg><figure xml:id="lesson7_figureK"></figure></seg>
                         Functions: Arrangement: vertical <seg><figure xml:id="lesson7_figureL"></figure></seg>
                         Articulation: rigid <seg><figure xml:id="lesson7_figureM"></figure></seg>
-                        Development:
+                        Development:<seg><figure xml:id="lesson7_figureN"></figure></seg>
                         progressive
                         increase and 
                         progressive decrease
-                        <seg><figure xml:id="lesson7_figureN"></figure></seg>
-                        Direction of increase:
+                        Direction of increase: <seg><figure xml:id="lesson7_figureO"></figure></seg>
                         from top to middle 
                         and from bottom to 
                         middle
-                        (Direction of decrease:
+                        (Direction of decrease:<seg><figure xml:id="lesson7_figureP"></figure></seg>
                         from the middle 
                         upwards and from
                         the middle down)
-                        <seg><figure xml:id="lesson7_figureO"></figure></seg>
                     </p>
                     <p>
                         <cb n="right"/>
@@ -3267,8 +3267,8 @@
                         idealistic conceptions.
                     </p>
                     <p>
-                        <cb n="center"/><seg><figure xml:id="lesson7_figureP"></figure></seg>ideal
-                        <cb n="right"/><seg><figure xml:id="lesson7_figureQ"></figure></seg>material
+                        <cb n="center"/><seg><figure xml:id="lesson7_figureQ"></figure></seg>ideal
+                        <cb n="right"/><seg><figure xml:id="lesson7_figureR"></figure></seg>material
                     </p>
                     <p>
                         <cb n="left"/><seg><figure xml:id="lesson7_fig26"></figure></seg>
@@ -3287,15 +3287,15 @@
                     <p>Fourth example</p>
                     <figure xml:id="lesson7_fig27" type="explanation"></figure>
                     <p>Formal statement:</p>
-                    <p>Formation: stable<seg><figure xml:id="lesson7_figureR"></figure></seg></p>
+                    <p>Formation: stable<seg><figure xml:id="lesson7_figureS"></figure></seg></p>
                     <p>
-                        Functions: Arrangement: diagonal<seg><figure xml:id="lesson7_figureS"></figure></seg>
-                        Articulation: rigid<seg><figure xml:id="lesson7_figureT"></figure></seg>
+                        Functions: Arrangement: diagonal<seg><figure xml:id="lesson7_figureT"></figure></seg>
+                        Articulation: rigid<seg><figure xml:id="lesson7_figureU"></figure></seg>
                     </p>
-                    <p> Development: increase and decrease<seg><figure xml:id="lesson7_figureU"></figure></seg></p>
+                    <p> Development: increase and decrease<seg><figure xml:id="lesson7_figureV"></figure></seg></p>
                     <p> 
                         Direction of increase: from
-                        outside to inside<seg><figure xml:id="lesson7_figureV"></figure></seg>
+                        outside to inside<seg><figure xml:id="lesson7_figureW"></figure></seg>
                     </p>
                 <pb/> 
                     <p> Receptive function:</p>
@@ -3333,13 +3333,14 @@
                         part
                     </p>
                     <p>
-                        <cb n="left"/><seg><figure xml:id="lesson7_figureW"></figure></seg>
-                        <cb n="right"/><seg><figure xml:id="lesson7_figureX"></figure></seg>
+                        <cb n="left"/><seg><figure xml:id="lesson7_figureX"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson7_figureY"></figure></seg>
                     </p>
                     <p>
-                        <cb n="left"/><seg><figure xml:id="lesson7_figureY"></figure></seg>
-                        <cb n="right"/><seg><figure xml:id="lesson7_figureZ"></figure></seg>
+                        <cb n="left"/><seg><figure xml:id="lesson7_figureZ"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson7_figureAA"></figure></seg>
                     </p>
+                    <figure xml:id="lesson7_figureAB"></figure>
                     <p>
                         III: Possible combination of I and II, leading to 
                         the subordination of one character or to the 
@@ -3461,14 +3462,16 @@
                         recept.
                     </p>
                     <p>
+                        <seg><figure xml:id="lesson8_figureC"></figure></seg>
                         Note
-                        <seg><figure xml:id="lesson8_figureC"></figure></seg> There [fig. 1] the planes are to be thought of as 
+                        <seg><figure xml:id="lesson8_figureD"></figure></seg> There [fig. 1] the planes are to be thought of as 
                         active planes and here [fig. 2] as active lines, which are 
                         not (mind you!) mutually dependent on one another in the way 
-                        they were represented earlier, i.e., as here: <seg><figure xml:id="lesson8_figureD"></figure></seg> where the 
-                        passive lines depend on the active plane, or here: <seg><figure xml:id="lesson8_figureE"></figure></seg> where 
+                        they were represented earlier, i.e., as here: <seg><figure xml:id="lesson8_figureF"></figure></seg> where the 
+                        passive lines depend on the active plane, or here: <seg><figure xml:id="lesson8_figureG"></figure></seg> where 
                         the plane, as opposed to the lines, is the result and is 
                         therefore passive. 
+                        <seg><figure xml:id="lesson8_figureE"></figure></seg>
                     </p>
                     <p>
                         Therefore: there, active planes and, here, active lines 
@@ -3612,12 +3615,12 @@
                         The movement of a formal element that leads to the 
                         creation of a new formal element need not also produce 
                         a dynamic form. The movement of a point into the mathe
-                        matical straight line <seg><figure xml:id="lesson8_figureF"></figure></seg>is
+                        matical straight line <seg><figure xml:id="lesson8_figureH"></figure></seg>is
                         indeed a movement-action but not a movement-form. This 
                         same line, if it is then pushed to produce a plane, is 
                     </p>
                     <p>
-                        <cb n="left"/><seg><figure xml:id="lesson8_figureG"></figure></seg>
+                        <cb n="left"/><seg><figure xml:id="lesson8_figureI"></figure></seg>
                         <cb n="right"/>
                         not a dynamic line because it 
                         is no longer a line at all but 
@@ -3811,14 +3814,14 @@
                         it finally swallows me whole?
                     </p> 
                     <p>
-                        <seg><figure xml:id="lesson8_figureH"></figure></seg>
-                        <seg><figure xml:id="lesson8_figureI"></figure></seg>
+                        <seg><figure xml:id="lesson8_figureJ"></figure></seg>
+                        <seg><figure xml:id="lesson8_figureK"></figure></seg>
                         motion of the radius 
                         away from C   
                     </p>
                     <p>
-                        <seg><figure xml:id="lesson8_figureJ"></figure></seg>
-                        <seg><figure xml:id="lesson8_figureK"></figure></seg>
+                        <seg><figure xml:id="lesson8_figureL"></figure></seg>
+                        <seg><figure xml:id="lesson8_figureM"></figure></seg>
                         <cb n="right"/>
                         motion of the
                         radius towards C
@@ -3835,7 +3838,7 @@
                         forces of the water as arrangement and above all as 
                         dynamic functioning. 
                     </p>
-                    <figure xml:id="lesson8_figureL"></figure>
+                    <figure xml:id="lesson8_figureN"></figure>
             </div>
             <div xml:id="div_Klee_lesson9">
                 <pb/> 
@@ -3922,8 +3925,9 @@
                         no less force and allowed its direction to be controlled. 
                         Accuracy was also increased by changing the missile from 
                         a stone to a kind of arrow, which one could fashion out 
-                        of a hairpin.
-                        <seg><figure xml:id="lesson9_fig4"></figure></seg> <!--delle figure che compongono l'immagine, una sarebbe un pentimento-->
+                        of a hairpin. <seg><figure xml:id="lesson9_figureB"></figure></seg> 
+                        <seg><figure xml:id="lesson9_fig4"></figure></seg> 
+                         <seg><figure xml:id="lesson9_figureC"></figure></seg> 
                         A little pennant made of colored wool served as a 
                         rudder and for grasping and also as decoration.
                     </p>
@@ -3942,9 +3946,9 @@
                         it was long and straight, made aiming considerably 
                         easier and maintained the chosen direction as well. 
                         Voilà the arrow: the
-                        arrow as shaft, <seg><figure xml:id="lesson9_figureB"></figure></seg>
-                        tip, <seg><figure xml:id="lesson9_figureC"></figure></seg>
-                        and rudder: <seg><figure xml:id="lesson9_figureD"></figure></seg>
+                        arrow as shaft, <seg><figure xml:id="lesson9_figureD"></figure></seg>
+                        tip, <seg><figure xml:id="lesson9_figureE"></figure></seg>
+                        and rudder: <seg><figure xml:id="lesson9_figureF"></figure></seg>
                     </p>  
                     <p>
                         The bow and arrow, with a sighting mechanism for 
@@ -3988,7 +3992,7 @@
                         also of the arrow, was the thought: How can I extend 
                         my reach to over there? Across that river, that lake? 
                         Over that mountain?
-                        <seg><figure xml:id="lesson9_figureE"></figure></seg>
+                        <seg><figure xml:id="lesson9_figureG"></figure></seg>
                         To over there?
                         Common to this father and to all of his sons are both 
                         the linearity of the movement and the length of its path 
@@ -4038,9 +4042,9 @@
                         end, lest your own end be to lead nowhere!&gt;
                     </p>
                     <p>
-                       shaft: <seg><figure xml:id="lesson9_figureF"></figure></seg>
-                        tip: <seg><figure xml:id="lesson9_figureG"></figure></seg>
-                        rudder: <seg><figure xml:id="lesson9_figureH"></figure></seg>
+                       shaft: <seg><figure xml:id="lesson9_figureJ"></figure></seg>
+                        tip: <seg><figure xml:id="lesson9_figureK"></figure></seg>
+                        rudder: <seg><figure xml:id="lesson9_figureL"></figure></seg>
                     </p>
                     <p>
                         A genuine African arrow consists of shaft, tip, and 
@@ -4062,7 +4066,7 @@
                         arrow becomes redundant.
                     </p>
                     <p> 
-                        Our arrow thus looks like this: <seg><figure xml:id="lesson9_figureI"></figure></seg>
+                        Our arrow thus looks like this: <seg><figure xml:id="lesson9_figureM"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
@@ -4210,14 +4214,14 @@
                         I must begin by saying that considered by 
                         itself, in minimal terms, the arrow was already in 
                         itself a synthesis of cause and effect. The two side
-                        rudders, <seg><figure xml:id="lesson9_figureJ"></figure></seg>  or the two sides of the parallelogram 
+                        rudders, <seg><figure xml:id="lesson9_figureN"></figure></seg>  or the two sides of the parallelogram 
                         of the direction of forces, could  
                         be considered directional causes,
                     </p>
                 <pb/> 
                     <p>
                         the resultant diagonal of the parallelogram of the 
-                        <seg><figure xml:id="lesson9_figureK"></figure></seg> direction of forces could be seen as 
+                        <seg><figure xml:id="lesson9_figureO"></figure></seg> direction of forces could be seen as 
                         depending on them, and specifically as a 
                         directional effect.
                     </p>
@@ -4245,7 +4249,7 @@
                         Establishment and configuration of the cause of 
                         this effect: 
                     </p>
-                    <figure xml:id="lesson9_figureL"></figure>
+                    <figure xml:id="lesson9_figureP"></figure>
                     <p>
                         Assuming that what I mean has become clear to you, 
                         I will go on from the schematically compositional 
@@ -4351,7 +4355,7 @@
                     <p>
                         The back-and-forth of the pendulum (p. 117) passes again 
                         before our eyes. This is the dynamic compensation 
-                        of errors or sur- <seg><figure xml:id="lesson9_figureM"></figure></seg>  -pluses of move-
+                        of errors or sur- <seg><figure xml:id="lesson9_figureQ"></figure></seg>  -pluses of move-
                         ment by means of the antitheses
                         of new errors and surpluses.
                         An extended account of the
@@ -4383,7 +4387,7 @@
                         become ever smaller, theoretically until it is as 
                         small as a point. For to the left of the gray point, 
                     </p>
-                    <figure xml:id="lesson9_figureN"></figure>
+                    <figure xml:id="lesson9_figureR"></figure>
                     <p>
                         green still predominates and, to the right, red does. 
                         Due to the purification of gray's representation,
@@ -4444,7 +4448,7 @@
                         the simple, inherently quiescent movement of the 
                         line:
                     </p>
-                    <figure xml:id="lesson9_figureO"></figure>
+                    <figure xml:id="lesson9_figureS"></figure>
                     <p>
                         I then demonstrated with a few examples how one can 
                         "accompany" this "melody" or how one can transcribe 
@@ -4452,7 +4456,7 @@
                         plane).
                     </p>
                     <p> Then I fixed the line at several points, </p>
-                    <figure xml:id="lesson9_figureP"></figure>
+                    <figure xml:id="lesson9_figureT"></figure>
                     <p>and it took on this concise, time-constrained character.</p>
                     <p>
                         Then I took the step towards the first fundamental  
@@ -4461,8 +4465,8 @@
                 <pb/> 
                     <p>by leading the line back to its point of departure:</p>
                     <p>
-                        <cb n="left"/>free: <seg><figure xml:id="lesson9_figureQ"></figure></seg>
-                        <cb n="right"/> constrained: <seg><figure xml:id="lesson9_figureR"></figure></seg><seg><figure xml:id="lesson9_figureS"></figure></seg>
+                        <cb n="left"/>free: <seg><figure xml:id="lesson9_figureU"></figure></seg>
+                        <cb n="right"/> constrained: <seg><figure xml:id="lesson9_figureV"></figure></seg><seg><figure xml:id="lesson9_figureW"></figure></seg>
                     </p>
                     <p>
                         Here there could be no more talk of elementary linear 
@@ -4478,13 +4482,13 @@
                         points), but by the movement of lines.
                     </p>
                     <p>
-                        <cb n="left"/>either<seg><figure xml:id="lesson9_figureT"></figure></seg>
-                        <cb n="right"/>pushed to this effect <seg><figure xml:id="lesson9_figureU"></figure></seg>
-                        <cb n="left"/>or rotated<seg><figure xml:id="lesson9_figureV"></figure></seg>
-                        <cb n="right"/>  to this  <seg><figure xml:id="lesson9_figureW"></figure></seg> effect
+                        <cb n="left"/>either<seg><figure xml:id="lesson9_figureX"></figure></seg>
+                        <cb n="right"/>pushed to this effect <seg><figure xml:id="lesson9_figureY"></figure></seg>
+                        <cb n="left"/>or rotated<seg><figure xml:id="lesson9_figureZ"></figure></seg>
+                        <cb n="right"/>  to this  <seg><figure xml:id="lesson9_figureAA"></figure></seg> effect
                     </p>
                     <p>
-                        Thus, a construct like this: <seg><figure xml:id="lesson9_figureY"></figure></seg><seg><figure xml:id="lesson9_figureX"></figure></seg><seg><figure xml:id="lesson9_figureZ"></figure></seg>
+                        Thus, a construct like this: <seg><figure xml:id="lesson9_figureAB"></figure></seg><seg><figure xml:id="lesson9_figureAC"></figure></seg><seg><figure xml:id="lesson9_figureAD"></figure></seg>
                     </p>
                     <p>
                         considered in elementary terms is neither line nor 
@@ -4494,14 +4498,14 @@
                     </p>
                     <p> So we have three characters to distinguish:</p>
                     <p>
-                        I. a linear one, <seg><figure xml:id="lesson9_figureAA"></figure></seg><seg><figure xml:id="lesson9_figureAB"></figure></seg>
+                        I. a linear one, <seg><figure xml:id="lesson9_figureAE"></figure></seg><seg><figure xml:id="lesson9_figureAF"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
-                        II. a medial one, <seg><figure xml:id="lesson9_figureAC"></figure></seg><seg><figure xml:id="lesson9_figureAD"></figure></seg><seg><figure xml:id="lesson9_figureAE"></figure></seg><seg><figure xml:id="lesson9_figureAF"></figure></seg>
+                        II. a medial one, <seg><figure xml:id="lesson9_figureAG"></figure></seg><seg><figure xml:id="lesson9_figureAH"></figure></seg><seg><figure xml:id="lesson9_figureAI"></figure></seg><seg><figure xml:id="lesson9_figureAJ"></figure></seg>
                     </p>
                     <p>
-                        III. and a planar one <seg><figure xml:id="lesson9_figureAG"></figure></seg><seg><figure xml:id="lesson9_figureAH"></figure></seg><seg><figure xml:id="lesson9_figureAI"></figure></seg>
+                        III. and a planar one <seg><figure xml:id="lesson9_figureAK"></figure></seg><seg><figure xml:id="lesson9_figureAL"></figure></seg><seg><figure xml:id="lesson9_figureAM"></figure></seg>
                     </p>
                     <p>
                         where I and III are elementary principal characters, 
@@ -4509,11 +4513,11 @@
                     </p>
                     <p>
                         <cb n="left"/>
-                        From the linear standpoint:
-                        This <seg><figure xml:id="lesson9_figureAJ"></figure></seg>
-                        character is <seg><figure xml:id="lesson9_figureAK"></figure></seg> active      
-                        this  <seg><figure xml:id="lesson9_figureAL"></figure></seg> medial,
-                        and this, <seg><figure xml:id="lesson9_figureAM"></figure></seg> passive.
+                        From the linear standpoint: <seg><figure xml:id="lesson9_figureAR"></figure></seg> 
+                        This <seg><figure xml:id="lesson9_figureAN"></figure></seg>
+                        character is <seg><figure xml:id="lesson9_figureAO"></figure></seg> active      
+                        this  <seg><figure xml:id="lesson9_figureAP"></figure></seg> medial,
+                        and this, <seg><figure xml:id="lesson9_figureAQ"></figure></seg> passive.
                         I.e., when active, the point 
                         works, and the effect is 
                         linear, corresponding to the 
@@ -4531,13 +4535,13 @@
                         is suffered
                         <cb n="right"/>
                         From the planar standpoint:
-                        <seg><figure xml:id="lesson9_figureAN"></figure></seg>This character 
+                        <seg><figure xml:id="lesson9_figureAS"></figure></seg>This character 
                         is passive,
-                        this, <seg><figure xml:id="lesson9_figureAO"></figure></seg> medial,
-                        and this, <seg><figure xml:id="lesson9_figureAP"></figure></seg> active.
+                        this, <seg><figure xml:id="lesson9_figureAT"></figure></seg> medial,
+                        and this, <seg><figure xml:id="lesson9_figureAU"></figure></seg> active.
                     </p>
                     <p>
-                        The viewpoints thus stand 
+                        <seg><figure xml:id="lesson9_figureAV"></figure></seg> The viewpoints thus stand 
                         diametrically opposed, 
                         meeting only in the medial 
                         zone. Let the following schema 
@@ -4545,13 +4549,15 @@
                         phenomenon.
                     </p>
                 <pb/> 
-                    <figure xml:id="lesson9_figureAQ"></figure>
+                    <figure xml:id="lesson9_figureAW"></figure>
                     <p>
-                       Note. Linguistic analogy
+                        <seg><figure xml:id="lesson9_figureAX"></figure></seg> 
+                        Note. Linguistic analogy
                         active:  I fell: The man felled the tree with an axe.
                         medial:  I fall: The tree fell with the man's last
                         axe-stroke.
                         passive:  I am felled:   The tree lay felled.
+                        <seg><figure xml:id="lesson9_figureAY"></figure></seg> 
                     </p>
                     <p>
                         In conclusion the exercise:  Attempts at composition with 
@@ -5045,7 +5051,7 @@
                         can be given to me about the work now emerging.
                     </p>
                     <p> New example of it here:</p>
-                    <figure xml:id="lesson9_figureAR"></figure>
+                    <figure xml:id="lesson9_figureAAA"></figure>
                 <pb/> 
             </div>
             <div xml:id="div_Klee_lesson10">
@@ -5134,10 +5140,10 @@
                     </p>
                     <figure xml:id="lesson10_fig1"></figure>
                     <p>
-                        <seg><figure xml:id="lesson10_figureC"></figure></seg>One must not forget that, if we extend and complete the 
+                        <seg><figure xml:id="lesson10_figureC"></figure></seg><seg><figure xml:id="lesson10_figureD"></figure></seg>One must not forget that, if we extend and complete the 
                         arc as a circle, then a perfection--a color circle--is not 
                         yet attained, but rather in this way only seven single 
-                        colored circles appear, nested in each other.
+                        colored circles appear, nested in each other.<seg><figure xml:id="lesson10_figureE"></figure></seg>
                     </p>
                     <figure xml:id="lesson10_fig2"></figure>
                 <pb/> 
@@ -5156,7 +5162,7 @@
                         line.
                     </p>
                     <p>
-                        Thus we can calmly designate the rainbow a linear <seg><figure xml:id="lesson10_figureD"></figure></seg> 
+                        Thus we can calmly designate the rainbow a linear <seg><figure xml:id="lesson10_figureF"></figure></seg> 
                         representation of colors and at the same time an inadequate 
                         representation of colors from which very little can be 
                         gathered--about the oppositional relationship between the 
@@ -5199,7 +5205,7 @@
                         We now no longer need to oscillate as motion from 1 to 
                         7 and, as counter-motion subtituting for infinity, from 
                         7 to 1, seeking hither and thither, striving to get away 
-                        <seg><figure xml:id="lesson10_figureE"></figure></seg> and returning home., rather 
+                        <seg><figure xml:id="lesson10_figureG"></figure></seg> and returning home., rather <seg><figure xml:id="lesson10_figureH"></figure></seg>
                     </p>
                     <figure xml:id="lesson10_fig6"></figure>
                     <p>
@@ -5210,7 +5216,7 @@
                         where the pure colors are only half at home.
                     </p>
                     <p>
-                        <seg><figure xml:id="lesson10_figureF"></figure></seg> rather, We free our pendulum from the force of gravity, 
+                        <seg><figure xml:id="lesson10_figureI"></figure></seg> rather, We free our pendulum from the force of gravity, 
                         we let it whirr past, to reach the divine domain, the 
                         soaring domain, the dynamic domain, to the domain of the 
                         mind, of perfected rotation and whole movement, with 
@@ -5223,12 +5229,13 @@
                         simply violet.
                     </p>
                     <figure xml:id="lesson10_fig7"></figure>
+                    <figure xml:id="lesson10_figureJ"></figure>
                     <p>
                         The cosmic affair of the pure colors has found its fitting 
                         represention in a circle. The appearance, apprehensible on earth,  
                         of pure colors in the rainbow, which was only a reflection of an  
                         initially unknown totality, now formed as a synthesis and related  
-                        to the great, otherworldly whole, lies be <seg><figure xml:id="lesson10_figureH"></figure></seg> fore our eyes as a
+                        to the great, otherworldly whole, lies be <seg><figure xml:id="lesson10_figureK"></figure></seg> fore our eyes as a
                         there is now the Color Circle
                     </p>
                     <p>
@@ -5241,7 +5248,7 @@
                         way that violence was done to the color circle at violet, 
                         with which the circle tore apart, stretched out and 
                         marched off as a series of color points in the rainbow.
-                        (The <seg><figure xml:id="lesson10_figureI"></figure></seg> divine tragedy.)
+                        (The <seg><figure xml:id="lesson10_figureL"></figure></seg> divine tragedy.)
                     </p>
                     <figure xml:id="lesson10_fig8"></figure>
                 <pb/> 
@@ -5270,7 +5277,7 @@
                     <p>
                         So, on the one hand, movement in a peripheral direction× 
                         and, on the other, movements in a diametrical direction, 
-                        <seg><figure xml:id="lesson10_figureJ"></figure></seg>along the diameters.
+                        <seg><figure xml:id="lesson10_figureM"></figure></seg>along the diameters.
                     </p>
                     <p>
                         This second aspect of the novelty is so promising 
@@ -5528,7 +5535,7 @@
                     <p>
                         <cb n="left"/>
                         If I combine them as a cross,
-                        <cb n="right"/><seg><figure xml:id="lesson10_figureK"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson10_figureN"></figure></seg>
                     </p>
                     <p>
                         then I recognize in this arrangement, firstly, the already 
@@ -5554,7 +5561,7 @@
                     </p>
                     <figure>
                         <figure xml:id="lesson10_fig17"></figure>
-                        <figure xml:id="lesson10_figureL"></figure>
+                        <figure xml:id="lesson10_figureO"></figure>
                     </figure>
                     <p>
                         or algebraically:
@@ -5572,7 +5579,7 @@
                         red-orange  blue-green
                         red, orange, blue, and 
                         green viewed on the cross
-                        <seg><figure xml:id="lesson10_figureM"></figure></seg>
+                        <seg><figure xml:id="lesson10_figureP"></figure></seg>
                     </p>
                 <pb/> 
                     <p> red green = gray   and   blue orange = gray </p>
@@ -5615,7 +5622,7 @@
                             + 
                         red + yellow.  
                         Thus, I deduce upwards and down,
-                        <seg><figure xml:id="lesson10_figureN"></figure></seg>
+                        <seg><figure xml:id="lesson10_figureQ"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
@@ -5792,7 +5799,7 @@
                         scientific. And we gain just as much experience if 
                         we miss the mark of precise correctness.
                     </p>
-                    <p> <seg><figure xml:id="lesson11_figureA"></figure></seg><p> <seg><figure xml:id="lesson11_figureB"></figure></seg> Now Today I shall first move on to peripheral</p>
+                    <p> <seg><figure xml:id="lesson11_figureA"></figure></seg><seg><figure xml:id="lesson11_figureB"></figure></seg> Now Today I shall first move on to peripheral</p>
                 <pb/> 
                     <p>
                         color movement, to movement that proceeds around the 
@@ -5856,7 +5863,7 @@
                         both sides must be ascertained --or, conversely, an increase in 
                         red from these two sides, towards red.
                         This increase from the two sides leads naturally  
-                        to a peak, towards the peak point <seg><figure xml:id="lesson11_figureB"></figure></seg> that culminates 
+                        to a peak, towards the peak point <seg><figure xml:id="lesson11_figureC"></figure></seg> that culminates 
                         at the height of the red.
                         <cb n="right"/><seg><figure xml:id="lesson11_fig3"></figure></seg>
                     </p>
@@ -5949,7 +5956,7 @@
                         softly in and a third dies away.
                     </p>
                     <p>
-                        One could call this new figure the Canon of <seg><figure xml:id="lesson11_figureC"></figure></seg>
+                        One could call this new figure the Canon of <seg><figure xml:id="lesson11_figureD"></figure></seg>
                         Totality. &lt;bottom: what comes now&gt;
                     </p>
                     <p>
@@ -5972,15 +5979,15 @@
                     <p>
                         &lt;Note: In the oscillation of the color pairs it was different; 
                         we had to return the same way to get back to the starting 
-                        point. As script, something like: <seg><figure xml:id="lesson11_figureD"></figure></seg> that is, 
+                        point. As script, something like: <seg><figure xml:id="lesson11_figureF"></figure></seg> that is, 
                         in a zigzag.
                         Now, however, we are circling onwards, beat by beat. As 
                         script,       
-                        like: <seg><figure xml:id="lesson11_figureE"></figure></seg> in a circular screw
+                        like: <seg><figure xml:id="lesson11_figureG"></figure></seg> in a circular screw
                         motion                 
                         Only not in unison but for several voices.&lt;
                     </p>
-                    <p> <seg><figure xml:id="lesson11_figureF"></figure></seg>What comes now will remind you at once of my visualization<seg><figure xml:id="lesson11_figureG"></figure></seg></p>
+                    <p> <seg><figure xml:id="lesson11_figureI"></figure></seg>What comes now will remind you at once of my visualization<seg><figure xml:id="lesson11_figureJ"></figure></seg></p>
                 <pb/> 
                     <p>
                         black/white 
@@ -6058,6 +6065,7 @@
                         different secondary color.
                     </p>
                     <p>
+                        <seg><figure xml:id="lesson11_figureL"></figure></seg>
                         In order to represent the inferiority of the 
                         secondary colors in the simplest manner, I can now hold 
                         onto the three culmination points of the primary colors 
@@ -6094,9 +6102,9 @@
                         that is an ex'act representation of the the red hill.
                     </p>
                     <figure>
-                        <figure xml:id="lesson11_figureH"></figure>
-                        <figure xml:id="lesson11_figureI"></figure>
-                        <figure xml:id="lesson11_figureJ"></figure>
+                        <figure xml:id="lesson11_figureM"></figure>
+                        <figure xml:id="lesson11_figureN"></figure>
+                        <figure xml:id="lesson11_figureO"></figure>
                     </figure>
                     <p>
                         If I turn towards B, before me stands a pyramid, like 
@@ -6138,7 +6146,7 @@
                         advantage over the circle.
                     </p>
                     <p>
-                        <cb n="right"/><seg><figure xml:id="lesson11_figureK"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson11_figureP"></figure></seg>
                         But not only this; it can provide even 
                         clearer information than the circle about the dividing 
                         lines that we called diametral movement. For example, 
@@ -6182,7 +6190,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        <seg><figure xml:id="lesson11_fig19"></figure></seg>The three complement
+                        <seg><figure xml:id="lesson11_figureQ"></figure></seg><seg><figure xml:id="lesson11_fig19"></figure></seg>The three complement
                         bisectors (the perpendi- 
                         culars) intersect, 
                         however, at the familiar 
@@ -6193,7 +6201,7 @@
                         on the color circle
                     </p>
                     <p>
-                        With this I have now finished with flat color 
+                        <seg><figure xml:id="lesson11_figureR"></figure></seg>With this I have now finished with flat color 
                         topography, i.e., I have established and explained the 
                         various loci as far as they pertain to the plane.
                     </p>
@@ -6274,16 +6282,16 @@
                         loss of life!
                     </p>
                     <p>
-                        If, on the basis of the dominant importance of the 
+                        If, on the basis of the dominant importance of the <seg><figure xml:id="lesson11_figureS"></figure></seg>
                         three primary colors, I describe the presence of these 
                         three as the law of totality of the colored plane,
                     </p>
                 <pb/> 
                     <p>
-                        then some examples will show how I search for what 
+                        <seg><figure xml:id="lesson11_figureT"></figure></seg>then some examples will show how I search for what 
                         fulfills this law and what falls under its sway.
                     </p>
-                    <p> formula <seg><figure xml:id="lesson11_figureL"></figure></seg> of a triangle <seg><figure xml:id="lesson11_figureM"></figure></seg> triangle× </p>
+                    <p> formula <seg><figure xml:id="lesson11_figureU"></figure></seg> of a triangle <seg><figure xml:id="lesson11_figureV"></figure></seg> triangle× </p>
                     <p>
                         1) The confusion of the law with the work, of the 
                         foundations with the house, of the formula with the 
@@ -6296,7 +6304,7 @@
                         place on these sides, the whole perimeter.
                     </p>
                     <p>
-                        <cb n="left"/><seg><figure xml:id="lesson11_figureN"></figure></seg>
+                        <cb n="left"/><seg><figure xml:id="lesson11_figureW"></figure></seg>
                         <cb n="right"/>
                         3) Complementary movements along the bisecting line 
                         also have a triangular nature in 
@@ -6314,21 +6322,24 @@
                         symbol. The law of totality is  
                         only two-thirds fulfilled  
                         (two points instead of three)
-                        <cb n="right"/><seg><figure xml:id="lesson11_figureO"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson11_figureX"></figure></seg>
                     </p>
                     <p>
                         5) Movement between false color pairs is supratriangular:
                     </p>
                     <p>
                         <cb n="left"/> Total: × flat triangle, spatial:
-                        <cb n="right"/><seg><figure xml:id="lesson11_figureP"></figure></seg>
+                        <cb n="right"/><seg><figure xml:id="lesson11_figureY"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
                         <cb n="left"/>
                         5a)  green/orange
-                        <seg><figure xml:id="lesson11_figureQ"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureZ"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureAA"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureAB"></figure></seg>
                     </p>
+                    <figure xml:id="lesson11_figureAI"></figure>
                     <p>
                         Green/orange is supratriangular, has one yellow 
                         point too many, hence the yellow load.
@@ -6336,7 +6347,9 @@
                     <p>
                         <cb n="left"/>
                         5b)  violet/orange
-                        <seg><figure xml:id="lesson11_figureR"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureAC"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureAD"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureAE"></figure></seg>
                     </p>
                     <p>
                         Violet/orange is also supratriangular, double
@@ -6347,7 +6360,9 @@
                     <p>
                         <cb n="left"/>
                         5c) green/violet
-                        <seg><figure xml:id="lesson11_figureS"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureAF"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureAG"></figure></seg>
+                        <seg><figure xml:id="lesson11_figureAH"></figure></seg>
                     </p>
                     <p>
                         Green/violet is supratriangular, double-triangular, 
@@ -6356,7 +6371,7 @@
                     </p>
                 <pb/> 
                     <p>
-                        These color actions do not always correspond to the 
+                        <seg><figure xml:id="lesson11_figureAL"></figure></seg>These color actions do not always correspond to the 
                         law of totality, as you saw. Sometimes they leave 
                         out one point and sometimes they give one of the 
                         three points too much weight. These last two actions 
@@ -6375,8 +6390,8 @@
                         earlier course. Even partial actions take place 
                         in time. So a partial action, if it has had some 
                         success and was well organized as a part, need by 
-                        no means be abandoned. One can, a little later, 
-                        restore it to totality. One can fetch totality 
+                        no means be abandoned. <seg><figure xml:id="lesson11_figureAM"></figure></seg>One can, a little later, 
+                        <seg><figure xml:id="lesson11_figureAN"></figure></seg>restore it to totality. One can fetch totality 
                         later, over time, as I recently suggested to you 
                         with the example of the three rooms. 
                     </p>
@@ -6386,44 +6401,45 @@
                         and would be quite easily expandable to totality:
                     </p>
                     <figure>
-                        <cb n="left"/><figure xml:id="lesson11_figureT"></figure>
-                        <cb n="center"/><figure xml:id="lesson11_figureU"></figure>
-                        <cb n="right"/><figure xml:id="lesson11_figureV"></figure>
+                        <cb n="left"/><figure xml:id="lesson11_figureAO"></figure>
+                        <cb n="center"/><figure xml:id="lesson11_figureAP"></figure>
+                        <cb n="right"/><figure xml:id="lesson11_figureAQ"></figure>
                     </figure>
                     <p>
                         which, with the the three periods of time 
                         summarized, leads to Total Satisfaction, both as to 
                         number and as to weight.
-                        <seg><figure xml:id="lesson11_figureW"></figure></seg>
+                        <seg><figure xml:id="lesson11_fig20"></figure></seg>
                     </p>
                 <pb/> 
                     <p>
-                        To 3. The complementary partial action would be 
+                        To 3. The complementary partial action would be <seg><figure xml:id="lesson11_figureAS"></figure></seg>
                         expanded to totality in this way.
                     </p>
-                    <figure xml:id="lesson11_figureX"></figure>
+                    <figure xml:id="lesson11_figureAR"></figure>
                     <p>
                         To 5. The quadrilateral partial actions I totalize 
                         according to weight
                     </p>
-                    <figure>
-                        <cb n="left"/><figure xml:id="lesson11_figureY"></figure>
-                        <cb n="right"/><figure xml:id="lesson11_figureZ"></figure>
-                    </figure>
-                    <figure>
-                        <cb n="left"/><figure xml:id="lesson11_figureAA"></figure>
-                        <cb n="right"/><figure xml:id="lesson11_figureAB"></figure>
-                    </figure>
+                    <p>
+                        <cb n="left"/>Stage I green/orange <seg><figure xml:id="lesson11_figureAT"></figure></seg>
+                        <cb n="right"/>Stage II violet/orange <seg><figure xml:id="lesson11_figureAU"></figure></seg>
+                    </p>
+                    <p>
+                        <cb n="left"/>Stage III green/violet <seg><figure xml:id="lesson11_figureAV"></figure></seg>
+                        or <seg><figure xml:id="lesson11_figureAX"></figure></seg>
+                        <cb n="right"/> summerized <seg><figure xml:id="lesson11_figureAw"></figure></seg>
+                    </p>
                 <pb/> 
                     <p>
-                        With these few examples I have already gone somewhat 
+                        <seg><figure xml:id="lesson11_figureAY"></figure></seg>With these few examples I have already gone somewhat 
                         beyond the simple topography of colors. Next time I 
                         will come back to them once more in order to expand 
                         this topography into three dimensions.
                     </p>
                     <p>Perhaps we'll practice in the meantime once again.</p>
                     <figure>
-                        <figure xml:id="lesson11_figureAC"></figure>
+                        <figure xml:id="lesson11_figureAZ"></figure>
                         <figDesc>
                             Totality 
                             Pentahedron
@@ -6439,7 +6455,7 @@
                         </figDesc>
                     </figure>
                 <pb/>
-                <figure xml:id="lesson11_figureAD"></figure>
+                <figure xml:id="lesson11_figureAAA"></figure>
             </div>
         </body>
     </text>
