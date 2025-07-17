@@ -46,7 +46,7 @@ Testo, edizioni e traduzioni
 				  contenute in una <figure> gerarchicamente sorella di <p>, senza specificare colonne e distribuzioni nella pagina.
 				- la nomenclatura delle immagini:
 				  1. la serie che inizia con fig1 che indica le figure etichettate dall'autore (anche quelle saltate che, in base alla serie numerica, avrebbe etichettato); 
-				  2. la serie che inizia con figureA, che indica le figure non etichettate, integrate ne discorso; 
+				  2. la serie che inizia con figureA, che indica le figure non etichettate, integrate nel discorso; 
 				  3. la serie che inizia con number1, che indica il numero della lezione.
 
 	-->Problema: come codificare le scritte contenute nell'immagine, che non sono didascalie?
@@ -191,7 +191,7 @@ Testo, edizioni e traduzioni
 		
 		lezione 8: fig. 1-22a, figureA-N
 		
-		lezione 9: fig. 1-32a , figureA-AAA
+		lezione 9: fig. 1-32a , figureA-AZ
 		
 		lezione 10: fig. 1-21, figureA-Q
 		
@@ -209,7 +209,7 @@ Testo, edizioni e traduzioni
 		d. @type="pentimento" --> pentimenti, immagini cancellate
 
 		e. @type="recall" --> figure ridisegnate, riproducono immagini già presentate nel testo; 
-							  tipologia associata alla figur ridisegnata, non a quella presentata la prima volta; 
+							  tipologia associata alla figura ridisegnata, non a quella presentata la prima volta; 
 							  Si ricorda che la nomenclatura proposta per questi casi prevede una notazione lessonN_figureM.0
 							  per la figura di partenza e lessonN_figureM.1 per quella riprodotta.
 		
