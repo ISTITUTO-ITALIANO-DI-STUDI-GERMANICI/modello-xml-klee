@@ -48,6 +48,9 @@ Testo, edizioni e traduzioni
 				  1. la serie che inizia con fig1 che indica le figure etichettate dall'autore (anche quelle saltate che, in base alla serie numerica, avrebbe etichettato); 
 				  2. la serie che inizia con figureA, che indica le figure non etichettate, integrate nel discorso; 
 				  3. la serie che inizia con number1, che indica il numero della lezione.
+				  
+	N.B. Le figure con etichetta "ad figN" al momento sono inserite nella serie delle figure NON etichettate: una dicitura simile, di solo collegamento
+	a un'immagine già presentata e autonoma, non sembra sufficiente a eleggere l'immagine a "etichettata". 
 
 	-->Problema: come codificare le scritte contenute nell'immagine, che non sono didascalie?
 	-->Problema: come codificare i titoletti a margine?
