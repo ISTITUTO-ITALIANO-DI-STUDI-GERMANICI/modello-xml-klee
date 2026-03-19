@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Klee Sync</description>
+    <author>Calogero Giudice</author>
+    <website>https://example.org/klee-sync</website>
+    <status>stable</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>klee-sync</target>
+    <prepare>pre-install.xq</prepare>
+</meta>

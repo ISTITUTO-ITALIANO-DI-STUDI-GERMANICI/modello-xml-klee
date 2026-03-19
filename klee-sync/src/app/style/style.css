@@ -1,0 +1,71 @@
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+pre code {
+  font-family: monospace;
+}
+
+pre {
+  margin: 0;
+  counter-reset: line;
+}
+
+code span {
+  display: block;
+  counter-increment: line;
+  padding-left: 0.5em;
+}
+
+code span::before {
+  content: counter(line);
+  display: inline-block;
+  width: 3em;
+  text-align: right;
+  margin-right: 10px;
+  color: #888;
+}
+
+.scroll-box {
+  height: 500px;
+  overflow: auto;
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+  background: #f2f4f8;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Tab panes */
+.tab-pane-content {
+  flex: 1;
+}
+
+/* Version list items */
+#versionList .list-group-item.active {
+  background-color: #0d6efd1a;
+  border-color: #0d6efd;
+  color: inherit;
+}
+
+/* Project list compact */
+#projectList .list-group-item {
+  border-left: 3px solid transparent;
+}
+#projectList .list-group-item.active {
+  border-left-color: #0d6efd;
+}
