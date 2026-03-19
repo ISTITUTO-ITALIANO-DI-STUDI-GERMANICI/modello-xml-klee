@@ -25,8 +25,7 @@
             
             </head>
             <head level="1" type="part">
-            
-               <corr hand="#pencil">+!s{ 
+               <corr hand="#pencil">
                   <w>A</w>
                   <w>Vorträge</w>
                   <w>im</w>
@@ -34,25 +33,22 @@
                   <w>1921</w>
                   <pc>/</pc>
                   <w>22</w>
-                } </corr>
-            
+               </corr>
             </head>
             <head level="3" type="lesson">
             
                <w>14</w>
                <pc>.</pc>
             
-            
                <choice>
-                  <sic>–{ 
-                    <w>Okt</w>
-                  } </sic>
-                  <corr>/ { 
-                    <w>Nov</w>
+                  <sic>
+                     <w>Okt</w>
+                  </sic>
+                  <corr>
+                     <w>Nov</w>
                      <pc>.</pc>
-                  } </corr>
+                  </corr>
                </choice>
-            
             
                <w>1921</w>
             
@@ -210,7 +206,13 @@
                </l>
                <l n="17">
           
-                  <w>Genuss ^ –{ h } ^ mittel</w>
+            
+                  <w>Genuss</w>
+                  <sic>
+                     <w>h</w>
+                  </sic>
+                  <w>mittel</w>
+            
                   <w>üble</w>
                   <w>Folgen</w>
                   <w>für</w>
@@ -232,17 +234,15 @@
           
                </l>
                <l n="19">
-          
                   <choice>
-                     <sic>–{ 
-                  <w>gebracht</w>
+                     <sic>
+                        <w>gebracht</w>
                         <w>werden</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>treten</w>
-                } </corr>
+                     </sic>
+                     <corr>
+                        <w>treten</w>
+                     </corr>
                   </choice>
-          
           
                   <pc>,</pc>
                   <w>damit</w>
@@ -296,13 +296,11 @@
                <w>das</w>
                <w>Gesuchte</w>
           
+               <add>
+                  <w>sind</w>
+               </add>
           
-            +{ 
-                <w>sind</w>
-              } 
-          
-          
-            <w>die</w>
+               <w>die</w>
                <w>Bestand -</w>
           
             </l>
@@ -461,13 +459,11 @@
           
                </l>
                <l n="17">
+                  <add>
+                     <w>resultat</w>
+                  </add>
           
-            +{ 
-                <w>resultat</w>
-              } 
-          
-          
-            <w>heranzuschleichen</w>
+                  <w>heranzuschleichen</w>
                   <w>um</w>
                   <w>schnell</w>
                   <w>das</w>
@@ -634,22 +630,18 @@
                   <w>werden</w>
                   <w>uns</w>
           
+                  <add>
+                     <w>hier</w>
+                  </add>
           
-            +{ 
-                <w>hier</w>
-              } 
-          
-          
-            <w>daher</w>
+                  <w>daher</w>
                   <w>naturgemäss</w>
                   <w>auf</w>
           
-          
-            +{ 
-                <w>vorzugsweise</w>
-              } 
-          
-        </l>
+                  <add>
+                     <w>vorzugsweise</w>
+                  </add>
+               </l>
                <l n="13">
           
                   <w>formalem</w>
@@ -695,7 +687,12 @@
                </l>
                <l n="17">
           
-                  <w>etwa ^ –{ s }</w>
+            
+                  <w>etwa</w>
+                  <sic>
+                     <w>s</w>
+                  </sic>
+            
                   <w>die</w>
                   <w>Sehnsucht</w>
                   <pc>,</pc>
@@ -724,21 +721,17 @@
                   <pc>,</pc>
                   <w>sondern</w>
           
+                  <add>
+                     <w>auch</w>
+                  </add>
           
-            +{ 
-                <w>auch</w>
-              } 
+                  <w>ein</w>
           
+                  <add>
+                     <w>allgemeiner</w>
+                  </add>
           
-            <w>ein</w>
-          
-          
-            +{ 
-                <w>allgemeiner</w>
-              } 
-          
-          
-            <w>Zustand</w>
+                  <w>Zustand</w>
           
                </l>
                <l n="20">
@@ -793,16 +786,14 @@
                   <w>nicht</w>
                   <w>das</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>ein</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>das</w>
-                } </corr>
+                     <sic>
+                        <w>ein</w>
+                     </sic>
+                     <corr>
+                        <w>das</w>
+                     </corr>
                   </choice>
-          
           
                   <w>Miss -</w>
           
@@ -837,13 +828,11 @@
                   <w>muss</w>
                   <w>ich</w>
           
+                  <add>
+                     <w>anderseits</w>
+                  </add>
           
-            +{ 
-                <w>anderseits</w>
-              } 
-          
-          
-            <w>hier</w>
+                  <w>hier</w>
                   <w>betonen</w>
           
                </l>
@@ -853,13 +842,11 @@
                   <w>die</w>
                   <w>genaueste</w>
           
+                  <add>
+                     <w>wissenschaftliche</w>
+                  </add>
           
-            +{ 
-                <w>wissenschaftliche</w>
-              } 
-          
-          
-            <w>Kenntnis</w>
+                  <w>Kenntnis</w>
                   <w>der</w>
                   <w>Natur</w>
                   <pc>,</pc>
@@ -943,7 +930,14 @@
                </l>
                <l n="15">
           
-                  <w>+!{ mit Formen aus } ^ gerüstet</w>
+            
+                  <corr hand="#pencil">
+                     <w>mit</w>
+                     <w>Formen</w>
+                     <w>aus</w>
+                  </corr>
+                  <w>gerüstet</w>
+            
                   <w>sind</w>
                   <pc>.</pc>
                   <w>Dass</w>
@@ -973,20 +967,18 @@
                   <w>Formen</w>
                   <w>nicht</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>finden</w>
+                     <sic>
+                        <w>finden</w>
                         <w>können</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>bei</w>
+                     </sic>
+                     <corr>
+                        <w>bei</w>
                         <w>der</w>
                         <w>Hand</w>
                         <w>haben</w>
-                } </corr>
+                     </corr>
                   </choice>
-          
           
                   <pc>.</pc>
           
@@ -1001,17 +993,15 @@
                   <w>auf</w>
                   <w>den</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>oft</w>
+                     <sic>
+                        <w>oft</w>
                         <w>einmaligen</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>vereinzelten</w>
-                } </corr>
+                     </sic>
+                     <corr>
+                        <w>vereinzelten</w>
+                     </corr>
                   </choice>
-          
                </l>
                <l n="19">
           
@@ -1028,45 +1018,39 @@
                   <w>einmalige</w>
                   <w>Ehre</w>
           
-          
                   <choice>
-                     <sic hand="#pencil">–!s{ 
-                  <w>und</w>
+                     <sic hand="#pencil">
+                        <w>und</w>
                         <w>uns</w>
                         <w>vielleicht</w>
                         <w>Vorüber -</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>macht</w>
+                     </sic>
+                     <corr>
+                        <w>macht</w>
                         <w>durch</w>
                         <w>ein</w>
                         <w>gelungenes</w>
                         <w>Werk</w>
                         <pc>,</pc>
                         <w>das</w>
-                } </corr>
+                     </corr>
                   </choice>
-          
                </l>
                <l n="21">
+                  <add>
+                     <w>den</w>
+                     <w>Professionellen</w>
+                     <sic hand="#pencil">
+                        <w>vorü</w>
+                     </sic>
+                     <w>im</w>
+                     <w>Einzelfalle</w>
+                     <w>zu</w>
+                     <w>beschämen</w>
+                     <w>vermag</w>
+                  </add>
           
-            +{ 
-                <w>den</w>
-                  <w>Professionellen</w>
-              
-                  <sic hand="#pencil">–!{ 
-                  <w>vorü</w>
-                } </sic>
-              
-                  <w>im</w>
-                  <w>Einzelfalle</w>
-                  <w>zu</w>
-                  <w>beschämen</w>
-                  <w>vermag</w>
-              } 
-          
-          
-            <pc>.</pc>
+                  <pc>.</pc>
           
                </l>
             </ab>
@@ -1074,18 +1058,18 @@
          <div n="8">
             <pb n="5" facs="#83048"/>
             <l n="1">
-          
                <choice>
-                  <sic hand="#pencil">–!s{ 
-                  <w>gehende</w>
+                  <sic hand="#pencil">
+                     <w>gehende</w>
                      <w>Schande</w>
                      <w>macht</w>
-                } </sic>
-                  <corr hand="#pencil">+!{ -/ 
-                    <w>vielleicht</w>
-                  // } </corr>
+                  </sic>
+                  <corr hand="#pencil">
+                     <del rend="strikethrough">
+                        <w>vielleicht</w>
+                     </del>
+                  </corr>
                </choice>
-          
             </l>
             <head level="1" type="pause">
             
@@ -1112,11 +1096,9 @@
                   <pc>,</pc>
                   <w>wo</w>
           
-          
-                  <sic>–{ 
-                <w>es</w>
-              } </sic>
-          
+                  <sic>
+                     <w>es</w>
+                  </sic>
           
                   <w>die</w>
                   <w>bildnerische</w>
@@ -1150,41 +1132,48 @@
                <w>1</w>
                <pc>.</pc>
             
-            </head>[FIGURE ( 6 _ 1 )] 
-      <ab type="parag" n="1">
+            </head>
+            <figure facs="#6 _ 1"/>
+            <ab type="parag" n="1">
                <l n="1">
-          
                   <choice>
-                     <sic>–{ 
-                  <w>Beim</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>Kurz</w>
+                     <sic>
+                        <w>Beim</w>
+                     </sic>
+                     <corr>
+                        <w>Kurz</w>
                         <w>nach</w>
                         <w>dem</w>
-                } </corr>
+                     </corr>
                   </choice>
           
-          
                   <w>Ansetzen</w>
-                  <w>de ^ –{ r } / { s }</w>
-          
+            
+                  <w>de</w>
+                  <choice>
+                     <sic>
+                        <w>r</w>
+                     </sic>
+                     <corr>
+                        <w>s</w>
+                     </corr>
+                  </choice>
+            
           
                   <choice>
-                     <sic>–{ 
-                  <w>Hand</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>Stiftes</w>
+                     <sic>
+                        <w>Hand</w>
+                     </sic>
+                     <corr>
+                        <w>Stiftes</w>
                         <w>oder</w>
                         <w>was</w>
                         <w>es</w>
                         <w>sonst</w>
                         <w>Spitzes</w>
                         <w>ist</w>
-                } </corr>
+                     </corr>
                   </choice>
-          
           
                   <w>entsteht</w>
                   <w>eine</w>
@@ -1194,13 +1183,11 @@
                   </hi>
                </l>
                <l n="2">
-          
-                  <sic>–{ 
-                <w>linear</w>
+                  <sic>
+                     <w>linear</w>
                      <w>aktiven</w>
                      <w>Charakters</w>
-              } </sic>
-          
+                  </sic>
           
                   <pc>(</pc>
                   <w>Je</w>
@@ -1227,9 +1214,10 @@
                   <pc>)</pc>
           
                </l>
-            </ab>[FIGURE ( 6 _ 2 )] 
-      [FIGURE ( 6 _ 3 )] 
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#6 _ 2"/>
+            <figure facs="#6 _ 3"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Setze</w>
@@ -1237,20 +1225,24 @@
                   <w>aber</w>
                   <w>eine</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>Fläche</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>Linie</w>
-                } </corr>
+                     <sic>
+                        <w>Fläche</w>
+                     </sic>
+                     <corr>
+                        <w>Linie</w>
+                     </corr>
                   </choice>
-          
           
                   <w>an</w>
                   <pc>,</pc>
-                  <w>ein ^ –{ e breit }</w>
+            
+                  <w>ein</w>
+                  <sic>
+                     <w>e</w>
+                     <w>breit</w>
+                  </sic>
+            
           
                </l>
             </ab>
@@ -1273,18 +1265,21 @@
                <w>eines</w>
                <w>Tags</w>
           
-          
                <choice>
-                  <sic>–{ 
-                  <w>den</w>
-                } </sic>
-                  <corr>/ { 
-                  <w>das</w>
-                } </corr>
+                  <sic>
+                     <w>den</w>
+                  </sic>
+                  <corr>
+                     <w>das</w>
+                  </corr>
                </choice>
           
-          
-               <w>Phaenomen ^ –{ s }</w>
+            
+               <w>Phaenomen</w>
+               <sic>
+                  <w>s</w>
+               </sic>
+            
                <w>des</w>
                <w>beweglichen</w>
                <w>Punktes</w>
@@ -1385,18 +1380,16 @@
                <pc>,</pc>
                <w>aber</w>
           
-          
                <choice>
-                  <sic>–{ 
-                  <w>die</w>
+                  <sic>
+                     <w>die</w>
                      <w>anderen</w>
-                } </sic>
-                  <corr>/ { 
-                  <w>andere</w>
+                  </sic>
+                  <corr>
+                     <w>andere</w>
                      <w>Kinder</w>
-                } </corr>
+                  </corr>
                </choice>
-          
           
                <w>werden</w>
                <w>bald</w>
@@ -1450,11 +1443,9 @@
                   <w>der</w>
                   <w>Linienführung</w>
           
-          
-                  <sic>–{ 
-                <w>ent</w>
-              } </sic>
-          
+                  <sic>
+                     <w>ent</w>
+                  </sic>
                </l>
                <l n="17">
           
@@ -1508,13 +1499,11 @@
                   <w>kann</w>
                   <w>man</w>
           
+                  <add>
+                     <w>doch</w>
+                  </add>
           
-            +{ 
-                <w>doch</w>
-              } 
-          
-          
-            <w>nicht</w>
+                  <w>nicht</w>
                   <w>gut</w>
           
                </l>
@@ -1545,17 +1534,15 @@
                   <w>die</w>
                   <w>übersichtlich</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>einfachen</w>
+                     <sic>
+                        <w>einfachen</w>
                         <w>Gesi</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>einfache</w>
-                } </corr>
+                     </sic>
+                     <corr>
+                        <w>einfache</w>
+                     </corr>
                   </choice>
-          
           
                   <w>Anlage</w>
                   <w>zu</w>
@@ -1565,13 +1552,11 @@
           
                   <w>zerstören</w>
           
+                  <add rend="overstrike">
+                     <pc>,</pc>
+                  </add>
           
-            +/ 
-                <pc>,</pc>
-              // 
-          
-          
-            <w>verwischen</w>
+                  <w>verwischen</w>
                   <pc>.</pc>
           
                </l>
@@ -1581,122 +1566,38 @@
             
                </head>
                <l n="7">
-          
-            +{ 
-                <w>Man</w>
-                  <w>wird</w>
-                  <w>einordnen</w>
-                  <w>müssen</w>
-              } 
-          
-        </l>
+                  <add>
+                     <w>Man</w>
+                     <w>wird</w>
+                     <w>einordnen</w>
+                     <w>müssen</w>
+                  </add>
+               </l>
                <l n="8">
-          
-            +{ 
-                <w>Hauptsachen</w>
-                  <w>und</w>
-                  <w>Nebensachen</w>
-              } 
-          
-          
-        </l>
+                  <add>
+                     <w>Hauptsachen</w>
+                     <w>und</w>
+                     <w>Nebensachen</w>
+                  </add>
+               </l>
                <head level="4" type="section">
                   <hi rend="underline">
                      <w>Linear</w>
                      <w>aktiv</w>
                   </hi>
                </head>
-            </ab>[FIGURE ( 8 _ 1 )] 
-      [FIGURE ( 8 _ 2 )] 
-      [FIGURE ( 8 _ 3 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#8 _ 1"/>
+            <figure facs="#8 _ 2"/>
+            <figure facs="#8 _ 3"/>
+            <l n="1">
           
                <w>do</w>
           
-            </l>[FIGURE ( 8 _ 4 )] 
-        
-      
-    =====
-      
-        8 _ 1 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              1 
-            . ] 
-        ( 
-            
-              freie 
-              Linie 
-              ab 
-              fig 
-              1 
-            
-          ) 
-      
-      
-        8 _ 2 : [ 
-            
-              
-                fig 
-              
-            
-            
-              2 
-            . ] 
-        ( 
-            
-              freie 
-              Linie 
-              ab 
-            
-          | 
-            
-              begleitende 
-              Linie 
-              a 
-              1 – 
-              b 
-              1 
-              fig 
-              2 
-              , 
-              3 
-              , 
-              4 
-              . 
-            
-          ) 
-      
-      
-        8 _ 3 : [ 
-            
-              
-                fig 
-              
-            
-            
-              3 
-            
-          ] 
-      
-      
-        8 _ 4 : [ 
-            
-              
-                fig 
-              
-            
-            
-              4 
-            
-          ] 
-      ===== 
-  </div>
+            </l>
+            <figure facs="#8 _ 4"/>
+    
+         </div>
          <div n="12">
             <pb n="9" facs="#83052"/>
             <l n="1">
@@ -1712,14 +1613,14 @@
                <pc>.</pc>
                <w>6</w>
           
-            </l>[FIGURE ( 9 _ 1 )] 
-      [FIGURE ( 9 _ 2 )] 
-      [FIGURE ( 9 _ 3 )] 
-      [FIGURE ( 9 _ 4 )] 
-      [FIGURE ( 9 _ 5 )] 
-      [FIGURE ( 9 _ 6 )] 
-        
-      <ab type="parag" n="1">
+            </l>
+            <figure facs="#9 _ 1"/>
+            <figure facs="#9 _ 2"/>
+            <figure facs="#9 _ 3"/>
+            <figure facs="#9 _ 4"/>
+            <figure facs="#9 _ 5"/>
+            <figure facs="#9 _ 6"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Bei</w>
@@ -1759,110 +1660,8 @@
           
                </l>
             </ab>
-    =====
-      
-        9 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              5 
-            
-          ] 
-      
-      
-        9 _ 2 : [ 
-            
-              5a 
-            
-          ] 
-      
-      
-        9 _ 3 : [ 
-            
-              
-                fig 
-              
-            
-            
-              6 
-            . ] 
-      
-      
-        9 _ 4 : [ 
-            
-              
-                fig 
-              
-            
-            
-              7 
-            
-          ] 
-        ( 
-            
-              Fig 
-              . 
-              7 
-              Zwei 
-              Nebenlinien 
-              , 
-              die 
-              Hauptlinie 
-              imaginär 
-              . 
-            
-          ) 
-      
-      
-        9 _ 5 : [ 
-            
-              
-                fig 
-              
-            
-            
-              8 
-            
-          ] 
-        ( 
-            
-              Fig 
-              . 
-              8 
-            
-            
-              -{ 
-                  desgl 
-                  . 
-                } 
-            
-          ) 
-      
-      
-        9 _ 6 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              9 
-            
-          ] 
-        ( 
-            
-              Fig 
-              . 
-              9 
-              ähnlich 
-            
-          ) 
-      ===== 
-  </div>
+    
+         </div>
          <div n="13">
             <pb n="10" facs="#83053"/>
             <l n="1">
@@ -1872,8 +1671,9 @@
                <w>Linie</w>
                <w>hingegen</w>
           
-            </l>[FIGURE ( 10 _ 1 )] 
-      <l n="1">
+            </l>
+            <figure facs="#10 _ 1"/>
+            <l n="1">
           
                <w>ist</w>
                <w>befristet</w>
@@ -1900,13 +1700,11 @@
                <pc>.</pc>
                <w>Man</w>
           
+               <del rend="strikethrough">
+                  <w>n</w>
+               </del>
           
-            –/ 
-                <w>n</w>
-              // 
-          
-          
-            <w>kann</w>
+               <w>kann</w>
                <w>eher</w>
           
             </l>
@@ -1955,8 +1753,9 @@
                   <w>Linear</w>
                   <w>medial</w>
                </hi>
-            </head>[FIGURE ( 10 _ 2 )] 
-      <l n="1">
+            </head>
+            <figure facs="#10 _ 2"/>
+            <l n="1">
           
                <w>In</w>
                <w>diesen</w>
@@ -1972,14 +1771,12 @@
                <w>Linie</w>
                <w>Figuren</w>
           
+               <add>
+                  <w>der</w>
+                  <w>Fläche</w>
+               </add>
           
-            +{ 
-                <w>der</w>
-               <w>Fläche</w>
-              } 
-          
-          
-            <w>wie</w>
+               <w>wie</w>
                <w>Drei</w>
                <w>Eck</w>
                <w>und</w>
@@ -1994,51 +1791,10 @@
                <w>und</w>
                <w>Ellipse</w>
           
-            </l>[FIGURE ( 10 _ 3 )] 
-        
-      
-    =====
-      
-        10 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              10 
-            
-          ] 
-      
-      
-        10 _ 2 : [ 
-            
-              
-                fig 
-                11 
-                / 
-              
-            
-            
-              12 
-            
-          ] 
-      
-      
-        10 _ 3 : [ 
-            
-              
-                fig 
-                13 
-                / 
-              
-            
-            
-              14 
-            
-          ] 
-      ===== 
-  </div>
+            </l>
+            <figure facs="#10 _ 3"/>
+    
+         </div>
          <div n="14">
             <pb n="11" facs="#83054"/>
             <ab type="parag" n="1">
@@ -2169,16 +1925,14 @@
                   <w>passiven</w>
                   <w>Charakter</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>hat</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>haben</w>
-                } </corr>
+                     <sic>
+                        <w>hat</w>
+                     </sic>
+                     <corr>
+                        <w>haben</w>
+                     </corr>
                   </choice>
-          
           
                   <w>die</w>
                   <w>Linien</w>
@@ -2191,21 +1945,20 @@
                   <w>Falle</w>
           
                </l>
-            </ab>[FIGURE ( 11 _ 1 )] 
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#11 _ 1"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Man</w>
                   <w>sieht</w>
                   <w>wohl</w>
           
+                  <add>
+                     <w>auch</w>
+                  </add>
           
-            +{ 
-                <w>auch</w>
-              } 
-          
-          
-            <w>Linien</w>
+                  <w>Linien</w>
                   <pc>,</pc>
                   <w>aber</w>
                   <w>es</w>
@@ -2232,13 +1985,11 @@
                   <w>Flächen-Handlungen</w>
                   <pc>.</pc>
           
-          
-                  <sic>–{ 
-                <w>Das</w>
+                  <sic>
+                     <w>Das</w>
                      <w>Element</w>
                      <w>ist</w>
-              } </sic>
-          
+                  </sic>
                </l>
                <l n="4">
           
@@ -2250,33 +2001,19 @@
                   <pc>,</pc>
                   <w>sondern</w>
           
+                  <add>
+                     <sic>
+                        <w>aktiv</w>
+                     </sic>
+                  </add>
           
-            +{ <sic>–{ 
-                  <w>aktiv</w>
-                } </sic>} 
-          
-          
-            <w>erlitten</w>
+                  <w>erlitten</w>
                   <pc>.</pc>
           
                </l>
             </ab>
-    =====
-      
-        11 _ 1 : [ 
-            
-              
-                fig 
-                15 
-                / 
-              
-            
-            
-              16 
-            
-          ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="15">
             <pb n="12" facs="#83055"/>
             <ab type="parag" n="1">
@@ -2320,11 +2057,9 @@
                   <w>teilte</w>
                   <w>sie</w>
           
-          
-                  <sic>–{ 
-                <w>di</w>
-              } </sic>
-          
+                  <sic>
+                     <w>di</w>
+                  </sic>
           
                   <w>in</w>
                   <w>imaginäre</w>
@@ -2332,7 +2067,12 @@
                </l>
                <l n="5">
           
-                  <w>Fläche ^ +!{ n }</w>
+            
+                  <w>Fläche</w>
+                  <corr hand="#pencil">
+                     <w>n</w>
+                  </corr>
+            
                   <pc>.</pc>
                   <w>Dazwischen</w>
                   <w>drängte</w>
@@ -2413,8 +2153,9 @@
                   <w>weiter</w>
           
                </l>
-            </ab>[FIGURE ( 12 _ 1 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#12 _ 1"/>
+            <l n="1">
           
                <w>die</w>
                <w>Linie</w>
@@ -2558,14 +2299,12 @@
                   <w>Maschine</w>
                   <pc>)</pc>
           
+                  <add rend="overstrike">
+                     <pc>/</pc>
+                     <pc>.</pc>
+                  </add>
           
-            +/ 
-                <pc>/</pc>
-                  <pc>.</pc>
-              // 
-          
-          
-            <w>Die</w>
+                  <w>Die</w>
                   <w>Auffassung</w>
                   <w>beispielsweise</w>
           
@@ -2655,16 +2394,7 @@
                   <pc>.</pc>
             
                </head>
-          # # # # MARGIN [ <l n="13">
-            
-                  <w>Conver -</w>
-            
-               </l>
-               <l n="14">
-            
-                  <w>genz</w>
-            
-               </l>] </ab>
+            </ab>
          </div>
          <div n="17">
             <pb n="14" facs="#83057"/>
@@ -2679,15 +2409,11 @@
                <pc>.</pc>
           
             </l>
-          # # # # MARGIN [ <l n="2">
-            
-               <w>Divergenz</w>
-            
-            </l>] 
-  </div>
+         </div>
          <div n="18">
-            <pb n="15" facs="#83058"/>[FIGURE ( 15 _ 1 )] 
-      <l n="1">
+            <pb n="15" facs="#83058"/>
+            <figure facs="#15 _ 1"/>
+            <l n="1">
           
                <w>Eisenbahnschienen</w>
                <w>die</w>
@@ -2726,15 +2452,13 @@
                <w>Nun</w>
                <pc>,</pc>
           
+               <add>
+                  <w>wir</w>
+                  <w>sind</w>
+                  <w>eben</w>
+               </add>
           
-            +{ 
-                <w>wir</w>
-               <w>sind</w>
-               <w>eben</w>
-              } 
-          
-          
-            <w>aus</w>
+               <w>aus</w>
                <w>dem</w>
                <w>flächigen</w>
                <w>Begriff</w>
@@ -2772,13 +2496,11 @@
                   <w>letzte</w>
                   <w>Mal</w>
           
+                  <add>
+                     <w>zunächst</w>
+                  </add>
           
-            +{ 
-                <w>zunächst</w>
-              } 
-          
-          
-            <w>bedauernd</w>
+                  <w>bedauernd</w>
                   <w>festgestellt</w>
                   <pc>,</pc>
           
@@ -2800,12 +2522,20 @@
                   <w>nicht</w>
                   <w>analog</w>
                   <w>der</w>
-                  <w>Be ^ +{ we } ^ gung</w>
+            
+                  <w>Be</w>
+                  <add>
+                     <w>we</w>
+                  </add>
+                  <w>gung</w>
+            
                   <w>von</w>
                   <w>Punkten</w>
           
                </l>
-            </ab>[FIGURE ( 15 _ 2 )] <l n="1">
+            </ab>
+            <figure facs="#15 _ 2"/>
+            <l n="1">
           
                <w>zu</w>
                <w>Linien</w>
@@ -2819,7 +2549,9 @@
                <w>von</w>
                <w>Linien</w>
           
-            </l>[FIGURE ( 15 _ 3 )] <l n="1">
+            </l>
+            <figure facs="#15 _ 3"/>
+            <l n="1">
           
                <w>zu</w>
                <w>Flächen</w>
@@ -2835,7 +2567,9 @@
                <w>log</w>
                <w>nicht</w>
           
-            </l>[FIGURE ( 15 _ 4 )] <l n="1">
+            </l>
+            <figure facs="#15 _ 4"/>
+            <l n="1">
           
                <w>Flächen</w>
                <w>mit</w>
@@ -2875,16 +2609,14 @@
                   <w>Es</w>
                   <w>wird</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>auch</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>aber</w>
-                } </corr>
+                     <sic>
+                        <w>auch</w>
+                     </sic>
+                     <corr>
+                        <w>aber</w>
+                     </corr>
                   </choice>
-          
           
                   <w>weder</w>
                   <w>weitläufig</w>
@@ -2912,7 +2644,13 @@
                   <w>die</w>
                   <w>Klarlegung</w>
                   <w>der</w>
-                  <w>innewohn ^ +{ en } ^ den</w>
+            
+                  <w>innewohn</w>
+                  <add>
+                     <w>en</w>
+                  </add>
+                  <w>den</w>
+            
                   <w>Phaenomene</w>
           
                </l>
@@ -2924,7 +2662,9 @@
                   <pc>!</pc>
           
                </l>
-            </ab>[FIGURE ( 15 _ 5 )] <l n="1">
+            </ab>
+            <figure facs="#15 _ 5"/>
+            <l n="1">
           
                <w>Dies</w>
                <pc>(</pc>
@@ -2988,32 +2728,8 @@
                <w>Linien</w>
           
             </l>
-    =====
-      
-        15 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              6 
-            
-          ] 
-      
-      
-        15 _ 5 : [ 
-            
-              
-                fig 
-              
-            
-            
-              7 
-            
-          ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="19">
             <pb n="16" facs="#83059"/>
             <l n="1">
@@ -3032,18 +2748,7 @@
                <w>anzubringen</w>
           
             </l>
-          # # # # MARGIN [ <l n="3">
-            
-               <w>Quere</w>
-               <w>Gradie -</w>
-            
-            </l>
-            <l n="4">
-            
-               <w>rung</w>
-            
-            </l>] 
-  </div>
+         </div>
          <div n="20">
             <pb n="17" facs="#83060"/>
             <l n="1">
@@ -3074,7 +2779,10 @@
                <w>die</w>
                <w>bei</w>
           
-            </l>[FIGURE ( 17 _ 1 )] [FIGURE ( 17 _ 2 )] <l n="1">
+            </l>
+            <figure facs="#17 _ 1"/>
+            <figure facs="#17 _ 2"/>
+            <l n="1">
           
                <w>fig</w>
                <w>11</w>
@@ -3106,17 +2814,17 @@
                <w>Winkel</w>
                <pc>)</pc>
           
-            </l>[FIGURE ( 17 _ 3 )] <l n="1">
+            </l>
+            <figure facs="#17 _ 3"/>
+            <l n="1">
           
                <w>und</w>
           
+               <add>
+                  <w>wir</w>
+               </add>
           
-            +{ 
-                <w>wir</w>
-              } 
-          
-          
-            <w>gelangen</w>
+               <w>gelangen</w>
                <w>schliesslich</w>
                <w>zur</w>
                <w>Construction</w>
@@ -3144,23 +2852,13 @@
             
                <pc>*</pc>
             
-            </head>[FIGURE ( 17 _ 4 )] 
-        
-      
-          # # # # MARGIN [ <l n="1">
-            
-               <w>Längs -</w>
-            
-            </l>
-            <l n="2">
-            
-               <w>gradierung</w>
-            
-            </l>] 
-  </div>
+            </head>
+            <figure facs="#17 _ 4"/>
+         </div>
          <div n="21">
-            <pb n="18" facs="#83061"/>[FIGURE ( 18 _ 1 )] 
-      <l n="1">
+            <pb n="18" facs="#83061"/>
+            <figure facs="#18 _ 1"/>
+            <l n="1">
           
                <w>Wir</w>
                <w>kommen</w>
@@ -3280,8 +2978,9 @@
                   <pc>.</pc>
           
                </l>
-            </ab>[FIGURE ( 18 _ 2 )] 
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#18 _ 2"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Treten</w>
@@ -3310,62 +3009,26 @@
                   <w>Bodenfläche</w>
           
                </l>
-            </ab>[FIGURE ( 18 _ 3 )] <l n="1">
+            </ab>
+            <figure facs="#18 _ 3"/>
+            <l n="1">
           
                <w>nimmt</w>
           
+               <add>
+                  <w>in</w>
+                  <w>der</w>
+                  <w>Projektion</w>
+               </add>
           
-            +{ 
-                <w>in</w>
-               <w>der</w>
-               <w>Projektion</w>
-              } 
-          
-          
-            <w>diese</w>
+               <w>diese</w>
                <w>Gestalt</w>
                <w>an</w>
                <pc>.</pc>
           
             </l>
-    =====
-      
-        18 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              14 
-            
-          ] 
-      
-      
-        18 _ 2 : [ 
-            
-              
-                fig 
-              
-            
-            
-              15 
-            
-          ] 
-      
-      
-        18 _ 3 : [ 
-            
-              
-                fig 
-              
-            
-            
-              16 
-            
-          ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="22">
             <pb n="19" facs="#83062"/>
             <ab type="parag" n="1">
@@ -3390,9 +3053,9 @@
                   <pc>.</pc>
           
                </l>
-            </ab>[FIGURE ( 19 _ 1 )] 
-        
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#19 _ 1"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Beim</w>
@@ -3402,7 +3065,9 @@
                   <w>Fläche</w>
           
                </l>
-            </ab>[FIGURE ( 19 _ 2 )] <l n="1">
+            </ab>
+            <figure facs="#19 _ 2"/>
+            <l n="1">
           
                <w>bleibt</w>
                <w>die</w>
@@ -3432,7 +3097,9 @@
                <w>Nun</w>
                <w>wollen</w>
           
-            </l>[FIGURE ( 20 _ 1 )] <l n="1">
+            </l>
+            <figure facs="#20 _ 1"/>
+            <l n="1">
           
                <w>wir</w>
                <w>wieder</w>
@@ -3447,19 +3114,15 @@
                <w>vorgehen</w>
                <w>wie</w>
           
-          
-               <sic>–{ 
-                <w>beim</w>
-              } </sic>
-          
+               <sic>
+                  <w>beim</w>
+               </sic>
             </l>
             <l n="3">
-          
-               <sic>–{ 
-                <w>vorigen</w>
+               <sic>
+                  <w>vorigen</w>
                   <w>M</w>
-              } </sic>
-          
+               </sic>
           
                <w>vorhin</w>
           
@@ -3488,9 +3151,9 @@
                <w>21</w>
                <pc>)</pc>
           
-            </l>[FIGURE ( 20 _ 2 )] 
-        
-      <ab type="parag" n="1">
+            </l>
+            <figure facs="#20 _ 2"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Wieder</w>
@@ -3546,34 +3209,12 @@
           
                </l>
             </ab>
-    =====
-      
-        20 _ 1 : ( 
-            
-              ( 
-              wie 
-              fig 
-              14 
-              ) 
-            
-          ) 
-      
-      
-        20 _ 2 : [ 
-            
-              
-                fig 
-              
-            
-            
-              21 
-            
-          ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="24">
-            <pb n="21" facs="#83064"/>[FIGURE ( 21 _ 1 )] 
-      <l n="1">
+            <pb n="21" facs="#83064"/>
+            <figure facs="#21 _ 1"/>
+            <l n="1">
           
                <w>Was</w>
                <w>bedeutet</w>
@@ -3604,8 +3245,9 @@
                <pc>.</pc>
                <pc>)</pc>
           
-            </l>[FIGURE ( 21 _ 2 )] 
-      <l n="1">
+            </l>
+            <figure facs="#21 _ 2"/>
+            <l n="1">
           
                <w>zu</w>
                <w>fig</w>
@@ -3617,15 +3259,13 @@
                <w>in</w>
                <w>den</w>
           
+               <add>
+                  <w>nun</w>
+                  <w>schon</w>
+                  <w>bekannten</w>
+               </add>
           
-            +{ 
-                <w>nun</w>
-               <w>schon</w>
-               <w>bekannten</w>
-              } 
-          
-          
-            <w>Raum</w>
+               <w>Raum</w>
                <w>einen</w>
                <w>zweiten</w>
                <w>Raum</w>
@@ -3687,13 +3327,11 @@
                <pc>,</pc>
                <w>während</w>
           
+               <add>
+                  <w>wirkliche</w>
+               </add>
           
-            +{ 
-                <w>wirkliche</w>
-              } 
-          
-          
-            <w>Räume</w>
+               <w>Räume</w>
                <w>über</w>
                <w>unser</w>
           
@@ -3734,35 +3372,12 @@
                <pc>.</pc>
           
             </l>
-    =====
-      
-        21 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              22 
-            
-          ] 
-      
-      
-        21 _ 2 : [ 
-            
-              
-                fig 
-              
-            
-            
-              23 
-            
-          ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="25">
-            <pb n="22" facs="#83065"/>[FIGURE ( 22 _ 1 )] 
-      <ab type="parag" n="1">
+            <pb n="22" facs="#83065"/>
+            <figure facs="#22 _ 1"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>In</w>
@@ -3784,7 +3399,12 @@
                   <pc>.</pc>
                   <w>Nehmen</w>
                   <w>wir</w>
-                  <w>an ^ +/ , //</w>
+            
+                  <w>an</w>
+                  <add rend="overstrike">
+                     <pc>,</pc>
+                  </add>
+            
                   <w>dass</w>
                   <w>er</w>
                   <w>aus</w>
@@ -3818,35 +3438,32 @@
           
                   <w>Eine</w>
           
+                  <add>
+                     <w>solche</w>
+                     <w>wagrechte</w>
+                  </add>
           
-            +{ 
-                <w>solche</w>
-                  <w>wagrechte</w>
-              } 
-          
-          
-            <w>Fläche</w>
+                  <w>Fläche</w>
                   <w>die</w>
                   <w>von</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>oben</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>unten</w>
-                } </corr>
+                     <sic>
+                        <w>oben</w>
+                     </sic>
+                     <corr>
+                        <w>unten</w>
+                     </corr>
                   </choice>
-          
           
                   <w>gesehen</w>
                   <w>werden</w>
                   <w>kann</w>
           
                </l>
-            </ab>[FIGURE ( 22 _ 2 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#22 _ 2"/>
+            <l n="1">
           
                <w>ist</w>
                <w>aber</w>
@@ -3891,9 +3508,10 @@
                   <pc>.</pc>
           
                </l>
-            </ab>[FIGURE ( 22 _ 3 )] 
-      [FIGURE ( 22 _ 3 )] 
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#22 _ 3"/>
+            <figure facs="#22 _ 3"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>In</w>
@@ -3922,7 +3540,12 @@
                <l n="4">
           
                   <w>diese</w>
-                  <w>+{ Ober } ^ fläche</w>
+            
+                  <add>
+                     <w>Ober</w>
+                  </add>
+                  <w>fläche</w>
+            
                   <pc>,</pc>
                   <w>weder</w>
                   <w>von</w>
@@ -3953,56 +3576,8 @@
           
                </l>
             </ab>
-    =====
-      
-        22 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              24 
-            
-          ] 
-      
-      
-        22 _ 2 : [ 
-            
-              
-                ad 
-              
-            
-            
-              24 
-            
-          ] 
-      
-      
-        22 _ 3 : [ 
-            
-              
-                ad 
-              
-            
-            
-              23 
-            
-          ] 
-      
-      
-        22 _ 4 : [ 
-            
-              
-                fig 
-              
-            
-            
-              25 
-            
-          ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="26">
             <pb n="23" facs="#83066"/>
             <l n="1">
@@ -4010,15 +3585,15 @@
                <w>ihn</w>
                <w>als</w>
           
+               <add>
+                  <w>wagrechte</w>
+               </add>
           
-            +{ 
-                <w>wagrechte</w>
-              } 
+               <w>Linie</w>
           
-          
-            <w>Linie</w>
-          
-            </l>[FIGURE ( 23 _ 1 )] <l n="1">
+            </l>
+            <figure facs="#23 _ 1"/>
+            <l n="1">
           
                <w>der</w>
                <w>Körper</w>
@@ -4084,11 +3659,9 @@
                   <w>ihr</w>
                   <w>zugehörige</w>
           
-          
-                  <sic>–{ 
-                <w>Li</w>
-              } </sic>
-          
+                  <sic>
+                     <w>Li</w>
+                  </sic>
           
                   <w>wagrechte</w>
                   <w>Linie</w>
@@ -4128,8 +3701,9 @@
                   <pc>.</pc>
           
                </l>
-            </ab>[FIGURE ( 23 _ 2 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#23 _ 2"/>
+            <l n="1">
           
                <w>Die</w>
                <w>Antwort</w>
@@ -4160,34 +3734,12 @@
                <pc>)</pc>
           
             </l>
-    =====
-      
-        23 _ 1 : [ 
-            
-              
-                ad 
-              
-            
-            
-              25 
-            
-          ] 
-      
-      
-        23 _ 2 : [ ( 
-              
-                Fig 
-                . 
-              
-            
-            
-              22 
-            ) ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="27">
-            <pb n="24" facs="#83067"/>[FIGURE ( 24 _ 1 )] 
-      <l n="1">
+            <pb n="24" facs="#83067"/>
+            <figure facs="#24 _ 1"/>
+            <l n="1">
           
                <w>Der</w>
                <w>Mensch</w>
@@ -4298,65 +3850,23 @@
                <w>Kreisscheibe</w>
                <pc>.</pc>
           
-            </l>[FIGURE ( 24 _ 2 )] [FIGURE ( 24 _ 3 )] 
-        
-      
-    =====
-      
-        24 _ 1 : [ 
-            
-              
-                Fig 
-              
-            
-            
-              26 
-            
-          ] 
-      
-      
-        24 _ 2 : [ 
-            
-              
-                ad 
-              
-            
-            
-              26 
-            
-          ] 
-        ( 
-            
-              gesehn 
-            
-          ) 
-      
-      
-        24 _ 3 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              27 
-            
-          ] 
-        ( 
-            
-              gedacht 
-            
-          ) 
-      ===== 
-  </div>
+            </l>
+            <figure facs="#24 _ 2"/>
+            <figure facs="#24 _ 3"/>
+    
+         </div>
          <div n="28">
             <pb n="25" facs="#83068"/>
             <ab type="parag" n="1">
                <l n="1">
           
                   <w>Diese</w>
-                  <w>+{ Horizont - } ^ Kreisscheibe</w>
+            
+                  <add>
+                     <w>Horizont -</w>
+                  </add>
+                  <w>Kreisscheibe</w>
+            
                   <w>trennt</w>
                   <w>die</w>
                   <w>gesamte</w>
@@ -4372,18 +3882,21 @@
                   <w>oberen</w>
                   <w>und</w>
                   <w>einen</w>
-                  <w>untere ^ +{ n }</w>
-          
+            
+                  <w>untere</w>
+                  <add>
+                     <w>n</w>
+                  </add>
+            
           
                   <choice>
-                     <sic>–{ 
-                  <w>Hälfte</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>Teil</w>
-                } </corr>
+                     <sic>
+                        <w>Hälfte</w>
+                     </sic>
+                     <corr>
+                        <w>Teil</w>
+                     </corr>
                   </choice>
-          
           
                   <pc>.</pc>
                   <w>Als</w>
@@ -4397,13 +3910,11 @@
                   <w>in</w>
                   <w>einer</w>
           
+                  <add>
+                     <w>grossen</w>
+                  </add>
           
-            +{ 
-                <w>grossen</w>
-              } 
-          
-          
-            <w>runden</w>
+                  <w>runden</w>
                   <w>Dose</w>
                   <w>befänden</w>
                   <pc>,</pc>
@@ -4419,9 +3930,9 @@
                   <w>zerfällt</w>
           
                </l>
-            </ab>[FIGURE ( 25 _ 1 )] 
-        
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#25 _ 1"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Dies</w>
@@ -4468,20 +3979,18 @@
                   <pc>,</pc>
                   <w>und</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>in</w>
+                     <sic>
+                        <w>in</w>
                         <w>Notfall</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>wenn</w>
+                     </sic>
+                     <corr>
+                        <w>wenn</w>
                         <w>es</w>
                         <w>sein</w>
                         <w>muss</w>
-                } </corr>
+                     </corr>
                   </choice>
-          
           
                   <w>strecken</w>
                   <w>wir</w>
@@ -4500,26 +4009,22 @@
                   <w>Fehler</w>
                   <w>wieder</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>zu</w>
+                     <sic>
+                        <w>zu</w>
                         <w>korrigieren</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>aus -</w>
-                } </corr>
+                     </sic>
+                     <corr>
+                        <w>aus -</w>
+                     </corr>
                   </choice>
-          
                </l>
                <l n="6">
+                  <add>
+                     <w>zubalancieren</w>
+                  </add>
           
-            +{ 
-                <w>zubalancieren</w>
-              } 
-          
-          
-            <pc>.</pc>
+                  <pc>.</pc>
                   <w>In</w>
                   <w>besondern</w>
                   <w>Fällen</w>
@@ -4551,12 +4056,7 @@
                   <pc>*</pc>
             
                </head>
-          # # # # MARGIN [ <l n="10">
-            
-                  <w>Anmerkg</w>
-                  <pc>.</pc>
-            
-               </l>] </ab>
+            </ab>
          </div>
          <div n="29">
             <pb n="26" facs="#83069"/>
@@ -4615,13 +4115,11 @@
                <w>Wert</w>
                <w>dieses</w>
           
+               <add>
+                  <w>ganzen</w>
+               </add>
           
-            +{ 
-                <w>ganzen</w>
-              } 
-          
-          
-            <w>Verfahrens</w>
+               <w>Verfahrens</w>
                <w>liegt</w>
           
             </l>
@@ -4659,15 +4157,13 @@
           
             </l>
             <l n="6">
+               <hi hand="#pencil">
+                  <w>Noch</w>
+                  <w>weitere</w>
+                  <w>Beispiele</w>
+               </hi>
           
-            !{ 
-                <w>Noch</w>
-               <w>weitere</w>
-               <w>Beispiele</w>
-              } 
-          
-          
-            <pc>:</pc>
+               <pc>:</pc>
                <w>v</w>
                <pc>.</pc>
                <w>Goghs</w>
@@ -4713,13 +4209,11 @@
                   <w>als</w>
                   <w>der</w>
           
+                  <add>
+                     <w>äussersten</w>
+                  </add>
           
-            +{ 
-                <w>äussersten</w>
-              } 
-          
-          
-            <w>Verwirklichung</w>
+                  <w>Verwirklichung</w>
                   <w>des</w>
                   <w>Symbols</w>
                   <w>des</w>
@@ -4727,8 +4221,9 @@
                   <pc>.</pc>
           
                </l>
-            </ab>[FIGURE ( 27 _ 1 )] 
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#27 _ 1"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Aus</w>
@@ -4752,12 +4247,10 @@
                   <w>die</w>
                   <w>bedeutung</w>
           
-          
-                  <sic>–{ 
-                <pc>,</pc>
+                  <sic>
+                     <pc>,</pc>
                      <w>der</w>
-              } </sic>
-          
+                  </sic>
           
                   <w>von</w>
                   <w>Senkrecht</w>
@@ -4792,13 +4285,21 @@
                   <w>den</w>
                   <w>Horizont</w>
                   <w>brachte</w>
-                  <w>un ^ –{ d } / { s }</w>
+            
+                  <w>un</w>
+                  <choice>
+                     <sic>
+                        <w>d</w>
+                     </sic>
+                     <corr>
+                        <w>s</w>
+                     </corr>
+                  </choice>
+            
           
-          
-                  <sic>–{ 
-                <w>auf</w>
-              } </sic>
-          
+                  <sic>
+                     <w>auf</w>
+                  </sic>
           
                   <w>die</w>
                   <w>räumliche</w>
@@ -4813,8 +4314,9 @@
                   <pc>:</pc>
           
                </l>
-            </ab>[FIGURE ( 27 _ 2 )] 
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#27 _ 2"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Heute</w>
@@ -4862,9 +4364,8 @@
           
                </l>
                <l n="4">
-          
-                  <sic>–{ 
-                <w>Dabei</w>
+                  <sic>
+                     <w>Dabei</w>
                      <w>wird</w>
                      <w>mir</w>
                      <pc>,</pc>
@@ -4875,21 +4376,18 @@
                      <w>Kaufmann</w>
                      <pc>,</pc>
                      <w>als</w>
-              } </sic>
-          
+                  </sic>
                </l>
                <l n="5">
-          
-                  <sic>–{ 
-                <w>Instrument</w>
+                  <sic>
+                     <w>Instrument</w>
                      <w>die</w>
                      <w>Wage</w>
                      <w>von</w>
                      <w>Nutzen</w>
                      <w>sein</w>
                      <pc>.</pc>
-              } </sic>
-          
+                  </sic>
                </l>
                <l n="6">
           
@@ -4955,11 +4453,9 @@
           
                   <w>wir</w>
           
-          
-                  <sic>–{ 
-                <w>den</w>
-              } </sic>
-          
+                  <sic>
+                     <w>den</w>
+                  </sic>
           
                   <w>noch</w>
                   <w>den</w>
@@ -4978,11 +4474,9 @@
                      <w>dem</w>
                      <w>wir</w>
             
-            
-                     <sic>–{ 
-                  <w>uns</w>
-                } </sic>
-            
+                     <sic>
+                        <w>uns</w>
+                     </sic>
             
                      <w>normalerweise</w>
                      <w>stehn</w>
@@ -5053,35 +4547,13 @@
           
                </l>
             </ab>
-    =====
-      
-        27 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              1 
-            
-          ] 
-      
-      
-        27 _ 2 : [ 
-            
-              
-                fig 
-              
-            
-            
-              2 
-            
-          ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="31">
-            <pb n="28" facs="#83071"/>[FIGURE ( 28 _ 1 )] [FIGURE ( 28 _ 2 )] 
-      <l n="1">
+            <pb n="28" facs="#83071"/>
+            <figure facs="#28 _ 1"/>
+            <figure facs="#28 _ 2"/>
+            <l n="1">
           
                <w>So</w>
                <w>ungefähr</w>
@@ -5115,30 +4587,24 @@
                <w>einer</w>
                <w>Fläche</w>
           
-          
-               <sic>–{ 
-                <w>liegen</w>
-              } </sic>
-          
+               <sic>
+                  <w>liegen</w>
+               </sic>
           
                <w>wirken</w>
           
-          
-               <corr hand="#pencil">+!{ 
-                <w>können</w>
-              } </corr>
-          
+               <corr hand="#pencil">
+                  <w>können</w>
+               </corr>
           
                <pc>.</pc>
                <w>Denn</w>
           
             </l>
             <l n="4">
-          
-               <sic>–{ 
-                <w>durch</w>
-              } </sic>
-          
+               <sic>
+                  <w>durch</w>
+               </sic>
           
                <w>zwei</w>
                <w>Punkte</w>
@@ -5158,12 +4624,10 @@
                <w>befinden</w>
                <w>immer</w>
           
-          
-               <sic>–{ 
-                <w>mit</w>
+               <sic>
+                  <w>mit</w>
                   <w>eine</w>
-              } </sic>
-          
+               </sic>
           
                <w>in</w>
                <w>eine</w>
@@ -5176,17 +4640,12 @@
                <w>hineinbringen</w>
                <pc>.</pc>
           
-            </l>|| 
-            <corr hand="#pencil">+!{ 
-                <pc>(</pc>
-               <w>Nehmen</w>
-               <pc>)</pc>
-              } </corr>
-          || 
-  </div>
+            </l>
+         </div>
          <div n="32">
-            <pb n="29" facs="#83072"/>[FIGURE ( 29 _ 1 )] 
-      <l n="1">
+            <pb n="29" facs="#83072"/>
+            <figure facs="#29 _ 1"/>
+            <l n="1">
           
                <w>Mit</w>
                <w>dieser</w>
@@ -5221,16 +4680,14 @@
                <pc>,</pc>
                <w>dass</w>
           
-          
                <choice>
-                  <sic>–{ 
-                  <w>es</w>
-                } </sic>
-                  <corr>/ { 
-                  <w>die</w>
-                } </corr>
+                  <sic>
+                     <w>es</w>
+                  </sic>
+                  <corr>
+                     <w>die</w>
+                  </corr>
                </choice>
-          
           
                <w>Beschränkung</w>
           
@@ -5260,14 +4717,12 @@
                   <w>3</w>
                   <w>u</w>
           
+                  <add rend="overstrike">
+                     <pc>/</pc>
+                     <pc>.</pc>
+                  </add>
           
-            +/ 
-                <pc>/</pc>
-                  <pc>.</pc>
-              // 
-          
-          
-            <w>3</w>
+                  <w>3</w>
                   <w>a</w>
                   <pc>)</pc>
           
@@ -5304,20 +4759,8 @@
           
                </l>
             </ab>
-    =====
-      
-        29 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              6 
-            
-          ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="33">
             <pb n="30" facs="#83073"/>
             <l n="1">
@@ -5331,8 +4774,9 @@
                <w>weglassen</w>
                <pc>.</pc>
           
-            </l>[FIGURE ( 30 _ 1 )] 
-      <l n="1">
+            </l>
+            <figure facs="#30 _ 1"/>
+            <l n="1">
           
                <w>Stören</w>
                <w>wir</w>
@@ -5350,8 +4794,9 @@
                <w>Überbelastung</w>
                <pc>,</pc>
           
-            </l>[FIGURE ( 30 _ 2 )] 
-      <l n="1">
+            </l>
+            <figure facs="#30 _ 2"/>
+            <l n="1">
           
                <pc>,</pc>
                <w>So</w>
@@ -5364,8 +4809,9 @@
                <w>Weise</w>
                <pc>.</pc>
           
-            </l>[FIGURE ( 30 _ 3 )] 
-      <l n="1">
+            </l>
+            <figure facs="#30 _ 3"/>
+            <l n="1">
           
                <w>Korrigieren</w>
                <w>wir</w>
@@ -5374,8 +4820,9 @@
                <w>Gegenbelastung</w>
                <pc>,</pc>
           
-            </l>[FIGURE ( 30 _ 4 )] 
-      <l n="1">
+            </l>
+            <figure facs="#30 _ 4"/>
+            <l n="1">
           
                <pc>,</pc>
                <w>dann</w>
@@ -5385,8 +4832,9 @@
                <w>aus</w>
                <pc>:</pc>
           
-            </l>[FIGURE ( 30 _ 5 )] 
-      <l n="1">
+            </l>
+            <figure facs="#30 _ 5"/>
+            <l n="1">
           
                <w>Das</w>
                <w>neue</w>
@@ -5395,8 +4843,9 @@
                <w>Kreuz</w>
                <pc>:</pc>
           
-            </l>[FIGURE ( 30 _ 6 )] 
-      <l n="1">
+            </l>
+            <figure facs="#30 _ 6"/>
+            <l n="1">
           
                <w>Nun</w>
                <w>erinnere</w>
@@ -5449,80 +4898,8 @@
                <w>Beispiel</w>
           
             </l>
-    =====
-      
-        30 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              7 
-            
-          ] 
-      
-      
-        30 _ 2 : [ 
-            
-              
-                fig 
-              
-            
-            
-              8 
-            
-          ] 
-      
-      
-        30 _ 3 : [ 
-            
-              
-                fig 
-              
-            
-            
-              9 
-            
-          ] 
-      
-      
-        30 _ 4 : [ 
-            
-              
-                fig 
-              
-            
-            
-              10 
-            
-          ] 
-      
-      
-        30 _ 5 : [ 
-            
-              
-                fig 
-              
-            
-            
-              11 
-            
-          ] 
-      
-      
-        30 _ 6 : [ 
-            
-              
-                fig 
-              
-            
-            
-              12 
-            
-          ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="34">
             <pb n="31" facs="#83074"/>
             <l n="1">
@@ -5537,7 +4914,9 @@
                <w>so</w>
                <pc>:</pc>
           
-            </l>[FIGURE ( 31 _ 1 )] <l n="1">
+            </l>
+            <figure facs="#31 _ 1"/>
+            <l n="1">
           
                <w>und</w>
                <w>mit</w>
@@ -5551,8 +4930,9 @@
                <w>so</w>
                <pc>:</pc>
           
-            </l>[FIGURE ( 31 _ 2 )] 
-      <ab type="parag" n="1">
+            </l>
+            <figure facs="#31 _ 2"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Diese</w>
@@ -5586,7 +4966,12 @@
                   <w>flächige</w>
                   <pc>.</pc>
                   <w>Linear</w>
-                  <w>+{ aufgefasst } ^ ist</w>
+            
+                  <add>
+                     <w>aufgefasst</w>
+                  </add>
+                  <w>ist</w>
+            
                   <w>es</w>
                   <w>ein</w>
                   <w>Viereck</w>
@@ -5601,13 +4986,11 @@
                   <pc>,</pc>
                   <w>flächig</w>
           
+                  <add>
+                     <w>aufgefasst</w>
+                  </add>
           
-            +{ 
-                <w>aufgefasst</w>
-              } 
-          
-          
-            <w>ist</w>
+                  <w>ist</w>
                   <w>es</w>
                   <w>ein</w>
                   <w>in</w>
@@ -5654,8 +5037,9 @@
                   <pc>.</pc>
           
                </l>
-            </ab>[FIGURE ( 31 _ 3 )] 
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#31 _ 3"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>An</w>
@@ -5690,10 +5074,11 @@
                   <w>Stosskraft</w>
           
                </l>
-            </ab>[FIGURE ( 31 _ 4 )] 
-      [FIGURE ( 31 _ 5 )] 
-      [FIGURE ( 31 _ 6 )] 
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#31 _ 4"/>
+            <figure facs="#31 _ 5"/>
+            <figure facs="#31 _ 6"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Die</w>
@@ -5707,82 +5092,10 @@
                   <pc>)</pc>
           
                </l>
-            </ab>[FIGURE ( 31 _ 7 )] 
-      
-    =====
-      
-        31 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              13 
-            
-          ] 
-      
-      
-        31 _ 2 : [ 
-            
-              13a 
-            
-          ] 
-      
-      
-        31 _ 3 : [ 
-            
-              
-                figur 
-                14 
-                und 
-              
-            
-            
-              15 
-            
-          ] 
-      
-      
-        31 _ 4 : [ 
-            
-              
-                fig 
-              
-            
-            
-              16 
-            
-          ] 
-      
-      
-        31 _ 5 : [ 
-            
-              
-                fig 
-              
-            
-            
-              17 
-            
-          ] 
-      
-      
-        31 _ 6 : [ 
-            
-              
-                fig 
-              
-            
-            
-              18 
-            
-          ] 
-      
-      
-        31 _ 7 : 
-      ===== 
-  </div>
+            </ab>
+            <figure facs="#31 _ 7"/>
+    
+         </div>
          <div n="35">
             <pb n="32" facs="#83075"/>
             <ab type="parag" n="1">
@@ -5803,13 +5116,11 @@
                   <w>gestattet</w>
                   <w>mir</w>
           
+                  <add>
+                     <w>die</w>
+                  </add>
           
-            +{ 
-                <w>die</w>
-              } 
-          
-          
-            <w>sozusagen</w>
+                  <w>sozusagen</w>
                   <w>sinnbildliche</w>
                   <w>Durchführung</w>
                   <pc>.</pc>
@@ -5851,8 +5162,9 @@
             </ab>
          </div>
          <div n="36">
-            <pb n="33" facs="#83076"/>[FIGURE ( 33 _ 1 )] 
-      <l n="1">
+            <pb n="33" facs="#83076"/>
+            <figure facs="#33 _ 1"/>
+            <l n="1">
           
                <w>21</w>
                <pc>/</pc>
@@ -5866,8 +5178,9 @@
                <w>schwarzer</w>
                <w>Energie</w>
           
-            </l>[FIGURE ( 33 _ 2 )] 
-      <l n="1">
+            </l>
+            <figure facs="#33 _ 2"/>
+            <l n="1">
           
                <w>22</w>
                <pc>/</pc>
@@ -5888,8 +5201,9 @@
                <w>Energie</w>
                <pc>.</pc>
           
-            </l>[FIGURE ( 33 _ 3 )] 
-      <l n="1">
+            </l>
+            <figure facs="#33 _ 3"/>
+            <l n="1">
           
                <w>23</w>
                <pc>/</pc>
@@ -5946,8 +5260,9 @@
                   <pc>.</pc>
           
                </l>
-            </ab>[FIGURE ( 33 _ 4 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#33 _ 4"/>
+            <l n="1">
           
                <w>Bei</w>
                <w>Figur</w>
@@ -5961,20 +5276,23 @@
                <w>setzen</w>
                <w>neben</w>
           
-          
                <choice>
-                  <sic>–{ 
-                  <w>dem</w>
-                } </sic>
-                  <corr>/ { 
-                  <w>das</w>
-                } </corr>
+                  <sic>
+                     <w>dem</w>
+                  </sic>
+                  <corr>
+                     <w>das</w>
+                  </corr>
                </choice>
-          
             </l>
             <l n="2">
           
-               <w>hellgraue ^ +{ m }</w>
+            
+               <w>hellgraue</w>
+               <add>
+                  <w>m</w>
+               </add>
+            
                <w>Viereck</w>
                <w>ein</w>
                <w>kleines</w>
@@ -5982,114 +5300,10 @@
                <w>schwarz</w>
                <w>hinzu</w>
           
-            </l>[FIGURE ( 33 _ 5 )] 
-        
-      
-    =====
-      
-        33 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              21 
-            
-          ] 
-        ( 
-            
-              hellgrau 
-            
-          | 
-            
-              dunkelgrau 
-            
-          ) 
-      
-      
-        33 _ 2 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              22 
-            . ] 
-        ( 
-            
-              hellrot 
-            
-          | 
-            
-              rot 
-            
-          ) 
-      
-      
-        33 _ 3 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              23 
-            
-          ] 
-        ( 
-            
-              reines 
-              rot 
-            
-          | 
-            
-              reines 
-              blau 
-            
-          ) 
-      
-      
-        33 _ 4 : [ 
-            
-              
-                fig 
-              
-            
-            
-              20a. 
-            
-          ] 
-      
-      
-        33 _ 5 : [ 
-            
-              
-                fig 
-              
-            
-            
-              21a 
-            
-          ] 
-        ( 
-            
-              hellgrau 
-            
-          | 
-            
-              schwarz 
-            
-          | 
-            
-              dunkelgrau 
-            
-          ) 
-      ===== 
-  </div>
+            </l>
+            <figure facs="#33 _ 5"/>
+    
+         </div>
          <div n="37">
             <pb n="34" facs="#83077"/>
             <l n="1">
@@ -6112,8 +5326,9 @@
                <w>verfahren</w>
                <w>entsprechend</w>
           
-            </l>[FIGURE ( 34 _ 1 )] 
-      <l n="1">
+            </l>
+            <figure facs="#34 _ 1"/>
+            <l n="1">
           
                <w>Bei</w>
                <w>Figur</w>
@@ -6146,22 +5361,21 @@
                <w>gelb</w>
                <pc>?</pc>
           
-            </l>[FIGURE ( 34 _ 2 )] 
-      <l n="1">
+            </l>
+            <figure facs="#34 _ 2"/>
+            <l n="1">
           
                <w>Es</w>
                <w>ist</w>
           
-          
                <choice>
-                  <sic>–{ 
-                  <w>denkbar</w>
-                } </sic>
-                  <corr>/ { 
-                  <w>sicher</w>
-                } </corr>
+                  <sic>
+                     <w>denkbar</w>
+                  </sic>
+                  <corr>
+                     <w>sicher</w>
+                  </corr>
                </choice>
-          
           
                <pc>,</pc>
                <w>dass</w>
@@ -6206,13 +5420,11 @@
                <pc>.</pc>
                <w>Um</w>
           
+               <add>
+                  <w>das</w>
+               </add>
           
-            +{ 
-                <w>das</w>
-              } 
-          
-          
-            <w>hüben</w>
+               <w>hüben</w>
                <w>und</w>
                <w>das</w>
           
@@ -6234,7 +5446,12 @@
                <w>part</w>
                <w>sozusagen</w>
                <w>zwingend</w>
-               <w>zu ^ –{ r }</w>
+            
+               <w>zu</w>
+               <sic>
+                  <w>r</w>
+               </sic>
+            
                <w>Kennzeichnen</w>
                <pc>,</pc>
                <w>ist</w>
@@ -6249,11 +5466,9 @@
                <w>diese</w>
                <w>ganz</w>
           
-          
-               <sic>–{ 
-                <w>s</w>
-              } </sic>
-          
+               <sic>
+                  <w>s</w>
+               </sic>
           
                <w>rohe</w>
                <w>Gegen -</w>
@@ -6267,13 +5482,11 @@
                <w>muss</w>
                <w>ein</w>
           
+               <add>
+                  <w>örtlicher</w>
+               </add>
           
-            +{ 
-                <w>örtlicher</w>
-              } 
-          
-          
-            <w>Imperativ</w>
+               <w>Imperativ</w>
                <w>hinzutreten</w>
           
             </l>
@@ -6307,64 +5520,12 @@
                <pc>:</pc>
           
             </l>
-    =====
-      
-        34 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              22a 
-            
-          ] 
-        ( 
-            
-              hellrot 
-            
-          | 
-            
-              dunkelrot 
-            
-          | 
-            
-              rot 
-            
-          ) 
-      
-      
-        34 _ 2 : [ 
-            
-              
-                fig 
-              
-            
-            
-              23a 
-            
-          ] 
-        ( 
-            
-              reines 
-              rot 
-            
-          | 
-            
-              reines 
-              gelb 
-            
-          | 
-            
-              reines 
-              blau 
-            
-          ) 
-      ===== 
-  </div>
+    
+         </div>
          <div n="38">
-            <pb n="35" facs="#83078"/>[FIGURE ( 35 _ 1 )] 
-      <ab type="parag" n="1">
+            <pb n="35" facs="#83078"/>
+            <figure facs="#35 _ 1"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Hier</w>
@@ -6401,11 +5562,11 @@
                </l>
                <head level="4" type="section">
                   <hi rend="underline">
-                     <corr hand="#pencil">+!{ 
-                    <w>Gestaltungsbeispiel</w>
+                     <corr hand="#pencil">
+                        <w>Gestaltungsbeispiel</w>
                         <w>fig</w>
                         <w>24</w>
-                  } </corr>
+                     </corr>
                   </hi>
                </head>
             </ab>
@@ -6558,16 +5719,14 @@
                   <w>Horizontalen</w>
                   <pc>,</pc>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>menschlich</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>ermenschlichtend</w>
-                } </corr>
+                     <sic>
+                        <w>menschlich</w>
+                     </sic>
+                     <corr>
+                        <w>ermenschlichtend</w>
+                     </corr>
                   </choice>
-          
                </l>
                <l n="16">
           
@@ -6600,11 +5759,9 @@
                   <w>irgendwo</w>
                   <w>Halt</w>
           
-          
-                  <sic>–{ 
-                <w>zu</w>
-              } </sic>
-          
+                  <sic>
+                     <w>zu</w>
+                  </sic>
           
                   <w>suchend</w>
                   <pc>,</pc>
@@ -6638,37 +5795,12 @@
           
                </l>
             </ab>
-    =====
-      
-        35 _ 1 : [ 
-            
-              
-                Fig 
-                . 
-              
-            
-            
-              24 
-            
-          ] 
-        ( 
-            
-              rot 
-            
-          | 
-            
-              hellrot 
-            
-          | 
-            
-              dunkelrot 
-            
-          ) 
-      ===== 
-  </div>
+    
+         </div>
          <div n="39">
-            <pb n="36" facs="#83079"/>[FIGURE ( 36 _ 1 )] 
-      <l n="1">
+            <pb n="36" facs="#83079"/>
+            <figure facs="#36 _ 1"/>
+            <l n="1">
           
                <w>der</w>
                <w>Oberkörper</w>
@@ -6706,7 +5838,12 @@
           
                <w>man</w>
                <w>verbreitert</w>
-               <w>durch ^ –{ Vorstellen }</w>
+            
+               <w>durch</w>
+               <sic>
+                  <w>Vorstellen</w>
+               </sic>
+            
           
             </l>
             <l n="6">
@@ -6739,7 +5876,12 @@
                <l n="9">
           
                   <w>ist</w>
-                  <w>–{ con } ^ centrisch</w>
+            
+                  <sic>
+                     <w>con</w>
+                  </sic>
+                  <w>centrisch</w>
+            
                   <pc>,</pc>
                   <w>d</w>
                   <pc>.</pc>
@@ -6768,11 +5910,9 @@
                   <w>uns</w>
                   <w>nun</w>
           
-          
-                  <sic>–{ 
-                <w>diese</w>
-              } </sic>
-          
+                  <sic>
+                     <w>diese</w>
+                  </sic>
           
                   <w>solche</w>
                   <w>Compositionelle</w>
@@ -6815,7 +5955,12 @@
                </l>
                <l n="15">
           
-                  <w>–{ con } ^ centrischen</w>
+            
+                  <sic>
+                     <w>con</w>
+                  </sic>
+                  <w>centrischen</w>
+            
                   <w>Anlage</w>
                   <w>sprechen</w>
                   <pc>.</pc>
@@ -6846,37 +5991,12 @@
           
                </l>
             </ab>
-    =====
-      
-        36 _ 1 : [ 
-            
-              
-                Fig 
-              
-            
-            
-              25 
-            
-          ] 
-        ( 
-            
-              zu 
-              schwer 
-            
-          | 
-            
-              zu 
-              leicht 
-            
-          | 
-            
-              Ausgleich 
-            
-          ) 
-      ===== 
-  </div>
+    
+         </div>
          <div n="40">
-            <pb n="37" facs="#83080"/>[FIGURE ( 37 _ 1 )] <l n="1">
+            <pb n="37" facs="#83080"/>
+            <figure facs="#37 _ 1"/>
+            <l n="1">
           
                <w>I</w>
                <w>sei</w>
@@ -6913,16 +6033,14 @@
                <w>des</w>
                <w>Kippens</w>
           
-          
                <choice>
-                  <sic>–{ 
-                  <w>fast</w>
-                } </sic>
-                  <corr>/ { 
-                  <w>eben</w>
-                } </corr>
+                  <sic>
+                     <w>fast</w>
+                  </sic>
+                  <corr>
+                     <w>eben</w>
+                  </corr>
                </choice>
-          
             </l>
             <l n="5">
           
@@ -6950,7 +6068,9 @@
                <w>im</w>
                <w>Pfeil</w>
           
-            </l>[FIGURE ( 37 _ 2 )] <l n="1">
+            </l>
+            <figure facs="#37 _ 2"/>
+            <l n="1">
           
                <w>ihren</w>
           
@@ -6961,16 +6081,14 @@
                <w>findet</w>
                <w>und</w>
           
-          
                <choice>
-                  <sic>–{ 
-                  <w>mit</w>
-                } </sic>
-                  <corr>/ { 
-                  <w>in</w>
-                } </corr>
+                  <sic>
+                     <w>mit</w>
+                  </sic>
+                  <corr>
+                     <w>in</w>
+                  </corr>
                </choice>
-          
           
                <w>dem</w>
                <w>Gewicht</w>
@@ -7078,8 +6196,10 @@
                   <pc>)</pc>
           
                </l>
-            </ab>[FIGURE ( 37 _ 3 )] [FIGURE ( 37 _ 4 )] 
-      <ab type="parag" n="1">
+            </ab>
+            <figure facs="#37 _ 3"/>
+            <figure facs="#37 _ 4"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Die</w>
@@ -7149,47 +6269,8 @@
           
                </l>
             </ab>
-    =====
-      
-        37 _ 1 : [ 
-            
-              
-                Fig 
-              
-            
-            
-              26 
-            
-          ] 
-      
-      
-        37 _ 2 : 
-      
-      
-        37 _ 3 : [ 
-            
-              
-                fig 
-              
-            
-            
-              27 
-            
-          ] 
-      
-      
-        37 _ 4 : [ 
-            
-              
-                fig 
-              
-            
-            
-              28 
-            
-          ] 
-      ===== 
-  </div>
+    
+         </div>
          <div n="41">
             <pb n="38" facs="#83081"/>
             <l n="1">
@@ -7233,17 +6314,15 @@
           
             </l>
             <l n="4">
-          
                <choice>
-                  <sic>–{ 
-                  <w>Er</w>
-                } </sic>
-                  <corr>/ { 
-                  <w>Der</w>
+                  <sic>
+                     <w>Er</w>
+                  </sic>
+                  <corr>
+                     <w>Der</w>
                      <w>Mensch</w>
-                } </corr>
+                  </corr>
                </choice>
-          
           
                <w>wird</w>
                <w>zum</w>
@@ -7266,16 +6345,14 @@
                   <w>gegenüber</w>
                   <w>dem</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>cere</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>vertebralen</w>
-                } </corr>
+                     <sic>
+                        <w>cere</w>
+                     </sic>
+                     <corr>
+                        <w>vertebralen</w>
+                     </corr>
                   </choice>
-          
           
                   <w>Aufbau</w>
                   <pc>(</pc>
@@ -7308,8 +6385,9 @@
                   <w>die</w>
           
                </l>
-            </ab>[FIGURE ( 38 _ 1 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#38 _ 1"/>
+            <l n="1">
           
                <w>Horizontale</w>
                <w>auf</w>
@@ -7368,8 +6446,9 @@
                <w>da</w>
                <pc>!</pc>
           
-            </l>[FIGURE ( 38 _ 2 )] 
-      <ab type="parag" n="1">
+            </l>
+            <figure facs="#38 _ 2"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Ausgeschaltet</w>
@@ -7398,7 +6477,12 @@
                   <pc>.</pc>
                   <w>bei</w>
                   <w>diesem</w>
-                  <w>+{ aller } ^ primi -</w>
+            
+                  <add>
+                     <w>aller</w>
+                  </add>
+                  <w>primi -</w>
+            
           
                </l>
                <l n="3">
@@ -7424,70 +6508,16 @@
                   <pc>.</pc>
           
                </l>
-            </ab>[FIGURE ( 38 _ 3 )] 
-      <head level="1" type="pause">
+            </ab>
+            <figure facs="#38 _ 3"/>
+            <head level="1" type="pause">
             
                <pc>*</pc>
             
-            </head>[FIGURE ( 38 _ 4 )] 
-        
-      
-    =====
-      
-        38 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              29 
-            
-          ] 
-      
-      
-        38 _ 2 : [ 
-            
-              
-                fig 
-              
-            
-            
-              30 
-            
-          ] 
-        ( 
-            
-              ( 
-              als 
-              wirkliche 
-              Bausteine 
-              zu 
-              denken 
-              ) 
-            
-          ) 
-      
-      
-        38 _ 3 : [ 
-            
-              
-                fig 
-              
-            
-            
-              31 
-            
-          ] 
-      
-      
-        38 _ 4 : [ 
-            
-              31a 
-            
-          ] 
-      ===== 
-  </div>
+            </head>
+            <figure facs="#38 _ 4"/>
+    
+         </div>
          <div n="42">
             <pb n="39" facs="#83082"/>
             <head level="1" type="pause">
@@ -7518,8 +6548,9 @@
                   <pc>:</pc>
           
                </l>
-            </ab>[FIGURE ( 39 _ 1 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#39 _ 1"/>
+            <l n="1">
           
                <w>halten</w>
                <w>Sie</w>
@@ -7570,8 +6601,9 @@
                <w>Viereck</w>
                <w>hinzu</w>
           
-            </l>[FIGURE ( 39 _ 2 )] 
-      <l n="1">
+            </l>
+            <figure facs="#39 _ 2"/>
+            <l n="1">
           
                <w>so</w>
                <w>stiesse</w>
@@ -7633,8 +6665,9 @@
                <w>Relativitäten</w>
                <pc>.</pc>
           
-            </l>[FIGURE ( 39 _ 3 )] 
-      <ab type="parag" n="1">
+            </l>
+            <figure facs="#39 _ 3"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Jetzt</w>
@@ -7685,62 +6718,8 @@
           
                </l>
             </ab>
-    =====
-      
-        39 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              32 
-            
-          ] 
-        ( 
-            
-              ( 
-              leer 
-              ) 
-            
-          ) 
-      
-      
-        39 _ 2 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              33 
-            
-          ] 
-      
-      
-        39 _ 3 : [ 
-            
-              
-                fig 
-              
-            
-            
-              34 
-            
-          ] 
-        ( 
-            
-              sehr 
-              hellgrau 
-            
-          | 
-            
-              Tiefschwarz 
-            
-          ) 
-      ===== 
-  </div>
+    
+         </div>
          <div n="43">
             <pb n="40" facs="#83083"/>
             <l n="1">
@@ -8001,13 +6980,11 @@
                   <w>gerade</w>
                   <w>das</w>
           
+                  <del rend="strikethrough">
+                     <w>s</w>
+                  </del>
           
-            –/ 
-                <w>s</w>
-              // 
-          
-          
-            <w>hellste</w>
+                  <w>hellste</w>
                   <w>Weiss</w>
                   <pc>.</pc>
           
@@ -8252,13 +7229,11 @@
                   <w>Relationen</w>
                   <w>bringt</w>
           
+                  <add>
+                     <w>dann</w>
+                  </add>
           
-            +{ 
-                <w>dann</w>
-              } 
-          
-          
-            <w>die</w>
+                  <w>die</w>
                   <w>farbige</w>
                   <w>Welt</w>
                   <w>daher</w>
@@ -8379,12 +7354,7 @@
                <w>1922</w>
             
             </head>
-          # # # # MARGIN [ <l n="3">
-            
-               <w>Structur</w>
-            
-            </l>] 
-  </div>
+         </div>
          <div n="46">
             <pb n="43" facs="#83086"/>
             <l n="1">
@@ -8393,26 +7363,42 @@
                <w>tiefster</w>
                <w>Stelle</w>
           
-          
                <choice>
-                  <sic>–{ 
-                  <w>des</w>
-                } </sic>
-                  <corr>/ { 
-                  <w>der</w>
+                  <sic>
+                     <w>des</w>
+                  </sic>
+                  <corr>
+                     <w>der</w>
                      <w>Ordnung</w>
-                } </corr>
+                  </corr>
                </choice>
           
+            
+               <w>structurale</w>
+               <choice>
+                  <sic>
+                     <w>n</w>
+                  </sic>
+                  <corr>
+                     <w>r</w>
+                  </corr>
+               </choice>
+            
+            
+               <w>Charakter</w>
+               <choice>
+                  <sic>
+                     <w>s</w>
+                  </sic>
+                  <corr>
+                     <w>e</w>
+                  </corr>
+               </choice>
+            
           
-               <w>structurale ^ –{ n } / { r }</w>
-               <w>Charakter ^ –{ s } / { e }</w>
-          
-          
-               <sic>–{ 
-                <w>Eine</w>
-              } </sic>
-          
+               <sic>
+                  <w>Eine</w>
+               </sic>
             </l>
             <ab type="parag" n="2">
                <l n="2">
@@ -8427,16 +7413,18 @@
                   <pc>:</pc>
           
                </l>
-            </ab>[FIGURE ( 43 _ 1 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#43 _ 1"/>
+            <l n="1">
           
                <w>oder</w>
                <w>diese</w>
                <w>Structur</w>
                <pc>:</pc>
           
-            </l>[FIGURE ( 43 _ 2 )] 
-      <ab type="parag" n="1">
+            </l>
+            <figure facs="#43 _ 2"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <pc>(</pc>
@@ -8494,52 +7482,40 @@
                   <w>lediglich</w>
                   <w>der</w>
           
-          
-                  <sic>–{ 
-                <w>Quantitäten</w>
-              } </sic>
-          
+                  <sic>
+                     <w>Quantitäten</w>
+                  </sic>
           
                   <pc>/</pc>
           
-          
-            !{ 
-                <w>Maasse</w>
-              } 
-          
-        </l>
+                  <hi hand="#pencil">
+                     <w>Maasse</w>
+                  </hi>
+               </l>
                <l n="5">
-          
-                  <corr hand="#pencil">+!{ 
-                <pc>"</pc>
-              } </corr>
-          
+                  <corr hand="#pencil">
+                     <pc>"</pc>
+                  </corr>
           
                   <w>einfache</w>
                   <w>Strecke</w>
           
-          
-                  <corr hand="#pencil">+!{ 
-                <pc>"</pc>
-              } </corr>
-          
+                  <corr hand="#pencil">
+                     <pc>"</pc>
+                  </corr>
           
                   <w>und</w>
           
-          
-                  <corr hand="#pencil">+!{ 
-                <pc>"</pc>
-              } </corr>
-          
+                  <corr hand="#pencil">
+                     <pc>"</pc>
+                  </corr>
           
                   <w>doppelte</w>
                   <w>Strecke</w>
           
-          
-                  <corr hand="#pencil">+!{ 
-                <pc>"</pc>
-              } </corr>
-          
+                  <corr hand="#pencil">
+                     <pc>"</pc>
+                  </corr>
           
                   <pc>,</pc>
                   <w>letztere</w>
@@ -8551,21 +7527,17 @@
                   <w>sich</w>
                   <w>der</w>
           
-          
-                  <sic>–{ 
-                <w>Qualitäten</w>
-              } </sic>
-          
+                  <sic>
+                     <w>Qualitäten</w>
+                  </sic>
           
                   <pc>/</pc>
           
+                  <hi hand="#pencil">
+                     <w>Gewichte</w>
+                  </hi>
           
-            !{ 
-                <w>Gewichte</w>
-              } 
-          
-          
-            <w>hell</w>
+                  <w>hell</w>
                   <w>und</w>
                   <w>dunkel</w>
                   <pc>.</pc>
@@ -8592,11 +7564,9 @@
                   <w>Kraft</w>
                   <pc>,</pc>
           
-          
-                  <sic>–{ 
-                <w>die</w>
-              } </sic>
-          
+                  <sic>
+                     <w>die</w>
+                  </sic>
           
                   <w>welche</w>
                   <w>die</w>
@@ -8634,16 +7604,14 @@
                   <w>Kraft</w>
                   <w>die</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>für</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>auf</w>
-                } </corr>
+                     <sic>
+                        <w>für</w>
+                     </sic>
+                     <corr>
+                        <w>auf</w>
+                     </corr>
                   </choice>
-          
                </l>
                <l n="11">
           
@@ -8651,20 +7619,16 @@
                   <w>höhere</w>
                   <w>Leistung</w>
           
+                  <add>
+                     <w>hin</w>
+                     <w>nur</w>
+                  </add>
           
-            +{ 
-                <w>hin</w>
-                  <w>nur</w>
-              } 
+                  <w>mit</w>
           
-          
-            <w>mit</w>
-          
-          
-                  <sic>–{ 
-                <w>d</w>
-              } </sic>
-          
+                  <sic>
+                     <w>d</w>
+                  </sic>
           
                   <w>verdoppelter</w>
                   <w>Energie</w>
@@ -8677,12 +7641,10 @@
           
                </l>
                <l n="13">
-          
-                  <corr hand="#pencil">+!s{ 
-                <w>Seite</w>
+                  <corr hand="#pencil">
+                     <w>Seite</w>
                      <w>39</w>
-              } </corr>
-          
+                  </corr>
                </l>
                <head level="1" type="pause">
             
@@ -8738,52 +7700,8 @@
           
                </l>
             </ab>
-    =====
-      
-        43 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              4 
-            
-          ] 
-        ( 
-            
-              in 
-              Zahlen 
-            
-          | 
-            
-              Maass 
-            
-          ) 
-      
-      
-        43 _ 2 : [ 
-            
-              
-                fig 
-              
-            
-            
-              5 
-            
-          ] 
-        ( 
-            
-              in 
-              Zahlen 
-            
-          | 
-            
-              Gewicht 
-            
-          ) 
-      ===== 
-  </div>
+    
+         </div>
          <div n="47">
             <pb n="44" facs="#83087"/>
             <l n="1">
@@ -8904,16 +7822,14 @@
                   <w>einfachste</w>
                   <w>Weg</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>ste</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>scheint</w>
-                } </corr>
+                     <sic>
+                        <w>ste</w>
+                     </sic>
+                     <corr>
+                        <w>scheint</w>
+                     </corr>
                   </choice>
-          
                </l>
                <l n="9">
           
@@ -9082,26 +7998,28 @@
           
                </l>
                <l n="2">
-          
                   <choice>
-                     <sic>–{ 
-                  <w>paarweise</w>
+                     <sic>
+                        <w>paarweise</w>
                         <w>in</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>als</w>
-                        <w>paarweis ^ –{ er } ^ e</w>
-                } </corr>
+                     </sic>
+                     <corr>
+                        <w>als</w>
+                  
+                        <w>paarweis</w>
+                        <sic>
+                           <w>er</w>
+                        </sic>
+                        <w>e</w>
+                  
+                     </corr>
                   </choice>
-          
           
                   <w>Zusammengehörigkeit</w>
           
-          
-                  <sic>–{ 
-                <w>der</w>
-              } </sic>
-          
+                  <sic>
+                     <w>der</w>
+                  </sic>
           
                   <w>zweier</w>
                   <w>benach -</w>
@@ -9113,24 +8031,20 @@
                   <w>Felder</w>
                   <w>in</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>ver</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>hor</w>
-                } </corr>
+                     <sic>
+                        <w>ver</w>
+                     </sic>
+                     <corr>
+                        <w>hor</w>
+                     </corr>
                   </choice>
+                  <del rend="strikethrough">
+                     <pc>/</pc>
+                     <w>z</w>
+                  </del>
           
-          
-            –/ 
-                <pc>/</pc>
-                  <w>z</w>
-              // 
-          
-          
-            <w>izontaler</w>
+                  <w>izontaler</w>
                   <w>und</w>
                   <w>in</w>
                   <w>verticaler</w>
@@ -9138,8 +8052,9 @@
                   <pc>,</pc>
           
                </l>
-            </ab>[FIGURE ( 46 _ 1 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#46 _ 1"/>
+            <l n="1">
           
                <w>wobei</w>
                <w>eine</w>
@@ -9148,22 +8063,18 @@
                <w>viereckige</w>
                <pc>,</pc>
           
-          
-               <sic>–{ 
-                <w>und</w>
-              } </sic>
-          
+               <sic>
+                  <w>und</w>
+               </sic>
           
                <w>vierteilige</w>
           
             </l>
             <l n="2">
-          
-               <sic>–{ 
-                <w>Einheiten</w>
+               <sic>
+                  <w>Einheiten</w>
                   <w>en</w>
-              } </sic>
-          
+               </sic>
           
                <w>und</w>
                <w>sechswertige</w>
@@ -9171,12 +8082,15 @@
                <w>entsteht</w>
                <pc>.</pc>
           
-            </l>[FIGURE ( 46 _ 2 )] <l n="1">
+            </l>
+            <figure facs="#46 _ 2"/>
+            <l n="1">
           
                <w>oder</w>
           
-            </l>[FIGURE ( 46 _ 3 )] 
-      <ab type="parag" n="1">
+            </l>
+            <figure facs="#46 _ 3"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Diese</w>
@@ -9208,48 +8122,11 @@
                   <pc>*</pc>
             
                </head>
-            </ab>[FIGURE ( 46 _ 4 )] [FIGURE ( 46 _ 5 )] 
-        
-      
-    =====
-      
-        46 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              7 
-            
-          ] 
-      
-      
-        46 _ 4 : [ 
-            
-              
-                fig 
-              
-            
-            
-              7a 
-            
-          ] 
-      
-      
-        46 _ 5 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              8 
-            
-          ] 
-      ===== 
-  </div>
+            </ab>
+            <figure facs="#46 _ 4"/>
+            <figure facs="#46 _ 5"/>
+    
+         </div>
          <div n="50">
             <pb n="47" facs="#83090"/>
             <ab type="parag" n="1">
@@ -9267,16 +8144,14 @@
                   <w>Eine</w>
                   <w>Variante</w>
           
-          
                   <choice>
-                     <sic>–{ 
-                  <w>in</w>
-                } </sic>
-                     <corr>/ { 
-                  <w>der</w>
-                } </corr>
+                     <sic>
+                        <w>in</w>
+                     </sic>
+                     <corr>
+                        <w>der</w>
+                     </corr>
                   </choice>
-          
           
                   <w>Anschauung</w>
                   <w>dieser</w>
@@ -9309,21 +8184,17 @@
                   <w>die</w>
                   <pc>,</pc>
           
-          
-                  <sic>–{ 
-                <w>complementär</w>
-              } </sic>
-          
+                  <sic>
+                     <w>complementär</w>
+                  </sic>
           
                   <pc>/</pc>
           
+                  <hi hand="#pencil">
+                     <w>reciprok</w>
+                  </hi>
           
-            !{ 
-                <w>reciprok</w>
-              } 
-          
-          
-            <pc>,</pc>
+                  <pc>,</pc>
                   <w>wieder</w>
                   <w>als</w>
           
@@ -9380,7 +8251,12 @@
                   <w>erfinden</w>
                   <pc>,</pc>
                   <w>sobald</w>
-                  <w>ein ^ –{ e }</w>
+            
+                  <w>ein</w>
+                  <sic>
+                     <w>e</w>
+                  </sic>
+            
                   <w>beliebig</w>
                   <w>wiederholender</w>
           
@@ -9591,13 +8467,11 @@
                <w>Masse</w>
                <w>bemerkbar</w>
           
+               <del rend="strikethrough">
+                  <w>e</w>
+               </del>
           
-            –/ 
-                <w>e</w>
-              // 
-          
-          
-            <w>machen</w>
+               <w>machen</w>
                <pc>.</pc>
           
             </l>
@@ -9640,7 +8514,12 @@
                   <w>leicht</w>
                   <w>einordnen</w>
                   <pc>,</pc>
-                  <w>das ^ –!{ s }</w>
+            
+                  <w>das</w>
+                  <sic hand="#pencil">
+                     <w>s</w>
+                  </sic>
+            
                   <w>Wesen</w>
                   <w>des</w>
           
@@ -9660,13 +8539,8 @@
                   <w>entgegenzutreten</w>
                   <pc>.</pc>
           
-               </l>|| 
-            +{ 
-                <pc>*</pc>
-               <w>Anmerkung</w>
-               <pc>*</pc>
-              } 
-          || </ab>
+               </l>
+            </ab>
          </div>
          <div n="52">
             <pb n="49" facs="#83092"/>
@@ -9746,214 +8620,15 @@
                   <pc>.</pc>
           
                </l>
-            </ab>[FIGURE ( 49 _ 1 )] [FIGURE ( 49 _ 2 )] 
-      [FIGURE ( 49 _ 3 )] 
-      [FIGURE ( 49 _ 4 )] [FIGURE ( 49 _ 5 )] 
-      [FIGURE ( 49 _ 6 )] 
-        
-      
-    =====
-      
-        49 _ 1 : [ 
-            
-              
-                fig 
-              
-            
-            
-              9 
-            . ] 
-        ( 
-            
-              ( 
-              fig 
-              9 
-              ) 
-              zweiwertige 
-              Norm 
-              oder 
-            
-            
-              <hi rend="underline">
-                  Zweitakt 
-                </hi>
-            
-          ) 
-      
-      
-        49 _ 2 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              10 
-            
-          ] 
-        ( 
-            
-              ( 
-              fig 
-              10 
-              ) 
-              dreiwertige 
-              Norm 
-              oder 
-            
-            
-              <hi rend="underline">
-                  Dreitakt 
-                </hi>
-            
-          ) 
-      
-      
-        49 _ 3 : [ 
-            
-              
-                fig 
-              
-            
-            
-              11 
-            . ] 
-        ( 
-            
-              ( 
-              fig 
-              11 
-              ) 
-              Variante 
-              der 
-              zweiwertigen 
-              Norm 
-              , 
-              ein 
-              Zweitakt 
-              mit 
-              zweiteiliger 
-              Unterstructuroder 
-            
-            
-              <hi rend="underline">
-                  Viertakt 
-                </hi>
-            
-          ) 
-      
-      
-        49 _ 4 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              12 
-            . ] 
-        ( 
-            
-              ( 
-              fig 
-              . 
-              12 
-              ) 
-              Variante 
-              der 
-              zweiwertigen 
-              Norm 
-              mit 
-              dreiteiliger 
-              Unterstructur 
-              oder 
-            
-            
-              <hi rend="underline">
-                  Sechstakt 
-                </hi>
-            
-            
-              ( 
-              zweiteiliger 
-              ) 
-            
-          ) 
-      
-      
-        49 _ 5 : [ 
-            
-              
-                fig 
-              
-            
-            
-              13 
-            . ] 
-        ( 
-            
-              ( 
-              fig 
-              13 
-              ) 
-              Variante 
-              der 
-              dreiwertigen 
-              Norm 
-              mit 
-              dreiteiliger 
-              Unterstructur 
-              oder 
-            
-            
-              <hi rend="underline">
-                  Neuntact 
-                </hi>
-            
-          ) 
-      
-      
-        49 _ 6 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              14 
-            
-          ] 
-        ( 
-            
-              fig 
-              . 
-              14 
-              Variante 
-              des 
-              Viertaktes 
-              , 
-              mit 
-              dreiteiliger 
-              Unterstructur 
-              der 
-              Viertel 
-              , 
-              oder 
-            
-            
-              <hi rend="underline">
-                  Zwölftakt 
-                </hi>
-            
-            
-              . 
-            
-          ) 
-      ===== 
-  </div>
+            </ab>
+            <figure facs="#49 _ 1"/>
+            <figure facs="#49 _ 2"/>
+            <figure facs="#49 _ 3"/>
+            <figure facs="#49 _ 4"/>
+            <figure facs="#49 _ 5"/>
+            <figure facs="#49 _ 6"/>
+    
+         </div>
          <div n="53">
             <pb n="50" facs="#83093"/>
             <ab type="parag" n="1">
@@ -10007,13 +8682,11 @@
                   <pc>.</pc>
                   <w>Ein</w>
           
+                  <add>
+                     <w>kurzer</w>
+                  </add>
           
-            +{ 
-                <w>kurzer</w>
-              } 
-          
-          
-            <w>Blick</w>
+                  <w>Blick</w>
                   <w>auf</w>
                   <w>seinen</w>
                   <w>Taktstock</w>
@@ -10050,8 +8723,9 @@
                   <pc>,</pc>
           
                </l>
-            </ab>[FIGURE ( 51 _ 1 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#51 _ 1"/>
+            <l n="1">
           
                <w>den</w>
                <w>zweiten</w>
@@ -10060,7 +8734,9 @@
                <w>nach</w>
                <w>links</w>
           
-            </l>[FIGURE ( 51 _ 2 )] <l n="1">
+            </l>
+            <figure facs="#51 _ 2"/>
+            <l n="1">
           
                <w>den</w>
                <w>dritten</w>
@@ -10073,7 +8749,9 @@
                <w>nach</w>
                <w>rechts</w>
           
-            </l>[FIGURE ( 51 _ 3 )] <l n="1">
+            </l>
+            <figure facs="#51 _ 3"/>
+            <l n="1">
           
                <w>und</w>
                <w>den</w>
@@ -10087,7 +8765,9 @@
           
                <w>oben</w>
           
-            </l>[FIGURE ( 51 _ 4 )] <l n="1">
+            </l>
+            <figure facs="#51 _ 4"/>
+            <l n="1">
           
                <w>zum</w>
                <w>Ausgangspunkt</w>
@@ -10108,8 +8788,9 @@
                   <pc>:</pc>
           
                </l>
-            </ab>[FIGURE ( 51 _ 5 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#51 _ 5"/>
+            <l n="1">
           
                <w>mit</w>
                <w>Rücksichtauf</w>
@@ -10121,8 +8802,9 @@
                <w>dynamische</w>
                <pc>:</pc>
           
-            </l>[FIGURE ( 51 _ 6 )] 
-      <l n="1">
+            </l>
+            <figure facs="#51 _ 6"/>
+            <l n="1">
           
                <w>was</w>
                <w>sich</w>
@@ -10139,16 +8821,24 @@
           
             </l>
             <l n="3">
-          
-               <sic>–{ 
-                <w>Ho</w>
-              } </sic>
-          
+               <sic>
+                  <w>Ho</w>
+               </sic>
           
                <w>Verticalen</w>
                <w>und</w>
                <w>der</w>
-               <w>Horizon ^ –{ talen } / { talen }</w>
+            
+               <w>Horizon</w>
+               <choice>
+                  <sic>
+                     <w>talen</w>
+                  </sic>
+                  <corr>
+                     <w>talen</w>
+                  </corr>
+               </choice>
+            
           
             </l>
             <l n="4">
@@ -10156,8 +8846,9 @@
                <w>oder</w>
                <pc>:</pc>
           
-            </l>[FIGURE ( 51 _ 7 )] 
-      <ab type="parag" n="1">
+            </l>
+            <figure facs="#51 _ 7"/>
+            <ab type="parag" n="1">
                <l n="1">
           
                   <w>Ähnlich</w>
@@ -10169,76 +8860,12 @@
                   <w>Taktbild</w>
           
                </l>
-            </ab>[FIGURE ( 51 _ 8 )] 
-      [FIGURE ( 51 _ 9 )] 
-      [FIGURE ( 51 _ 10 )] 
-        
-      
-    =====
-      
-        51 _ 6 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              18 
-            
-          ] 
-      
-      
-        51 _ 7 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              19 
-            
-          ] 
-      
-      
-        51 _ 8 : [ 
-            
-              
-                fig 
-              
-            
-            
-              20 
-            
-          ] 
-      
-      
-        51 _ 9 : [ 
-            
-              
-                fig 
-                . 
-              
-            
-            
-              20a 
-            
-          ] 
-      
-      
-        51 _ 10 : [ 
-            
-              
-                fig 
-              
-            
-            
-              20b. 
-            
-          ] 
-      ===== 
-  </div>
+            </ab>
+            <figure facs="#51 _ 8"/>
+            <figure facs="#51 _ 9"/>
+            <figure facs="#51 _ 10"/>
+    
+         </div>
          <div n="55">
             <pb n="52" facs="#83095"/>
             <ab type="parag" n="1">
@@ -10303,143 +8930,10 @@
                   <w>21</w>
           
                </l>
-            </ab>[FIGURE ( 52 _ 1 )] 
-        
-      
-    =====
-      
-        52 _ 1 : [ ( 
-              
-                fig 
-                . 
-              
-            
-            
-              21 
-            ) ] 
-        ( 
-            
-              A 
-              . 
-              Notierung 
-              des 
-              Componisten 
-              auf 
-              5 
-              Linien 
-            
-          | 
-            
-              B 
-              . 
-              unsere 
-              übertragene 
-              
-                Noti ^ 
-                
-                  +/ 
-                      e 
-                    // 
-                
-                ^ rung 
-              
-              auf 
-              die 
-              Tonstufen 
-              dreier 
-              Oktaven 
-            
-          | 
-            
-              C 
-              . 
-              Structur 
-              des 
-              Tactes 
-              mit 
-              qualitativer 
-              Betonung 
-            
-          | 
-            
-              ( 
-              C 
-              . 
-              Structur 
-              des 
-              Taktes 
-              rein 
-              quantitativ 
-              ) 
-            
-          | 
-            
-              Da 
-              Musik 
-              ohne 
-              Dynamik 
-              maschinell 
-              und 
-              ausdruckslos 
-              klingt 
-              wähle 
-              ich 
-              die 
-              qualitative 
-              . 
-              Darstellung 
-              und 
-              verleihe 
-              der 
-              Linie 
-              mehr 
-              oder 
-              weniger 
-              Gewicht 
-              , 
-              analog 
-              der 
-              Tonqualität 
-              , 
-              während 
-              die 
-              quantitative 
-              Darstellung 
-              sich 
-            
-            
-              +{ 
-                  auf 
-                  B 
-                } 
-            
-            
-              in 
-              den 
-              Verticalstrichen 
-              für 
-              Takte 
-              und 
-              Taktteile 
-              äussert 
-              . 
-            
-          | 
-            
-              Anm 
-              . 
-              folgt 
-              fig 
-              22 
-              in 
-              Form 
-              einer 
-              Beilage 
-              . 
-            
-          ) 
-      ===== 
-  </div>
+            </ab>
+            <figure facs="#52 _ 1"/>
+    
+         </div>
          <div n="56">
             <pb n="53" facs="#83096"/>
             <l n="1">
@@ -10674,8 +9168,9 @@
                   <pc>,</pc>
           
                </l>
-            </ab>[FIGURE ( 54 _ 1 )] 
-      <l n="1">
+            </ab>
+            <figure facs="#54 _ 1"/>
+            <l n="1">
           
                <w>die</w>
                <w>man</w>
@@ -10713,13 +9208,11 @@
           
                <w>Das</w>
           
+               <add>
+                  <w>vor</w>
+               </add>
           
-            +{ 
-                <w>vor</w>
-              } 
-          
-          
-            <w>letzte</w>
+               <w>letzte</w>
                <w>Mal</w>
                <w>wies</w>
                <w>ich</w>
@@ -10904,37 +9397,29 @@
          <div n="63">
             <pb n="60" facs="#83103"/>
             <l n="1">
-          
-               <corr hand="#pencil">+!{ 
-                <pc>"</pc>
-              } </corr>
-          
+               <corr hand="#pencil">
+                  <pc>"</pc>
+               </corr>
           
                <w>einfache</w>
                <w>Strecke</w>
           
-          
-               <corr hand="#pencil">+!{ 
-                <pc>"</pc>
-              } </corr>
-          
+               <corr hand="#pencil">
+                  <pc>"</pc>
+               </corr>
           
                <w>und</w>
           
-          
-               <corr hand="#pencil">+!{ 
-                <pc>"</pc>
-              } </corr>
-          
+               <corr hand="#pencil">
+                  <pc>"</pc>
+               </corr>
           
                <w>doppelte</w>
                <w>Strecke</w>
           
-          
-               <corr hand="#pencil">+!{ 
-                <pc>"</pc>
-              } </corr>
-          
+               <corr hand="#pencil">
+                  <pc>"</pc>
+               </corr>
             </l>
             <l n="2">
           
