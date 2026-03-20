@@ -7,12 +7,17 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="src/app/style/style.css">
 </head>
-<body class="bg-light d-flex flex-column" style="min-height:100vh">
+<body class="d-flex flex-column" style="min-height:100vh">
 
+  <!-- ── Navbar ── -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1"><i class="bi bi-file-earmark-text me-2"></i>Klee Sync</span>
-      <div class="d-flex align-items-center gap-2">
+      <span class="navbar-brand mb-0 h1">
+        <i class="bi bi-intersect me-2"></i>Klee Sync
+      </span>
+      <div class="d-flex align-items-center gap-2 flex-wrap">
+
+        <!-- Conversion-only buttons -->
         <div id="syncGroup" class="btn-group d-none">
           <button id="syncBtn" type="button" class="btn btn-light">
             <i class="bi bi-arrow-repeat me-1"></i>Sync
@@ -29,16 +34,21 @@
         <button id="downloadBtn" class="btn btn-light d-none">
           <i class="bi bi-download me-1"></i>Download TEI
         </button>
+
+        <!-- Alignment buttons -->
         <button id="saveAlignBtn" class="btn btn-light">
           <i class="bi bi-cloud-upload me-1"></i>Save alignment
         </button>
-        <button id="backupBtn" class="btn btn-light" title="Download backup ZIP">
+        <button id="backupBtn" class="btn btn-light" title="Download ZIP backup of all projects">
           <i class="bi bi-archive me-1"></i>Backup
         </button>
         <button id="restoreBtn" class="btn btn-light" title="Restore from backup ZIP">
           <i class="bi bi-arrow-counterclockwise me-1"></i>Restore
         </button>
         <input type="file" id="restoreFile" accept=".zip" class="d-none">
+
+        <div class="vr bg-white opacity-25 mx-1" style="height:24px"></div>
+
         <button id="helpBtn" class="btn btn-light" title="User guide">
           <i class="bi bi-question-circle me-1"></i>Help
         </button>
@@ -46,7 +56,21 @@
     </div>
   </nav>
 
-  <div class="container-fluid mt-3">
+  <!-- ── Active session banner ── -->
+  <div class="container-fluid px-3 pt-2 d-none" id="activeSessionWrap">
+    <div id="activeSessionBanner">
+      <i class="bi bi-link-45deg text-success fs-5"></i>
+      <span>Active session:</span>
+      <span class="ks-project-pill" id="activeSessionName"></span>
+      <span class="text-muted">— saving from DiScEPT will create a new version automatically</span>
+      <button class="btn btn-sm btn-outline-secondary ms-auto" id="clearSessionBtn">
+        <i class="bi bi-x me-1"></i>Clear
+      </button>
+    </div>
+  </div>
+
+  <!-- ── Tabs ── -->
+  <div class="container-fluid px-3 mt-2">
     <ul class="nav nav-tabs" id="mainTabs">
       <li class="nav-item">
         <a class="nav-link active" href="#" data-tab="alignments">
@@ -61,49 +85,60 @@
     </ul>
   </div>
 
-  <!-- TAB: ALIGNMENTS -->
+  <!-- ══════════════ TAB: ALIGNMENTS ══════════════ -->
   <div id="pane-alignments" class="tab-pane-content">
-    <div class="container-fluid my-3">
+    <div class="container-fluid p-3">
       <div class="row g-3">
+
+        <!-- Sidebar -->
         <div class="col-lg-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-header d-flex justify-content-between align-items-center">
               <span><i class="bi bi-folder2-open me-1"></i>Projects</span>
-              <button class="btn btn-sm btn-outline-primary" id="refreshListBtn" title="Refresh">
+              <button class="btn btn-sm btn-outline-primary" id="refreshListBtn" title="Refresh list">
                 <i class="bi bi-arrow-clockwise"></i>
               </button>
             </div>
             <div class="card-body p-0">
               <div class="p-2 border-bottom bg-light">
                 <div class="input-group input-group-sm">
-                  <input type="text" id="newProjectName" class="form-control" placeholder="New project name…">
-                  <button class="btn btn-primary" id="newProjectBtn" title="Create">
+                  <input type="text" id="newProjectName" class="form-control"
+                         placeholder="New project name…">
+                  <button class="btn btn-primary" id="newProjectBtn" title="Create project">
                     <i class="bi bi-plus-lg"></i>
                   </button>
                 </div>
               </div>
               <div id="projectList" class="list-group list-group-flush">
-                <div class="text-muted small p-3">Loading…</div>
+                <div class="ks-empty-state">
+                  <i class="bi bi-hourglass-split"></i>Loading…
+                </div>
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Detail panel -->
         <div class="col-lg-9">
+
+          <!-- Empty state -->
           <div id="alignEmpty" class="card">
-            <div class="card-body text-center text-muted py-5">
-              <i class="bi bi-diagram-3 fs-1 d-block mb-3"></i>
-              Select a project or create a new one.<br>
-              Save your DiScEPT TEI files here with version history.
+            <div class="ks-empty-state">
+              <i class="bi bi-diagram-3"></i>
+              Select a project from the list or create a new one.<br>
+              <span class="small">Every save creates a timestamped version — you can always go back.</span>
             </div>
           </div>
 
+          <!-- Project detail -->
           <div id="alignDetail" class="d-none">
+
+            <!-- Project header -->
             <div class="card mb-3">
-              <div class="card-body py-2">
+              <div class="card-body py-2 px-3">
                 <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
                   <div>
-                    <h5 class="mb-0" id="detailTitle">—</h5>
+                    <h5 class="mb-0 fw-bold" id="detailTitle">—</h5>
                     <small class="text-muted" id="detailMeta"></small>
                   </div>
                   <div class="d-flex gap-2 flex-wrap">
@@ -111,7 +146,7 @@
                       <i class="bi bi-download me-1"></i>Download current
                     </button>
                     <button class="btn btn-sm btn-outline-danger" id="deleteProjectBtn">
-                      <i class="bi bi-trash me-1"></i>Delete project
+                      <i class="bi bi-trash me-1"></i>Delete
                     </button>
                   </div>
                 </div>
@@ -119,25 +154,36 @@
             </div>
 
             <div class="row g-3">
-              <div class="col-lg-5">
-                <div class="card">
-                  <div class="card-header"><i class="bi bi-clock-history me-1"></i>Version history</div>
-                  <div class="card-body p-0">
+
+              <!-- Version history -->
+              <div class="col-lg-4">
+                <div class="card h-100">
+                  <div class="card-header">
+                    <i class="bi bi-clock-history me-1"></i>Version history
+                  </div>
+                  <div class="card-body p-0" style="overflow-y:auto;max-height:480px">
                     <div id="versionList" class="list-group list-group-flush">
-                      <div class="text-muted small p-3">No versions yet.</div>
+                      <div class="ks-empty-state"><i class="bi bi-inbox"></i>No versions yet.</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-7">
-                <div class="card">
+
+              <!-- Preview -->
+              <div class="col-lg-8">
+                <div class="card h-100">
                   <div class="card-header d-flex justify-content-between align-items-center">
-                    <span><i class="bi bi-code-slash me-1"></i><span id="previewLabel">Current version</span></span>
+                    <span>
+                      <i class="bi bi-code-slash me-1"></i>
+                      <span id="previewLabel">Current version</span>
+                    </span>
                     <div class="d-flex gap-2">
-                      <button class="btn btn-sm btn-outline-success d-none" id="restoreVersionBtn">
+                      <button class="btn btn-sm btn-outline-success d-none" id="restoreVersionBtn"
+                              title="Make this the current version">
                         <i class="bi bi-arrow-counterclockwise me-1"></i>Restore
                       </button>
-                      <button class="btn btn-sm btn-outline-secondary" id="downloadVersionBtn">
+                      <button class="btn btn-sm btn-outline-secondary" id="downloadVersionBtn"
+                              title="Download this version">
                         <i class="bi bi-download"></i>
                       </button>
                     </div>
@@ -147,14 +193,15 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+
+            </div><!-- /row -->
+          </div><!-- /alignDetail -->
         </div>
       </div>
     </div>
   </div>
 
-  <!-- TAB: CONVERSION -->
+  <!-- ══════════════ TAB: CONVERSION ══════════════ -->
   <div id="pane-conversion" class="tab-pane-content d-none">
     <div class="container my-3">
       <div class="row g-2 align-items-center">
@@ -175,7 +222,7 @@
         </div>
         <div class="col-lg-6">
           <div class="card">
-            <div class="card-header"><i class="bi bi-file-earmark-code me-1"></i>XML/TEI</div>
+            <div class="card-header"><i class="bi bi-file-earmark-code me-1"></i>XML / TEI</div>
             <div class="card-body scroll-box">
               <pre id="convertedContent"><code></code></pre>
             </div>
@@ -185,7 +232,9 @@
     </div>
   </div>
 
-  <!-- Modal: Sync config -->
+  <!-- ══════════════ MODALS ══════════════ -->
+
+  <!-- Sync config -->
   <div class="modal fade" id="syncConfigModal" tabindex="-1">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -195,22 +244,14 @@
         </div>
         <div class="modal-body">
           <form id="syncConfigForm">
-            <div class="mb-3">
-              <label class="form-label">Resource URL</label>
-              <input type="text" class="form-control" id="resourceUrl">
-            </div>
-            <div class="mb-3">
-              <label class="form-label">Username</label>
-              <input type="text" class="form-control" id="username">
-            </div>
-            <div class="mb-3">
-              <label class="form-label">Password</label>
-              <input type="password" class="form-control" id="password">
-            </div>
-            <div class="mb-3">
-              <label class="form-label">Proxy URL (optional)</label>
-              <input type="text" class="form-control" id="proxyUrl" placeholder="http://localhost:3001/proxy">
-            </div>
+            <div class="mb-3"><label class="form-label">Resource URL</label>
+              <input type="text" class="form-control" id="resourceUrl"></div>
+            <div class="mb-3"><label class="form-label">Username</label>
+              <input type="text" class="form-control" id="username"></div>
+            <div class="mb-3"><label class="form-label">Password</label>
+              <input type="password" class="form-control" id="password"></div>
+            <div class="mb-3"><label class="form-label">Proxy URL (optional)</label>
+              <input type="text" class="form-control" id="proxyUrl" placeholder="http://localhost:3001/proxy"></div>
           </form>
         </div>
         <div class="modal-footer">
@@ -222,7 +263,7 @@
     </div>
   </div>
 
-  <!-- Modal: Save alignment -->
+  <!-- Save alignment -->
   <div class="modal fade" id="saveAlignModal" tabindex="-1">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -231,7 +272,10 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          <p class="text-muted small mb-3">Upload or paste the TEI file produced by DiScEPT. It will be archived as a new version of the selected project.</p>
+          <p class="text-muted small mb-3">
+            Upload or paste the TEI file produced by DiScEPT.
+            Each save creates a new timestamped version — nothing is overwritten.
+          </p>
           <div class="mb-3">
             <label class="form-label fw-semibold">Destination project</label>
             <select class="form-select" id="saveProjectSelect">
@@ -239,9 +283,11 @@
             </select>
           </div>
           <div class="mb-3">
-            <label class="form-label fw-semibold">TEI file <span class="text-muted fw-normal">(or paste below)</span></label>
+            <label class="form-label fw-semibold">
+              TEI file <span class="text-muted fw-normal">(or paste below)</span>
+            </label>
             <input type="file" class="form-control mb-2" id="saveAlignFile" accept=".xml">
-            <textarea class="form-control font-monospace" id="saveAlignXml" rows="10"
+            <textarea class="form-control font-monospace" id="saveAlignXml" rows="9"
                       placeholder='<TEI xmlns="http://www.tei-c.org/ns/1.0">…</TEI>'></textarea>
           </div>
         </div>
@@ -255,7 +301,7 @@
     </div>
   </div>
 
-  <!-- Modal: Restore backup -->
+  <!-- Restore backup -->
   <div class="modal fade" id="restoreModal" tabindex="-1">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -264,12 +310,17 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          <p class="text-muted small mb-3">Select a ZIP backup file previously downloaded from Klee Sync. All projects and versions it contains will be restored to the server.</p>
+          <p class="text-muted small mb-3">
+            Select a <code>.zip</code> backup previously downloaded from Klee Sync.
+            All projects and their versions will be restored to the server.
+          </p>
           <div id="restoreProgress" class="d-none">
-            <div class="progress mb-2"><div id="restoreBar" class="progress-bar" style="width:0%"></div></div>
+            <div class="progress mb-2" style="height:8px">
+              <div id="restoreBar" class="progress-bar" style="width:0%"></div>
+            </div>
             <div id="restoreStatus" class="text-muted small"></div>
           </div>
-          <div id="restoreResult" class="d-none"></div>
+          <div id="restoreResult" class="d-none mt-2"></div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
@@ -281,81 +332,206 @@
     </div>
   </div>
 
-  <!-- Toast -->
-  <div class="position-fixed bottom-0 end-0 p-3" style="z-index:1100">
-    <div id="toast" class="toast align-items-center text-white border-0" role="alert">
-      <div class="d-flex">
-        <div class="toast-body" id="toastMsg"></div>
-        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+  <!-- ══════════════ HELP MODAL ══════════════ -->
+  <div class="modal fade" id="helpModal" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title fw-bold">
+            <i class="bi bi-question-circle me-2"></i>Klee Sync — User Guide
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0">
+
+          <!-- What is -->
+          <div class="p-4 border-bottom bg-light">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <h6 class="fw-bold mb-2"><i class="bi bi-intersect text-primary me-2"></i>What is Klee Sync?</h6>
+                    <p class="mb-0 small text-muted">An eXist-db application that works as a versioned repository for TEI alignment files produced by DiScEPT, plus an Euporia → TEI XML converter.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                  <div class="card-body">
+                    <i class="bi bi-diagram-3 text-primary fs-2 d-block mb-1"></i>
+                    <h6 class="fw-bold mb-0">Alignments</h6>
+                    <p class="small text-muted mb-0">Versioned storage for DiScEPT projects</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                  <div class="card-body">
+                    <i class="bi bi-arrow-left-right text-primary fs-2 d-block mb-1"></i>
+                    <h6 class="fw-bold mb-0">Conversion</h6>
+                    <p class="small text-muted mb-0">Euporia XML → TEI XML via XSLT</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alignments workflow -->
+          <div class="p-4 border-bottom">
+            <h6 class="fw-bold mb-3 text-primary">
+              <i class="bi bi-diagram-3 me-2"></i>Working with Alignments
+            </h6>
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="ks-step">
+                  <div class="ks-step-num">1</div>
+                  <div class="ks-step-body">
+                    <strong>Create a project</strong>
+                    Type a name in the sidebar field and click <kbd>+</kbd>. A project holds all versions of one alignment file.
+                  </div>
+                </div>
+                <div class="ks-step">
+                  <div class="ks-step-num">2</div>
+                  <div class="ks-step-body">
+                    <strong>Save an alignment</strong>
+                    Click <strong>Save alignment</strong> in the toolbar. Upload a <code>.xml</code> file or paste TEI content. Every save is stored as a new timestamped version — nothing is ever overwritten.
+                  </div>
+                </div>
+                <div class="ks-step">
+                  <div class="ks-step-num">3</div>
+                  <div class="ks-step-body">
+                    <strong>Browse version history</strong>
+                    Select a project to see its full history. The <span class="badge ks-latest">latest</span> badge marks the most recent version. Click any row to preview its XML.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="ks-step">
+                  <div class="ks-step-num">4</div>
+                  <div class="ks-step-body">
+                    <strong>Restore a past version</strong>
+                    Preview any older version, then click <strong>Restore</strong>. That version becomes the new current — and a new history entry is created, so you never lose work.
+                  </div>
+                </div>
+                <div class="ks-step">
+                  <div class="ks-step-num">5</div>
+                  <div class="ks-step-body">
+                    <strong>Download</strong>
+                    <strong>Download current</strong> in the project header saves the latest file. The <i class="bi bi-download"></i> button in the preview panel saves the version currently shown.
+                  </div>
+                </div>
+                <div class="ks-step">
+                  <div class="ks-step-num">6</div>
+                  <div class="ks-step-body">
+                    <strong>Delete a project</strong>
+                    Click <strong>Delete</strong> to permanently remove the project and all its versions. This cannot be undone.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DiScEPT integration -->
+          <div class="p-4 border-bottom">
+            <h6 class="fw-bold mb-3 text-primary">
+              <i class="bi bi-plug me-2"></i>DiScEPT Integration
+            </h6>
+            <p class="small text-muted mb-3">
+              Configure the <strong>eXistDB Sync</strong> dialog in DiScEPT to point at Klee Sync.
+              After loading a project, any <strong>Save</strong> in DiScEPT automatically creates a new version — exactly like a Git commit.
+            </p>
+            <div class="table-responsive">
+              <table class="table table-sm table-bordered align-middle mb-0" id="configTable">
+                <thead class="table-light">
+                  <tr>
+                    <th style="width:160px">Field</th>
+                    <th>Value</th>
+                    <th style="width:50px"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="fw-semibold">Base URL</td>
+                    <td><code id="cfg-base">http://&lt;your-host&gt;:8080/exist</code></td>
+                    <td><button class="ks-copy-btn" data-copy="cfg-base" title="Copy"><i class="bi bi-clipboard"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td class="fw-semibold">Collection</td>
+                    <td><code id="cfg-col">/db/apps/klee-sync/data/alignments</code></td>
+                    <td><button class="ks-copy-btn" data-copy="cfg-col" title="Copy"><i class="bi bi-clipboard"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td class="fw-semibold">User</td>
+                    <td><span class="text-muted fst-italic">your eXist-db username</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="fw-semibold">Password</td>
+                    <td><span class="text-muted fst-italic">your eXist-db password</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="fw-semibold">Proxy URL</td>
+                    <td><code id="cfg-proxy">http://localhost:3001</code> <span class="text-muted small">(if using DiScEPT proxy server)</span></td>
+                    <td><button class="ks-copy-btn" data-copy="cfg-proxy" title="Copy"><i class="bi bi-clipboard"></i></button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="alert alert-success border-0 mt-3 py-2 small mb-0">
+              <i class="bi bi-info-circle me-1"></i>
+              After a <strong>Load</strong>, the green session banner appears at the top of the page.
+              Every subsequent <strong>Save</strong> in DiScEPT creates a new version of that project automatically.
+            </div>
+          </div>
+
+          <!-- Backup & Restore -->
+          <div class="p-4 border-bottom">
+            <h6 class="fw-bold mb-3 text-primary">
+              <i class="bi bi-archive me-2"></i>Backup &amp; Restore
+            </h6>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="card border-0 bg-light h-100">
+                  <div class="card-body">
+                    <h6 class="fw-semibold"><i class="bi bi-archive me-1 text-primary"></i>Backup</h6>
+                    <p class="small text-muted mb-0">Downloads a <code>.zip</code> with all projects and all their versions. Run a backup before installing a new XAR version.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card border-0 bg-light h-100">
+                  <div class="card-body">
+                    <h6 class="fw-semibold"><i class="bi bi-arrow-counterclockwise me-1 text-primary"></i>Restore</h6>
+                    <p class="small text-muted mb-0">Upload a backup ZIP to re-import all projects and versions in chronological order. A progress bar shows the status.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conversion -->
+          <div class="p-4">
+            <h6 class="fw-bold mb-3 text-primary">
+              <i class="bi bi-arrow-left-right me-2"></i>Conversion tab
+            </h6>
+            <p class="small text-muted mb-0">Upload an Euporia <code>.xml</code> file — Klee Sync converts it server-side via XSLT and displays the TEI result alongside the source. Click <strong>Download TEI</strong> to save the output. Use <strong>Sync</strong> to fetch the source directly from a remote URL.</p>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it</button>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- Modal: Help / User Guide -->
-  <div class="modal fade" id="helpModal" tabindex="-1">
-    <div class="modal-dialog modal-lg modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title"><i class="bi bi-question-circle me-2"></i>Klee Sync — User Guide</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-        <div class="modal-body">
-
-          <h6 class="fw-bold border-bottom pb-1 mb-3">What is Klee Sync?</h6>
-          <p>Klee Sync is an eXist-db application with two functions:</p>
-          <ul>
-            <li><strong>Conversion</strong> — converts Euporia XML files to TEI XML via XSLT.</li>
-            <li><strong>Alignments</strong> — stores and versions TEI alignment files produced by DiScEPT.</li>
-          </ul>
-
-          <h6 class="fw-bold border-bottom pb-1 mb-3 mt-4">Alignments tab</h6>
-
-          <p class="fw-semibold mb-1">Creating a project</p>
-          <p>Type a name in the <em>New project name</em> field and click <i class="bi bi-plus-lg"></i>. A project is a named container for versions of a TEI alignment file.</p>
-
-          <p class="fw-semibold mb-1">Saving an alignment</p>
-          <p>Click <strong>Save alignment</strong> in the toolbar. Select the destination project, then either upload a <code>.xml</code> file or paste the TEI content. Each save creates a timestamped version in the project history.</p>
-
-          <p class="fw-semibold mb-1">Version history</p>
-          <p>Select a project to see its version list on the left. Click any version to preview the XML on the right. The <strong>latest</strong> badge marks the most recent save.</p>
-
-          <p class="fw-semibold mb-1">Restoring a version</p>
-          <p>Preview a past version, then click <strong>Restore</strong>. The selected version becomes the new current version and a new history entry is created.</p>
-
-          <p class="fw-semibold mb-1">Downloading</p>
-          <p><strong>Download current</strong> downloads the latest saved file. The <i class="bi bi-download"></i> button in the preview panel downloads whichever version is currently shown.</p>
-
-          <p class="fw-semibold mb-1">Deleting a project</p>
-          <p>Click <strong>Delete project</strong> to permanently remove the project and all its versions. This action cannot be undone.</p>
-
-          <h6 class="fw-bold border-bottom pb-1 mb-3 mt-4">Integration with DiScEPT</h6>
-          <p>To use Klee Sync as the save/load target from DiScEPT, configure the <strong>eXistDB Sync</strong> dialog in DiScEPT as follows:</p>
-          <table class="table table-sm table-bordered">
-            <tbody>
-              <tr><th>Base URL</th><td><code>http://&lt;host&gt;:8080/exist</code></td></tr>
-              <tr><th>Collection</th><td><code>/db/apps/klee-sync/data/alignments</code></td></tr>
-              <tr><th>User</th><td><i>your eXist-db username</i></td></tr>
-              <tr><th>Password</th><td><i>your eXist-db password</i></td></tr>
-              <tr><th>Proxy URL</th><td><code>http://localhost:3001</code> (if using DiScEPT proxy: any port might suit)</td></tr>
-            </tbody>
-          </table>
-          <p>With this configuration:</p>
-          <ul>
-            <li><strong>Load</strong> fetches the current version of the selected project into DiScEPT.</li>
-            <li><strong>Save</strong> automatically stores a new timestamped version in Klee Sync.</li>
-          </ul>
-
-          <h6 class="fw-bold border-bottom pb-1 mb-3 mt-4">Backup &amp; Restore</h6>
-          <p><strong>Backup</strong> downloads a <code>.zip</code> archive containing all projects and all their versions. Use this before upgrading Klee Sync to a new XAR version.</p>
-          <p><strong>Restore</strong> uploads a previously downloaded backup ZIP and re-imports every version of every project in chronological order.</p>
-
-          <h6 class="fw-bold border-bottom pb-1 mb-3 mt-4">Conversion tab</h6>
-          <p>Upload an Euporia <code>.xml</code> file using the file picker. Klee Sync sends it to the server-side XSLT transformer and displays the resulting TEI XML alongside the source. Click <strong>Download TEI</strong> to save the output. Use <strong>Sync</strong> to fetch the source XML directly from a remote URL instead of uploading a file.</p>
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-        </div>
+  <!-- Toast -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index:1100">
+    <div id="toast" class="toast align-items-center text-white border-0" role="alert">
+      <div class="d-flex">
+        <div class="toast-body fw-semibold" id="toastMsg"></div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
       </div>
     </div>
   </div>

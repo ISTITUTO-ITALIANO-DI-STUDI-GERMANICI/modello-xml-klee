@@ -9,4 +9,5 @@
     <type>application</type>
     <target>klee-sync</target>
     <prepare>pre-install.xq</prepare>
+    <finish>post-install.xq</finish>
 </meta>

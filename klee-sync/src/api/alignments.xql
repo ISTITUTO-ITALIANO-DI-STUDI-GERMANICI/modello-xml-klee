@@ -81,9 +81,9 @@ declare function local:list() {
         let $modified := xmldb:last-modified($ALIGN, $f)
         let $size     := xmldb:size($ALIGN, $f)
         let $vcount   :=
-            let $vcol := $VERSIONS || "/" || replace($f, "\.xml$", "")
-            return if (xmldb:collection-available($vcol))
-                   then count(xmldb:get-child-resources($vcol)[ends-with(., ".xml")])
+            let $pname := replace($f, "\.xml$", "")
+            return if (xmldb:collection-available($VERSIONS))
+                   then count(xmldb:get-child-resources($VERSIONS)[starts-with(., $pname || "_") and ends-with(., ".xml")])
                    else 0
         let $name     := replace($f, "\.xml$", "")
         let $mod-str  := if ($modified castable as xs:dateTime) then string($modified) else ""
@@ -108,15 +108,15 @@ declare function local:get($project as xs:string) {
 };
 
 declare function local:versions($project as xs:string) {
-    let $vcol  := $VERSIONS || "/" || replace(local:to-filename($project), "\.xml$", "")
+    let $pname := replace(local:to-filename($project), "\.xml$", "")
     let $files :=
-        if (xmldb:collection-available($vcol))
-        then xmldb:get-child-resources($vcol)[ends-with(., ".xml")]
+        if (xmldb:collection-available($VERSIONS))
+        then xmldb:get-child-resources($VERSIONS)[starts-with(., $pname || "_") and ends-with(., ".xml")]
         else ()
     let $items :=
         for $f in $files
-        let $modified := xmldb:last-modified($vcol, $f)
-        let $size     := xmldb:size($vcol, $f)
+        let $modified := xmldb:last-modified($VERSIONS, $f)
+        let $size     := xmldb:size($VERSIONS, $f)
         let $mod-str  := if ($modified castable as xs:dateTime) then string($modified) else ""
         let $ts       := replace($f, "^.+_(\d{8}T\d{6})\.xml$", "$1")
         order by $f descending
@@ -130,8 +130,7 @@ declare function local:versions($project as xs:string) {
 };
 
 declare function local:get-version($project as xs:string, $version as xs:string) {
-    let $vcol := $VERSIONS || "/" || replace(local:to-filename($project), "\.xml$", "")
-    let $uri  := $vcol || "/" || $version
+    let $uri := $VERSIONS || "/" || $version
     return local:xml-response(if (doc-available($uri)) then doc($uri) else ())
 };
 
@@ -160,14 +159,8 @@ declare function local:save($project as xs:string) {
             let $pname  := replace($fname, "\.xml$", "")
             let $ts     := local:ts()
             let $vfname := $pname || "_" || $ts || ".xml"
-            let $vcol   := $VERSIONS || "/" || $pname
 
-            let $_ :=
-                if (not(xmldb:collection-available($vcol)))
-                then xmldb:create-collection($VERSIONS, $pname)
-                else ()
-
-            let $_v := xmldb:store($vcol, $vfname, $body)
+            let $_v := xmldb:store($VERSIONS, $vfname, $body)
             let $_c := xmldb:store($ALIGN, $fname, $body)
 
             return
@@ -184,13 +177,16 @@ declare function local:delete($project as xs:string) {
     let $fname := local:to-filename($project)
     let $pname := replace($fname, "\.xml$", "")
     let $uri   := $ALIGN || "/" || $fname
-    let $vcol  := $VERSIONS || "/" || $pname
     return
         if (not(doc-available($uri)))
         then local:json-response(404, '{"error":"Project not found"}')
         else (
             xmldb:remove($ALIGN, $fname),
-            if (xmldb:collection-available($vcol)) then xmldb:remove($vcol) else (),
+            if (xmldb:collection-available($VERSIONS))
+            then
+                for $vf in xmldb:get-child-resources($VERSIONS)[starts-with(., $pname || "_") and ends-with(., ".xml")]
+                return xmldb:remove($VERSIONS, $vf)
+            else (),
             local:json-response(200, '{"deleted":"' || $fname || '"}')
         )
 };
