@@ -14,13 +14,13 @@ return
   (: DiScEPT listCollection: GET /data/alignments/ :)
   else if ($path = "/data/alignments/" or $path = "/data/alignments") then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-      <forward url="/exist/apps/klee-sync/src/api/rest-bridge.xql"/>
+      <forward url="/exist/apps/discept-sync/src/api/rest-bridge.xql"/>
     </dispatch>
 
   (: DiScEPT fetchFile / writeFile: GET|PUT /data/alignments/{name}.xml :)
   else if (matches($path, "^/data/alignments/[^/]+\.xml$")) then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-      <forward url="/exist/apps/klee-sync/src/api/rest-bridge.xql"/>
+      <forward url="/exist/apps/discept-sync/src/api/rest-bridge.xql"/>
     </dispatch>
 
   else

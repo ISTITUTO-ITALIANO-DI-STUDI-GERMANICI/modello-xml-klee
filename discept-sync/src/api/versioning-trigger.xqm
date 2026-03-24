@@ -4,7 +4,7 @@ module namespace trigger = "http://exist-db.org/xquery/trigger";
 
 import module namespace xmldb = "http://exist-db.org/xquery/xmldb";
 
-declare variable $trigger:VERSIONS := "/db/apps/klee-sync/data/versions";
+declare variable $trigger:VERSIONS := "/db/apps/discept-sync/data/versions";
 
 declare function trigger:after-create-document($uri as xs:anyURI) {
     trigger:snapshot($uri)

@@ -8,7 +8,7 @@ import module namespace util     = "http://exist-db.org/xquery/util";
 declare namespace tei   = "http://www.tei-c.org/ns/1.0";
 declare namespace exist = "http://exist.sourceforge.net/NS/exist";
 
-declare variable $BASE     := "/db/apps/klee-sync/data";
+declare variable $BASE     := "/db/apps/discept-sync/data";
 declare variable $ALIGN    := $BASE || "/alignments";
 declare variable $VERSIONS := $BASE || "/versions";
 

@@ -14,7 +14,7 @@ let $xml := $response[2]
 
 return
     xmldb:store(
-        "/db/apps/klee-sync/data/input",
+        "/db/apps/discept-sync/data/input",
         "dsl.xml",
         $xml
     )

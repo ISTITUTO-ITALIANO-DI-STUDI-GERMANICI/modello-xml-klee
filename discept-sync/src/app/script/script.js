@@ -1,6 +1,6 @@
 'use strict';
 
-const ALIGN_API     = '/exist/apps/klee-sync/src/api/alignments.xql';
+const ALIGN_API     = '/exist/apps/discept-sync/src/api/alignments.xql';
 const SESSION_KEY   = 'ks-active-project';
 
 let currentTEI        = '';
@@ -9,7 +9,7 @@ let previewingVersion = null;
 let previewXml        = '';
 let restoreZipFile    = null;
 
-/* Active session: project loaded from klee-sync into DiScEPT */
+/* Active session: project loaded from discept-sync into DiScEPT */
 let activeSession = localStorage.getItem(SESSION_KEY) || null;
 
 /* ── Bootstrap instances ── */
@@ -98,7 +98,7 @@ document.getElementById('mainTabs').addEventListener('click', function(e) {
 
 /* ── Conversion ── */
 var defaultConfig = {
-  resourceUrl: 'https://existdb2.websoupcloud.it/exist/apps/klee/data/annoParsed.xml',
+  resourceUrl: 'https://existdb2.websoupcloud.it/exist/apps/discept/data/annoParsed.xml',
   username: '', password: '', proxyUrl: ''
 };
 var currentConfig = Object.assign({}, defaultConfig);
@@ -116,7 +116,7 @@ async function convertFile(file) {
   document.querySelector('#sourceContent code').innerHTML = addLineNumbers(await file.text());
   var fd = new FormData(); fd.append('file', file);
   try {
-    var r = await fetch('/exist/apps/klee-sync/src/api/transform.xql', { method: 'POST', body: fd });
+    var r = await fetch('/exist/apps/discept-sync/src/api/transform.xql', { method: 'POST', body: fd });
     if (!r.ok) throw new Error('Server error: ' + r.status);
     currentTEI = await r.text();
     document.querySelector('#convertedContent code').innerHTML = addLineNumbers(currentTEI);
@@ -409,7 +409,7 @@ document.getElementById('backupBtn').addEventListener('click', async function() 
     }
     var blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE' });
     var ts = new Date().toISOString().replace(/[-:T]/g,'').slice(0,15);
-    dlBlob(blob, 'klee-sync-backup-' + ts + '.zip', 'application/zip');
+    dlBlob(blob, 'discept-sync-backup-' + ts + '.zip', 'application/zip');
     notify('Backup complete — ' + projects.length + ' project' + (projects.length === 1 ? '' : 's'));
   } catch(e) { notify('Backup error: ' + e.message, 'danger'); }
 });

@@ -3,7 +3,7 @@
     <triggers>
         <trigger class="org.exist.collections.triggers.XQueryTrigger">
             <parameter name="url"
-                value="xmldb:exist:///db/apps/klee-sync/src/api/versioning-trigger.xqm"/>
+                value="xmldb:exist:///db/apps/discept-sync/src/api/versioning-trigger.xqm"/>
         </trigger>
     </triggers>
 </collection>

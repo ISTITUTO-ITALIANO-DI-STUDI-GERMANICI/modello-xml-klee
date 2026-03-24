@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Klee Sync</title>
+  <title>DIScEPT Sync</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="src/app/style/style.css">
@@ -13,7 +13,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1">
-        <i class="bi bi-intersect me-2"></i>Klee Sync
+        <i class="bi bi-intersect me-2"></i>DIScEPT Sync
       </span>
       <div class="d-flex align-items-center gap-2 flex-wrap">
 
@@ -311,7 +311,7 @@
         </div>
         <div class="modal-body">
           <p class="text-muted small mb-3">
-            Select a <code>.zip</code> backup previously downloaded from Klee Sync.
+            Select a <code>.zip</code> backup previously downloaded from DIScEPT Sync.
             All projects and their versions will be restored to the server.
           </p>
           <div id="restoreProgress" class="d-none">
@@ -338,7 +338,7 @@
       <div class="modal-content">
         <div class="modal-header bg-primary text-white">
           <h5 class="modal-title fw-bold">
-            <i class="bi bi-question-circle me-2"></i>Klee Sync — User Guide
+            <i class="bi bi-question-circle me-2"></i>DIScEPT Sync — User Guide
           </h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
         </div>
@@ -350,7 +350,7 @@
               <div class="col-md-6">
                 <div class="card h-100 border-0 shadow-sm">
                   <div class="card-body">
-                    <h6 class="fw-bold mb-2"><i class="bi bi-intersect text-primary me-2"></i>What is Klee Sync?</h6>
+                    <h6 class="fw-bold mb-2"><i class="bi bi-intersect text-primary me-2"></i>What is DIScEPT Sync?</h6>
                     <p class="mb-0 small text-muted">An eXist-db application that works as a versioned repository for TEI alignment files produced by DiScEPT, plus an Euporia → TEI XML converter.</p>
                   </div>
                 </div>
@@ -437,7 +437,7 @@
               <i class="bi bi-plug me-2"></i>DiScEPT Integration
             </h6>
             <p class="small text-muted mb-3">
-              Configure the <strong>eXistDB Sync</strong> dialog in DiScEPT to point at Klee Sync.
+              Configure the <strong>eXistDB Sync</strong> dialog in DiScEPT to point at DIScEPT Sync.
               After loading a project, any <strong>Save</strong> in DiScEPT automatically creates a new version — exactly like a Git commit.
             </p>
             <div class="table-responsive">
@@ -457,7 +457,7 @@
                   </tr>
                   <tr>
                     <td class="fw-semibold">Collection</td>
-                    <td><code id="cfg-col">/db/apps/klee-sync/data/alignments</code></td>
+                    <td><code id="cfg-col">/db/apps/discept-sync/data/alignments</code></td>
                     <td><button class="ks-copy-btn" data-copy="cfg-col" title="Copy"><i class="bi bi-clipboard"></i></button></td>
                   </tr>
                   <tr>
@@ -515,7 +515,7 @@
             <h6 class="fw-bold mb-3 text-primary">
               <i class="bi bi-arrow-left-right me-2"></i>Conversion tab
             </h6>
-            <p class="small text-muted mb-0">Upload an Euporia <code>.xml</code> file — Klee Sync converts it server-side via XSLT and displays the TEI result alongside the source. Click <strong>Download TEI</strong> to save the output. Use <strong>Sync</strong> to fetch the source directly from a remote URL.</p>
+            <p class="small text-muted mb-0">Upload an Euporia <code>.xml</code> file — DIScEPT Sync converts it server-side via XSLT and displays the TEI result alongside the source. Click <strong>Download TEI</strong> to save the output. Use <strong>Sync</strong> to fetch the source directly from a remote URL.</p>
           </div>
 
         </div>

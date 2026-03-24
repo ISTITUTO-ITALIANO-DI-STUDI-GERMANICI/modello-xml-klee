@@ -7,19 +7,19 @@ declare variable $target external;
 
 let $align    := xs:anyURI($target || "/data/alignments")
 let $versions := xs:anyURI($target || "/data/versions")
-let $cfg-root := "/db/system/config/db/apps/klee-sync/data/alignments"
+let $cfg-root := "/db/system/config/db/apps/discept-sync/data/alignments"
 
 return (
-    if (not(xmldb:collection-available("/db/system/config/db/apps/klee-sync")))
-    then xmldb:create-collection("/db/system/config/db/apps", "klee-sync")
+    if (not(xmldb:collection-available("/db/system/config/db/apps/discept-sync")))
+    then xmldb:create-collection("/db/system/config/db/apps", "discept-sync")
     else (),
 
-    if (not(xmldb:collection-available("/db/system/config/db/apps/klee-sync/data")))
-    then xmldb:create-collection("/db/system/config/db/apps/klee-sync", "data")
+    if (not(xmldb:collection-available("/db/system/config/db/apps/discept-sync/data")))
+    then xmldb:create-collection("/db/system/config/db/apps/discept-sync", "data")
     else (),
 
     if (not(xmldb:collection-available($cfg-root)))
-    then xmldb:create-collection("/db/system/config/db/apps/klee-sync/data", "alignments")
+    then xmldb:create-collection("/db/system/config/db/apps/discept-sync/data", "alignments")
     else (),
 
     if (doc-available($target || "/collection.xconf"))

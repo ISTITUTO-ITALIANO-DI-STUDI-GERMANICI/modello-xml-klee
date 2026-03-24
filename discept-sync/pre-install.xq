@@ -6,7 +6,7 @@ declare variable $target external;
 
 (
     if (not(xmldb:collection-available($target)))
-    then xmldb:create-collection("/db/apps", "klee-sync")
+    then xmldb:create-collection("/db/apps", "discept-sync")
     else (),
 
     if (not(xmldb:collection-available($target || "/data")))
