@@ -1,24 +1,24 @@
 'use strict';
 
-const ALIGN_API     = '/exist/apps/discept-sync/src/api/alignments.xql';
-const SESSION_KEY   = 'ks-active-project';
+const ALIGN_API = '/exist/apps/discept-sync/src/api/alignments.xql';
+const SESSION_KEY = 'ks-active-project';
 
-let currentTEI        = '';
-let currentProject    = null;
+let currentTEI = '';
+let currentProject = null;
 let previewingVersion = null;
-let previewXml        = '';
-let restoreZipFile    = null;
+let previewXml = '';
+let restoreZipFile = null;
 
 /* Active session: project loaded from discept-sync into DiScEPT */
 let activeSession = localStorage.getItem(SESSION_KEY) || null;
 
 /* ── Bootstrap instances ── */
 const syncConfigModal = new bootstrap.Modal('#syncConfigModal');
-const saveAlignModal  = new bootstrap.Modal('#saveAlignModal');
-const restoreModal    = new bootstrap.Modal('#restoreModal');
-const helpModal       = new bootstrap.Modal('#helpModal');
-const toastEl         = document.getElementById('toast');
-const bsToast         = new bootstrap.Toast(toastEl, { delay: 3500 });
+const saveAlignModal = new bootstrap.Modal('#saveAlignModal');
+const restoreModal = new bootstrap.Modal('#restoreModal');
+const helpModal = new bootstrap.Modal('#helpModal');
+const toastEl = document.getElementById('toast');
+const bsToast = new bootstrap.Toast(toastEl, { delay: 3500 });
 
 /* ── Utilities ── */
 function notify(msg, type) {
@@ -27,20 +27,20 @@ function notify(msg, type) {
   bsToast.show();
 }
 function esc(s) {
-  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 function enc(s) { return encodeURIComponent(s); }
 
 function addLineNumbers(text) {
-  return text.split('\n').map(function(l) {
-    return '<span>' + l.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</span>';
+  return text.split('\n').map(function (l) {
+    return '<span>' + l.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</span>';
   }).join('');
 }
 
 function fmtTs(ts) {
   if (!ts || ts.length < 15) return ts || '—';
-  return ts.slice(6,8)+'/'+ts.slice(4,6)+'/'+ts.slice(0,4)
-       + ' '+ts.slice(9,11)+':'+ts.slice(11,13)+':'+ts.slice(13,15);
+  return ts.slice(6, 8) + '/' + ts.slice(4, 6) + '/' + ts.slice(0, 4)
+    + ' ' + ts.slice(9, 11) + ':' + ts.slice(11, 13) + ':' + ts.slice(13, 15);
 }
 
 function dlBlob(content, filename, mime) {
@@ -70,24 +70,24 @@ function setActiveSession(name) {
   updateSessionBanner();
 }
 
-document.getElementById('clearSessionBtn').addEventListener('click', function() {
+document.getElementById('clearSessionBtn').addEventListener('click', function () {
   setActiveSession(null);
   notify('Session cleared', 'secondary');
 });
 
 /* ── Tabs ── */
-var syncGroup   = document.getElementById('syncGroup');
+var syncGroup = document.getElementById('syncGroup');
 var downloadBtn = document.getElementById('downloadBtn');
 var saveAlignBtn = document.getElementById('saveAlignBtn');
 
-document.getElementById('mainTabs').addEventListener('click', function(e) {
+document.getElementById('mainTabs').addEventListener('click', function (e) {
   var link = e.target.closest('[data-tab]');
   if (!link) return;
   e.preventDefault();
   var tab = link.dataset.tab;
-  document.querySelectorAll('.tab-pane-content').forEach(function(p) { p.classList.add('d-none'); });
+  document.querySelectorAll('.tab-pane-content').forEach(function (p) { p.classList.add('d-none'); });
   document.getElementById('pane-' + tab).classList.remove('d-none');
-  document.querySelectorAll('#mainTabs .nav-link').forEach(function(l) { l.classList.remove('active'); });
+  document.querySelectorAll('#mainTabs .nav-link').forEach(function (l) { l.classList.remove('active'); });
   link.classList.add('active');
   var isConversion = tab === 'conversion';
   syncGroup.classList.toggle('d-none', !isConversion);
@@ -106,9 +106,9 @@ var currentConfig = Object.assign({}, defaultConfig);
 function loadConfigForm(cfg) {
   cfg = cfg || defaultConfig;
   document.getElementById('resourceUrl').value = cfg.resourceUrl;
-  document.getElementById('username').value    = cfg.username;
-  document.getElementById('password').value    = cfg.password;
-  document.getElementById('proxyUrl').value    = cfg.proxyUrl || '';
+  document.getElementById('username').value = cfg.username;
+  document.getElementById('password').value = cfg.password;
+  document.getElementById('proxyUrl').value = cfg.proxyUrl || '';
 }
 
 async function convertFile(file) {
@@ -120,29 +120,31 @@ async function convertFile(file) {
     if (!r.ok) throw new Error('Server error: ' + r.status);
     currentTEI = await r.text();
     document.querySelector('#convertedContent code').innerHTML = addLineNumbers(currentTEI);
-  } catch(e) { notify('Conversion failed: ' + e.message, 'danger'); }
+  } catch (e) { notify('Conversion failed: ' + e.message, 'danger'); }
 }
 
-document.getElementById('sourceFile').addEventListener('change', function(e) { convertFile(e.target.files[0]); });
-downloadBtn.addEventListener('click', function() { if (currentTEI) dlBlob(currentTEI, 'converted.xml'); });
-document.getElementById('configureSync').addEventListener('click', function(e) {
+document.getElementById('sourceFile').addEventListener('change', function (e) { convertFile(e.target.files[0]); });
+downloadBtn.addEventListener('click', function () { if (currentTEI) dlBlob(currentTEI, 'converted.xml'); });
+document.getElementById('configureSync').addEventListener('click', function (e) {
   e.preventDefault(); loadConfigForm(currentConfig); syncConfigModal.show();
 });
-document.getElementById('resetConfig').addEventListener('click', function() { loadConfigForm(defaultConfig); });
-document.getElementById('saveConfig').addEventListener('click', function() {
+document.getElementById('resetConfig').addEventListener('click', function () { loadConfigForm(defaultConfig); });
+document.getElementById('saveConfig').addEventListener('click', function () {
   var f = document.getElementById('syncConfigForm');
-  currentConfig = { resourceUrl: f.resourceUrl.value, username: f.username.value,
-                    password: f.password.value, proxyUrl: f.proxyUrl.value };
+  currentConfig = {
+    resourceUrl: f.resourceUrl.value, username: f.username.value,
+    password: f.password.value, proxyUrl: f.proxyUrl.value
+  };
   syncConfigModal.hide(); notify('Configuration saved');
 });
-document.getElementById('syncBtn').addEventListener('click', async function() {
+document.getElementById('syncBtn').addEventListener('click', async function () {
   try {
     var target = currentConfig.proxyUrl
       ? currentConfig.proxyUrl + '?url=' + enc(currentConfig.resourceUrl)
       : currentConfig.resourceUrl;
     document.querySelector('#convertedContent code').innerHTML = addLineNumbers(await (await fetch(target)).text());
     notify('Sync complete');
-  } catch(e) { notify(e.message, 'danger'); }
+  } catch (e) { notify(e.message, 'danger'); }
 });
 
 /* ══════════════════════════════════════════
@@ -159,7 +161,7 @@ async function loadProjectList() {
     var sel = document.getElementById('saveProjectSelect');
     var prev = sel.value;
     sel.innerHTML = '<option value="">— select project —</option>';
-    projects.forEach(function(p) {
+    projects.forEach(function (p) {
       var o = document.createElement('option'); o.value = p.name; o.textContent = p.name; sel.appendChild(o);
     });
     if (prev) sel.value = prev;
@@ -170,9 +172,9 @@ async function loadProjectList() {
     }
 
     list.innerHTML = '';
-    projects.forEach(function(p) {
-      var isActive   = currentProject && currentProject.name === p.name;
-      var isSession  = activeSession && activeSession === p.name;
+    projects.forEach(function (p) {
+      var isActive = currentProject && currentProject.name === p.name;
+      var isSession = activeSession && activeSession === p.name;
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'list-group-item list-group-item-action' + (isActive ? ' active' : '');
@@ -185,17 +187,17 @@ async function loadProjectList() {
 
       btn.innerHTML =
         '<div class="d-flex justify-content-between align-items-center">' +
-          '<div class="text-truncate me-2">' +
-            '<span class="fw-semibold">' + esc(p.name) + '</span>' + sessionBadge +
-            '<div class="text-muted small">' + esc(p.langs || '—') + '</div>' +
-          '</div>' +
-          '<div class="text-end">' + alnBadge + vBadge + '</div>' +
+        '<div class="text-truncate me-2">' +
+        '<span class="fw-semibold">' + esc(p.name) + '</span>' + sessionBadge +
+        '<div class="text-muted small">' + esc(p.langs || '—') + '</div>' +
+        '</div>' +
+        '<div class="text-end">' + alnBadge + vBadge + '</div>' +
         '</div>';
 
-      btn.addEventListener('click', function() { selectProject(p); });
+      btn.addEventListener('click', function () { selectProject(p); });
       list.appendChild(btn);
     });
-  } catch(e) {
+  } catch (e) {
     list.innerHTML = '<div class="text-danger small p-3">Error: ' + esc(e.message) + '</div>';
   }
 }
@@ -209,7 +211,7 @@ async function selectProject(p) {
     p.alignments + ' alignment' + (p.alignments === 1 ? '' : 's') +
     ' · ' + (p.langs || '—') +
     ' · ' + p.versions + ' version' + (p.versions === 1 ? '' : 's');
-  document.querySelectorAll('#projectList .list-group-item').forEach(function(el) {
+  document.querySelectorAll('#projectList .list-group-item').forEach(function (el) {
     el.classList.toggle('active', el.dataset.project === p.name);
   });
   await Promise.all([loadVersionList(p.name), loadCurrentPreview(p.name)]);
@@ -225,7 +227,7 @@ async function loadVersionList(projectName) {
       return;
     }
     list.innerHTML = '';
-    versions.forEach(function(v, i) {
+    versions.forEach(function (v, i) {
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'list-group-item list-group-item-action';
@@ -238,17 +240,17 @@ async function loadVersionList(projectName) {
 
       btn.innerHTML =
         '<div class="d-flex justify-content-between align-items-center">' +
-          '<div>' +
-            '<div class="fw-semibold" style="font-size:.82rem">' + fmtTs(v.timestamp) + latestBadge + '</div>' +
-            '<div class="text-muted" style="font-size:.74rem">' + (v.size/1024).toFixed(1) + ' KB</div>' +
-          '</div>' +
-          '<i class="bi bi-chevron-right text-muted"></i>' +
+        '<div>' +
+        '<div class="fw-semibold" style="font-size:.82rem">' + fmtTs(v.timestamp) + latestBadge + '</div>' +
+        '<div class="text-muted" style="font-size:.74rem">' + (v.size / 1024).toFixed(1) + ' KB</div>' +
+        '</div>' +
+        '<i class="bi bi-chevron-right text-muted"></i>' +
         '</div>';
 
-      btn.addEventListener('click', function() { loadVersionPreview(projectName, v.file, btn); });
+      btn.addEventListener('click', function () { loadVersionPreview(projectName, v.file, btn); });
       list.appendChild(btn);
     });
-  } catch(e) {
+  } catch (e) {
     list.innerHTML = '<div class="text-danger small p-3">Error: ' + esc(e.message) + '</div>';
   }
 }
@@ -266,13 +268,13 @@ async function loadCurrentPreview(projectName) {
     }
     previewXml = await r.text();
     document.querySelector('#previewContent code').innerHTML = addLineNumbers(previewXml);
-  } catch(e) {
+  } catch (e) {
     document.querySelector('#previewContent code').textContent = 'Error: ' + e.message;
   }
 }
 
 async function loadVersionPreview(projectName, vfile, btnEl) {
-  document.querySelectorAll('#versionList .list-group-item').forEach(function(el) { el.classList.remove('active'); });
+  document.querySelectorAll('#versionList .list-group-item').forEach(function (el) { el.classList.remove('active'); });
   btnEl.classList.add('active');
   var ts = vfile.replace(/^.+_(\d{8}T\d{6})\.xml$/, '$1');
   document.getElementById('previewLabel').textContent = 'Version ' + fmtTs(ts);
@@ -283,18 +285,18 @@ async function loadVersionPreview(projectName, vfile, btnEl) {
       ALIGN_API + '?action=get-version&project=' + enc(projectName) + '&version=' + enc(vfile)
     )).text();
     document.querySelector('#previewContent code').innerHTML = addLineNumbers(previewXml);
-  } catch(e) {
+  } catch (e) {
     document.querySelector('#previewContent code').textContent = 'Error: ' + e.message;
   }
 }
 
 /* ── Actions ── */
-document.getElementById('newProjectBtn').addEventListener('click', function() {
+document.getElementById('newProjectBtn').addEventListener('click', function () {
   var name = document.getElementById('newProjectName').value.trim();
   if (!name) return;
   document.getElementById('newProjectName').value = '';
   var sel = document.getElementById('saveProjectSelect');
-  if (![].slice.call(sel.options).some(function(o) { return o.value === name; })) {
+  if (![].slice.call(sel.options).some(function (o) { return o.value === name; })) {
     var o = document.createElement('option'); o.value = name; o.textContent = name; sel.appendChild(o);
   }
   sel.value = name;
@@ -312,20 +314,20 @@ document.getElementById('newProjectBtn').addEventListener('click', function() {
 
 document.getElementById('refreshListBtn').addEventListener('click', loadProjectList);
 
-document.getElementById('downloadCurrentBtn').addEventListener('click', async function() {
+document.getElementById('downloadCurrentBtn').addEventListener('click', async function () {
   if (!currentProject) return;
   try {
     dlBlob(await (await fetch(ALIGN_API + '?action=get&project=' + enc(currentProject.name))).text(),
-           currentProject.name + '.xml');
-  } catch(e) { notify('Download error: ' + e.message, 'danger'); }
+      currentProject.name + '.xml');
+  } catch (e) { notify('Download error: ' + e.message, 'danger'); }
 });
 
-document.getElementById('downloadVersionBtn').addEventListener('click', function() {
+document.getElementById('downloadVersionBtn').addEventListener('click', function () {
   if (!previewXml) return;
   dlBlob(previewXml, previewingVersion || ((currentProject ? currentProject.name : 'export') + '.xml'));
 });
 
-document.getElementById('restoreVersionBtn').addEventListener('click', async function() {
+document.getElementById('restoreVersionBtn').addEventListener('click', async function () {
   if (!currentProject || !previewingVersion || !previewXml) return;
   if (!confirm('Restore this version as current for "' + currentProject.name + '"?\nA new history entry will be created.')) return;
   try {
@@ -336,10 +338,10 @@ document.getElementById('restoreVersionBtn').addEventListener('click', async fun
       notify('Version restored (' + fmtTs(j.timestamp) + ')');
       selectProject(Object.assign({}, currentProject, { versions: currentProject.versions + 1 }));
     } else { notify(j.error || 'Error', 'danger'); }
-  } catch(e) { notify(e.message, 'danger'); }
+  } catch (e) { notify(e.message, 'danger'); }
 });
 
-document.getElementById('deleteProjectBtn').addEventListener('click', async function() {
+document.getElementById('deleteProjectBtn').addEventListener('click', async function () {
   if (!currentProject) return;
   if (!confirm('Permanently delete "' + currentProject.name + '" and all its versions?\nThis cannot be undone.')) return;
   try {
@@ -353,23 +355,23 @@ document.getElementById('deleteProjectBtn').addEventListener('click', async func
       document.getElementById('alignEmpty').classList.remove('d-none');
       loadProjectList();
     } else { notify(j.error || 'Error', 'danger'); }
-  } catch(e) { notify(e.message, 'danger'); }
+  } catch (e) { notify(e.message, 'danger'); }
 });
 
 /* ── Save alignment modal ── */
-saveAlignBtn.addEventListener('click', function() {
+saveAlignBtn.addEventListener('click', function () {
   if (currentProject) document.getElementById('saveProjectSelect').value = currentProject.name;
   saveAlignModal.show();
 });
-document.getElementById('saveAlignFile').addEventListener('change', async function(e) {
+document.getElementById('saveAlignFile').addEventListener('change', async function (e) {
   var f = e.target.files[0];
   if (f) document.getElementById('saveAlignXml').value = await f.text();
 });
-document.getElementById('confirmSaveAlign').addEventListener('click', async function() {
+document.getElementById('confirmSaveAlign').addEventListener('click', async function () {
   var projectName = document.getElementById('saveProjectSelect').value;
   var xml = document.getElementById('saveAlignXml').value.trim();
   if (!projectName) { notify('Select a project', 'warning'); return; }
-  if (!xml)         { notify('No XML content to save', 'warning'); return; }
+  if (!xml) { notify('No XML content to save', 'warning'); return; }
   try {
     var r = await fetch(ALIGN_API + '?action=save&project=' + enc(projectName),
       { method: 'POST', body: xml, headers: { 'Content-Type': 'application/xml' } });
@@ -380,16 +382,18 @@ document.getElementById('confirmSaveAlign').addEventListener('click', async func
       document.getElementById('saveAlignXml').value = '';
       document.getElementById('saveAlignFile').value = '';
       await loadProjectList();
-      selectProject({ name: projectName, alignments: j.alignments, langs: '—',
-                      versions: (currentProject ? currentProject.versions : 0) + 1 });
+      selectProject({
+        name: projectName, alignments: j.alignments, langs: '—',
+        versions: (currentProject ? currentProject.versions : 0) + 1
+      });
     } else { notify(j.error || 'Save error', 'danger'); }
-  } catch(e) { notify(e.message, 'danger'); }
+  } catch (e) { notify(e.message, 'danger'); }
 });
 
 /* ══════════════════════════════════════════
    BACKUP
    ══════════════════════════════════════════ */
-document.getElementById('backupBtn').addEventListener('click', async function() {
+document.getElementById('backupBtn').addEventListener('click', async function () {
   notify('Building backup…', 'secondary');
   try {
     var projects = await (await fetch(ALIGN_API + '?action=list')).json();
@@ -408,19 +412,19 @@ document.getElementById('backupBtn').addEventListener('click', async function() 
       }
     }
     var blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE' });
-    var ts = new Date().toISOString().replace(/[-:T]/g,'').slice(0,15);
+    var ts = new Date().toISOString().replace(/[-:T]/g, '').slice(0, 15);
     dlBlob(blob, 'discept-sync-backup-' + ts + '.zip', 'application/zip');
     notify('Backup complete — ' + projects.length + ' project' + (projects.length === 1 ? '' : 's'));
-  } catch(e) { notify('Backup error: ' + e.message, 'danger'); }
+  } catch (e) { notify('Backup error: ' + e.message, 'danger'); }
 });
 
 /* ══════════════════════════════════════════
    RESTORE
    ══════════════════════════════════════════ */
-document.getElementById('restoreBtn').addEventListener('click', function() {
+document.getElementById('restoreBtn').addEventListener('click', function () {
   document.getElementById('restoreFile').click();
 });
-document.getElementById('restoreFile').addEventListener('change', function(e) {
+document.getElementById('restoreFile').addEventListener('change', function (e) {
   var file = e.target.files[0]; if (!file) return;
   restoreZipFile = file;
   document.getElementById('restoreProgress').classList.add('d-none');
@@ -429,12 +433,12 @@ document.getElementById('restoreFile').addEventListener('change', function(e) {
   restoreModal.show();
   e.target.value = '';
 });
-document.getElementById('confirmRestore').addEventListener('click', async function() {
+document.getElementById('confirmRestore').addEventListener('click', async function () {
   if (!restoreZipFile) return;
   var progressEl = document.getElementById('restoreProgress');
-  var barEl      = document.getElementById('restoreBar');
-  var statusEl   = document.getElementById('restoreStatus');
-  var resultEl   = document.getElementById('restoreResult');
+  var barEl = document.getElementById('restoreBar');
+  var statusEl = document.getElementById('restoreStatus');
+  var resultEl = document.getElementById('restoreResult');
   var confirmBtn = document.getElementById('confirmRestore');
   progressEl.classList.remove('d-none'); resultEl.classList.add('d-none');
   confirmBtn.disabled = true;
@@ -442,16 +446,16 @@ document.getElementById('confirmRestore').addEventListener('click', async functi
   try {
     var zip = await JSZip.loadAsync(restoreZipFile);
     var projectFolders = Object.keys(zip.files)
-      .filter(function(p) { return zip.files[p].dir; })
-      .map(function(p) { return p.replace(/\/$/, ''); })
-      .filter(function(p) { return p.indexOf('/') === -1; });
+      .filter(function (p) { return zip.files[p].dir; })
+      .map(function (p) { return p.replace(/\/$/, ''); })
+      .filter(function (p) { return p.indexOf('/') === -1; });
     var total = projectFolders.length;
     for (var i = 0; i < projectFolders.length; i++) {
       var pName = projectFolders[i];
       statusEl.textContent = 'Restoring "' + pName + '"…';
       barEl.style.width = Math.round((done / total) * 100) + '%';
       var vFiles = Object.keys(zip.files)
-        .filter(function(p) { return p.indexOf(pName + '/versions/') === 0 && !zip.files[p].dir && p.slice(-4) === '.xml'; })
+        .filter(function (p) { return p.indexOf(pName + '/versions/') === 0 && !zip.files[p].dir && p.slice(-4) === '.xml'; })
         .sort();
       for (var j = 0; j < vFiles.length; j++) {
         var xml = await zip.files[vFiles[j]].async('string');
@@ -463,6 +467,16 @@ document.getElementById('confirmRestore').addEventListener('click', async functi
         log.push((r.ok ? '<span class="text-success">&#10003;</span>' : '<span class="text-danger">&#10007;</span>') +
           ' ' + esc(pName) + ' &mdash; ' + fmtTs(ts) + (r.ok ? '' : ': ' + esc(jr.error || 'error')));
       }
+      var currentPath = pName + '/current.xml';
+      if (!vFiles.length && zip.files[currentPath]) {
+        var xml = await zip.files[currentPath].async('string');
+        var r = await fetch(ALIGN_API + '?action=save&project=' + enc(pName),
+          { method: 'POST', body: xml, headers: { 'Content-Type': 'application/xml' } });
+        var jr = await r.json();
+        log.push((r.ok ? '<span class="text-success">&#10003;</span>'
+          : '<span class="text-danger">&#10007;</span>') +
+          ' ' + esc(pName) + ' (current)' + (r.ok ? '' : ': ' + esc(jr.error || 'error')));
+      }
       done++;
       barEl.style.width = Math.round((done / total) * 100) + '%';
     }
@@ -472,7 +486,7 @@ document.getElementById('confirmRestore').addEventListener('click', async functi
     resultEl.classList.remove('d-none');
     notify('Restore complete — ' + done + ' project' + (done === 1 ? '' : 's'));
     loadProjectList();
-  } catch(e) {
+  } catch (e) {
     statusEl.textContent = 'Error: ' + e.message;
     barEl.classList.add('bg-danger');
     notify('Restore error: ' + e.message, 'danger');
@@ -482,14 +496,14 @@ document.getElementById('confirmRestore').addEventListener('click', async functi
 /* ══════════════════════════════════════════
    HELP — copy buttons
    ══════════════════════════════════════════ */
-document.querySelectorAll('.ks-copy-btn[data-copy]').forEach(function(btn) {
-  btn.addEventListener('click', function() {
+document.querySelectorAll('.ks-copy-btn[data-copy]').forEach(function (btn) {
+  btn.addEventListener('click', function () {
     var el = document.getElementById(btn.dataset.copy);
     if (!el) return;
-    navigator.clipboard.writeText(el.textContent.trim()).then(function() {
+    navigator.clipboard.writeText(el.textContent.trim()).then(function () {
       btn.classList.add('copied');
       btn.innerHTML = '<i class="bi bi-clipboard-check"></i>';
-      setTimeout(function() {
+      setTimeout(function () {
         btn.classList.remove('copied');
         btn.innerHTML = '<i class="bi bi-clipboard"></i>';
       }, 1800);
@@ -497,7 +511,7 @@ document.querySelectorAll('.ks-copy-btn[data-copy]').forEach(function(btn) {
   });
 });
 
-document.getElementById('helpBtn').addEventListener('click', function() { helpModal.show(); });
+document.getElementById('helpBtn').addEventListener('click', function () { helpModal.show(); });
 
 /* ── Init ── */
 updateSessionBanner();
