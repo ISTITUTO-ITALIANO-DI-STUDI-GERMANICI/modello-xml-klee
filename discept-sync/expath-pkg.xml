@@ -4,6 +4,6 @@
          abbrev="discept-sync"
          version="1.0.1"
          spec="1.0">
-    <title>DISCePT Sync</title>
+    <title>DIScEPT Sync</title>
     <dependency processor="http://exist-db.org" semver-min="6.0.0"/>
 </package>
