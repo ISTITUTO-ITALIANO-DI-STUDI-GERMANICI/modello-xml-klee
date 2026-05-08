@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <meta xmlns="http://exist-db.org/xquery/repo">
     <description>DIScEPT Sync</description>
     <author>Calogero Giudice</author>
@@ -10,4 +9,5 @@
     <target>discept-sync</target>
     <prepare>pre-install.xq</prepare>
     <finish>post-install.xq</finish>
+<deployed>2026-04-10T13:25:35.426Z</deployed>
 </meta>

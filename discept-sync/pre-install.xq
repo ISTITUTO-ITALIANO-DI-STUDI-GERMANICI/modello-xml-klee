@@ -19,5 +19,9 @@ declare variable $target external;
 
     if (not(xmldb:collection-available($target || "/data/versions")))
     then xmldb:create-collection($target || "/data", "versions")
+    else (),
+
+    if (not(xmldb:collection-available($target || "/data/euporia")))
+    then xmldb:create-collection($target || "/data", "euporia")
     else ()
 )

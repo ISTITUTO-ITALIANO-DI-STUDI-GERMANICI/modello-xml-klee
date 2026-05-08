@@ -11,6 +11,12 @@ return
       <forward url="index.html"/>
     </dispatch>
 
+  (: GET /api/euporia :)
+  else if ($path = "/api/euporia" or $path = "/api/euporia/") then
+    <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+      <forward url="/exist/apps/discept-sync/src/api/euporia.xql"/>
+    </dispatch>
+
   (: DiScEPT listCollection: GET /data/alignments/ :)
   else if ($path = "/data/alignments/" or $path = "/data/alignments") then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">

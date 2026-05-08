@@ -1,36 +1,71 @@
-<xsl:stylesheet version="2.0"
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:xml="http://www.w3.org/XML/1998/namespace"
-                xpath-default-namespace="http://himeros.eu/euporia"
-                exclude-result-prefixes="#all">
+<xsl:stylesheet
+  xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  version="2.0"
+  xpath-default-namespace="http://himeros.eu/euporia"
+  exclude-result-prefixes="#all">
 
-  <xsl:output method="xml"
-              encoding="UTF-8"
-              indent="yes"
-              omit-xml-declaration="no"/>
+  <xsl:output method="xml" encoding="UTF-8" indent="yes" omit-xml-declaration="no"/>
+
+  <xsl:param name="lang" select="'und'"/>
 
   <xsl:template match="/">
-    <TEI>
+    <TEI version="3.3.0">
+
+      <!-- teiHeader corpus -->
       <teiHeader>
         <fileDesc>
-          <sourceDesc>
-            <msDesc>
-              <handDesc>
-                <handNote medium="pencil" xml:id="pencil">Text written with pencil.</handNote>
-              </handDesc>
-            </msDesc>
-          </sourceDesc>
+          <titleStmt>
+            <title></title>
+          </titleStmt>
+          <publicationStmt>
+            <p/>
+          </publicationStmt>
+          <sourceDesc/>
         </fileDesc>
+        <profileDesc/>
       </teiHeader>
-      <text type="annotations">
-        <body>
-          <xsl:apply-templates/>
-        </body>
-      </text>
+
+      <!-- Empty standOff before TEI children -->
+      <standOff/>
+
+      <!-- TEI Language child -->
+      <TEI version="3.3.0">
+        <teiHeader>
+          <fileDesc>
+            <titleStmt>
+              <title></title>
+            </titleStmt>
+            <publicationStmt>
+              <p><xsl:value-of select="$lang"/></p>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc>
+                <handDesc>
+                  <handNote medium="pencil" xml:id="pencil">Text written with pencil.</handNote>
+                </handDesc>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <langUsage>
+              <!-- The language code is set to 'und' (undetermined) by default -->
+              <language ident="{$lang}"><xsl:value-of select="$lang"/></language>
+            </langUsage>
+          </profileDesc>
+        </teiHeader>
+        <text>
+          <body>
+            <xsl:apply-templates/>
+          </body>
+        </text>
+        <facsimile/>
+      </TEI>
+
     </TEI>
   </xsl:template>
 
+  <!-- Cleaning from Euporia symbols -->
   <xsl:template match="
       deletion/text()           |
       replace/text()            |
@@ -43,8 +78,7 @@
       phiDel/text()             |
       phiAdd/text()             |
       operation/text()          |
-      substitution/text()
-  "/>
+      substitution/text()"/>
 
   <xsl:template match="text()">
     <xsl:value-of select="."/>
@@ -58,9 +92,9 @@
       hdLineMargin   |
       placeholder    |
       numbZone       |
-      facsimile
-  "/>
+      facsimile"/>
 
+  <!-- Main structure -->
   <xsl:template match="*[local-name()='div']">
     <div>
       <xsl:attribute name="n">
@@ -108,10 +142,8 @@
   </xsl:template>
 
   <xsl:template match="sectionHeading">
-    <xsl:variable name="level"
-      select="string-length(translate(level, ' ', ''))"/>
-    <xsl:variable name="type"
-      select="lower-case(normalize-space(sectionType/seg))"/>
+    <xsl:variable name="level" select="string-length(translate(level, ' ', ''))"/>
+    <xsl:variable name="type"  select="lower-case(normalize-space(sectionType/seg))"/>
     <head level="{$level}" type="{$type}">
       <xsl:apply-templates select="line/node()"/>
     </head>
@@ -126,23 +158,20 @@
     </l>
   </xsl:template>
 
+  <!-- Inline -->
   <xsl:template match="*[local-name()='seg']">
     <xsl:choose>
       <xsl:when test="*">
         <xsl:apply-templates/>
       </xsl:when>
       <xsl:otherwise>
-        <w>
-          <xsl:value-of select="normalize-space(.)"/>
-        </w>
+        <w><xsl:value-of select="normalize-space(.)"/></w>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
   <xsl:template match="*[local-name()='punct']">
-    <pc>
-      <xsl:value-of select="normalize-space(.)"/>
-    </pc>
+    <pc><xsl:value-of select="normalize-space(.)"/></pc>
   </xsl:template>
 
   <xsl:template match="prefix | prefix_app">
@@ -160,63 +189,44 @@
   </xsl:template>
 
   <xsl:template match="substitution">
-    <choice>
-      <xsl:apply-templates/>
-    </choice>
+    <choice><xsl:apply-templates/></choice>
   </xsl:template>
 
   <xsl:template match="deletion">
-    <sic>
-      <xsl:apply-templates/>
-    </sic>
+    <sic><xsl:apply-templates/></sic>
   </xsl:template>
 
   <xsl:template match="replace">
-    <corr>
-      <xsl:apply-templates/>
-    </corr>
+    <corr><xsl:apply-templates/></corr>
   </xsl:template>
 
   <xsl:template match="subspencilDeletion | pencilDeletion">
-    <sic hand="#pencil">
-      <xsl:apply-templates/>
-    </sic>
+    <sic hand="#pencil"><xsl:apply-templates/></sic>
   </xsl:template>
 
   <xsl:template match="subspencilAddition | pencilAddition">
-    <corr hand="#pencil">
-      <xsl:apply-templates/>
-    </corr>
+    <corr hand="#pencil"><xsl:apply-templates/></corr>
   </xsl:template>
 
   <xsl:template match="pencil">
-    <hi hand="#pencil">
-      <xsl:apply-templates/>
-    </hi>
+    <hi hand="#pencil"><xsl:apply-templates/></hi>
   </xsl:template>
 
   <xsl:template match="addition">
-    <add>
-      <xsl:apply-templates/>
-    </add>
+    <add><xsl:apply-templates/></add>
   </xsl:template>
 
   <xsl:template match="phiDel">
-    <del rend="strikethrough">
-      <xsl:apply-templates/>
-    </del>
+    <del rend="strikethrough"><xsl:apply-templates/></del>
   </xsl:template>
 
   <xsl:template match="phiAdd">
-    <add rend="overstrike">
-      <xsl:apply-templates/>
-    </add>
+    <add rend="overstrike"><xsl:apply-templates/></add>
   </xsl:template>
 
   <xsl:template match="underlined | underlined_app">
     <hi rend="underline">
-      <xsl:apply-templates
-        select="node()[not(self::text()[normalize-space(.) = '_'])]"/>
+      <xsl:apply-templates select="node()[not(self::text()[normalize-space(.) = '_'])]"/>
     </hi>
   </xsl:template>
 

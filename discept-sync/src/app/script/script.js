@@ -413,7 +413,7 @@ document.getElementById('backupBtn').addEventListener('click', async function ()
     }
     var blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE' });
     var ts = new Date().toISOString().replace(/[-:T]/g, '').slice(0, 15);
-    dlBlob(blob, 'discept-sync-backup-' + ts + '.zip', 'application/zip');
+    dlBlob(blob, 'discept-sync-' + ts + '.zip', 'application/zip');
     notify('Backup complete — ' + projects.length + ' project' + (projects.length === 1 ? '' : 's'));
   } catch (e) { notify('Backup error: ' + e.message, 'danger'); }
 });
