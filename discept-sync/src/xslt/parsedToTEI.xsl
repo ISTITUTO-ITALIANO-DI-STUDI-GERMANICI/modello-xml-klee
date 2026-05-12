@@ -4,14 +4,14 @@
   version="2.0"
   xpath-default-namespace="http://himeros.eu/euporia"
   exclude-result-prefixes="#all">
-
+  
   <xsl:output method="xml" encoding="UTF-8" indent="yes" omit-xml-declaration="no"/>
-
+  
   <xsl:param name="lang" select="'und'"/>
-
+  
   <xsl:template match="/">
     <TEI version="3.3.0">
-
+      
       <!-- teiHeader corpus -->
       <teiHeader>
         <fileDesc>
@@ -25,10 +25,10 @@
         </fileDesc>
         <profileDesc/>
       </teiHeader>
-
+      
       <!-- Empty standOff before TEI children -->
       <standOff/>
-
+      
       <!-- TEI Language child -->
       <TEI version="3.3.0">
         <teiHeader>
@@ -61,39 +61,39 @@
         </text>
         <facsimile/>
       </TEI>
-
+      
     </TEI>
   </xsl:template>
-
+  
   <!-- Cleaning from Euporia symbols -->
   <xsl:template match="
-      deletion/text()           |
-      replace/text()            |
-      addition/text()           |
-      subspencilAddition/text() |
-      subspencilDeletion/text() |
-      pencilAddition/text()     |
-      pencilDeletion/text()     |
-      pencil/text()             |
-      phiDel/text()             |
-      phiAdd/text()             |
-      operation/text()          |
-      substitution/text()"/>
-
+    deletion/text()           |
+    replace/text()            |
+    addition/text()           |
+    subspencilAddition/text() |
+    subspencilDeletion/text() |
+    pencilAddition/text()     |
+    pencilDeletion/text()     |
+    pencil/text()             |
+    phiDel/text()             |
+    phiAdd/text()             |
+    operation/text()          |
+    substitution/text()"/>
+  
   <xsl:template match="text()">
     <xsl:value-of select="."/>
   </xsl:template>
-
+  
   <xsl:template match="
-      apparatoFigure |
-      mrgTextZoneUp  |
-      mrgTextZoneOut |
-      musicZone      |
-      hdLineMargin   |
-      placeholder    |
-      numbZone       |
-      facsimile"/>
-
+    apparatoFigure |
+    mrgTextZoneUp  |
+    mrgTextZoneOut |
+    musicZone      |
+    hdLineMargin   |
+    placeholder    |
+    numbZone       |
+    facsimile"/>
+  
   <!-- Main structure -->
   <xsl:template match="*[local-name()='div']">
     <div>
@@ -103,7 +103,7 @@
       <xsl:apply-templates/>
     </div>
   </xsl:template>
-
+  
   <xsl:template match="page">
     <pb>
       <xsl:attribute name="n">
@@ -116,7 +116,7 @@
     </pb>
     <xsl:apply-templates select="mainZone | graphZoneFig"/>
   </xsl:template>
-
+  
   <xsl:template match="mainZone">
     <xsl:for-each-group select="*" group-starting-with="openPar">
       <xsl:choose>
@@ -131,7 +131,7 @@
       </xsl:choose>
     </xsl:for-each-group>
   </xsl:template>
-
+  
   <xsl:template match="graphZoneFig">
     <figure>
       <xsl:attribute name="facs">
@@ -140,7 +140,7 @@
       </xsl:attribute>
     </figure>
   </xsl:template>
-
+  
   <xsl:template match="sectionHeading">
     <xsl:variable name="level" select="string-length(translate(level, ' ', ''))"/>
     <xsl:variable name="type"  select="lower-case(normalize-space(sectionType/seg))"/>
@@ -148,7 +148,7 @@
       <xsl:apply-templates select="line/node()"/>
     </head>
   </xsl:template>
-
+  
   <xsl:template match="line">
     <l>
       <xsl:attribute name="n">
@@ -157,7 +157,7 @@
       <xsl:apply-templates/>
     </l>
   </xsl:template>
-
+  
   <!-- Inline -->
   <xsl:template match="*[local-name()='seg']">
     <xsl:choose>
@@ -169,65 +169,65 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-
+  
   <xsl:template match="*[local-name()='punct']">
     <pc><xsl:value-of select="normalize-space(.)"/></pc>
   </xsl:template>
-
+  
   <xsl:template match="prefix | prefix_app">
     <xsl:variable name="clean" select="normalize-space(replace(., '\^', ''))"/>
     <xsl:if test="$clean != ''">
       <w><xsl:value-of select="$clean"/></w>
     </xsl:if>
   </xsl:template>
-
+  
   <xsl:template match="suffix | suffix_app">
     <xsl:variable name="clean" select="normalize-space(replace(., '\^', ''))"/>
     <xsl:if test="$clean != ''">
       <w><xsl:value-of select="$clean"/></w>
     </xsl:if>
   </xsl:template>
-
+  
   <xsl:template match="substitution">
     <choice><xsl:apply-templates/></choice>
   </xsl:template>
-
+  
   <xsl:template match="deletion">
     <sic><xsl:apply-templates/></sic>
   </xsl:template>
-
+  
   <xsl:template match="replace">
     <corr><xsl:apply-templates/></corr>
   </xsl:template>
-
+  
   <xsl:template match="subspencilDeletion | pencilDeletion">
     <sic hand="#pencil"><xsl:apply-templates/></sic>
   </xsl:template>
-
+  
   <xsl:template match="subspencilAddition | pencilAddition">
     <corr hand="#pencil"><xsl:apply-templates/></corr>
   </xsl:template>
-
+  
   <xsl:template match="pencil">
     <hi hand="#pencil"><xsl:apply-templates/></hi>
   </xsl:template>
-
+  
   <xsl:template match="addition">
     <add><xsl:apply-templates/></add>
   </xsl:template>
-
+  
   <xsl:template match="phiDel">
     <del rend="strikethrough"><xsl:apply-templates/></del>
   </xsl:template>
-
+  
   <xsl:template match="phiAdd">
     <add rend="overstrike"><xsl:apply-templates/></add>
   </xsl:template>
-
+  
   <xsl:template match="underlined | underlined_app">
     <hi rend="underline">
       <xsl:apply-templates select="node()[not(self::text()[normalize-space(.) = '_'])]"/>
     </hi>
   </xsl:template>
-
+  
 </xsl:stylesheet>
