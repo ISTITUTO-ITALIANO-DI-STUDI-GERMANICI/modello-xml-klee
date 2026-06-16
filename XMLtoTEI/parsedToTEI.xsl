@@ -59,6 +59,7 @@
             <xsl:apply-templates/>
           </body>
         </text>
+
         <!-- Implemented facsimile -->
         <facsimile>
           <!-- Cover and inner cover (pages -2 and -1) -->
@@ -75,12 +76,12 @@
               <xsl:attribute name="xml:id">
                 <xsl:value-of select="concat('f', $fid)" />
               </xsl:attribute>
+              <graphic>
+                <xsl:attribute name="url">
+                  <xsl:value-of select="concat('https://escriptorium.d4science.org/media/documents/3/', $fid, '.jpg')"/>
+                </xsl:attribute>
+              </graphic>
             </surface>
-            <graphic>
-              <xsl:attribute name="url">
-                <xsl:value-of select="concat('https://escriptorium.d4science.org/media/documents/3/', $fid, '.jpg')"/>
-              </xsl:attribute>
-            </graphic>
           </xsl:for-each>
           <!-- Final three pages -->
           <surface xml:id="f83236">
@@ -93,6 +94,7 @@
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83602.jpg"/>
           </surface>
         </facsimile>
+        
       </TEI>
 
     </TEI>

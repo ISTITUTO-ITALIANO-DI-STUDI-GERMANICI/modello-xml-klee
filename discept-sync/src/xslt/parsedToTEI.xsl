@@ -75,12 +75,12 @@
               <xsl:attribute name="xml:id">
                 <xsl:value-of select="concat('f', $fid)" />
               </xsl:attribute>
+              <graphic>
+                <xsl:attribute name="url">
+                  <xsl:value-of select="concat('https://escriptorium.d4science.org/media/documents/3/', $fid, '.jpg')"/>
+                </xsl:attribute>
+              </graphic>
             </surface>
-            <graphic>
-              <xsl:attribute name="url">
-                <xsl:value-of select="concat('https://escriptorium.d4science.org/media/documents/3/', $fid, '.jpg')"/>
-              </xsl:attribute>
-            </graphic>
           </xsl:for-each>
           <!-- Final three pages -->
           <surface xml:id="f83236">
@@ -168,7 +168,7 @@
   <xsl:template match="graphZoneFig">
     <figure>
       <xsl:attribute name="facs">
-        <xsl:text>#f</xsl:text>
+        <xsl:text>#</xsl:text>
         <xsl:value-of select="normalize-space(figId)"/>
       </xsl:attribute>
     </figure>
