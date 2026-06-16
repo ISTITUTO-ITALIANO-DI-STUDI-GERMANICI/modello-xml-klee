@@ -4,14 +4,14 @@
   version="2.0"
   xpath-default-namespace="http://himeros.eu/euporia"
   exclude-result-prefixes="#all">
-  
+
   <xsl:output method="xml" encoding="UTF-8" indent="yes" omit-xml-declaration="no"/>
-  
+
   <xsl:param name="lang" select="'und'"/>
-  
+
   <xsl:template match="/">
     <TEI version="3.3.0">
-      
+
       <!-- teiHeader corpus -->
       <teiHeader>
         <fileDesc>
@@ -25,10 +25,10 @@
         </fileDesc>
         <profileDesc/>
       </teiHeader>
-      
+
       <!-- Empty standOff before TEI children -->
       <standOff/>
-      
+
       <!-- TEI Language child -->
       <TEI version="3.3.0">
         <teiHeader>
@@ -59,41 +59,74 @@
             <xsl:apply-templates/>
           </body>
         </text>
-        <facsimile/>
+        <!-- Implemented facsimile -->
+        <facsimile>
+          <!-- Cover and inner cover (pages -2 and -1) -->
+          <surface xml:id="cover">
+            <graphic url="https://escriptorium.d4science.org/media/documents/3/65281.jpg"/>
+          </surface>
+          <surface xml:id="inner-cover">
+            <graphic url="https://escriptorium.d4science.org/media/documents/3/67096.jpg"/>
+          </surface>
+          <!-- Other pages -->
+          <xsl:for-each select="//page[facsimile/num]">
+            <xsl:variable name="fid" select="normalize-space(facsimile/num)"/>
+            <surface>
+              <xsl:attribute name="xml:id">
+                <xsl:value-of select="concat('f', $fid)" />
+              </xsl:attribute>
+            </surface>
+            <graphic>
+              <xsl:attribute name="url">
+                <xsl:value-of select="concat('https://escriptorium.d4science.org/media/documents/3/', $fid, '.jpg')"/>
+              </xsl:attribute>
+            </graphic>
+          </xsl:for-each>
+          <!-- Final three pages -->
+          <surface xml:id="f83236">
+            <graphic url="https://escriptorium.d4science.org/media/documents/3/83236.jpg"/>
+          </surface>
+          <surface xml:id="f83587">
+            <graphic url="https://escriptorium.d4science.org/media/documents/3/83587.jpg"/>
+          </surface>
+          <surface xml:id="f83602">
+            <graphic url="https://escriptorium.d4science.org/media/documents/3/83602.jpg"/>
+          </surface>
+        </facsimile>
       </TEI>
-      
+
     </TEI>
   </xsl:template>
-  
+
   <!-- Cleaning from Euporia symbols -->
   <xsl:template match="
-    deletion/text()           |
-    replace/text()            |
-    addition/text()           |
-    subspencilAddition/text() |
-    subspencilDeletion/text() |
-    pencilAddition/text()     |
-    pencilDeletion/text()     |
-    pencil/text()             |
-    phiDel/text()             |
-    phiAdd/text()             |
-    operation/text()          |
-    substitution/text()"/>
-  
+      deletion/text()           |
+      replace/text()            |
+      addition/text()           |
+      subspencilAddition/text() |
+      subspencilDeletion/text() |
+      pencilAddition/text()     |
+      pencilDeletion/text()     |
+      pencil/text()             |
+      phiDel/text()             |
+      phiAdd/text()             |
+      operation/text()          |
+      substitution/text()"/>
+
   <xsl:template match="text()">
     <xsl:value-of select="."/>
   </xsl:template>
-  
+
   <xsl:template match="
-    apparatoFigure |
-    mrgTextZoneUp  |
-    mrgTextZoneOut |
-    musicZone      |
-    hdLineMargin   |
-    placeholder    |
-    numbZone       |
-    facsimile"/>
-  
+      apparatoFigure |
+      mrgTextZoneUp  |
+      mrgTextZoneOut |
+      musicZone      |
+      hdLineMargin   |
+      placeholder    |
+      numbZone       |
+      facsimile"/>
+
   <!-- Main structure -->
   <xsl:template match="*[local-name()='div']">
     <div>
@@ -103,20 +136,20 @@
       <xsl:apply-templates/>
     </div>
   </xsl:template>
-  
+
   <xsl:template match="page">
     <pb>
       <xsl:attribute name="n">
         <xsl:value-of select="normalize-space(numbZone//num)"/>
       </xsl:attribute>
       <xsl:attribute name="facs">
-        <xsl:text>#</xsl:text>
+        <xsl:text>#f</xsl:text>
         <xsl:value-of select="normalize-space(facsimile//num)"/>
       </xsl:attribute>
     </pb>
     <xsl:apply-templates select="mainZone | graphZoneFig"/>
   </xsl:template>
-  
+
   <xsl:template match="mainZone">
     <xsl:for-each-group select="*" group-starting-with="openPar">
       <xsl:choose>
@@ -131,16 +164,16 @@
       </xsl:choose>
     </xsl:for-each-group>
   </xsl:template>
-  
+
   <xsl:template match="graphZoneFig">
     <figure>
       <xsl:attribute name="facs">
-        <xsl:text>#</xsl:text>
+        <xsl:text>#f</xsl:text>
         <xsl:value-of select="normalize-space(figId)"/>
       </xsl:attribute>
     </figure>
   </xsl:template>
-  
+
   <xsl:template match="sectionHeading">
     <xsl:variable name="level" select="string-length(translate(level, ' ', ''))"/>
     <xsl:variable name="type"  select="lower-case(normalize-space(sectionType/seg))"/>
@@ -148,7 +181,7 @@
       <xsl:apply-templates select="line/node()"/>
     </head>
   </xsl:template>
-  
+
   <xsl:template match="line">
     <l>
       <xsl:attribute name="n">
@@ -157,7 +190,7 @@
       <xsl:apply-templates/>
     </l>
   </xsl:template>
-  
+
   <!-- Inline -->
   <xsl:template match="*[local-name()='seg']">
     <xsl:choose>
@@ -169,65 +202,65 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  
+
   <xsl:template match="*[local-name()='punct']">
     <pc><xsl:value-of select="normalize-space(.)"/></pc>
   </xsl:template>
-  
+
   <xsl:template match="prefix | prefix_app">
     <xsl:variable name="clean" select="normalize-space(replace(., '\^', ''))"/>
     <xsl:if test="$clean != ''">
       <w><xsl:value-of select="$clean"/></w>
     </xsl:if>
   </xsl:template>
-  
+
   <xsl:template match="suffix | suffix_app">
     <xsl:variable name="clean" select="normalize-space(replace(., '\^', ''))"/>
     <xsl:if test="$clean != ''">
       <w><xsl:value-of select="$clean"/></w>
     </xsl:if>
   </xsl:template>
-  
+
   <xsl:template match="substitution">
     <choice><xsl:apply-templates/></choice>
   </xsl:template>
-  
+
   <xsl:template match="deletion">
     <sic><xsl:apply-templates/></sic>
   </xsl:template>
-  
+
   <xsl:template match="replace">
     <corr><xsl:apply-templates/></corr>
   </xsl:template>
-  
+
   <xsl:template match="subspencilDeletion | pencilDeletion">
     <sic hand="#pencil"><xsl:apply-templates/></sic>
   </xsl:template>
-  
+
   <xsl:template match="subspencilAddition | pencilAddition">
     <corr hand="#pencil"><xsl:apply-templates/></corr>
   </xsl:template>
-  
+
   <xsl:template match="pencil">
     <hi hand="#pencil"><xsl:apply-templates/></hi>
   </xsl:template>
-  
+
   <xsl:template match="addition">
     <add><xsl:apply-templates/></add>
   </xsl:template>
-  
+
   <xsl:template match="phiDel">
     <del rend="strikethrough"><xsl:apply-templates/></del>
   </xsl:template>
-  
+
   <xsl:template match="phiAdd">
     <add rend="overstrike"><xsl:apply-templates/></add>
   </xsl:template>
-  
+
   <xsl:template match="underlined | underlined_app">
     <hi rend="underline">
       <xsl:apply-templates select="node()[not(self::text()[normalize-space(.) = '_'])]"/>
     </hi>
   </xsl:template>
-  
+
 </xsl:stylesheet>

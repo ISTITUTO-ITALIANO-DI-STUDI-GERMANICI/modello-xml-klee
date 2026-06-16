@@ -59,7 +59,40 @@
             <xsl:apply-templates/>
           </body>
         </text>
-        <facsimile/>
+        <!-- Implemented facsimile -->
+        <facsimile>
+          <!-- Cover and inner cover (pages -2 and -1) -->
+          <surface xml:id="cover">
+            <graphic url="https://escriptorium.d4science.org/media/documents/3/65281.jpg"/>
+          </surface>
+          <surface xml:id="inner-cover">
+            <graphic url="https://escriptorium.d4science.org/media/documents/3/67096.jpg"/>
+          </surface>
+          <!-- Other pages -->
+          <xsl:for-each select="//page[facsimile/num]">
+            <xsl:variable name="fid" select="normalize-space(facsimile/num)"/>
+            <surface>
+              <xsl:attribute name="xml:id">
+                <xsl:value-of select="concat('f', $fid)" />
+              </xsl:attribute>
+            </surface>
+            <graphic>
+              <xsl:attribute name="url">
+                <xsl:value-of select="concat('https://escriptorium.d4science.org/media/documents/3/', $fid, '.jpg')"/>
+              </xsl:attribute>
+            </graphic>
+          </xsl:for-each>
+          <!-- Final three pages -->
+          <surface xml:id="f83236">
+            <graphic url="https://escriptorium.d4science.org/media/documents/3/83236.jpg"/>
+          </surface>
+          <surface xml:id="f83587">
+            <graphic url="https://escriptorium.d4science.org/media/documents/3/83587.jpg"/>
+          </surface>
+          <surface xml:id="f83602">
+            <graphic url="https://escriptorium.d4science.org/media/documents/3/83602.jpg"/>
+          </surface>
+        </facsimile>
       </TEI>
 
     </TEI>
@@ -110,7 +143,7 @@
         <xsl:value-of select="normalize-space(numbZone//num)"/>
       </xsl:attribute>
       <xsl:attribute name="facs">
-        <xsl:text>#</xsl:text>
+        <xsl:text>#f</xsl:text>
         <xsl:value-of select="normalize-space(facsimile//num)"/>
       </xsl:attribute>
     </pb>
