@@ -218,7 +218,7 @@
   
   <xsl:template match="punctinfig" mode="fig">
     <xsl:variable name="char" select="normalize-space(.)"/>
-    <c>
+    <pc>
       <!-- Punctuation type -->
       <xsl:attribute name="type">
         <xsl:choose>
@@ -261,7 +261,7 @@
         </xsl:choose>
       </xsl:attribute>
       <xsl:value-of select="$char"/>
-    </c>
+    </pc>
   </xsl:template>
   
   <xsl:template match="textSeqinfig" mode="fig">
@@ -326,7 +326,7 @@
   
   <xsl:template match="punct">
     <xsl:variable name="char" select="normalize-space(.)"/>
-    <c>
+    <pc>
       <!-- Punctuation type -->
       <xsl:attribute name="type">
         <xsl:choose>
@@ -369,7 +369,7 @@
         </xsl:choose>
       </xsl:attribute>
       <xsl:value-of select="$char"/>
-    </c>
+    </pc>
   </xsl:template>
   
   <xsl:template match="prefix | prefix_app">
