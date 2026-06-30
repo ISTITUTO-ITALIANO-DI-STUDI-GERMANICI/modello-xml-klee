@@ -1,14 +1,19 @@
 <xsl:stylesheet
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#"
   version="2.0"
   xpath-default-namespace="http://himeros.eu/euporia"
-  exclude-result-prefixes="#all">
+  exclude-result-prefixes="alto">
   
   <xsl:output method="xml" encoding="UTF-8" indent="yes" omit-xml-declaration="no" />
   
   <xsl:strip-space elements="*"/>
   <xsl:param name="lang" select="'und'"/>
+  
+  <xsl:key name="fig-by-id"
+    match="apparatoFigureItem"
+    use="normalize-space(replace(figId, '\s+', ''))"/>
   
   <xsl:template match="/">
     <TEI version="3.3.0">
@@ -168,19 +173,115 @@
     </xsl:for-each-group>
   </xsl:template>
   
+  <!-- Figures -->
+  
   <xsl:template match="graphZoneFig">
-    <figure>
-      <xsl:attribute name="facs">
-        <xsl:text>#</xsl:text>
-        <xsl:value-of select="normalize-space(figId)"/>
-      </xsl:attribute>
+    
+    <xsl:variable name="fid"
+      select="normalize-space(replace(figId, '\s+', ''))"/>
+    
+    <xsl:variable name="item"
+      select="key('fig-by-id', $fid)"/>
+    
+    <figure facs="#fig_{$fid}">
+      
+      <xsl:if test="$item/label">
+        <head>
+          <xsl:apply-templates select="$item/label" mode="fig"/>
+        </head>
+      </xsl:if>
+      
+      <xsl:if test="$item/textinfig">
+        <figDesc>
+          <xsl:apply-templates select="$item/textinfig" mode="fig"/>
+        </figDesc>
+      </xsl:if>
+      
     </figure>
+    
   </xsl:template>
+  
+  <xsl:template match="line_app" mode="fig">
+    <l>
+      <xsl:attribute name="n">
+        <xsl:number level="any"/>
+      </xsl:attribute>
+      <xsl:apply-templates mode="fig"/>
+    </l>
+  </xsl:template>
+  
+  <xsl:template match="seginfig" mode="fig">
+    <w>
+      <xsl:value-of select="normalize-space(.)"/>
+    </w>
+  </xsl:template>
+  
+  <xsl:template match="punctinfig" mode="fig">
+    <xsl:variable name="char" select="normalize-space(.)"/>
+    <c>
+      <!-- Punctuation type -->
+      <xsl:attribute name="type">
+        <xsl:choose>
+          <xsl:when test="$char = '.'">period</xsl:when>
+          <xsl:when test="$char = ','">comma</xsl:when>
+          <xsl:when test="$char = ';'">semicolon</xsl:when>
+          <xsl:when test="$char = ':'">colon</xsl:when>
+          <xsl:when test="$char = '!'">exclam</xsl:when>
+          <xsl:when test="$char = '?'">quest</xsl:when>
+          <xsl:when test="$char = ('-', '–', '—')">dash</xsl:when>
+          <xsl:when test="$char = ('…', '...')">ellipsis</xsl:when>
+          <xsl:when test="$char = ('(', '[')">bracketOpen</xsl:when>
+          <xsl:when test="$char = (')', ']')">bracketClose</xsl:when>
+          <xsl:when test="$char = '«'">quoteOpen</xsl:when>
+          <xsl:when test="$char = '»'">quoteClose</xsl:when>
+          <xsl:when test="$char = ('&quot;', '''')">
+            <!-- straight quotes are ambiguous: decide by context -->
+            <xsl:choose>
+              <!-- opening if preceded by whitespace or at start -->
+              <xsl:when test="not(preceding-sibling::node()[1][self::text()][not(normalize-space(.) = '')])">quoteOpen</xsl:when>
+              <xsl:otherwise>quoteClose</xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:when test="$char = '/'">slash</xsl:when>
+          <xsl:otherwise>punct</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      <!-- Where to place -->
+      <xsl:attribute name="join">
+        <xsl:choose>
+          <xsl:when test="$char = ('.', ',', ';', ':', '!', '?', ')', ']', '»', '…', '...')">left</xsl:when>
+          <xsl:when test="$char = ('(', '[', '«')">right</xsl:when>
+          <xsl:when test="$char = ('&quot;', '''')">
+            <xsl:choose>
+              <xsl:when test="not(preceding-sibling::node()[1][self::text()][not(normalize-space(.) = '')])">right</xsl:when>
+              <xsl:otherwise>left</xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:otherwise>both</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      <xsl:value-of select="$char"/>
+    </c>
+  </xsl:template>
+  
+  <xsl:template match="textSeqinfig" mode="fig">
+    <xsl:apply-templates mode="fig"/>
+  </xsl:template>
+  
+  <xsl:template match="label" mode="fig">
+    <xsl:apply-templates mode="fig"/>
+  </xsl:template>
+  
+  <xsl:template match="textinfig" mode="fig">
+    <xsl:apply-templates mode="fig"/>
+  </xsl:template>
+  
+  <!-- End figures -->
   
   <xsl:template match="sectionHeading">
     <xsl:variable name="level" select="string-length(translate(level, ' ', ''))"/>
     <xsl:variable name="type"  select="lower-case(normalize-space(sectionType/seg))"/>
-    <head level="{$level}" type="{$type}">
+    <head n="{$level}" type="{$type}">
       <xsl:apply-templates select="line/node()"/>
     </head>
   </xsl:template>
@@ -225,7 +326,7 @@
   
   <xsl:template match="punct">
     <xsl:variable name="char" select="normalize-space(.)"/>
-    <pc>
+    <c>
       <!-- Punctuation type -->
       <xsl:attribute name="type">
         <xsl:choose>
@@ -268,7 +369,7 @@
         </xsl:choose>
       </xsl:attribute>
       <xsl:value-of select="$char"/>
-    </pc>
+    </c>
   </xsl:template>
   
   <xsl:template match="prefix | prefix_app">
