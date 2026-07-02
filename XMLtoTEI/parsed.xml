@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     version="3.3.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -942,7 +944,7 @@
                   <w>1</w>
                   <pc type="period" join="left">.</pc>
                </head>
-               <figure facs="#fig_6_1"/>
+               <figure facs="#zone_f83049_fig1"/>
                <ab type="parag" n="1">
                   <l n="1">
                      <choice>
@@ -1008,8 +1010,8 @@
                      <pc type="bracketClose" join="left">)</pc>
                   </l>
                </ab>
-               <figure facs="#fig_6_2"/>
-               <figure facs="#fig_6_3"/>
+               <figure facs="#zone_f83049_fig2"/>
+               <figure facs="#zone_f83049_fig3"/>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Setze</w>
@@ -1304,52 +1306,38 @@
                      </hi>
                   </head>
                </ab>
-               <figure facs="#fig_8_1">
-                  <head>[ <l n="1">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>1 . ] </head>
-                  <figDesc>( <l n="2">
-                        <w>freie</w>
-                        <w>Linie</w>
-                        <w>ab</w>
-                        <w>fig</w>
-                        <w>1</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83051_fig1">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>1 . ] </head>
+                  <figDesc>( <w>freie</w>
+                     <w>Linie</w>
+                     <w>ab</w>
+                     <w>fig</w>
+                     <w>1</w> ) </figDesc>
                </figure>
-               <figure facs="#fig_8_2">
-                  <head>[ <l n="3">
-                        <w>fig</w>
-                     </l>2 . ] </head>
-                  <figDesc>( <l n="4">
-                        <w>freie</w>
-                        <w>Linie</w>
-                        <w>ab</w>
-                     </l>| <l n="5">
-                        <w>begleitende</w>
-                        <w>Linie</w>
-                        <w>a</w>
-                        <w>1 –</w>
-                        <w>b</w>
-                        <w>1</w>
-                        <w>fig</w>
-                        <w>2</w>
-                        <pc type="comma" join="left">,</pc>
-                        <w>3</w>
-                        <pc type="comma" join="left">,</pc>
-                        <w>4</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83051_fig2">
+                  <head>[ <w>fig</w> 2 . ] </head>
+                  <figDesc>( <w>freie</w>
+                     <w>Linie</w>
+                     <w>ab</w> | <w>begleitende</w>
+                     <w>Linie</w>
+                     <w>a</w>
+                     <w>1 –</w>
+                     <w>b</w>
+                     <w>1</w>
+                     <w>fig</w>
+                     <w>2</w>
+                     <pc type="comma" join="left">,</pc>
+                     <w>3</w>
+                     <pc type="comma" join="left">,</pc>
+                     <w>4</w>
+                     <pc type="period" join="left">.</pc>) </figDesc>
                </figure>
-               <figure facs="#fig_8_3">
-                  <head>[ <l n="6">
-                        <w>fig</w>
-                     </l>3 ] </head>
+               <figure facs="#zone_f83051_fig3">
+                  <head>[ <w>fig</w> 3 ] </head>
                </figure>
-               <figure facs="#fig_8_4">
-                  <head>[ <l n="7">
-                        <w>fig</w>
-                     </l>4 ] </head>
+               <figure facs="#zone_f83051_fig4">
+                  <head>[ <w>fig</w> 4 ] </head>
                </figure>
             </div>
             <div n="12">
@@ -1366,60 +1354,82 @@
                   <pc type="period" join="left">.</pc>
                   <w>6</w>
                </l>
-               <figure facs="#fig_9_1">
-                  <head>[ <l n="8">
-                        <w>fig</w>
-                     </l>5 ] </head>
+               <figure facs="#zone_f83052_fig1">
+                  <head>[ <w>fig</w> 5 ] </head>
                </figure>
-               <figure facs="#fig_9_2">
+               <l n="1">
+                  <w>fig</w>
+                  <w>5</w>
+               </l>
+               <figure facs="#zone_f83052_fig2">
                   <head>[ 5a ] </head>
                </figure>
-               <figure facs="#fig_9_3">
-                  <head>[ <l n="9">
-                        <w>fig</w>
-                     </l>6 . ] </head>
+               <l n="1">
+                  <corr hand="#pencil">
+                     <w>5</w>
+                     <w>a</w>
+                  </corr>
+               </l>
+               <figure facs="#zone_f83052_fig3">
+                  <head>[ <w>fig</w> 6 . ] </head>
                </figure>
-               <figure facs="#fig_9_4">
-                  <head>[ <l n="10">
-                        <w>fig</w>
-                     </l>7 ] </head>
-                  <figDesc>( <l n="11">
-                        <w>Fig</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>7</w>
-                        <w>Zwei</w>
-                        <w>Nebenlinien</w>
-                        <pc type="comma" join="left">,</pc>
-                        <w>die</w>
-                        <w>Hauptlinie</w>
-                        <w>imaginär</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>) </figDesc>
+               <l n="1">
+                  <w>fig</w>
+                  <w>6</w>
+                  <pc type="period" join="left">.</pc>
+               </l>
+               <l n="2">
+                  <w>Fig</w>
+                  <pc type="period" join="left">.</pc>
+                  <w>7</w>
+                  <w>Zwei</w>
+                  <w>Nebenlinien</w>
+                  <pc type="comma" join="left">,</pc>
+                  <w>die</w>
+                  <w>Hauptlinie</w>
+                  <w>imaginär</w>
+                  <pc type="period" join="left">.</pc>
+               </l>
+               <figure facs="#zone_f83052_fig4">
+                  <head>[ <w>fig</w> 7 ] </head>
                </figure>
-               <figure facs="#fig_9_5">
-                  <head>[ <l n="12">
-                        <w>fig</w>
-                     </l>8 ] </head>
-                  <figDesc>( <l n="13">
-                        <w>Fig</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>8</w>-{ <w>desgl</w>
-                        <pc type="period" join="left">.</pc>} </l>) </figDesc>
+               <l n="1">
+                  <w>fig</w>
+                  <w>7</w>
+               </l>
+               <l n="2">
+                  <w>fig</w>
+                  <pc type="period" join="left">.</pc>
+                  <w>8</w>
+                  <sic>
+                     <w>desgl</w>
+                     <pc type="period" join="left">.</pc>
+                  </sic>
+               </l>
+               <figure facs="#zone_f83052_fig5">
+                  <head>[ <w>fig</w> 8 ] </head>
                </figure>
-               <figure facs="#fig_9_6">
-                  <head>[ <l n="14">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>9 ] </head>
-                  <figDesc>( <l n="15">
-                        <w>Fig</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>9</w>
-                        <w>ähnlich</w>
-                     </l>) </figDesc>
+               <l n="1">
+                  <w>fig</w>
+                  <w>8</w>
+               </l>
+               <l n="2">
+                  <w>fig</w>
+                  <w>9</w>
+                  <pc type="period" join="left">.</pc>
+                  <w>ähnlich</w>
+               </l>
+               <figure facs="#zone_f83052_fig6">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>9 ] </head>
                </figure>
-               <ab type="parag" n="1">
-                  <l n="1">
+               <l n="1">
+                  <w>Fig</w>
+                  <pc type="period" join="left">.</pc>
+                  <w>9</w>
+               </l>
+               <ab type="parag" n="2">
+                  <l n="2">
                      <w>Bei</w>
                      <w>all</w>
                      <w>diesen</w>
@@ -1429,7 +1439,7 @@
                      <w>die</w>
                      <w>Haupt -</w>
                   </l>
-                  <l n="2">
+                  <l n="3">
                      <w>linie</w>
                      <w>frei</w>
                      <w>und</w>
@@ -1439,7 +1449,7 @@
                      <w>ist</w>
                      <w>sozusagen</w>
                   </l>
-                  <l n="3">
+                  <l n="4">
                      <w>ein</w>
                      <w>Spaziergang</w>
                      <w>um</w>
@@ -1461,10 +1471,8 @@
                   <w>Linie</w>
                   <w>hingegen</w>
                </l>
-               <figure facs="#fig_10_1">
-                  <head>[ <l n="16">
-                        <w>fig</w>
-                     </l>10 ] </head>
+               <figure facs="#zone_f83053_fig1">
+                  <head>[ <w>fig</w> 10 ] </head>
                </figure>
                <l n="1">
                   <w>ist</w>
@@ -1535,12 +1543,10 @@
                      <w>medial</w>
                   </hi>
                </head>
-               <figure facs="#fig_10_2">
-                  <head>[ <l n="17">
-                        <w>fig</w>
-                        <w>11</w>
-                        <pc type="slash" join="both">/</pc>
-                     </l>12 ] </head>
+               <figure facs="#zone_f83053_fig2">
+                  <head>[ <w>fig</w>
+                     <w>11</w>
+                     <pc type="slash" join="both">/</pc>12 ] </head>
                </figure>
                <l n="1">
                   <w>In</w>
@@ -1571,12 +1577,10 @@
                   <w>und</w>
                   <w>Ellipse</w>
                </l>
-               <figure facs="#fig_10_3">
-                  <head>[ <l n="18">
-                        <w>fig</w>
-                        <w>13</w>
-                        <pc type="slash" join="both">/</pc>
-                     </l>14 ] </head>
+               <figure facs="#zone_f83053_fig3">
+                  <head>[ <w>fig</w>
+                     <w>13</w>
+                     <pc type="slash" join="both">/</pc>14 ] </head>
                </figure>
             </div>
             <div n="14">
@@ -1704,12 +1708,10 @@
                      <w>Falle</w>
                   </l>
                </ab>
-               <figure facs="#fig_11_1">
-                  <head>[ <l n="19">
-                        <w>fig</w>
-                        <w>15</w>
-                        <pc type="slash" join="both">/</pc>
-                     </l>16 ] </head>
+               <figure facs="#zone_f83054_fig1">
+                  <head>[ <w>fig</w>
+                     <w>15</w>
+                     <pc type="slash" join="both">/</pc>16 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -1875,7 +1877,7 @@
                      <w>weiter</w>
                   </l>
                </ab>
-               <figure facs="#fig_12_1"/>
+               <figure facs="#zone_f83055_fig1"/>
                <l n="1">
                   <w>die</w>
                   <w>Linie</w>
@@ -2089,10 +2091,8 @@
             </div>
             <div n="18">
                <pb n="15" facs="#f83058"/>
-               <figure facs="#fig_15_1">
-                  <head>[ <l n="20">
-                        <w>fig</w>
-                     </l>6 ] </head>
+               <figure facs="#zone_f83058_fig1">
+                  <head>[ <w>fig</w> 6 ] </head>
                </figure>
                <l n="1">
                   <w>Eisenbahnschienen</w>
@@ -2187,7 +2187,7 @@
                      <w>Punkten</w>
                   </l>
                </ab>
-               <figure facs="#fig_15_2"/>
+               <figure facs="#zone_f83058_fig2"/>
                <l n="1">
                   <w>zu</w>
                   <w>Linien</w>
@@ -2199,7 +2199,7 @@
                   <w>von</w>
                   <w>Linien</w>
                </l>
-               <figure facs="#fig_15_3"/>
+               <figure facs="#zone_f83058_fig3"/>
                <l n="1">
                   <w>zu</w>
                   <w>Flächen</w>
@@ -2213,7 +2213,7 @@
                   <w>log</w>
                   <w>nicht</w>
                </l>
-               <figure facs="#fig_15_4"/>
+               <figure facs="#zone_f83058_fig4"/>
                <l n="1">
                   <w>Flächen</w>
                   <w>mit</w>
@@ -2284,10 +2284,8 @@
                      <pc type="exclam" join="left">!</pc>
                   </l>
                </ab>
-               <figure facs="#fig_15_5">
-                  <head>[ <l n="21">
-                        <w>fig</w>
-                     </l>7 ] </head>
+               <figure facs="#zone_f83058_fig5">
+                  <head>[ <w>fig</w> 7 ] </head>
                </figure>
                <l n="1">
                   <w>Dies</w>
@@ -2384,8 +2382,8 @@
                   <w>die</w>
                   <w>bei</w>
                </l>
-               <figure facs="#fig_17_1"/>
-               <figure facs="#fig_17_2"/>
+               <figure facs="#zone_f83060_fig1"/>
+               <figure facs="#zone_f83060_fig2"/>
                <l n="1">
                   <w>fig</w>
                   <w>11</w>
@@ -2411,7 +2409,7 @@
                   <w>Winkel</w>
                   <pc type="bracketClose" join="left">)</pc>
                </l>
-               <figure facs="#fig_17_3"/>
+               <figure facs="#zone_f83060_fig3"/>
                <l n="1">
                   <w>und</w>
                   <add>
@@ -2439,14 +2437,12 @@
                <head n="1" type="pause">
                   <pc type="punct" join="both">*</pc>
                </head>
-               <figure facs="#fig_17_4"/>
+               <figure facs="#zone_f83060_fig4"/>
             </div>
             <div n="21">
                <pb n="18" facs="#f83061"/>
-               <figure facs="#fig_18_1">
-                  <head>[ <l n="22">
-                        <w>fig</w>
-                     </l>14 ] </head>
+               <figure facs="#zone_f83061_fig1">
+                  <head>[ <w>fig</w> 14 ] </head>
                </figure>
                <l n="1">
                   <w>Wir</w>
@@ -2547,10 +2543,8 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_18_2">
-                  <head>[ <l n="23">
-                        <w>fig</w>
-                     </l>15 ] </head>
+               <figure facs="#zone_f83061_fig2">
+                  <head>[ <w>fig</w> 15 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -2578,10 +2572,8 @@
                      <w>Bodenfläche</w>
                   </l>
                </ab>
-               <figure facs="#fig_18_3">
-                  <head>[ <l n="24">
-                        <w>fig</w>
-                     </l>16 ] </head>
+               <figure facs="#zone_f83061_fig3">
+                  <head>[ <w>fig</w> 16 ] </head>
                </figure>
                <l n="1">
                   <w>nimmt</w>
@@ -2617,7 +2609,7 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_19_1"/>
+               <figure facs="#zone_f83062_fig1"/>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Beim</w>
@@ -2627,7 +2619,7 @@
                      <w>Fläche</w>
                   </l>
                </ab>
-               <figure facs="#fig_19_2"/>
+               <figure facs="#zone_f83062_fig2"/>
                <l n="1">
                   <w>bleibt</w>
                   <w>die</w>
@@ -2653,14 +2645,12 @@
                   <w>Nun</w>
                   <w>wollen</w>
                </l>
-               <figure facs="#fig_20_1">
-                  <figDesc>( <l n="25">
-                        <pc type="bracketOpen" join="right">(</pc>
-                        <w>wie</w>
-                        <w>fig</w>
-                        <w>14</w>
-                        <pc type="bracketClose" join="left">)</pc>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83063_fig1">
+                  <figDesc>( <pc type="bracketOpen" join="right">(</pc>
+                     <w>wie</w>
+                     <w>fig</w>
+                     <w>14</w>
+                     <pc type="bracketClose" join="left">)</pc>) </figDesc>
                </figure>
                <l n="1">
                   <w>wir</w>
@@ -2703,10 +2693,8 @@
                   <w>21</w>
                   <pc type="bracketClose" join="left">)</pc>
                </l>
-               <figure facs="#fig_20_2">
-                  <head>[ <l n="26">
-                        <w>fig</w>
-                     </l>21 ] </head>
+               <figure facs="#zone_f83063_fig2">
+                  <head>[ <w>fig</w> 21 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -2759,10 +2747,8 @@
             </div>
             <div n="24">
                <pb n="21" facs="#f83064"/>
-               <figure facs="#fig_21_1">
-                  <head>[ <l n="27">
-                        <w>fig</w>
-                     </l>22 ] </head>
+               <figure facs="#zone_f83064_fig1">
+                  <head>[ <w>fig</w> 22 ] </head>
                </figure>
                <l n="1">
                   <w>Was</w>
@@ -2788,10 +2774,8 @@
                   <pc type="period" join="left">.</pc>
                   <pc type="bracketClose" join="left">)</pc>
                </l>
-               <figure facs="#fig_21_2">
-                  <head>[ <l n="28">
-                        <w>fig</w>
-                     </l>23 ] </head>
+               <figure facs="#zone_f83064_fig2">
+                  <head>[ <w>fig</w> 23 ] </head>
                </figure>
                <l n="1">
                   <w>zu</w>
@@ -2901,10 +2885,8 @@
             </div>
             <div n="25">
                <pb n="22" facs="#f83065"/>
-               <figure facs="#fig_22_1">
-                  <head>[ <l n="29">
-                        <w>fig</w>
-                     </l>24 ] </head>
+               <figure facs="#zone_f83065_fig1">
+                  <head>[ <w>fig</w> 24 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -2973,10 +2955,8 @@
                      <w>kann</w>
                   </l>
                </ab>
-               <figure facs="#fig_22_2">
-                  <head>[ <l n="30">
-                        <w>ad</w>
-                     </l>24 ] </head>
+               <figure facs="#zone_f83065_fig2">
+                  <head>[ <w>ad</w> 24 ] </head>
                </figure>
                <l n="1">
                   <w>ist</w>
@@ -3018,15 +2998,11 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_22_3">
-                  <head>[ <l n="31">
-                        <w>ad</w>
-                     </l>23 ] </head>
+               <figure facs="#zone_f83065_fig3">
+                  <head>[ <w>ad</w> 23 ] </head>
                </figure>
-               <figure facs="#fig_22_3">
-                  <head>[ <l n="31">
-                        <w>ad</w>
-                     </l>23 ] </head>
+               <figure facs="#zone_f83065_fig4">
+                  <head>[ <w>ad</w> 23 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -3086,10 +3062,8 @@
                   </add>
                   <w>Linie</w>
                </l>
-               <figure facs="#fig_23_1">
-                  <head>[ <l n="33">
-                        <w>ad</w>
-                     </l>25 ] </head>
+               <figure facs="#zone_f83066_fig1">
+                  <head>[ <w>ad</w> 25 ] </head>
                </figure>
                <l n="1">
                   <w>der</w>
@@ -3182,11 +3156,9 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_23_2">
-                  <head>[ ( <l n="34">
-                        <w>Fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>22 ) ] </head>
+               <figure facs="#zone_f83066_fig2">
+                  <head>[ ( <w>Fig</w>
+                     <pc type="period" join="left">.</pc>22 ) ] </head>
                </figure>
                <l n="1">
                   <w>Die</w>
@@ -3216,10 +3188,8 @@
             </div>
             <div n="27">
                <pb n="24" facs="#f83067"/>
-               <figure facs="#fig_24_1">
-                  <head>[ <l n="35">
-                        <w>Fig</w>
-                     </l>26 ] </head>
+               <figure facs="#zone_f83067_fig1">
+                  <head>[ <w>Fig</w> 26 ] </head>
                </figure>
                <l n="1">
                   <w>Der</w>
@@ -3319,22 +3289,14 @@
                   <w>Kreisscheibe</w>
                   <pc type="period" join="left">.</pc>
                </l>
-               <figure facs="#fig_24_2">
-                  <head>[ <l n="36">
-                        <w>ad</w>
-                     </l>26 ] </head>
-                  <figDesc>( <l n="37">
-                        <w>gesehn</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83067_fig2">
+                  <head>[ <w>ad</w> 26 ] </head>
+                  <figDesc>( <w>gesehn</w> ) </figDesc>
                </figure>
-               <figure facs="#fig_24_3">
-                  <head>[ <l n="38">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>27 ] </head>
-                  <figDesc>( <l n="39">
-                        <w>gedacht</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83067_fig3">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>27 ] </head>
+                  <figDesc>( <w>gedacht</w> ) </figDesc>
                </figure>
             </div>
             <div n="28">
@@ -3393,7 +3355,7 @@
                      <w>zerfällt</w>
                   </l>
                </ab>
-               <figure facs="#fig_25_1"/>
+               <figure facs="#zone_f83068_fig1"/>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Dies</w>
@@ -3640,10 +3602,8 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_27_1">
-                  <head>[ <l n="40">
-                        <w>fig</w>
-                     </l>1 ] </head>
+               <figure facs="#zone_f83070_fig1">
+                  <head>[ <w>fig</w> 1 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -3715,10 +3675,8 @@
                      <pc type="colon" join="left">:</pc>
                   </l>
                </ab>
-               <figure facs="#fig_27_2">
-                  <head>[ <l n="41">
-                        <w>fig</w>
-                     </l>2 ] </head>
+               <figure facs="#zone_f83070_fig2">
+                  <head>[ <w>fig</w> 2 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -3916,8 +3874,8 @@
             </div>
             <div n="31">
                <pb n="28" facs="#f83071"/>
-               <figure facs="#fig_28_1"/>
-               <figure facs="#fig_28_2"/>
+               <figure facs="#zone_f83071_fig1"/>
+               <figure facs="#zone_f83071_fig2"/>
                <l n="1">
                   <w>So</w>
                   <w>ungefähr</w>
@@ -3991,10 +3949,8 @@
             </div>
             <div n="32">
                <pb n="29" facs="#f83072"/>
-               <figure facs="#fig_29_1">
-                  <head>[ <l n="42">
-                        <w>fig</w>
-                     </l>6 ] </head>
+               <figure facs="#zone_f83072_fig1">
+                  <head>[ <w>fig</w> 6 ] </head>
                </figure>
                <l n="1">
                   <w>Mit</w>
@@ -4105,10 +4061,8 @@
                   <w>weglassen</w>
                   <pc type="period" join="left">.</pc>
                </l>
-               <figure facs="#fig_30_1">
-                  <head>[ <l n="43">
-                        <w>fig</w>
-                     </l>7 ] </head>
+               <figure facs="#zone_f83073_fig1">
+                  <head>[ <w>fig</w> 7 ] </head>
                </figure>
                <l n="1">
                   <w>Stören</w>
@@ -4125,10 +4079,8 @@
                   <w>Überbelastung</w>
                   <pc type="comma" join="left">,</pc>
                </l>
-               <figure facs="#fig_30_2">
-                  <head>[ <l n="44">
-                        <w>fig</w>
-                     </l>8 ] </head>
+               <figure facs="#zone_f83073_fig2">
+                  <head>[ <w>fig</w> 8 ] </head>
                </figure>
                <l n="1">
                   <pc type="comma" join="left">,</pc>
@@ -4142,10 +4094,8 @@
                   <w>Weise</w>
                   <pc type="period" join="left">.</pc>
                </l>
-               <figure facs="#fig_30_3">
-                  <head>[ <l n="45">
-                        <w>fig</w>
-                     </l>9 ] </head>
+               <figure facs="#zone_f83073_fig3">
+                  <head>[ <w>fig</w> 9 ] </head>
                </figure>
                <l n="1">
                   <w>Korrigieren</w>
@@ -4155,10 +4105,8 @@
                   <w>Gegenbelastung</w>
                   <pc type="comma" join="left">,</pc>
                </l>
-               <figure facs="#fig_30_4">
-                  <head>[ <l n="46">
-                        <w>fig</w>
-                     </l>10 ] </head>
+               <figure facs="#zone_f83073_fig4">
+                  <head>[ <w>fig</w> 10 ] </head>
                </figure>
                <l n="1">
                   <pc type="comma" join="left">,</pc>
@@ -4169,10 +4117,8 @@
                   <w>aus</w>
                   <pc type="colon" join="left">:</pc>
                </l>
-               <figure facs="#fig_30_5">
-                  <head>[ <l n="47">
-                        <w>fig</w>
-                     </l>11 ] </head>
+               <figure facs="#zone_f83073_fig5">
+                  <head>[ <w>fig</w> 11 ] </head>
                </figure>
                <l n="1">
                   <w>Das</w>
@@ -4182,10 +4128,8 @@
                   <w>Kreuz</w>
                   <pc type="colon" join="left">:</pc>
                </l>
-               <figure facs="#fig_30_6">
-                  <head>[ <l n="48">
-                        <w>fig</w>
-                     </l>12 ] </head>
+               <figure facs="#zone_f83073_fig6">
+                  <head>[ <w>fig</w> 12 ] </head>
                </figure>
                <l n="1">
                   <w>Nun</w>
@@ -4244,10 +4188,8 @@
                   <w>so</w>
                   <pc type="colon" join="left">:</pc>
                </l>
-               <figure facs="#fig_31_1">
-                  <head>[ <l n="49">
-                        <w>fig</w>
-                     </l>13 ] </head>
+               <figure facs="#zone_f83074_fig1">
+                  <head>[ <w>fig</w> 13 ] </head>
                </figure>
                <l n="1">
                   <w>und</w>
@@ -4260,7 +4202,7 @@
                   <w>so</w>
                   <pc type="colon" join="left">:</pc>
                </l>
-               <figure facs="#fig_31_2">
+               <figure facs="#zone_f83074_fig2">
                   <head>[ 13a ] </head>
                </figure>
                <ab type="parag" n="1">
@@ -4349,12 +4291,10 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_31_3">
-                  <head>[ <l n="50">
-                        <w>figur</w>
-                        <w>14</w>
-                        <w>und</w>
-                     </l>15 ] </head>
+               <figure facs="#zone_f83074_fig3">
+                  <head>[ <w>figur</w>
+                     <w>14</w>
+                     <w>und</w> 15 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -4386,20 +4326,14 @@
                      <w>Stosskraft</w>
                   </l>
                </ab>
-               <figure facs="#fig_31_4">
-                  <head>[ <l n="51">
-                        <w>fig</w>
-                     </l>16 ] </head>
+               <figure facs="#zone_f83074_fig4">
+                  <head>[ <w>fig</w> 16 ] </head>
                </figure>
-               <figure facs="#fig_31_5">
-                  <head>[ <l n="52">
-                        <w>fig</w>
-                     </l>17 ] </head>
+               <figure facs="#zone_f83074_fig5">
+                  <head>[ <w>fig</w> 17 ] </head>
                </figure>
-               <figure facs="#fig_31_6">
-                  <head>[ <l n="53">
-                        <w>fig</w>
-                     </l>18 ] </head>
+               <figure facs="#zone_f83074_fig6">
+                  <head>[ <w>fig</w> 18 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -4414,7 +4348,7 @@
                      <pc type="bracketClose" join="left">)</pc>
                   </l>
                </ab>
-               <figure facs="#fig_31_7"/>
+               <figure facs="#zone_f83074_fig7"/>
             </div>
             <div n="35">
                <pb n="32" facs="#f83075"/>
@@ -4471,15 +4405,9 @@
             </div>
             <div n="36">
                <pb n="33" facs="#f83076"/>
-               <figure facs="#fig_33_1">
-                  <head>[ <l n="54">
-                        <w>fig</w>
-                     </l>21 ] </head>
-                  <figDesc>( <l n="55">
-                        <w>hellgrau</w>
-                     </l>| <l n="56">
-                        <w>dunkelgrau</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83076_fig1">
+                  <head>[ <w>fig</w> 21 ] </head>
+                  <figDesc>( <w>hellgrau</w> | <w>dunkelgrau</w> ) </figDesc>
                </figure>
                <l n="1">
                   <w>21</w>
@@ -4494,16 +4422,10 @@
                   <w>schwarzer</w>
                   <w>Energie</w>
                </l>
-               <figure facs="#fig_33_2">
-                  <head>[ <l n="57">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>22 . ] </head>
-                  <figDesc>( <l n="58">
-                        <w>hellrot</w>
-                     </l>| <l n="59">
-                        <w>rot</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83076_fig2">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>22 . ] </head>
+                  <figDesc>( <w>hellrot</w> | <w>rot</w> ) </figDesc>
                </figure>
                <l n="1">
                   <w>22</w>
@@ -4523,18 +4445,12 @@
                   <w>Energie</w>
                   <pc type="period" join="left">.</pc>
                </l>
-               <figure facs="#fig_33_3">
-                  <head>[ <l n="60">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>23 ] </head>
-                  <figDesc>( <l n="61">
-                        <w>reines</w>
-                        <w>rot</w>
-                     </l>| <l n="62">
-                        <w>reines</w>
-                        <w>blau</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83076_fig3">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>23 ] </head>
+                  <figDesc>( <w>reines</w>
+                     <w>rot</w> | <w>reines</w>
+                     <w>blau</w> ) </figDesc>
                </figure>
                <l n="1">
                   <w>23</w>
@@ -4584,10 +4500,8 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_33_4">
-                  <head>[ <l n="63">
-                        <w>fig</w>
-                     </l>20a. ] </head>
+               <figure facs="#zone_f83076_fig4">
+                  <head>[ <w>fig</w> 20a. ] </head>
                </figure>
                <l n="1">
                   <w>Bei</w>
@@ -4620,17 +4534,9 @@
                   <w>schwarz</w>
                   <w>hinzu</w>
                </l>
-               <figure facs="#fig_33_5">
-                  <head>[ <l n="64">
-                        <w>fig</w>
-                     </l>21a ] </head>
-                  <figDesc>( <l n="65">
-                        <w>hellgrau</w>
-                     </l>| <l n="66">
-                        <w>schwarz</w>
-                     </l>| <l n="67">
-                        <w>dunkelgrau</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83076_fig5">
+                  <head>[ <w>fig</w> 21a ] </head>
+                  <figDesc>( <w>hellgrau</w> | <w>schwarz</w> | <w>dunkelgrau</w> ) </figDesc>
                </figure>
             </div>
             <div n="37">
@@ -4652,17 +4558,9 @@
                   <w>verfahren</w>
                   <w>entsprechend</w>
                </l>
-               <figure facs="#fig_34_1">
-                  <head>[ <l n="68">
-                        <w>fig</w>
-                     </l>22a ] </head>
-                  <figDesc>( <l n="69">
-                        <w>hellrot</w>
-                     </l>| <l n="70">
-                        <w>dunkelrot</w>
-                     </l>| <l n="71">
-                        <w>rot</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83077_fig1">
+                  <head>[ <w>fig</w> 22a ] </head>
+                  <figDesc>( <w>hellrot</w> | <w>dunkelrot</w> | <w>rot</w> ) </figDesc>
                </figure>
                <l n="1">
                   <w>Bei</w>
@@ -4692,20 +4590,12 @@
                   <w>gelb</w>
                   <pc type="quest" join="left">?</pc>
                </l>
-               <figure facs="#fig_34_2">
-                  <head>[ <l n="72">
-                        <w>fig</w>
-                     </l>23a ] </head>
-                  <figDesc>( <l n="73">
-                        <w>reines</w>
-                        <w>rot</w>
-                     </l>| <l n="74">
-                        <w>reines</w>
-                        <w>gelb</w>
-                     </l>| <l n="75">
-                        <w>reines</w>
-                        <w>blau</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83077_fig2">
+                  <head>[ <w>fig</w> 23a ] </head>
+                  <figDesc>( <w>reines</w>
+                     <w>rot</w> | <w>reines</w>
+                     <w>gelb</w> | <w>reines</w>
+                     <w>blau</w> ) </figDesc>
                </figure>
                <l n="1">
                   <w>Es</w>
@@ -4833,18 +4723,10 @@
             </div>
             <div n="38">
                <pb n="35" facs="#f83078"/>
-               <figure facs="#fig_35_1">
-                  <head>[ <l n="76">
-                        <w>Fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>24 ] </head>
-                  <figDesc>( <l n="77">
-                        <w>rot</w>
-                     </l>| <l n="78">
-                        <w>hellrot</w>
-                     </l>| <l n="79">
-                        <w>dunkelrot</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83078_fig1">
+                  <head>[ <w>Fig</w>
+                     <pc type="period" join="left">.</pc>24 ] </head>
+                  <figDesc>( <w>rot</w> | <w>hellrot</w> | <w>dunkelrot</w> ) </figDesc>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -5075,19 +4957,11 @@
             </div>
             <div n="39">
                <pb n="36" facs="#f83079"/>
-               <figure facs="#fig_36_1">
-                  <head>[ <l n="80">
-                        <w>Fig</w>
-                     </l>25 ] </head>
-                  <figDesc>( <l n="81">
-                        <w>zu</w>
-                        <w>schwer</w>
-                     </l>| <l n="82">
-                        <w>zu</w>
-                        <w>leicht</w>
-                     </l>| <l n="83">
-                        <w>Ausgleich</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83079_fig1">
+                  <head>[ <w>Fig</w> 25 ] </head>
+                  <figDesc>( <w>zu</w>
+                     <w>schwer</w> | <w>zu</w>
+                     <w>leicht</w> | <w>Ausgleich</w> ) </figDesc>
                </figure>
                <l n="1">
                   <w>der</w>
@@ -5235,10 +5109,8 @@
             </div>
             <div n="40">
                <pb n="37" facs="#f83080"/>
-               <figure facs="#fig_37_1">
-                  <head>[ <l n="84">
-                        <w>Fig</w>
-                     </l>26 ] </head>
+               <figure facs="#zone_f83080_fig1">
+                  <head>[ <w>Fig</w> 26 ] </head>
                </figure>
                <l n="1">
                   <w>I</w>
@@ -5301,7 +5173,7 @@
                   <w>im</w>
                   <w>Pfeil</w>
                </l>
-               <figure facs="#fig_37_2"/>
+               <figure facs="#zone_f83080_fig2"/>
                <l n="1">
                   <w>ihren</w>
                </l>
@@ -5407,15 +5279,11 @@
                      <pc type="bracketClose" join="left">)</pc>
                   </l>
                </ab>
-               <figure facs="#fig_37_3">
-                  <head>[ <l n="85">
-                        <w>fig</w>
-                     </l>27 ] </head>
+               <figure facs="#zone_f83080_fig3">
+                  <head>[ <w>fig</w> 27 ] </head>
                </figure>
-               <figure facs="#fig_37_4">
-                  <head>[ <l n="86">
-                        <w>fig</w>
-                     </l>28 ] </head>
+               <figure facs="#zone_f83080_fig4">
+                  <head>[ <w>fig</w> 28 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -5575,10 +5443,8 @@
                      <w>die</w>
                   </l>
                </ab>
-               <figure facs="#fig_38_1">
-                  <head>[ <l n="87">
-                        <w>fig</w>
-                     </l>29 ] </head>
+               <figure facs="#zone_f83081_fig1">
+                  <head>[ <w>fig</w> 29 ] </head>
                </figure>
                <l n="1">
                   <w>Horizontale</w>
@@ -5630,19 +5496,15 @@
                   <w>da</w>
                   <pc type="exclam" join="left">!</pc>
                </l>
-               <figure facs="#fig_38_2">
-                  <head>[ <l n="88">
-                        <w>fig</w>
-                     </l>30 ] </head>
-                  <figDesc>( <l n="89">
-                        <pc type="bracketOpen" join="right">(</pc>
-                        <w>als</w>
-                        <w>wirkliche</w>
-                        <w>Bausteine</w>
-                        <w>zu</w>
-                        <w>denken</w>
-                        <pc type="bracketClose" join="left">)</pc>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83081_fig2">
+                  <head>[ <w>fig</w> 30 ] </head>
+                  <figDesc>( <pc type="bracketOpen" join="right">(</pc>
+                     <w>als</w>
+                     <w>wirkliche</w>
+                     <w>Bausteine</w>
+                     <w>zu</w>
+                     <w>denken</w>
+                     <pc type="bracketClose" join="left">)</pc>) </figDesc>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -5693,15 +5555,13 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_38_3">
-                  <head>[ <l n="90">
-                        <w>fig</w>
-                     </l>31 ] </head>
+               <figure facs="#zone_f83081_fig3">
+                  <head>[ <w>fig</w> 31 ] </head>
                </figure>
                <head n="1" type="pause">
                   <pc type="punct" join="both">*</pc>
                </head>
-               <figure facs="#fig_38_4">
+               <figure facs="#zone_f83081_fig4">
                   <head>[ 31a ] </head>
                </figure>
             </div>
@@ -5730,15 +5590,11 @@
                      <pc type="colon" join="left">:</pc>
                   </l>
                </ab>
-               <figure facs="#fig_39_1">
-                  <head>[ <l n="91">
-                        <w>fig</w>
-                     </l>32 ] </head>
-                  <figDesc>( <l n="92">
-                        <pc type="bracketOpen" join="right">(</pc>
-                        <w>leer</w>
-                        <pc type="bracketClose" join="left">)</pc>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83082_fig1">
+                  <head>[ <w>fig</w> 32 ] </head>
+                  <figDesc>( <pc type="bracketOpen" join="right">(</pc>
+                     <w>leer</w>
+                     <pc type="bracketClose" join="left">)</pc>) </figDesc>
                </figure>
                <l n="1">
                   <w>halten</w>
@@ -5784,11 +5640,9 @@
                   <w>Viereck</w>
                   <w>hinzu</w>
                </l>
-               <figure facs="#fig_39_2">
-                  <head>[ <l n="93">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>33 ] </head>
+               <figure facs="#zone_f83082_fig2">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>33 ] </head>
                </figure>
                <l n="1">
                   <w>so</w>
@@ -5843,16 +5697,10 @@
                   <w>Relativitäten</w>
                   <pc type="period" join="left">.</pc>
                </l>
-               <figure facs="#fig_39_3">
-                  <head>[ <l n="94">
-                        <w>fig</w>
-                     </l>34 ] </head>
-                  <figDesc>( <l n="95">
-                        <w>sehr</w>
-                        <w>hellgrau</w>
-                     </l>| <l n="96">
-                        <w>Tiefschwarz</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83082_fig3">
+                  <head>[ <w>fig</w> 34 ] </head>
+                  <figDesc>( <w>sehr</w>
+                     <w>hellgrau</w> | <w>Tiefschwarz</w> ) </figDesc>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -6472,16 +6320,10 @@
                      <pc type="colon" join="left">:</pc>
                   </l>
                </ab>
-               <figure facs="#fig_43_1">
-                  <head>[ <l n="97">
-                        <w>fig</w>
-                     </l>4 ] </head>
-                  <figDesc>( <l n="98">
-                        <w>in</w>
-                        <w>Zahlen</w>
-                     </l>| <l n="99">
-                        <w>Maass</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83086_fig1">
+                  <head>[ <w>fig</w> 4 ] </head>
+                  <figDesc>( <w>in</w>
+                     <w>Zahlen</w> | <w>Maass</w> ) </figDesc>
                </figure>
                <l n="1">
                   <w>oder</w>
@@ -6489,16 +6331,10 @@
                   <w>Structur</w>
                   <pc type="colon" join="left">:</pc>
                </l>
-               <figure facs="#fig_43_2">
-                  <head>[ <l n="100">
-                        <w>fig</w>
-                     </l>5 ] </head>
-                  <figDesc>( <l n="101">
-                        <w>in</w>
-                        <w>Zahlen</w>
-                     </l>| <l n="102">
-                        <w>Gewicht</w>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83086_fig2">
+                  <head>[ <w>fig</w> 5 ] </head>
+                  <figDesc>( <w>in</w>
+                     <w>Zahlen</w> | <w>Gewicht</w> ) </figDesc>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -7020,10 +6856,8 @@
                      <pc type="comma" join="left">,</pc>
                   </l>
                </ab>
-               <figure facs="#fig_46_1">
-                  <head>[ <l n="103">
-                        <w>fig</w>
-                     </l>7 ] </head>
+               <figure facs="#zone_f83089_fig1">
+                  <head>[ <w>fig</w> 7 ] </head>
                </figure>
                <l n="1">
                   <w>wobei</w>
@@ -7048,11 +6882,11 @@
                   <w>entsteht</w>
                   <pc type="period" join="left">.</pc>
                </l>
-               <figure facs="#fig_46_2"/>
+               <figure facs="#zone_f83089_fig2"/>
                <l n="1">
                   <w>oder</w>
                </l>
-               <figure facs="#fig_46_3"/>
+               <figure facs="#zone_f83089_fig3"/>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Diese</w>
@@ -7078,16 +6912,12 @@
                      <pc type="punct" join="both">*</pc>
                   </head>
                </ab>
-               <figure facs="#fig_46_4">
-                  <head>[ <l n="104">
-                        <w>fig</w>
-                     </l>7a ] </head>
+               <figure facs="#zone_f83089_fig4">
+                  <head>[ <w>fig</w> 7a ] </head>
                </figure>
-               <figure facs="#fig_46_5">
-                  <head>[ <l n="105">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>8 ] </head>
+               <figure facs="#zone_f83089_fig5">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>8 ] </head>
                </figure>
             </div>
             <div n="50">
@@ -7490,115 +7320,95 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_49_1">
-                  <head>[ <l n="106">
-                        <w>fig</w>
-                     </l>9 . ] </head>
-                  <figDesc>( <l n="107">
-                        <pc type="bracketOpen" join="right">(</pc>
-                        <w>fig</w>
-                        <w>9</w>
-                        <pc type="bracketClose" join="left">)</pc>
-                        <w>zweiwertige</w>
-                        <w>Norm</w>
-                        <w>oder</w>_ <w>Zweitakt</w>_ </l>) </figDesc>
+               <figure facs="#zone_f83092_fig1">
+                  <head>[ <w>fig</w> 9 . ] </head>
+                  <figDesc>( <pc type="bracketOpen" join="right">(</pc>
+                     <w>fig</w>
+                     <w>9</w>
+                     <pc type="bracketClose" join="left">)</pc>
+                     <w>zweiwertige</w>
+                     <w>Norm</w>
+                     <w>oder</w> _ <w>Zweitakt</w> _ ) </figDesc>
                </figure>
-               <figure facs="#fig_49_2">
-                  <head>[ <l n="108">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>10 ] </head>
-                  <figDesc>( <l n="109">
-                        <pc type="bracketOpen" join="right">(</pc>
-                        <w>fig</w>
-                        <w>10</w>
-                        <pc type="bracketClose" join="left">)</pc>
-                        <w>dreiwertige</w>
-                        <w>Norm</w>
-                        <w>oder</w>_ <w>Dreitakt</w>_ </l>) </figDesc>
+               <figure facs="#zone_f83092_fig2">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>10 ] </head>
+                  <figDesc>( <pc type="bracketOpen" join="right">(</pc>
+                     <w>fig</w>
+                     <w>10</w>
+                     <pc type="bracketClose" join="left">)</pc>
+                     <w>dreiwertige</w>
+                     <w>Norm</w>
+                     <w>oder</w> _ <w>Dreitakt</w> _ ) </figDesc>
                </figure>
-               <figure facs="#fig_49_3">
-                  <head>[ <l n="110">
-                        <w>fig</w>
-                     </l>11 . ] </head>
-                  <figDesc>( <l n="111">
-                        <pc type="bracketOpen" join="right">(</pc>
-                        <w>fig</w>
-                        <w>11</w>
-                        <pc type="bracketClose" join="left">)</pc>
-                        <w>Variante</w>
-                        <w>der</w>
-                        <w>zweiwertigen</w>
-                        <w>Norm</w>
-                        <pc type="comma" join="left">,</pc>
-                        <w>ein</w>
-                        <w>Zweitakt</w>
-                        <w>mit</w>
-                        <w>zweiteiliger</w>
-                        <w>Unterstructuroder</w>_ <w>Viertakt</w>_ </l>) </figDesc>
+               <figure facs="#zone_f83092_fig3">
+                  <head>[ <w>fig</w> 11 . ] </head>
+                  <figDesc>( <pc type="bracketOpen" join="right">(</pc>
+                     <w>fig</w>
+                     <w>11</w>
+                     <pc type="bracketClose" join="left">)</pc>
+                     <w>Variante</w>
+                     <w>der</w>
+                     <w>zweiwertigen</w>
+                     <w>Norm</w>
+                     <pc type="comma" join="left">,</pc>
+                     <w>ein</w>
+                     <w>Zweitakt</w>
+                     <w>mit</w>
+                     <w>zweiteiliger</w>
+                     <w>Unterstructuroder</w> _ <w>Viertakt</w> _ ) </figDesc>
                </figure>
-               <figure facs="#fig_49_4">
-                  <head>[ <l n="112">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>12 . ] </head>
-                  <figDesc>( <l n="113">
-                        <pc type="bracketOpen" join="right">(</pc>
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>12</w>
-                        <pc type="bracketClose" join="left">)</pc>
-                        <w>Variante</w>
-                        <w>der</w>
-                        <w>zweiwertigen</w>
-                        <w>Norm</w>
-                        <w>mit</w>
-                        <w>dreiteiliger</w>
-                        <w>Unterstructur</w>
-                        <w>oder</w>_ <w>Sechstakt</w>_ <pc type="bracketOpen" join="right">(</pc>
-                        <w>zweiteiliger</w>
-                        <pc type="bracketClose" join="left">)</pc>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83092_fig4">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>12 . ] </head>
+                  <figDesc>( <pc type="bracketOpen" join="right">(</pc>
+                     <w>fig</w>
+                     <pc type="period" join="left">.</pc>
+                     <w>12</w>
+                     <pc type="bracketClose" join="left">)</pc>
+                     <w>Variante</w>
+                     <w>der</w>
+                     <w>zweiwertigen</w>
+                     <w>Norm</w>
+                     <w>mit</w>
+                     <w>dreiteiliger</w>
+                     <w>Unterstructur</w>
+                     <w>oder</w> _ <w>Sechstakt</w> _ <pc type="bracketOpen" join="right">(</pc>
+                     <w>zweiteiliger</w>
+                     <pc type="bracketClose" join="left">)</pc>) </figDesc>
                </figure>
-               <figure facs="#fig_49_5">
-                  <head>[ <l n="114">
-                        <w>fig</w>
-                     </l>13 . ] </head>
-                  <figDesc>( <l n="115">
-                        <pc type="bracketOpen" join="right">(</pc>
-                        <w>fig</w>
-                        <w>13</w>
-                        <pc type="bracketClose" join="left">)</pc>
-                        <w>Variante</w>
-                        <w>der</w>
-                        <w>dreiwertigen</w>
-                        <w>Norm</w>
-                        <w>mit</w>
-                        <w>dreiteiliger</w>
-                        <w>Unterstructur</w>
-                        <w>oder</w>_ <w>Neuntact</w>_ </l>) </figDesc>
+               <figure facs="#zone_f83092_fig5">
+                  <head>[ <w>fig</w> 13 . ] </head>
+                  <figDesc>( <pc type="bracketOpen" join="right">(</pc>
+                     <w>fig</w>
+                     <w>13</w>
+                     <pc type="bracketClose" join="left">)</pc>
+                     <w>Variante</w>
+                     <w>der</w>
+                     <w>dreiwertigen</w>
+                     <w>Norm</w>
+                     <w>mit</w>
+                     <w>dreiteiliger</w>
+                     <w>Unterstructur</w>
+                     <w>oder</w> _ <w>Neuntact</w> _ ) </figDesc>
                </figure>
-               <figure facs="#fig_49_6">
-                  <head>[ <l n="116">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>14 ] </head>
-                  <figDesc>( <l n="117">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>14</w>
-                        <w>Variante</w>
-                        <w>des</w>
-                        <w>Viertaktes</w>
-                        <pc type="comma" join="left">,</pc>
-                        <w>mit</w>
-                        <w>dreiteiliger</w>
-                        <w>Unterstructur</w>
-                        <w>der</w>
-                        <w>Viertel</w>
-                        <pc type="comma" join="left">,</pc>
-                        <w>oder</w>_ <w>Zwölftakt</w>_ <pc type="period" join="left">.</pc>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83092_fig6">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>14 ] </head>
+                  <figDesc>( <w>fig</w>
+                     <pc type="period" join="left">.</pc>
+                     <w>14</w>
+                     <w>Variante</w>
+                     <w>des</w>
+                     <w>Viertaktes</w>
+                     <pc type="comma" join="left">,</pc>
+                     <w>mit</w>
+                     <w>dreiteiliger</w>
+                     <w>Unterstructur</w>
+                     <w>der</w>
+                     <w>Viertel</w>
+                     <pc type="comma" join="left">,</pc>
+                     <w>oder</w> _ <w>Zwölftakt</w> _ <pc type="period" join="left">.</pc>) </figDesc>
                </figure>
             </div>
             <div n="53">
@@ -7678,7 +7488,7 @@
                      <pc type="comma" join="left">,</pc>
                   </l>
                </ab>
-               <figure facs="#fig_51_1"/>
+               <figure facs="#zone_f83094_fig1"/>
                <l n="1">
                   <w>den</w>
                   <w>zweiten</w>
@@ -7687,7 +7497,7 @@
                   <w>nach</w>
                   <w>links</w>
                </l>
-               <figure facs="#fig_51_2"/>
+               <figure facs="#zone_f83094_fig2"/>
                <l n="1">
                   <w>den</w>
                   <w>dritten</w>
@@ -7698,7 +7508,7 @@
                   <w>nach</w>
                   <w>rechts</w>
                </l>
-               <figure facs="#fig_51_3"/>
+               <figure facs="#zone_f83094_fig3"/>
                <l n="1">
                   <w>und</w>
                   <w>den</w>
@@ -7710,7 +7520,7 @@
                <l n="2">
                   <w>oben</w>
                </l>
-               <figure facs="#fig_51_4"/>
+               <figure facs="#zone_f83094_fig4"/>
                <l n="1">
                   <w>zum</w>
                   <w>Ausgangspunkt</w>
@@ -7729,7 +7539,7 @@
                      <pc type="colon" join="left">:</pc>
                   </l>
                </ab>
-               <figure facs="#fig_51_5"/>
+               <figure facs="#zone_f83094_fig5"/>
                <l n="1">
                   <w>mit</w>
                   <w>Rücksichtauf</w>
@@ -7739,11 +7549,9 @@
                   <w>dynamische</w>
                   <pc type="colon" join="left">:</pc>
                </l>
-               <figure facs="#fig_51_6">
-                  <head>[ <l n="118">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>18 ] </head>
+               <figure facs="#zone_f83094_fig6">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>18 ] </head>
                </figure>
                <l n="1">
                   <w>was</w>
@@ -7774,11 +7582,9 @@
                   <w>oder</w>
                   <pc type="colon" join="left">:</pc>
                </l>
-               <figure facs="#fig_51_7">
-                  <head>[ <l n="119">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>19 ] </head>
+               <figure facs="#zone_f83094_fig7">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>19 ] </head>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -7791,21 +7597,15 @@
                      <w>Taktbild</w>
                   </l>
                </ab>
-               <figure facs="#fig_51_8">
-                  <head>[ <l n="120">
-                        <w>fig</w>
-                     </l>20 ] </head>
+               <figure facs="#zone_f83094_fig8">
+                  <head>[ <w>fig</w> 20 ] </head>
                </figure>
-               <figure facs="#fig_51_9">
-                  <head>[ <l n="121">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>20a ] </head>
+               <figure facs="#zone_f83094_fig9">
+                  <head>[ <w>fig</w>
+                     <pc type="period" join="left">.</pc>20a ] </head>
                </figure>
-               <figure facs="#fig_51_10">
-                  <head>[ <l n="122">
-                        <w>fig</w>
-                     </l>20b. ] </head>
+               <figure facs="#zone_f83094_fig10">
+                  <head>[ <w>fig</w> 20b. ] </head>
                </figure>
             </div>
             <div n="55">
@@ -7863,104 +7663,90 @@
                      <w>21</w>
                   </l>
                </ab>
-               <figure facs="#fig_52_1">
-                  <head>[ ( <l n="123">
-                        <w>fig</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>21 ) ] </head>
-                  <figDesc>( <l n="124">
-                        <w>A</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>Notierung</w>
-                        <w>des</w>
-                        <w>Componisten</w>
-                        <w>auf</w>
-                        <w>5</w>
-                        <w>Linien</w>
-                     </l>| <l n="125">
-                        <w>B</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>unsere</w>
-                        <w>übertragene</w>
-                        <w>Noti ^ +/ e // ^ rung</w>
-                        <w>auf</w>
-                        <w>die</w>
-                        <w>Tonstufen</w>
-                        <w>dreier</w>
-                        <w>Oktaven</w>
-                     </l>| <l n="126">
-                        <w>C</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>Structur</w>
-                        <w>des</w>
-                        <w>Tactes</w>
-                        <w>mit</w>
-                        <w>qualitativer</w>
-                        <w>Betonung</w>
-                     </l>| <l n="127">
-                        <pc type="bracketOpen" join="right">(</pc>
-                        <w>C</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>Structur</w>
-                        <w>des</w>
-                        <w>Taktes</w>
-                        <w>rein</w>
-                        <w>quantitativ</w>
-                        <pc type="bracketClose" join="left">)</pc>
-                     </l>| <l n="128">
-                        <w>Da</w>
-                        <w>Musik</w>
-                        <w>ohne</w>
-                        <w>Dynamik</w>
-                        <w>maschinell</w>
-                        <w>und</w>
-                        <w>ausdruckslos</w>
-                        <w>klingt</w>
-                        <w>wähle</w>
-                        <w>ich</w>
-                        <w>die</w>
-                        <w>qualitative</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>Darstellung</w>
-                        <w>und</w>
-                        <w>verleihe</w>
-                        <w>der</w>
-                        <w>Linie</w>
-                        <w>mehr</w>
-                        <w>oder</w>
-                        <w>weniger</w>
-                        <w>Gewicht</w>
-                        <pc type="comma" join="left">,</pc>
-                        <w>analog</w>
-                        <w>der</w>
-                        <w>Tonqualität</w>
-                        <pc type="comma" join="left">,</pc>
-                        <w>während</w>
-                        <w>die</w>
-                        <w>quantitative</w>
-                        <w>Darstellung</w>
-                        <w>sich</w>+{ <w>auf</w>
-                        <w>B</w>} <w>in</w>
-                        <w>den</w>
-                        <w>Verticalstrichen</w>
-                        <w>für</w>
-                        <w>Takte</w>
-                        <w>und</w>
-                        <w>Taktteile</w>
-                        <w>äussert</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>| <l n="129">
-                        <w>Anm</w>
-                        <pc type="period" join="left">.</pc>
-                        <w>folgt</w>
-                        <w>fig</w>
-                        <w>22</w>
-                        <w>in</w>
-                        <w>Form</w>
-                        <w>einer</w>
-                        <w>Beilage</w>
-                        <pc type="period" join="left">.</pc>
-                     </l>) </figDesc>
+               <figure facs="#zone_f83095_fig1">
+                  <head>[ ( <w>fig</w>
+                     <pc type="period" join="left">.</pc>21 ) ] </head>
+                  <figDesc>( <w>A</w>
+                     <pc type="period" join="left">.</pc>
+                     <w>Notierung</w>
+                     <w>des</w>
+                     <w>Componisten</w>
+                     <w>auf</w>
+                     <w>5</w>
+                     <w>Linien</w> | <w>B</w>
+                     <pc type="period" join="left">.</pc>
+                     <w>unsere</w>
+                     <w>übertragene</w>
+                     <w>Noti ^ +/ e // ^ rung</w>
+                     <w>auf</w>
+                     <w>die</w>
+                     <w>Tonstufen</w>
+                     <w>dreier</w>
+                     <w>Oktaven</w> | <w>C</w>
+                     <pc type="period" join="left">.</pc>
+                     <w>Structur</w>
+                     <w>des</w>
+                     <w>Tactes</w>
+                     <w>mit</w>
+                     <w>qualitativer</w>
+                     <w>Betonung</w> | <pc type="bracketOpen" join="right">(</pc>
+                     <w>C</w>
+                     <pc type="period" join="left">.</pc>
+                     <w>Structur</w>
+                     <w>des</w>
+                     <w>Taktes</w>
+                     <w>rein</w>
+                     <w>quantitativ</w>
+                     <pc type="bracketClose" join="left">)</pc>| <w>Da</w>
+                     <w>Musik</w>
+                     <w>ohne</w>
+                     <w>Dynamik</w>
+                     <w>maschinell</w>
+                     <w>und</w>
+                     <w>ausdruckslos</w>
+                     <w>klingt</w>
+                     <w>wähle</w>
+                     <w>ich</w>
+                     <w>die</w>
+                     <w>qualitative</w>
+                     <pc type="period" join="left">.</pc>
+                     <w>Darstellung</w>
+                     <w>und</w>
+                     <w>verleihe</w>
+                     <w>der</w>
+                     <w>Linie</w>
+                     <w>mehr</w>
+                     <w>oder</w>
+                     <w>weniger</w>
+                     <w>Gewicht</w>
+                     <pc type="comma" join="left">,</pc>
+                     <w>analog</w>
+                     <w>der</w>
+                     <w>Tonqualität</w>
+                     <pc type="comma" join="left">,</pc>
+                     <w>während</w>
+                     <w>die</w>
+                     <w>quantitative</w>
+                     <w>Darstellung</w>
+                     <w>sich</w> +{ <w>auf</w>
+                     <w>B</w> } <w>in</w>
+                     <w>den</w>
+                     <w>Verticalstrichen</w>
+                     <w>für</w>
+                     <w>Takte</w>
+                     <w>und</w>
+                     <w>Taktteile</w>
+                     <w>äussert</w>
+                     <pc type="period" join="left">.</pc>| <w>Anm</w>
+                     <pc type="period" join="left">.</pc>
+                     <w>folgt</w>
+                     <w>fig</w>
+                     <w>22</w>
+                     <w>in</w>
+                     <w>Form</w>
+                     <w>einer</w>
+                     <w>Beilage</w>
+                     <pc type="period" join="left">.</pc>) </figDesc>
                </figure>
             </div>
             <div n="56">
@@ -8162,7 +7948,7 @@
                      <pc type="comma" join="left">,</pc>
                   </l>
                </ab>
-               <figure facs="#fig_54_1"/>
+               <figure facs="#zone_f83097_fig1"/>
                <l n="1">
                   <w>die</w>
                   <w>man</w>
@@ -8363,7 +8149,7 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_56_1"/>
+               <figure facs="#zone_f83099_fig1"/>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Ich</w>
@@ -8390,7 +8176,7 @@
                      <w>Columbus</w>
                   </l>
                </ab>
-               <figure facs="#fig_56_2"/>
+               <figure facs="#zone_f83099_fig2"/>
             </div>
             <div n="60">
                <pb n="57" facs="#f83100"/>
@@ -8578,7 +8364,7 @@
                      <pc type="period" join="left">.</pc>
                   </l>
                </ab>
-               <figure facs="#fig_57_1"/>
+               <figure facs="#zone_f83100_fig1"/>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Bei</w>
@@ -8717,7 +8503,7 @@
                      <pc type="exclam" join="left">!</pc>
                   </l>
                </ab>
-               <figure facs="#fig_58_1"/>
+               <figure facs="#zone_f83101_fig1"/>
                <l n="1">
                   <w>fig</w>
                   <pc type="period" join="left">.</pc>
@@ -8959,105 +8745,741 @@
          </surface>
          <surface xml:id="f83049">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83049.jpg"/>
+            <zone xml:id="zone_f83049_fig1"
+                  ulx="29"
+                  uly="209"
+                  lrx="193"
+                  lry="342"
+                  points="34,238 29,342 175,342 193,209"/>
+            <zone xml:id="zone_f83049_fig2"
+                  ulx="846"
+                  uly="469"
+                  lrx="1298"
+                  lry="584"
+                  points="846,486 863,584 1298,511 1276,469"/>
+            <zone xml:id="zone_f83049_fig3"
+                  ulx="52"
+                  uly="574"
+                  lrx="99"
+                  lry="621"
+                  points="52,574 52,621 99,621 99,574"/>
+            <zone xml:id="zone_f83049_fig4"
+                  ulx="772"
+                  uly="1034"
+                  lrx="958"
+                  lry="1182"
+                  points="803,1034 772,1141 793,1182 926,1171 958,1034"/>
+            <zone xml:id="zone_f83049_fig5"
+                  ulx="606"
+                  uly="1452"
+                  lrx="917"
+                  lry="1788"
+                  points="606,1455 682,1788 917,1670 912,1452"/>
          </surface>
          <surface xml:id="f83050">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83050.jpg"/>
          </surface>
          <surface xml:id="f83051">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83051.jpg"/>
+            <zone xml:id="zone_f83051_fig1"
+                  ulx="9"
+                  uly="826"
+                  lrx="1701"
+                  lry="1156"
+                  points="9,830 9,990 9,1156 968,1156 1532,1156 1701,1156 1701,826 288,829"/>
+            <zone xml:id="zone_f83051_fig2"
+                  ulx="8"
+                  uly="1167"
+                  lrx="1924"
+                  lry="1692"
+                  points="8,1167 8,1362 8,1466 8,1692 932,1692 1630,1692 1924,1692 1924,1414 1924,1167 141,1167"/>
+            <zone xml:id="zone_f83051_fig3"
+                  ulx="0"
+                  uly="1714"
+                  lrx="1802"
+                  lry="1964"
+                  points="0,1718 9,1964 141,1964 1802,1960 1802,1714"/>
+            <zone xml:id="zone_f83051_fig4"
+                  ulx="0"
+                  uly="2092"
+                  lrx="1647"
+                  lry="2421"
+                  points="0,2182 0,2273 0,2417 1647,2421 1547,2092"/>
          </surface>
          <surface xml:id="f83052">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83052.jpg"/>
+            <zone xml:id="zone_f83052_fig1"
+                  ulx="8"
+                  uly="240"
+                  lrx="1893"
+                  lry="524"
+                  points="231,282 88,313 8,415 194,398 431,359 616,458 855,524 1397,366 1439,430 1793,428 1892,437 1893,240 1393,260 945,406 755,399 471,292"/>
+            <zone xml:id="zone_f83052_fig2"
+                  ulx="0"
+                  uly="493"
+                  lrx="1111"
+                  lry="805"
+                  points="0,493 8,626 18,805 470,715 695,766 1111,636 1089,566 712,641 465,609 195,520 195,519"/>
+            <zone xml:id="zone_f83052_fig3"
+                  ulx="1182"
+                  uly="278"
+                  lrx="1906"
+                  lry="797"
+                  points="1300,797 1182,720 1614,278 1663,408 1607,528 1897,485 1906,749 1666,756 1649,670 1444,684"/>
+            <zone xml:id="zone_f83052_fig4"
+                  ulx="34"
+                  uly="760"
+                  lrx="1872"
+                  lry="1267"
+                  points="34,1002 34,1171 179,1164 417,1100 621,1143 960,1063 1521,1267 1853,1213 1858,1113 1872,828 1309,786 969,760 640,765 544,766 279,765"/>
+            <zone xml:id="zone_f83052_fig5"
+                  ulx="20"
+                  uly="1195"
+                  lrx="1870"
+                  lry="1651"
+                  points="20,1330 35,1521 567,1608 568,1608 1026,1394 1327,1648 1732,1650 1870,1651 1870,1398 1037,1201 386,1196 212,1195"/>
+            <zone xml:id="zone_f83052_fig6"
+                  ulx="128"
+                  uly="1542"
+                  lrx="1876"
+                  lry="1904"
+                  points="151,1542 128,1831 506,1804 801,1716 1033,1857 1753,1897 1876,1904 1860,1681 1067,1690 839,1569 633,1583 329,1557"/>
          </surface>
          <surface xml:id="f83053">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83053.jpg"/>
+            <zone xml:id="zone_f83053_fig1"
+                  ulx="0"
+                  uly="212"
+                  lrx="1818"
+                  lry="727"
+                  points="13,282 0,561 153,565 1217,596 1242,727 1417,635 1812,596 1818,286 1529,212 1464,286"/>
+            <zone xml:id="zone_f83053_fig2"
+                  ulx="8"
+                  uly="1391"
+                  lrx="1686"
+                  lry="1833"
+                  points="8,1394 8,1833 136,1833 1686,1833 1686,1391 162,1394"/>
+            <zone xml:id="zone_f83053_fig3"
+                  ulx="20"
+                  uly="2161"
+                  lrx="1551"
+                  lry="2396"
+                  points="20,2206 32,2321 101,2319 689,2306 712,2396 1551,2375 1535,2168 1337,2161 1284,2257 1239,2254 894,2268 882,2169 705,2164 699,2258 698,2281 281,2292 266,2207"/>
          </surface>
          <surface xml:id="f83054">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83054.jpg"/>
+            <zone xml:id="zone_f83054_fig1"
+                  ulx="261"
+                  uly="1624"
+                  lrx="1864"
+                  lry="1882"
+                  points="261,1711 261,1882 980,1882 1856,1882 1864,1624 1733,1631"/>
          </surface>
          <surface xml:id="f83055">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83055.jpg"/>
+            <zone xml:id="zone_f83055_fig1"
+                  ulx="609"
+                  uly="1466"
+                  lrx="964"
+                  lry="1767"
+                  points="609,1466 609,1767 964,1767 964,1466"/>
          </surface>
          <surface xml:id="f83056">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83056.jpg"/>
+            <zone xml:id="zone_f83056_fig1"
+                  ulx="273"
+                  uly="1815"
+                  lrx="1623"
+                  lry="1997"
+                  points="273,1867 281,1927 290,1991 519,1997 1298,1874 1374,1971 1615,1972 1623,1834 1310,1815 1081,1819 374,1917 457,1855 454,1855 401,1834"/>
+            <zone xml:id="zone_f83056_fig2"
+                  ulx="0"
+                  uly="2114"
+                  lrx="1536"
+                  lry="2277"
+                  points="6,2131 0,2277 1536,2263 1536,2114"/>
+            <zone xml:id="zone_f83056_fig3"
+                  ulx="1550"
+                  uly="2114"
+                  lrx="1898"
+                  lry="2286"
+                  points="1550,2137 1550,2193 1673,2286 1821,2274 1895,2193 1898,2114"/>
          </surface>
          <surface xml:id="f83057">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83057.jpg"/>
+            <zone xml:id="zone_f83057_fig1"
+                  ulx="287"
+                  uly="248"
+                  lrx="1758"
+                  lry="594"
+                  points="287,274 308,594 1724,572 1758,248"/>
+            <zone xml:id="zone_f83057_fig2"
+                  ulx="169"
+                  uly="1323"
+                  lrx="1094"
+                  lry="2316"
+                  points="282,1332 169,2286 1094,2316 1027,2157 993,2147 719,1427 760,1396 733,1323"/>
+            <zone xml:id="zone_f83057_fig3"
+                  ulx="1621"
+                  uly="2081"
+                  lrx="1897"
+                  lry="2271"
+                  points="1621,2134 1621,2271 1897,2246 1863,2081"/>
          </surface>
          <surface xml:id="f83058">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83058.jpg"/>
+            <zone xml:id="zone_f83058_fig1"
+                  ulx="26"
+                  uly="9"
+                  lrx="568"
+                  lry="615"
+                  points="26,9 26,602 263,615 568,604 568,9"/>
+            <zone xml:id="zone_f83058_fig2"
+                  ulx="1227"
+                  uly="1121"
+                  lrx="1495"
+                  lry="1177"
+                  points="1227,1121 1227,1177 1495,1177 1495,1121"/>
+            <zone xml:id="zone_f83058_fig3"
+                  ulx="975"
+                  uly="1174"
+                  lrx="1143"
+                  lry="1289"
+                  points="975,1174 975,1289 1143,1289 1143,1174"/>
+            <zone xml:id="zone_f83058_fig4"
+                  ulx="96"
+                  uly="1200"
+                  lrx="333"
+                  lry="1370"
+                  points="96,1255 96,1370 316,1370 333,1200"/>
+            <zone xml:id="zone_f83058_fig5"
+                  ulx="20"
+                  uly="1814"
+                  lrx="629"
+                  lry="2401"
+                  points="20,1814 73,2384 308,2401 618,2376 629,2308 515,1925 492,1814"/>
          </surface>
          <surface xml:id="f83059">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83059.jpg"/>
+            <zone xml:id="zone_f83059_fig1"
+                  ulx="691"
+                  uly="253"
+                  lrx="1899"
+                  lry="393"
+                  points="691,265 691,393 1647,393 1899,379 1823,253"/>
+            <zone xml:id="zone_f83059_fig2"
+                  ulx="421"
+                  uly="665"
+                  lrx="1402"
+                  lry="1241"
+                  points="421,1233 506,1045 812,682 1306,665 1402,1241 860,1233"/>
+            <zone xml:id="zone_f83059_fig3"
+                  ulx="322"
+                  uly="1262"
+                  lrx="1222"
+                  lry="2065"
+                  points="551,1262 535,1454 322,2028 1210,2065 1222,1699 970,1567 929,1290"/>
          </surface>
          <surface xml:id="f83060">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83060.jpg"/>
+            <zone xml:id="zone_f83060_fig1"
+                  ulx="14"
+                  uly="363"
+                  lrx="526"
+                  lry="864"
+                  points="14,772 14,363 526,363 490,778 385,864 14,855"/>
+            <zone xml:id="zone_f83060_fig2"
+                  ulx="359"
+                  uly="321"
+                  lrx="1343"
+                  lry="927"
+                  points="359,908 718,585 994,321 1135,321 1122,597 1343,594 1341,927"/>
+            <zone xml:id="zone_f83060_fig3"
+                  ulx="49"
+                  uly="905"
+                  lrx="674"
+                  lry="1756"
+                  points="106,905 49,1388 51,1710 596,1756 674,911"/>
+            <zone xml:id="zone_f83060_fig4"
+                  ulx="133"
+                  uly="1553"
+                  lrx="1094"
+                  lry="2291"
+                  points="718,1553 550,1861 133,1892 150,2280 902,2291 1094,2288 824,1553"/>
          </surface>
          <surface xml:id="f83061">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83061.jpg"/>
+            <zone xml:id="zone_f83061_fig1"
+                  ulx="226"
+                  uly="115"
+                  lrx="979"
+                  lry="758"
+                  points="734,128 979,714 979,758 708,754 551,754 226,758 344,548 278,544 276,260 586,115"/>
+            <zone xml:id="zone_f83061_fig2"
+                  ulx="245"
+                  uly="1228"
+                  lrx="1338"
+                  lry="1471"
+                  points="248,1471 245,1236 1204,1228 1338,1465"/>
+            <zone xml:id="zone_f83061_fig3"
+                  ulx="291"
+                  uly="1698"
+                  lrx="1592"
+                  lry="2463"
+                  points="291,1706 291,2463 1563,2463 1581,2280 1592,1917 1147,1898 940,1698"/>
          </surface>
          <surface xml:id="f83062">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83062.jpg"/>
+            <zone xml:id="zone_f83062_fig1"
+                  ulx="289"
+                  uly="244"
+                  lrx="1557"
+                  lry="970"
+                  points="878,247 878,303 794,395 323,428 289,965 878,970 953,970 964,970 1557,970 1501,244"/>
+            <zone xml:id="zone_f83062_fig2"
+                  ulx="987"
+                  uly="998"
+                  lrx="1065"
+                  lry="1146"
+                  points="987,998 987,1146 1065,1146 1065,998"/>
+            <zone xml:id="zone_f83062_fig3"
+                  ulx="858"
+                  uly="1214"
+                  lrx="1571"
+                  lry="1500"
+                  points="1121,1214 1121,1305 858,1309 873,1411 1121,1407 1121,1454 1288,1464 1321,1500 1367,1469 1571,1482 1571,1214"/>
+            <zone xml:id="zone_f83062_fig4"
+                  ulx="745"
+                  uly="1559"
+                  lrx="1308"
+                  lry="1884"
+                  points="953,1579 953,1622 749,1636 745,1763 953,1790 953,1884 1308,1884 1308,1579 1034,1559"/>
+            <zone xml:id="zone_f83062_fig5"
+                  ulx="347"
+                  uly="1834"
+                  lrx="981"
+                  lry="2077"
+                  points="347,1862 347,2077 981,2067 940,1898 749,1834"/>
          </surface>
          <surface xml:id="f83063">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83063.jpg"/>
+            <zone xml:id="zone_f83063_fig1"
+                  ulx="412"
+                  uly="138"
+                  lrx="1395"
+                  lry="733"
+                  points="774,138 654,342 412,343 416,460 416,463 598,463 452,733 1395,729 1077,138"/>
+            <zone xml:id="zone_f83063_fig2"
+                  ulx="254"
+                  uly="647"
+                  lrx="1720"
+                  lry="1892"
+                  points="254,647 254,1892 1720,1892 1720,647"/>
          </surface>
          <surface xml:id="f83064">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83064.jpg"/>
+            <zone xml:id="zone_f83064_fig1"
+                  ulx="209"
+                  uly="74"
+                  lrx="1425"
+                  lry="906"
+                  points="209,74 212,662 372,713 918,850 973,906 1015,860 1119,901 1119,365 1414,368 1425,88"/>
+            <zone xml:id="zone_f83064_fig2"
+                  ulx="85"
+                  uly="789"
+                  lrx="1741"
+                  lry="1794"
+                  points="96,797 85,1710 251,1794 394,1710 1266,1710 1384,1777 1555,1710 1741,1296 1566,789 1145,929 1015,865 960,924 633,811"/>
          </surface>
          <surface xml:id="f83065">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83065.jpg"/>
+            <zone xml:id="zone_f83065_fig1"
+                  ulx="70"
+                  uly="171"
+                  lrx="1831"
+                  lry="1425"
+                  points="70,171 70,1234 183,1391 362,1234 793,1234 871,1245 960,1241 1029,1228 1029,1231 1488,1233 1522,1263 1702,1425 1831,1234 1831,171"/>
+            <zone xml:id="zone_f83065_fig2"
+                  ulx="1655"
+                  uly="1467"
+                  lrx="1911"
+                  lry="1725"
+                  points="1655,1467 1655,1725 1911,1715 1905,1467"/>
+            <zone xml:id="zone_f83065_fig3"
+                  ulx="1705"
+                  uly="1715"
+                  lrx="1923"
+                  lry="1987"
+                  points="1705,1715 1705,1904 1902,1987 1923,1834 1822,1715"/>
+            <zone xml:id="zone_f83065_fig4"
+                  ulx="171"
+                  uly="1850"
+                  lrx="1288"
+                  lry="2454"
+                  points="171,1861 174,2445 573,2445 610,2454 801,2444 816,2430 882,2436 1117,2445 1122,2323 1282,2317 1288,2317 1143,2165 1143,1850"/>
          </surface>
          <surface xml:id="f83066">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83066.jpg"/>
+            <zone xml:id="zone_f83066_fig1"
+                  ulx="586"
+                  uly="57"
+                  lrx="953"
+                  lry="404"
+                  points="586,57 586,343 609,343 746,404 747,403 844,346 953,343 953,57"/>
+            <zone xml:id="zone_f83066_fig2"
+                  ulx="219"
+                  uly="999"
+                  lrx="1431"
+                  lry="1957"
+                  points="219,1021 219,1873 995,1873 1035,1957 1076,1873 1078,1360 1410,1349 1431,1118 1084,1072 1085,999"/>
          </surface>
          <surface xml:id="f83067">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83067.jpg"/>
+            <zone xml:id="zone_f83067_fig1"
+                  ulx="43"
+                  uly="134"
+                  lrx="1752"
+                  lry="1622"
+                  points="43,140 43,1574 131,1622 165,1574 364,1574 429,1577 512,1572 579,1577 580,1577 1630,1574 1752,134"/>
+            <zone xml:id="zone_f83067_fig2"
+                  ulx="256"
+                  uly="2077"
+                  lrx="773"
+                  lry="2448"
+                  points="273,2077 256,2447 475,2448 773,2443 728,2201 710,2102 523,2077"/>
+            <zone xml:id="zone_f83067_fig3"
+                  ulx="761"
+                  uly="2054"
+                  lrx="1795"
+                  lry="2450"
+                  points="761,2057 761,2244 796,2441 1180,2448 1269,2450 1397,2446 1441,2444 1672,2450 1746,2327 1784,2165 1795,2054"/>
          </surface>
          <surface xml:id="f83068">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83068.jpg"/>
+            <zone xml:id="zone_f83068_fig1"
+                  ulx="663"
+                  uly="420"
+                  lrx="886"
+                  lry="621"
+                  points="663,420 663,465 744,465 746,621 801,617 810,466 886,465 886,420"/>
+            <zone xml:id="zone_f83068_fig2"
+                  ulx="590"
+                  uly="1624"
+                  lrx="1099"
+                  lry="1843"
+                  points="590,1692 590,1787 753,1787 1046,1843 1099,1787 1099,1692 970,1624 738,1692"/>
+            <zone xml:id="zone_f83068_fig3"
+                  ulx="556"
+                  uly="2034"
+                  lrx="984"
+                  lry="2256"
+                  points="726,2034 556,2256 756,2253 793,2253 984,2247 821,2034"/>
+            <zone xml:id="zone_f83068_fig4"
+                  ulx="1087"
+                  uly="2034"
+                  lrx="1337"
+                  lry="2305"
+                  points="1210,2034 1087,2296 1296,2290 1337,2305 1272,2034"/>
          </surface>
          <surface xml:id="f83069">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83069.jpg"/>
          </surface>
          <surface xml:id="f83070">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83070.jpg"/>
+            <zone xml:id="zone_f83070_fig1"
+                  ulx="593"
+                  uly="432"
+                  lrx="1133"
+                  lry="587"
+                  points="593,432 593,579 965,585 1112,587 1133,436"/>
+            <zone xml:id="zone_f83070_fig2"
+                  ulx="910"
+                  uly="959"
+                  lrx="1473"
+                  lry="1129"
+                  points="910,959 916,1129 1468,1121 1473,965"/>
+            <zone xml:id="zone_f83070_fig2"
+                  ulx="9"
+                  uly="1517"
+                  lrx="1759"
+                  lry="1986"
+                  points="9,1930 9,1986 1213,1965 1231,1900 1754,1919 1759,1527 1719,1517 1719,1518 1726,1873 1223,1874 1195,1933"/>
          </surface>
          <surface xml:id="f83071">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83071.jpg"/>
+            <zone xml:id="zone_f83071_fig1"
+                  ulx="315"
+                  uly="150"
+                  lrx="886"
+                  lry="502"
+                  points="315,150 315,502 629,494 738,500 739,400 886,424 880,150"/>
+            <zone xml:id="zone_f83071_fig2"
+                  ulx="979"
+                  uly="57"
+                  lrx="1673"
+                  lry="510"
+                  points="990,57 979,501 1673,510 1648,57"/>
+            <zone xml:id="zone_f83071_fig3"
+                  ulx="720"
+                  uly="1154"
+                  lrx="1493"
+                  lry="1708"
+                  points="720,1154 720,1708 1493,1697 1465,1154"/>
+            <zone xml:id="zone_f83071_fig4"
+                  ulx="12"
+                  uly="2126"
+                  lrx="270"
+                  lry="2444"
+                  points="15,2126 12,2442 267,2444 270,2126"/>
          </surface>
          <surface xml:id="f83072">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83072.jpg"/>
+            <zone xml:id="zone_f83072_fig1"
+                  ulx="495"
+                  uly="128"
+                  lrx="1497"
+                  lry="1743"
+                  points="511,128 495,1743 929,1743 1497,1743 1497,128"/>
          </surface>
          <surface xml:id="f83073">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83073.jpg"/>
+            <zone xml:id="zone_f83073_fig1"
+                  ulx="807"
+                  uly="241"
+                  lrx="1371"
+                  lry="447"
+                  points="807,244 807,447 1371,441 1334,241"/>
+            <zone xml:id="zone_f83073_fig2"
+                  ulx="701"
+                  uly="577"
+                  lrx="1444"
+                  lry="777"
+                  points="701,577 701,777 1444,777 1413,580"/>
+            <zone xml:id="zone_f83073_fig3"
+                  ulx="732"
+                  uly="901"
+                  lrx="1482"
+                  lry="1113"
+                  points="732,901 732,1113 1482,1107 1471,901"/>
+            <zone xml:id="zone_f83073_fig4"
+                  ulx="645"
+                  uly="1231"
+                  lrx="1600"
+                  lry="1452"
+                  points="645,1231 645,1452 1600,1444 1595,1231 1472,1231"/>
+            <zone xml:id="zone_f83073_fig5"
+                  ulx="736"
+                  uly="1457"
+                  lrx="1737"
+                  lry="1770"
+                  points="736,1583 736,1770 1337,1770 1324,1706 1594,1703 1731,1701 1737,1457 922,1462 919,1583"/>
+            <zone xml:id="zone_f83073_fig6"
+                  ulx="1349"
+                  uly="1720"
+                  lrx="1859"
+                  lry="1985"
+                  points="1349,1723 1349,1985 1856,1985 1858,1835 1859,1720"/>
          </surface>
          <surface xml:id="f83074">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83074.jpg"/>
+            <zone xml:id="zone_f83074_fig1"
+                  ulx="409"
+                  uly="134"
+                  lrx="863"
+                  lry="571"
+                  points="409,134 409,440 620,439 639,571 863,568 862,435 735,427 731,134"/>
+            <zone xml:id="zone_f83074_fig2"
+                  ulx="1210"
+                  uly="134"
+                  lrx="1552"
+                  lry="568"
+                  points="1219,134 1210,568 1549,565 1552,134"/>
+            <zone xml:id="zone_f83074_fig3"
+                  ulx="123"
+                  uly="1120"
+                  lrx="1187"
+                  lry="1549"
+                  points="123,1120 123,1549 1187,1549 1187,1120 707,1120"/>
+            <zone xml:id="zone_f83074_fig4"
+                  ulx="88"
+                  uly="1828"
+                  lrx="572"
+                  lry="2197"
+                  points="100,1831 92,2067 88,2194 572,2197 572,1828"/>
+            <zone xml:id="zone_f83074_fig5"
+                  ulx="620"
+                  uly="1822"
+                  lrx="1057"
+                  lry="2194"
+                  points="620,1822 620,2191 1054,2194 1055,2067 1057,1828"/>
+            <zone xml:id="zone_f83074_fig6"
+                  ulx="1085"
+                  uly="1833"
+                  lrx="1561"
+                  lry="2279"
+                  points="1100,1833 1085,2273 1561,2279 1555,1833"/>
+            <zone xml:id="zone_f83074_fig7"
+                  ulx="833"
+                  uly="2202"
+                  lrx="1017"
+                  lry="2352"
+                  points="833,2202 833,2352 1017,2352 1017,2202"/>
          </surface>
          <surface xml:id="f83075">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83075.jpg"/>
+            <zone xml:id="zone_f83075_fig1"
+                  ulx="511"
+                  uly="861"
+                  lrx="1776"
+                  lry="1434"
+                  points="511,873 511,1421 1183,1421 1262,1426 1392,1434 1776,1238 1673,861"/>
+            <zone xml:id="zone_f83075_fig2"
+                  ulx="316"
+                  uly="1981"
+                  lrx="1370"
+                  lry="2197"
+                  points="316,1987 316,2194 1370,2197 1370,1981 436,1986"/>
          </surface>
          <surface xml:id="f83076">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83076.jpg"/>
+            <zone xml:id="zone_f83076_fig1"
+                  ulx="132"
+                  uly="196"
+                  lrx="1431"
+                  lry="473"
+                  points="132,196 132,295 132,473 1174,473 1431,473 1431,196 754,196 699,196 401,196"/>
+            <zone xml:id="zone_f83076_fig2"
+                  ulx="87"
+                  uly="646"
+                  lrx="1458"
+                  lry="882"
+                  points="87,646 87,882 1174,882 1458,882 1458,646 610,646 265,646"/>
+            <zone xml:id="zone_f83076_fig3"
+                  ulx="76"
+                  uly="1095"
+                  lrx="1390"
+                  lry="1335"
+                  points="76,1095 76,1335 616,1335 1179,1332 1390,1331 1390,1095 265,1095"/>
+            <zone xml:id="zone_f83076_fig4"
+                  ulx="87"
+                  uly="1728"
+                  lrx="1383"
+                  lry="1964"
+                  points="87,1773 87,1964 1383,1964 1379,1728 197,1769"/>
+            <zone xml:id="zone_f83076_fig5"
+                  ulx="42"
+                  uly="2174"
+                  lrx="1450"
+                  lry="2432"
+                  points="42,2174 42,2432 1450,2432 1450,2174 1096,2174 794,2174 530,2174 207,2174"/>
          </surface>
          <surface xml:id="f83077">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83077.jpg"/>
+            <zone xml:id="zone_f83077_fig1"
+                  ulx="242"
+                  uly="296"
+                  lrx="1596"
+                  lry="668"
+                  points="242,296 242,668 997,668 1596,668 1596,296 1249,296 679,296"/>
+            <zone xml:id="zone_f83077_fig2"
+                  ulx="246"
+                  uly="934"
+                  lrx="1608"
+                  lry="1347"
+                  points="246,934 246,1237 415,1236 713,1235 701,1347 1049,1337 1608,1321 1606,934 1344,934 683,934"/>
          </surface>
          <surface xml:id="f83078">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83078.jpg"/>
+            <zone xml:id="zone_f83078_fig1"
+                  ulx="99"
+                  uly="129"
+                  lrx="1659"
+                  lry="690"
+                  points="99,129 99,284 99,690 470,690 1659,690 1659,520 1659,133 1259,132"/>
          </surface>
          <surface xml:id="f83079">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83079.jpg"/>
+            <zone xml:id="zone_f83079_fig1"
+                  ulx="264"
+                  uly="112"
+                  lrx="1309"
+                  lry="1430"
+                  points="264,112 264,830 264,1430 404,1430 881,1430 1309,1384 1098,1038 927,759 881,112 640,112"/>
          </surface>
          <surface xml:id="f83080">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83080.jpg"/>
+            <zone xml:id="zone_f83080_fig1"
+                  ulx="43"
+                  uly="9"
+                  lrx="917"
+                  lry="593"
+                  points="46,9 43,593 917,583 912,193 909,9"/>
+            <zone xml:id="zone_f83080_fig2"
+                  ulx="1356"
+                  uly="680"
+                  lrx="1461"
+                  lry="746"
+                  points="1358,680 1356,744 1461,746 1461,680"/>
+            <zone xml:id="zone_f83080_fig3"
+                  ulx="50"
+                  uly="1322"
+                  lrx="693"
+                  lry="1989"
+                  points="50,1322 50,1651 50,1989 693,1989 690,1322"/>
+            <zone xml:id="zone_f83080_fig4"
+                  ulx="883"
+                  uly="1311"
+                  lrx="1443"
+                  lry="1985"
+                  points="883,1311 883,1985 1443,1985 1443,1664 1443,1311"/>
          </surface>
          <surface xml:id="f83081">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83081.jpg"/>
+            <zone xml:id="zone_f83081_fig1"
+                  ulx="631"
+                  uly="788"
+                  lrx="1429"
+                  lry="900"
+                  points="631,788 631,900 1352,900 1429,900 1429,788"/>
+            <zone xml:id="zone_f83081_fig2"
+                  ulx="249"
+                  uly="1299"
+                  lrx="1865"
+                  lry="1893"
+                  points="249,1299 249,1893 1865,1893 1865,1299 1560,1299 1427,1299"/>
+            <zone xml:id="zone_f83081_fig3"
+                  ulx="280"
+                  uly="2214"
+                  lrx="1041"
+                  lry="2437"
+                  points="280,2214 282,2437 916,2437 1041,2437 1041,2216"/>
+            <zone xml:id="zone_f83081_fig4"
+                  ulx="1320"
+                  uly="2130"
+                  lrx="1761"
+                  lry="2451"
+                  points="1320,2228 1320,2380 1320,2451 1761,2451 1758,2130 1518,2139 1507,2228"/>
          </surface>
          <surface xml:id="f83082">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83082.jpg"/>
+            <zone xml:id="zone_f83082_fig1"
+                  ulx="376"
+                  uly="341"
+                  lrx="1524"
+                  lry="706"
+                  points="376,650 454,341 1524,341 1521,706 708,666"/>
+            <zone xml:id="zone_f83082_fig2"
+                  ulx="271"
+                  uly="995"
+                  lrx="1490"
+                  lry="1341"
+                  points="271,995 271,1341 1490,1341 1490,995 1026,995"/>
+            <zone xml:id="zone_f83082_fig3"
+                  ulx="304"
+                  uly="1703"
+                  lrx="1577"
+                  lry="2092"
+                  points="304,1703 304,2092 1577,2092 1577,1902 1577,1703 1063,1703 748,1703"/>
          </surface>
          <surface xml:id="f83083">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83083.jpg"/>
@@ -9067,57 +9489,357 @@
          </surface>
          <surface xml:id="f83085">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83085.jpg"/>
+            <zone xml:id="zone_f83085_fig1"
+                  ulx="311"
+                  uly="435"
+                  lrx="809"
+                  lry="597"
+                  points="311,435 311,597 809,597 809,435"/>
+            <zone xml:id="zone_f83085_fig2"
+                  ulx="216"
+                  uly="857"
+                  lrx="1516"
+                  lry="1176"
+                  points="219,857 218,1005 216,1176 708,1173 742,1117 1516,1117 1516,857"/>
+            <zone xml:id="zone_f83085_fig3"
+                  ulx="227"
+                  uly="1204"
+                  lrx="1860"
+                  lry="1452"
+                  points="227,1204 227,1298 227,1452 1860,1452 1860,1229 982,1242 968,1243 755,1252 736,1204"/>
+            <zone xml:id="zone_f83085_fig4"
+                  ulx="256"
+                  uly="1780"
+                  lrx="993"
+                  lry="2460"
+                  points="265,1799 256,2450 297,2460 993,2460 993,1780"/>
          </surface>
          <surface xml:id="f83086">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83086.jpg"/>
+            <zone xml:id="zone_f83086_fig1"
+                  ulx="26"
+                  uly="357"
+                  lrx="1860"
+                  lry="606"
+                  points="26,357 26,515 26,606 224,606 260,566 261,566 1755,603 1860,606 1860,357 1673,357"/>
+            <zone xml:id="zone_f83086_fig2"
+                  ulx="15"
+                  uly="691"
+                  lrx="1914"
+                  lry="1047"
+                  points="15,691 15,789 18,955 19,1047 1914,1047 1914,848 1914,691"/>
          </surface>
          <surface xml:id="f83087">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83087.jpg"/>
+            <zone xml:id="zone_f83087_fig1"
+                  ulx="1"
+                  uly="1971"
+                  lrx="1718"
+                  lry="2289"
+                  points="1,1971 1,2046 1,2289 2,2192 1714,2175 1718,1971"/>
+            <zone xml:id="zone_f83087_fig2"
+                  ulx="19"
+                  uly="2157"
+                  lrx="1715"
+                  lry="2422"
+                  points="1715,2422 1715,2157 19,2157 19,2422"/>
          </surface>
          <surface xml:id="f83088">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83088.jpg"/>
+            <zone xml:id="zone_f83088_fig1"
+                  ulx="12"
+                  uly="509"
+                  lrx="1207"
+                  lry="1338"
+                  points="16,509 14,878 12,1338 1207,1336 1162,753 1155,734 1163,509"/>
+            <zone xml:id="zone_f83088_fig2"
+                  ulx="23"
+                  uly="1481"
+                  lrx="1371"
+                  lry="2269"
+                  points="23,1481 23,1847 23,2269 1371,2269 1371,1481"/>
          </surface>
          <surface xml:id="f83089">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83089.jpg"/>
+            <zone xml:id="zone_f83089_fig1"
+                  ulx="287"
+                  uly="422"
+                  lrx="1431"
+                  lry="1224"
+                  points="287,422 287,1224 1431,1224 1431,422"/>
+            <zone xml:id="zone_f83089_fig2"
+                  ulx="523"
+                  uly="1475"
+                  lrx="805"
+                  lry="1775"
+                  points="523,1475 523,1775 805,1775 805,1475"/>
+            <zone xml:id="zone_f83089_fig3"
+                  ulx="1071"
+                  uly="1461"
+                  lrx="1476"
+                  lry="1776"
+                  points="1071,1461 1071,1776 1476,1776 1476,1461"/>
+            <zone xml:id="zone_f83089_fig4"
+                  ulx="249"
+                  uly="2054"
+                  lrx="812"
+                  lry="2384"
+                  points="249,2054 249,2384 812,2384 810,2055"/>
+            <zone xml:id="zone_f83089_fig5"
+                  ulx="925"
+                  uly="2077"
+                  lrx="1582"
+                  lry="2430"
+                  points="925,2077 925,2430 1582,2430 1582,2077"/>
          </surface>
          <surface xml:id="f83090">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83090.jpg"/>
+            <zone xml:id="zone_f83090_fig1"
+                  ulx="265"
+                  uly="2090"
+                  lrx="596"
+                  lry="2433"
+                  points="265,2090 265,2433 596,2433 596,2090"/>
+            <zone xml:id="zone_f83090_fig2"
+                  ulx="823"
+                  uly="2105"
+                  lrx="1003"
+                  lry="2279"
+                  points="1003,2279 1003,2105 823,2105 823,2279"/>
+            <zone xml:id="zone_f83090_fig3"
+                  ulx="1202"
+                  uly="2096"
+                  lrx="1629"
+                  lry="2436"
+                  points="1202,2096 1202,2436 1629,2436 1627,2096"/>
          </surface>
          <surface xml:id="f83091">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83091.jpg"/>
          </surface>
          <surface xml:id="f83092">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83092.jpg"/>
+            <zone xml:id="zone_f83092_fig1"
+                  ulx="3"
+                  uly="606"
+                  lrx="845"
+                  lry="1071"
+                  points="3,606 3,1071 845,1071 844,606"/>
+            <zone xml:id="zone_f83092_fig2"
+                  ulx="864"
+                  uly="598"
+                  lrx="1732"
+                  lry="1094"
+                  points="864,598 864,749 864,1094 1031,1094 1732,1094 1732,598"/>
+            <zone xml:id="zone_f83092_fig3"
+                  ulx="5"
+                  uly="1063"
+                  lrx="938"
+                  lry="1531"
+                  points="5,1063 5,1211 5,1531 214,1531 938,1531 926,1102"/>
+            <zone xml:id="zone_f83092_fig4"
+                  ulx="0"
+                  uly="1554"
+                  lrx="853"
+                  lry="1957"
+                  points="853,1554 853,1957 223,1957 0,1957 0,1554 103,1554"/>
+            <zone xml:id="zone_f83092_fig5"
+                  ulx="868"
+                  uly="1531"
+                  lrx="1705"
+                  lry="1961"
+                  points="1705,1961 1705,1535 868,1531 868,1642 868,1788 868,1961"/>
+            <zone xml:id="zone_f83092_fig6"
+                  ulx="12"
+                  uly="1973"
+                  lrx="1600"
+                  lry="2333"
+                  points="12,1973 12,2333 172,2333 1600,2333 1600,1973 86,1973"/>
          </surface>
          <surface xml:id="f83093">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83093.jpg"/>
+            <zone xml:id="zone_f83093_fig1"
+                  ulx="503"
+                  uly="962"
+                  lrx="1392"
+                  lry="1013"
+                  points="503,962 503,1013 1392,1013 1392,962"/>
+            <zone xml:id="zone_f83093_fig2"
+                  ulx="1059"
+                  uly="1010"
+                  lrx="1109"
+                  lry="1140"
+                  points="1085,1010 1059,1124 1076,1140 1109,1012"/>
+            <zone xml:id="zone_f83093_fig3"
+                  ulx="1131"
+                  uly="1055"
+                  lrx="1184"
+                  lry="1137"
+                  points="1131,1055 1131,1137 1184,1137 1184,1055"/>
+            <zone xml:id="zone_f83093_fig4"
+                  ulx="1289"
+                  uly="1044"
+                  lrx="1323"
+                  lry="1133"
+                  points="1289,1044 1289,1133 1323,1133 1323,1044"/>
+            <zone xml:id="zone_f83093_fig5"
+                  ulx="1435"
+                  uly="1079"
+                  lrx="1473"
+                  lry="1117"
+                  points="1435,1079 1435,1117 1473,1117 1473,1079"/>
+            <zone xml:id="zone_f83093_fig6"
+                  ulx="112"
+                  uly="1878"
+                  lrx="983"
+                  lry="2102"
+                  points="112,1878 112,2102 983,2102 983,1878"/>
+            <zone xml:id="zone_f83093_fig7"
+                  ulx="1051"
+                  uly="1801"
+                  lrx="1821"
+                  lry="2102"
+                  points="1051,1865 1051,2102 1821,2102 1821,1865 1574,1865 1549,1801 1375,1802 1366,1865"/>
+            <zone xml:id="zone_f83093_fig8"
+                  ulx="109"
+                  uly="2116"
+                  lrx="1406"
+                  lry="2332"
+                  points="109,2116 109,2332 1406,2332 1406,2116"/>
          </surface>
          <surface xml:id="f83094">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83094.jpg"/>
+            <zone xml:id="zone_f83094_fig1"
+                  ulx="295"
+                  uly="421"
+                  lrx="350"
+                  lry="561"
+                  points="309,421 295,560 350,561 350,421"/>
+            <zone xml:id="zone_f83094_fig2"
+                  ulx="1245"
+                  uly="460"
+                  lrx="1338"
+                  lry="538"
+                  points="1245,460 1245,538 1338,538 1338,460"/>
+            <zone xml:id="zone_f83094_fig3"
+                  ulx="643"
+                  uly="585"
+                  lrx="800"
+                  lry="651"
+                  points="643,585 643,651 800,651 800,585"/>
+            <zone xml:id="zone_f83094_fig4"
+                  ulx="316"
+                  uly="651"
+                  lrx="435"
+                  lry="724"
+                  points="316,651 316,724 435,724 435,651"/>
+            <zone xml:id="zone_f83094_fig5"
+                  ulx="1057"
+                  uly="729"
+                  lrx="1208"
+                  lry="876"
+                  points="1057,729 1057,876 1208,876 1208,729"/>
+            <zone xml:id="zone_f83094_fig6"
+                  ulx="470"
+                  uly="815"
+                  lrx="1242"
+                  lry="1219"
+                  points="744,815 470,1023 765,1219 1242,937"/>
+            <zone xml:id="zone_f83094_fig7"
+                  ulx="272"
+                  uly="1188"
+                  lrx="1101"
+                  lry="1658"
+                  points="553,1188 272,1443 548,1658 1101,1467"/>
+            <zone xml:id="zone_f83094_fig8"
+                  ulx="262"
+                  uly="1761"
+                  lrx="641"
+                  lry="2143"
+                  points="262,1761 262,2143 641,2143 641,1761"/>
+            <zone xml:id="zone_f83094_fig9"
+                  ulx="888"
+                  uly="1762"
+                  lrx="1647"
+                  lry="2307"
+                  points="888,1766 888,2307 1636,2307 1647,2302 1071,1762"/>
+            <zone xml:id="zone_f83094_fig10"
+                  ulx="1473"
+                  uly="1760"
+                  lrx="1895"
+                  lry="2136"
+                  points="1895,2136 1895,1760 1473,1760 1473,2136"/>
          </surface>
          <surface xml:id="f83095">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83095.jpg"/>
+            <zone xml:id="zone_f83095_fig1"
+                  ulx="10"
+                  uly="542"
+                  lrx="1888"
+                  lry="2317"
+                  points="10,569 10,2317 1888,2317 1880,542 1504,553 1389,554"/>
          </surface>
          <surface xml:id="f83096">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83096.jpg"/>
          </surface>
          <surface xml:id="f83097">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83097.jpg"/>
+            <zone xml:id="zone_f83097_fig1"
+                  ulx="569"
+                  uly="604"
+                  lrx="1240"
+                  lry="692"
+                  points="569,604 569,692 1240,692 1237,604"/>
          </surface>
          <surface xml:id="f83098">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83098.jpg"/>
+            <zone xml:id="zone_f83098_fig1"
+                  ulx="468"
+                  uly="1272"
+                  lrx="982"
+                  lry="1656"
+                  points="468,1272 468,1656 982,1656 982,1272"/>
          </surface>
          <surface xml:id="f83099">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83099.jpg"/>
+            <zone xml:id="zone_f83099_fig1"
+                  ulx="175"
+                  uly="998"
+                  lrx="1765"
+                  lry="2442"
+                  points="175,998 199,2431 1765,2442 1719,1014"/>
+            <zone xml:id="zone_f83099_fig2"
+                  ulx="1199"
+                  uly="1963"
+                  lrx="1896"
+                  lry="2444"
+                  points="1896,1973 1896,2444 1199,2444 1203,2136 1330,2021 1395,1963"/>
          </surface>
          <surface xml:id="f83100">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83100.jpg"/>
+            <zone xml:id="zone_f83100_fig1"
+                  ulx="59"
+                  uly="740"
+                  lrx="1667"
+                  lry="2116"
+                  points="59,749 59,2116 1282,2116 1667,1595 1509,1359 1246,1374 1239,740"/>
          </surface>
          <surface xml:id="f83101">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83101.jpg"/>
+            <zone xml:id="zone_f83101_fig1"
+                  ulx="8"
+                  uly="604"
+                  lrx="1926"
+                  lry="1259"
+                  points="8,604 8,1259 1926,1259 1926,604"/>
          </surface>
          <surface xml:id="f83103">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83103.jpg"/>
+            <zone xml:id="zone_f83103_fig1"
+                  ulx="26"
+                  uly="1426"
+                  lrx="1740"
+                  lry="2123"
+                  points="26,1426 26,2123 1740,2123 1740,1426"/>
          </surface>
          <surface xml:id="f83236">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83236.jpg"/>

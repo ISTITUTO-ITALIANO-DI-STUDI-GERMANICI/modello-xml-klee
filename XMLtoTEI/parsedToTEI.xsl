@@ -2,6 +2,7 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
   version="2.0"
   xpath-default-namespace="http://himeros.eu/euporia"
   exclude-result-prefixes="alto">
@@ -78,6 +79,8 @@
           <!-- Other pages -->
           <xsl:for-each select="//page[facsimile/num]">
             <xsl:variable name="fid" select="normalize-space(facsimile/num)"/>
+            <xsl:variable name="altoPath" select="concat('data/', $fid, '.xml')"/>
+            <xsl:variable name="altoDoc" select="if (doc-available($altoPath)) then document($altoPath) else ()"/>
             <surface>
               <xsl:attribute name="xml:id">
                 <xsl:value-of select="concat('f', $fid)" />
@@ -87,6 +90,39 @@
                   <xsl:value-of select="concat('https://escriptorium.d4science.org/media/documents/3/', $fid, '.jpg')"/>
                 </xsl:attribute>
               </graphic>
+              <!-- Zones derived from ALTO GraphicZone:figure# tags -->
+              <xsl:if test="$altoDoc">
+                <xsl:for-each select="$altoDoc//alto:OtherTag[starts-with(@LABEL, 'GraphicZone:figure#')]">
+                  <xsl:variable name="tagId" select="@ID"/>
+                  <xsl:variable name="figNum" select="substring-after(@LABEL, 'figure#')"/>
+                  <xsl:for-each select="$altoDoc//alto:TextBlock[@TAGREFS = $tagId]">
+                    <zone>
+                      <xsl:attribute name="xml:id">
+                        <xsl:value-of select="concat('zone_f', $fid, '_fig', $figNum)"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="ulx"><xsl:value-of select="@HPOS"/></xsl:attribute>
+                      <xsl:attribute name="uly"><xsl:value-of select="@VPOS"/></xsl:attribute>
+                      <xsl:attribute name="lrx"><xsl:value-of select="xs:integer(@HPOS) + xs:integer(@WIDTH)"/></xsl:attribute>
+                      <xsl:attribute name="lry"><xsl:value-of select="xs:integer(@VPOS) + xs:integer(@HEIGHT)"/></xsl:attribute>
+                      <xsl:attribute name="points">
+                        <xsl:variable name="coords"
+                          select="tokenize(normalize-space(alto:Shape/alto:Polygon/@POINTS), '\s+')"/>
+
+                        <xsl:for-each select="1 to (count($coords) div 2)">
+                          <xsl:variable name="i" select="."/>
+                          
+                          <xsl:if test="$i gt 1">
+                            <xsl:text> </xsl:text>
+                          </xsl:if>
+
+                          <xsl:value-of
+                            select="concat($coords[2 * $i - 1], ',', $coords[2 * $i])"/>
+                        </xsl:for-each>
+                      </xsl:attribute>
+                    </zone>
+                  </xsl:for-each>
+                </xsl:for-each>
+              </xsl:if>
             </surface>
           </xsl:for-each>
           <!-- Final three pages -->
@@ -155,7 +191,8 @@
         <xsl:value-of select="normalize-space(facsimile//num)"/>
       </xsl:attribute>
     </pb>
-    <xsl:apply-templates select="mainZone | graphZoneFig"/>
+    
+    <xsl:apply-templates select="node()[self::mainZone or self::graphZoneFig]"/>
   </xsl:template>
   
   <xsl:template match="mainZone">
@@ -183,7 +220,13 @@
     <xsl:variable name="item"
       select="key('fig-by-id', $fid)"/>
     
-    <figure facs="#fig_{$fid}">
+    <xsl:variable name="pageNum"
+      select="normalize-space(ancestor::page[1]/facsimile/num)"/>
+    
+    <xsl:variable name="figOrdinal"
+      select="count(preceding-sibling::graphZoneFig) + 1"/>
+    
+    <figure facs="#zone_f{$pageNum}_fig{$figOrdinal}">
       
       <xsl:if test="$item/label">
         <head>
@@ -202,18 +245,14 @@
   </xsl:template>
   
   <xsl:template match="line_app" mode="fig">
-    <l>
-      <xsl:attribute name="n">
-        <xsl:number level="any"/>
-      </xsl:attribute>
       <xsl:apply-templates mode="fig"/>
-    </l>
   </xsl:template>
   
   <xsl:template match="seginfig" mode="fig">
     <w>
       <xsl:value-of select="normalize-space(.)"/>
     </w>
+    <xsl:text> </xsl:text>
   </xsl:template>
   
   <xsl:template match="punctinfig" mode="fig">
