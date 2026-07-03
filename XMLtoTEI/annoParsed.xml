@@ -1939,13 +1939,9 @@
                         <seg>fig </seg>
                         <punct>. </punct>
                         <seg>8 </seg>
+                        <seg>desgl </seg>
+                        <punct>. </punct>
                     </textSeq>
-                    <operation>
-                        <deletion>-{ <textSeq>
-                                <seg>desgl </seg>
-                                <punct>. </punct>
-                            </textSeq>} </deletion>
-                    </operation>
                 </line>
             </mainZone>
             <graphZoneFig>[FIGURE ( <figId>9 _ 5 </figId>)] </graphZoneFig>

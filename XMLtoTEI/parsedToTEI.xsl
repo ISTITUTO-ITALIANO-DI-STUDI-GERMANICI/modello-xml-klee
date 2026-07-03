@@ -90,15 +90,15 @@
                   <xsl:value-of select="concat('https://escriptorium.d4science.org/media/documents/3/', $fid, '.jpg')"/>
                 </xsl:attribute>
               </graphic>
-              <!-- Zones derived from ALTO GraphicZone:figure# tags -->
+              <!-- Zones derived from ALTO MusicZone tags -->
               <xsl:if test="$altoDoc">
-                <xsl:for-each select="$altoDoc//alto:OtherTag[starts-with(@LABEL, 'GraphicZone:figure#')]">
+                <xsl:for-each select="$altoDoc//alto:OtherTag[@LABEL = 'MusicZone']">
                   <xsl:variable name="tagId" select="@ID"/>
-                  <xsl:variable name="figNum" select="substring-after(@LABEL, 'figure#')"/>
+                  <xsl:variable name="musicOrdinal" select="position()"/>
                   <xsl:for-each select="$altoDoc//alto:TextBlock[@TAGREFS = $tagId]">
                     <zone>
                       <xsl:attribute name="xml:id">
-                        <xsl:value-of select="concat('zone_f', $fid, '_fig', $figNum)"/>
+                        <xsl:value-of select="concat('zone_f', $fid, '_music', $musicOrdinal)"/>
                       </xsl:attribute>
                       <xsl:attribute name="ulx"><xsl:value-of select="@HPOS"/></xsl:attribute>
                       <xsl:attribute name="uly"><xsl:value-of select="@VPOS"/></xsl:attribute>
@@ -107,16 +107,12 @@
                       <xsl:attribute name="points">
                         <xsl:variable name="coords"
                           select="tokenize(normalize-space(alto:Shape/alto:Polygon/@POINTS), '\s+')"/>
-
                         <xsl:for-each select="1 to (count($coords) div 2)">
                           <xsl:variable name="i" select="."/>
-                          
                           <xsl:if test="$i gt 1">
                             <xsl:text> </xsl:text>
                           </xsl:if>
-
-                          <xsl:value-of
-                            select="concat($coords[2 * $i - 1], ',', $coords[2 * $i])"/>
+                          <xsl:value-of select="concat($coords[2 * $i - 1], ',', $coords[2 * $i])"/>
                         </xsl:for-each>
                       </xsl:attribute>
                     </zone>
@@ -162,14 +158,11 @@
   </xsl:template>
   
   <xsl:template match="
-    apparatoFigure |
     mrgTextZoneUp  |
     mrgTextZoneOut |
-    musicZone      |
     hdLineMargin   |
-    placeholder    |
-    numbZone       |
-    facsimile"/>
+    apparatoFigure |
+    placeholder"/>
   
   <!-- Main structure -->
   <xsl:template match="*[local-name()='div']">
@@ -244,8 +237,25 @@
     
   </xsl:template>
   
+  <xsl:template match="musicZone">
+    <xsl:variable name="pageNum" select="normalize-space(ancestor::page[1]/facsimile/num)"/>
+    <xsl:variable name="musicOrdinal" select="count(preceding-sibling::musicZone) + 1"/>
+    
+    <figure type="music" facs="#zone_f{$pageNum}_music{$musicOrdinal}">
+      <head><xsl:value-of select="normalize-space(musicId)"/></head>
+    </figure>
+  </xsl:template>
+  
+  <xsl:template match="text()" mode="fig">
+    <xsl:value-of select="."/>
+  </xsl:template>
+  
   <xsl:template match="line_app" mode="fig">
       <xsl:apply-templates mode="fig"/>
+  </xsl:template>
+  
+  <xsl:template match="text()[normalize-space(.) = '|']" mode="fig">
+    <lb />
   </xsl:template>
   
   <xsl:template match="seginfig" mode="fig">
@@ -308,11 +318,36 @@
   </xsl:template>
   
   <xsl:template match="label" mode="fig">
-    <xsl:apply-templates mode="fig"/>
+    <xsl:call-template name="strip-outer-brackets">
+      <xsl:with-param name="nodes" select="node()"/>
+    </xsl:call-template>
   </xsl:template>
   
   <xsl:template match="textinfig" mode="fig">
-    <xsl:apply-templates mode="fig"/>
+    <xsl:call-template name="strip-outer-brackets">
+      <xsl:with-param name="nodes" select="node()"/>
+    </xsl:call-template>
+  </xsl:template>
+  
+  <xsl:template name="strip-outer-brackets">
+    <xsl:param name="nodes"/>
+    <xsl:for-each select="$nodes">
+      <xsl:variable name="isFirst" select="position() = 1"/>
+      <xsl:variable name="isLast" select="position() = last()"/>
+      <xsl:choose>
+
+        <xsl:when test="($isFirst or $isLast) and self::punctinfig and normalize-space(.) = ('(', ')', '[', ']')"/>
+
+        <xsl:when test="self::text() and ($isFirst or $isLast)">
+          <xsl:variable name="v1" select="if ($isFirst) then replace(., '^(\s*)[\(\[]', '$1') else ."/>
+          <xsl:variable name="v2" select="if ($isLast) then replace($v1, '[\)\]](\s*)$', '$1') else $v1"/>
+          <xsl:value-of select="$v2"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select="." mode="fig"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
   </xsl:template>
   
   <!-- End figures -->
@@ -320,15 +355,26 @@
   <xsl:template match="sectionHeading">
     <xsl:variable name="level" select="string-length(translate(level, ' ', ''))"/>
     <xsl:variable name="type"  select="lower-case(normalize-space(sectionType/seg))"/>
+    
+    <!-- First <seg> ID in document order inside <line>, only if level 1 and type is PART -->
+    <xsl:variable name="firstSegId"
+      select="if ($level = 1 and $type = 'part')
+          then generate-id((line//*[local-name()='seg'])[1])
+        else ''"/>
+    
     <xsl:choose>
       <xsl:when test="$type = 'pause'">
         <c rend="bold" type="pause">
-          <xsl:apply-templates select="line/node()"/>
+          <xsl:apply-templates select="line/node()">
+            <xsl:with-param name="firstSegId" select="$firstSegId" tunnel="yes"/>
+          </xsl:apply-templates>
         </c>
       </xsl:when>
       <xsl:otherwise>
         <head n="{$level}" type="{$type}">
-          <xsl:apply-templates select="line/node()"/>
+          <xsl:apply-templates select="line/node()">
+            <xsl:with-param name="firstSegId" select="$firstSegId" tunnel="yes"/>
+          </xsl:apply-templates>
         </head>
       </xsl:otherwise>
     </xsl:choose>
@@ -350,24 +396,33 @@
   <!--
        Word-part dispatcher.
        A <seg> that contains a prefix/suffix (prefix, prefix_app, suffix,
-       suffix_app) represents a SINGLE word that is interrupted by an
-       editorial operation (deletion, replace, addition, etc.). 
-       This must become ONE <w> containing inline markup (<sic>, <corr>...).
+       suffix_app) represents a word that is interrupted by an
+       editorial operation (deletion, replace, addition, etc.).
+       This must become one <w> containing inline markup (<sic>, <corr>...).
   -->
   <xsl:template match="*[local-name()='seg'][prefix or prefix_app or suffix or suffix_app]" priority="1">
+    <xsl:param name="firstSegId" tunnel="yes" select="''"/>
     <w>
+      <xsl:if test="$firstSegId != '' and generate-id(.) = $firstSegId">
+        <xsl:attribute name="rend">sans</xsl:attribute>
+      </xsl:if>
       <xsl:apply-templates mode="wordpart"/>
     </w>
   </xsl:template>
   
-  <!-- Generic seg: either recurse into children or emit a plain word -->
   <xsl:template match="*[local-name()='seg']">
+    <xsl:param name="firstSegId" tunnel="yes" select="''"/>
     <xsl:choose>
       <xsl:when test="*">
         <xsl:apply-templates/>
       </xsl:when>
       <xsl:otherwise>
-        <w><xsl:value-of select="normalize-space(.)"/></w>
+        <w>
+          <xsl:if test="$firstSegId != '' and generate-id(.) = $firstSegId">
+            <xsl:attribute name="rend">sans</xsl:attribute>
+          </xsl:if>
+          <xsl:value-of select="replace(., '^[\s&#160;]+|[\s&#160;]+$', '')"/>
+        </w>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -567,5 +622,5 @@
   <xsl:template match="text()" mode="wordpart">
     <xsl:value-of select="replace(., '\s+', ' ')"/>
   </xsl:template>
-  
+
 </xsl:stylesheet>
