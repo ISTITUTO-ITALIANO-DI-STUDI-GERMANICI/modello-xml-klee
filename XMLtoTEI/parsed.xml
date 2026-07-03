@@ -421,9 +421,9 @@
                      <w>wegzulaufen</w>
                      <pc type="period" join="left">.</pc>
                   </l>
-                  <head n="1" type="pause">
+                  <c rend="bold" type="pause">
                      <pc type="punct" join="both">*</pc>
-                  </head>
+                  </c>
                </ab>
                <ab type="parag" n="4">
                   <l n="21">
@@ -524,9 +524,9 @@
                   <w>Gliederung</w>
                   <pc type="period" join="left">.</pc>
                </l>
-               <head n="1" type="pause">
+               <c rend="bold" type="pause">
                   <pc type="punct" join="both">*</pc>
-               </head>
+               </c>
                <ab type="parag" n="2">
                   <l n="11">
                      <w>Wir</w>
@@ -896,11 +896,11 @@
                      </corr>
                   </choice>
                </l>
-               <head n="1" type="pause">
+               <c rend="bold" type="pause">
                   <pc type="punct" join="both">*</pc>
                   <pc type="punct" join="both">*</pc>
                   <pc type="punct" join="both">*</pc>
-               </head>
+               </c>
                <ab type="parag" n="2">
                   <l n="3">
                      <w>Nach</w>
@@ -1220,9 +1220,9 @@
                      <w>primitiv</w>
                      <pc type="period" join="left">.</pc>
                   </l>
-                  <head n="1" type="pause">
+                  <c rend="bold" type="pause">
                      <pc type="punct" join="both">*</pc>
-                  </head>
+                  </c>
                </ab>
             </div>
             <div n="11">
@@ -1278,7 +1278,7 @@
                      <w>verwischen</w>
                      <pc type="period" join="left">.</pc>
                   </l>
-                  <head n="1" type="pause">
+                  <c rend="bold" type="pause">
                      <pc type="punct" join="both">*</pc>
                      <add>
                         <w>Man</w>
@@ -1286,7 +1286,7 @@
                         <w>einordnen</w>
                         <w>müssen</w>
                      </add>
-                  </head>
+                  </c>
                   <l n="7">
                      <add>
                         <w>Hauptsachen</w>
@@ -1945,9 +1945,9 @@
                   <w>146</w>
                   <pc type="bracketClose" join="left">)</pc>
                </l>
-               <head n="1" type="pause">
+               <c rend="bold" type="pause">
                   <pc type="punct" join="both">*</pc>
-               </head>
+               </c>
             </div>
             <div n="16">
                <pb n="13" facs="#f83056"/>
@@ -2059,9 +2059,9 @@
                      <w>analytischer</w>
                      <w>Natur</w>
                   </l>
-                  <head n="1" type="pause">
+                  <c rend="bold" type="pause">
                      <pc type="punct" join="both">*</pc>
-                  </head>
+                  </c>
                   <head n="2" type="unit">
                      <pc type="colon" join="left">:</pc>
                      <w>2</w>
@@ -2434,9 +2434,9 @@
                   <w>können</w>
                   <pc type="period" join="left">.</pc>
                </l>
-               <head n="1" type="pause">
+               <c rend="bold" type="pause">
                   <pc type="punct" join="both">*</pc>
-               </head>
+               </c>
                <figure facs="#zone_f83060_fig4"/>
             </div>
             <div n="21">
@@ -3457,9 +3457,9 @@
                      <w>stange</w>
                      <pc type="period" join="left">.</pc>
                   </l>
-                  <head n="1" type="pause">
+                  <c rend="bold" type="pause">
                      <pc type="punct" join="both">*</pc>
-                  </head>
+                  </c>
                </ab>
             </div>
             <div n="29">
@@ -5558,18 +5558,18 @@
                <figure facs="#zone_f83081_fig3">
                   <head>[ <w>fig</w> 31 ] </head>
                </figure>
-               <head n="1" type="pause">
+               <c rend="bold" type="pause">
                   <pc type="punct" join="both">*</pc>
-               </head>
+               </c>
                <figure facs="#zone_f83081_fig4">
                   <head>[ 31a ] </head>
                </figure>
             </div>
             <div n="42">
                <pb n="39" facs="#f83082"/>
-               <head n="1" type="pause">
+               <c rend="bold" type="pause">
                   <pc type="punct" join="both">*</pc>
-               </head>
+               </c>
                <ab type="parag" n="2">
                   <l n="2">
                      <w>Ich</w>
@@ -6204,9 +6204,9 @@
                      <w>w</w>
                      <pc type="period" join="left">.</pc>
                   </l>
-                  <head n="1" type="pause">
+                  <c rend="bold" type="pause">
                      <pc type="punct" join="both">*</pc>
-                  </head>
+                  </c>
                   <head n="3" type="exercise">
                      <pc type="colon" join="left">:</pc>
                      <w>9</w>
@@ -6516,9 +6516,9 @@
                         <w>39</w>
                      </corr>
                   </l>
-                  <head n="1" type="pause">
+                  <c rend="bold" type="pause">
                      <pc type="punct" join="both">*</pc>
-                  </head>
+                  </c>
                </ab>
                <ab type="parag" n="2">
                   <l n="15">
@@ -6753,9 +6753,9 @@
                      <w>messend</w>
                      <pc type="period" join="left">.</pc>
                   </l>
-                  <head n="1" type="pause">
+                  <c rend="bold" type="pause">
                      <pc type="punct" join="both">*</pc>
-                  </head>
+                  </c>
                </ab>
                <ab type="parag" n="4">
                   <l n="17">
@@ -6908,9 +6908,9 @@
                      <w>Formung</w>
                      <pc type="period" join="left">.</pc>
                   </l>
-                  <head n="1" type="pause">
+                  <c rend="bold" type="pause">
                      <pc type="punct" join="both">*</pc>
-                  </head>
+                  </c>
                </ab>
                <figure facs="#zone_f83089_fig4">
                   <head>[ <w>fig</w> 7a ] </head>
@@ -7960,9 +7960,9 @@
                   <w>nennt</w>
                   <pc type="period" join="left">.</pc>
                </l>
-               <head n="1" type="pause">
+               <c rend="bold" type="pause">
                   <pc type="punct" join="both">*</pc>
-               </head>
+               </c>
             </div>
             <div n="58">
                <pb n="" facs="#f83098"/>

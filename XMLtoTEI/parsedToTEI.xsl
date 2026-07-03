@@ -320,9 +320,18 @@
   <xsl:template match="sectionHeading">
     <xsl:variable name="level" select="string-length(translate(level, ' ', ''))"/>
     <xsl:variable name="type"  select="lower-case(normalize-space(sectionType/seg))"/>
-    <head n="{$level}" type="{$type}">
-      <xsl:apply-templates select="line/node()"/>
-    </head>
+    <xsl:choose>
+      <xsl:when test="$type = 'pause'">
+        <c rend="bold" type="pause">
+          <xsl:apply-templates select="line/node()"/>
+        </c>
+      </xsl:when>
+      <xsl:otherwise>
+        <head n="{$level}" type="{$type}">
+          <xsl:apply-templates select="line/node()"/>
+        </head>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="line">
