@@ -16,6 +16,28 @@
     match="apparatoFigureItem"
     use="normalize-space(replace(figId, '\s+', ''))"/>
   
+  <xsl:template name="alto-zone">
+    <xsl:param name="zoneId"/>
+    <zone>
+      <xsl:attribute name="xml:id"><xsl:value-of select="$zoneId"/></xsl:attribute>
+      <xsl:attribute name="ulx"><xsl:value-of select="@HPOS"/></xsl:attribute>
+      <xsl:attribute name="uly"><xsl:value-of select="@VPOS"/></xsl:attribute>
+      <xsl:attribute name="lrx"><xsl:value-of select="xs:integer(@HPOS) + xs:integer(@WIDTH)"/></xsl:attribute>
+      <xsl:attribute name="lry"><xsl:value-of select="xs:integer(@VPOS) + xs:integer(@HEIGHT)"/></xsl:attribute>
+      <xsl:attribute name="points">
+        <xsl:variable name="coords"
+          select="tokenize(normalize-space(alto:Shape/alto:Polygon/@POINTS), '\s+')"/>
+        <xsl:for-each select="1 to (count($coords) div 2)">
+          <xsl:variable name="i" select="."/>
+          <xsl:if test="$i gt 1">
+            <xsl:text> </xsl:text>
+          </xsl:if>
+          <xsl:value-of select="concat($coords[2 * $i - 1], ',', $coords[2 * $i])"/>
+        </xsl:for-each>
+      </xsl:attribute>
+    </zone>
+  </xsl:template>
+  
   <xsl:template match="/">
     <TEI version="3.3.0">
       
@@ -96,26 +118,19 @@
                   <xsl:variable name="tagId" select="@ID"/>
                   <xsl:variable name="musicOrdinal" select="position()"/>
                   <xsl:for-each select="$altoDoc//alto:TextBlock[@TAGREFS = $tagId]">
-                    <zone>
-                      <xsl:attribute name="xml:id">
-                        <xsl:value-of select="concat('zone_f', $fid, '_music', $musicOrdinal)"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="ulx"><xsl:value-of select="@HPOS"/></xsl:attribute>
-                      <xsl:attribute name="uly"><xsl:value-of select="@VPOS"/></xsl:attribute>
-                      <xsl:attribute name="lrx"><xsl:value-of select="xs:integer(@HPOS) + xs:integer(@WIDTH)"/></xsl:attribute>
-                      <xsl:attribute name="lry"><xsl:value-of select="xs:integer(@VPOS) + xs:integer(@HEIGHT)"/></xsl:attribute>
-                      <xsl:attribute name="points">
-                        <xsl:variable name="coords"
-                          select="tokenize(normalize-space(alto:Shape/alto:Polygon/@POINTS), '\s+')"/>
-                        <xsl:for-each select="1 to (count($coords) div 2)">
-                          <xsl:variable name="i" select="."/>
-                          <xsl:if test="$i gt 1">
-                            <xsl:text> </xsl:text>
-                          </xsl:if>
-                          <xsl:value-of select="concat($coords[2 * $i - 1], ',', $coords[2 * $i])"/>
-                        </xsl:for-each>
-                      </xsl:attribute>
-                    </zone>
+                    <xsl:call-template name="alto-zone">
+                      <xsl:with-param name="zoneId" select="concat('zone_f', $fid, '_music', $musicOrdinal)"/>
+                    </xsl:call-template>
+                  </xsl:for-each>
+                </xsl:for-each>
+                <xsl:for-each select="$altoDoc//alto:OtherTag[matches(@LABEL, '^GraphicZone:figure#\d+$')]">
+                  <xsl:variable name="tagId" select="@ID"/>
+                  <xsl:variable name="figOrdinal"
+                    select="xs:integer(replace(@LABEL, '^GraphicZone:figure#(\d+)$', '$1'))"/>
+                  <xsl:for-each select="$altoDoc//alto:TextBlock[@TAGREFS = $tagId]">
+                    <xsl:call-template name="alto-zone">
+                      <xsl:with-param name="zoneId" select="concat('zone_f', $fid, '_fig', $figOrdinal)"/>
+                    </xsl:call-template>
                   </xsl:for-each>
                 </xsl:for-each>
               </xsl:if>
@@ -222,7 +237,7 @@
     <figure facs="#zone_f{$pageNum}_fig{$figOrdinal}">
       
       <xsl:if test="$item/label">
-        <head>
+        <head rend="italic">
           <xsl:apply-templates select="$item/label" mode="fig"/>
         </head>
       </xsl:if>
