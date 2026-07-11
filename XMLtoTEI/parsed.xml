@@ -46,22 +46,22 @@
          <surface xml:id="f67096">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/67096.jpg"/>
          </surface>
-         <surface xml:id="f83044">
+         <surface xml:id="f83044" ulx="0" uly="0" lrx="1900" lry="2406">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83044.jpg"/>
          </surface>
-         <surface xml:id="f83045">
+         <surface xml:id="f83045" ulx="0" uly="0" lrx="1888" lry="2450">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83045.jpg"/>
          </surface>
-         <surface xml:id="f83046">
+         <surface xml:id="f83046" ulx="0" uly="0" lrx="1900" lry="2395">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83046.jpg"/>
          </surface>
-         <surface xml:id="f83047">
+         <surface xml:id="f83047" ulx="0" uly="0" lrx="1936" lry="2436">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83047.jpg"/>
          </surface>
-         <surface xml:id="f83048">
+         <surface xml:id="f83048" ulx="0" uly="0" lrx="1900" lry="2438">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83048.jpg"/>
          </surface>
-         <surface xml:id="f83049">
+         <surface xml:id="f83049" ulx="0" uly="0" lrx="1928" lry="2452">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83049.jpg"/>
             <zone xml:id="zone_f83049_fig1"
                   ulx="29"
@@ -94,10 +94,10 @@
                   lry="1788"
                   points="606,1455 682,1788 917,1670 912,1452"/>
          </surface>
-         <surface xml:id="f83050">
+         <surface xml:id="f83050" ulx="0" uly="0" lrx="1888" lry="2425">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83050.jpg"/>
          </surface>
-         <surface xml:id="f83051">
+         <surface xml:id="f83051" ulx="0" uly="0" lrx="1924" lry="2460">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83051.jpg"/>
             <zone xml:id="zone_f83051_fig1"
                   ulx="9"
@@ -124,7 +124,7 @@
                   lry="2421"
                   points="0,2182 0,2273 0,2417 1647,2421 1547,2092"/>
          </surface>
-         <surface xml:id="f83052">
+         <surface xml:id="f83052" ulx="0" uly="0" lrx="1906" lry="2414">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83052.jpg"/>
             <zone xml:id="zone_f83052_music1"
                   ulx="1505"
@@ -169,7 +169,7 @@
                   lry="1904"
                   points="151,1542 128,1831 506,1804 801,1716 1033,1857 1753,1897 1876,1904 1860,1681 1067,1690 839,1569 633,1583 329,1557"/>
          </surface>
-         <surface xml:id="f83053">
+         <surface xml:id="f83053" ulx="0" uly="0" lrx="1931" lry="2443">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83053.jpg"/>
             <zone xml:id="zone_f83053_fig1"
                   ulx="0"
@@ -190,7 +190,7 @@
                   lry="2396"
                   points="20,2206 32,2321 101,2319 689,2306 712,2396 1551,2375 1535,2168 1337,2161 1284,2257 1239,2254 894,2268 882,2169 705,2164 699,2258 698,2281 281,2292 266,2207"/>
          </surface>
-         <surface xml:id="f83054">
+         <surface xml:id="f83054" ulx="0" uly="0" lrx="1900" lry="2413">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83054.jpg"/>
             <zone xml:id="zone_f83054_fig1"
                   ulx="261"
@@ -199,7 +199,7 @@
                   lry="1882"
                   points="261,1711 261,1882 980,1882 1856,1882 1864,1624 1733,1631"/>
          </surface>
-         <surface xml:id="f83055">
+         <surface xml:id="f83055" ulx="0" uly="0" lrx="1940" lry="2452">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83055.jpg"/>
             <zone xml:id="zone_f83055_fig1"
                   ulx="609"
@@ -208,7 +208,7 @@
                   lry="1767"
                   points="609,1466 609,1767 964,1767 964,1466"/>
          </surface>
-         <surface xml:id="f83056">
+         <surface xml:id="f83056" ulx="0" uly="0" lrx="1900" lry="2440">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83056.jpg"/>
             <zone xml:id="zone_f83056_fig1"
                   ulx="273"
@@ -229,7 +229,7 @@
                   lry="2286"
                   points="1550,2137 1550,2193 1673,2286 1821,2274 1895,2193 1898,2114"/>
          </surface>
-         <surface xml:id="f83057">
+         <surface xml:id="f83057" ulx="0" uly="0" lrx="1920" lry="2452">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83057.jpg"/>
             <zone xml:id="zone_f83057_fig1"
                   ulx="287"
@@ -250,7 +250,7 @@
                   lry="2271"
                   points="1621,2134 1621,2271 1897,2246 1863,2081"/>
          </surface>
-         <surface xml:id="f83058">
+         <surface xml:id="f83058" ulx="0" uly="0" lrx="1894" lry="2413">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83058.jpg"/>
             <zone xml:id="zone_f83058_fig1"
                   ulx="26"
@@ -283,7 +283,7 @@
                   lry="2401"
                   points="20,1814 73,2384 308,2401 618,2376 629,2308 515,1925 492,1814"/>
          </surface>
-         <surface xml:id="f83059">
+         <surface xml:id="f83059" ulx="0" uly="0" lrx="1925" lry="2451">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83059.jpg"/>
             <zone xml:id="zone_f83059_fig1"
                   ulx="691"
@@ -304,7 +304,7 @@
                   lry="2065"
                   points="551,1262 535,1454 322,2028 1210,2065 1222,1699 970,1567 929,1290"/>
          </surface>
-         <surface xml:id="f83060">
+         <surface xml:id="f83060" ulx="0" uly="0" lrx="1886" lry="2431">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83060.jpg"/>
             <zone xml:id="zone_f83060_fig1"
                   ulx="14"
@@ -331,7 +331,7 @@
                   lry="2291"
                   points="718,1553 550,1861 133,1892 150,2280 902,2291 1094,2288 824,1553"/>
          </surface>
-         <surface xml:id="f83061">
+         <surface xml:id="f83061" ulx="0" uly="0" lrx="1918" lry="2463">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83061.jpg"/>
             <zone xml:id="zone_f83061_fig1"
                   ulx="226"
@@ -352,7 +352,7 @@
                   lry="2463"
                   points="291,1706 291,2463 1563,2463 1581,2280 1592,1917 1147,1898 940,1698"/>
          </surface>
-         <surface xml:id="f83062">
+         <surface xml:id="f83062" ulx="0" uly="0" lrx="1894" lry="2413">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83062.jpg"/>
             <zone xml:id="zone_f83062_fig1"
                   ulx="289"
@@ -385,7 +385,7 @@
                   lry="2077"
                   points="347,1862 347,2077 981,2067 940,1898 749,1834"/>
          </surface>
-         <surface xml:id="f83063">
+         <surface xml:id="f83063" ulx="0" uly="0" lrx="1919" lry="2443">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83063.jpg"/>
             <zone xml:id="zone_f83063_fig1"
                   ulx="412"
@@ -400,7 +400,7 @@
                   lry="1892"
                   points="254,647 254,1892 1720,1892 1720,647"/>
          </surface>
-         <surface xml:id="f83064">
+         <surface xml:id="f83064" ulx="0" uly="0" lrx="1906" lry="2413">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83064.jpg"/>
             <zone xml:id="zone_f83064_fig1"
                   ulx="209"
@@ -415,7 +415,7 @@
                   lry="1794"
                   points="96,797 85,1710 251,1794 394,1710 1266,1710 1384,1777 1555,1710 1741,1296 1566,789 1145,929 1015,865 960,924 633,811"/>
          </surface>
-         <surface xml:id="f83065">
+         <surface xml:id="f83065" ulx="0" uly="0" lrx="1931" lry="2456">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83065.jpg"/>
             <zone xml:id="zone_f83065_fig1"
                   ulx="70"
@@ -442,7 +442,7 @@
                   lry="2454"
                   points="171,1861 174,2445 573,2445 610,2454 801,2444 816,2430 882,2436 1117,2445 1122,2323 1282,2317 1288,2317 1143,2165 1143,1850"/>
          </surface>
-         <surface xml:id="f83066">
+         <surface xml:id="f83066" ulx="0" uly="0" lrx="1900" lry="2408">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83066.jpg"/>
             <zone xml:id="zone_f83066_fig1"
                   ulx="586"
@@ -457,7 +457,7 @@
                   lry="1957"
                   points="219,1021 219,1873 995,1873 1035,1957 1076,1873 1078,1360 1410,1349 1431,1118 1084,1072 1085,999"/>
          </surface>
-         <surface xml:id="f83067">
+         <surface xml:id="f83067" ulx="0" uly="0" lrx="1925" lry="2450">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83067.jpg"/>
             <zone xml:id="zone_f83067_fig1"
                   ulx="43"
@@ -478,7 +478,7 @@
                   lry="2450"
                   points="761,2057 761,2244 796,2441 1180,2448 1269,2450 1397,2446 1441,2444 1672,2450 1746,2327 1784,2165 1795,2054"/>
          </surface>
-         <surface xml:id="f83068">
+         <surface xml:id="f83068" ulx="0" uly="0" lrx="1894" lry="2425">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83068.jpg"/>
             <zone xml:id="zone_f83068_fig1"
                   ulx="663"
@@ -505,10 +505,10 @@
                   lry="2305"
                   points="1210,2034 1087,2296 1296,2290 1337,2305 1272,2034"/>
          </surface>
-         <surface xml:id="f83069">
+         <surface xml:id="f83069" ulx="0" uly="0" lrx="1900" lry="2456">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83069.jpg"/>
          </surface>
-         <surface xml:id="f83070">
+         <surface xml:id="f83070" ulx="0" uly="0" lrx="1892" lry="2425">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83070.jpg"/>
             <zone xml:id="zone_f83070_fig1"
                   ulx="593"
@@ -529,7 +529,7 @@
                   lry="1986"
                   points="9,1930 9,1986 1213,1965 1231,1900 1754,1919 1759,1527 1719,1517 1719,1518 1726,1873 1223,1874 1195,1933"/>
          </surface>
-         <surface xml:id="f83071">
+         <surface xml:id="f83071" ulx="0" uly="0" lrx="1906" lry="2444">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83071.jpg"/>
             <zone xml:id="zone_f83071_fig1"
                   ulx="315"
@@ -556,7 +556,7 @@
                   lry="2444"
                   points="15,2126 12,2442 267,2444 270,2126"/>
          </surface>
-         <surface xml:id="f83072">
+         <surface xml:id="f83072" ulx="0" uly="0" lrx="1869" lry="2401">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83072.jpg"/>
             <zone xml:id="zone_f83072_fig1"
                   ulx="495"
@@ -565,7 +565,7 @@
                   lry="1743"
                   points="511,128 495,1743 929,1743 1497,1743 1497,128"/>
          </surface>
-         <surface xml:id="f83073">
+         <surface xml:id="f83073" ulx="0" uly="0" lrx="1912" lry="2436">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83073.jpg"/>
             <zone xml:id="zone_f83073_fig1"
                   ulx="807"
@@ -604,7 +604,7 @@
                   lry="1985"
                   points="1349,1723 1349,1985 1856,1985 1858,1835 1859,1720"/>
          </surface>
-         <surface xml:id="f83074">
+         <surface xml:id="f83074" ulx="0" uly="0" lrx="1882" lry="2420">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83074.jpg"/>
             <zone xml:id="zone_f83074_fig1"
                   ulx="409"
@@ -649,7 +649,7 @@
                   lry="2352"
                   points="833,2202 833,2352 1017,2352 1017,2202"/>
          </surface>
-         <surface xml:id="f83075">
+         <surface xml:id="f83075" ulx="0" uly="0" lrx="1888" lry="2445">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83075.jpg"/>
             <zone xml:id="zone_f83075_fig1"
                   ulx="511"
@@ -664,7 +664,7 @@
                   lry="2197"
                   points="316,1987 316,2194 1370,2197 1370,1981 436,1986"/>
          </surface>
-         <surface xml:id="f83076">
+         <surface xml:id="f83076" ulx="0" uly="0" lrx="1880" lry="2431">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83076.jpg"/>
             <zone xml:id="zone_f83076_fig1"
                   ulx="132"
@@ -697,7 +697,7 @@
                   lry="2432"
                   points="42,2174 42,2432 1450,2432 1450,2174 1096,2174 794,2174 530,2174 207,2174"/>
          </surface>
-         <surface xml:id="f83077">
+         <surface xml:id="f83077" ulx="0" uly="0" lrx="1881" lry="2444">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83077.jpg"/>
             <zone xml:id="zone_f83077_fig1"
                   ulx="242"
@@ -712,7 +712,7 @@
                   lry="1347"
                   points="246,934 246,1237 415,1236 713,1235 701,1347 1049,1337 1608,1321 1606,934 1344,934 683,934"/>
          </surface>
-         <surface xml:id="f83078">
+         <surface xml:id="f83078" ulx="0" uly="0" lrx="1888" lry="2413">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83078.jpg"/>
             <zone xml:id="zone_f83078_fig1"
                   ulx="99"
@@ -721,7 +721,7 @@
                   lry="690"
                   points="99,129 99,284 99,690 470,690 1659,690 1659,520 1659,133 1259,132"/>
          </surface>
-         <surface xml:id="f83079">
+         <surface xml:id="f83079" ulx="0" uly="0" lrx="1912" lry="2413">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83079.jpg"/>
             <zone xml:id="zone_f83079_fig1"
                   ulx="264"
@@ -730,7 +730,7 @@
                   lry="1430"
                   points="264,112 264,830 264,1430 404,1430 881,1430 1309,1384 1098,1038 927,759 881,112 640,112"/>
          </surface>
-         <surface xml:id="f83080">
+         <surface xml:id="f83080" ulx="0" uly="0" lrx="1900" lry="2436">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83080.jpg"/>
             <zone xml:id="zone_f83080_fig1"
                   ulx="43"
@@ -757,7 +757,7 @@
                   lry="1985"
                   points="883,1311 883,1985 1443,1985 1443,1664 1443,1311"/>
          </surface>
-         <surface xml:id="f83081">
+         <surface xml:id="f83081" ulx="0" uly="0" lrx="1892" lry="2452">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83081.jpg"/>
             <zone xml:id="zone_f83081_fig1"
                   ulx="631"
@@ -784,7 +784,7 @@
                   lry="2451"
                   points="1320,2228 1320,2380 1320,2451 1761,2451 1758,2130 1518,2139 1507,2228"/>
          </surface>
-         <surface xml:id="f83082">
+         <surface xml:id="f83082" ulx="0" uly="0" lrx="1888" lry="2424">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83082.jpg"/>
             <zone xml:id="zone_f83082_fig1"
                   ulx="376"
@@ -805,13 +805,13 @@
                   lry="2092"
                   points="304,1703 304,2092 1577,2092 1577,1902 1577,1703 1063,1703 748,1703"/>
          </surface>
-         <surface xml:id="f83083">
+         <surface xml:id="f83083" ulx="0" uly="0" lrx="1906" lry="2419">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83083.jpg"/>
          </surface>
-         <surface xml:id="f83084">
+         <surface xml:id="f83084" ulx="0" uly="0" lrx="1863" lry="2437">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83084.jpg"/>
          </surface>
-         <surface xml:id="f83085">
+         <surface xml:id="f83085" ulx="0" uly="0" lrx="1896" lry="2460">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83085.jpg"/>
             <zone xml:id="zone_f83085_fig1"
                   ulx="311"
@@ -838,7 +838,7 @@
                   lry="2460"
                   points="265,1799 256,2450 297,2460 993,2460 993,1780"/>
          </surface>
-         <surface xml:id="f83086">
+         <surface xml:id="f83086" ulx="0" uly="0" lrx="1916" lry="2436">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83086.jpg"/>
             <zone xml:id="zone_f83086_fig1"
                   ulx="26"
@@ -853,7 +853,7 @@
                   lry="1047"
                   points="15,691 15,789 18,955 19,1047 1914,1047 1914,848 1914,691"/>
          </surface>
-         <surface xml:id="f83087">
+         <surface xml:id="f83087" ulx="0" uly="0" lrx="1906" lry="2438">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83087.jpg"/>
             <zone xml:id="zone_f83087_fig1"
                   ulx="1"
@@ -868,7 +868,7 @@
                   lry="2422"
                   points="1715,2422 1715,2157 19,2157 19,2422"/>
          </surface>
-         <surface xml:id="f83088">
+         <surface xml:id="f83088" ulx="0" uly="0" lrx="1900" lry="2436">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83088.jpg"/>
             <zone xml:id="zone_f83088_fig1"
                   ulx="12"
@@ -883,7 +883,7 @@
                   lry="2269"
                   points="23,1481 23,1847 23,2269 1371,2269 1371,1481"/>
          </surface>
-         <surface xml:id="f83089">
+         <surface xml:id="f83089" ulx="0" uly="0" lrx="1913" lry="2438">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83089.jpg"/>
             <zone xml:id="zone_f83089_fig1"
                   ulx="287"
@@ -916,7 +916,7 @@
                   lry="2430"
                   points="925,2077 925,2430 1582,2430 1582,2077"/>
          </surface>
-         <surface xml:id="f83090">
+         <surface xml:id="f83090" ulx="0" uly="0" lrx="1904" lry="2436">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83090.jpg"/>
             <zone xml:id="zone_f83090_fig1"
                   ulx="265"
@@ -937,10 +937,10 @@
                   lry="2436"
                   points="1202,2096 1202,2436 1629,2436 1627,2096"/>
          </surface>
-         <surface xml:id="f83091">
+         <surface xml:id="f83091" ulx="0" uly="0" lrx="1900" lry="2419">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83091.jpg"/>
          </surface>
-         <surface xml:id="f83092">
+         <surface xml:id="f83092" ulx="0" uly="0" lrx="1944" lry="2431">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83092.jpg"/>
             <zone xml:id="zone_f83092_fig1"
                   ulx="3"
@@ -979,7 +979,7 @@
                   lry="2333"
                   points="12,1973 12,2333 172,2333 1600,2333 1600,1973 86,1973"/>
          </surface>
-         <surface xml:id="f83093">
+         <surface xml:id="f83093" ulx="0" uly="0" lrx="1944" lry="2450">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83093.jpg"/>
             <zone xml:id="zone_f83093_fig1"
                   ulx="503"
@@ -1030,7 +1030,7 @@
                   lry="2332"
                   points="109,2116 109,2332 1406,2332 1406,2116"/>
          </surface>
-         <surface xml:id="f83094">
+         <surface xml:id="f83094" ulx="0" uly="0" lrx="1925" lry="2389">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83094.jpg"/>
             <zone xml:id="zone_f83094_fig1"
                   ulx="295"
@@ -1093,7 +1093,7 @@
                   lry="2136"
                   points="1895,2136 1895,1760 1473,1760 1473,2136"/>
          </surface>
-         <surface xml:id="f83095">
+         <surface xml:id="f83095" ulx="0" uly="0" lrx="1888" lry="2460">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83095.jpg"/>
             <zone xml:id="zone_f83095_fig1"
                   ulx="10"
@@ -1102,10 +1102,10 @@
                   lry="2317"
                   points="10,569 10,2317 1888,2317 1880,542 1504,553 1389,554"/>
          </surface>
-         <surface xml:id="f83096">
+         <surface xml:id="f83096" ulx="0" uly="0" lrx="1856" lry="2425">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83096.jpg"/>
          </surface>
-         <surface xml:id="f83097">
+         <surface xml:id="f83097" ulx="0" uly="0" lrx="1912" lry="2450">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83097.jpg"/>
             <zone xml:id="zone_f83097_fig1"
                   ulx="569"
@@ -1114,7 +1114,7 @@
                   lry="692"
                   points="569,604 569,692 1240,692 1237,604"/>
          </surface>
-         <surface xml:id="f83098">
+         <surface xml:id="f83098" ulx="0" uly="0" lrx="1906" lry="2414">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83098.jpg"/>
             <zone xml:id="zone_f83098_fig1"
                   ulx="468"
@@ -1123,7 +1123,7 @@
                   lry="1656"
                   points="468,1272 468,1656 982,1656 982,1272"/>
          </surface>
-         <surface xml:id="f83099">
+         <surface xml:id="f83099" ulx="0" uly="0" lrx="1912" lry="2444">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83099.jpg"/>
             <zone xml:id="zone_f83099_music1"
                   ulx="312"
@@ -1144,7 +1144,7 @@
                   lry="2444"
                   points="1896,1973 1896,2444 1199,2444 1203,2136 1330,2021 1395,1963"/>
          </surface>
-         <surface xml:id="f83100">
+         <surface xml:id="f83100" ulx="0" uly="0" lrx="1913" lry="2412">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83100.jpg"/>
             <zone xml:id="zone_f83100_fig1"
                   ulx="59"
@@ -1153,7 +1153,7 @@
                   lry="2116"
                   points="59,749 59,2116 1282,2116 1667,1595 1509,1359 1246,1374 1239,740"/>
          </surface>
-         <surface xml:id="f83101">
+         <surface xml:id="f83101" ulx="0" uly="0" lrx="1943" lry="2457">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83101.jpg"/>
             <zone xml:id="zone_f83101_fig1"
                   ulx="8"
@@ -1162,7 +1162,7 @@
                   lry="1259"
                   points="8,604 8,1259 1926,1259 1926,604"/>
          </surface>
-         <surface xml:id="f83103">
+         <surface xml:id="f83103" ulx="0" uly="0" lrx="1919" lry="2432">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83103.jpg"/>
             <zone xml:id="zone_f83103_fig1"
                   ulx="26"
@@ -1171,7 +1171,7 @@
                   lry="2123"
                   points="26,1426 26,2123 1740,2123 1740,1426"/>
          </surface>
-         <surface xml:id="f83186">
+         <surface xml:id="f83186" ulx="0" uly="0" lrx="1894" lry="2413">
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83186.jpg"/>
             <zone xml:id="zone_f83186_fig1"
                   ulx="560"
@@ -2102,7 +2102,23 @@
                   <w>1</w>
                   <pc type="period" join="left" force="strong">.</pc>
                </head>
-               <figure facs="#zone_f83049_fig1"/>
+               <figure facs="#zone_f83049_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 164 133"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83049_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="5,29 0,133 146,133 164,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83049.jpg"
+                            x="-29"
+                            y="-209"
+                            width="1928"
+                            height="2452"
+                            clip-path="url(#clip-zone_f83049_fig1)"/>
+                  </svg>
+               </figure>
                <ab type="parag" n="1">
                   <l n="1">
                      <choice>
@@ -2168,8 +2184,40 @@
                      <pc type="bracketClose" join="left" force="inter">)</pc>
                   </l>
                </ab>
-               <figure facs="#zone_f83049_fig2"/>
-               <figure facs="#zone_f83049_fig3"/>
+               <figure facs="#zone_f83049_fig2">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 452 115"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83049_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,17 17,115 452,42 430,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83049.jpg"
+                            x="-846"
+                            y="-469"
+                            width="1928"
+                            height="2452"
+                            clip-path="url(#clip-zone_f83049_fig2)"/>
+                  </svg>
+               </figure>
+               <figure facs="#zone_f83049_fig3">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 47 47"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83049_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,47 47,47 47,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83049.jpg"
+                            x="-52"
+                            y="-574"
+                            width="1928"
+                            height="2452"
+                            clip-path="url(#clip-zone_f83049_fig3)"/>
+                  </svg>
+               </figure>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Setze</w>
@@ -2468,6 +2516,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>1 .  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1692 330"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83051_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,4 0,164 0,330 959,330 1523,330 1692,330 1692,0 279,3"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83051.jpg"
+                            x="-9"
+                            y="-826"
+                            width="1924"
+                            height="2460"
+                            clip-path="url(#clip-zone_f83051_fig1)"/>
+                  </svg>
                   <figDesc>
                      <w>freie</w>
                      <w>Linie</w>
@@ -2479,6 +2542,21 @@
                <figure facs="#zone_f83051_fig2">
                   <head rend="italic">
                      <w>fig</w> 2 .  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1916 525"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83051_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,195 0,299 0,525 924,525 1622,525 1916,525 1916,247 1916,0 133,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83051.jpg"
+                            x="-8"
+                            y="-1167"
+                            width="1924"
+                            height="2460"
+                            clip-path="url(#clip-zone_f83051_fig2)"/>
+                  </svg>
                   <figDesc>
                      <w>freie</w>
                      <w>Linie</w>
@@ -2502,10 +2580,40 @@
                <figure facs="#zone_f83051_fig3">
                   <head rend="italic">
                      <w>fig</w> 3  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1802 250"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83051_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,4 9,250 141,250 1802,246 1802,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83051.jpg"
+                            x="0"
+                            y="-1714"
+                            width="1924"
+                            height="2460"
+                            clip-path="url(#clip-zone_f83051_fig3)"/>
+                  </svg>
                </figure>
                <figure facs="#zone_f83051_fig4">
                   <head rend="italic">
                      <w>fig</w> 4  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1647 329"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83051_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,90 0,181 0,325 1647,329 1547,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83051.jpg"
+                            x="0"
+                            y="-2092"
+                            width="1924"
+                            height="2460"
+                            clip-path="url(#clip-zone_f83051_fig4)"/>
+                  </svg>
                </figure>
             </div>
             <div n="12">
@@ -2525,6 +2633,21 @@
                <figure facs="#zone_f83052_fig1">
                   <head rend="italic">
                      <w>fig</w> 5  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1885 284"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83052_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="223,42 80,73 0,175 186,158 423,119 608,218 847,284 1389,126 1431,190 1785,188 1884,197 1885,0 1385,20 937,166 747,159 463,52"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83052.jpg"
+                            x="-8"
+                            y="-240"
+                            width="1906"
+                            height="2414"
+                            clip-path="url(#clip-zone_f83052_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>fig</w>
@@ -2532,6 +2655,21 @@
                </l>
                <figure facs="#zone_f83052_fig2">
                   <head rend="italic"> 5a  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1111 312"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83052_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 8,133 18,312 470,222 695,273 1111,143 1089,73 712,148 465,116 195,27 195,26"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83052.jpg"
+                            x="0"
+                            y="-493"
+                            width="1906"
+                            height="2414"
+                            clip-path="url(#clip-zone_f83052_fig2)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <corr hand="#pencil">
@@ -2542,6 +2680,21 @@
                <figure facs="#zone_f83052_fig3">
                   <head rend="italic">
                      <w>fig</w> 6 .  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 724 519"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83052_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="118,519 0,442 432,0 481,130 425,250 715,207 724,471 484,478 467,392 262,406"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83052.jpg"
+                            x="-1182"
+                            y="-278"
+                            width="1906"
+                            height="2414"
+                            clip-path="url(#clip-zone_f83052_fig3)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>fig</w>
@@ -2563,6 +2716,21 @@
                <figure facs="#zone_f83052_fig4">
                   <head rend="italic">
                      <w>fig</w> 7  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1838 507"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83052_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,242 0,411 145,404 383,340 587,383 926,303 1487,507 1819,453 1824,353 1838,68 1275,26 935,0 606,5 510,6 245,5"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83052.jpg"
+                            x="-34"
+                            y="-760"
+                            width="1906"
+                            height="2414"
+                            clip-path="url(#clip-zone_f83052_fig4)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>fig</w>
@@ -2578,6 +2746,21 @@
                <figure facs="#zone_f83052_fig5">
                   <head rend="italic">
                      <w>fig</w> 8  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1850 456"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83052_fig5" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,135 15,326 547,413 548,413 1006,199 1307,453 1712,455 1850,456 1850,203 1017,6 366,1 192,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83052.jpg"
+                            x="-20"
+                            y="-1195"
+                            width="1906"
+                            height="2414"
+                            clip-path="url(#clip-zone_f83052_fig5)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>fig</w>
@@ -2593,6 +2776,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>9  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1748 362"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83052_fig6" clipPathUnits="userSpaceOnUse">
+                           <polygon points="23,0 0,289 378,262 673,174 905,315 1625,355 1748,362 1732,139 939,148 711,27 505,41 201,15"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83052.jpg"
+                            x="-128"
+                            y="-1542"
+                            width="1906"
+                            height="2414"
+                            clip-path="url(#clip-zone_f83052_fig6)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Fig</w>
@@ -2645,6 +2843,21 @@
                <figure facs="#zone_f83053_fig1">
                   <head rend="italic">
                      <w>fig</w> 10  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1818 515"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83053_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="13,70 0,349 153,353 1217,384 1242,515 1417,423 1812,384 1818,74 1529,0 1464,74"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83053.jpg"
+                            x="0"
+                            y="-212"
+                            width="1931"
+                            height="2443"
+                            clip-path="url(#clip-zone_f83053_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>ist</w>
@@ -2720,6 +2933,21 @@
                      <w>fig</w>
                      <w>11</w>
                      <pc type="slash" join="both" force="inter">/</pc>12  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1678 442"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83053_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,3 0,442 128,442 1678,442 1678,0 154,3"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83053.jpg"
+                            x="-8"
+                            y="-1391"
+                            width="1931"
+                            height="2443"
+                            clip-path="url(#clip-zone_f83053_fig2)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>In</w>
@@ -2755,6 +2983,21 @@
                      <w>fig</w>
                      <w>13</w>
                      <pc type="slash" join="both" force="inter">/</pc>14  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1531 235"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83053_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,45 12,160 81,158 669,145 692,235 1531,214 1515,7 1317,0 1264,96 1219,93 874,107 862,8 685,3 679,97 678,120 261,131 246,46"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83053.jpg"
+                            x="-20"
+                            y="-2161"
+                            width="1931"
+                            height="2443"
+                            clip-path="url(#clip-zone_f83053_fig3)"/>
+                  </svg>
                </figure>
             </div>
             <div n="14">
@@ -2887,6 +3130,21 @@
                      <w>fig</w>
                      <w>15</w>
                      <pc type="slash" join="both" force="inter">/</pc>16  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1603 258"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83054_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,87 0,258 719,258 1595,258 1603,0 1472,7"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83054.jpg"
+                            x="-261"
+                            y="-1624"
+                            width="1900"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83054_fig1)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -3052,7 +3310,23 @@
                      <w>weiter</w>
                   </l>
                </ab>
-               <figure facs="#zone_f83055_fig1"/>
+               <figure facs="#zone_f83055_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 355 301"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83055_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,301 355,301 355,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83055.jpg"
+                            x="-609"
+                            y="-1466"
+                            width="1940"
+                            height="2452"
+                            clip-path="url(#clip-zone_f83055_fig1)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>die</w>
                   <w>Linie</w>
@@ -3269,6 +3543,21 @@
                <figure facs="#zone_f83058_fig1">
                   <head rend="italic">
                      <w>fig</w> 6  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 542 606"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83058_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,593 237,606 542,595 542,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83058.jpg"
+                            x="-26"
+                            y="-9"
+                            width="1894"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83058_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Eisenbahnschienen</w>
@@ -3363,7 +3652,23 @@
                      <w>Punkten</w>
                   </l>
                </ab>
-               <figure facs="#zone_f83058_fig2"/>
+               <figure facs="#zone_f83058_fig2">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 268 56"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83058_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,56 268,56 268,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83058.jpg"
+                            x="-1227"
+                            y="-1121"
+                            width="1894"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83058_fig2)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>zu</w>
                   <w>Linien</w>
@@ -3375,7 +3680,23 @@
                   <w>von</w>
                   <w>Linien</w>
                </l>
-               <figure facs="#zone_f83058_fig3"/>
+               <figure facs="#zone_f83058_fig3">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 168 115"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83058_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,115 168,115 168,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83058.jpg"
+                            x="-975"
+                            y="-1174"
+                            width="1894"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83058_fig3)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>zu</w>
                   <w>Flächen</w>
@@ -3389,7 +3710,23 @@
                   <w>log</w>
                   <w>nicht</w>
                </l>
-               <figure facs="#zone_f83058_fig4"/>
+               <figure facs="#zone_f83058_fig4">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 237 170"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83058_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,55 0,170 220,170 237,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83058.jpg"
+                            x="-96"
+                            y="-1200"
+                            width="1894"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83058_fig4)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>Flächen</w>
                   <w>mit</w>
@@ -3463,6 +3800,21 @@
                <figure facs="#zone_f83058_fig5">
                   <head rend="italic">
                      <w>fig</w> 7  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 609 587"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83058_fig5" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 53,570 288,587 598,562 609,494 495,111 472,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83058.jpg"
+                            x="-20"
+                            y="-1814"
+                            width="1894"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83058_fig5)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Dies</w>
@@ -3559,8 +3911,40 @@
                   <w>die</w>
                   <w>bei</w>
                </l>
-               <figure facs="#zone_f83060_fig1"/>
-               <figure facs="#zone_f83060_fig2"/>
+               <figure facs="#zone_f83060_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 512 501"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83060_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,409 0,0 512,0 476,415 371,501 0,492"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83060.jpg"
+                            x="-14"
+                            y="-363"
+                            width="1886"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83060_fig1)"/>
+                  </svg>
+               </figure>
+               <figure facs="#zone_f83060_fig2">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 984 606"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83060_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,587 359,264 635,0 776,0 763,276 984,273 982,606"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83060.jpg"
+                            x="-359"
+                            y="-321"
+                            width="1886"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83060_fig2)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>fig</w>
                   <w>11</w>
@@ -3586,7 +3970,23 @@
                   <w>Winkel</w>
                   <pc type="bracketClose" join="left" force="inter">)</pc>
                </l>
-               <figure facs="#zone_f83060_fig3"/>
+               <figure facs="#zone_f83060_fig3">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 625 851"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83060_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="57,0 0,483 2,805 547,851 625,6"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83060.jpg"
+                            x="-49"
+                            y="-905"
+                            width="1886"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83060_fig3)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>und</w>
                   <add>
@@ -3614,13 +4014,44 @@
                <p rend="bold" type="pause">
                   <pc type="punct" join="both" force="inter">*</pc>
                </p>
-               <figure facs="#zone_f83060_fig4"/>
+               <figure facs="#zone_f83060_fig4">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 961 738"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83060_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="585,0 417,308 0,339 17,727 769,738 961,735 691,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83060.jpg"
+                            x="-133"
+                            y="-1553"
+                            width="1886"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83060_fig4)"/>
+                  </svg>
+               </figure>
             </div>
             <div n="21">
                <pb n="18" facs="#f83061"/>
                <figure facs="#zone_f83061_fig1">
                   <head rend="italic">
                      <w>fig</w> 14  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 753 643"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83061_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="508,13 753,599 753,643 482,639 325,639 0,643 118,433 52,429 50,145 360,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83061.jpg"
+                            x="-226"
+                            y="-115"
+                            width="1918"
+                            height="2463"
+                            clip-path="url(#clip-zone_f83061_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Wir</w>
@@ -3724,6 +4155,21 @@
                <figure facs="#zone_f83061_fig2">
                   <head rend="italic">
                      <w>fig</w> 15  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1093 243"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83061_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="3,243 0,8 959,0 1093,237"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83061.jpg"
+                            x="-245"
+                            y="-1228"
+                            width="1918"
+                            height="2463"
+                            clip-path="url(#clip-zone_f83061_fig2)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -3754,6 +4200,21 @@
                <figure facs="#zone_f83061_fig3">
                   <head rend="italic">
                      <w>fig</w> 16  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1301 765"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83061_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,8 0,765 1272,765 1290,582 1301,219 856,200 649,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83061.jpg"
+                            x="-291"
+                            y="-1698"
+                            width="1918"
+                            height="2463"
+                            clip-path="url(#clip-zone_f83061_fig3)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>nimmt</w>
@@ -3789,7 +4250,23 @@
                      <pc type="period" join="left" force="strong">.</pc>
                   </l>
                </ab>
-               <figure facs="#zone_f83062_fig1"/>
+               <figure facs="#zone_f83062_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1268 726"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83062_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="589,3 589,59 505,151 34,184 0,721 589,726 664,726 675,726 1268,726 1212,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83062.jpg"
+                            x="-289"
+                            y="-244"
+                            width="1894"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83062_fig1)"/>
+                  </svg>
+               </figure>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Beim</w>
@@ -3799,7 +4276,23 @@
                      <w>Fläche</w>
                   </l>
                </ab>
-               <figure facs="#zone_f83062_fig2"/>
+               <figure facs="#zone_f83062_fig2">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 78 148"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83062_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,148 78,148 78,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83062.jpg"
+                            x="-987"
+                            y="-998"
+                            width="1894"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83062_fig2)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>bleibt</w>
                   <w>die</w>
@@ -3826,6 +4319,21 @@
                   <w>wollen</w>
                </l>
                <figure facs="#zone_f83063_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 983 595"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83063_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="362,0 242,204 0,205 4,322 4,325 186,325 40,595 983,591 665,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83063.jpg"
+                            x="-412"
+                            y="-138"
+                            width="1919"
+                            height="2443"
+                            clip-path="url(#clip-zone_f83063_fig1)"/>
+                  </svg>
                   <figDesc>
                      <pc type="bracketOpen" join="right" force="inter">(</pc>
                      <w>wie</w>
@@ -3878,6 +4386,21 @@
                <figure facs="#zone_f83063_fig2">
                   <head rend="italic">
                      <w>fig</w> 21  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1466 1245"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83063_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,1245 1466,1245 1466,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83063.jpg"
+                            x="-254"
+                            y="-647"
+                            width="1919"
+                            height="2443"
+                            clip-path="url(#clip-zone_f83063_fig2)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -3933,6 +4456,21 @@
                <figure facs="#zone_f83064_fig1">
                   <head rend="italic">
                      <w>fig</w> 22  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1216 832"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83064_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 3,588 163,639 709,776 764,832 806,786 910,827 910,291 1205,294 1216,14"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83064.jpg"
+                            x="-209"
+                            y="-74"
+                            width="1906"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83064_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Was</w>
@@ -3961,6 +4499,21 @@
                <figure facs="#zone_f83064_fig2">
                   <head rend="italic">
                      <w>fig</w> 23  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1656 1005"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83064_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="11,8 0,921 166,1005 309,921 1181,921 1299,988 1470,921 1656,507 1481,0 1060,140 930,76 875,135 548,22"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83064.jpg"
+                            x="-85"
+                            y="-789"
+                            width="1906"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83064_fig2)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>zu</w>
@@ -4073,6 +4626,21 @@
                <figure facs="#zone_f83065_fig1">
                   <head rend="italic">
                      <w>fig</w> 24  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1761 1254"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83065_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,1063 113,1220 292,1063 723,1063 801,1074 890,1070 959,1057 959,1060 1418,1062 1452,1092 1632,1254 1761,1063 1761,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83065.jpg"
+                            x="-70"
+                            y="-171"
+                            width="1931"
+                            height="2456"
+                            clip-path="url(#clip-zone_f83065_fig1)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -4144,6 +4712,21 @@
                <figure facs="#zone_f83065_fig2">
                   <head rend="italic">
                      <w>ad</w> 24  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 256 258"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83065_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,258 256,248 250,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83065.jpg"
+                            x="-1655"
+                            y="-1467"
+                            width="1931"
+                            height="2456"
+                            clip-path="url(#clip-zone_f83065_fig2)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>ist</w>
@@ -4188,10 +4771,40 @@
                <figure facs="#zone_f83065_fig3">
                   <head rend="italic">
                      <w>ad</w> 23  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 218 272"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83065_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,189 197,272 218,119 117,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83065.jpg"
+                            x="-1705"
+                            y="-1715"
+                            width="1931"
+                            height="2456"
+                            clip-path="url(#clip-zone_f83065_fig3)"/>
+                  </svg>
                </figure>
                <figure facs="#zone_f83065_fig4">
                   <head rend="italic">
                      <w>ad</w> 23  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1117 604"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83065_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,11 3,595 402,595 439,604 630,594 645,580 711,586 946,595 951,473 1111,467 1117,467 972,315 972,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83065.jpg"
+                            x="-171"
+                            y="-1850"
+                            width="1931"
+                            height="2456"
+                            clip-path="url(#clip-zone_f83065_fig4)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -4254,6 +4867,21 @@
                <figure facs="#zone_f83066_fig1">
                   <head rend="italic">
                      <w>ad</w> 25  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 367 347"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83066_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,286 23,286 160,347 161,346 258,289 367,286 367,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83066.jpg"
+                            x="-586"
+                            y="-57"
+                            width="1900"
+                            height="2408"
+                            clip-path="url(#clip-zone_f83066_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>der</w>
@@ -4349,6 +4977,21 @@
                <figure facs="#zone_f83066_fig2">
                   <head rend="italic"> ( <w>Fig</w>
                      <pc type="period" join="left" force="strong">.</pc>22 )  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1212 958"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83066_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,22 0,874 776,874 816,958 857,874 859,361 1191,350 1212,119 865,73 866,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83066.jpg"
+                            x="-219"
+                            y="-999"
+                            width="1900"
+                            height="2408"
+                            clip-path="url(#clip-zone_f83066_fig2)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Die</w>
@@ -4381,6 +5024,21 @@
                <figure facs="#zone_f83067_fig1">
                   <head rend="italic">
                      <w>Fig</w> 26  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1709 1488"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83067_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,6 0,1440 88,1488 122,1440 321,1440 386,1443 469,1438 536,1443 537,1443 1587,1440 1709,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83067.jpg"
+                            x="-43"
+                            y="-134"
+                            width="1925"
+                            height="2450"
+                            clip-path="url(#clip-zone_f83067_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Der</w>
@@ -4483,6 +5141,21 @@
                <figure facs="#zone_f83067_fig2">
                   <head rend="italic">
                      <w>ad</w> 26  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 517 371"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83067_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="17,0 0,370 219,371 517,366 472,124 454,25 267,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83067.jpg"
+                            x="-256"
+                            y="-2077"
+                            width="1925"
+                            height="2450"
+                            clip-path="url(#clip-zone_f83067_fig2)"/>
+                  </svg>
                   <figDesc>
                      <w>gesehn</w> 
                   </figDesc>
@@ -4491,6 +5164,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>27  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1034 396"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83067_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,3 0,190 35,387 419,394 508,396 636,392 680,390 911,396 985,273 1023,111 1034,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83067.jpg"
+                            x="-761"
+                            y="-2054"
+                            width="1925"
+                            height="2450"
+                            clip-path="url(#clip-zone_f83067_fig3)"/>
+                  </svg>
                   <figDesc>
                      <w>gedacht</w> 
                   </figDesc>
@@ -4552,7 +5240,23 @@
                      <w>zerfällt</w>
                   </l>
                </ab>
-               <figure facs="#zone_f83068_fig1"/>
+               <figure facs="#zone_f83068_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 223 201"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83068_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,45 81,45 83,201 138,197 147,46 223,45 223,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83068.jpg"
+                            x="-663"
+                            y="-420"
+                            width="1894"
+                            height="2425"
+                            clip-path="url(#clip-zone_f83068_fig1)"/>
+                  </svg>
+               </figure>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Dies</w>
@@ -4802,6 +5506,21 @@
                <figure facs="#zone_f83070_fig1">
                   <head rend="italic">
                      <w>fig</w> 1  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 540 155"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83070_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,147 372,153 519,155 540,4"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83070.jpg"
+                            x="-593"
+                            y="-432"
+                            width="1892"
+                            height="2425"
+                            clip-path="url(#clip-zone_f83070_fig1)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -4876,6 +5595,21 @@
                <figure facs="#zone_f83070_fig2">
                   <head rend="italic">
                      <w>fig</w> 2  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 563 170"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83070_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 6,170 558,162 563,6"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83070.jpg"
+                            x="-910"
+                            y="-959"
+                            width="1892"
+                            height="2425"
+                            clip-path="url(#clip-zone_f83070_fig2)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -5073,8 +5807,40 @@
             </div>
             <div n="31">
                <pb n="28" facs="#f83071"/>
-               <figure facs="#zone_f83071_fig1"/>
-               <figure facs="#zone_f83071_fig2"/>
+               <figure facs="#zone_f83071_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 571 352"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83071_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,352 314,344 423,350 424,250 571,274 565,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83071.jpg"
+                            x="-315"
+                            y="-150"
+                            width="1906"
+                            height="2444"
+                            clip-path="url(#clip-zone_f83071_fig1)"/>
+                  </svg>
+               </figure>
+               <figure facs="#zone_f83071_fig2">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 694 453"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83071_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="11,0 0,444 694,453 669,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83071.jpg"
+                            x="-979"
+                            y="-57"
+                            width="1906"
+                            height="2444"
+                            clip-path="url(#clip-zone_f83071_fig2)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>So</w>
                   <w>ungefähr</w>
@@ -5151,6 +5917,21 @@
                <figure facs="#zone_f83072_fig1">
                   <head rend="italic">
                      <w>fig</w> 6  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1002 1615"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83072_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="16,0 0,1615 434,1615 1002,1615 1002,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83072.jpg"
+                            x="-495"
+                            y="-128"
+                            width="1869"
+                            height="2401"
+                            clip-path="url(#clip-zone_f83072_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Mit</w>
@@ -5264,6 +6045,21 @@
                <figure facs="#zone_f83073_fig1">
                   <head rend="italic">
                      <w>fig</w> 7  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 564 206"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83073_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,3 0,206 564,200 527,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83073.jpg"
+                            x="-807"
+                            y="-241"
+                            width="1912"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83073_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Stören</w>
@@ -5283,6 +6079,21 @@
                <figure facs="#zone_f83073_fig2">
                   <head rend="italic">
                      <w>fig</w> 8  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 743 200"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83073_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,200 743,200 712,3"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83073.jpg"
+                            x="-701"
+                            y="-577"
+                            width="1912"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83073_fig2)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <pc type="comma" join="left" force="weak">,</pc>
@@ -5299,6 +6110,21 @@
                <figure facs="#zone_f83073_fig3">
                   <head rend="italic">
                      <w>fig</w> 9  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 750 212"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83073_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,212 750,206 739,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83073.jpg"
+                            x="-732"
+                            y="-901"
+                            width="1912"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83073_fig3)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Korrigieren</w>
@@ -5311,6 +6137,21 @@
                <figure facs="#zone_f83073_fig4">
                   <head rend="italic">
                      <w>fig</w> 10  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 955 221"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83073_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,221 955,213 950,0 827,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83073.jpg"
+                            x="-645"
+                            y="-1231"
+                            width="1912"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83073_fig4)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <pc type="comma" join="left" force="weak">,</pc>
@@ -5324,6 +6165,21 @@
                <figure facs="#zone_f83073_fig5">
                   <head rend="italic">
                      <w>fig</w> 11  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1001 313"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83073_fig5" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,126 0,313 601,313 588,249 858,246 995,244 1001,0 186,5 183,126"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83073.jpg"
+                            x="-736"
+                            y="-1457"
+                            width="1912"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83073_fig5)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Das</w>
@@ -5336,6 +6192,21 @@
                <figure facs="#zone_f83073_fig6">
                   <head rend="italic">
                      <w>fig</w> 12  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 510 265"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83073_fig6" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,3 0,265 507,265 509,115 510,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83073.jpg"
+                            x="-1349"
+                            y="-1720"
+                            width="1912"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83073_fig6)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Nun</w>
@@ -5397,6 +6268,21 @@
                <figure facs="#zone_f83074_fig1">
                   <head rend="italic">
                      <w>fig</w> 13  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 454 437"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83074_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,306 211,305 230,437 454,434 453,301 326,293 322,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83074.jpg"
+                            x="-409"
+                            y="-134"
+                            width="1882"
+                            height="2420"
+                            clip-path="url(#clip-zone_f83074_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>und</w>
@@ -5411,6 +6297,21 @@
                </l>
                <figure facs="#zone_f83074_fig2">
                   <head rend="italic"> 13a  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 342 434"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83074_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="9,0 0,434 339,431 342,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83074.jpg"
+                            x="-1210"
+                            y="-134"
+                            width="1882"
+                            height="2420"
+                            clip-path="url(#clip-zone_f83074_fig2)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -5503,6 +6404,21 @@
                      <w>figur</w>
                      <w>14</w>
                      <w>und</w> 15  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1064 429"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83074_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,429 1064,429 1064,0 584,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83074.jpg"
+                            x="-123"
+                            y="-1120"
+                            width="1882"
+                            height="2420"
+                            clip-path="url(#clip-zone_f83074_fig3)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -5537,14 +6453,59 @@
                <figure facs="#zone_f83074_fig4">
                   <head rend="italic">
                      <w>fig</w> 16  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 484 369"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83074_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="12,3 4,239 0,366 484,369 484,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83074.jpg"
+                            x="-88"
+                            y="-1828"
+                            width="1882"
+                            height="2420"
+                            clip-path="url(#clip-zone_f83074_fig4)"/>
+                  </svg>
                </figure>
                <figure facs="#zone_f83074_fig5">
                   <head rend="italic">
                      <w>fig</w> 17  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 437 372"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83074_fig5" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,369 434,372 435,245 437,6"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83074.jpg"
+                            x="-620"
+                            y="-1822"
+                            width="1882"
+                            height="2420"
+                            clip-path="url(#clip-zone_f83074_fig5)"/>
+                  </svg>
                </figure>
                <figure facs="#zone_f83074_fig6">
                   <head rend="italic">
                      <w>fig</w> 18  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 476 446"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83074_fig6" clipPathUnits="userSpaceOnUse">
+                           <polygon points="15,0 0,440 476,446 470,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83074.jpg"
+                            x="-1085"
+                            y="-1833"
+                            width="1882"
+                            height="2420"
+                            clip-path="url(#clip-zone_f83074_fig6)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -5559,7 +6520,23 @@
                      <pc type="bracketClose" join="left" force="inter">)</pc>
                   </l>
                </ab>
-               <figure facs="#zone_f83074_fig7"/>
+               <figure facs="#zone_f83074_fig7">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 184 150"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83074_fig7" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,150 184,150 184,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83074.jpg"
+                            x="-833"
+                            y="-2202"
+                            width="1882"
+                            height="2420"
+                            clip-path="url(#clip-zone_f83074_fig7)"/>
+                  </svg>
+               </figure>
             </div>
             <div n="35">
                <pb n="32" facs="#f83075"/>
@@ -5619,6 +6596,21 @@
                <figure facs="#zone_f83076_fig1">
                   <head rend="italic">
                      <w>fig</w> 21  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1299 277"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83076_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,99 0,277 1042,277 1299,277 1299,0 622,0 567,0 269,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83076.jpg"
+                            x="-132"
+                            y="-196"
+                            width="1880"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83076_fig1)"/>
+                  </svg>
                   <figDesc>
                      <w>hellgrau</w>
                      <lb/>
@@ -5642,6 +6634,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>22 .  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1371 236"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83076_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,236 1087,236 1371,236 1371,0 523,0 178,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83076.jpg"
+                            x="-87"
+                            y="-646"
+                            width="1880"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83076_fig2)"/>
+                  </svg>
                   <figDesc>
                      <w>hellrot</w>
                      <lb/>
@@ -5670,6 +6677,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>23  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1314 240"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83076_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,240 540,240 1103,237 1314,236 1314,0 189,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83076.jpg"
+                            x="-76"
+                            y="-1095"
+                            width="1880"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83076_fig3)"/>
+                  </svg>
                   <figDesc>
                      <w>reines</w>
                      <w>rot</w>
@@ -5729,6 +6751,21 @@
                <figure facs="#zone_f83076_fig4">
                   <head rend="italic">
                      <w>fig</w> 20a.  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1296 236"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83076_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,45 0,236 1296,236 1292,0 110,41"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83076.jpg"
+                            x="-87"
+                            y="-1728"
+                            width="1880"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83076_fig4)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Bei</w>
@@ -5764,6 +6801,21 @@
                <figure facs="#zone_f83076_fig5">
                   <head rend="italic">
                      <w>fig</w> 21a  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1408 258"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83076_fig5" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,258 1408,258 1408,0 1054,0 752,0 488,0 165,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83076.jpg"
+                            x="-42"
+                            y="-2174"
+                            width="1880"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83076_fig5)"/>
+                  </svg>
                   <figDesc>
                      <w>hellgrau</w>
                      <lb/>
@@ -5795,6 +6847,21 @@
                <figure facs="#zone_f83077_fig1">
                   <head rend="italic">
                      <w>fig</w> 22a  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1354 372"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83077_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,372 755,372 1354,372 1354,0 1007,0 437,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83077.jpg"
+                            x="-242"
+                            y="-296"
+                            width="1881"
+                            height="2444"
+                            clip-path="url(#clip-zone_f83077_fig1)"/>
+                  </svg>
                   <figDesc>
                      <w>hellrot</w>
                      <lb/>
@@ -5834,6 +6901,21 @@
                <figure facs="#zone_f83077_fig2">
                   <head rend="italic">
                      <w>fig</w> 23a  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1362 413"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83077_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,303 169,302 467,301 455,413 803,403 1362,387 1360,0 1098,0 437,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83077.jpg"
+                            x="-246"
+                            y="-934"
+                            width="1881"
+                            height="2444"
+                            clip-path="url(#clip-zone_f83077_fig2)"/>
+                  </svg>
                   <figDesc>
                      <w>reines</w>
                      <w>rot</w>
@@ -5975,6 +7057,21 @@
                   <head rend="italic">
                      <w>Fig</w>
                      <pc type="period" join="left" force="strong">.</pc>24  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1560 561"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83078_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,155 0,561 371,561 1560,561 1560,391 1560,4 1160,3"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83078.jpg"
+                            x="-99"
+                            y="-129"
+                            width="1888"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83078_fig1)"/>
+                  </svg>
                   <figDesc>
                      <w>rot</w>
                      <lb/>
@@ -6215,6 +7312,21 @@
                <figure facs="#zone_f83079_fig1">
                   <head rend="italic">
                      <w>Fig</w> 25  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1045 1318"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83079_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,718 0,1318 140,1318 617,1318 1045,1272 834,926 663,647 617,0 376,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83079.jpg"
+                            x="-264"
+                            y="-112"
+                            width="1912"
+                            height="2413"
+                            clip-path="url(#clip-zone_f83079_fig1)"/>
+                  </svg>
                   <figDesc>
                      <w>zu</w>
                      <w>schwer</w>
@@ -6374,6 +7486,21 @@
                <figure facs="#zone_f83080_fig1">
                   <head rend="italic">
                      <w>Fig</w> 26  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 874 584"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83080_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="3,0 0,584 874,574 869,184 866,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83080.jpg"
+                            x="-43"
+                            y="-9"
+                            width="1900"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83080_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>I</w>
@@ -6436,7 +7563,23 @@
                   <w>im</w>
                   <w>Pfeil</w>
                </l>
-               <figure facs="#zone_f83080_fig2"/>
+               <figure facs="#zone_f83080_fig2">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 105 66"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83080_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="2,0 0,64 105,66 105,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83080.jpg"
+                            x="-1356"
+                            y="-680"
+                            width="1900"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83080_fig2)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>ihren</w>
                </l>
@@ -6545,10 +7688,40 @@
                <figure facs="#zone_f83080_fig3">
                   <head rend="italic">
                      <w>fig</w> 27  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 643 667"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83080_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,329 0,667 643,667 640,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83080.jpg"
+                            x="-50"
+                            y="-1322"
+                            width="1900"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83080_fig3)"/>
+                  </svg>
                </figure>
                <figure facs="#zone_f83080_fig4">
                   <head rend="italic">
                      <w>fig</w> 28  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 560 674"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83080_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,674 560,674 560,353 560,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83080.jpg"
+                            x="-883"
+                            y="-1311"
+                            width="1900"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83080_fig4)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -6711,6 +7884,21 @@
                <figure facs="#zone_f83081_fig1">
                   <head rend="italic">
                      <w>fig</w> 29  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 798 112"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83081_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,112 721,112 798,112 798,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83081.jpg"
+                            x="-631"
+                            y="-788"
+                            width="1892"
+                            height="2452"
+                            clip-path="url(#clip-zone_f83081_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>Horizontale</w>
@@ -6765,6 +7953,21 @@
                <figure facs="#zone_f83081_fig2">
                   <head rend="italic">
                      <w>fig</w> 30  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1616 594"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83081_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,594 1616,594 1616,0 1311,0 1178,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83081.jpg"
+                            x="-249"
+                            y="-1299"
+                            width="1892"
+                            height="2452"
+                            clip-path="url(#clip-zone_f83081_fig2)"/>
+                  </svg>
                   <figDesc>
                      <pc type="bracketOpen" join="right" force="inter">(</pc>
                      <w>als</w>
@@ -6827,12 +8030,42 @@
                <figure facs="#zone_f83081_fig3">
                   <head rend="italic">
                      <w>fig</w> 31  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 761 223"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83081_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 2,223 636,223 761,223 761,2"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83081.jpg"
+                            x="-280"
+                            y="-2214"
+                            width="1892"
+                            height="2452"
+                            clip-path="url(#clip-zone_f83081_fig3)"/>
+                  </svg>
                </figure>
                <p rend="bold" type="pause">
                   <pc type="punct" join="both" force="inter">*</pc>
                </p>
                <figure facs="#zone_f83081_fig4">
                   <head rend="italic"> 31a  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 441 321"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83081_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,98 0,250 0,321 441,321 438,0 198,9 187,98"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83081.jpg"
+                            x="-1320"
+                            y="-2130"
+                            width="1892"
+                            height="2452"
+                            clip-path="url(#clip-zone_f83081_fig4)"/>
+                  </svg>
                </figure>
             </div>
             <div n="42">
@@ -6863,6 +8096,21 @@
                <figure facs="#zone_f83082_fig1">
                   <head rend="italic">
                      <w>fig</w> 32  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1148 365"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83082_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,309 78,0 1148,0 1145,365 332,325"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83082.jpg"
+                            x="-376"
+                            y="-341"
+                            width="1888"
+                            height="2424"
+                            clip-path="url(#clip-zone_f83082_fig1)"/>
+                  </svg>
                   <figDesc>
                      <pc type="bracketOpen" join="right" force="inter">(</pc>
                      <w>leer</w>
@@ -6917,6 +8165,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>33  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1219 346"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83082_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,346 1219,346 1219,0 755,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83082.jpg"
+                            x="-271"
+                            y="-995"
+                            width="1888"
+                            height="2424"
+                            clip-path="url(#clip-zone_f83082_fig2)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>so</w>
@@ -6974,6 +8237,21 @@
                <figure facs="#zone_f83082_fig3">
                   <head rend="italic">
                      <w>fig</w> 34  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1273 389"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83082_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,389 1273,389 1273,199 1273,0 759,0 444,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83082.jpg"
+                            x="-304"
+                            y="-1703"
+                            width="1888"
+                            height="2424"
+                            clip-path="url(#clip-zone_f83082_fig3)"/>
+                  </svg>
                   <figDesc>
                      <w>sehr</w>
                      <w>hellgrau</w>
@@ -7602,6 +8880,21 @@
                <figure facs="#zone_f83086_fig1">
                   <head rend="italic">
                      <w>fig</w> 4  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1834 249"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83086_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,158 0,249 198,249 234,209 235,209 1729,246 1834,249 1834,0 1647,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83086.jpg"
+                            x="-26"
+                            y="-357"
+                            width="1916"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83086_fig1)"/>
+                  </svg>
                   <figDesc>
                      <w>in</w>
                      <w>Zahlen</w>
@@ -7618,6 +8911,21 @@
                <figure facs="#zone_f83086_fig2">
                   <head rend="italic">
                      <w>fig</w> 5  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1899 356"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83086_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,98 3,264 4,356 1899,356 1899,157 1899,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83086.jpg"
+                            x="-15"
+                            y="-691"
+                            width="1916"
+                            height="2436"
+                            clip-path="url(#clip-zone_f83086_fig2)"/>
+                  </svg>
                   <figDesc>
                      <w>in</w>
                      <w>Zahlen</w>
@@ -8148,6 +9456,21 @@
                <figure facs="#zone_f83089_fig1">
                   <head rend="italic">
                      <w>fig</w> 7  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1144 802"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83089_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,802 1144,802 1144,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83089.jpg"
+                            x="-287"
+                            y="-422"
+                            width="1913"
+                            height="2438"
+                            clip-path="url(#clip-zone_f83089_fig1)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>wobei</w>
@@ -8172,11 +9495,43 @@
                   <w>entsteht</w>
                   <pc type="period" join="left" force="strong">.</pc>
                </l>
-               <figure facs="#zone_f83089_fig2"/>
+               <figure facs="#zone_f83089_fig2">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 282 300"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83089_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,300 282,300 282,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83089.jpg"
+                            x="-523"
+                            y="-1475"
+                            width="1913"
+                            height="2438"
+                            clip-path="url(#clip-zone_f83089_fig2)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>oder</w>
                </l>
-               <figure facs="#zone_f83089_fig3"/>
+               <figure facs="#zone_f83089_fig3">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 405 315"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83089_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,315 405,315 405,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83089.jpg"
+                            x="-1071"
+                            y="-1461"
+                            width="1913"
+                            height="2438"
+                            clip-path="url(#clip-zone_f83089_fig3)"/>
+                  </svg>
+               </figure>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Diese</w>
@@ -8205,11 +9560,41 @@
                <figure facs="#zone_f83089_fig4">
                   <head rend="italic">
                      <w>fig</w> 7a  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 563 330"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83089_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,330 563,330 561,1"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83089.jpg"
+                            x="-249"
+                            y="-2054"
+                            width="1913"
+                            height="2438"
+                            clip-path="url(#clip-zone_f83089_fig4)"/>
+                  </svg>
                </figure>
                <figure facs="#zone_f83089_fig5">
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>8  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 657 353"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83089_fig5" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,353 657,353 657,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83089.jpg"
+                            x="-925"
+                            y="-2077"
+                            width="1913"
+                            height="2438"
+                            clip-path="url(#clip-zone_f83089_fig5)"/>
+                  </svg>
                </figure>
             </div>
             <div n="50">
@@ -8615,6 +10000,21 @@
                <figure facs="#zone_f83092_fig1">
                   <head rend="italic">
                      <w>fig</w> 9 .  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 842 465"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83092_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,465 842,465 841,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83092.jpg"
+                            x="-3"
+                            y="-606"
+                            width="1944"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83092_fig1)"/>
+                  </svg>
                   <figDesc>
                      <pc type="bracketOpen" join="right" force="inter">(</pc>
                      <w>fig</w>
@@ -8628,6 +10028,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>10  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 868 496"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83092_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,151 0,496 167,496 868,496 868,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83092.jpg"
+                            x="-864"
+                            y="-598"
+                            width="1944"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83092_fig2)"/>
+                  </svg>
                   <figDesc>
                      <pc type="bracketOpen" join="right" force="inter">(</pc>
                      <w>fig</w>
@@ -8640,6 +10055,21 @@
                <figure facs="#zone_f83092_fig3">
                   <head rend="italic">
                      <w>fig</w> 11 .  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 933 468"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83092_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,148 0,468 209,468 933,468 921,39"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83092.jpg"
+                            x="-5"
+                            y="-1063"
+                            width="1944"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83092_fig3)"/>
+                  </svg>
                   <figDesc>
                      <pc type="bracketOpen" join="right" force="inter">(</pc>
                      <w>fig</w>
@@ -8660,6 +10090,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>12 .  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 853 403"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83092_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="853,0 853,403 223,403 0,403 0,0 103,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83092.jpg"
+                            x="0"
+                            y="-1554"
+                            width="1944"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83092_fig4)"/>
+                  </svg>
                   <figDesc>
                      <pc type="bracketOpen" join="right" force="inter">(</pc>
                      <w>fig</w>
@@ -8681,6 +10126,21 @@
                <figure facs="#zone_f83092_fig5">
                   <head rend="italic">
                      <w>fig</w> 13 .  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 837 430"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83092_fig5" clipPathUnits="userSpaceOnUse">
+                           <polygon points="837,430 837,4 0,0 0,111 0,257 0,430"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83092.jpg"
+                            x="-868"
+                            y="-1531"
+                            width="1944"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83092_fig5)"/>
+                  </svg>
                   <figDesc>
                      <pc type="bracketOpen" join="right" force="inter">(</pc>
                      <w>fig</w>
@@ -8699,6 +10159,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>14  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1588 360"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83092_fig6" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,360 160,360 1588,360 1588,0 74,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83092.jpg"
+                            x="-12"
+                            y="-1973"
+                            width="1944"
+                            height="2431"
+                            clip-path="url(#clip-zone_f83092_fig6)"/>
+                  </svg>
                   <figDesc>
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>
@@ -8794,7 +10269,23 @@
                      <pc type="comma" join="left" force="weak">,</pc>
                   </l>
                </ab>
-               <figure facs="#zone_f83094_fig1"/>
+               <figure facs="#zone_f83094_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 55 140"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83094_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="14,0 0,139 55,140 55,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83094.jpg"
+                            x="-295"
+                            y="-421"
+                            width="1925"
+                            height="2389"
+                            clip-path="url(#clip-zone_f83094_fig1)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>den</w>
                   <w>zweiten</w>
@@ -8803,7 +10294,23 @@
                   <w>nach</w>
                   <w>links</w>
                </l>
-               <figure facs="#zone_f83094_fig2"/>
+               <figure facs="#zone_f83094_fig2">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 93 78"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83094_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,78 93,78 93,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83094.jpg"
+                            x="-1245"
+                            y="-460"
+                            width="1925"
+                            height="2389"
+                            clip-path="url(#clip-zone_f83094_fig2)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>den</w>
                   <w>dritten</w>
@@ -8814,7 +10321,23 @@
                   <w>nach</w>
                   <w>rechts</w>
                </l>
-               <figure facs="#zone_f83094_fig3"/>
+               <figure facs="#zone_f83094_fig3">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 157 66"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83094_fig3" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,66 157,66 157,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83094.jpg"
+                            x="-643"
+                            y="-585"
+                            width="1925"
+                            height="2389"
+                            clip-path="url(#clip-zone_f83094_fig3)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>und</w>
                   <w>den</w>
@@ -8826,7 +10349,23 @@
                <l n="2">
                   <w>oben</w>
                </l>
-               <figure facs="#zone_f83094_fig4"/>
+               <figure facs="#zone_f83094_fig4">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 119 73"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83094_fig4" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,73 119,73 119,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83094.jpg"
+                            x="-316"
+                            y="-651"
+                            width="1925"
+                            height="2389"
+                            clip-path="url(#clip-zone_f83094_fig4)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>zum</w>
                   <w>Ausgangspunkt</w>
@@ -8845,7 +10384,23 @@
                      <pc type="colon" join="left" force="weak">:</pc>
                   </l>
                </ab>
-               <figure facs="#zone_f83094_fig5"/>
+               <figure facs="#zone_f83094_fig5">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 151 147"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83094_fig5" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,147 151,147 151,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83094.jpg"
+                            x="-1057"
+                            y="-729"
+                            width="1925"
+                            height="2389"
+                            clip-path="url(#clip-zone_f83094_fig5)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>mit</w>
                   <w>Rücksichtauf</w>
@@ -8859,6 +10414,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>18  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 772 404"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83094_fig6" clipPathUnits="userSpaceOnUse">
+                           <polygon points="274,0 0,208 295,404 772,122"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83094.jpg"
+                            x="-470"
+                            y="-815"
+                            width="1925"
+                            height="2389"
+                            clip-path="url(#clip-zone_f83094_fig6)"/>
+                  </svg>
                </figure>
                <l n="1">
                   <w>was</w>
@@ -8893,6 +10463,21 @@
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>19  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 829 470"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83094_fig7" clipPathUnits="userSpaceOnUse">
+                           <polygon points="281,0 0,255 276,470 829,279"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83094.jpg"
+                            x="-272"
+                            y="-1188"
+                            width="1925"
+                            height="2389"
+                            clip-path="url(#clip-zone_f83094_fig7)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -8908,15 +10493,60 @@
                <figure facs="#zone_f83094_fig8">
                   <head rend="italic">
                      <w>fig</w> 20  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 379 382"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83094_fig8" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,382 379,382 379,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83094.jpg"
+                            x="-262"
+                            y="-1761"
+                            width="1925"
+                            height="2389"
+                            clip-path="url(#clip-zone_f83094_fig8)"/>
+                  </svg>
                </figure>
                <figure facs="#zone_f83094_fig9">
                   <head rend="italic">
                      <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>20a  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 759 545"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83094_fig9" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,4 0,545 748,545 759,540 183,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83094.jpg"
+                            x="-888"
+                            y="-1762"
+                            width="1925"
+                            height="2389"
+                            clip-path="url(#clip-zone_f83094_fig9)"/>
+                  </svg>
                </figure>
                <figure facs="#zone_f83094_fig10">
                   <head rend="italic">
                      <w>fig</w> 20b.  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 422 376"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83094_fig10" clipPathUnits="userSpaceOnUse">
+                           <polygon points="422,376 422,0 0,0 0,376"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83094.jpg"
+                            x="-1473"
+                            y="-1760"
+                            width="1925"
+                            height="2389"
+                            clip-path="url(#clip-zone_f83094_fig10)"/>
+                  </svg>
                </figure>
             </div>
             <div n="55">
@@ -8977,6 +10607,21 @@
                <figure facs="#zone_f83095_fig1">
                   <head rend="italic"> ( <w>fig</w>
                      <pc type="period" join="left" force="strong">.</pc>21 )  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1878 1775"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83095_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,27 0,1775 1878,1775 1870,0 1494,11 1379,12"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83095.jpg"
+                            x="-10"
+                            y="-542"
+                            width="1888"
+                            height="2460"
+                            clip-path="url(#clip-zone_f83095_fig1)"/>
+                  </svg>
                   <figDesc>
                      <w>A</w>
                      <pc type="period" join="left" force="strong">.</pc>
@@ -9271,7 +10916,23 @@
                      <pc type="comma" join="left" force="weak">,</pc>
                   </l>
                </ab>
-               <figure facs="#zone_f83097_fig1"/>
+               <figure facs="#zone_f83097_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 671 88"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83097_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,88 671,88 668,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83097.jpg"
+                            x="-569"
+                            y="-604"
+                            width="1912"
+                            height="2450"
+                            clip-path="url(#clip-zone_f83097_fig1)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>die</w>
                   <w>man</w>
@@ -9476,6 +11137,21 @@
                <figure facs="#zone_f83099_fig1">
                   <head rend="italic">
                      <w>fig</w> 1 .  </head>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1590 1444"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83099_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 24,1433 1590,1444 1544,16"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83099.jpg"
+                            x="-175"
+                            y="-998"
+                            width="1912"
+                            height="2444"
+                            clip-path="url(#clip-zone_f83099_fig1)"/>
+                  </svg>
                </figure>
                <ab type="parag" n="1">
                   <l n="1">
@@ -9503,7 +11179,23 @@
                      <w>Columbus</w>
                   </l>
                </ab>
-               <figure facs="#zone_f83099_fig2"/>
+               <figure facs="#zone_f83099_fig2">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 697 481"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83099_fig2" clipPathUnits="userSpaceOnUse">
+                           <polygon points="697,10 697,481 0,481 4,173 131,58 196,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83099.jpg"
+                            x="-1199"
+                            y="-1963"
+                            width="1912"
+                            height="2444"
+                            clip-path="url(#clip-zone_f83099_fig2)"/>
+                  </svg>
+               </figure>
             </div>
             <div n="60">
                <pb n="57" facs="#f83100"/>
@@ -9691,7 +11383,23 @@
                      <pc type="period" join="left" force="strong">.</pc>
                   </l>
                </ab>
-               <figure facs="#zone_f83100_fig1"/>
+               <figure facs="#zone_f83100_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1608 1376"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83100_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,9 0,1376 1223,1376 1608,855 1450,619 1187,634 1180,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83100.jpg"
+                            x="-59"
+                            y="-740"
+                            width="1913"
+                            height="2412"
+                            clip-path="url(#clip-zone_f83100_fig1)"/>
+                  </svg>
+               </figure>
                <ab type="parag" n="1">
                   <l n="1">
                      <w>Bei</w>
@@ -9830,7 +11538,23 @@
                      <pc type="exclam" join="left" force="strong">!</pc>
                   </l>
                </ab>
-               <figure facs="#zone_f83101_fig1"/>
+               <figure facs="#zone_f83101_fig1">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1918 655"
+                       style="width:100%; height:auto;">
+                     <defs>
+                        <clipPath id="clip-zone_f83101_fig1" clipPathUnits="userSpaceOnUse">
+                           <polygon points="0,0 0,655 1918,655 1918,0"/>
+                        </clipPath>
+                     </defs>
+                     <image href="https://escriptorium.d4science.org/media/documents/3/83101.jpg"
+                            x="-8"
+                            y="-604"
+                            width="1943"
+                            height="2457"
+                            clip-path="url(#clip-zone_f83101_fig1)"/>
+                  </svg>
+               </figure>
                <l n="1">
                   <w>fig</w>
                   <pc type="period" join="left" force="strong">.</pc>

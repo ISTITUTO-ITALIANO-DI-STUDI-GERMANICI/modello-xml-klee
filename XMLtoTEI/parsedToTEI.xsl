@@ -104,6 +104,10 @@
               <xsl:attribute name="xml:id">
                 <xsl:value-of select="concat('f', $fid)" />
               </xsl:attribute>
+              <xsl:attribute name="ulx">0</xsl:attribute>
+              <xsl:attribute name="uly">0</xsl:attribute>
+              <xsl:attribute name="lrx"><xsl:value-of select="$altoDoc//alto:Page/@WIDTH"/></xsl:attribute>
+              <xsl:attribute name="lry"><xsl:value-of select="$altoDoc//alto:Page/@HEIGHT"/></xsl:attribute>
               <graphic>
                 <xsl:attribute name="url">
                   <xsl:value-of select="concat('https://escriptorium.d4science.org/media/documents/3/', $fid, '.jpg')"/>
@@ -282,18 +286,13 @@
   <!-- Figures -->
   
   <xsl:template match="graphZoneFig">
+    <xsl:variable name="fid" select="normalize-space(replace(figId, '\s+', ''))"/>
+    <xsl:variable name="item" select="key('fig-by-id', $fid)"/>
+    <xsl:variable name="pageNum" select="normalize-space(ancestor::page[1]/facsimile/num)"/>
+    <xsl:variable name="figOrdinal" select="count(preceding-sibling::graphZoneFig) + 1"/>
     
-    <xsl:variable name="fid"
-      select="normalize-space(replace(figId, '\s+', ''))"/>
-    
-    <xsl:variable name="item"
-      select="key('fig-by-id', $fid)"/>
-    
-    <xsl:variable name="pageNum"
-      select="normalize-space(ancestor::page[1]/facsimile/num)"/>
-    
-    <xsl:variable name="figOrdinal"
-      select="count(preceding-sibling::graphZoneFig) + 1"/>
+    <xsl:variable name="altoPath" select="concat('data/', $pageNum, '.xml')"/>
+    <xsl:variable name="altoDoc" select="if (doc-available($altoPath)) then document($altoPath) else ()"/>
     
     <figure facs="#zone_f{$pageNum}_fig{$figOrdinal}">
       
@@ -303,6 +302,42 @@
         </head>
       </xsl:if>
       
+      <xsl:if test="$altoDoc">
+        <xsl:variable name="pageWidth" select="$altoDoc//alto:Page/@WIDTH"/>
+        <xsl:variable name="pageHeight" select="$altoDoc//alto:Page/@HEIGHT"/>
+        <xsl:variable name="tagId"
+          select="$altoDoc//alto:OtherTag[@LABEL = concat('GraphicZone:figure#', $figOrdinal)]/@ID"/>
+        <xsl:variable name="block" select="($altoDoc//alto:TextBlock[@TAGREFS = $tagId])[1]"/>
+        
+        <xsl:if test="$block">
+          <xsl:variable name="ulx" select="xs:integer($block/@HPOS)"/>
+          <xsl:variable name="uly" select="xs:integer($block/@VPOS)"/>
+          <xsl:variable name="w" select="xs:integer($block/@WIDTH)"/>
+          <xsl:variable name="h" select="xs:integer($block/@HEIGHT)"/>
+          <xsl:variable name="coords"
+            select="tokenize(normalize-space($block/alto:Shape/alto:Polygon/@POINTS), '\s+')"/>
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {$w} {$h}" style="width:100%; height:auto;">
+            <defs>
+              <clipPath id="clip-zone_f{$pageNum}_fig{$figOrdinal}" clipPathUnits="userSpaceOnUse">
+                <polygon>
+                  <xsl:attribute name="points">
+                    <xsl:for-each select="1 to (count($coords) div 2)">
+                      <xsl:variable name="i" select="."/>
+                      <xsl:if test="$i gt 1"><xsl:text> </xsl:text></xsl:if>
+                      <xsl:value-of select="concat(xs:integer($coords[2 * $i - 1]) - $ulx, ',', xs:integer($coords[2 * $i]) - $uly)"/>
+                    </xsl:for-each>
+                  </xsl:attribute>
+                </polygon>
+              </clipPath>
+            </defs>
+            <image href="https://escriptorium.d4science.org/media/documents/3/{$pageNum}.jpg"
+                   x="{-$ulx}" y="{-$uly}" width="{$pageWidth}" height="{$pageHeight}"
+                   clip-path="url(#clip-zone_f{$pageNum}_fig{$figOrdinal})"/>
+          </svg>
+        </xsl:if>
+      </xsl:if>
+      
       <xsl:if test="$item/textinfig">
         <figDesc>
           <xsl:apply-templates select="$item/textinfig" mode="fig"/>
@@ -310,7 +345,6 @@
       </xsl:if>
       
     </figure>
-    
   </xsl:template>
   
   <xsl:template match="musicZone">
