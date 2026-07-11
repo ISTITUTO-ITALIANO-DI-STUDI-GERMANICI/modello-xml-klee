@@ -39,6 +39,9 @@
   </xsl:template>
   
   <xsl:template match="/">
+    
+    <xsl:processing-instruction name="teipublisher">odd="klee.odd" template="klee2.html" view="page" media="web"</xsl:processing-instruction>
+    
     <TEI version="3.3.0">
       
       <!-- teiHeader corpus -->
@@ -83,12 +86,6 @@
             </langUsage>
           </profileDesc>
         </teiHeader>
-        <text>
-          <body>
-            <xsl:apply-templates/>
-          </body>
-        </text>
-        
         <!-- Implemented facsimile -->
         <facsimile>
           <!-- Cover and inner cover (pages -2 and -1) -->
@@ -128,8 +125,16 @@
                   <xsl:variable name="figOrdinal"
                     select="xs:integer(replace(@LABEL, '^GraphicZone:figure#(\d+)$', '$1'))"/>
                   <xsl:for-each select="$altoDoc//alto:TextBlock[@TAGREFS = $tagId]">
+                    <xsl:variable name="blockPos" select="position()"/>
+                    <xsl:variable name="blockCount" select="last()"/>
                     <xsl:call-template name="alto-zone">
-                      <xsl:with-param name="zoneId" select="concat('zone_f', $fid, '_fig', $figOrdinal)"/>
+                      <xsl:with-param name="zoneId">
+                        <xsl:value-of select="concat('zone_f', $fid, '_fig', $figOrdinal)"/>
+                        <!-- append a suffix only if this figure tag maps to more than one physical block -->
+                        <xsl:if test="$blockCount gt 1">
+                          <xsl:value-of select="concat('_', $blockPos)"/>
+                        </xsl:if>
+                      </xsl:with-param>
                     </xsl:call-template>
                   </xsl:for-each>
                 </xsl:for-each>
@@ -147,7 +152,11 @@
             <graphic url="https://escriptorium.d4science.org/media/documents/3/83602.jpg"/>
           </surface>
         </facsimile>
-        
+        <text>
+          <body>
+            <xsl:apply-templates/>
+          </body>
+        </text>
       </TEI>
       
     </TEI>
@@ -179,6 +188,58 @@
     apparatoFigure |
     placeholder"/>
   
+  <!-- Managing punctuation -->
+  
+  <xsl:template name="render-punct">
+    <xsl:param name="char"/>
+    <xsl:param name="mode" select="''"/>
+    
+    <pc>
+      <!-- Which type of punctuation -->
+      <xsl:attribute name="type">
+        <xsl:choose>
+          <xsl:when test="$char = '.'">period</xsl:when>
+          <xsl:when test="$char = ','">comma</xsl:when>
+          <xsl:when test="$char = ';'">semicolon</xsl:when>
+          <xsl:when test="$char = ':'">colon</xsl:when>
+          <xsl:when test="$char = '!'">exclam</xsl:when>
+          <xsl:when test="$char = '?'">quest</xsl:when>
+          <xsl:when test="$char = ('-', '–', '—')">dash</xsl:when>
+          <xsl:when test="$char = ('…', '...')">ellipsis</xsl:when>
+          <xsl:when test="$char = ('(', '[')">bracketOpen</xsl:when>
+          <xsl:when test="$char = (')', ']')">bracketClose</xsl:when>
+          <xsl:when test="$char = '«'">quoteOpen</xsl:when>
+          <xsl:when test="$char = '»'">quoteClose</xsl:when>
+          <xsl:when test="$char = '/'">slash</xsl:when>
+          <xsl:otherwise>punct</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      
+      <!-- Where it joins -->
+      <xsl:attribute name="join">
+        <xsl:choose>
+          <xsl:when test="$char = ('.', ',', ';', ':', '!', '?', ')', ']', '»', '…', '...')">left</xsl:when>
+          <xsl:when test="$char = ('(', '[', '«')">right</xsl:when>
+          <xsl:otherwise>both</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      
+      <!-- How strong it is -->
+      <xsl:attribute name="force">
+        <xsl:choose>
+          <xsl:when test="$char = ('.', '!', '?', '…', '...')">strong</xsl:when>
+          <xsl:when test="$char = (',', ';', ':')">weak</xsl:when>
+          <xsl:when test="$char = ('-', '–', '—', '/', '(', ')', '[', ']', '«', '»')">inter</xsl:when>
+          <xsl:otherwise>inter</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      
+      <xsl:value-of select="$char"/>
+
+    </pc>
+    
+  </xsl:template>
+  
   <!-- Main structure -->
   <xsl:template match="*[local-name()='div']">
     <div>
@@ -204,7 +265,7 @@
   </xsl:template>
   
   <xsl:template match="mainZone">
-    <xsl:for-each-group select="*" group-starting-with="openPar">
+    <xsl:for-each-group select="*" group-starting-with="openPar | sectionHeading">
       <xsl:choose>
         <xsl:when test="self::openPar">
           <ab type="parag" n="{position()}">
@@ -282,50 +343,10 @@
   
   <xsl:template match="punctinfig" mode="fig">
     <xsl:variable name="char" select="normalize-space(.)"/>
-    <pc>
-      <!-- Punctuation type -->
-      <xsl:attribute name="type">
-        <xsl:choose>
-          <xsl:when test="$char = '.'">period</xsl:when>
-          <xsl:when test="$char = ','">comma</xsl:when>
-          <xsl:when test="$char = ';'">semicolon</xsl:when>
-          <xsl:when test="$char = ':'">colon</xsl:when>
-          <xsl:when test="$char = '!'">exclam</xsl:when>
-          <xsl:when test="$char = '?'">quest</xsl:when>
-          <xsl:when test="$char = ('-', '–', '—')">dash</xsl:when>
-          <xsl:when test="$char = ('…', '...')">ellipsis</xsl:when>
-          <xsl:when test="$char = ('(', '[')">bracketOpen</xsl:when>
-          <xsl:when test="$char = (')', ']')">bracketClose</xsl:when>
-          <xsl:when test="$char = '«'">quoteOpen</xsl:when>
-          <xsl:when test="$char = '»'">quoteClose</xsl:when>
-          <xsl:when test="$char = ('&quot;', '''')">
-            <!-- straight quotes are ambiguous: decide by context -->
-            <xsl:choose>
-              <!-- opening if preceded by whitespace or at start -->
-              <xsl:when test="not(preceding-sibling::node()[1][self::text()][not(normalize-space(.) = '')])">quoteOpen</xsl:when>
-              <xsl:otherwise>quoteClose</xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:when test="$char = '/'">slash</xsl:when>
-          <xsl:otherwise>punct</xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
-      <!-- Where to place -->
-      <xsl:attribute name="join">
-        <xsl:choose>
-          <xsl:when test="$char = ('.', ',', ';', ':', '!', '?', ')', ']', '»', '…', '...')">left</xsl:when>
-          <xsl:when test="$char = ('(', '[', '«')">right</xsl:when>
-          <xsl:when test="$char = ('&quot;', '''')">
-            <xsl:choose>
-              <xsl:when test="not(preceding-sibling::node()[1][self::text()][not(normalize-space(.) = '')])">right</xsl:when>
-              <xsl:otherwise>left</xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:otherwise>both</xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
-      <xsl:value-of select="$char"/>
-    </pc>
+    <xsl:call-template name="render-punct">
+      <xsl:with-param name="char" select="$char"/>
+      <xsl:with-param name="mode" select="'fig'"/>
+    </xsl:call-template>
   </xsl:template>
   
   <xsl:template match="textSeqinfig" mode="fig">
@@ -379,11 +400,11 @@
     
     <xsl:choose>
       <xsl:when test="$type = 'pause'">
-        <c rend="bold" type="pause">
+        <p rend="bold" type="pause">
           <xsl:apply-templates select="line/node()">
             <xsl:with-param name="firstSegId" select="$firstSegId" tunnel="yes"/>
           </xsl:apply-templates>
-        </c>
+        </p>
       </xsl:when>
       <xsl:otherwise>
         <head n="{$level}" type="{$type}">
@@ -444,50 +465,9 @@
   
   <xsl:template match="punct">
     <xsl:variable name="char" select="normalize-space(.)"/>
-    <pc>
-      <!-- Punctuation type -->
-      <xsl:attribute name="type">
-        <xsl:choose>
-          <xsl:when test="$char = '.'">period</xsl:when>
-          <xsl:when test="$char = ','">comma</xsl:when>
-          <xsl:when test="$char = ';'">semicolon</xsl:when>
-          <xsl:when test="$char = ':'">colon</xsl:when>
-          <xsl:when test="$char = '!'">exclam</xsl:when>
-          <xsl:when test="$char = '?'">quest</xsl:when>
-          <xsl:when test="$char = ('-', '–', '—')">dash</xsl:when>
-          <xsl:when test="$char = ('…', '...')">ellipsis</xsl:when>
-          <xsl:when test="$char = ('(', '[')">bracketOpen</xsl:when>
-          <xsl:when test="$char = (')', ']')">bracketClose</xsl:when>
-          <xsl:when test="$char = '«'">quoteOpen</xsl:when>
-          <xsl:when test="$char = '»'">quoteClose</xsl:when>
-          <xsl:when test="$char = ('&quot;', '''')">
-            <!-- straight quotes are ambiguous: decide by context -->
-            <xsl:choose>
-              <!-- opening if preceded by whitespace or at start -->
-              <xsl:when test="not(preceding-sibling::node()[1][self::text()][not(normalize-space(.) = '')])">quoteOpen</xsl:when>
-              <xsl:otherwise>quoteClose</xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:when test="$char = '/'">slash</xsl:when>
-          <xsl:otherwise>punct</xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
-      <!-- Where to place -->
-      <xsl:attribute name="join">
-        <xsl:choose>
-          <xsl:when test="$char = ('.', ',', ';', ':', '!', '?', ')', ']', '»', '…', '...')">left</xsl:when>
-          <xsl:when test="$char = ('(', '[', '«')">right</xsl:when>
-          <xsl:when test="$char = ('&quot;', '''')">
-            <xsl:choose>
-              <xsl:when test="not(preceding-sibling::node()[1][self::text()][not(normalize-space(.) = '')])">right</xsl:when>
-              <xsl:otherwise>left</xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:otherwise>both</xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
-      <xsl:value-of select="$char"/>
-    </pc>
+    <xsl:call-template name="render-punct">
+      <xsl:with-param name="char" select="$char"/>
+    </xsl:call-template>
   </xsl:template>
   
   <xsl:template match="prefix | prefix_app">
