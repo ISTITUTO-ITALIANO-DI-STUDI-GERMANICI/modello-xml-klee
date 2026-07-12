@@ -2105,7 +2105,7 @@
                <figure facs="#zone_f83049_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 164 133"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:8.51%; max-width:100%; height:auto; margin-left:1.5%;">
                      <defs>
                         <clipPath id="clip-zone_f83049_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="5,29 0,133 146,133 164,0"/>
@@ -2187,7 +2187,7 @@
                <figure facs="#zone_f83049_fig2">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 452 115"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:23.44%; max-width:100%; height:auto; margin-left:43.88%;">
                      <defs>
                         <clipPath id="clip-zone_f83049_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,17 17,115 452,42 430,0"/>
@@ -2204,7 +2204,7 @@
                <figure facs="#zone_f83049_fig3">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 47 47"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:2.44%; max-width:100%; height:auto; margin-left:2.7%;">
                      <defs>
                         <clipPath id="clip-zone_f83049_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,47 47,47 47,0"/>
@@ -2518,7 +2518,7 @@
                      <pc type="period" join="left" force="strong">.</pc>1 .  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1692 330"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:87.94%; max-width:100%; height:auto; margin-left:0.47%;">
                      <defs>
                         <clipPath id="clip-zone_f83051_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,4 0,164 0,330 959,330 1523,330 1692,330 1692,0 279,3"/>
@@ -2544,7 +2544,7 @@
                      <w>fig</w> 2 .  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1916 525"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:99.58%; max-width:100%; height:auto; margin-left:0.42%;">
                      <defs>
                         <clipPath id="clip-zone_f83051_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,195 0,299 0,525 924,525 1622,525 1916,525 1916,247 1916,0 133,0"/>
@@ -2582,7 +2582,7 @@
                      <w>fig</w> 3  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1802 250"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:93.66%; max-width:100%; height:auto; margin-left:0%;">
                      <defs>
                         <clipPath id="clip-zone_f83051_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,4 9,250 141,250 1802,246 1802,0"/>
@@ -2601,7 +2601,7 @@
                      <w>fig</w> 4  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1647 329"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:85.6%; max-width:100%; height:auto; margin-left:0%;">
                      <defs>
                         <clipPath id="clip-zone_f83051_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,90 0,181 0,325 1647,329 1547,0"/>
@@ -2635,7 +2635,7 @@
                      <w>fig</w> 5  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1885 284"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:98.9%; max-width:100%; height:auto; margin-left:0.42%;">
                      <defs>
                         <clipPath id="clip-zone_f83052_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="223,42 80,73 0,175 186,158 423,119 608,218 847,284 1389,126 1431,190 1785,188 1884,197 1885,0 1385,20 937,166 747,159 463,52"/>
@@ -2657,7 +2657,7 @@
                   <head rend="italic"> 5a  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1111 312"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:58.29%; max-width:100%; height:auto; margin-left:0%;">
                      <defs>
                         <clipPath id="clip-zone_f83052_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 8,133 18,312 470,222 695,273 1111,143 1089,73 712,148 465,116 195,27 195,26"/>
@@ -2682,7 +2682,7 @@
                      <w>fig</w> 6 .  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 724 519"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:37.99%; max-width:100%; height:auto; margin-left:62.01%;">
                      <defs>
                         <clipPath id="clip-zone_f83052_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="118,519 0,442 432,0 481,130 425,250 715,207 724,471 484,478 467,392 262,406"/>
@@ -2718,7 +2718,7 @@
                      <w>fig</w> 7  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1838 507"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:96.43%; max-width:100%; height:auto; margin-left:1.78%;">
                      <defs>
                         <clipPath id="clip-zone_f83052_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,242 0,411 145,404 383,340 587,383 926,303 1487,507 1819,453 1824,353 1838,68 1275,26 935,0 606,5 510,6 245,5"/>
@@ -2748,7 +2748,7 @@
                      <w>fig</w> 8  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1850 456"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:97.06%; max-width:100%; height:auto; margin-left:1.05%;">
                      <defs>
                         <clipPath id="clip-zone_f83052_fig5" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,135 15,326 547,413 548,413 1006,199 1307,453 1712,455 1850,456 1850,203 1017,6 366,1 192,0"/>
@@ -2778,7 +2778,7 @@
                      <pc type="period" join="left" force="strong">.</pc>9  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1748 362"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:91.71%; max-width:100%; height:auto; margin-left:6.72%;">
                      <defs>
                         <clipPath id="clip-zone_f83052_fig6" clipPathUnits="userSpaceOnUse">
                            <polygon points="23,0 0,289 378,262 673,174 905,315 1625,355 1748,362 1732,139 939,148 711,27 505,41 201,15"/>
@@ -2845,7 +2845,7 @@
                      <w>fig</w> 10  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1818 515"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:94.15%; max-width:100%; height:auto; margin-left:0%;">
                      <defs>
                         <clipPath id="clip-zone_f83053_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="13,70 0,349 153,353 1217,384 1242,515 1417,423 1812,384 1818,74 1529,0 1464,74"/>
@@ -2935,7 +2935,7 @@
                      <pc type="slash" join="both" force="inter">/</pc>12  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1678 442"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:86.9%; max-width:100%; height:auto; margin-left:0.41%;">
                      <defs>
                         <clipPath id="clip-zone_f83053_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,3 0,442 128,442 1678,442 1678,0 154,3"/>
@@ -2985,7 +2985,7 @@
                      <pc type="slash" join="both" force="inter">/</pc>14  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1531 235"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:79.29%; max-width:100%; height:auto; margin-left:1.04%;">
                      <defs>
                         <clipPath id="clip-zone_f83053_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,45 12,160 81,158 669,145 692,235 1531,214 1515,7 1317,0 1264,96 1219,93 874,107 862,8 685,3 679,97 678,120 261,131 246,46"/>
@@ -3132,7 +3132,7 @@
                      <pc type="slash" join="both" force="inter">/</pc>16  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1603 258"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:84.37%; max-width:100%; height:auto; margin-left:13.74%;">
                      <defs>
                         <clipPath id="clip-zone_f83054_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,87 0,258 719,258 1595,258 1603,0 1472,7"/>
@@ -3313,7 +3313,7 @@
                <figure facs="#zone_f83055_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 355 301"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:18.3%; max-width:100%; height:auto; margin-left:31.39%;">
                      <defs>
                         <clipPath id="clip-zone_f83055_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,301 355,301 355,0"/>
@@ -3545,7 +3545,7 @@
                      <w>fig</w> 6  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 542 606"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:28.62%; max-width:100%; height:auto; margin-left:1.37%;">
                      <defs>
                         <clipPath id="clip-zone_f83058_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,593 237,606 542,595 542,0"/>
@@ -3655,7 +3655,7 @@
                <figure facs="#zone_f83058_fig2">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 268 56"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:14.15%; max-width:100%; height:auto; margin-left:64.78%;">
                      <defs>
                         <clipPath id="clip-zone_f83058_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,56 268,56 268,0"/>
@@ -3683,7 +3683,7 @@
                <figure facs="#zone_f83058_fig3">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 168 115"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:8.87%; max-width:100%; height:auto; margin-left:51.48%;">
                      <defs>
                         <clipPath id="clip-zone_f83058_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,115 168,115 168,0"/>
@@ -3713,7 +3713,7 @@
                <figure facs="#zone_f83058_fig4">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 237 170"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:12.51%; max-width:100%; height:auto; margin-left:5.07%;">
                      <defs>
                         <clipPath id="clip-zone_f83058_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,55 0,170 220,170 237,0"/>
@@ -3802,7 +3802,7 @@
                      <w>fig</w> 7  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 609 587"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:32.15%; max-width:100%; height:auto; margin-left:1.06%;">
                      <defs>
                         <clipPath id="clip-zone_f83058_fig5" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 53,570 288,587 598,562 609,494 495,111 472,0"/>
@@ -3914,7 +3914,7 @@
                <figure facs="#zone_f83060_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 512 501"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:27.15%; max-width:100%; height:auto; margin-left:0.74%;">
                      <defs>
                         <clipPath id="clip-zone_f83060_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,409 0,0 512,0 476,415 371,501 0,492"/>
@@ -3931,7 +3931,7 @@
                <figure facs="#zone_f83060_fig2">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 984 606"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:52.17%; max-width:100%; height:auto; margin-left:19.03%;">
                      <defs>
                         <clipPath id="clip-zone_f83060_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,587 359,264 635,0 776,0 763,276 984,273 982,606"/>
@@ -3973,7 +3973,7 @@
                <figure facs="#zone_f83060_fig3">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 625 851"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:33.14%; max-width:100%; height:auto; margin-left:2.6%;">
                      <defs>
                         <clipPath id="clip-zone_f83060_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="57,0 0,483 2,805 547,851 625,6"/>
@@ -4017,7 +4017,7 @@
                <figure facs="#zone_f83060_fig4">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 961 738"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:50.95%; max-width:100%; height:auto; margin-left:7.05%;">
                      <defs>
                         <clipPath id="clip-zone_f83060_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="585,0 417,308 0,339 17,727 769,738 961,735 691,0"/>
@@ -4039,7 +4039,7 @@
                      <w>fig</w> 14  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 753 643"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:39.26%; max-width:100%; height:auto; margin-left:11.78%;">
                      <defs>
                         <clipPath id="clip-zone_f83061_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="508,13 753,599 753,643 482,639 325,639 0,643 118,433 52,429 50,145 360,0"/>
@@ -4157,7 +4157,7 @@
                      <w>fig</w> 15  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1093 243"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:56.99%; max-width:100%; height:auto; margin-left:12.77%;">
                      <defs>
                         <clipPath id="clip-zone_f83061_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="3,243 0,8 959,0 1093,237"/>
@@ -4202,7 +4202,7 @@
                      <w>fig</w> 16  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1301 765"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:67.83%; max-width:100%; height:auto; margin-left:15.17%;">
                      <defs>
                         <clipPath id="clip-zone_f83061_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,8 0,765 1272,765 1290,582 1301,219 856,200 649,0"/>
@@ -4253,7 +4253,7 @@
                <figure facs="#zone_f83062_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1268 726"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:66.95%; max-width:100%; height:auto; margin-left:15.26%;">
                      <defs>
                         <clipPath id="clip-zone_f83062_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="589,3 589,59 505,151 34,184 0,721 589,726 664,726 675,726 1268,726 1212,0"/>
@@ -4279,7 +4279,7 @@
                <figure facs="#zone_f83062_fig2">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 78 148"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:4.12%; max-width:100%; height:auto; margin-left:52.11%;">
                      <defs>
                         <clipPath id="clip-zone_f83062_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,148 78,148 78,0"/>
@@ -4321,7 +4321,7 @@
                <figure facs="#zone_f83063_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 983 595"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:51.22%; max-width:100%; height:auto; margin-left:21.47%;">
                      <defs>
                         <clipPath id="clip-zone_f83063_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="362,0 242,204 0,205 4,322 4,325 186,325 40,595 983,591 665,0"/>
@@ -4388,7 +4388,7 @@
                      <w>fig</w> 21  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1466 1245"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:76.39%; max-width:100%; height:auto; margin-left:13.24%;">
                      <defs>
                         <clipPath id="clip-zone_f83063_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,1245 1466,1245 1466,0"/>
@@ -4458,7 +4458,7 @@
                      <w>fig</w> 22  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1216 832"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:63.8%; max-width:100%; height:auto; margin-left:10.97%;">
                      <defs>
                         <clipPath id="clip-zone_f83064_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 3,588 163,639 709,776 764,832 806,786 910,827 910,291 1205,294 1216,14"/>
@@ -4501,7 +4501,7 @@
                      <w>fig</w> 23  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1656 1005"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:86.88%; max-width:100%; height:auto; margin-left:4.46%;">
                      <defs>
                         <clipPath id="clip-zone_f83064_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="11,8 0,921 166,1005 309,921 1181,921 1299,988 1470,921 1656,507 1481,0 1060,140 930,76 875,135 548,22"/>
@@ -4628,7 +4628,7 @@
                      <w>fig</w> 24  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1761 1254"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:91.2%; max-width:100%; height:auto; margin-left:3.63%;">
                      <defs>
                         <clipPath id="clip-zone_f83065_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,1063 113,1220 292,1063 723,1063 801,1074 890,1070 959,1057 959,1060 1418,1062 1452,1092 1632,1254 1761,1063 1761,0"/>
@@ -4714,7 +4714,7 @@
                      <w>ad</w> 24  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 256 258"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:13.26%; max-width:100%; height:auto; margin-left:85.71%;">
                      <defs>
                         <clipPath id="clip-zone_f83065_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,258 256,248 250,0"/>
@@ -4773,7 +4773,7 @@
                      <w>ad</w> 23  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 218 272"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:11.29%; max-width:100%; height:auto; margin-left:88.3%;">
                      <defs>
                         <clipPath id="clip-zone_f83065_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,189 197,272 218,119 117,0"/>
@@ -4792,7 +4792,7 @@
                      <w>ad</w> 23  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1117 604"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:57.85%; max-width:100%; height:auto; margin-left:8.86%;">
                      <defs>
                         <clipPath id="clip-zone_f83065_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,11 3,595 402,595 439,604 630,594 645,580 711,586 946,595 951,473 1111,467 1117,467 972,315 972,0"/>
@@ -4869,7 +4869,7 @@
                      <w>ad</w> 25  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 367 347"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:19.32%; max-width:100%; height:auto; margin-left:30.84%;">
                      <defs>
                         <clipPath id="clip-zone_f83066_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,286 23,286 160,347 161,346 258,289 367,286 367,0"/>
@@ -4979,7 +4979,7 @@
                      <pc type="period" join="left" force="strong">.</pc>22 )  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1212 958"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:63.79%; max-width:100%; height:auto; margin-left:11.53%;">
                      <defs>
                         <clipPath id="clip-zone_f83066_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,22 0,874 776,874 816,958 857,874 859,361 1191,350 1212,119 865,73 866,0"/>
@@ -5026,7 +5026,7 @@
                      <w>Fig</w> 26  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1709 1488"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:88.78%; max-width:100%; height:auto; margin-left:2.23%;">
                      <defs>
                         <clipPath id="clip-zone_f83067_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,6 0,1440 88,1488 122,1440 321,1440 386,1443 469,1438 536,1443 537,1443 1587,1440 1709,0"/>
@@ -5143,7 +5143,7 @@
                      <w>ad</w> 26  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 517 371"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:26.86%; max-width:100%; height:auto; margin-left:13.3%;">
                      <defs>
                         <clipPath id="clip-zone_f83067_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="17,0 0,370 219,371 517,366 472,124 454,25 267,0"/>
@@ -5166,7 +5166,7 @@
                      <pc type="period" join="left" force="strong">.</pc>27  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1034 396"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:53.71%; max-width:100%; height:auto; margin-left:39.53%;">
                      <defs>
                         <clipPath id="clip-zone_f83067_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,3 0,190 35,387 419,394 508,396 636,392 680,390 911,396 985,273 1023,111 1034,0"/>
@@ -5243,7 +5243,7 @@
                <figure facs="#zone_f83068_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 223 201"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:11.77%; max-width:100%; height:auto; margin-left:35.01%;">
                      <defs>
                         <clipPath id="clip-zone_f83068_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,45 81,45 83,201 138,197 147,46 223,45 223,0"/>
@@ -5508,7 +5508,7 @@
                      <w>fig</w> 1  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 540 155"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:28.54%; max-width:100%; height:auto; margin-left:31.34%;">
                      <defs>
                         <clipPath id="clip-zone_f83070_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,147 372,153 519,155 540,4"/>
@@ -5597,7 +5597,7 @@
                      <w>fig</w> 2  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 563 170"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:29.76%; max-width:100%; height:auto; margin-left:48.1%;">
                      <defs>
                         <clipPath id="clip-zone_f83070_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 6,170 558,162 563,6"/>
@@ -5810,7 +5810,7 @@
                <figure facs="#zone_f83071_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 571 352"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:29.96%; max-width:100%; height:auto; margin-left:16.53%;">
                      <defs>
                         <clipPath id="clip-zone_f83071_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,352 314,344 423,350 424,250 571,274 565,0"/>
@@ -5827,7 +5827,7 @@
                <figure facs="#zone_f83071_fig2">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 694 453"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:36.41%; max-width:100%; height:auto; margin-left:51.36%;">
                      <defs>
                         <clipPath id="clip-zone_f83071_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="11,0 0,444 694,453 669,0"/>
@@ -5919,7 +5919,7 @@
                      <w>fig</w> 6  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1002 1615"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:53.61%; max-width:100%; height:auto; margin-left:26.48%;">
                      <defs>
                         <clipPath id="clip-zone_f83072_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="16,0 0,1615 434,1615 1002,1615 1002,0"/>
@@ -6047,7 +6047,7 @@
                      <w>fig</w> 7  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 564 206"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:29.5%; max-width:100%; height:auto; margin-left:42.21%;">
                      <defs>
                         <clipPath id="clip-zone_f83073_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,3 0,206 564,200 527,0"/>
@@ -6081,7 +6081,7 @@
                      <w>fig</w> 8  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 743 200"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:38.86%; max-width:100%; height:auto; margin-left:36.66%;">
                      <defs>
                         <clipPath id="clip-zone_f83073_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,200 743,200 712,3"/>
@@ -6112,7 +6112,7 @@
                      <w>fig</w> 9  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 750 212"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:39.23%; max-width:100%; height:auto; margin-left:38.28%;">
                      <defs>
                         <clipPath id="clip-zone_f83073_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,212 750,206 739,0"/>
@@ -6139,7 +6139,7 @@
                      <w>fig</w> 10  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 955 221"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:49.95%; max-width:100%; height:auto; margin-left:33.73%;">
                      <defs>
                         <clipPath id="clip-zone_f83073_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,221 955,213 950,0 827,0"/>
@@ -6167,7 +6167,7 @@
                      <w>fig</w> 11  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1001 313"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:52.35%; max-width:100%; height:auto; margin-left:38.49%;">
                      <defs>
                         <clipPath id="clip-zone_f83073_fig5" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,126 0,313 601,313 588,249 858,246 995,244 1001,0 186,5 183,126"/>
@@ -6194,7 +6194,7 @@
                      <w>fig</w> 12  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 510 265"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:26.67%; max-width:100%; height:auto; margin-left:70.55%;">
                      <defs>
                         <clipPath id="clip-zone_f83073_fig6" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,3 0,265 507,265 509,115 510,0"/>
@@ -6270,7 +6270,7 @@
                      <w>fig</w> 13  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 454 437"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:24.12%; max-width:100%; height:auto; margin-left:21.73%;">
                      <defs>
                         <clipPath id="clip-zone_f83074_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,306 211,305 230,437 454,434 453,301 326,293 322,0"/>
@@ -6299,7 +6299,7 @@
                   <head rend="italic"> 13a  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 342 434"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:18.17%; max-width:100%; height:auto; margin-left:64.29%;">
                      <defs>
                         <clipPath id="clip-zone_f83074_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="9,0 0,434 339,431 342,0"/>
@@ -6406,7 +6406,7 @@
                      <w>und</w> 15  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1064 429"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:56.54%; max-width:100%; height:auto; margin-left:6.54%;">
                      <defs>
                         <clipPath id="clip-zone_f83074_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,429 1064,429 1064,0 584,0"/>
@@ -6455,7 +6455,7 @@
                      <w>fig</w> 16  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 484 369"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:25.72%; max-width:100%; height:auto; margin-left:4.68%;">
                      <defs>
                         <clipPath id="clip-zone_f83074_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="12,3 4,239 0,366 484,369 484,0"/>
@@ -6474,7 +6474,7 @@
                      <w>fig</w> 17  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 437 372"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:23.22%; max-width:100%; height:auto; margin-left:32.94%;">
                      <defs>
                         <clipPath id="clip-zone_f83074_fig5" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,369 434,372 435,245 437,6"/>
@@ -6493,7 +6493,7 @@
                      <w>fig</w> 18  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 476 446"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:25.29%; max-width:100%; height:auto; margin-left:57.65%;">
                      <defs>
                         <clipPath id="clip-zone_f83074_fig6" clipPathUnits="userSpaceOnUse">
                            <polygon points="15,0 0,440 476,446 470,0"/>
@@ -6523,7 +6523,7 @@
                <figure facs="#zone_f83074_fig7">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 184 150"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:9.78%; max-width:100%; height:auto; margin-left:44.26%;">
                      <defs>
                         <clipPath id="clip-zone_f83074_fig7" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,150 184,150 184,0"/>
@@ -6598,7 +6598,7 @@
                      <w>fig</w> 21  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1299 277"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:69.1%; max-width:100%; height:auto; margin-left:7.02%;">
                      <defs>
                         <clipPath id="clip-zone_f83076_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,99 0,277 1042,277 1299,277 1299,0 622,0 567,0 269,0"/>
@@ -6636,7 +6636,7 @@
                      <pc type="period" join="left" force="strong">.</pc>22 .  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1371 236"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:72.93%; max-width:100%; height:auto; margin-left:4.63%;">
                      <defs>
                         <clipPath id="clip-zone_f83076_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,236 1087,236 1371,236 1371,0 523,0 178,0"/>
@@ -6679,7 +6679,7 @@
                      <pc type="period" join="left" force="strong">.</pc>23  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1314 240"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:69.89%; max-width:100%; height:auto; margin-left:4.04%;">
                      <defs>
                         <clipPath id="clip-zone_f83076_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,240 540,240 1103,237 1314,236 1314,0 189,0"/>
@@ -6753,7 +6753,7 @@
                      <w>fig</w> 20a.  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1296 236"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:68.94%; max-width:100%; height:auto; margin-left:4.63%;">
                      <defs>
                         <clipPath id="clip-zone_f83076_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,45 0,236 1296,236 1292,0 110,41"/>
@@ -6803,7 +6803,7 @@
                      <w>fig</w> 21a  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1408 258"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:74.89%; max-width:100%; height:auto; margin-left:2.23%;">
                      <defs>
                         <clipPath id="clip-zone_f83076_fig5" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,258 1408,258 1408,0 1054,0 752,0 488,0 165,0"/>
@@ -6849,7 +6849,7 @@
                      <w>fig</w> 22a  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1354 372"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:71.98%; max-width:100%; height:auto; margin-left:12.87%;">
                      <defs>
                         <clipPath id="clip-zone_f83077_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,372 755,372 1354,372 1354,0 1007,0 437,0"/>
@@ -6903,7 +6903,7 @@
                      <w>fig</w> 23a  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1362 413"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:72.41%; max-width:100%; height:auto; margin-left:13.08%;">
                      <defs>
                         <clipPath id="clip-zone_f83077_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,303 169,302 467,301 455,413 803,403 1362,387 1360,0 1098,0 437,0"/>
@@ -7059,7 +7059,7 @@
                      <pc type="period" join="left" force="strong">.</pc>24  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1560 561"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:82.63%; max-width:100%; height:auto; margin-left:5.24%;">
                      <defs>
                         <clipPath id="clip-zone_f83078_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,155 0,561 371,561 1560,561 1560,391 1560,4 1160,3"/>
@@ -7314,7 +7314,7 @@
                      <w>Fig</w> 25  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1045 1318"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:54.65%; max-width:100%; height:auto; margin-left:13.81%;">
                      <defs>
                         <clipPath id="clip-zone_f83079_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,718 0,1318 140,1318 617,1318 1045,1272 834,926 663,647 617,0 376,0"/>
@@ -7488,7 +7488,7 @@
                      <w>Fig</w> 26  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 874 584"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:46%; max-width:100%; height:auto; margin-left:2.26%;">
                      <defs>
                         <clipPath id="clip-zone_f83080_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="3,0 0,584 874,574 869,184 866,0"/>
@@ -7566,7 +7566,7 @@
                <figure facs="#zone_f83080_fig2">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 105 66"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:5.53%; max-width:100%; height:auto; margin-left:71.37%;">
                      <defs>
                         <clipPath id="clip-zone_f83080_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="2,0 0,64 105,66 105,0"/>
@@ -7690,7 +7690,7 @@
                      <w>fig</w> 27  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 643 667"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:33.84%; max-width:100%; height:auto; margin-left:2.63%;">
                      <defs>
                         <clipPath id="clip-zone_f83080_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,329 0,667 643,667 640,0"/>
@@ -7709,7 +7709,7 @@
                      <w>fig</w> 28  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 560 674"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:29.47%; max-width:100%; height:auto; margin-left:46.47%;">
                      <defs>
                         <clipPath id="clip-zone_f83080_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,674 560,674 560,353 560,0"/>
@@ -7886,7 +7886,7 @@
                      <w>fig</w> 29  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 798 112"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:42.18%; max-width:100%; height:auto; margin-left:33.35%;">
                      <defs>
                         <clipPath id="clip-zone_f83081_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,112 721,112 798,112 798,0"/>
@@ -7955,7 +7955,7 @@
                      <w>fig</w> 30  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1616 594"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:85.41%; max-width:100%; height:auto; margin-left:13.16%;">
                      <defs>
                         <clipPath id="clip-zone_f83081_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,594 1616,594 1616,0 1311,0 1178,0"/>
@@ -8032,7 +8032,7 @@
                      <w>fig</w> 31  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 761 223"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:40.22%; max-width:100%; height:auto; margin-left:14.8%;">
                      <defs>
                         <clipPath id="clip-zone_f83081_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 2,223 636,223 761,223 761,2"/>
@@ -8053,7 +8053,7 @@
                   <head rend="italic"> 31a  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 441 321"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:23.31%; max-width:100%; height:auto; margin-left:69.77%;">
                      <defs>
                         <clipPath id="clip-zone_f83081_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,98 0,250 0,321 441,321 438,0 198,9 187,98"/>
@@ -8098,7 +8098,7 @@
                      <w>fig</w> 32  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1148 365"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:60.81%; max-width:100%; height:auto; margin-left:19.92%;">
                      <defs>
                         <clipPath id="clip-zone_f83082_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,309 78,0 1148,0 1145,365 332,325"/>
@@ -8167,7 +8167,7 @@
                      <pc type="period" join="left" force="strong">.</pc>33  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1219 346"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:64.57%; max-width:100%; height:auto; margin-left:14.35%;">
                      <defs>
                         <clipPath id="clip-zone_f83082_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,346 1219,346 1219,0 755,0"/>
@@ -8239,7 +8239,7 @@
                      <w>fig</w> 34  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1273 389"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:67.43%; max-width:100%; height:auto; margin-left:16.1%;">
                      <defs>
                         <clipPath id="clip-zone_f83082_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,389 1273,389 1273,199 1273,0 759,0 444,0"/>
@@ -8882,7 +8882,7 @@
                      <w>fig</w> 4  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1834 249"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:95.72%; max-width:100%; height:auto; margin-left:1.36%;">
                      <defs>
                         <clipPath id="clip-zone_f83086_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,158 0,249 198,249 234,209 235,209 1729,246 1834,249 1834,0 1647,0"/>
@@ -8913,7 +8913,7 @@
                      <w>fig</w> 5  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1899 356"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:99.11%; max-width:100%; height:auto; margin-left:0.78%;">
                      <defs>
                         <clipPath id="clip-zone_f83086_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,98 3,264 4,356 1899,356 1899,157 1899,0"/>
@@ -9458,7 +9458,7 @@
                      <w>fig</w> 7  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1144 802"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:59.8%; max-width:100%; height:auto; margin-left:15%;">
                      <defs>
                         <clipPath id="clip-zone_f83089_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,802 1144,802 1144,0"/>
@@ -9498,7 +9498,7 @@
                <figure facs="#zone_f83089_fig2">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 282 300"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:14.74%; max-width:100%; height:auto; margin-left:27.34%;">
                      <defs>
                         <clipPath id="clip-zone_f83089_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,300 282,300 282,0"/>
@@ -9518,7 +9518,7 @@
                <figure facs="#zone_f83089_fig3">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 405 315"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:21.17%; max-width:100%; height:auto; margin-left:55.99%;">
                      <defs>
                         <clipPath id="clip-zone_f83089_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,315 405,315 405,0"/>
@@ -9562,7 +9562,7 @@
                      <w>fig</w> 7a  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 563 330"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:29.43%; max-width:100%; height:auto; margin-left:13.02%;">
                      <defs>
                         <clipPath id="clip-zone_f83089_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,330 563,330 561,1"/>
@@ -9582,7 +9582,7 @@
                      <pc type="period" join="left" force="strong">.</pc>8  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 657 353"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:34.34%; max-width:100%; height:auto; margin-left:48.35%;">
                      <defs>
                         <clipPath id="clip-zone_f83089_fig5" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,353 657,353 657,0"/>
@@ -10002,7 +10002,7 @@
                      <w>fig</w> 9 .  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 842 465"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:43.31%; max-width:100%; height:auto; margin-left:0.15%;">
                      <defs>
                         <clipPath id="clip-zone_f83092_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,465 842,465 841,0"/>
@@ -10030,7 +10030,7 @@
                      <pc type="period" join="left" force="strong">.</pc>10  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 868 496"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:44.65%; max-width:100%; height:auto; margin-left:44.44%;">
                      <defs>
                         <clipPath id="clip-zone_f83092_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,151 0,496 167,496 868,496 868,0"/>
@@ -10057,7 +10057,7 @@
                      <w>fig</w> 11 .  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 933 468"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:47.99%; max-width:100%; height:auto; margin-left:0.26%;">
                      <defs>
                         <clipPath id="clip-zone_f83092_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,148 0,468 209,468 933,468 921,39"/>
@@ -10092,7 +10092,7 @@
                      <pc type="period" join="left" force="strong">.</pc>12 .  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 853 403"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:43.88%; max-width:100%; height:auto; margin-left:0%;">
                      <defs>
                         <clipPath id="clip-zone_f83092_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="853,0 853,403 223,403 0,403 0,0 103,0"/>
@@ -10128,7 +10128,7 @@
                      <w>fig</w> 13 .  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 837 430"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:43.06%; max-width:100%; height:auto; margin-left:44.65%;">
                      <defs>
                         <clipPath id="clip-zone_f83092_fig5" clipPathUnits="userSpaceOnUse">
                            <polygon points="837,430 837,4 0,0 0,111 0,257 0,430"/>
@@ -10161,7 +10161,7 @@
                      <pc type="period" join="left" force="strong">.</pc>14  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1588 360"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:81.69%; max-width:100%; height:auto; margin-left:0.62%;">
                      <defs>
                         <clipPath id="clip-zone_f83092_fig6" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,360 160,360 1588,360 1588,0 74,0"/>
@@ -10272,7 +10272,7 @@
                <figure facs="#zone_f83094_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 55 140"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:2.86%; max-width:100%; height:auto; margin-left:15.32%;">
                      <defs>
                         <clipPath id="clip-zone_f83094_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="14,0 0,139 55,140 55,0"/>
@@ -10297,7 +10297,7 @@
                <figure facs="#zone_f83094_fig2">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 93 78"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:4.83%; max-width:100%; height:auto; margin-left:64.68%;">
                      <defs>
                         <clipPath id="clip-zone_f83094_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,78 93,78 93,0"/>
@@ -10324,7 +10324,7 @@
                <figure facs="#zone_f83094_fig3">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 157 66"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:8.16%; max-width:100%; height:auto; margin-left:33.4%;">
                      <defs>
                         <clipPath id="clip-zone_f83094_fig3" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,66 157,66 157,0"/>
@@ -10352,7 +10352,7 @@
                <figure facs="#zone_f83094_fig4">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 119 73"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:6.18%; max-width:100%; height:auto; margin-left:16.42%;">
                      <defs>
                         <clipPath id="clip-zone_f83094_fig4" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,73 119,73 119,0"/>
@@ -10387,7 +10387,7 @@
                <figure facs="#zone_f83094_fig5">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 151 147"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:7.84%; max-width:100%; height:auto; margin-left:54.91%;">
                      <defs>
                         <clipPath id="clip-zone_f83094_fig5" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,147 151,147 151,0"/>
@@ -10416,7 +10416,7 @@
                      <pc type="period" join="left" force="strong">.</pc>18  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 772 404"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:40.1%; max-width:100%; height:auto; margin-left:24.42%;">
                      <defs>
                         <clipPath id="clip-zone_f83094_fig6" clipPathUnits="userSpaceOnUse">
                            <polygon points="274,0 0,208 295,404 772,122"/>
@@ -10465,7 +10465,7 @@
                      <pc type="period" join="left" force="strong">.</pc>19  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 829 470"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:43.06%; max-width:100%; height:auto; margin-left:14.13%;">
                      <defs>
                         <clipPath id="clip-zone_f83094_fig7" clipPathUnits="userSpaceOnUse">
                            <polygon points="281,0 0,255 276,470 829,279"/>
@@ -10495,7 +10495,7 @@
                      <w>fig</w> 20  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 379 382"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:19.69%; max-width:100%; height:auto; margin-left:13.61%;">
                      <defs>
                         <clipPath id="clip-zone_f83094_fig8" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,382 379,382 379,0"/>
@@ -10515,7 +10515,7 @@
                      <pc type="period" join="left" force="strong">.</pc>20a  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 759 545"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:39.43%; max-width:100%; height:auto; margin-left:46.13%;">
                      <defs>
                         <clipPath id="clip-zone_f83094_fig9" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,4 0,545 748,545 759,540 183,0"/>
@@ -10534,7 +10534,7 @@
                      <w>fig</w> 20b.  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 422 376"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:21.92%; max-width:100%; height:auto; margin-left:76.52%;">
                      <defs>
                         <clipPath id="clip-zone_f83094_fig10" clipPathUnits="userSpaceOnUse">
                            <polygon points="422,376 422,0 0,0 0,376"/>
@@ -10609,7 +10609,7 @@
                      <pc type="period" join="left" force="strong">.</pc>21 )  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1878 1775"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:99.47%; max-width:100%; height:auto; margin-left:0.53%;">
                      <defs>
                         <clipPath id="clip-zone_f83095_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,27 0,1775 1878,1775 1870,0 1494,11 1379,12"/>
@@ -10919,7 +10919,7 @@
                <figure facs="#zone_f83097_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 671 88"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:35.09%; max-width:100%; height:auto; margin-left:29.76%;">
                      <defs>
                         <clipPath id="clip-zone_f83097_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,88 671,88 668,0"/>
@@ -11139,7 +11139,7 @@
                      <w>fig</w> 1 .  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1590 1444"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:83.16%; max-width:100%; height:auto; margin-left:9.15%;">
                      <defs>
                         <clipPath id="clip-zone_f83099_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 24,1433 1590,1444 1544,16"/>
@@ -11182,7 +11182,7 @@
                <figure facs="#zone_f83099_fig2">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 697 481"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:36.45%; max-width:100%; height:auto; margin-left:62.71%;">
                      <defs>
                         <clipPath id="clip-zone_f83099_fig2" clipPathUnits="userSpaceOnUse">
                            <polygon points="697,10 697,481 0,481 4,173 131,58 196,0"/>
@@ -11386,7 +11386,7 @@
                <figure facs="#zone_f83100_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1608 1376"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:84.06%; max-width:100%; height:auto; margin-left:3.08%;">
                      <defs>
                         <clipPath id="clip-zone_f83100_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,9 0,1376 1223,1376 1608,855 1450,619 1187,634 1180,0"/>
@@ -11541,7 +11541,7 @@
                <figure facs="#zone_f83101_fig1">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 1918 655"
-                       style="width:100%; height:auto;">
+                       style="display:block; width:98.71%; max-width:100%; height:auto; margin-left:0.41%;">
                      <defs>
                         <clipPath id="clip-zone_f83101_fig1" clipPathUnits="userSpaceOnUse">
                            <polygon points="0,0 0,655 1918,655 1918,0"/>

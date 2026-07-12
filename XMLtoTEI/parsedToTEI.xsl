@@ -316,8 +316,11 @@
           <xsl:variable name="h" select="xs:integer($block/@HEIGHT)"/>
           <xsl:variable name="coords"
             select="tokenize(normalize-space($block/alto:Shape/alto:Polygon/@POINTS), '\s+')"/>
+          <xsl:variable name="widthPct" select="format-number($w div xs:integer($pageWidth) * 100, '0.##')"/>
+          <xsl:variable name="leftPct" select="format-number($ulx div xs:integer($pageWidth) * 100, '0.##')"/>
           
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {$w} {$h}" style="width:100%; height:auto;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {$w} {$h}"
+               style="display:block; width:{$widthPct}%; max-width:100%; height:auto; margin-left:{$leftPct}%;">
             <defs>
               <clipPath id="clip-zone_f{$pageNum}_fig{$figOrdinal}" clipPathUnits="userSpaceOnUse">
                 <polygon>
