@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>Klee</title>
          </titleStmt>
          <publicationStmt>
             <p/>
@@ -1208,7 +1208,7 @@
                   <pc type="period" join="left" force="strong">.</pc>
                </head>
                <head n="1" type="part">
-                  <corr hand="#pencil">
+                  <add hand="#pencil">
                      <w rend="sans">A</w>
                      <w>Vorträge</w>
                      <w>im</w>
@@ -1216,7 +1216,7 @@
                      <w>1921</w>
                      <pc type="slash" join="both" force="inter">/</pc>
                      <w>22</w>
-                  </corr>
+                  </add>
                </head>
                <head n="3" type="lesson">
                   <w>14</w>
@@ -1935,7 +1935,13 @@
                   </l>
                   <l n="15">
                      <w>
-                        <corr hand="#pencil">mitFormenaus</corr>gerüstet</w>
+                        <add hand="#pencil">mit</add>
+                     </w>
+                     <w>
+                        <add hand="#pencil">Formen</add>
+                     </w>
+                     <w>
+                        <add hand="#pencil">aus</add>gerüstet</w>
                      <w>sind</w>
                      <pc type="period" join="left" force="strong">.</pc>
                      <w>Dass</w>
@@ -2047,11 +2053,11 @@
                         <w>Schande</w>
                         <w>macht</w>
                      </sic>
-                     <corr hand="#pencil">
+                     <add hand="#pencil">
                         <del rend="strikethrough">
                            <w>vielleicht</w>
                         </del>
-                     </corr>
+                     </add>
                   </choice>
                </l>
                <p rend="bold" type="pause">
@@ -2234,7 +2240,10 @@
                      </choice>
                      <w>an</w>
                      <pc type="comma" join="left" force="weak">,</pc>
-                     <w>ein<sic>ebreit</sic>
+                     <w>ein<sic>e</sic>
+                     </w>
+                     <w>
+                        <sic>breit</sic>
                      </w>
                   </l>
                </ab>
@@ -2672,10 +2681,10 @@
                   </svg>
                </figure>
                <l n="1">
-                  <corr hand="#pencil">
+                  <add hand="#pencil">
                      <w>5</w>
                      <w>a</w>
-                  </corr>
+                  </add>
                </l>
                <figure facs="#zone_f83052_fig3">
                   <head rend="italic">
@@ -3242,7 +3251,7 @@
                      <w>imaginäre</w>
                   </l>
                   <l n="5">
-                     <w>Fläche<corr hand="#pencil">n</corr>
+                     <w>Fläche<add hand="#pencil">n</add>
                      </w>
                      <pc type="period" join="left" force="strong">.</pc>
                      <w>Dazwischen</w>
@@ -5873,9 +5882,9 @@
                      <w>liegen</w>
                   </sic>
                   <w>wirken</w>
-                  <corr hand="#pencil">
+                  <add hand="#pencil">
                      <w>können</w>
-                  </corr>
+                  </add>
                   <pc type="period" join="left" force="strong">.</pc>
                   <w>Denn</w>
                </l>
@@ -7112,11 +7121,11 @@
                </ab>
                <head n="4" type="section">
                   <hi rend="underline">
-                     <corr hand="#pencil">
+                     <add hand="#pencil">
                         <w>Gestaltungsbeispiel</w>
                         <w>fig</w>
                         <w>24</w>
-                     </corr>
+                     </add>
                   </hi>
                </head>
                <ab type="parag" n="3">
@@ -8992,23 +9001,23 @@
                      </hi>
                   </l>
                   <l n="5">
-                     <corr hand="#pencil">
+                     <add hand="#pencil">
                         <pc type="punct" join="both" force="inter">"</pc>
-                     </corr>
+                     </add>
                      <w>einfache</w>
                      <w>Strecke</w>
-                     <corr hand="#pencil">
+                     <add hand="#pencil">
                         <pc type="punct" join="both" force="inter">"</pc>
-                     </corr>
+                     </add>
                      <w>und</w>
-                     <corr hand="#pencil">
+                     <add hand="#pencil">
                         <pc type="punct" join="both" force="inter">"</pc>
-                     </corr>
+                     </add>
                      <w>doppelte</w>
                      <w>Strecke</w>
-                     <corr hand="#pencil">
+                     <add hand="#pencil">
                         <pc type="punct" join="both" force="inter">"</pc>
-                     </corr>
+                     </add>
                      <pc type="comma" join="left" force="weak">,</pc>
                      <w>letztere</w>
                   </l>
@@ -9108,10 +9117,10 @@
                      <pc type="period" join="left" force="strong">.</pc>
                   </l>
                   <l n="13">
-                     <corr hand="#pencil">
+                     <add hand="#pencil">
                         <w>Seite</w>
                         <w>39</w>
-                     </corr>
+                     </add>
                   </l>
                </ab>
                <p rend="bold" type="pause">
@@ -11746,23 +11755,23 @@
             <div n="63">
                <pb n="60" facs="#f83103"/>
                <l n="1">
-                  <corr hand="#pencil">
+                  <add hand="#pencil">
                      <pc type="punct" join="both" force="inter">"</pc>
-                  </corr>
+                  </add>
                   <w>einfache</w>
                   <w>Strecke</w>
-                  <corr hand="#pencil">
+                  <add hand="#pencil">
                      <pc type="punct" join="both" force="inter">"</pc>
-                  </corr>
+                  </add>
                   <w>und</w>
-                  <corr hand="#pencil">
+                  <add hand="#pencil">
                      <pc type="punct" join="both" force="inter">"</pc>
-                  </corr>
+                  </add>
                   <w>doppelte</w>
                   <w>Strecke</w>
-                  <corr hand="#pencil">
+                  <add hand="#pencil">
                      <pc type="punct" join="both" force="inter">"</pc>
-                  </corr>
+                  </add>
                </l>
                <l n="2">
                   <w>TESTO</w>
@@ -11773,9 +11782,9 @@
             <div n="146">
                <pb n="143" facs="#f83186"/>
                <head n="1" type="part">
-                  <corr hand="#pencil">
+                  <add hand="#pencil">
                      <w rend="sans">B</w>
-                  </corr>
+                  </add>
                   <w>Repetitionen</w>
                   <w>im</w>
                   <w>Sommersemster</w>

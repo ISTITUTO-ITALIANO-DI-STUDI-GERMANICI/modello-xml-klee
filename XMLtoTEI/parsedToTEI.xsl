@@ -16,6 +16,7 @@
     match="apparatoFigureItem"
     use="normalize-space(replace(figId, '\s+', ''))"/>
   
+  <!-- We define a particular ALTO zone from an eScriptorium XML -->
   <xsl:template name="alto-zone">
     <xsl:param name="zoneId"/>
     <zone>
@@ -48,7 +49,7 @@
       <teiHeader>
         <fileDesc>
           <titleStmt>
-            <title></title>
+            <title>Klee</title>
           </titleStmt>
           <publicationStmt>
             <p/>
@@ -239,7 +240,7 @@
       </xsl:attribute>
       
       <xsl:value-of select="$char"/>
-
+      
     </pc>
     
   </xsl:template>
@@ -296,12 +297,14 @@
     
     <figure facs="#zone_f{$pageNum}_fig{$figOrdinal}">
       
+      <!-- Rending figure label -->
       <xsl:if test="$item/label">
         <head rend="italic">
           <xsl:apply-templates select="$item/label" mode="fig"/>
         </head>
       </xsl:if>
       
+      <!-- Initializing all values -->
       <xsl:if test="$altoDoc">
         <xsl:variable name="pageWidth" select="$altoDoc//alto:Page/@WIDTH"/>
         <xsl:variable name="pageHeight" select="$altoDoc//alto:Page/@HEIGHT"/>
@@ -319,6 +322,7 @@
           <xsl:variable name="widthPct" select="format-number($w div xs:integer($pageWidth) * 100, '0.##')"/>
           <xsl:variable name="leftPct" select="format-number($ulx div xs:integer($pageWidth) * 100, '0.##')"/>
           
+          <!-- Creating an SVG with the proper shape from eScriptorium by all the related coordinates -->
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {$w} {$h}"
                style="display:block; width:{$widthPct}%; max-width:100%; height:auto; margin-left:{$leftPct}%;">
             <defs>
@@ -328,6 +332,7 @@
                     <xsl:for-each select="1 to (count($coords) div 2)">
                       <xsl:variable name="i" select="."/>
                       <xsl:if test="$i gt 1"><xsl:text> </xsl:text></xsl:if>
+                      <!-- Relative values so they suit to the corrispective dimensions -->
                       <xsl:value-of select="concat(xs:integer($coords[2 * $i - 1]) - $ulx, ',', xs:integer($coords[2 * $i]) - $uly)"/>
                     </xsl:for-each>
                   </xsl:attribute>
@@ -364,7 +369,7 @@
   </xsl:template>
   
   <xsl:template match="line_app" mode="fig">
-      <xsl:apply-templates mode="fig"/>
+    <xsl:apply-templates mode="fig"/>
   </xsl:template>
   
   <xsl:template match="text()[normalize-space(.) = '|']" mode="fig">
@@ -408,9 +413,9 @@
       <xsl:variable name="isFirst" select="position() = 1"/>
       <xsl:variable name="isLast" select="position() = last()"/>
       <xsl:choose>
-
+        
         <xsl:when test="($isFirst or $isLast) and self::punctinfig and normalize-space(.) = ('(', ')', '[', ']')"/>
-
+        
         <xsl:when test="self::text() and ($isFirst or $isLast)">
           <xsl:variable name="v1" select="if ($isFirst) then replace(., '^(\s*)[\(\[]', '$1') else ."/>
           <xsl:variable name="v2" select="if ($isLast) then replace($v1, '[\)\]](\s*)$', '$1') else $v1"/>
@@ -461,7 +466,7 @@
       <xsl:apply-templates/>
     </l>
   </xsl:template>
-
+  
   <xsl:template match="textSeq">
     <xsl:apply-templates/>
   </xsl:template>
@@ -475,12 +480,50 @@
   -->
   <xsl:template match="*[local-name()='seg'][prefix or prefix_app or suffix or suffix_app]" priority="1">
     <xsl:param name="firstSegId" tunnel="yes" select="''"/>
-    <w>
-      <xsl:if test="$firstSegId != '' and generate-id(.) = $firstSegId">
-        <xsl:attribute name="rend">sans</xsl:attribute>
-      </xsl:if>
-      <xsl:apply-templates mode="wordpart"/>
-    </w>
+    
+    <!-- Usually the editorial operation (deletion, pencilAddition, etc.) wraps a
+         single word-fragment (e.g. one letter), which is meant to be fused with
+         the prefix/suffix into one word. Sometimes, though, it wraps a *sequence*
+         of several complete words (a nested textSeq with more than one <seg>
+         child) -->
+    <xsl:variable name="multiTextSeq"
+      select="(.//*[local-name()='textSeq'][count(*[local-name()='seg']) > 1])[1]"/>
+    
+    <xsl:choose>
+      
+      <!-- Regular case: single word-fragment glued to prefix and/or suffix -->
+      <xsl:when test="not($multiTextSeq)">
+        <w>
+          <xsl:if test="$firstSegId != '' and generate-id(.) = $firstSegId">
+            <xsl:attribute name="rend">sans</xsl:attribute>
+          </xsl:if>
+          <xsl:apply-templates mode="wordpart"/>
+        </w>
+      </xsl:when>
+      
+      <!-- Split case: several words inside the operation; only the boundary
+           word (first if there's a prefix, last if there's a suffix) fuses
+           with the prefix/suffix text. The others become their own <w>. -->
+      <xsl:otherwise>
+        <xsl:variable name="thisSeg" select="."/>
+        <xsl:variable name="words" select="$multiTextSeq/*[local-name()='seg']"/>
+        <xsl:variable name="n" select="count($words)"/>
+        <xsl:for-each select="$words">
+          <xsl:variable name="pos" select="position()"/>
+          <w>
+            <xsl:if test="$pos = 1 and $firstSegId != '' and generate-id($thisSeg) = $firstSegId">
+              <xsl:attribute name="rend">sans</xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates select="$thisSeg" mode="wordpart">
+              <xsl:with-param name="onlySegId" select="generate-id(current())" tunnel="yes"/>
+              <xsl:with-param name="includePrefix" select="$pos = 1" tunnel="yes"/>
+              <xsl:with-param name="includeSuffix" select="$pos = $n" tunnel="yes"/>
+            </xsl:apply-templates>
+          </w>
+        </xsl:for-each>
+      </xsl:otherwise>
+      
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="*[local-name()='seg']">
@@ -538,7 +581,7 @@
   </xsl:template>
   
   <xsl:template match="subspencilAddition | pencilAddition">
-    <corr hand="#pencil"><xsl:apply-templates/></corr>
+    <add hand="#pencil"><xsl:apply-templates/></add>
   </xsl:template>
   
   <xsl:template match="pencil">
@@ -569,11 +612,17 @@
   
   <!-- prefix/suffix become plain text, not their own <w> -->
   <xsl:template match="prefix | prefix_app" mode="wordpart">
-    <xsl:value-of select="normalize-space(replace(., '\^', ''))"/>
+    <xsl:param name="includePrefix" tunnel="yes" select="true()"/>
+    <xsl:if test="$includePrefix">
+      <xsl:value-of select="normalize-space(replace(., '\^', ''))"/>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template match="suffix | suffix_app" mode="wordpart">
-    <xsl:value-of select="normalize-space(replace(., '\^', ''))"/>
+    <xsl:param name="includeSuffix" tunnel="yes" select="true()"/>
+    <xsl:if test="$includeSuffix">
+      <xsl:value-of select="normalize-space(replace(., '\^', ''))"/>
+    </xsl:if>
   </xsl:template>
   
   <!-- structural wrappers: just pass through -->
@@ -581,11 +630,20 @@
     <xsl:apply-templates mode="wordpart"/>
   </xsl:template>
   
-  <!-- nested seg (e.g. <seg>h </seg> inside textSeq): plain text only -->
+  <!-- nested seg (e.g. <seg>h </seg> inside textSeq): plain text only.
+       When $onlySegId is set (split-word mode) and this seg is one of
+       several sibling <seg> words, only the targeted sibling renders -
+       the others are silenced so each ends up in its own <w>. -->
   <xsl:template match="*[local-name()='seg']" mode="wordpart">
+    <xsl:param name="onlySegId" tunnel="yes" select="''"/>
     <xsl:choose>
       <xsl:when test="*">
         <xsl:apply-templates mode="wordpart"/>
+      </xsl:when>
+      <xsl:when test="$onlySegId != '' and count(../*[local-name()='seg']) > 1">
+        <xsl:if test="generate-id(.) = $onlySegId">
+          <xsl:value-of select="normalize-space(.)"/>
+        </xsl:if>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="normalize-space(.)"/>
@@ -610,7 +668,7 @@
   </xsl:template>
   
   <xsl:template match="subspencilAddition | pencilAddition" mode="wordpart">
-    <corr hand="#pencil"><xsl:apply-templates mode="wordpart"/></corr>
+    <add hand="#pencil"><xsl:apply-templates mode="wordpart"/></add>
   </xsl:template>
   
   <xsl:template match="pencil" mode="wordpart">
@@ -654,5 +712,5 @@
   <xsl:template match="text()" mode="wordpart">
     <xsl:value-of select="replace(., '\s+', ' ')"/>
   </xsl:template>
-
+  
 </xsl:stylesheet>
