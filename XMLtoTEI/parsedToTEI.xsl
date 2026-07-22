@@ -199,9 +199,19 @@
     <xsl:param name="char"/>
     <xsl:param name="mode" select="''"/>
     
-    <pc>
-      <!-- Which type of punctuation -->
+    <seg>
+      
+      <!-- Where it joins -->
       <xsl:attribute name="type">
+        <xsl:choose>
+          <xsl:when test="$char = ('.', ',', ';', ':', '!', '?', ')', ']', '»', '…', '...')">pc-left</xsl:when>
+          <xsl:when test="$char = ('(', '[', '«')">pc-right</xsl:when>
+          <xsl:otherwise>pc-both</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      
+      <!-- Which type of punctuation -->
+      <xsl:attribute name="subtype">
         <xsl:choose>
           <xsl:when test="$char = '.'">period</xsl:when>
           <xsl:when test="$char = ','">comma</xsl:when>
@@ -220,28 +230,9 @@
         </xsl:choose>
       </xsl:attribute>
       
-      <!-- Where it joins -->
-      <xsl:attribute name="join">
-        <xsl:choose>
-          <xsl:when test="$char = ('.', ',', ';', ':', '!', '?', ')', ']', '»', '…', '...')">left</xsl:when>
-          <xsl:when test="$char = ('(', '[', '«')">right</xsl:when>
-          <xsl:otherwise>both</xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
-      
-      <!-- How strong it is -->
-      <xsl:attribute name="force">
-        <xsl:choose>
-          <xsl:when test="$char = ('.', '!', '?', '…', '...')">strong</xsl:when>
-          <xsl:when test="$char = (',', ';', ':')">weak</xsl:when>
-          <xsl:when test="$char = ('-', '–', '—', '/', '(', ')', '[', ']', '«', '»')">inter</xsl:when>
-          <xsl:otherwise>inter</xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
-      
       <xsl:value-of select="$char"/>
       
-    </pc>
+    </seg>
     
   </xsl:template>
   
