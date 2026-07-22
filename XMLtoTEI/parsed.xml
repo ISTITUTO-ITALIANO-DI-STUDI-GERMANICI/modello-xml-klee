@@ -8832,7 +8832,7 @@
                </l>
             </div>
             <div n="45">
-               <pb n="" facs="#f83085"/>
+               <pb n="42" facs="#f83085"/>
                <head n="2" type="unit">
                   <w>4</w>
                   <pc type="period" join="left" force="strong">.</pc>
@@ -10982,7 +10982,7 @@
                </p>
             </div>
             <div n="58">
-               <pb n="" facs="#f83098"/>
+               <pb n="55" facs="#f83098"/>
                <ab type="parag" n="1"/>
                <head n="3" type="5">
                   <w>Lesson</w>

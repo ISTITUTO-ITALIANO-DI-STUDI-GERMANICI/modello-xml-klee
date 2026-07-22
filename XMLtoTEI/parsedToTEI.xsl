@@ -258,7 +258,17 @@
   <xsl:template match="page">
     <pb>
       <xsl:attribute name="n">
-        <xsl:value-of select="normalize-space(numbZone//num)"/>
+          <xsl:choose>
+              <xsl:when test="numbZone//num">
+                  <xsl:value-of select="normalize-space(numbZone//num[1])"/>
+              </xsl:when>
+              <xsl:otherwise>
+                  <xsl:value-of
+                      select="normalize-space(
+                          numbZone//seg[matches(normalize-space(.), '^\d+$')][1]
+                      )"/>
+              </xsl:otherwise>
+          </xsl:choose>
       </xsl:attribute>
       <xsl:attribute name="facs">
         <xsl:text>#f</xsl:text>
