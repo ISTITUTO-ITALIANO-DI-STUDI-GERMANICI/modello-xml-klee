@@ -10031,7 +10031,11 @@
                      <pc type="bracketClose" join="left" force="inter">)</pc>
                      <w>zweiwertige</w>
                      <w>Norm</w>
-                     <w>oder</w> _ <w>Zweitakt</w> _  </figDesc>
+                     <w>oder</w>
+                     <hi rend="underline">
+                        <w>Zweitakt</w>
+                     </hi>
+                  </figDesc>
                </figure>
                <figure facs="#zone_f83092_fig2">
                   <head rend="italic">
@@ -10059,7 +10063,11 @@
                      <pc type="bracketClose" join="left" force="inter">)</pc>
                      <w>dreiwertige</w>
                      <w>Norm</w>
-                     <w>oder</w> _ <w>Dreitakt</w> _  </figDesc>
+                     <w>oder</w>
+                     <hi rend="underline">
+                        <w>Dreitakt</w>
+                     </hi>
+                  </figDesc>
                </figure>
                <figure facs="#zone_f83092_fig3">
                   <head rend="italic">
@@ -10093,7 +10101,11 @@
                      <w>Zweitakt</w>
                      <w>mit</w>
                      <w>zweiteiliger</w>
-                     <w>Unterstructuroder</w> _ <w>Viertakt</w> _  </figDesc>
+                     <w>Unterstructuroder</w>
+                     <hi rend="underline">
+                        <w>Viertakt</w>
+                     </hi>
+                  </figDesc>
                </figure>
                <figure facs="#zone_f83092_fig4">
                   <head rend="italic">
@@ -10127,7 +10139,11 @@
                      <w>mit</w>
                      <w>dreiteiliger</w>
                      <w>Unterstructur</w>
-                     <w>oder</w> _ <w>Sechstakt</w> _ <pc type="bracketOpen" join="right" force="inter">(</pc>
+                     <w>oder</w>
+                     <hi rend="underline">
+                        <w>Sechstakt</w>
+                     </hi>
+                     <pc type="bracketOpen" join="right" force="inter">(</pc>
                      <w>zweiteiliger</w>
                      <pc type="bracketClose" join="left" force="inter">)</pc>
                   </figDesc>
@@ -10162,7 +10178,11 @@
                      <w>mit</w>
                      <w>dreiteiliger</w>
                      <w>Unterstructur</w>
-                     <w>oder</w> _ <w>Neuntact</w> _  </figDesc>
+                     <w>oder</w>
+                     <hi rend="underline">
+                        <w>Neuntact</w>
+                     </hi>
+                  </figDesc>
                </figure>
                <figure facs="#zone_f83092_fig6">
                   <head rend="italic">
@@ -10197,7 +10217,11 @@
                      <w>der</w>
                      <w>Viertel</w>
                      <pc type="comma" join="left" force="weak">,</pc>
-                     <w>oder</w> _ <w>Zwölftakt</w> _ <pc type="period" join="left" force="strong">.</pc>
+                     <w>oder</w>
+                     <hi rend="underline">
+                        <w>Zwölftakt</w>
+                     </hi>
+                     <pc type="period" join="left" force="strong">.</pc>
                   </figDesc>
                </figure>
             </div>

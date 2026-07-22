@@ -428,6 +428,18 @@
     </xsl:for-each>
   </xsl:template>
   
+  <xsl:template match="operation_app" mode="fig">
+    <xsl:apply-templates mode="fig"/>
+  </xsl:template>
+  
+  <xsl:template match="underlined | underlined_app" mode="fig">
+    <hi rend="underline">
+      <xsl:apply-templates
+        select="node()[not(self::text()[matches(., '^\s*_\s*$')])]"
+        mode="fig"/>
+    </hi>
+  </xsl:template>
+  
   <!-- End figures -->
   
   <xsl:template match="sectionHeading">
