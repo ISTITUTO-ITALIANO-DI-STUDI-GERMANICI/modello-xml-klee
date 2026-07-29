@@ -41,7 +41,7 @@
   
   <xsl:template match="/">
     
-    <xsl:processing-instruction name="teipublisher">odd="klee.odd" template="klee2.html" view="page" media="web"</xsl:processing-instruction>
+    <xsl:processing-instruction name="teipublisher">odd="klee.odd" template="klee2.html" view="page" media="web print epub"</xsl:processing-instruction>
     
     <TEI version="3.3.0">
       
@@ -49,13 +49,18 @@
       <teiHeader>
         <fileDesc>
           <titleStmt>
-            <title>Klee</title>
+            <title>Beiträge zur bildnerischen Formlehre.</title>
           </titleStmt>
           <publicationStmt>
-            <p/>
+            <publisher>Istituto Italiano di Studi Germanici - IISG</publisher>
           </publicationStmt>
           <sourceDesc/>
         </fileDesc>
+        <encodingDesc>
+          <tagsDecl>
+            <rendition source="klee.css"/>
+          </tagsDecl>
+        </encodingDesc>
         <profileDesc/>
       </teiHeader>
       
@@ -221,13 +226,15 @@
       </xsl:attribute>
       
       <!-- Where it joins -->
-      <xsl:attribute name="join">
-        <xsl:choose>
-          <xsl:when test="$char = ('.', ',', ';', ':', '!', '?', ')', ']', '»', '…', '...')">left</xsl:when>
-          <xsl:when test="$char = ('(', '[', '«')">right</xsl:when>
-          <xsl:otherwise>both</xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
+      <xsl:if test="$char != '*'">
+        <xsl:attribute name="float">
+          <xsl:choose>
+            <xsl:when test="$char = ('.', ',', ';', ':', '!', '?', ')', ']', '»', '…', '...')">left</xsl:when>
+            <xsl:when test="$char = ('(', '[', '«')">right</xsl:when>
+            <xsl:otherwise>both</xsl:otherwise>
+          </xsl:choose>
+        </xsl:attribute>
+      </xsl:if>
       
       <!-- How strong it is -->
       <xsl:attribute name="force">
@@ -271,8 +278,8 @@
           </xsl:choose>
       </xsl:attribute>
       <xsl:attribute name="facs">
-        <xsl:text>#f</xsl:text>
         <xsl:value-of select="normalize-space(facsimile//num)"/>
+          <xsl:text>.jpg</xsl:text>
       </xsl:attribute>
     </pb>
     
@@ -283,7 +290,7 @@
     <xsl:for-each-group select="*" group-starting-with="openPar | sectionHeading">
       <xsl:choose>
         <xsl:when test="self::openPar">
-          <ab type="parag" n="{position()}">
+          <ab n="{position()}">
             <xsl:apply-templates select="current-group()[not(self::openPar)]"/>
           </ab>
         </xsl:when>
@@ -483,7 +490,7 @@
   <xsl:template match="line">
     <l>
       <xsl:attribute name="n">
-        <xsl:number level="any" count="line" from="mainZone"/>
+        <xsl:number level="any" count="line" from="page"/>
       </xsl:attribute>
       <xsl:apply-templates/>
     </l>
@@ -633,6 +640,7 @@
   <!-- above). All templates here stay INLINE -->
   
   <!-- prefix/suffix become plain text, not their own <w> -->
+ 
   <xsl:template match="prefix | prefix_app" mode="wordpart">
     <xsl:param name="includePrefix" tunnel="yes" select="true()"/>
     <xsl:if test="$includePrefix">
