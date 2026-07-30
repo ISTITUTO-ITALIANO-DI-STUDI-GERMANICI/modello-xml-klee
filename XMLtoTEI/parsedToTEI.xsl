@@ -39,6 +39,24 @@
     </zone>
   </xsl:template>
   
+  <!-- This template manages margin text positioning -->
+  <xsl:template name="margin-place">
+    <xsl:param name="pageNum" as="xs:integer"/>
+    <xsl:param name="inner" as="xs:boolean" select="false()"/>
+    
+    <xsl:choose>
+      <!-- Outer page: if even page go left, else right -->
+      <xsl:when test="not($inner)">
+        <xsl:value-of select="if ($pageNum mod 2 = 0) then 'left' else 'right'"/>
+      </xsl:when>
+      
+      <!-- Inner page: swap positions -->
+      <xsl:otherwise>
+        <xsl:value-of select="if ($pageNum mod 2 = 0) then 'right' else 'left'"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <xsl:template match="/">
     
     <xsl:processing-instruction name="teipublisher">odd="klee.odd" template="klee2.html" view="page" media="web print epub"</xsl:processing-instruction>
@@ -185,18 +203,19 @@
     phiDel/text()             |
     phiAdd/text()             |
     operation/text()          |
-    substitution/text()"/>
+    substitution/text()       |
+    mrgTextZoneUp/text()      |
+    mrgTextZoneOut/text()     |
+    expl/text()
+    "/>
   
   <xsl:template match="text()">
     <xsl:value-of select="."/>
   </xsl:template>
   
   <xsl:template match="
-    mrgTextZoneUp  |
-    mrgTextZoneOut |
-    hdLineMargin   |
     apparatoFigure |
-    placeholder"/>
+    placeholder" />
   
   <!-- Managing punctuation -->
   
@@ -283,7 +302,14 @@
       </xsl:attribute>
     </pb>
     
-    <xsl:apply-templates select="node()[self::mainZone or self::graphZoneFig]"/>
+    <xsl:apply-templates select="node()[
+        self::mainZone
+        or self::graphZoneFig
+        or self::mrgTextZoneUp
+        or self::mrgTextZoneOut
+        or self::hdLineMargin
+        or self::apparatoFigure
+      ]"/>
   </xsl:template>
   
   <xsl:template match="mainZone">
@@ -471,11 +497,11 @@
     
     <xsl:choose>
       <xsl:when test="$type = 'pause'">
-        <p rend="bold" type="pause">
+        <trailer rend="bold" type="pause">
           <xsl:apply-templates select="line/node()">
             <xsl:with-param name="firstSegId" select="$firstSegId" tunnel="yes"/>
           </xsl:apply-templates>
-        </p>
+        </trailer>
       </xsl:when>
       <xsl:otherwise>
         <head n="{$level}" type="{$type}">
@@ -485,6 +511,31 @@
         </head>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="hdLineMargin">
+    <!-- Navigate to get page number -->
+    <xsl:variable name="pageNum"
+      select="xs:integer(
+          if (ancestor::page[1]/numbZone//num)
+            then normalize-space(ancestor::page[1]/numbZone//num[1])
+          else normalize-space(
+              ancestor::page[1]/numbZone//seg[matches(normalize-space(.), '^\d+$')][1]
+            )
+        )"/>
+    
+    <xsl:variable name="marginPlace">
+      <xsl:call-template name="margin-place">
+        <xsl:with-param name="pageNum" select="$pageNum"/>
+      </xsl:call-template>
+    </xsl:variable>
+    
+    <head
+      type="margin"
+      place="{$marginPlace}"
+      n="{string-length(translate(level, ' ', ''))}">
+      <xsl:apply-templates select="line"/>
+    </head>
   </xsl:template>
   
   <xsl:template match="line">
@@ -498,6 +549,73 @@
   
   <xsl:template match="textSeq">
     <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="mrgTextZoneLow">
+    <div type="margin" place="lower">
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+  
+  <xsl:template match="mrgTextZoneUp">
+    <div type="margin" place="upper">
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+  
+  <xsl:template match="mrgTextZoneIn">
+    <!-- Navigate to get page number -->
+    <xsl:variable name="pageNum"
+      select="xs:integer(
+          if (ancestor::page[1]/numbZone//num)
+            then normalize-space(ancestor::page[1]/numbZone//num[1])
+          else normalize-space(
+              ancestor::page[1]/numbZone//seg[matches(normalize-space(.), '^\d+$')][1]
+            )
+        )"/>
+    
+    <!-- Get the right place basing on position (inner is true) -->
+    <div type="margin">
+      <xsl:attribute name="place">
+        <xsl:call-template name="margin-place">
+          <xsl:with-param name="pageNum" select="$pageNum"/>
+          <xsl:with-param name="inner" select="true()"/>
+        </xsl:call-template>
+      </xsl:attribute>
+      
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+  
+  <xsl:template match="mrgTextZoneOut">
+    <!-- Navigate to get page number -->
+    <xsl:variable name="pageNum"
+      select="xs:integer(
+          if (ancestor::page[1]/numbZone//num)
+            then normalize-space(ancestor::page[1]/numbZone//num[1])
+          else normalize-space(
+              ancestor::page[1]/numbZone//seg[matches(normalize-space(.), '^\d+$')][1]
+            )
+        )"/>
+    
+    <!-- Get the right place basing on position (inner is false = outer position) -->
+    <div type="margin">
+      <xsl:attribute name="place">
+        <xsl:call-template name="margin-place">
+          <xsl:with-param name="pageNum" select="$pageNum"/>
+          <xsl:with-param name="inner" select="false()"/>
+        </xsl:call-template>
+      </xsl:attribute>
+      
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+
+  <!-- expl = explication-->
+  <xsl:template match="expl">
+    <note type="explication">
+      <xsl:apply-templates/>
+    </note>
   </xsl:template>
   
   <!--

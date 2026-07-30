@@ -1585,9 +1585,9 @@
                      <pc type="period" float="left" force="strong">.</pc>
                   </l>
                </ab>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <ab n="5">
                   <l n="21">
                      <w>Eine</w>
@@ -1687,9 +1687,9 @@
                   <w>Gliederung</w>
                   <pc type="period" float="left" force="strong">.</pc>
                </l>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <ab n="3">
                   <l n="11">
                      <w>Wir</w>
@@ -2065,11 +2065,11 @@
                      </add>
                   </choice>
                </l>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
                   <pc type="punct" force="inter">*</pc>
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <ab n="3">
                   <l n="3">
                      <w>Nach</w>
@@ -2441,9 +2441,9 @@
                      <pc type="period" float="left" force="strong">.</pc>
                   </l>
                </ab>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
             </div>
             <div n="11">
                <pb n="8" facs="83051.jpg"/>
@@ -2499,7 +2499,7 @@
                      <pc type="period" float="left" force="strong">.</pc>
                   </l>
                </ab>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
                   <add>
                      <w>Man</w>
@@ -2507,7 +2507,7 @@
                      <w>einordnen</w>
                      <w>müssen</w>
                   </add>
-               </p>
+               </trailer>
                <l n="7">
                   <add>
                      <w>Hauptsachen</w>
@@ -2848,6 +2848,14 @@
             </div>
             <div n="13">
                <pb n="10" facs="83053.jpg"/>
+               <div type="margin" place="upper">
+                  <l n="1">
+                     <pc type="bracketOpen" float="right" force="inter">(</pc>
+                     <w>linear</w>
+                     <w>aktiv</w>
+                     <pc type="bracketClose" float="left" force="inter">)</pc>
+                  </l>
+               </div>
                <l n="2">
                   <w>Diese</w>
                   <w>neue</w>
@@ -3408,9 +3416,71 @@
                   <w>146</w>
                   <pc type="bracketClose" float="left" force="inter">)</pc>
                </l>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
+               <div type="margin" place="left">
+                  <note type="explication">
+                     <l n="21">
+                        <w>Bilder–Beispiele</w>
+                        <pc type="colon" float="left" force="weak">:</pc>
+                     </l>
+                     <l n="22">
+                        <w>vom</w>
+                        <w>Schicksal</w>
+                        <w>zweier</w>
+                        <w>Mädchen</w>
+                        <w>u</w>
+                        <pc type="period" float="left" force="strong">.</pc>
+                        <w>Vorläufer</w>
+                     </l>
+                     <l n="23">
+                        <w>die</w>
+                        <w>Wartenden</w>
+                     </l>
+                     <l n="24">
+                        <w>Massengebet</w>
+                     </l>
+                  </note>
+                  <l n="25">
+                     <w>b</w>
+                  </l>
+                  <l n="26">
+                     <w>linear</w>
+                     <w>aktiv</w>
+                  </l>
+                  <l n="27">
+                     <w>Jawlensky</w>
+                     <w>Christus</w>
+                     <w>Kopf</w>
+                     <w>linear</w>
+                     <w>aktiv</w>
+                     <w>gemalt</w>
+                  </l>
+                  <l n="28">
+                     <w>Aquarelle</w>
+                  </l>
+                  <l n="29">
+                     <w>für</w>
+                     <w>linear</w>
+                     <w>passiv</w>
+                  </l>
+                  <l n="30">
+                     <w>Composition</w>
+                     <w>1919</w>
+                     <pc type="slash" float="both" force="inter">/</pc>
+                     <w>156</w>
+                  </l>
+                  <l n="31">
+                     <w>mit</w>
+                     <w>Linien</w>
+                     <w>beiderlei</w>
+                     <w>Charak -</w>
+                  </l>
+                  <l n="32">
+                     <w>ters</w>
+                  </l>
+               </div>
             </div>
             <div n="16">
                <pb n="13" facs="83056.jpg"/>
@@ -3523,9 +3593,9 @@
                      <w>Natur</w>
                   </l>
                </ab>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <head n="2" type="unit">
                   <pc type="colon" float="left" force="weak">:</pc>
                   <w>2</w>
@@ -3539,6 +3609,14 @@
                   <w>1921</w>
                   <pc type="period" float="left" force="strong">.</pc>
                </head>
+               <head type="margin" place="right" n="4">
+                  <l n="13">
+                     <w>Conver -</w>
+                  </l>
+                  <l n="14">
+                     <w>genz</w>
+                  </l>
+               </head>
             </div>
             <div n="17">
                <pb n="14" facs="83057.jpg"/>
@@ -3551,6 +3629,11 @@
                   <w>vergleichbar</w>
                   <pc type="period" float="left" force="strong">.</pc>
                </l>
+               <head type="margin" place="left" n="4">
+                  <l n="2">
+                     <w>Divergenz</w>
+                  </l>
+               </head>
             </div>
             <div n="18">
                <pb n="15" facs="83058.jpg"/>
@@ -3897,6 +3980,15 @@
                <l n="2">
                   <w>anzubringen</w>
                </l>
+               <head type="margin" place="left" n="4">
+                  <l n="3">
+                     <w>Quere</w>
+                     <w>Gradie -</w>
+                  </l>
+                  <l n="4">
+                     <w>rung</w>
+                  </l>
+               </head>
             </div>
             <div n="20">
                <pb n="17" facs="83060.jpg"/>
@@ -4025,9 +4117,9 @@
                   <w>können</w>
                   <pc type="period" float="left" force="strong">.</pc>
                </l>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <figure facs="#zone_f83060_fig4">
                   <svg xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 961 738"
@@ -4045,6 +4137,14 @@
                             clip-path="url(#clip-zone_f83060_fig4)"/>
                   </svg>
                </figure>
+               <head type="margin" place="right" n="4">
+                  <l n="11">
+                     <w>Längs -</w>
+                  </l>
+                  <l n="12">
+                     <w>gradierung</w>
+                  </l>
+               </head>
             </div>
             <div n="21">
                <pb n="18" facs="83061.jpg"/>
@@ -5373,9 +5473,15 @@
                      <pc type="period" float="left" force="strong">.</pc>
                   </l>
                </ab>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
+               <head type="margin" place="right" n="4">
+                  <l n="14">
+                     <w>Anmerkg</w>
+                     <pc type="period" float="left" force="strong">.</pc>
+                  </l>
+               </head>
             </div>
             <div n="29">
                <pb n="26" facs="83069.jpg"/>
@@ -7964,6 +8070,16 @@
                   <w>da</w>
                   <pc type="exclam" float="left" force="strong">!</pc>
                </l>
+               <div type="margin" place="left">
+                  <l n="14">
+                     <pc type="exclam" float="left" force="strong">!</pc>
+                     <add>
+                        <w>wirklich</w>
+                        <w>gebaut</w>
+                        <pc type="exclam" float="left" force="strong">!</pc>
+                     </add>
+                  </l>
+               </div>
                <figure facs="#zone_f83081_fig2">
                   <head rend="italic">
                      <w>fig</w> 30  </head>
@@ -8060,9 +8176,9 @@
                             clip-path="url(#clip-zone_f83081_fig3)"/>
                   </svg>
                </figure>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <figure facs="#zone_f83081_fig4">
                   <head rend="italic"> 31a  </head>
                   <svg xmlns="http://www.w3.org/2000/svg"
@@ -8084,9 +8200,9 @@
             </div>
             <div n="42">
                <pb n="39" facs="83082.jpg"/>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <ab n="2">
                   <l n="2">
                      <w>Ich</w>
@@ -8776,9 +8892,9 @@
                      <pc type="period" float="left" force="strong">.</pc>
                   </l>
                </ab>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <head n="3" type="exercise">
                   <pc type="colon" float="left" force="weak">:</pc>
                   <w>9</w>
@@ -8848,6 +8964,11 @@
                   <pc type="period" float="left" force="strong">.</pc>
                   <w>Januar</w>
                   <w>1922</w>
+               </head>
+               <head type="margin" place="left" n="4">
+                  <l n="3">
+                     <w>Structur</w>
+                  </l>
                </head>
             </div>
             <div n="46">
@@ -9128,9 +9249,9 @@
                      </add>
                   </l>
                </ab>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <ab n="3">
                   <l n="18">
                      <w>Anm</w>
@@ -9365,9 +9486,9 @@
                      <pc type="period" float="left" force="strong">.</pc>
                   </l>
                </ab>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <ab n="5">
                   <l n="17">
                      <w>Also</w>
@@ -9568,9 +9689,9 @@
                      <pc type="period" float="left" force="strong">.</pc>
                   </l>
                </ab>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
                <figure facs="#zone_f83089_fig4">
                   <head rend="italic">
                      <w>fig</w> 7a  </head>
@@ -10982,9 +11103,9 @@
                   <w>nennt</w>
                   <pc type="period" float="left" force="strong">.</pc>
                </l>
-               <p rend="bold" type="pause">
+               <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
-               </p>
+               </trailer>
             </div>
             <div n="58">
                <pb n="55" facs="83098.jpg"/>
