@@ -202,12 +202,13 @@
     pencil/text()             |
     phiDel/text()             |
     phiAdd/text()             |
+    phiSub/text()             |
     operation/text()          |
     substitution/text()       |
     mrgTextZoneUp/text()      |
     mrgTextZoneOut/text()     |
     expl/text()
-    "/>
+                  "/>
   
   <xsl:template match="text()">
     <xsl:value-of select="."/>
@@ -284,21 +285,21 @@
   <xsl:template match="page">
     <pb>
       <xsl:attribute name="n">
-          <xsl:choose>
-              <xsl:when test="numbZone//num">
-                  <xsl:value-of select="normalize-space(numbZone//num[1])"/>
-              </xsl:when>
-              <xsl:otherwise>
-                  <xsl:value-of
-                      select="normalize-space(
-                          numbZone//seg[matches(normalize-space(.), '^\d+$')][1]
-                      )"/>
-              </xsl:otherwise>
-          </xsl:choose>
+        <xsl:choose>
+          <xsl:when test="numbZone//num">
+            <xsl:value-of select="normalize-space(numbZone//num[1])"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of
+              select="normalize-space(
+                  numbZone//seg[matches(normalize-space(.), '^\d+$')][1]
+                )"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:attribute>
       <xsl:attribute name="facs">
         <xsl:value-of select="normalize-space(facsimile//num)"/>
-          <xsl:text>.jpg</xsl:text>
+        <xsl:text>.jpg</xsl:text>
       </xsl:attribute>
     </pb>
     
@@ -533,6 +534,7 @@
     <head
       type="margin"
       place="{$marginPlace}"
+      rend="margin-head margin-{$marginPlace}"
       n="{string-length(translate(level, ' ', ''))}">
       <xsl:apply-templates select="line"/>
     </head>
@@ -552,13 +554,13 @@
   </xsl:template>
   
   <xsl:template match="mrgTextZoneLow">
-    <div type="margin" place="lower">
+    <div type="margin" place="lower" rend="margin-lower">
       <xsl:apply-templates/>
     </div>
   </xsl:template>
   
   <xsl:template match="mrgTextZoneUp">
-    <div type="margin" place="upper">
+    <div type="margin" place="upper" rend="margin-upper">
       <xsl:apply-templates/>
     </div>
   </xsl:template>
@@ -575,14 +577,13 @@
         )"/>
     
     <!-- Get the right place basing on position (inner is true) -->
-    <div type="margin">
-      <xsl:attribute name="place">
-        <xsl:call-template name="margin-place">
-          <xsl:with-param name="pageNum" select="$pageNum"/>
-          <xsl:with-param name="inner" select="true()"/>
-        </xsl:call-template>
-      </xsl:attribute>
-      
+    <xsl:variable name="marginPlace">
+      <xsl:call-template name="margin-place">
+        <xsl:with-param name="pageNum" select="$pageNum"/>
+        <xsl:with-param name="inner" select="true()"/>
+      </xsl:call-template>
+    </xsl:variable>
+    <div type="margin" place="{$marginPlace}" rend="margin-{$marginPlace}">
       <xsl:apply-templates/>
     </div>
   </xsl:template>
@@ -599,22 +600,24 @@
         )"/>
     
     <!-- Get the right place basing on position (inner is false = outer position) -->
-    <div type="margin">
-      <xsl:attribute name="place">
-        <xsl:call-template name="margin-place">
-          <xsl:with-param name="pageNum" select="$pageNum"/>
-          <xsl:with-param name="inner" select="false()"/>
-        </xsl:call-template>
-      </xsl:attribute>
-      
+    <xsl:variable name="marginPlace">
+      <xsl:call-template name="margin-place">
+        <xsl:with-param name="pageNum" select="$pageNum"/>
+        <xsl:with-param name="inner" select="false()"/>
+      </xsl:call-template>
+    </xsl:variable>
+    <div type="margin" place="{$marginPlace}" rend="margin-{$marginPlace}">
       <xsl:apply-templates/>
     </div>
   </xsl:template>
-
+  
   <!-- expl = explication-->
   <xsl:template match="expl">
     <note type="explication">
-      <xsl:apply-templates/>
+      <label>
+        <xsl:apply-templates select="line[1]"/>
+      </label>
+      <xsl:apply-templates select="line[position() > 1]"/>
     </note>
   </xsl:template>
   
@@ -744,7 +747,15 @@
   </xsl:template>
   
   <xsl:template match="phiAdd">
-    <add rend="overstrike"><xsl:apply-templates/></add>
+    <supplied>
+      <xsl:apply-templates/>
+    </supplied>
+  </xsl:template>
+  
+  <xsl:template match="phiSub">
+    <choice>
+      <xsl:apply-templates/>
+    </choice>
   </xsl:template>
   
   <xsl:template match="underlined | underlined_app">
@@ -758,7 +769,7 @@
   <!-- above). All templates here stay INLINE -->
   
   <!-- prefix/suffix become plain text, not their own <w> -->
- 
+  
   <xsl:template match="prefix | prefix_app" mode="wordpart">
     <xsl:param name="includePrefix" tunnel="yes" select="true()"/>
     <xsl:if test="$includePrefix">
@@ -832,7 +843,15 @@
   </xsl:template>
   
   <xsl:template match="phiAdd" mode="wordpart">
-    <add rend="overstrike"><xsl:apply-templates mode="wordpart"/></add>
+    <supplied>
+      <xsl:apply-templates mode="wordpart"/>
+    </supplied>
+  </xsl:template>
+  
+  <xsl:template match="phiSub" mode="wordpart">
+    <choice>
+      <xsl:apply-templates mode="wordpart"/>
+    </choice>
   </xsl:template>
   
   <xsl:template match="underlined | underlined_app" mode="wordpart">

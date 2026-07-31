@@ -2477,9 +2477,9 @@
                      <w>Endergebnis</w>
                      <w>zu</w>
                      <w>bereichern</w>
-                     <add rend="overstrike">
+                     <supplied>
                         <pc type="comma" float="left" force="weak">,</pc>
-                     </add>
+                     </supplied>
                      <w>ohne</w>
                   </l>
                   <l n="4">
@@ -2848,7 +2848,7 @@
             </div>
             <div n="13">
                <pb n="10" facs="83053.jpg"/>
-               <div type="margin" place="upper">
+               <div type="margin" place="upper" rend="margin-upper">
                   <l n="1">
                      <pc type="bracketOpen" float="right" force="inter">(</pc>
                      <w>linear</w>
@@ -3419,12 +3419,14 @@
                <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
                </trailer>
-               <div type="margin" place="left">
+               <div type="margin" place="left" rend="margin-left">
                   <note type="explication">
-                     <l n="21">
-                        <w>Bilder–Beispiele</w>
-                        <pc type="colon" float="left" force="weak">:</pc>
-                     </l>
+                     <label>
+                        <l n="21">
+                           <w>Bilder–Beispiele</w>
+                           <pc type="colon" float="left" force="weak">:</pc>
+                        </l>
+                     </label>
                      <l n="22">
                         <w>vom</w>
                         <w>Schicksal</w>
@@ -3531,10 +3533,10 @@
                      <w>nicht</w>
                      <w>Maschine</w>
                      <pc type="bracketClose" float="left" force="inter">)</pc>
-                     <add rend="overstrike">
+                     <supplied>
                         <pc type="slash" float="both" force="inter">/</pc>
                         <pc type="period" float="left" force="strong">.</pc>
-                     </add>
+                     </supplied>
                      <w>Die</w>
                      <w>Auffassung</w>
                      <w>beispielsweise</w>
@@ -3609,7 +3611,10 @@
                   <w>1921</w>
                   <pc type="period" float="left" force="strong">.</pc>
                </head>
-               <head type="margin" place="right" n="4">
+               <head type="margin"
+                     place="right"
+                     rend="margin-head margin-right"
+                     n="4">
                   <l n="13">
                      <w>Conver -</w>
                   </l>
@@ -3629,7 +3634,7 @@
                   <w>vergleichbar</w>
                   <pc type="period" float="left" force="strong">.</pc>
                </l>
-               <head type="margin" place="left" n="4">
+               <head type="margin" place="left" rend="margin-head margin-left" n="4">
                   <l n="2">
                      <w>Divergenz</w>
                   </l>
@@ -3980,7 +3985,7 @@
                <l n="2">
                   <w>anzubringen</w>
                </l>
-               <head type="margin" place="left" n="4">
+               <head type="margin" place="left" rend="margin-head margin-left" n="4">
                   <l n="3">
                      <w>Quere</w>
                      <w>Gradie -</w>
@@ -4137,7 +4142,10 @@
                             clip-path="url(#clip-zone_f83060_fig4)"/>
                   </svg>
                </figure>
-               <head type="margin" place="right" n="4">
+               <head type="margin"
+                     place="right"
+                     rend="margin-head margin-right"
+                     n="4">
                   <l n="11">
                      <w>Längs -</w>
                   </l>
@@ -4775,7 +4783,7 @@
                      <pc type="period" float="left" force="strong">.</pc>
                      <w>Nehmen</w>
                      <w>wir</w>
-                     <w>an<add rend="overstrike">, </add>
+                     <w>an<supplied>, </supplied>
                      </w>
                      <w>dass</w>
                      <w>er</w>
@@ -5476,7 +5484,10 @@
                <trailer rend="bold" type="pause">
                   <pc type="punct" force="inter">*</pc>
                </trailer>
-               <head type="margin" place="right" n="4">
+               <head type="margin"
+                     place="right"
+                     rend="margin-head margin-right"
+                     n="4">
                   <l n="14">
                      <w>Anmerkg</w>
                      <pc type="period" float="left" force="strong">.</pc>
@@ -6113,10 +6124,10 @@
                      <w>fig</w>
                      <w>3</w>
                      <w>u</w>
-                     <add rend="overstrike">
+                     <supplied>
                         <pc type="slash" float="both" force="inter">/</pc>
                         <pc type="period" float="left" force="strong">.</pc>
-                     </add>
+                     </supplied>
                      <w>3</w>
                      <w>a</w>
                      <pc type="bracketClose" float="left" force="inter">)</pc>
@@ -8070,7 +8081,7 @@
                   <w>da</w>
                   <pc type="exclam" float="left" force="strong">!</pc>
                </l>
-               <div type="margin" place="left">
+               <div type="margin" place="left" rend="margin-left">
                   <l n="14">
                      <pc type="exclam" float="left" force="strong">!</pc>
                      <add>
@@ -8965,7 +8976,7 @@
                   <w>Januar</w>
                   <w>1922</w>
                </head>
-               <head type="margin" place="left" n="4">
+               <head type="margin" place="left" rend="margin-head margin-left" n="4">
                   <l n="3">
                      <w>Structur</w>
                   </l>
