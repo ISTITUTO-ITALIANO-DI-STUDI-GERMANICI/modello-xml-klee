@@ -182,7 +182,12 @@
         </facsimile>
         <text>
           <body>
-            <xsl:apply-templates/>
+            <xsl:variable name="flatBody">
+              <xsl:apply-templates/>
+            </xsl:variable>
+            <xsl:call-template name="nest-headings">
+              <xsl:with-param name="nodes" select="$flatBody/node()"/>
+            </xsl:call-template>
           </body>
         </text>
       </TEI>
@@ -274,12 +279,79 @@
   
   <!-- Main structure -->
   <xsl:template match="*[local-name()='div']">
-    <div>
-      <xsl:attribute name="n">
-        <xsl:value-of select="@n"/>
-      </xsl:attribute>
-      <xsl:apply-templates/>
-    </div>
+    <!-- The source div is just a per-scan grouping (one per <page>); real
+         sectioning comes from <head>/@n via nest-headings below, so we
+         simply flatten through here instead of emitting a div ourselves. -->
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <!--
+       Turns the flat sequence of <head>/<pb>/<ab>/... produced above into
+       properly nested <div>s, one per section, with the section <head> as
+       its first child.
+  -->
+  <xsl:template name="nest-headings">
+    <xsl:param name="nodes" as="node()*"/>
+    
+    <!-- If I want to exclude margin headings, just add "[not(@type = 'margin')]" 
+         in the select below (after [local-name() = 'head']) -->
+    <xsl:variable name="headLevels"
+      select="for $h in $nodes[local-name() = 'head']
+        return xs:integer($h/@n)"/>
+    
+    <xsl:choose>
+      <xsl:when test="empty($headLevels)">
+        <xsl:sequence select="$nodes"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="minLevel" select="min($headLevels)"/>
+        <!-- A <pb> immediately followed by the boundary head belongs to the
+             page the NEW section starts on, not to the section that is
+             ending, so it must open the new group together with that head
+             (pb first, then head) rather than trail off the previous one. -->
+        <xsl:for-each-group select="$nodes"
+          group-starting-with="
+            *[local-name() = 'pb'][following-sibling::*[1]
+              [local-name() = 'head'][not(@type = 'margin')][xs:integer(@n) = $minLevel]]
+            | *[local-name() = 'head'][not(@type = 'margin')][xs:integer(@n) = $minLevel]
+            [not(preceding-sibling::*[1][local-name() = 'pb'])]">
+          <xsl:choose>
+            <xsl:when test="local-name() = 'head' and not(@type = 'margin') and xs:integer(@n) = $minLevel">
+              <div n="{$minLevel}">
+                <xsl:if test="@type"><xsl:attribute name="type" select="@type"/></xsl:if>
+                <xsl:sequence select="."/>
+                <xsl:call-template name="nest-headings">
+                  <xsl:with-param name="nodes" select="current-group()[position() gt 1]"/>
+                </xsl:call-template>
+              </div>
+            </xsl:when>
+            <xsl:when test="local-name() = 'pb'">
+              <!-- Group starts with a pb whose very next sibling is the
+                   boundary head: keep the pb as the section's own first
+                   child, immediately followed by its head - both direct
+                   children of the div, unwrapped. -->
+              <div n="{$minLevel}">
+                <xsl:if test="current-group()[2]/@type">
+                  <xsl:attribute name="type" select="current-group()[2]/@type"/>
+                </xsl:if>
+                <xsl:sequence select="current-group()[1]"/>
+                <xsl:sequence select="current-group()[2]"/>
+                <xsl:call-template name="nest-headings">
+                  <xsl:with-param name="nodes" select="current-group()[position() gt 2]"/>
+                </xsl:call-template>
+              </div>
+            </xsl:when>
+            <xsl:otherwise>
+              <!-- Content before the first boundary head at this depth (or
+                   deeper-level heads trapped between shallower siblings). -->
+              <xsl:call-template name="nest-headings">
+                <xsl:with-param name="nodes" select="current-group()"/>
+              </xsl:call-template>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:for-each-group>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="page">
@@ -531,13 +603,18 @@
       </xsl:call-template>
     </xsl:variable>
     
-    <head
+    <!-- Intentionally NOT <head>: a TOC walker that collects every <head>
+         descendant (not just a div's first child) would otherwise still
+         list these margin titles as flat, unnested entries. <label> is
+         the correct TEI element for a non-sectioning caption/title and is
+         never treated as a heading by TOC code. -->
+    <label
       type="margin"
       place="{$marginPlace}"
       rend="margin-head margin-{$marginPlace}"
       n="{string-length(translate(level, ' ', ''))}">
       <xsl:apply-templates select="line"/>
-    </head>
+    </label>
   </xsl:template>
   
   <xsl:template match="line">
@@ -554,15 +631,15 @@
   </xsl:template>
   
   <xsl:template match="mrgTextZoneLow">
-    <div type="margin" place="lower" rend="margin-lower">
+    <ab type="margin" place="lower" rend="margin-lower">
       <xsl:apply-templates/>
-    </div>
+    </ab>
   </xsl:template>
   
   <xsl:template match="mrgTextZoneUp">
-    <div type="margin" place="upper" rend="margin-upper">
+    <ab type="margin" place="upper" rend="margin-upper">
       <xsl:apply-templates/>
-    </div>
+    </ab>
   </xsl:template>
   
   <xsl:template match="mrgTextZoneIn">
@@ -583,9 +660,9 @@
         <xsl:with-param name="inner" select="true()"/>
       </xsl:call-template>
     </xsl:variable>
-    <div type="margin" place="{$marginPlace}" rend="margin-{$marginPlace}">
+    <ab type="margin" place="{$marginPlace}" rend="margin-{$marginPlace}">
       <xsl:apply-templates/>
-    </div>
+    </ab>
   </xsl:template>
   
   <xsl:template match="mrgTextZoneOut">
@@ -606,9 +683,9 @@
         <xsl:with-param name="inner" select="false()"/>
       </xsl:call-template>
     </xsl:variable>
-    <div type="margin" place="{$marginPlace}" rend="margin-{$marginPlace}">
+    <ab type="margin" place="{$marginPlace}" rend="margin-{$marginPlace}">
       <xsl:apply-templates/>
-    </div>
+    </ab>
   </xsl:template>
   
   <!-- expl = explication-->
