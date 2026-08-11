@@ -1,0 +1,7 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <triggers>
+        <trigger class="org.exist.collections.triggers.XQueryTrigger">
+            <parameter name="url" value="xmldb:exist:///db/apps/discept-sync/src/trigger/versioning.xqm"/>
+        </trigger>
+    </triggers>
+</collection>

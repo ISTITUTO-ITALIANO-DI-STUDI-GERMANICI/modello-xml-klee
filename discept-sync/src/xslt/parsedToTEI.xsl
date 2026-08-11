@@ -39,27 +39,9 @@
     </zone>
   </xsl:template>
   
-  <!-- This template manages margin text positioning -->
-  <xsl:template name="margin-place">
-    <xsl:param name="pageNum" as="xs:integer"/>
-    <xsl:param name="inner" as="xs:boolean" select="false()"/>
-    
-    <xsl:choose>
-      <!-- Outer page: if even page go left, else right -->
-      <xsl:when test="not($inner)">
-        <xsl:value-of select="if ($pageNum mod 2 = 0) then 'left' else 'right'"/>
-      </xsl:when>
-      
-      <!-- Inner page: swap positions -->
-      <xsl:otherwise>
-        <xsl:value-of select="if ($pageNum mod 2 = 0) then 'right' else 'left'"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-  
   <xsl:template match="/">
     
-    <xsl:processing-instruction name="teipublisher">odd="klee.odd" template="klee2.html" view="page" media="web print epub"</xsl:processing-instruction>
+    <xsl:processing-instruction name="teipublisher">odd="klee.odd" template="klee2.html" view="page" media="web"</xsl:processing-instruction>
     
     <TEI version="3.3.0">
       
@@ -67,18 +49,13 @@
       <teiHeader>
         <fileDesc>
           <titleStmt>
-            <title>Beiträge zur bildnerischen Formlehre.</title>
+            <title>Klee</title>
           </titleStmt>
           <publicationStmt>
-            <publisher>Istituto Italiano di Studi Germanici - IISG</publisher>
+            <p/>
           </publicationStmt>
           <sourceDesc/>
         </fileDesc>
-        <encodingDesc>
-          <tagsDecl>
-            <rendition source="klee.css"/>
-          </tagsDecl>
-        </encodingDesc>
         <profileDesc/>
       </teiHeader>
       
@@ -182,12 +159,7 @@
         </facsimile>
         <text>
           <body>
-            <xsl:variable name="flatBody">
-              <xsl:apply-templates/>
-            </xsl:variable>
-            <xsl:call-template name="nest-headings">
-              <xsl:with-param name="nodes" select="$flatBody/node()"/>
-            </xsl:call-template>
+            <xsl:apply-templates/>
           </body>
         </text>
       </TEI>
@@ -207,21 +179,19 @@
     pencil/text()             |
     phiDel/text()             |
     phiAdd/text()             |
-    phiSub/text()             |
     operation/text()          |
-    substitution/text()       |
-    mrgTextZoneUp/text()      |
-    mrgTextZoneOut/text()     |
-    expl/text()
-                  "/>
+    substitution/text()"/>
   
   <xsl:template match="text()">
     <xsl:value-of select="."/>
   </xsl:template>
   
   <xsl:template match="
+    mrgTextZoneUp  |
+    mrgTextZoneOut |
+    hdLineMargin   |
     apparatoFigure |
-    placeholder" />
+    placeholder"/>
   
   <!-- Managing punctuation -->
   
@@ -251,15 +221,13 @@
       </xsl:attribute>
       
       <!-- Where it joins -->
-      <xsl:if test="$char != '*'">
-        <xsl:attribute name="float">
-          <xsl:choose>
-            <xsl:when test="$char = ('.', ',', ';', ':', '!', '?', ')', ']', '»', '…', '...')">left</xsl:when>
-            <xsl:when test="$char = ('(', '[', '«')">right</xsl:when>
-            <xsl:otherwise>both</xsl:otherwise>
-          </xsl:choose>
-        </xsl:attribute>
-      </xsl:if>
+      <xsl:attribute name="join">
+        <xsl:choose>
+          <xsl:when test="$char = ('.', ',', ';', ':', '!', '?', ')', ']', '»', '…', '...')">left</xsl:when>
+          <xsl:when test="$char = ('(', '[', '«')">right</xsl:when>
+          <xsl:otherwise>both</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
       
       <!-- How strong it is -->
       <xsl:attribute name="force">
@@ -279,117 +247,33 @@
   
   <!-- Main structure -->
   <xsl:template match="*[local-name()='div']">
-    <!-- The source div is just a per-scan grouping (one per <page>); real
-         sectioning comes from <head>/@n via nest-headings below, so we
-         simply flatten through here instead of emitting a div ourselves. -->
-    <xsl:apply-templates/>
-  </xsl:template>
-  
-  <!--
-       Turns the flat sequence of <head>/<pb>/<ab>/... produced above into
-       properly nested <div>s, one per section, with the section <head> as
-       its first child.
-  -->
-  <xsl:template name="nest-headings">
-    <xsl:param name="nodes" as="node()*"/>
-    
-    <!-- If I want to exclude margin headings, just add "[not(@type = 'margin')]" 
-         in the select below (after [local-name() = 'head']) -->
-    <xsl:variable name="headLevels"
-      select="for $h in $nodes[local-name() = 'head']
-        return xs:integer($h/@n)"/>
-    
-    <xsl:choose>
-      <xsl:when test="empty($headLevels)">
-        <xsl:sequence select="$nodes"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:variable name="minLevel" select="min($headLevels)"/>
-        <!-- A <pb> immediately followed by the boundary head belongs to the
-             page the NEW section starts on, not to the section that is
-             ending, so it must open the new group together with that head
-             (pb first, then head) rather than trail off the previous one. -->
-        <xsl:for-each-group select="$nodes"
-          group-starting-with="
-            *[local-name() = 'pb'][following-sibling::*[1]
-              [local-name() = 'head'][not(@type = 'margin')][xs:integer(@n) = $minLevel]]
-            | *[local-name() = 'head'][not(@type = 'margin')][xs:integer(@n) = $minLevel]
-            [not(preceding-sibling::*[1][local-name() = 'pb'])]">
-          <xsl:choose>
-            <xsl:when test="local-name() = 'head' and not(@type = 'margin') and xs:integer(@n) = $minLevel">
-              <div n="{$minLevel}">
-                <xsl:if test="@type"><xsl:attribute name="type" select="@type"/></xsl:if>
-                <xsl:sequence select="."/>
-                <xsl:call-template name="nest-headings">
-                  <xsl:with-param name="nodes" select="current-group()[position() gt 1]"/>
-                </xsl:call-template>
-              </div>
-            </xsl:when>
-            <xsl:when test="local-name() = 'pb'">
-              <!-- Group starts with a pb whose very next sibling is the
-                   boundary head: keep the pb as the section's own first
-                   child, immediately followed by its head - both direct
-                   children of the div, unwrapped. -->
-              <div n="{$minLevel}">
-                <xsl:if test="current-group()[2]/@type">
-                  <xsl:attribute name="type" select="current-group()[2]/@type"/>
-                </xsl:if>
-                <xsl:sequence select="current-group()[1]"/>
-                <xsl:sequence select="current-group()[2]"/>
-                <xsl:call-template name="nest-headings">
-                  <xsl:with-param name="nodes" select="current-group()[position() gt 2]"/>
-                </xsl:call-template>
-              </div>
-            </xsl:when>
-            <xsl:otherwise>
-              <!-- Content before the first boundary head at this depth (or
-                   deeper-level heads trapped between shallower siblings). -->
-              <xsl:call-template name="nest-headings">
-                <xsl:with-param name="nodes" select="current-group()"/>
-              </xsl:call-template>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:for-each-group>
-      </xsl:otherwise>
-    </xsl:choose>
+    <div>
+      <xsl:attribute name="n">
+        <xsl:value-of select="@n"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </div>
   </xsl:template>
   
   <xsl:template match="page">
     <pb>
       <xsl:attribute name="n">
-        <xsl:choose>
-          <xsl:when test="numbZone//num">
-            <xsl:value-of select="normalize-space(numbZone//num[1])"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of
-              select="normalize-space(
-                  numbZone//seg[matches(normalize-space(.), '^\d+$')][1]
-                )"/>
-          </xsl:otherwise>
-        </xsl:choose>
+        <xsl:value-of select="normalize-space(numbZone//num)"/>
       </xsl:attribute>
       <xsl:attribute name="facs">
+        <xsl:text>#f</xsl:text>
         <xsl:value-of select="normalize-space(facsimile//num)"/>
-        <xsl:text>.jpg</xsl:text>
       </xsl:attribute>
     </pb>
     
-    <xsl:apply-templates select="node()[
-        self::mainZone
-        or self::graphZoneFig
-        or self::mrgTextZoneUp
-        or self::mrgTextZoneOut
-        or self::hdLineMargin
-        or self::apparatoFigure
-      ]"/>
+    <xsl:apply-templates select="node()[self::mainZone or self::graphZoneFig]"/>
   </xsl:template>
   
   <xsl:template match="mainZone">
     <xsl:for-each-group select="*" group-starting-with="openPar | sectionHeading">
       <xsl:choose>
         <xsl:when test="self::openPar">
-          <ab n="{position()}">
+          <ab type="parag" n="{position()}">
             <xsl:apply-templates select="current-group()[not(self::openPar)]"/>
           </ab>
         </xsl:when>
@@ -408,17 +292,66 @@
     <xsl:variable name="pageNum" select="normalize-space(ancestor::page[1]/facsimile/num)"/>
     <xsl:variable name="figOrdinal" select="count(preceding-sibling::graphZoneFig) + 1"/>
     
+    <xsl:variable name="altoPath" select="concat('data/', $pageNum, '.xml')"/>
+    <xsl:variable name="altoDoc" select="if (doc-available($altoPath)) then document($altoPath) else ()"/>
+    
     <figure facs="#zone_f{$pageNum}_fig{$figOrdinal}">
+      
+      <!-- Rending figure label -->
       <xsl:if test="$item/label">
         <head rend="italic">
           <xsl:apply-templates select="$item/label" mode="fig"/>
         </head>
       </xsl:if>
+      
+      <!-- Initializing all values -->
+      <xsl:if test="$altoDoc">
+        <xsl:variable name="pageWidth" select="$altoDoc//alto:Page/@WIDTH"/>
+        <xsl:variable name="pageHeight" select="$altoDoc//alto:Page/@HEIGHT"/>
+        <xsl:variable name="tagId"
+          select="$altoDoc//alto:OtherTag[@LABEL = concat('GraphicZone:figure#', $figOrdinal)]/@ID"/>
+        <xsl:variable name="block" select="($altoDoc//alto:TextBlock[@TAGREFS = $tagId])[1]"/>
+        
+        <xsl:if test="$block">
+          <xsl:variable name="ulx" select="xs:integer($block/@HPOS)"/>
+          <xsl:variable name="uly" select="xs:integer($block/@VPOS)"/>
+          <xsl:variable name="w" select="xs:integer($block/@WIDTH)"/>
+          <xsl:variable name="h" select="xs:integer($block/@HEIGHT)"/>
+          <xsl:variable name="coords"
+            select="tokenize(normalize-space($block/alto:Shape/alto:Polygon/@POINTS), '\s+')"/>
+          <xsl:variable name="widthPct" select="format-number($w div xs:integer($pageWidth) * 100, '0.##')"/>
+          <xsl:variable name="leftPct" select="format-number($ulx div xs:integer($pageWidth) * 100, '0.##')"/>
+          
+          <!-- Creating an SVG with the proper shape from eScriptorium by all the related coordinates -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {$w} {$h}"
+               style="display:block; width:{$widthPct}%; max-width:100%; height:auto; margin-left:{$leftPct}%;">
+            <defs>
+              <clipPath id="clip-zone_f{$pageNum}_fig{$figOrdinal}" clipPathUnits="userSpaceOnUse">
+                <polygon>
+                  <xsl:attribute name="points">
+                    <xsl:for-each select="1 to (count($coords) div 2)">
+                      <xsl:variable name="i" select="."/>
+                      <xsl:if test="$i gt 1"><xsl:text> </xsl:text></xsl:if>
+                      <!-- Relative values so they suit to the corrispective dimensions -->
+                      <xsl:value-of select="concat(xs:integer($coords[2 * $i - 1]) - $ulx, ',', xs:integer($coords[2 * $i]) - $uly)"/>
+                    </xsl:for-each>
+                  </xsl:attribute>
+                </polygon>
+              </clipPath>
+            </defs>
+            <image href="https://escriptorium.d4science.org/media/documents/3/{$pageNum}.jpg"
+                   x="{-$ulx}" y="{-$uly}" width="{$pageWidth}" height="{$pageHeight}"
+                   clip-path="url(#clip-zone_f{$pageNum}_fig{$figOrdinal})"/>
+          </svg>
+        </xsl:if>
+      </xsl:if>
+      
       <xsl:if test="$item/textinfig">
         <figDesc>
           <xsl:apply-templates select="$item/textinfig" mode="fig"/>
         </figDesc>
       </xsl:if>
+      
     </figure>
   </xsl:template>
   
@@ -495,18 +428,6 @@
     </xsl:for-each>
   </xsl:template>
   
-  <xsl:template match="operation_app" mode="fig">
-    <xsl:apply-templates mode="fig"/>
-  </xsl:template>
-  
-  <xsl:template match="underlined | underlined_app" mode="fig">
-    <hi rend="underline">
-      <xsl:apply-templates
-        select="node()[not(self::text()[matches(., '^\s*_\s*$')])]"
-        mode="fig"/>
-    </hi>
-  </xsl:template>
-  
   <!-- End figures -->
   
   <xsl:template match="sectionHeading">
@@ -521,11 +442,11 @@
     
     <xsl:choose>
       <xsl:when test="$type = 'pause'">
-        <trailer rend="bold" type="pause">
+        <p rend="bold" type="pause">
           <xsl:apply-templates select="line/node()">
             <xsl:with-param name="firstSegId" select="$firstSegId" tunnel="yes"/>
           </xsl:apply-templates>
-        </trailer>
+        </p>
       </xsl:when>
       <xsl:otherwise>
         <head n="{$level}" type="{$type}">
@@ -537,41 +458,10 @@
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="hdLineMargin">
-    <!-- Navigate to get page number -->
-    <xsl:variable name="pageNum"
-      select="xs:integer(
-          if (ancestor::page[1]/numbZone//num)
-            then normalize-space(ancestor::page[1]/numbZone//num[1])
-          else normalize-space(
-              ancestor::page[1]/numbZone//seg[matches(normalize-space(.), '^\d+$')][1]
-            )
-        )"/>
-    
-    <xsl:variable name="marginPlace">
-      <xsl:call-template name="margin-place">
-        <xsl:with-param name="pageNum" select="$pageNum"/>
-      </xsl:call-template>
-    </xsl:variable>
-    
-    <!-- Intentionally NOT <head>: a TOC walker that collects every <head>
-         descendant (not just a div's first child) would otherwise still
-         list these margin titles as flat, unnested entries. <label> is
-         the correct TEI element for a non-sectioning caption/title and is
-         never treated as a heading by TOC code. -->
-    <label
-      type="margin"
-      place="{$marginPlace}"
-      rend="margin-head margin-{$marginPlace}"
-      n="{string-length(translate(level, ' ', ''))}">
-      <xsl:apply-templates select="line"/>
-    </label>
-  </xsl:template>
-  
   <xsl:template match="line">
     <l>
       <xsl:attribute name="n">
-        <xsl:number level="any" count="line" from="page"/>
+        <xsl:number level="any" count="line" from="mainZone"/>
       </xsl:attribute>
       <xsl:apply-templates/>
     </l>
@@ -579,74 +469,6 @@
   
   <xsl:template match="textSeq">
     <xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="mrgTextZoneLow">
-    <ab type="margin" place="lower" rend="margin-lower">
-      <xsl:apply-templates/>
-    </ab>
-  </xsl:template>
-  
-  <xsl:template match="mrgTextZoneUp">
-    <ab type="margin" place="upper" rend="margin-upper">
-      <xsl:apply-templates/>
-    </ab>
-  </xsl:template>
-  
-  <xsl:template match="mrgTextZoneIn">
-    <!-- Navigate to get page number -->
-    <xsl:variable name="pageNum"
-      select="xs:integer(
-          if (ancestor::page[1]/numbZone//num)
-            then normalize-space(ancestor::page[1]/numbZone//num[1])
-          else normalize-space(
-              ancestor::page[1]/numbZone//seg[matches(normalize-space(.), '^\d+$')][1]
-            )
-        )"/>
-    
-    <!-- Get the right place basing on position (inner is true) -->
-    <xsl:variable name="marginPlace">
-      <xsl:call-template name="margin-place">
-        <xsl:with-param name="pageNum" select="$pageNum"/>
-        <xsl:with-param name="inner" select="true()"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <ab type="margin" place="{$marginPlace}" rend="margin-{$marginPlace}">
-      <xsl:apply-templates/>
-    </ab>
-  </xsl:template>
-  
-  <xsl:template match="mrgTextZoneOut">
-    <!-- Navigate to get page number -->
-    <xsl:variable name="pageNum"
-      select="xs:integer(
-          if (ancestor::page[1]/numbZone//num)
-            then normalize-space(ancestor::page[1]/numbZone//num[1])
-          else normalize-space(
-              ancestor::page[1]/numbZone//seg[matches(normalize-space(.), '^\d+$')][1]
-            )
-        )"/>
-    
-    <!-- Get the right place basing on position (inner is false = outer position) -->
-    <xsl:variable name="marginPlace">
-      <xsl:call-template name="margin-place">
-        <xsl:with-param name="pageNum" select="$pageNum"/>
-        <xsl:with-param name="inner" select="false()"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <ab type="margin" place="{$marginPlace}" rend="margin-{$marginPlace}">
-      <xsl:apply-templates/>
-    </ab>
-  </xsl:template>
-  
-  <!-- expl = explication-->
-  <xsl:template match="expl">
-    <note type="explication">
-      <label>
-        <xsl:apply-templates select="line[1]"/>
-      </label>
-      <xsl:apply-templates select="line[position() > 1]"/>
-    </note>
   </xsl:template>
   
   <!--
@@ -775,15 +597,7 @@
   </xsl:template>
   
   <xsl:template match="phiAdd">
-    <supplied>
-      <xsl:apply-templates/>
-    </supplied>
-  </xsl:template>
-  
-  <xsl:template match="phiSub">
-    <choice>
-      <xsl:apply-templates/>
-    </choice>
+    <add rend="overstrike"><xsl:apply-templates/></add>
   </xsl:template>
   
   <xsl:template match="underlined | underlined_app">
@@ -797,7 +611,6 @@
   <!-- above). All templates here stay INLINE -->
   
   <!-- prefix/suffix become plain text, not their own <w> -->
-  
   <xsl:template match="prefix | prefix_app" mode="wordpart">
     <xsl:param name="includePrefix" tunnel="yes" select="true()"/>
     <xsl:if test="$includePrefix">
@@ -871,15 +684,7 @@
   </xsl:template>
   
   <xsl:template match="phiAdd" mode="wordpart">
-    <supplied>
-      <xsl:apply-templates mode="wordpart"/>
-    </supplied>
-  </xsl:template>
-  
-  <xsl:template match="phiSub" mode="wordpart">
-    <choice>
-      <xsl:apply-templates mode="wordpart"/>
-    </choice>
+    <add rend="overstrike"><xsl:apply-templates mode="wordpart"/></add>
   </xsl:template>
   
   <xsl:template match="underlined | underlined_app" mode="wordpart">
