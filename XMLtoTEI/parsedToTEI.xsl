@@ -408,66 +408,17 @@
     <xsl:variable name="pageNum" select="normalize-space(ancestor::page[1]/facsimile/num)"/>
     <xsl:variable name="figOrdinal" select="count(preceding-sibling::graphZoneFig) + 1"/>
     
-    <xsl:variable name="altoPath" select="concat('data/', $pageNum, '.xml')"/>
-    <xsl:variable name="altoDoc" select="if (doc-available($altoPath)) then document($altoPath) else ()"/>
-    
     <figure facs="#zone_f{$pageNum}_fig{$figOrdinal}">
-      
-      <!-- Rending figure label -->
       <xsl:if test="$item/label">
         <head rend="italic">
           <xsl:apply-templates select="$item/label" mode="fig"/>
         </head>
       </xsl:if>
-      
-      <!-- Initializing all values -->
-      <xsl:if test="$altoDoc">
-        <xsl:variable name="pageWidth" select="$altoDoc//alto:Page/@WIDTH"/>
-        <xsl:variable name="pageHeight" select="$altoDoc//alto:Page/@HEIGHT"/>
-        <xsl:variable name="tagId"
-          select="$altoDoc//alto:OtherTag[@LABEL = concat('GraphicZone:figure#', $figOrdinal)]/@ID"/>
-        <xsl:variable name="block" select="($altoDoc//alto:TextBlock[@TAGREFS = $tagId])[1]"/>
-        
-        <xsl:if test="$block">
-          <xsl:variable name="ulx" select="xs:integer($block/@HPOS)"/>
-          <xsl:variable name="uly" select="xs:integer($block/@VPOS)"/>
-          <xsl:variable name="w" select="xs:integer($block/@WIDTH)"/>
-          <xsl:variable name="h" select="xs:integer($block/@HEIGHT)"/>
-          <xsl:variable name="coords"
-            select="tokenize(normalize-space($block/alto:Shape/alto:Polygon/@POINTS), '\s+')"/>
-          <xsl:variable name="widthPct" select="format-number($w div xs:integer($pageWidth) * 100, '0.##')"/>
-          <xsl:variable name="leftPct" select="format-number($ulx div xs:integer($pageWidth) * 100, '0.##')"/>
-          
-          <!-- Creating an SVG with the proper shape from eScriptorium by all the related coordinates -->
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {$w} {$h}"
-               style="display:block; width:{$widthPct}%; max-width:100%; height:auto; margin-left:{$leftPct}%;">
-            <defs>
-              <clipPath id="clip-zone_f{$pageNum}_fig{$figOrdinal}" clipPathUnits="userSpaceOnUse">
-                <polygon>
-                  <xsl:attribute name="points">
-                    <xsl:for-each select="1 to (count($coords) div 2)">
-                      <xsl:variable name="i" select="."/>
-                      <xsl:if test="$i gt 1"><xsl:text> </xsl:text></xsl:if>
-                      <!-- Relative values so they suit to the corrispective dimensions -->
-                      <xsl:value-of select="concat(xs:integer($coords[2 * $i - 1]) - $ulx, ',', xs:integer($coords[2 * $i]) - $uly)"/>
-                    </xsl:for-each>
-                  </xsl:attribute>
-                </polygon>
-              </clipPath>
-            </defs>
-            <image href="https://escriptorium.d4science.org/media/documents/3/{$pageNum}.jpg"
-                   x="{-$ulx}" y="{-$uly}" width="{$pageWidth}" height="{$pageHeight}"
-                   clip-path="url(#clip-zone_f{$pageNum}_fig{$figOrdinal})"/>
-          </svg>
-        </xsl:if>
-      </xsl:if>
-      
       <xsl:if test="$item/textinfig">
         <figDesc>
           <xsl:apply-templates select="$item/textinfig" mode="fig"/>
         </figDesc>
       </xsl:if>
-      
     </figure>
   </xsl:template>
   
