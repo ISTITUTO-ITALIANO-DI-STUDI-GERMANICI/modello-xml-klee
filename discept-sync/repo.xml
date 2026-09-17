@@ -1,0 +1,13 @@
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>DIScEPT Sync</description>
+    <author>Calogero Giudice</author>
+    <website>https://example.org/discept-sync</website>
+    <status>stable</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>discept-sync</target>
+    <prepare>pre-install.xq</prepare>
+    <finish>post-install.xq</finish>
+<deployed>2026-04-10T13:25:35.426Z</deployed>
+</meta>

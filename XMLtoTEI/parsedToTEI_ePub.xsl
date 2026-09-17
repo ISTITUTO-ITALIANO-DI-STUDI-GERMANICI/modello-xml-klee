@@ -41,7 +41,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
-
+  
   <!-- MainZone blocks belonging to the actual text column, filtering out
        short annotation-like blocks (e.g. a lone "do" ditto mark) that are
        much narrower than the page's real column. -->
@@ -53,13 +53,13 @@
     <xsl:variable name="maxW" select="if (exists($widths)) then max($widths) else 0"/>
     <xsl:sequence select="$blocks[xs:double(@WIDTH) ge 0.5 * $maxW]"/>
   </xsl:function>
-
+  
   <xsl:function name="kf:content-ulx" as="xs:double">
     <xsl:param name="altoDoc"/>
     <xsl:variable name="lefts" select="for $b in kf:column-blocks($altoDoc) return xs:double($b/@HPOS)"/>
     <xsl:sequence select="if (exists($lefts)) then kf:median($lefts) else 0"/>
   </xsl:function>
-
+  
   <xsl:function name="kf:content-width" as="xs:double">
     <xsl:param name="altoDoc"/>
     <xsl:variable name="blocks" select="kf:column-blocks($altoDoc)"/>
@@ -69,7 +69,7 @@
     <xsl:variable name="right" select="if (exists($rights)) then kf:median($rights) else xs:double($altoDoc//alto:Page/@WIDTH)"/>
     <xsl:sequence select="$right - $ulx"/>
   </xsl:function>
-
+  
   <!-- Median TextLine height within the text column, used as the "typical
        line" scale to classify small vs. tall figures (hRatio). -->
   <xsl:function name="kf:median-line-height" as="xs:double">
@@ -77,7 +77,7 @@
     <xsl:variable name="heights" select="for $l in kf:column-blocks($altoDoc)//alto:TextLine return xs:double($l/@HEIGHT)"/>
     <xsl:sequence select="if (exists($heights)) then kf:median($heights) else 0"/>
   </xsl:function>
-
+  
   <!-- We define a particular ALTO zone from an eScriptorium XML -->
   <xsl:template name="alto-zone">
     <xsl:param name="zoneId"/>
@@ -176,10 +176,10 @@
         <facsimile>
           <!-- Cover and inner cover (pages -2 and -1) -->
           <surface xml:id="f65281">
-            <graphic url="https://escriptorium.d4science.org/media/documents/3/65281.jpg"/>
+            <graphic url="./resources/images/klee/65281.jpg"/>
           </surface>
           <surface xml:id="f67096">
-            <graphic url="https://escriptorium.d4science.org/media/documents/3/67096.jpg"/>
+            <graphic url="./resources/images/klee/67096.jpg"/>
           </surface>
           <!-- Other pages -->
           <xsl:for-each select="//page[facsimile/num]">
@@ -215,7 +215,7 @@
               </xsl:if>
               <graphic>
                 <xsl:attribute name="url">
-                  <xsl:value-of select="concat('https://escriptorium.d4science.org/media/documents/3/', $fid, '.jpg')"/>
+                  <xsl:value-of select="concat('./resources/images/klee/', $fid, '.jpg')"/>
                 </xsl:attribute>
               </graphic>
               <!-- Zones derived from ALTO MusicZone tags -->
@@ -252,13 +252,13 @@
           </xsl:for-each>
           <!-- Final three pages -->
           <surface xml:id="f83236">
-            <graphic url="https://escriptorium.d4science.org/media/documents/3/83236.jpg"/>
+            <graphic url="./resources/images/klee/83236.jpg"/>
           </surface>
           <surface xml:id="f83587">
-            <graphic url="https://escriptorium.d4science.org/media/documents/3/83587.jpg"/>
+            <graphic url="./resources/images/klee/83587.jpg"/>
           </surface>
           <surface xml:id="f83602">
-            <graphic url="https://escriptorium.d4science.org/media/documents/3/83602.jpg"/>
+            <graphic url="./resources/images/klee/83602.jpg"/>
           </surface>
         </facsimile>
         <text>
